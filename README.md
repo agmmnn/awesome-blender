@@ -319,7 +319,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [Solar Textures](https://www.solarsystemscope.com/textures/) : These textures represent real planetary maps in equirectangular projection. Textures in this pack are based on NASA elevation and imagery data.
 - [NASA-3D-Resources](https://nasa3d.arc.nasa.gov/) : Here you'll find a growing collection of 3D models, textures, and images from inside NASA. All of these resources are free to download and use. [![][repo]](https://github.com/nasa/NASA-3D-Resources)
 - [Hubble Image Gallery (NASA)](https://hubblesite.org/images/gallery), [NASA Image and Video Library](https://images.nasa.gov/), [CGI Moon Kit](https://svs.gsfc.nasa.gov/4720)
-- [Observing the Earth (ESA)](https://earth.esa.int/web/guest/images-of-the-earth), [Image archive](http://www.esa.int/Applications/Observing_the_Earth/Image_archive)
+- [ESA - Observing the Earth](https://earth.esa.int/web/guest/images-of-the-earth) ([Image Archive](http://www.esa.int/Applications/Observing_the_Earth/Image_archive))
 - [Earth View](https://earthview.withgoogle.com/) : Earth View is a collection of the most beautiful and striking landscapes found in Google Earth.
 
 ### 🏞Free Stocks [^](#table-of-contents)
