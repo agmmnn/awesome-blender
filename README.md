@@ -31,7 +31,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
     - [🌂Useful](#🌂Useful)
 
 - [📥Standalone](#📥Standalone)
-    - [Builds](#Builds)
+    - [Builds](#builds)
     - [Various Tools](#Various-Tools)
     - [Photogrammetry](#Photogrammetry)
     - [Texture/Material](#Texture/Material)
@@ -104,7 +104,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
     - [Rigacar](https://github.com/digicreatures/rigacar) : generate rig for cars.
     - [RigFlex](https://github.com/nerk987/RigFlex) : simple soft body for Blender armatures.
 
-### 🦑Generator/Builder [b](#table-of-contents)
+### 🦑Generator/Builder [^](#table-of-contents)
 - 👤[FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) : is a Blender add-on that lets you create photorealistic 3D models of human faces and heads using a few photographs with a neutral face expression. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
 - 🚶🏻‍♀️[MB-Lab](https://mblab.dev/) : is a free, open source character creation tool for Blender. [![][repo]](https://github.com/animate1978/MB-Lab)
 - [The Grove 3D](https://www.thegrove3d.com/) : Grow natural 3D trees for visualisation and film. Grow, bend, prune, interactively simulate the seasons year by year. [$]
