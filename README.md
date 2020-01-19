@@ -19,7 +19,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
     - [🎴Themes](#Themes-)
 - [📍 Resources](#-Resources-)
     - [🧱3D Models](#3D-Models-)
-    - [🤸🏾‍♀️Mocap/Animation](#MocapAnimation-)
+    - [🤸🏾‍♀️Mocap/Animation](#%EF%B8%8Fmocapanimation-)
     - [🌑Textures](#Textures-)
     - [🌓Blender Materials](#Blender-Materials-)
     - [📁Blender Scenes/Files](#Blender-ScenesFiles-)
