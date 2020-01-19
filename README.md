@@ -1,5 +1,5 @@
 # ![][bl-logo] Awesome Blender 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat-square) [![](https://img.shields.io/badge/keep-up--to--date-blue?logo=&style=flat-square)](#Contributing)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat-square) [![](https://img.shields.io/badge/keep-up--to--date-blue?logo=&style=flat-square)](#Contributing-)
 
 A curated list of awesome **blender** add-ons, tools, tutorials and resources for 3D Artists, Hobbyists, Developers, Researchers. Focused _mostly_ open source and free resources. It is compatible with 2.8+.
 
@@ -25,11 +25,11 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
     - [📁Blender Scenes/Files](#Blender-ScenesFiles-)
     - [🎴HDRIs](#HDRIs-)
     - [🖼️Art](#Art-)
-    - [🛰Space](#🛰Space-)
+    - [🛰Space](#Space-)
     - [🏞Free Stocks](#Free-Stocks-)
     - [🌂Useful](#Useful-)
-- [📥Standalone](#📥Standalone-)
-    - [Builds](#builds-)
+- [📥Standalone](#Standalone-)
+    - [Builds](#Builds-)
     - [Various Tools](#Various-Tools-)
     - [Photogrammetry](#Photogrammetry-)
     - [Texture/Material](#TextureMaterial-)
@@ -55,9 +55,9 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
     - [🌊Simulation/Physics](#Simulation-Physics--1)
     - [🌠Animation](#Animation--1)
     - [🌌Animation Nodes](#Animation-Nodes-)
-    - [🔲UV Mapping](#◼️🔲UV-Mapping-)
+    - [🔲UV Mapping](#UV-Mapping-)
     - [🔳Texture Painting](#Texture-Painting-)
-    - [📐Compositing](#📐Compositing-)
+    - [📐Compositing](#Compositing-)
     - [◼️Motion Tracking/Capture](#Motion-TrackingCapture-)
     - [Premium Tutorials](#Premium-Tutorials-)
     - [Fundamentals](#Fundamentals-)
