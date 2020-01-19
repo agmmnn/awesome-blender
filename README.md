@@ -3,7 +3,7 @@
 
 A curated list of awesome **blender** add-ons, tools, tutorials and resources for 3D Artists, Hobbyists, Developers, Researchers. Focused _mostly_ open source and free resources. It is compatible with 2.8+.
 
-### **Table of Contents**
+## **Table of Contents**
 <details><summary><b><a id="table"></a>Show Contents:</b></summary>
 
 - [🔮Add-ons](#Add-ons-)
@@ -71,7 +71,6 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [Contributing](#Contributing-)
 </details>
 
----------------
 <!-- Contributing Guidelines for Add-ons:
 -->
 ## 🔮Add-ons [^](#table-of-contents)
