@@ -707,13 +707,13 @@ Sculpt every day and improve your sculpting skills.
 - [Awesome Design](https://github.com/gztchan/awesome-design) : Curated design resources.
 
 --------------
-#### Symbols [^](#table7)
+#### Symbols [^](#table-of-contents)
 > `[$]` paid ones, ![][repo] repo link, `[market]`, `[more info]`, `[medium]`
 
 > `▷` video, `☰` playlist, `☷` channel, `🧾` doc
 
 --------------
-#### Contributing [^](#table7)
+#### Contributing [^](#table-of-contents)
 
 Your contributions are always welcome! ^_^ If you want to contribute to this list, send a _pull request_ or _contact with me_ @agmmnn. Please read the _contributing guidelines_ first, each section has its own guidelines as a comment line. Thank you.
 
