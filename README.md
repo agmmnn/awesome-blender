@@ -4,7 +4,7 @@
 A curated list of awesome **blender** add-ons, tools, tutorials and resources for 3D Artists, Hobbyists, Developers, Researchers. Focused _mostly_ open source and free resources. 2.8+ compatible list.
 
 ## **Table of Contents**
-<details><summary><a name="table"></a><font size="3"><b>Show Contents:</b></font></summary>
+<details><summary><a name="table"></a><b>Show Contents:</b></summary>
 
 - [🔮Add-ons](#Add-ons-)
     - [🌊Simulation/Physics](#SimulationPhysics-)
@@ -71,7 +71,8 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [Contributing](#Contributing-)
 </details>
 <br>
----
+
+--------------
 <!-- Contributing Guidelines for Add-ons:
 -->
 ## 🔮Add-ons [^](#table)
