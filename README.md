@@ -256,22 +256,22 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [3DModelHaven](https://3dmodelhaven.com/) : 3D Model Haven is an upcoming source of free high quality 3D assets for everyone, following in the footsteps of HDRI Haven and Texture Haven.
 - [Archive 3D](https://archive3d.net/) : Download Free 3D Objects.
 - [Free3D](https://free3d.com/) : is the go to place where you can share your free 3d assets and download instantly any you like.
-- [3DB3](https://3db3.com/) : Check out the best 3d models made by professional 3d artists.
+- [3DB3](https://3db3.com/) : Check out the best 3D models made by professional 3d artists.
 - [Rigmodels](http://rigmodels.com/) : Free rigged, animated and low poly models
 - [RockThe3D](http://www.rockthe3d.com/) : is a blog site to provide and sharing the best 3d related knowledge and resources around.
-- [CGTrader](https://www.cgtrader.com/free-3d-models) : Free 3d models from cgtrader.
+- [CGTrader](https://www.cgtrader.com/free-3d-models) : Free 3D models from cgtrader.
 - [Sketchfab](https://sketchfab.com/search?features=downloadable&sort_by=-pertinence&type=models) : Free downloadable models from sketchfab.
 - [TurboSquid](https://www.turbosquid.com/Search/3D-Models/free) : Free models from turbosquid
 - [Clara.io](https://clara.io/library) : Free 3D Modeling, Rendering, Sharing and Models.
 - [3D Warehouse](https://3dwarehouse.sketchup.com/search/) : Download sketchup models.
 - [KitBash3d](https://kitbash3d.com/) : makes premium 3D assets for VFX, concept art and design. Their 3D model kits have immediately been adopted by the industry's top artists, studios. *Get Mini-Kit: [Post-Apocalypse](https://kitbash3d.com/collections/kits/products/mini-kit-post-apocalypse)* for free. [$]
-- [Awesome-3D-Meshes](https://github.com/jvm-graphics-labs/awesome-3d-meshes/) : List of famous 3d meshes.
+- [Awesome-3D-Meshes](https://github.com/jvm-graphics-labs/awesome-3d-meshes/) : List of famous 3D meshes.
 - Scanned Models:
     - [Scanned Female Head Model by EISKO](https://eisko.com/louise/virtual-model), [Free Hard Surface KitBash Models](https://gumroad.com/olegushenok?sort=page_layout&tags=free), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Scanned Models from Smithsonian](https://3d.si.edu/download-browser), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model).
 - Others:
     - [Google Poly](https://poly.google.com/blocks), [GrabCAD](https://grabcad.com/library), [Xfree3D](https://vwartclub.com/?section=xfree3d), [Quaternius's Ultimate Low-Poly Models](http://quaternius.com/assets.html?i=1), [BlenderNation/free-blender-models](https://www.blendernation.com/category/art/free-blender-models/), [Cubebrush/freebies](https://cubebrush.co/marketplace?freebies=true).
 
-### 🤸🏾‍♀️Mocap/Animation [^](#table1)
+### 🤸🏾‍♀️Mocap/Animation [^](#table2)
 - [Mixamo](https://www.mixamo.com/) : Animate 3D characters for games, film, and more.
 - [Carnegie-Mellon University Graphics Lab Motion Capture Database](http://mocap.cs.cmu.edu/) : contains 2548 free human motion captures.
     - [BVH conversions of the Carnegie-Mellon motion capture dataset.](https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture)
@@ -279,30 +279,32 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [turbosquid/motion-capture](https://www.turbosquid.com/Search/Motion-Capture/free/), [sketchfab/animated](https://sketchfab.com/3d-models?features=downloadable+animated&sort_by=-likeCount)
 
 
-### 🌑Textures [^](#table0)
+### 🌑Textures [^](#table2)
 - [Texture Haven](https://texturehaven.com/textures/index.php?c=all&o=date_published&s=all) : Texture Haven is a website where you can find high quality scanned textures for free, no catch.
 - [CC0 Textures](https://cc0textures.com/) : Get hundreds of PBR materials and textures for free under the Public Domain license.
 - [cgbookcase](https://cgbookcase.com/textures/) : Discover a library of high-quality PBR textures. Free for every purpose, forever. Some Blender tutorials here and there.
-- [3DTextures.me](https://3dtextures.me/) : free seamless PBR textures.
-- [FreePBR.com](https://freepbr.com/) :  free PBR materials and texture files.
+- [3DTextures.me](https://3dtextures.me/) : Free seamless PBR textures.
+- [FreePBR.com](https://freepbr.com/) : Free PBR materials and texture files.
 - [ShareTextures](https://www.sharetextures.com/) : Free High Quality Material Archive for everybody.
 - [Textures.one](https://textures.one/) : Search the databases of many of the biggest free texture at once.
-- [Texture.Ninja](https://texture.ninja/) : public domain photographic textures, reference images, cutouts.
-- [3DXO](https://www.3dxo.com) : free 3D Models, seamless Textures, Backgrounds, Photos & Graphics.
+- [Texture.Ninja](https://texture.ninja/) : Public domain photographic textures, reference images, cutouts.
+- [3DXO](https://www.3dxo.com) : Free 3D Models, seamless Textures, Backgrounds, Photos & Graphics.
 - [Textures.com](https://www.textures.com/) : is a website that offers digital pictures of all sorts of materials. Sign up for free and download 15 free images every day!
-- [Substance Source/freebies](https://source.substance3d.com/allassets?free=true) : hundreds of high quality PBR materials.[$]
-- [Poliigon/freebies](https://www.poliigon.com/search?type=all&refine_by=assets-free) : a library of materials, and HDR's for artists including free textures that want photorealism.[$]
-- [texturing.xyz](https://texturing.xyz/) : Our textures are used in the biggest and industry-leading VFX companies, and help them achieving their goals faster.[$]
+- [Substance Source/freebies](https://source.substance3d.com/allassets?free=true) : Hundreds of high quality PBR materials. [$]
+- [Poliigon/freebies](https://www.poliigon.com/search?type=all&refine_by=assets-free) : A library of materials, and HDR's for artists including free textures that want photorealism. [$]
+- [Texturing.xyz](https://texturing.xyz/) : Our textures are used in the biggest and industry-leading VFX companies, and help them achieving their goals faster. [$]
 - Others : [gumroad/lebedev](https://gumroad.com/lebedev), [3d-wolf/textures](https://3d-wolf.com/products/textures.html), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [Photogrammetry Bark](https://www.artstation.com/artwork/GJeVz), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651)
 
 
 ### 🌓Blender Materials [^](#table2)
-- [Blendermada](http://blendermada.com/materials/) : free Blender Material Database. also they have an blender [add-on](http://blendermada.com/addon/).
+- [Blendermada](http://blendermada.com/materials/) : Free Blender Material Database. also they have an blender [add-on](http://blendermada.com/addon/).
 - [The Blendersauce Vault Materials](http://blendersauce.com/the-blendersauce-vault-2/the-material-vault-categories/) : Abstract, Bricks and Walls, Concrete, Fabric, Fluids, Food, Manmade, Metal, Metal painted Materials, Nature, Plaster, Rocks/Stones, Tiles, Wood.
 - [3d-wolf/materials](https://3d-wolf.com/products/materials.html) : PBR Materials is an addon with physically based materials. [![][repo]](https://github.com/macio97/PBR-Materials)
-- [BlenderKit](https://www.blenderkit.com/) : allows you to download assets, materials, and alpha brushes to your blender 2.8 client with the click of a button for free.
-- Sketch/Toon Shaders : [BNPR' Shaders](https://blendernpr.org/downloads/), [Comics Shader](https://gumroad.com/l/JWdjJ), [Erisdraw3D's](https://twitter.com/Erisdraw3D/status/1216755574735503361), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [Komikaze[$]](https://blendermarket.com/products/komikaze)([Aqua](https://drive.google.com/file/d/1jlYxqRfjnjnZSG2gxKqiXa5Fo0Y7N9Kn/edit), [Kismet](https://drive.google.com/file/d/1Mp808PE3Wjew6-hEv0vIJZLzPezRM-jV/view)), [Ultimate Clay Shader[$]](https://blendermarket.com/products/claydoh)
-- Others : [gumroad/simonthommes](https://gumroad.com/simonthommes), [Meta's Massivest Materials](https://www.blendswap.com/blend/16480), [gumroad/juliosillet](https://gumroad.com/juliosillet), [Cycles Material Vault[$]](https://blendermarket.com/products/cycles-material-vault-volume-1), [Abstract Materials](https://gumroad.com/l/CCIEF)
+- [BlenderKit](https://www.blenderkit.com/) : Allows you to download assets, materials, and alpha brushes to your blender 2.8 client with the click of a button for free.
+- Sketch/Toon Shaders:
+    - [BNPR' Shaders](https://blendernpr.org/downloads/), [Comics Shader](https://gumroad.com/l/JWdjJ), [Erisdraw3D's](https://twitter.com/Erisdraw3D/status/1216755574735503361), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [Komikaze[$]](https://blendermarket.com/products/komikaze)([Aqua](https://drive.google.com/file/d/1jlYxqRfjnjnZSG2gxKqiXa5Fo0Y7N9Kn/edit), [Kismet](https://drive.google.com/file/d/1Mp808PE3Wjew6-hEv0vIJZLzPezRM-jV/view)), [Ultimate Clay Shader[$]](https://blendermarket.com/products/claydoh)
+- Others: 
+    - [gumroad/simonthommes](https://gumroad.com/simonthommes), [Meta's Massivest Materials](https://www.blendswap.com/blend/16480), [gumroad/juliosillet](https://gumroad.com/juliosillet), [Cycles Material Vault[$]](https://blendermarket.com/products/cycles-material-vault-volume-1), [Abstract Materials](https://gumroad.com/l/CCIEF)
 
 ### 📁Blender Scenes/Files [^](#table2)
 - [Blend Swap](https://www.blendswap.com/blends) : The one place for Open Source Blender files.
@@ -313,10 +315,10 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [HDRI Haven](https://hdrihaven.com/hdris/category/index.php?c=all&o=date_published&s=all), [Hdrlabs](http://hdrlabs.com/sibl/archive.html), [Hdrmaps](https://hdrmaps.com/freebies), [Hdri-hub](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [Hdri-skies](https://hdri-skies.com/), [eisklotz/HDRIs](https://drive.google.com/drive/folders/1tnuVLtmLNIajTszoDXybboWxwk1L4YOJ), [locationtextures/panoramas](https://locationtextures.com/panoramas)
 
 ### 🖼️Art [^](#table2)
-- [Dezoomify](https://ophir.alwaysdata.net/dezoomify/dezoomify.html) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats).
-- [National Gallery of Art Images](https://images.nga.gov/en/page/show_home_page.html) : download images from collections of the National Gallery of Art. More than 51,000 open access digital images are available free of charge for download and use.
-- [Birmingham Museums Trust](http://dams.birminghammuseums.org.uk/) : Thousands of our out-of-copyright images are now available for all to use under a Creative Commons Zero Licence (CC0). More images are regularly being added. ([unsplash profile](https://unsplash.com/@birminghammuseumstrust))
-- [The Art Institute of Chicago](https://www.artic.edu/collection?is_public_domain=1) : download public-domain artworks from Art Institute of Chicago online collection.
+- [Dezoomify](https://ophir.alwaysdata.net/dezoomify/dezoomify.html) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats). \([desktop app](https://github.com/lovasoa/dezoomify-rs)\)
+- [National Gallery of Art Images](https://images.nga.gov/en/page/show_home_page.html) : Download images from collections of the National Gallery of Art. More than 51,000 open access digital images are available free of charge for download and use.
+- [Birmingham Museums Trust](http://dams.birminghammuseums.org.uk/) : Thousands of our out-of-copyright images are now available for all to use under a Creative Commons Zero Licence (CC0). More images are regularly being added. \([unsplash profile](https://unsplash.com/@birminghammuseumstrust)\)
+- [The Art Institute of Chicago](https://www.artic.edu/collection?is_public_domain=1) : Download public-domain artworks from Art Institute of Chicago online collection.
 
 ### 🛰Space [^](#table2)
 - [Solar Textures](https://www.solarsystemscope.com/textures/) : These textures represent real planetary maps in equirectangular projection. Textures in this pack are based on NASA elevation and imagery data.
@@ -337,7 +339,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 ### 🌂Useful [^](#table2)
 - [Sheep it Render Farm](https://www.sheepit-renderfarm.com/) : is a free distributed renderfarm for Blender.
 - Render on ***Google Colab*** :
-    - [This script ](https://gist.github.com/donmahallem/a05100077ec1327268f28f0b2bd8da60)can be used to render with blender on GoogleColab. [(Video Tutorial).](https://www.youtube.com/watch?v=uv45KzL9ick)
+    - [This script ](https://gist.github.com/donmahallem/a05100077ec1327268f28f0b2bd8da60)can be used to render with blender on GoogleColab. \([Video Tutorial](https://www.youtube.com/watch?v=uv45KzL9ick)\)
     - [This is](https://gist.github.com/natowi/3044484ad0c98877692c399297e3ab7e) an example on how to use Meshroom in GoogleColab with uploaded images to generate a textured mesh (OBJ) that can be downloaded.
     - [How to](https://internet-of-tomohiro.netlify.com/google_colab/vnc.en.html) run OpenGL desktop programs on Google Colaboratory.
 - Daily Blender Tips : [blender.daily](https://www.instagram.com/blender.daily/), [mandalamotion](https://www.instagram.com/mandalamotion/).
