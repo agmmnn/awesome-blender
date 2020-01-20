@@ -6,7 +6,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 ## **Table of Contents**
 <details><summary><b>Show Contents:</b></summary>
 
-- [🔮Add-ons](#Add-ons-)
+- [🔮Add-ons](#Add-ons-){:name='table0'}
     - [🌊Simulation/Physics](#SimulationPhysics-)
     - [🌠Animation](#Animation-)
     - [🦑Generator/Builder](#GeneratorBuilder-)
@@ -17,7 +17,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
     - [🎮GameDev](#GameDev-)
     - [🪀Misc](#Misc-)
     - [🎴Themes](#Themes-)
-- [🪐Resources](#Resources-)
+- <a name="table1"></a>[🪐Resources](#Resources-)
     - [🎠3D Models](#3D-Models-)
     - [🤸🏾‍♀️Mocap/Animation](#%EF%B8%8Fmocapanimation-)
     - [🌑Textures](#Textures-)
@@ -270,7 +270,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [awesome-3d-meshes](https://github.com/jvm-graphics-labs/awesome-3d-meshes/) : List of famous 3d meshes.
 - Others : [Scanned Female Head Model by EISKO](https://eisko.com/louise/virtual-model), [Free Hard Surface KitBash Models](https://gumroad.com/olegushenok?sort=page_layout&tags=free), [Quaternius's Ultimate Low-Poly Models](http://quaternius.com/assets.html?i=1), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [BlenderNation/free-blender-models](https://www.blendernation.com/category/art/free-blender-models/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Scanned Models from Smithsonian](https://3d.si.edu/download-browser), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model), [GrabCAD](https://grabcad.com/library), [Xfree3D](https://vwartclub.com/?section=xfree3d)
 
-### 🤸🏾‍♀️Mocap/Animation [^](#table-of-contents)
+### 🤸🏾‍♀️Mocap/Animation [^](#table1)
 - [Mixamo](https://www.mixamo.com/) : Animate 3D characters for games, film, and more.
 - [Carnegie-Mellon University Graphics Lab Motion Capture Database](http://mocap.cs.cmu.edu/) : contains 2548 free human motion captures.
     - [BVH conversions of the Carnegie-Mellon motion capture dataset.](https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture)
@@ -278,7 +278,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 
 
 
-### 🌑Textures [^](#table-of-contents)
+### 🌑Textures [^](#table0)
 - [Texture Haven](https://texturehaven.com/textures/index.php?c=all&o=date_published&s=all) : Texture Haven is a website where you can find high quality scanned textures for free, no catch.
 - [CC0 Textures](https://cc0textures.com/) : Get hundreds of PBR materials and textures for free under the Public Domain license.
 - [cgbookcase](https://cgbookcase.com/textures/) : Discover a library of high-quality PBR textures. Free for every purpose, forever. Some Blender tutorials here and there.
