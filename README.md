@@ -253,22 +253,23 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [Quixel Megascans](https://quixel.com/megascans/library/) : World’s largest photogrammetry 2D and 3D asset library. Now it is free for the Epic Games accounts.
 - [Scan the World](https://www.myminifactory.com/scantheworld/) : is an ambitious community-built initiative whose mission is to share 3D printable sculpture and cultural artefacts using democratised 3D scanning technologies, producing an extensive ecosystem of free to download digital cultural heritage.
 - [Artec 3D](https://www.artec3d.com/3d-models) : Download high resolution 3D scans for free.
-- [3dmodelhaven](https://3dmodelhaven.com/) : 3D Model Haven is an upcoming source of free high quality 3D assets for everyone, following in the footsteps of HDRI Haven and Texture Haven.
+- [3DModelHaven](https://3dmodelhaven.com/) : 3D Model Haven is an upcoming source of free high quality 3D assets for everyone, following in the footsteps of HDRI Haven and Texture Haven.
 - [Archive 3D](https://archive3d.net/) : Download Free 3D Objects.
-- [Free3D](https://free3d.com/) : free 3d models.
+- [Free3D](https://free3d.com/) : is the go to place where you can share your free 3d assets and download instantly any you like.
 - [3DB3](https://3db3.com/) : Check out the best 3d models made by professional 3d artists.
-- [Rigmodels](http://rigmodels.com/) : free rigged, animated and low poly models
-- [RockThe3D](http://www.rockthe3d.com/) :  is a blog site to provide and sharing the best 3d related knowledge and resources around.
-- [CGTrader](https://www.cgtrader.com/free-3d-models) : free 3d models from cgtrader.
-- [Sketchfab](https://sketchfab.com/search?features=downloadable&sort_by=-pertinence&type=models) : free downloadable models from sketchfab.
-- [TurboSquid](https://www.turbosquid.com/Search/3D-Models/free) : free models from turbosquid
-- [Clara.io](https://clara.io/library) : free 3D Modeling, Rendering, Sharing and Models.
-- [3D Warehouse](https://3dwarehouse.sketchup.com/search/) : download sketchup models.
-- [Cubebrush/freebies](https://cubebrush.co/marketplace?freebies=true) weekly freebies from cubebrush.
-- [Google Poly](https://poly.google.com/blocks) : Discover, view, download, and upload 3D assets for AR and VR.
-- [KitBash3d](https://kitbash3d.com/) : makes premium 3D assets for VFX, concept art and design. Their 3D model kits have immediately been adopted by the industry's top artists, studios. *Get Free Mini-Kit [Post-Apocalypse](https://kitbash3d.com/collections/kits/products/mini-kit-post-apocalypse)*. [$]
-- [awesome-3d-meshes](https://github.com/jvm-graphics-labs/awesome-3d-meshes/) : List of famous 3d meshes.
-- Others : [Scanned Female Head Model by EISKO](https://eisko.com/louise/virtual-model), [Free Hard Surface KitBash Models](https://gumroad.com/olegushenok?sort=page_layout&tags=free), [Quaternius's Ultimate Low-Poly Models](http://quaternius.com/assets.html?i=1), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [BlenderNation/free-blender-models](https://www.blendernation.com/category/art/free-blender-models/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Scanned Models from Smithsonian](https://3d.si.edu/download-browser), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model), [GrabCAD](https://grabcad.com/library), [Xfree3D](https://vwartclub.com/?section=xfree3d)
+- [Rigmodels](http://rigmodels.com/) : Free rigged, animated and low poly models
+- [RockThe3D](http://www.rockthe3d.com/) : is a blog site to provide and sharing the best 3d related knowledge and resources around.
+- [CGTrader](https://www.cgtrader.com/free-3d-models) : Free 3d models from cgtrader.
+- [Sketchfab](https://sketchfab.com/search?features=downloadable&sort_by=-pertinence&type=models) : Free downloadable models from sketchfab.
+- [TurboSquid](https://www.turbosquid.com/Search/3D-Models/free) : Free models from turbosquid
+- [Clara.io](https://clara.io/library) : Free 3D Modeling, Rendering, Sharing and Models.
+- [3D Warehouse](https://3dwarehouse.sketchup.com/search/) : Download sketchup models.
+- [KitBash3d](https://kitbash3d.com/) : makes premium 3D assets for VFX, concept art and design. Their 3D model kits have immediately been adopted by the industry's top artists, studios. *Get Mini-Kit: [Post-Apocalypse](https://kitbash3d.com/collections/kits/products/mini-kit-post-apocalypse)* for free. [$]
+- [Awesome-3D-Meshes](https://github.com/jvm-graphics-labs/awesome-3d-meshes/) : List of famous 3d meshes.
+- Scanned Models:
+    - [Scanned Female Head Model by EISKO](https://eisko.com/louise/virtual-model), [Free Hard Surface KitBash Models](https://gumroad.com/olegushenok?sort=page_layout&tags=free), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Scanned Models from Smithsonian](https://3d.si.edu/download-browser), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model).
+- Others:
+    - [Google Poly](https://poly.google.com/blocks), [GrabCAD](https://grabcad.com/library), [Xfree3D](https://vwartclub.com/?section=xfree3d), [Quaternius's Ultimate Low-Poly Models](http://quaternius.com/assets.html?i=1), [BlenderNation/free-blender-models](https://www.blendernation.com/category/art/free-blender-models/), [Cubebrush/freebies](https://cubebrush.co/marketplace?freebies=true).
 
 ### 🤸🏾‍♀️Mocap/Animation [^](#table1)
 - [Mixamo](https://www.mixamo.com/) : Animate 3D characters for games, film, and more.
