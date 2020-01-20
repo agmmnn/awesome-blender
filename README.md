@@ -274,8 +274,8 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [Mixamo](https://www.mixamo.com/) : Animate 3D characters for games, film, and more.
 - [Carnegie-Mellon University Graphics Lab Motion Capture Database](http://mocap.cs.cmu.edu/) : contains 2548 free human motion captures.
     - [BVH conversions of the Carnegie-Mellon motion capture dataset.](https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture)
+- [motekentertainment/free-samples](http://www.motekentertainment.com/product-category/free-samples/)
 - [turbosquid/motion-capture](https://www.turbosquid.com/Search/Motion-Capture/free/), [sketchfab/animated](https://sketchfab.com/3d-models?features=downloadable+animated&sort_by=-likeCount)
-
 
 
 ### 🌑Textures [^](#table0)
