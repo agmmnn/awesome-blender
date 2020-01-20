@@ -1,7 +1,7 @@
 # ![][bl-logo] Awesome Blender 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat-square) [![](https://img.shields.io/badge/keep-up--to--date-blue?logo=&style=flat-square)](#Contributing-)
 
-A curated list of awesome **blender** add-ons, tools, tutorials and resources for 3D Artists, Hobbyists, Developers, Researchers. Focused _mostly_ open source and free resources. It is compatible with 2.8+.
+A curated list of awesome **blender** add-ons, tools, tutorials and resources for 3D Artists, Hobbyists, Developers, Researchers. Focused _mostly_ open source and free resources. 2.8+ compatible list.
 
 ## **Table of Contents**
 <details><summary><b><a id="table"></a>Show Contents:</b></summary>
@@ -651,6 +651,7 @@ Sculpt every day and improve your sculpting skills.
 - Video Tutorials:
     - ☰[Blender Programming Tutorials by Olav3D](https://www.youtube.com/playlist?list=PLunr0YiKm4r4OqzEfMrGSPYS1WuvaSRu5)
     - ▷[Blender 2.8 Addon Development Tutorial for Beginners by jayanam](https://www.youtube.com/watch?v=uahfuypQQ04)
+    - ▷[Creating a Blender 2.8 Voxelize Python Script - Beginner Tutorial](https://www.youtube.com/watch?v=l9wSDtqThmQ), [[part2]](https://www.youtube.com/watch?v=Fr1HN0XgB58)
 - Posts:
     - [Blender 2.8 Python Scripting Superpowers for Non-Programmers](https://cgcookie.com/articles/blender-2-8-python-scripting-superpowers-for-non-programmers) : If you’ve been using Blender or any other 3D app for a while, you’ve found yourself slogging through the same tasks over and over again and at some point thinking, “I really wish Blender just did this for me”. Through scripting, it can!
     - [Blender 2.8 Grease Pencil Scripting and Generative Art](https://towardsdatascience.com/blender-2-8-grease-pencil-scripting-and-generative-art-cbbfd3967590) : learning the basics of scripting for Blender Grease-Pencil tool, with focus on generative art as a concrete playground.
@@ -661,6 +662,7 @@ Sculpt every day and improve your sculpting skills.
     - [The Code Editor](https://blenderartists.org/t/how-would-you-show-some-love-for-the-blender-text-editor/1163857) : This thread is for discussing how the Text Editor can be improved and sharing add-ons which will modernize, expand and ease coding in Blender.
     - [fake-bpy-module](https://github.com/nutti/fake-bpy-module) : is the collections of the fake Blender Python API modules for the code completion in commonly used IDEs.
     - [blender-debugger-for-vscode](https://github.com/AlansCodeLog/blender-debugger-for-vscode) : Blender addon for remote debugging Blender with VS Code (and Visual Studio).
+    - [blender_vscode](https://github.com/JacquesLucke/blender_vscode) : Visual Studio Code extension for Blender development.
     - [blender-cli-rendering](https://github.com/yuki-koyama/blender-cli-rendering) : Python scripts for rendering images using Blender from command-line interface.
 - Support:
     - [devtalk/python](https://devtalk.blender.org/c/python/6) : Questions about using and developing the [Blender Python API](https://developer.blender.org/project/view/24/), both for Blender itself and add-ons.
