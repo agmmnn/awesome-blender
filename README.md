@@ -539,16 +539,18 @@ Sculpt every day and improve your sculpting skills.
 - ▷[Blender Beginner 3D Modeling Tutorial.](https://www.youtube.com/watch?v=elUJCEC06r8)
 - ☰[Beginner Exercieses - Low Poly Asset Modeling by Grant Abbitt.](https://www.youtube.com/playlist?list=PLn3ukorJv4vvv3ZpWJYvV5Tmvo7ISO-NN)
 - ▷[Recording Studio in Blender- 3D Isometric Modeling Process.](https://www.youtube.com/watch?v=QkCrhycrJi8)
-- ▷[Stylized Character Workflow with Blender.](https://www.youtube.com/watch?v=f-mx-Jfx9lA)
-- ▷[Modeling a character BaseMesh in Blender.](https://www.youtube.com/watch?v=WlaMfIgS2ns)
-- Hard Surface:
-    - ☰[Hard-surface Modeling in Blender by Gleb Alexandrov.](https://www.youtube.com/playlist?list=PL2aDImegRwZHQsA5_N4DpaOQmUXaIsBdN)
 - Sculpting:
     - ☷[YanSculpts' Channel](https://www.youtube.com/channel/UCfjswDVU0XHyBN7UFG0Mi5Q/videos)
     - ☷[Julien Kaspar's Channel](https://www.youtube.com/channel/UCfjswDVU0XHyBN7UFG0Mi5Q/videos)
     - ▷[Introduction to Sculpting in Blender - Sculpting Essentials.](https://www.youtube.com/watch?v=A-Wq8K8icpQ)
     - ▷[The Speed Sculpting Guide - Learn from Limitation.](https://www.youtube.com/watch?v=qnYA9kbPeLs)
     - ▷[Sculpting in Blender - Beginners Detailed Guide - Every Brush.](https://www.youtube.com/watch?v=L3XtAFUWNuk)
+- Character Modeling:
+    - ▷[Stylized Character Workflow with Blender.](https://www.youtube.com/watch?v=f-mx-Jfx9lA)
+    - ▷[Modeling a character BaseMesh in Blender.](https://www.youtube.com/watch?v=WlaMfIgS2ns)
+- Hard Surface:
+    - ☰[Hard-surface Modeling in Blender by Gleb Alexandrov.](https://www.youtube.com/playlist?list=PL2aDImegRwZHQsA5_N4DpaOQmUXaIsBdN)
+    - ▷[Blender Hardsurface Sculpting Tips.](https://www.youtube.com/watch?v=qbC2iX4SATc)
 - Procedural Modeling: (Sverchok, Sorcar, Modifiers)
     - 🧾[Sverchok Documentation.](https://sverchok.readthedocs.io/en/latest/main.html)
     - ▷[Sverchok Nodes - Quick Guide 4 minutes.](https://www.youtube.com/watch?v=mHNeH8H2wZI)
