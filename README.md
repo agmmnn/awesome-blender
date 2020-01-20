@@ -1,5 +1,5 @@
 # ![][bl-logo] Awesome Blender 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat-square) [![](https://img.shields.io/badge/keep-up--to--date-blue?logo=&style=flat-square)](#Contributing-)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![](https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat-square)](#table) [![](https://img.shields.io/badge/keep-up--to--date-blue?logo=&style=flat-square)](#Contributing-)
 
 A curated list of awesome **blender** add-ons, tools, tutorials and resources for 3D Artists, Hobbyists, Developers, Researchers. Focused _mostly_ open source and free resources. 2.8+ compatible list.
 
@@ -129,7 +129,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [PolyQuilt](https://github.com/sakana3/PolyQuilt) : is provides a few functions in edit mode like creating faces, knife tool, fan, edge-loops, etc. It does this with only the left-mouse-button. So no menu’s, no shortcuts. [[more info]](https://www.youtube.com/watch?v=VKLPHh3CYCU)
 - [BezierUtility](https://github.com/Shriinivas/blenderbezierutils) : this add-on contains several tools for working with Bezier curves.
 - [Mesh Heal](https://blenderartists.org/t/mesh-heal/1117095) : is an add-on for Blender, it includes additional Blender operators for healing surface meshes.
-- Retopology/Remesh
+- Retopology/Remesh:
     - [retopoflow](https://blendermarket.com/products/retopoflow)  : a suite of retopology tools for Blender. [![][repo]](https://github.com/CGCookie/retopoflow)
     - [InstantMeshesRemesh](https://blenderartists.org/t/instant-meshes-remesh/1114982)  : a suite of retopology tools for Blender. [![][repo]](https://github.com/knekke/blender_addons#instantmeshesremesh)
     - [SpeedRetopo](https://gumroad.com/l/speedretopo)  : is a free add-on for Blender to make fast and easy retopology using Bsurface.
@@ -149,7 +149,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - Snapping-Align:
     - [Mesh Align Plus](https://github.com/egtwobits/mesh_mesh_align_plus) : precisely align, move, and measure+match objects and mesh parts in your 3D scenes.
     - [Easy Align](https://blenderartists.org/t/addon-easy-align/685704) : Easy Align addon allows you to align mesh objects origins and align mesh objects to each others easily, it works in both Edit mode and Object mode. [![][repo]](https://github.com/sergeod9/Easy_Align_Addon)
-- Mesh Generate/Stylization
+- Mesh Generate/Stylization:
     - [Tissue](https://github.com/alessandro-zomparelli/tissue) : add-on for computational design.
     - [Mech/Fy](https://gumroad.com/l/KZllV) A procedural workflow that automates the process of hard surfaces modelling.
     - [RandoMesh](https://github.com/mantissa-/RandoMesh) : a blender addon to add randomized geometry to any mesh.
@@ -194,16 +194,16 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 
 
 ### 🪀Misc [^](#table)
-- 📦Management:
-    - ☃️[BlenderKit](https://www.blenderkit.com/) : allows you to download assets, materials, and alpha brushes to your blender 2.8 client with the click of a button for free. _Now you can find it on built-in addons._
+- Management:
+    - [BlenderKit](https://www.blenderkit.com/) : allows you to download assets, materials, and alpha brushes to your blender 2.8 client with the click of a button for free. _Now you can find it on built-in addons._
     - [Gaffer](https://github.com/gregzaal/Gaffer) : is a Blender add-on that helps you light your scenes by presenting all the right settings in convenient panels for quick access and experimentation. [[market]](https://blendermarket.com/products/gaffer-light-manager/)
     - [Blender Interplanety Storage](https://blenderartists.org/t/bis-online-material-storage/689728) : the online material (shader) storage add-on for Blender 3D creation. With the BIS add-on, you can save materials (groups of nodes) to the online personal library and then convenient search and upload them.
     - [Asset Wizard](https://blenderartists.org/t/asset-wizard-for-blender-2-8/1149311) : is a asset management addon.
     - [Blender Version Manager](https://github.com/DotBow/Blender-Version-Manager) : minimalistic download manager for blender.
-- 🥽VR/AR 
+- VR/AR 
     - [blender-xr](https://www.marui-plugin.com/blender-xr/) : a free virtual and mixed reality user interface for Blender that enables artists to edit scenes within the software using a suitable headset and controllers.
     - [Blender-Metaverse-Addon](https://github.com/Menithal/Blender-Metaverse-Addon) : blender toolset for creating content for Metaverses like High Fidelity.
-- 🏠ArcViz
+- ArcViz
     - [JARCH-Vis](https://blenderartists.org/t/addon-jarch-vis/642607) : is add-on for Blender 3D that helps create commonly used object for architectural visualization. [![][repo]](https://github.com/BlendingJake/JARCH-Vis)
 - Import:
     - [glTF](https://github.com/KhronosGroup/glTF-Blender-IO/tree/blender-v2.82-release), [Rhinoceros3D files](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [PLY files](https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280), [SVG](https://github.com/Shriinivas/shapekeyimport), [GIF](https://github.com/doakey3/Bligify), Quake [BSP](https://blenderartists.org/t/quake-1996-game-bsp-import-script/578191) [MD3](https://github.com/axredneck/blender-md3/tree/blender2.8)
