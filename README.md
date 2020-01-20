@@ -313,7 +313,8 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 
 ### 🖼️Art [^](#table-of-contents)
 - [Dezoomify](https://ophir.alwaysdata.net/dezoomify/dezoomify.html) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats).
-- [National Gallery of Art Images](https://images.nga.gov/en/page/show_home_page.html) : download images from collections of the National Gallery of Art.
+- [National Gallery of Art Images](https://images.nga.gov/en/page/show_home_page.html) : download images from collections of the National Gallery of Art. More than 51,000 open access digital images up to 4000 pixels each are available free of charge for download and use.
+- [Birmingham Museums Trust](http://dams.birminghammuseums.org.uk/) : Thousands of our out-of-copyright images are now available for all to use under a Creative Commons Zero Licence (CC0). More images are regularly being added. ([unsplash profile](https://unsplash.com/@birminghammuseumstrust))
 
 ### 🛰Space [^](#table-of-contents)
 - [Solar Textures](https://www.solarsystemscope.com/textures/) : These textures represent real planetary maps in equirectangular projection. Textures in this pack are based on NASA elevation and imagery data.
@@ -593,9 +594,9 @@ Sculpt every day and improve your sculpting skills.
 
 ### 🌌Animation Nodes [^](#table-of-contents)
 - 🧾[Animation Nodes Manual.](https://animation-nodes-manual.readthedocs.io/en/latest/user_guide/getting_started/interface.html) 
-- ☰[Blender Animation Nodes For Beginners Series by CGMatter](https://www.youtube.com/playlist?list=PL4EqKJjrgoVQMC_W69oAqaHEj7vaPeM9h).
 - ☰[Animation Nodes in Blender by Chris Prenninger](https://www.youtube.com/playlist?list=PLpJWHl1fB7BFX5bxrGofVS5BEj7kOBI95).
 - ☰[Animation node tutorial by Bradley Animation](https://www.youtube.com/playlist?list=PLhQ290f8z8FP9PxYv7Cw0He5ayVkMFMyB).
+- ☰[Blender Animation Nodes For Beginners Series by CGMatter](https://www.youtube.com/playlist?list=PL4EqKJjrgoVQMC_W69oAqaHEj7vaPeM9h).
 - ☷[Blue Fox Creation's Channel.](https://www.youtube.com/channel/UCdhm6jcHjHRbW34qO1tiGZw/videos)
 
 ### 🔲UV Mapping [^](#table-of-contents)
