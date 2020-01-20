@@ -653,6 +653,7 @@ Sculpt every day and improve your sculpting skills.
 - Video Tutorials:
     - ☰[Blender Programming Tutorials by Olav3D](https://www.youtube.com/playlist?list=PLunr0YiKm4r4OqzEfMrGSPYS1WuvaSRu5)
     - ▷[Blender 2.8 Addon Development Tutorial for Beginners by jayanam](https://www.youtube.com/watch?v=uahfuypQQ04)
+    - ☰[Blender Scripting by Darkfall](https://www.youtube.com/playlist?list=PLFtLHTf5bnym_wk4DcYIMq1DkjqB7kDb-)
     - ▷[Creating a Blender 2.8 Voxelize Python Script - Beginner Tutorial](https://www.youtube.com/watch?v=l9wSDtqThmQ), [[part2]](https://www.youtube.com/watch?v=Fr1HN0XgB58)
 - Posts:
     - [Blender 2.8 Python Scripting Superpowers for Non-Programmers](https://cgcookie.com/articles/blender-2-8-python-scripting-superpowers-for-non-programmers) : If you’ve been using Blender or any other 3D app for a while, you’ve found yourself slogging through the same tasks over and over again and at some point thinking, “I really wish Blender just did this for me”. Through scripting, it can!
