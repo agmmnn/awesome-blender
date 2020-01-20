@@ -313,8 +313,9 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 
 ### 🖼️Art [^](#table-of-contents)
 - [Dezoomify](https://ophir.alwaysdata.net/dezoomify/dezoomify.html) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats).
-- [National Gallery of Art Images](https://images.nga.gov/en/page/show_home_page.html) : download images from collections of the National Gallery of Art. More than 51,000 open access digital images up to 4000 pixels each are available free of charge for download and use.
+- [National Gallery of Art Images](https://images.nga.gov/en/page/show_home_page.html) : download images from collections of the National Gallery of Art. More than 51,000 open access digital images are available free of charge for download and use.
 - [Birmingham Museums Trust](http://dams.birminghammuseums.org.uk/) : Thousands of our out-of-copyright images are now available for all to use under a Creative Commons Zero Licence (CC0). More images are regularly being added. ([unsplash profile](https://unsplash.com/@birminghammuseumstrust))
+- [The Art Institute of Chicago](https://www.artic.edu/collection?is_public_domain=1) : download public-domain artworks from Art Institute of Chicago online collection.
 
 ### 🛰Space [^](#table-of-contents)
 - [Solar Textures](https://www.solarsystemscope.com/textures/) : These textures represent real planetary maps in equirectangular projection. Textures in this pack are based on NASA elevation and imagery data.
