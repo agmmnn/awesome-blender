@@ -24,7 +24,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
     - [🌓Blender Materials](#Blender-Materials-)
     - [📁Blender Scenes/Files](#Blender-ScenesFiles-)
     - [🎴HDRIs](#HDRIs-)
-    - [🖼️Art](#Art-)
+    - [🖼️Art](#%EF%B8%8Fart-)
     - [🛰Space](#Space-)
     - [🏞Free Stocks](#Free-Stocks-)
     - [🌂Useful](#Useful-)
@@ -46,7 +46,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
     - [🐦Twitter Accounts](#Twitter-Accounts-)
     - [📢Youtube Channels](#Youtube-Channels-)
     - [💻Blogs](#Blogs-)
-    - [🎊Challanges](#Challanges-)
+    - [🎊Challenges](#Challenges-)
     - [🎉Events](#🎉Events-)
 - [👩🏻‍🏫Tutorials](#Tutorials-)
     - [🍩Beginning](#Beginning-)
@@ -500,7 +500,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [Blender 3D Architect](https://www.blender3darchitect.com/) : is the place to find news, tutorials, resources and training related to architectural visualization using Blender.
 - [blender-addons.org](https://blender-addons.org/) : provides a list of free and paid Blender 2.8 addons. Find the addon you need under categories or tags.
 
-### 🎊Challanges [^](#table-of-contents)
+### 🎊Challenges [^](#table-of-contents)
 - [Nodevember](https://nodevember.io/) : The yearly event for everything procedural. Feel like doing a challenge? #nodevember is all about creating and promoting procedural awesomeness! A whole month to improve and show off your procedural skills.
     - See works: [tw/#nodevember](https://twitter.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?q=nodevember)
 - [SculptJanuary](https://cgboost.com/sculptjanuary2020/) : Challenge yourself over 31 days with a set of 31 topics.
