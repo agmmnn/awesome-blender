@@ -286,14 +286,15 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [3DTextures.me](https://3dtextures.me/) : Free seamless PBR textures.
 - [FreePBR.com](https://freepbr.com/) : Free PBR materials and texture files.
 - [ShareTextures](https://www.sharetextures.com/) : Free High Quality Material Archive for everybody.
-- [Textures.one](https://textures.one/) : Search the databases of many of the biggest free texture at once.
+- ☆[Textures.one](https://textures.one/) : Search the databases of many of the biggest free texture at once.
 - [Texture.Ninja](https://texture.ninja/) : Public domain photographic textures, reference images, cutouts.
 - [3DXO](https://www.3dxo.com) : Free 3D Models, seamless Textures, Backgrounds, Photos & Graphics.
-- [Textures.com](https://www.textures.com/) : is a website that offers digital pictures of all sorts of materials. Sign up for free and download 15 free images every day!
+- [Textures.com](https://www.textures.com/) : is a website that offers digital pictures of all sorts of materials. Sign up for free and download 15 free images every day! [$]
 - [Substance Source/freebies](https://source.substance3d.com/allassets?free=true) : Hundreds of high quality PBR materials. [$]
 - [Poliigon/freebies](https://www.poliigon.com/search?type=all&refine_by=assets-free) : A library of materials, and HDR's for artists including free textures that want photorealism. [$]
 - [Texturing.xyz](https://texturing.xyz/) : Our textures are used in the biggest and industry-leading VFX companies, and help them achieving their goals faster. [$]
-- Others : [gumroad/lebedev](https://gumroad.com/lebedev), [3d-wolf/textures](https://3d-wolf.com/products/textures.html), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [Photogrammetry Bark](https://www.artstation.com/artwork/GJeVz), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651)
+- Others:
+    - [gumroad/lebedev](https://gumroad.com/lebedev), [3d-wolf/textures](https://3d-wolf.com/products/textures.html), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651).
 
 
 ### 🌓Blender Materials [^](#table2)
