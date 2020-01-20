@@ -23,7 +23,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
     - [🌑Textures](#Textures-)
     - [🌓Blender Materials](#Blender-Materials-)
     - [📁Blender Scenes/Files](#Blender-ScenesFiles-)
-    - [🎴HDRIs](#HDRIs-)
+    - [⛅HDRIs](#HDRIs-)
     - [🖼️Art](#%EF%B8%8Fart-)
     - [🛰Space](#Space-)
     - [🏞Free Stocks](#Free-Stocks-)
@@ -308,8 +308,8 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [blender/demo-files](https://www.blender.org/download/demo-files/), [mantissa/resources](https://mantissa.xyz/resources.php), [gumroad/bluefoxcreation](https://gumroad.com/bluefoxcreation), [gumroad/curtisjamesholt](https://gumroad.com/curtisjamesholt)
 - Nodevember Results: [Curtis Holt's Results](https://youtu.be/JhLVzcCl1ug), [Neoyume’s Nodeshaders](https://neoyume.com/en/neoyumes-nodevember-nodeshaders/)
 
-### 🎴HDRIs [^](#table-of-contents)
-- [HDRI Haven](https://hdrihaven.com/hdris/category/index.php?c=all&o=date_published&s=all), [Hdrlabs](http://hdrlabs.com/sibl/archive.html), [Hdrmaps](https://hdrmaps.com/freebies), [Hdri-hub](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [Hdri-skies](https://hdri-skies.com/), [locationtextures/panoramas](https://locationtextures.com/panoramas), [eisklotz/HDRIs](https://drive.google.com/drive/folders/1tnuVLtmLNIajTszoDXybboWxwk1L4YOJ)
+### ⛅HDRIs [^](#table-of-contents)
+- [HDRI Haven](https://hdrihaven.com/hdris/category/index.php?c=all&o=date_published&s=all), [Hdrlabs](http://hdrlabs.com/sibl/archive.html), [Hdrmaps](https://hdrmaps.com/freebies), [Hdri-hub](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [Hdri-skies](https://hdri-skies.com/), [eisklotz/HDRIs](https://drive.google.com/drive/folders/1tnuVLtmLNIajTszoDXybboWxwk1L4YOJ), [locationtextures/panoramas](https://locationtextures.com/panoramas)
 
 ### 🖼️Art [^](#table-of-contents)
 - [Dezoomify](https://ophir.alwaysdata.net/dezoomify/dezoomify.html) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats).
