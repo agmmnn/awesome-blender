@@ -1,5 +1,5 @@
 # ![][bl-logo] Awesome Blender 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![](https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat-square)](#table) [![](https://img.shields.io/badge/keep-up--to--date-blue?logo=&style=flat-square)](#Contributing-)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![](https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat-square)](#table-of-contents) [![](https://img.shields.io/badge/keep-up--to--date-blue?logo=&style=flat-square)](#Contributing-)
 
 A curated list of awesome **blender** add-ons, tools, tutorials and resources for 3D Artists, Hobbyists, Developers, Researchers. Focused _mostly_ open source and free resources. 2.8+ compatible list.
 
@@ -8,9 +8,9 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 
 - [🔮Add-ons](#Add-ons-)
     - [🌊Simulation/Physics](#SimulationPhysics-)
-    - [🌠Animation](#Animation-)
     - [🦑Generator/Builder](#GeneratorBuilder-)
     - [🧊Modeling](#Modeling-)
+    - [🌠Animation](#Animation-)
     - [🦖Game Engine](#Game-Engine-)
     - [🗜Render Engine](#Render-Engine-)
     - [🔳Texture/UV](#TextureUV-)
@@ -76,6 +76,12 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 <!-- Contributing Guidelines for Add-ons:
 -->
 ## 🔮Add-ons [^](#table)
+- Check list of Blender's built-in add-ons documentation [here](https://docs.blender.org/manual/en/dev/addons/index.html).
+- Blender addon reviews: 
+    - Blogs: [BlenderAddons.org](https://blender-addons.org/), [BlenderNation](https://www.blendernation.com/category/blender/add-ons/).
+    - Youtube: [New Media Supply](https://www.youtube.com/channel/UCrRilykeqb6WzYpxaUTzzgg/videos), [Steven Scott](https://www.youtube.com/playlist?list=PLegkgTs-3xf4KkKYDW3jF27lwtSBQQU51), [Markom3D](https://www.youtube.com/playlist?list=PL1DrFRqy1K5XySpq-FFTXqT4JSEg5pEtS).
+- Check ['List of addons that work with 2.8'](https://blenderartists.org/t/list-of-addons-that-work-with-2-8/1132912) on [blenderartists/scripts](https://blenderartists.org/c/coding/released-scripts-and-themes/50).
+- Get premium add-ons from [BlenderMarket](https://blendermarket.com/products), [Gumroad](https://gumroad.com/discover?query=blender%20addon).
 
 ### 🌊Simulation/Physics [^](#table)
 - [FLIP Fluids](https://github.com/rlguy/Blender-FLIP-Fluids) : is a powerful liquid simulation plugin that gives you the ability to create high quality fluid effects all within Blender, the free and open source 3D creation suite. [[market]](https://blendermarket.com/products/flipfluids)
@@ -84,22 +90,6 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [projectile](https://gumroad.com/l/projectile) : an artist-friendly tool for throwing stuff around inside blender. [![][repo]](https://github.com/natecraddock/projectile)
 - [Phobos](https://github.com/dfki-ric/phobos) : Phobos is an add-on for the open-source 3D modeling software Blender that enables the creation of WYSIWYG robot models for use in robot frameworks like ROS and ROCK or in real-time simulations such as MARS or Gazebo.
 - [FishSim](https://github.com/nerk987/FishSim) : Fish Swimming Simulator. This addon aims to make it easier to animate natural movements of fish by allowing the animation of targets or proxies, and then simulating the movements required for the fish to follow these targets.
-
-### 🌠Animation [^](#table)
-- [Animation Nodes](https://animation-nodes.com/) : A node based visual scripting system designed for motion graphics in Blender. [![][repo]](https://github.com/JacquesLucke/animation_nodes)
-- [Commotion](https://github.com/mrachinskiy/commotion) : blender add-on for motion graphics.
-- [Animax](https://blendermarket.com/products/animax---procedural-animation-system-) : is a procedural animation system for Blender. Useful for animating multiple objects. [$]
-- [AutoMask](https://github.com/lukas-blecher/AutoMask) : a Blender Add-on for automatic rotoscoping with the help of Machine Learning.
-- [COA Tools](https://github.com/ndee85/coa_tools) : is a 2D Animation Suite for blender. It offers a 2D cutout animation workflow similar to programs like spine or spriter.
-- [reflow](https://gitlab.com/diegogangl/reflow) : blender addon to change fps.
-- [Keyframe Nudge](https://github.com/okuma10/Keyframe-Nudge) : scripts for quick keyframe maniplation.
-- [Real-Time-Animation](https://github.com/SavMartin/Real-Time-Animation-Addon-Update-to-2.80) : addon for animating by recording object motion This addon for Blender lets you move objects of any type (including cameras, lights, etc) and bones in 3D space and record their motion as keyframes.
-- Writing/Counting: 
-    - [WritingAnimation](https://github.com/Shriinivas/writinganimation), [Typewriter](https://github.com/doakey3/blender-typewriter-addon), [TextCounter](https://github.com/leomoon-studios/leomoon-textcounter/), [GreaseWriter](https://github.com/doakey3/GreaseWriter)
-- Rigging:
-    - [JiggleArmature](https://cheece.github.io/JiggleArmature/) : is an easy way to create wiggle effects in blender, just enable jiggle bone on the bones you want to be jiggly. [![][repo]](https://github.com/cheece/JiggleArmature)
-    - [Rigacar](https://github.com/digicreatures/rigacar) : generate rig for cars.
-    - [RigFlex](https://github.com/nerk987/RigFlex) : simple soft body for Blender armatures.
 
 ### 🦑Generator/Builder [^](#table)
 - 👤[FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) : is a Blender add-on that lets you create photorealistic 3D models of human faces and heads using a few photographs with a neutral face expression. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
@@ -160,6 +150,22 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
     - [Fiber Mesh](https://blenderartists.org/t/fiber-mesh-resurrected-for-2-80/1141872) : generate fiber meshes.
     - [Laser Slicer](https://github.com/rgsouthall/laser_slicer) : cuts up a Blender object and exports the slices to SVG files for cutting on a laser cutter or other post-processing.
 
+### 🌠Animation [^](#table)
+- [Animation Nodes](https://animation-nodes.com/) : A node based visual scripting system designed for motion graphics in Blender. [![][repo]](https://github.com/JacquesLucke/animation_nodes)
+- [Commotion](https://github.com/mrachinskiy/commotion) : blender add-on for motion graphics.
+- [Animax](https://blendermarket.com/products/animax---procedural-animation-system-) : is a procedural animation system for Blender. Useful for animating multiple objects. [$]
+- [AutoMask](https://github.com/lukas-blecher/AutoMask) : a Blender Add-on for automatic rotoscoping with the help of Machine Learning.
+- [COA Tools](https://github.com/ndee85/coa_tools) : is a 2D Animation Suite for blender. It offers a 2D cutout animation workflow similar to programs like spine or spriter.
+- [reflow](https://gitlab.com/diegogangl/reflow) : blender addon to change fps.
+- [Keyframe Nudge](https://github.com/okuma10/Keyframe-Nudge) : scripts for quick keyframe maniplation.
+- [Real-Time-Animation](https://github.com/SavMartin/Real-Time-Animation-Addon-Update-to-2.80) : addon for animating by recording object motion This addon for Blender lets you move objects of any type (including cameras, lights, etc) and bones in 3D space and record their motion as keyframes.
+- Writing/Counting: 
+    - [WritingAnimation](https://github.com/Shriinivas/writinganimation), [Typewriter](https://github.com/doakey3/blender-typewriter-addon), [TextCounter](https://github.com/leomoon-studios/leomoon-textcounter/), [GreaseWriter](https://github.com/doakey3/GreaseWriter)
+- Rigging:
+    - [JiggleArmature](https://cheece.github.io/JiggleArmature/) : is an easy way to create wiggle effects in blender, just enable jiggle bone on the bones you want to be jiggly. [![][repo]](https://github.com/cheece/JiggleArmature)
+    - [Rigacar](https://github.com/digicreatures/rigacar) : generate rig for cars.
+    - [RigFlex](https://github.com/nerk987/RigFlex) : simple soft body for Blender armatures.
+
 ### 🦖Game Engine [^](#table)
 -  [Armory](https://armory3d.org/) : is an open-source 3D game engine with full Blender integration. [![][repo]](https://github.com/armory3d/armory)
 - [UPBGE](https://upbge.org/) : is an open-source 3D game engine forked from old Blender Game Engine, deployed with Blender itself. [![][repo]](https://github.com/UPBGE/upbge)
@@ -207,7 +213,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
     - [JARCH-Vis](https://blenderartists.org/t/addon-jarch-vis/642607) : is add-on for Blender 3D that helps create commonly used object for architectural visualization. [![][repo]](https://github.com/BlendingJake/JARCH-Vis)
 - Import:
     - [glTF](https://github.com/KhronosGroup/glTF-Blender-IO/tree/blender-v2.82-release), [Rhinoceros3D files](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [PLY files](https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280), [SVG](https://github.com/Shriinivas/shapekeyimport), [GIF](https://github.com/doakey3/Bligify), Quake [BSP](https://blenderartists.org/t/quake-1996-game-bsp-import-script/578191) [MD3](https://github.com/axredneck/blender-md3/tree/blender2.8)
-    - [MapsModelsImporter](https://github.com/eliemichel/MapsModelsImporter) : a Blender add-on to import models from *Google Maps*. [[more info]](https://blog.exppad.com/article/importing-actual-3d-models-from-google-maps)
+    - [Maps Models Importer](https://github.com/eliemichel/MapsModelsImporter) : a Blender add-on to import models from *Google Maps*. [[more info]](https://blog.exppad.com/article/importing-actual-3d-models-from-google-maps)
 - Export:
     - [to ZBrush](https://blenderartists.org/t/goz-for-blender-2-8/1138418), [VTK](https://github.com/tkeskita/io_mesh_vtk), [Bezier2SVG](https://leomoon.com/downloads/plugins/leomoon-bezier2svg/)
     - [Export Paper Model from Blender](https://addam.github.io/Export-Paper-Model-from-Blender/) : add-on for creating paper models. [![][repo]](https://github.com/addam/Export-Paper-Model-from-Blender)
@@ -318,10 +324,19 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [HDRI Haven](https://hdrihaven.com/hdris/category/index.php?c=all&o=date_published&s=all), [Hdrlabs](http://hdrlabs.com/sibl/archive.html), [Hdrmaps](https://hdrmaps.com/freebies), [Hdri-hub](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [Hdri-skies](https://hdri-skies.com/), [eisklotz/HDRIs](https://drive.google.com/drive/folders/1tnuVLtmLNIajTszoDXybboWxwk1L4YOJ), [locationtextures/panoramas](https://locationtextures.com/panoramas)
 
 ### 🖼️Art [^](#table)
-- [Dezoomify](https://ophir.alwaysdata.net/dezoomify/dezoomify.html) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats). \([desktop app](https://github.com/lovasoa/dezoomify-rs)\)
-- [National Gallery of Art Images](https://images.nga.gov/en/page/show_home_page.html) : Download images from collections of the National Gallery of Art. More than 51,000 open access digital images are available free of charge for download and use.
-- [Birmingham Museums Trust](http://dams.birminghammuseums.org.uk/) : Thousands of our out-of-copyright images are now available for all to use under a Creative Commons Zero Licence (CC0). More images are regularly being added. \([unsplash profile](https://unsplash.com/@birminghammuseumstrust)\)
+- [Dezoomify](https://ophir.alwaysdata.net/dezoomify/dezoomify.html) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats). \([Desktop App](https://github.com/lovasoa/dezoomify-rs)\)
+- [Birmingham Museums Trust](http://dams.birminghammuseums.org.uk/) : Thousands of our out-of-copyright images are now available for all to use under a Creative Commons Zero Licence (CC0). More images are regularly being added. \([Unsplash Profile](https://unsplash.com/@birminghammuseumstrust)\)
+- [Wikimedia Commons/Art](https://commons.wikimedia.org/wiki/Category:Art) : A collection of freely usable media files to which anyone can contribute.
 - [The Art Institute of Chicago](https://www.artic.edu/collection?is_public_domain=1) : Download public-domain artworks from Art Institute of Chicago online collection.
+- [Paris Musées Collections](http://parismuseescollections.paris.fr/en/recherche/image-libre/true) : Paris Musées has released over 100,000 artworks into the public domain. They are all available for free high-resolution download online.
+- [The Metropolitan Museum of Art](https://www.metmuseum.org/art/collection/search#!?searchField=All&showOnly=openAccess&sortBy=Relevance&offset=0&pageSize=0) : Browse more than 406,000 hi-res images of public-domain works in The Met collection that can be downloaded, shared, and remixed without restriction.
+- [USEUM](https://useum.org/download-artworks) :  Download thousands of royalty free images of artworks and use them in anyway you like, anywhere around the world. _If you want more content, go to the museum pages listed below. All links filtered in CC._
+    - [National Gallery of Art Images](https://images.nga.gov/en/page/show_home_page.html) : Download images from collections of the National Gallery of Art. More than 51,000 open access digital images are available free of charge for download and use.
+    - [Rijksmuseum ](https://www.rijksmuseum.nl/en/search) : one of the largest museums in Europe dedicated to arts and history, made 250,000 works from its huge collection available for free online viewing or download.
+    - [National Gallery of Denmark](https://open.smk.dk/art?q=*&page=0&filters=public_domain%3Atrue) : You can explore our highlights and get free images in high resolution of those artworks that are in the Public Domain.
+    - [Los Angeles County Museum of Art](https://collections.lacma.org/search/site/?f[1]=bm_field_has_unrestricted_image%3Atrue) : Download public-domain artworks from LACMA's collections.
+    - [J. Paul Getty Museum](http://search.getty.edu/gateway/search?q=&cat=highlight&f=%22Open+Content+Images%22&rows=10&srt=a&dir=s&pg=1) : The Getty makes available, without charge, all available digital images to which the Getty holds the rights or that are in the public domain to be used for any purpose. No permission is required.
+    - [Indianapolis Museum of Art Collection](http://collection.imamuseum.org/) : Many images of public domain artworks are available for free download from the Indianapolis Museum of Art at Newfields' collection pages.
 
 ### 🛰Space [^](#table)
 - [Solar Textures](https://www.solarsystemscope.com/textures/) : These textures represent real planetary maps in equirectangular projection. Textures in this pack are based on NASA elevation and imagery data.
@@ -335,9 +350,9 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 , [pixabay](https://pixabay.com/tr/), [stocksnap](https://stocksnap.io/)
 - Video/VFX/Footage : [videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/tr/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos)
 - Cutouts : [MrCutout](https://www.mrcutout.com/), [gumroad/kaiserbold](https://gumroad.com/hi5_kaiserbold), [nonscandinavia](http://www.nonscandinavia.com/), [clipped](http://www.clipped.io/search?sort_uploads=created_at)
-- Visual Loops: [Mantissa](https://mantissa.xyz/vjloops), [BEEPLE](https://www.beeple-crap.com/vjloops), [Vimeo/Catmac](https://vimeo.com/user2777466), [SSWIII](http://www.switzonwigfall.com/vjclips), [rptv](https://www.rptv.co/videoloops)
-- Sounds: [freesound](https://freesound.org/), [gamesounds](https://gamesounds.xyz/), [GDC19](https://sonniss.com/gameaudiogdc19/)
-- Music: [freemusicarchive](https://freemusicarchive.org/static), [bandcamp/cc](https://bandcamp.com/tag/creative-commons), [musopen](https://musopen.org/music/)
+- Visual Loops : [Mantissa](https://mantissa.xyz/vjloops), [BEEPLE](https://www.beeple-crap.com/vjloops), [Vimeo/Catmac](https://vimeo.com/user2777466), [SSWIII](http://www.switzonwigfall.com/vjclips), [rptv](https://www.rptv.co/videoloops)
+- Sounds : [freesound](https://freesound.org/), [gamesounds](https://gamesounds.xyz/), [GDC19](https://sonniss.com/gameaudiogdc19/)
+- Music : [freemusicarchive](https://freemusicarchive.org/static), [bandcamp/cc](https://bandcamp.com/tag/creative-commons), [musopen](https://musopen.org/music/)
 
 ### 🌂Useful [^](#table)
 - [Sheep it Render Farm](https://www.sheepit-renderfarm.com/) : is a free distributed renderfarm for Blender.
@@ -355,8 +370,9 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 
 ### Builds [^](#table)
 - [Blender Octane Render](https://render.otoy.com/forum/viewtopic.php?f=7&t=72241) : fully integrated Octane Render, free tier.
-    - [OTOY Forums/Blender](https://render.otoy.com/forum/viewforum.php?f=32)
-    - [Quixel Megascans Plugin for Octane Edition](https://github.com/Yichen-Dou/MSLiveLink-OC-Blender)
+    - [🧾OctaneRender for Blender Plugin Manual.](https://docs.otoy.com/BlenderH/BlenderPluginManual.htm)
+    - [OTOY Forums/Blender](https://render.otoy.com/forum/viewforum.php?f=32).
+    - [Quixel Megascans Plugin for Octane Edition](https://github.com/Yichen-Dou/MSLiveLink-OC-Blender).
 - [Bforartists](https://github.com/Bforartists/Bforartists) : is a fork of the Blender, with the goal to change the UI.
 
 ### Various Tools [^](#table)
@@ -370,7 +386,6 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [Processing](https://processing.org/) : is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. [![][repo]](https://github.com/processing/processing)
 - [PureRef](https://www.pureref.com/) : simple way to view and organize your reference images.
 - [DJV](https://darbyjohnston.github.io/DJV/) : Professional image sequence, media review software for VFX, animation, and film production. [![][repo]](https://github.com/darbyjohnston/DJV)
-- [Crocotile 3D](https://prominent.itch.io/crocotile3d) : is a tool for creating 3d scenes with tiles. Think of it as creating 2d tilemaps with three dimensions.
 - [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater) : download and install nightly builds with one click.
 - [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : command line version of BlenderUpdater.
 
@@ -451,6 +466,8 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 [![](https://img.shields.io/badge/blenderartists-artwork-yellowgreen?logo=&style=flat-square)](https://blenderartists.org/c/artwork/8)
 
 ### 🐦Twitter Accounts [^](#table)
+Some accounts where you can find different kinds of content related to blender.
+
 [@pablodp606](https://twitter.com/pablodp606),
 [@3DBystedt](https://twitter.com/3DBystedt),
 [@ppaawweeuu](https://twitter.com/ppaawweeuu),
@@ -504,9 +521,10 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 
 ### 💻Blogs [^](#table)
 - [Blender Sushi](https://blendersushi.blogspot.com/) : Collection of 3D ideas, poetries and experiments blended in Blender 3D.
+- [Artisticrender](https://artisticrender.com/) : Tutorials, tips, resources about Blender and 3D.
 - [Creative Shrimp](https://www.creativeshrimp.com/) : High quality CG tutorials and Blender tutorials, digital art and lighting tutorials with Gleb and Aidy.
 - [Blender 3D Architect](https://www.blender3darchitect.com/) : is the place to find news, tutorials, resources and training related to architectural visualization using Blender.
-- [blender-addons.org](https://blender-addons.org/) : provides a list of free and paid Blender 2.8 addons. Find the addon you need under categories or tags.
+- [BlenderAddons.org](https://blender-addons.org/) : provides a list of free and paid Blender 2.8 addons. Find the addon you need under categories or tags.
 
 ### 🎊Challenges [^](#table)
 - [Nodevember](https://nodevember.io/) : The yearly event for everything procedural. Feel like doing a challenge? #nodevember is all about creating and promoting procedural awesomeness! A whole month to improve and show off your procedural skills.
@@ -560,7 +578,7 @@ Sculpt every day and improve your sculpting skills.
 - Procedural Modeling: (Sverchok, Sorcar, Modifiers)
     - 🧾[Sverchok Documentation.](https://sverchok.readthedocs.io/en/latest/main.html)
     - ▷[Sverchok Nodes - Quick Guide 4 minutes.](https://www.youtube.com/watch?v=mHNeH8H2wZI)
-    - ☰[Sverchok Exploratıon by Jimmy Gunawan.](https://www.youtube.com/playlist?list=PLsbztkb4az9iEow8vgB0guWe1kd1Gw6Dy)
+    - ☰[Sverchok Exploration by Jimmy Gunawan.](https://www.youtube.com/playlist?list=PLsbztkb4az9iEow8vgB0guWe1kd1Gw6Dy)
     - 🧾[Sorcar Documentation.](https://github.com/aachman98/Sorcar/wiki/Getting-started)
     - ▷[Exploring Nodes of Sorcar.](https://youtu.be/tWhfj9otoYM)
     - 🧾[Modifiers Manual.](https://docs.blender.org/manual/en/latest/modeling/modifiers/index.html)
