@@ -385,9 +385,18 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [Natron](https://natrongithub.github.io/) : Open Source Compositing Software For VFX and Motion Graphics. [![][repo]](https://github.com/NatronGitHub/Natron)
 - [Processing](https://processing.org/) : is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. [![][repo]](https://github.com/processing/processing)
 - [PureRef](https://www.pureref.com/) : simple way to view and organize your reference images.
+- [Neobarok](http://neobarok.com/) : Intuitive and free 3D modeling software for everyone.
 - [DJV](https://darbyjohnston.github.io/DJV/) : Professional image sequence, media review software for VFX, animation, and film production. [![][repo]](https://github.com/darbyjohnston/DJV)
-- [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater) : download and install nightly builds with one click.
-- [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : command line version of BlenderUpdater.
+- Blender Tools:
+    - [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater) : download and install nightly builds with one click.
+    - [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : command line version of BlenderUpdater.
+- Fractal:
+    - [Mandelbulb3D](http://www.andreas-maschke.com/?page_id=4607) : is a free software application created for 3D fractal imaging. [![][repo]](https://github.com/thargor6/mb3d)
+    - [JWildfire](http://www.andreas-maschke.com/?page_id=42) : stands out for its flame fractal generator. Wildfire is a java-based image processing software. [![][repo]](https://github.com/thargor6/JWildfire)
+    - [Other Fractal Softwares.](https://fractalforums.org/index.php?action=downloads;cat=1)
+- Design:
+    - [Nodi](https://nodi3d.com/editor) : is an online node-based geometry design tool & social development environment.
+    - [Dotgrid](https://hundredrabbits.itch.io/dotgrid) : is a grid-based vector drawing software designed to create logos, icons and type. It supports layers, the full SVG specs and additional effects such as mirroring and radial drawing. [![][repo]](https://github.com/hundredrabbits/Dotgrid) 
 
 ### Photogrammetry [^](#table)
 - [Meshroom](https://alicevision.org/#meshroom) : is a free, open-source 3D Photogrammetry Software. [![][repo]](https://github.com/alicevision/meshroom)
@@ -729,6 +738,7 @@ Sculpt every day and improve your sculpting skills.
 - [Awesome Gamedev](https://github.com/Calinou/awesome-gamedev) : A curated list of good stuff related to the development of games.
 - [Awesome Design Tools](https://github.com/LisaDziuba/Awesome-Design-Tools) : The best design tools and plugins for everything.
 - [Awesome Design](https://github.com/gztchan/awesome-design) : Curated design resources.
+- [Awesome Stock Resources](https://github.com/neutraltone/awesome-stock-resources) :  A collection of links for free stock photography, video and Illustration websites.
 
 --------------
 ### Symbols [^](#table)
