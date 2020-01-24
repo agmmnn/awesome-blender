@@ -80,7 +80,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - Blender addon reviews: 
     - Blogs: [BlenderAddons.org](https://blender-addons.org/), [BlenderNation](https://www.blendernation.com/category/blender/add-ons/).
     - Youtube: [New Media Supply](https://www.youtube.com/channel/UCrRilykeqb6WzYpxaUTzzgg/videos), [Steven Scott](https://www.youtube.com/playlist?list=PLegkgTs-3xf4KkKYDW3jF27lwtSBQQU51), [Markom3D](https://www.youtube.com/playlist?list=PL1DrFRqy1K5XySpq-FFTXqT4JSEg5pEtS).
-- Check ['List of addons that work with 2.8'](https://blenderartists.org/t/list-of-addons-that-work-with-2-8/1132912) on [blenderartists/scripts](https://blenderartists.org/c/coding/released-scripts-and-themes/50).
+- Check [List of addons that work with 2.8](https://blenderartists.org/t/list-of-addons-that-work-with-2-8/1132912) on [blenderartists/scripts](https://blenderartists.org/c/coding/released-scripts-and-themes/50).
 - Get premium add-ons from [BlenderMarket](https://blendermarket.com/products), [Gumroad](https://gumroad.com/discover?query=blender%20addon).
 
 ### 🌊Simulation/Physics [^](#table)
@@ -205,7 +205,6 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
     - [Gaffer](https://github.com/gregzaal/Gaffer) : is a Blender add-on that helps you light your scenes by presenting all the right settings in convenient panels for quick access and experimentation. [[market]](https://blendermarket.com/products/gaffer-light-manager/)
     - [Blender Interplanety Storage](https://blenderartists.org/t/bis-online-material-storage/689728) : the online material (shader) storage add-on for Blender 3D creation. With the BIS add-on, you can save materials (groups of nodes) to the online personal library and then convenient search and upload them.
     - [Asset Wizard](https://blenderartists.org/t/asset-wizard-for-blender-2-8/1149311) : is a asset management addon.
-    - [Blender Version Manager](https://github.com/DotBow/Blender-Version-Manager) : minimalistic download manager for blender.
 - VR/AR 
     - [blender-xr](https://www.marui-plugin.com/blender-xr/) : a free virtual and mixed reality user interface for Blender that enables artists to edit scenes within the software using a suitable headset and controllers.
     - [Blender-Metaverse-Addon](https://github.com/Menithal/Blender-Metaverse-Addon) : blender toolset for creating content for Metaverses like High Fidelity.
@@ -215,7 +214,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
     - [glTF](https://github.com/KhronosGroup/glTF-Blender-IO/tree/blender-v2.82-release), [Rhinoceros3D files](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [PLY files](https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280), [SVG](https://github.com/Shriinivas/shapekeyimport), [GIF](https://github.com/doakey3/Bligify), Quake [BSP](https://blenderartists.org/t/quake-1996-game-bsp-import-script/578191) [MD3](https://github.com/axredneck/blender-md3/tree/blender2.8)
     - [Maps Models Importer](https://github.com/eliemichel/MapsModelsImporter) : a Blender add-on to import models from *Google Maps*. [[more info]](https://blog.exppad.com/article/importing-actual-3d-models-from-google-maps)
 - Export:
-    - [to ZBrush](https://blenderartists.org/t/goz-for-blender-2-8/1138418), [VTK](https://github.com/tkeskita/io_mesh_vtk), [Bezier2SVG](https://leomoon.com/downloads/plugins/leomoon-bezier2svg/)
+    - [USDZ](https://github.com/robmcrosby/BlenderUSDZ), [to ZBrush](https://blenderartists.org/t/goz-for-blender-2-8/1138418), [VTK](https://github.com/tkeskita/io_mesh_vtk), [Bezier2SVG](https://leomoon.com/downloads/plugins/leomoon-bezier2svg/)
     - [Export Paper Model from Blender](https://addam.github.io/Export-Paper-Model-from-Blender/) : add-on for creating paper models. [![][repo]](https://github.com/addam/Export-Paper-Model-from-Blender)
 - Render:
     - [BatchRender](https://github.com/VertStretch/RenderBurst), [Notify](https://github.com/Dziban-dev/Notify_Blender_Render), [AlarmShutdown](https://gumroad.com/l/PcDfw), [RenderButton](https://github.com/Mitsuma/Blender2.8-RenderButton)
@@ -390,6 +389,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - Blender Tools:
     - [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater) : download and install nightly builds with one click.
     - [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : command line version of BlenderUpdater.
+    - [Blender Version Manager](https://github.com/DotBow/Blender-Version-Manager) : minimalistic download manager for blender.
 - Fractal:
     - [Mandelbulb3D](http://www.andreas-maschke.com/?page_id=4607) : is a free software application created for 3D fractal imaging. [![][repo]](https://github.com/thargor6/mb3d)
     - [JWildfire](http://www.andreas-maschke.com/?page_id=42) : stands out for its flame fractal generator. Wildfire is a java-based image processing software. [![][repo]](https://github.com/thargor6/JWildfire)
@@ -475,7 +475,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 [![](https://img.shields.io/badge/blenderartists-artwork-yellowgreen?logo=&style=flat-square)](https://blenderartists.org/c/artwork/8)
 
 ### 🐦Twitter Accounts [^](#table)
-Some accounts where you can find different kinds of content related to blender.
+_Some accounts where you can find different kinds of content related to blender._
 
 [@pablodp606](https://twitter.com/pablodp606),
 [@3DBystedt](https://twitter.com/3DBystedt),
@@ -557,7 +557,7 @@ Sculpt every day and improve your sculpting skills.
 -->
 ## 👩🏻‍🏫Tutorials [^](#table)
 
-> `▷` video, `☰` playlist, `☷` channel, `🧾` doc.
+> _`▷` video, `☰` playlist, `☷` channel, `🧾` doc._
 
 ### 🍩Beginning [^](#table)
 - ☰[Blender Fundamentals by Blender.](https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
