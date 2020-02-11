@@ -1,7 +1,18 @@
-# ![][bl-logo] Awesome Blender 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![](https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat-square)](#table-of-contents) [![](https://img.shields.io/badge/keep-up--to--date-blue?logo=&style=flat-square)](#Contributing-)
+![img](imgs/splash.jpg "Awesome Blender")
+<div align="center">
+    <a href="https://github.com/sindresorhus/awesome" target="_blank"><img alt="awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" /></a>
+    <a href="#table"><img alt="2.8+ Compatible List" src="https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat-square" /></a>
+    <a href="#Contributing-"><img alt="Contributions are Welcome" src="https://img.shields.io/badge/keep-up--to--date-blue?logo=&style=flat-square" /></a>
+<p>
+A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources for 3D Artists, Hobbyists, Developers, Researchers. Focused <i>mostly</i> open source and free resources. <b>Blender 2.8+</b> compatible list.
+</p>
+</div>
 
-A curated list of awesome **blender** add-ons, tools, tutorials and resources for 3D Artists, Hobbyists, Developers, Researchers. Focused _mostly_ open source and free resources. 2.8+ compatible list.
+<div align="center">
+<a name="table"></a><h3>Table of Contents:</h3>
+    
+| [🔮Add-ons](#Add-ons-) | [🪐Resources](#Resources-) | [📥Standalone](#Standalone-) | [🔍Explore Blender](#Explore-Blender-) | [🖇Social](#Social-) | [👩🏻‍🏫Tutorials](#Tutorials-) | [👩🏽‍💻Development](#Development-) |
+</div>
 
 ## **Table of Contents**
 <details><summary><a name="table"></a><b>Show Contents:</b></summary>
@@ -94,7 +105,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 ### 🦑Generator/Builder [^](#table)
 - 👤[FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) : is a Blender add-on that lets you create photorealistic 3D models of human faces and heads using a few photographs with a neutral face expression. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
 - 🚶🏻‍♀️[MB-Lab](https://mblab.dev/) : is a free, open source character creation tool for Blender. [![][repo]](https://github.com/animate1978/MB-Lab)
-- [The Grove 3D](https://www.thegrove3d.com/) : Grow natural 3D trees for visualisation and film. Grow, bend, prune, interactively simulate the seasons year by year. [$]
+- [The Grove 3D](https://www.thegrove3d.com/) [$] : Grow natural 3D trees for visualisation and film. Grow, bend, prune, interactively simulate the seasons year by year.
 - [tree-gen](https://github.com/MaximeHerpin/modular_tree/tree/blender_28) : procedural generation of tree models in blender.
 - [modular_tree](https://github.com/MaximeHerpin/modular_tree) : This addon for blender allows the creation of realistic trees with the node editor.
 - [Bricker](https://github.com/bblanimation/bricker) : Photoreal Lego/Minecraft Simulations. [[market]](https://www.blendermarket.com/products/bricker)
@@ -113,9 +124,9 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 ### 🧊Modeling [^](#table)
 - [Sorcar](https://aachman98.itch.io/sorcar) : Procedural modeling in Blender using Node Editor. [![][repo]](https://github.com/aachman98/Sorcar)
 - [Sverchok](http://nikitron.cc.ua/sverchok_en.html) : is a powerful parametric tool for architects, allowing geometry to be programmed visually with nodes. [![][repo]](https://github.com/nortikin/sverchok)
-- [MACHIN3tools](https://gumroad.com/l/MACHIN3tools) : is a free, continuously evolving collection of blender tools and pie menus in a single customizable package. [![][repo]](https://github.com/machin3io/MACHIN3tools) [[market]](https://blendermarket.com/products/MACHIN3tools) 
+- [MACHIN3tools](https://gumroad.com/l/MACHIN3tools) : is a free, continuously evolving collection of blender tools and pie menus in a single customizable package. [![][repo]](https://github.com/machin3io/MACHIN3tools) [[market]](https://blendermarket.com/products/MACHIN3tools)
 - [QBlocker](https://qblockerdocs.readthedocs.io/) :  is an interactive object creation tool for Blender.
-- [fspy](https://fspy.io/) : is an open-source camera matching app, extremely useful for modeling directly from a reference image. [[blender addon]](https://github.com/stuffmatic/fSpy-Blender)
+- [fspy](https://fspy.io/) : is an open-source camera matching app, extremely useful for modeling directly from a reference image. [(blender addon)](https://github.com/stuffmatic/fSpy-Blender)
 - [PolyQuilt](https://github.com/sakana3/PolyQuilt) : is provides a few functions in edit mode like creating faces, knife tool, fan, edge-loops, etc. It does this with only the left-mouse-button. So no menu’s, no shortcuts. [[more info]](https://www.youtube.com/watch?v=VKLPHh3CYCU)
 - [BezierUtility](https://github.com/Shriinivas/blenderbezierutils) : this add-on contains several tools for working with Bezier curves.
 - [Mesh Heal](https://blenderartists.org/t/mesh-heal/1117095) : is an add-on for Blender, it includes additional Blender operators for healing surface meshes.
@@ -126,8 +137,8 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
     - [Retopo MT](https://gumroad.com/l/cNGNb)  : is a tool for retopo, you use it in addition with other addons or tools in Blender, in Edit Mode.
 - Hard Surface:
     - [KIT OPS](https://gumroad.com/l/kitops) : can create objects and scenes with extreme efficiency and speed. Complex industrial designs can be generated in a single sitting.
-    - [HardOps/Boxcutter](https://blendermarket.com/products/hard-ops--boxcutter-ultimate-bundle) : [HardOps](https://blendermarket.com/products/hardopsofficial), is intended to be a workflow assistant toolkit. [Boxcutter](https://blendermarket.com/products/boxcutter), the most powerful boolean subsystem for blender. [$]
-    - [Speedflow](https://gumroad.com/l/speedflow) : addon for non-destructive workflow. [$]
+    - [HardOps/Boxcutter](https://blendermarket.com/products/hard-ops--boxcutter-ultimate-bundle) [$] : [HardOps](https://blendermarket.com/products/hardopsofficial), is intended to be a workflow assistant toolkit. [Boxcutter](https://blendermarket.com/products/boxcutter), the most powerful boolean subsystem for blender.
+    - [Speedflow](https://gumroad.com/l/speedflow) [$] : addon for non-destructive workflow.
     - [Bevel After Boolean](https://blenderartists.org/t/wip-bevel-after-boolean/693072?u=peetie) : addon comes in handy when working with booleans that have a curved surface. 
     - [EdgeFlow](https://github.com/BenjaminSauder/EdgeFlow/tree/blender_28) : This addon adds two operators to blender which both work on edgeloop selections.
     - [Engraver](https://gumroad.com/l/qOyVO) : is an Blender addon with set of few tools designed to help carving decals in 3d models.
@@ -135,7 +146,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
     - [Offset Edges](https://blenderartists.org/t/offset-edges/584283/259) : this addon introduces a cad-like feature, which create edges that have consistent distance from original selected ones.
     - [Mesh Utils](https://github.com/rpopovici/mesh-utils) : overlapping vert/edge/face, interior faces, edges by trait, and other stuff.
 - Sculpt:
-    - [Speedsculpt](https://gumroad.com/l/SpeedSculpt) : The addon allows you to create very fast characters, to manage Dyntopo Sculpting with booleans, cut curves, skin modifier, decimate, mask etc. [$]
+    - [Speedsculpt](https://gumroad.com/l/SpeedSculpt) [$] : The addon allows you to create very fast characters, to manage Dyntopo Sculpting with booleans, cut curves, skin modifier, decimate, mask etc.
 - Snapping-Align:
     - [Mesh Align Plus](https://github.com/egtwobits/mesh_mesh_align_plus) : precisely align, move, and measure+match objects and mesh parts in your 3D scenes.
     - [Easy Align](https://blenderartists.org/t/addon-easy-align/685704) : Easy Align addon allows you to align mesh objects origins and align mesh objects to each others easily, it works in both Edit mode and Object mode. [![][repo]](https://github.com/sergeod9/Easy_Align_Addon)
@@ -153,7 +164,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 ### 🌠Animation [^](#table)
 - [Animation Nodes](https://animation-nodes.com/) : A node based visual scripting system designed for motion graphics in Blender. [![][repo]](https://github.com/JacquesLucke/animation_nodes)
 - [Commotion](https://github.com/mrachinskiy/commotion) : blender add-on for motion graphics.
-- [Animax](https://blendermarket.com/products/animax---procedural-animation-system-) : is a procedural animation system for Blender. Useful for animating multiple objects. [$]
+- [Animax](https://blendermarket.com/products/animax---procedural-animation-system-) [$] : is a procedural animation system for Blender. Useful for animating multiple objects.
 - [AutoMask](https://github.com/lukas-blecher/AutoMask) : a Blender Add-on for automatic rotoscoping with the help of Machine Learning.
 - [COA Tools](https://github.com/ndee85/coa_tools) : is a 2D Animation Suite for blender. It offers a 2D cutout animation workflow similar to programs like spine or spriter.
 - [reflow](https://gitlab.com/diegogangl/reflow) : blender addon to change fps.
@@ -174,7 +185,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 ### 🗜Render Engine [^](#table)
 - [appleseed](https://appleseedhq.net/) : is an open source, physically-based global illumination rendering engine primarily designed for animation and visual effects. [![][repo]](https://github.com/appleseedhq/appleseed)
 - [LuxCore](https://luxcorerender.org/) : LuxCoreRender is a physically based and unbiased rendering engine. It offers advanced features like accelerated rendering of indirect light and efficient rendering of caustics. [![][repo]](https://github.com/LuxCoreRender/BlendLuxCore)
-- [E-Cycles](https://blendermarket.com/products/e-cycles) : is a fork of Cycles which renders up to 2.5x faster out of the box when using CUDA GPUs, up to 15x using new options. [$]
+- [E-Cycles](https://blendermarket.com/products/e-cycles) [$] : is a fork of Cycles which renders up to 2.5x faster out of the box when using CUDA GPUs, up to 15x using new options.
 - [AMD Radeon ProRender](https://www.amd.com/en/technologies/radeon-prorender-blender) : This Radeon ProRender plug-in for Blender ​is a feature rich solution which enables the user to render high quality images of their models.
 - [Pixar's RenderMan for Blender](https://github.com/tyler-furby/RenderManForBlender) : physically-based render from Pixar. Not officially supported 2.8 there are bunch of plugins made by blender community. [[more info]](https://blenderartists.org/t/pixar-renderman-for-blender/646404/650)
 
@@ -222,7 +233,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
     - [Real Camera](https://3d-wolf.com/products/camera.html) : is an addon that allows you to control the Blender camera like a real camera. [![][repo]](https://github.com/macio97/Real-Camera)
     - [Cameras-Lister](https://github.com/Ryxx/Cameras-Lister) : Easy select camera’s in popup shortcut is Alt-C.
     - [Photographer](https://blenderartists.org/t/photographer-camera-exposure-white-balance-and-autofocus/1101721/238) : Camera Exposure, White balance and Autofocus.
-- Song Visualizer
+- Audio Visualizer
     - [Bizualizer](https://github.com/doakey3/Bizualizer), [Curtis Holt's](https://gumroad.com/l/klmfi)
 - Display:
     - [Screencast-Keys](https://github.com/nutti/Screencast-Keys) : Status Add-On for Blender.
@@ -271,7 +282,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [TurboSquid](https://www.turbosquid.com/Search/3D-Models/free) : Free models from turbosquid
 - [Clara.io](https://clara.io/library) : Free 3D Modeling, Rendering, Sharing and Models.
 - [3D Warehouse](https://3dwarehouse.sketchup.com/search/) : Download sketchup models.
-- [KitBash3d](https://kitbash3d.com/) : makes premium 3D assets for VFX, concept art and design. Their 3D model kits have immediately been adopted by the industry's top artists, studios. *Get Mini-Kit: [Post-Apocalypse](https://kitbash3d.com/collections/kits/products/mini-kit-post-apocalypse)* for free. [$]
+- [KitBash3d](https://kitbash3d.com/) [$] : makes premium 3D assets for VFX, concept art and design. Their 3D model kits have immediately been adopted by the industry's top artists, studios. *Get Mini-Kit: [Post-Apocalypse](https://kitbash3d.com/collections/kits/products/mini-kit-post-apocalypse)* for free.
 - [Awesome-3D-Meshes](https://github.com/jvm-graphics-labs/awesome-3d-meshes/) : List of famous 3D meshes.
 - Scanned Models:
     - [Scanned Female Head Model by EISKO](https://eisko.com/louise/virtual-model), [Free Hard Surface KitBash Models](https://gumroad.com/olegushenok?sort=page_layout&tags=free), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Scanned Models from Smithsonian](https://3d.si.edu/download-browser), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model).
@@ -296,12 +307,14 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - ☆[Textures.one](https://textures.one/) : Search the databases of many of the biggest free texture at once.
 - [Texture.Ninja](https://texture.ninja/) : Public domain photographic textures, reference images, cutouts.
 - [3DXO](https://www.3dxo.com) : Free 3D Models, seamless Textures, Backgrounds, Photos & Graphics.
-- [Textures.com](https://www.textures.com/) : is a website that offers digital pictures of all sorts of materials. Sign up for free and download 15 free images every day! [$]
-- [Substance Source/freebies](https://source.substance3d.com/allassets?free=true) : Hundreds of high quality PBR materials. [$]
-- [Poliigon/freebies](https://www.poliigon.com/search?type=all&refine_by=assets-free) : A library of materials, and HDR's for artists including free textures that want photorealism. [$]
-- [Texturing.xyz](https://texturing.xyz/) : Our textures are used in the biggest and industry-leading VFX companies, and help them achieving their goals faster. [$]
+- [Texture Box](https://texturebox.com/) : We are making free textures for 3D Artists from all over the world. Also, we offer custome texture services.
+- [Texture Fun](https://texturefun.com/) : Free PBR texture sets of common architectural materials, including some nice tile textures.
+- [Textures.com](https://www.textures.com/) [$] : is a website that offers digital pictures of all sorts of materials. Sign up for free and download 15 free images every day!
+- [Substance Source/freebies](https://source.substance3d.com/allassets?free=true) [$] : Hundreds of high quality PBR materials.
+- [Poliigon/freebies](https://www.poliigon.com/search?type=all&refine_by=assets-free) [$] : A library of materials, and HDR's for artists including free textures that want photorealism.
+- [Texturing.xyz](https://texturing.xyz/) [$] : Our textures are used in the biggest and industry-leading VFX companies, and help them achieving their goals faster.
 - Others:
-    - [gumroad/lebedev](https://gumroad.com/lebedev), [3d-wolf/textures](https://3d-wolf.com/products/textures.html), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651).
+    - [gumroad/lebedev](https://gumroad.com/lebedev), [3d-wolf/textures](https://3d-wolf.com/products/textures.html), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [CGIVault/Textures](https://cgivault.com/product-category/textures/).
 
 
 ### 🌓Blender Materials [^](#table)
@@ -323,7 +336,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [HDRI Haven](https://hdrihaven.com/hdris/category/index.php?c=all&o=date_published&s=all), [Hdrlabs](http://hdrlabs.com/sibl/archive.html), [Hdrmaps](https://hdrmaps.com/freebies), [Hdri-hub](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [Hdri-skies](https://hdri-skies.com/), [eisklotz/HDRIs](https://drive.google.com/drive/folders/1tnuVLtmLNIajTszoDXybboWxwk1L4YOJ), [locationtextures/panoramas](https://locationtextures.com/panoramas)
 
 ### 🖼️Art [^](#table)
-- [Dezoomify](https://ophir.alwaysdata.net/dezoomify/dezoomify.html) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats). \([Desktop App](https://github.com/lovasoa/dezoomify-rs)\)
+- [Dezoomify](https://ophir.alwaysdata.net/dezoomify/dezoomify.html) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats). \([Desktop App](https://github.com/lovasoa/dezoomify-rs)\) \([Extension](https://github.com/lovasoa/dezoomify-extension)\)
 - [Birmingham Museums Trust](http://dams.birminghammuseums.org.uk/) : Thousands of our out-of-copyright images are now available for all to use under a Creative Commons Zero Licence (CC0). More images are regularly being added. \([Unsplash Profile](https://unsplash.com/@birminghammuseumstrust)\)
 - [Wikimedia Commons/Art](https://commons.wikimedia.org/wiki/Category:Art) : A collection of freely usable media files to which anyone can contribute.
 - [The Art Institute of Chicago](https://www.artic.edu/collection?is_public_domain=1) : Download public-domain artworks from Art Institute of Chicago online collection.
@@ -340,8 +353,8 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 ### 🛰Space [^](#table)
 - [Solar Textures](https://www.solarsystemscope.com/textures/) : These textures represent real planetary maps in equirectangular projection. Textures in this pack are based on NASA elevation and imagery data.
 - [NASA-3D-Resources](https://nasa3d.arc.nasa.gov/) : Here you'll find a growing collection of 3D models, textures, and images from inside NASA. All of these resources are free to download and use. [![][repo]](https://github.com/nasa/NASA-3D-Resources)
-- [Hubble Image Gallery (NASA)](https://hubblesite.org/images/gallery), [NASA Image and Video Library](https://images.nasa.gov/), [CGI Moon Kit](https://svs.gsfc.nasa.gov/4720)
-- [ESA - Observing the Earth](https://earth.esa.int/web/guest/images-of-the-earth) ([Image Archive](http://www.esa.int/Applications/Observing_the_Earth/Image_archive))
+- [Hubble Image Gallery (NASA)](https://hubblesite.org/images/gallery), [NASA Image and Video Library](https://images.nasa.gov/), [Astronomy Picture of the Day](https://apod.nasa.gov/apod/archivepix.html), [CGI Moon Kit](https://svs.gsfc.nasa.gov/4720).
+- [ESA - Observing the Earth](https://earth.esa.int/web/guest/images-of-the-earth) ([Image Archive](http://www.esa.int/Applications/Observing_the_Earth/Image_archive)).
 - [Earth View](https://earthview.withgoogle.com/) : Earth View is a collection of the most beautiful and striking landscapes found in Google Earth.
 
 ### 🏞Free Stocks [^](#table)
@@ -359,7 +372,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
     - [This script ](https://gist.github.com/donmahallem/a05100077ec1327268f28f0b2bd8da60)can be used to render with blender on GoogleColab. \([Video Tutorial](https://www.youtube.com/watch?v=uv45KzL9ick)\)
     - [This is](https://gist.github.com/natowi/3044484ad0c98877692c399297e3ab7e) an example on how to use Meshroom in GoogleColab with uploaded images to generate a textured mesh (OBJ) that can be downloaded.
     - [How to](https://internet-of-tomohiro.netlify.com/google_colab/vnc.en.html) run OpenGL desktop programs on Google Colaboratory.
-- Daily Blender Tips : [blender.daily](https://www.instagram.com/blender.daily/), [mandalamotion](https://www.instagram.com/mandalamotion/).
+- Daily Blender Tips : [blender.daily](https://www.instagram.com/blender.daily/), [Blender Secrets](https://www.instagram.com/blendersecretsdotorg/)\([tw](https://twitter.com/JanvandenHemel), [yt](https://www.youtube.com/channel/UCp7EwodJcppc6GqiRcnCpOw/videos)\).
 - [IOR List](https://pixelandpoly.com/ior.html) : Index of Refraction values list for use with 3d applications.
 
 --------------
@@ -403,6 +416,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [COLMAP](https://colmap.github.io/) : Reconstruct 3D models from ordered or unordered image collections automatically. [![][repo]](https://github.com/colmap/colmap)
 - [3DF Zephyr Free](https://www.3dflow.net/3df-zephyr-free/) : is free version of 3DF Zephyr photogrammetry software for personal use. It comes with some limitations.
 - [MicMac](https://github.com/micmacIGN/micmac) : is a free open-source photogrammetric suite that can be used in a variety of 3D reconstruction scenarios.
+- [Display.land](https://get.display.land/) : Turn your phone into a 3D camera that turns any physical space into a 3D space that can be used with AR/VR.
 
 ### Texture/Material [^](#table)
 - [ArmorPaint](https://armorpaint.org/) : Open-Source 3D PBR Texture Painting Software. [![][repo]](https://github.com/armory3d/armorpaint)
@@ -411,6 +425,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [Material Maker](https://rodzilla.itch.io/material-maker) : is a simple procedural materials generation tool.
 - [TextureLab](https://njbrown.itch.io/texturelab) : is a tool designed to make procedural texture generation.
 - [Agisoft De-Lighter](https://www.agisoft.com/index.php?id=71) : is a free stand-alone tool designed to remove shadows from model textures.
+- [Asset Ninja](https://assetninja.art/) : connects your favorite asset marketplaces and other sources to all of your favorite tools. Browse, manage, and export assets straight from your desktop. 
 
 ### Generator [^](#table)
 - [terrain.party](http://terrain.party/) : The easiest way to get real-world height maps.
@@ -431,7 +446,7 @@ A curated list of awesome **blender** add-ons, tools, tutorials and resources fo
 - [TerreSculptor](http://www.demenzunmedia.com/home/terresculptor/) : is a terrain creation and editing software. It is completely free.
 - [World Machine](https://www.world-machine.com/) : command powerful tools like erosion and advanced colormaps to create terrain heightmaps, meshes, and textures for your game or 3D scene. You can use the Basic Edition for free.
 - [Terragen](https://planetside.co.uk/free-downloads/) : ray-tracing supported terrain generator. There is free version with some limitations.
-- [World Creator](https://www.world-creator.com/) : is a real-time terrain generator and landscape generator. [$]
+- [World Creator](https://www.world-creator.com/) [$] : is a real-time terrain generator and landscape generator.
 - [Gaea](https://quadspinner.com/) : Sophisticated and modern terrain design software for apex results in moments. There is Community Free edition with some limitations.
 
 --------------
@@ -511,7 +526,7 @@ _Some accounts where you can find different kinds of content related to blender.
 - [Default Cube](https://www.youtube.com/channel/UCdpWKLNfbROyoGPV46-zaUQ/videos)  : CGMatter's second channel used for longer tutorials and other kinds of videos.
 - [SouthernShotty](https://www.youtube.com/channel/UCOWrbryuVEPUMSSgayuLURg/videos) : stylized modeling, character creation, sculpting.
 - [Blender Guru ](https://www.youtube.com/user/AndrewPPrice/videos) : Most popular blender channel on youtube.
-- [CG Geek](https://www.youtube.com/user/Blenderfan93/videos) : second most popular blender channel (?maybe).
+- [CG Geek](https://www.youtube.com/user/Blenderfan93/videos) : second most popular blender channel on youtube.
 - [Gleb Alexandrov](https://www.youtube.com/user/GlebAlexandrov/videos) : one of the best-known blender channel on youtube.
 - [Ducky 3D](https://www.youtube.com/channel/UCuNhGhbemBkdflZ1FGJ0lUQ/videos) : abstract designs, modifiers.
 - [Royal Skies LLC](https://www.youtube.com/channel/UC2U5mRfclG1Rrr1ztNkpGKA/videos)  : _Speed tutorials_, texturing, mapping, nodes, animation.
@@ -750,6 +765,11 @@ Sculpt every day and improve your sculpting skills.
 ### Contributing [^](#table)
 
 Your contributions are always welcome! ^\_^ If you want to contribute to this list, send a _pull request_ or _contact with me_ @agmmnn. Please read the _contributing guidelines_ first, each section has its own guidelines as a comment line. 
+
+#### Contributors:
+<a href="https://github.com/agmmnn/awesome-blender/graphs/contributors">
+  <img src="https://contributors-img.firebaseapp.com/image?repo=agmmnn/awesome-blender" />
+</a>
 
 --------------
 Thanks for reading!
