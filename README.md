@@ -9,13 +9,12 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 </div>
 
 <div align="center">
-<a name="table"></a><h3>Table of Contents:</h3>
+<a name="table"></a><h2>Table of Contents:</h2>
     
 | [🔮Add-ons](#Add-ons-) | [🪐Resources](#Resources-) | [📥Standalone](#Standalone-) | [🔍Explore Blender](#Explore-Blender-) | [🖇Social](#Social-) | [👩🏻‍🏫Tutorials](#Tutorials-) | [👩🏽‍💻Development](#Development-) |
 </div>
 
-## **Table of Contents**
-<details><summary><a name="table"></a><b>Show Contents:</b></summary>
+<details><summary><b>Show Detailed Table:</b></summary>
 
 - [🔮Add-ons](#Add-ons-)
     - [🌊Simulation/Physics](#SimulationPhysics-)
@@ -96,11 +95,13 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 
 ### 🌊Simulation/Physics [^](#table)
 - [FLIP Fluids](https://github.com/rlguy/Blender-FLIP-Fluids) : is a powerful liquid simulation plugin that gives you the ability to create high quality fluid effects all within Blender, the free and open source 3D creation suite. [[market]](https://blendermarket.com/products/flipfluids)
+- [Molecular Script](https://github.com/scorpion81/Blender-Molecular-Script) : is a particle collision addon that makes particles collide for creating certain types of simulations, effects and particles linking as well.
 - [Jet-Fluids](https://github.com/PavelBlend/blender_jet_fluids_addon) : [Jet fluid](https://github.com/doyubkim/fluid-engine-dev) simulator integration in blender.
 - [Mantaflow](http://mantaflow.com/) : is an open-source framework targeted at fluid simulation research in Computer Graphics. *Now it is  [part](https://wiki.blender.org/wiki/Reference/Release_Notes/2.82/Physics) of the blender since 2.82 release!* [![][repo]](https://github.com/sebbas/BlenderMantaflow)
 - [projectile](https://gumroad.com/l/projectile) : an artist-friendly tool for throwing stuff around inside blender. [![][repo]](https://github.com/natecraddock/projectile)
 - [Phobos](https://github.com/dfki-ric/phobos) : Phobos is an add-on for the open-source 3D modeling software Blender that enables the creation of WYSIWYG robot models for use in robot frameworks like ROS and ROCK or in real-time simulations such as MARS or Gazebo.
 - [FishSim](https://github.com/nerk987/FishSim) : Fish Swimming Simulator. This addon aims to make it easier to animate natural movements of fish by allowing the animation of targets or proxies, and then simulating the movements required for the fish to follow these targets.
+- [CubeSurfer](https://github.com/porkminer/CubeSurfer) : IsoSurface mesher addons for Blender.
 
 ### 🦑Generator/Builder [^](#table)
 - 👤[FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) : is a Blender add-on that lets you create photorealistic 3D models of human faces and heads using a few photographs with a neutral face expression. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
