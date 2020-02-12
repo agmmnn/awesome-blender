@@ -117,10 +117,10 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [Real Snow](https://3d-wolf.com/products/snow.html) : is an addon to create snow on top of objects. [![][repo]](https://github.com/macio97/Real-Snow)
 - [Welder](https://blenderartists.org/t/welder/672478) : welds generator for Blender.
 - [Sprytile](https://github.com/ologon/Sprytile) : a blender add-on for building tile based low-poly scenes with paint/map editor like tools. [[more info]](https://itch.io/post/1034106)
-- [BlenderGIS](https://github.com/domlysz/BlenderGIS) : Blender addons to make the bridge between Blender and geographic data.
 - [Celtic Knot](https://github.com/BorisTheBrave/celtic-knot/wiki/Gallery) : generate bezier curves, pipes and ribbons in elaborate weavings, based off of a framework mesh.
 - [Floorboard Generator](https://blenderartists.org/t/a-floor-board-generator/582368/195) : generate floor board. [![][repo]](https://github.com/importbpy/Floorboard-Generator)
 - [Piperator](https://blenderartists.org/t/a-floor-board-generator/582368/195) : is an addon for blender which helps generating complex pipe layouts.
+- [mesh_maze](https://github.com/elfnor/mesh_maze) : Blender add-on to generate a maze on any mesh.
 
 ### 🧊Modeling [^](#table)
 - [Sorcar](https://aachman98.itch.io/sorcar) : Procedural modeling in Blender using Node Editor. [![][repo]](https://github.com/aachman98/Sorcar)
@@ -146,6 +146,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     - [Fast Carve](https://github.com/jayanam/fast-carve/tree/fast-carve-2-8) : Hardsurface utility Blender addon for fast boolean and bevel operations.
     - [Offset Edges](https://blenderartists.org/t/offset-edges/584283/259) : this addon introduces a cad-like feature, which create edges that have consistent distance from original selected ones.
     - [Mesh Utils](https://github.com/rpopovici/mesh-utils) : overlapping vert/edge/face, interior faces, edges by trait, and other stuff.
+    - [Poly Source](https://gumroad.com/l/polysource) : is designed to simplify the control of the number of different types of polygons. You can see how many Gone, Quad and Tris are on the active object.
 - Sculpt:
     - [Speedsculpt](https://gumroad.com/l/SpeedSculpt) [$] : The addon allows you to create very fast characters, to manage Dyntopo Sculpting with booleans, cut curves, skin modifier, decimate, mask etc.
 - Snapping-Align:
@@ -224,6 +225,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     - [JARCH-Vis](https://blenderartists.org/t/addon-jarch-vis/642607) : is add-on for Blender 3D that helps create commonly used object for architectural visualization. [![][repo]](https://github.com/BlendingJake/JARCH-Vis)
 - Import:
     - [glTF](https://github.com/KhronosGroup/glTF-Blender-IO/tree/blender-v2.82-release), [Rhinoceros3D files](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [PLY files](https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280), [SVG](https://github.com/Shriinivas/shapekeyimport), [GIF](https://github.com/doakey3/Bligify), Quake [BSP](https://blenderartists.org/t/quake-1996-game-bsp-import-script/578191) [MD3](https://github.com/axredneck/blender-md3/tree/blender2.8)
+    - [BlenderGIS](https://github.com/domlysz/BlenderGIS) : Blender addons to make the bridge between Blender and geographic data.
     - [Maps Models Importer](https://github.com/eliemichel/MapsModelsImporter) : a Blender add-on to import models from *Google Maps*. [[more info]](https://blog.exppad.com/article/importing-actual-3d-models-from-google-maps)
 - Export:
     - [USDZ](https://github.com/robmcrosby/BlenderUSDZ), [to ZBrush](https://blenderartists.org/t/goz-for-blender-2-8/1138418), [VTK](https://github.com/tkeskita/io_mesh_vtk), [Bezier2SVG](https://leomoon.com/downloads/plugins/leomoon-bezier2svg/)
@@ -257,6 +259,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [MifthTools](https://github.com/mifth/mifthtools) : 3dcoat, houdini, modo mesh exchange tools and more.
 - [HDRI Sun Aligner](https://github.com/akej74/hdri-sun-aligner) : HDRI Sun Aligner is a Blender 2.8 addon for automatically rotating an object (e.g. a sun) to match the brightest point in a HDRI environment texture.
 - [Modifier List](https://blenderartists.org/t/modifier-list-1-5-1/1147752) : Alternative UI layout for modifiers with handy features. Available also inside the sidebar and as a popup.
+- [NodeCustomBuilder](https://blenderartists.org/t/nodecustombuilder-2-8-free-addon/1152185) : preset system for nodes.
 
 ### 🎴Themes [^](#table)
 - [Blender Pro](https://github.com/paulcoops/blender_pro-theme), [80's](https://gumroad.com/l/fWkBi), [Xsi Winter](https://blenderartists.org/t/theme-xsi-winter-pro-blender-2-80/1177994), [Awesome](https://blenderartists.org/t/awesome-theme-for-blender-2-8/1120656), [Fresh Snow](https://devtalk.blender.org/t/call-for-content-themes/3174/345), [Nord](https://devtalk.blender.org/t/call-for-content-themes/3174/382)
@@ -274,6 +277,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [Scan the World](https://www.myminifactory.com/scantheworld/) : is an ambitious community-built initiative whose mission is to share 3D printable sculpture and cultural artefacts using democratised 3D scanning technologies, producing an extensive ecosystem of free to download digital cultural heritage.
 - [Artec 3D](https://www.artec3d.com/3d-models) : Download high resolution 3D scans for free.
 - [3DModelHaven](https://3dmodelhaven.com/) : 3D Model Haven is an upcoming source of free high quality 3D assets for everyone, following in the footsteps of HDRI Haven and Texture Haven.
+- [Blender Boom](https://www.blenderboom.com/product-category/free/) : 3D model repository. Free models ready to use.
 - [Archive 3D](https://archive3d.net/) : Download Free 3D Objects.
 - [Free3D](https://free3d.com/) : is the go to place where you can share your free 3d assets and download instantly any you like.
 - [3DB3](https://3db3.com/) : Check out the best 3D models made by professional 3d artists.
@@ -325,7 +329,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [3d-wolf/materials](https://3d-wolf.com/products/materials.html) : PBR Materials is an addon with physically based materials. [![][repo]](https://github.com/macio97/PBR-Materials)
 - [BlenderKit](https://www.blenderkit.com/) : Allows you to download assets, materials, and alpha brushes to your blender 2.8 client with the click of a button for free.
 - Sketch/Toon Shaders:
-    - [BNPR' Shaders](https://blendernpr.org/downloads/), [Comics Shader](https://gumroad.com/l/JWdjJ), [Erisdraw3D's](https://twitter.com/Erisdraw3D/status/1216755574735503361), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [Komikaze[$]](https://blendermarket.com/products/komikaze)([Aqua](https://drive.google.com/file/d/1jlYxqRfjnjnZSG2gxKqiXa5Fo0Y7N9Kn/edit), [Kismet](https://drive.google.com/file/d/1Mp808PE3Wjew6-hEv0vIJZLzPezRM-jV/view)), [Ultimate Clay Shader[$]](https://blendermarket.com/products/claydoh)
+    - [BNPR' Shaders](https://blendernpr.org/downloads/), [Eevee Comics Shader v3.0](https://gumroad.com/l/JWdjJ), [Erisdraw3D's](https://twitter.com/Erisdraw3D/status/1216755574735503361), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [Komikaze[$]](https://blendermarket.com/products/komikaze)(Free: [Aqua](https://drive.google.com/file/d/1jlYxqRfjnjnZSG2gxKqiXa5Fo0Y7N9Kn/edit), [Kismet](https://drive.google.com/file/d/1Mp808PE3Wjew6-hEv0vIJZLzPezRM-jV/view)), [Ultimate Clay Shader[$]](https://blendermarket.com/products/claydoh)
 - Others: 
     - [gumroad/simonthommes](https://gumroad.com/simonthommes), [Meta's Massivest Materials](https://www.blendswap.com/blend/16480), [gumroad/juliosillet](https://gumroad.com/juliosillet), [Cycles Material Vault[$]](https://blendermarket.com/products/cycles-material-vault-volume-1), [Abstract Materials](https://gumroad.com/l/CCIEF)
 
@@ -376,6 +380,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     - [How to](https://internet-of-tomohiro.netlify.com/google_colab/vnc.en.html) run OpenGL desktop programs on Google Colaboratory.
 - Daily Blender Tips : [blender.daily](https://www.instagram.com/blender.daily/), [Blender Secrets](https://www.instagram.com/blendersecretsdotorg/)\([tw](https://twitter.com/JanvandenHemel), [yt](https://www.youtube.com/channel/UCp7EwodJcppc6GqiRcnCpOw/videos)\).
 - [IOR List](https://pixelandpoly.com/ior.html) : Index of Refraction values list for use with 3d applications.
+- [UE Sponsored Content](https://www.unrealengine.com/en-US/uesponsoredcontent) :  Every month Epic Games gives away several assets from the Unreal Engine marketplace for free.
 
 --------------
 <!-- Contributing Guidelines for Standalone:
@@ -401,6 +406,9 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [PureRef](https://www.pureref.com/) : simple way to view and organize your reference images.
 - [Neobarok](http://neobarok.com/) : Intuitive and free 3D modeling software for everyone.
 - [DJV](https://darbyjohnston.github.io/DJV/) : Professional image sequence, media review software for VFX, animation, and film production. [![][repo]](https://github.com/darbyjohnston/DJV)
+- [CineShader](https://cineshader.com/editor) : CineShader is a real-time 3D shader visualiser. It leverages the _Shadertoy_ API to bring thousands of existing shader artworks into a cinematic 3D environment.
+- [Light Tracer Render](https://lighttracer.org/) : provides you with everything you need to create photorealistic renderings interactively, in both desktop Web browsers and Windows application.
+- [Tiled](https://www.mapeditor.org/) :  is a general purpose tile map editor for all tile-based games, such as RPGs, platformers or Breakout clones. [![][repo]](https://github.com/bjorn/tiled)
 - Blender Tools:
     - [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater) : download and install nightly builds with one click.
     - [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : command line version of BlenderUpdater.
