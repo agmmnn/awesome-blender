@@ -129,6 +129,9 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [QBlocker](https://qblockerdocs.readthedocs.io/) :  is an interactive object creation tool for Blender.
 - [fspy](https://fspy.io/) : is an open-source camera matching app, extremely useful for modeling directly from a reference image. [(blender addon)](https://github.com/stuffmatic/fSpy-Blender)
 - [PolyQuilt](https://github.com/sakana3/PolyQuilt) : is provides a few functions in edit mode like creating faces, knife tool, fan, edge-loops, etc. It does this with only the left-mouse-button. So no menu’s, no shortcuts. [[more info]](https://www.youtube.com/watch?v=VKLPHh3CYCU)
+- [Modeling Cloth](https://github.com/the3dadvantage/Modeling-Cloth-2_8) : Create real-time cloth-like behavior in meshes in Blender.
+- [KeKit](https://artbykjell.com/blender.html) : brings some much needed functionality to Blender, with a whole array of production tools.
+- [Array Tools](https://github.com/Elreenys/array_tools) : is an addon for Blender to create translation, scale, rotation array with offset or global parameters in any direction and mix them.
 - [BezierUtility](https://github.com/Shriinivas/blenderbezierutils) : this add-on contains several tools for working with Bezier curves.
 - [Mesh Heal](https://blenderartists.org/t/mesh-heal/1117095) : is an add-on for Blender, it includes additional Blender operators for healing surface meshes.
 - Retopology/Remesh:
@@ -440,7 +443,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 ### Generator [^](#table)
 - [terrain.party](http://terrain.party/) : The easiest way to get real-world height maps.
 - [JSplacement](https://windmillart.net/?p=jsplacement) : is a cross-platform pseudo-random 8K displacement map generator.
-- [Medieval Fantasy City Generator](https://watabou.itch.io/medieval-fantasy-city-generator) : This application generates a random medieval city layout of a requested size. [Toy Town](https://watabou.itch.io/toy-town) : Toy Town is a 3d-visualizer for Medieval Fantasy City Generator.
+- [Medieval Fantasy City Generator](https://watabou.itch.io/medieval-fantasy-city-generator) : This application generates a random medieval city layout of a requested size. [City Viewer](https://watabou.itch.io/city-viewer) : is a 3d-visualizer for MFCD. See other generators from [watabou.itch.io](https://watabou.itch.io/).
 
 ### AI-Powered [^](#table)
 - [Dain-App](https://grisk.itch.io/dain-app) : Dain-App is a free app that let you take any form of media like movies, stop-motion, anime, cartoons, sprites, etc and interpolate new frames, generating a bigger frame-rate from the original file.
