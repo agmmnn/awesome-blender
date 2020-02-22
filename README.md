@@ -71,7 +71,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     - [🤺Motion Tracking/Capture](#Motion-TrackingCapture-)
     - [Premium Tutorials](#Premium-Tutorials-)
     - [Fundamentals](#Fundamentals-)
-    - [📚Books](#📚Books-)
+    - [📚Books](#Books-)
 - [👩🏽‍💻Development](#Development-)
     - [Scripting/Developing](#ScriptingDeveloping-)
     - [Blender Source](#Blender-Source-)
@@ -135,6 +135,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [Array Tools](https://github.com/Elreenys/array_tools) : is an addon for Blender to create translation, scale, rotation array with offset or global parameters in any direction and mix them.
 - [BezierUtility](https://github.com/Shriinivas/blenderbezierutils) : this add-on contains several tools for working with Bezier curves.
 - [Mesh Heal](https://blenderartists.org/t/mesh-heal/1117095) : is an add-on for Blender, it includes additional Blender operators for healing surface meshes.
+- [JewelCraft](https://github.com/mrachinskiy/jewelcraft) : jewelry design toolkit add-on for Blender.
 - Retopology/Remesh:
     - [retopoflow](https://blendermarket.com/products/retopoflow)  : a suite of retopology tools for Blender. [![][repo]](https://github.com/CGCookie/retopoflow)
     - [InstantMeshesRemesh](https://blenderartists.org/t/instant-meshes-remesh/1114982)  : a suite of retopology tools for Blender. [![][repo]](https://github.com/knekke/blender_addons#instantmeshesremesh)
@@ -264,6 +265,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [HDRI Sun Aligner](https://github.com/akej74/hdri-sun-aligner) : HDRI Sun Aligner is a Blender 2.8 addon for automatically rotating an object (e.g. a sun) to match the brightest point in a HDRI environment texture.
 - [Modifier List](https://blenderartists.org/t/modifier-list-1-5-1/1147752) : Alternative UI layout for modifiers with handy features. Available also inside the sidebar and as a popup.
 - [NodeCustomBuilder](https://blenderartists.org/t/nodecustombuilder-2-8-free-addon/1152185) : preset system for nodes.
+- [Vertex Oven](https://github.com/ForestKatsch/VertexOven)  : bake game-ready ambient occlusion in seconds without UV unwrapping or agonizingly slow Cycles bakes. [[market]](https://blendermarket.com/products/vertex-oven)
 
 ### 🎴Themes [^](#table)
 - [Blender Pro](https://github.com/paulcoops/blender_pro-theme), [80's](https://gumroad.com/l/fWkBi), [Xsi Winter](https://blenderartists.org/t/theme-xsi-winter-pro-blender-2-80/1177994), [Awesome](https://blenderartists.org/t/awesome-theme-for-blender-2-8/1120656), [Fresh Snow](https://devtalk.blender.org/t/call-for-content-themes/3174/345), [Nord](https://devtalk.blender.org/t/call-for-content-themes/3174/382).
@@ -380,7 +382,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 ### 🌂Useful [^](#table)
 - [Sheep it Render Farm](https://www.sheepit-renderfarm.com/) : is a free distributed renderfarm for Blender.
 - Render on ***Google Colab*** :
-    - [This script ](https://gist.github.com/donmahallem/a05100077ec1327268f28f0b2bd8da60)can be used to render with blender on GoogleColab. \([Video Tutorial](https://www.youtube.com/watch?v=uv45KzL9ick)\)
+    - [This script ](https://gist.github.com/donmahallem/a05100077ec1327268f28f0b2bd8da60)can be used to render with blender on GoogleColab. \([New Script](https://github.com/syn73/blender-colab)\) \([Video Tutorial](https://www.youtube.com/watch?v=uv45KzL9ick)\)
     - [This is](https://gist.github.com/natowi/3044484ad0c98877692c399297e3ab7e) an example on how to use Meshroom in GoogleColab with uploaded images to generate a textured mesh (OBJ) that can be downloaded.
     - [How to](https://internet-of-tomohiro.netlify.com/google_colab/vnc.en.html) run OpenGL desktop programs on Google Colaboratory.
 - Daily Blender Tips : [blender.daily](https://www.instagram.com/blender.daily/), [Blender Secrets](https://www.instagram.com/blendersecretsdotorg/)\([tw](https://twitter.com/JanvandenHemel), [yt](https://www.youtube.com/channel/UCp7EwodJcppc6GqiRcnCpOw/videos)\).
@@ -774,6 +776,7 @@ Sculpt every day and improve your sculpting skills.
 - [Awesome Design Tools](https://github.com/LisaDziuba/Awesome-Design-Tools) : The best design tools and plugins for everything.
 - [Awesome Design](https://github.com/gztchan/awesome-design) : Curated design resources.
 - [Awesome Stock Resources](https://github.com/neutraltone/awesome-stock-resources) :  A collection of links for free stock photography, video and Illustration websites.
+- [GameDev Resources](https://github.com/Kavex/GameDev-Resources) :  A wonderful list of Game Development resources.
 
 --------------
 ### Symbols [^](#table)
