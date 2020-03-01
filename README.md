@@ -297,7 +297,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [KitBash3d](https://kitbash3d.com/) [$] : makes premium 3D assets for VFX, concept art and design. Their 3D model kits have immediately been adopted by the industry's top artists, studios. *Get Mini-Kit: [Post-Apocalypse](https://kitbash3d.com/collections/kits/products/mini-kit-post-apocalypse)* for free.
 - [Awesome-3D-Meshes](https://github.com/jvm-graphics-labs/awesome-3d-meshes/) : List of famous 3D meshes.
 - Scanned Models:
-    - [Scanned Female Head Model by EISKO](https://eisko.com/louise/virtual-model), [Free Hard Surface KitBash Models](https://gumroad.com/olegushenok?sort=page_layout&tags=free), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Scanned Models from Smithsonian](https://3d.si.edu/download-browser), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model).
+    - [Scanned Female Head Model by EISKO](https://eisko.com/louise/virtual-model), [Free Hard Surface KitBash Models](https://gumroad.com/olegushenok?sort=page_layout&tags=free), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Scanned Models from Smithsonian](https://3d.si.edu/download-browser), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model), [Public Domain 3D Cultural Heritage](https://sketchfab.com/nebulousflynn/collections/cc0).
 - Others:
     - [Google Poly](https://poly.google.com/blocks), [GrabCAD](https://grabcad.com/library), [Xfree3D](https://vwartclub.com/?section=xfree3d), [Quaternius's Ultimate Low-Poly Models](http://quaternius.com/assets.html?i=1), [BlenderNation/free-blender-models](https://www.blendernation.com/category/art/free-blender-models/), [Cubebrush/freebies](https://cubebrush.co/marketplace?freebies=true).
 
@@ -414,6 +414,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [Neobarok](http://neobarok.com/) : Intuitive and free 3D modeling software for everyone.
 - [DJV](https://darbyjohnston.github.io/DJV/) : Professional image sequence, media review software for VFX, animation, and film production. [![][repo]](https://github.com/darbyjohnston/DJV)
 - [CineShader](https://cineshader.com/editor) : CineShader is a real-time 3D shader visualiser. It leverages the _Shadertoy_ API to bring thousands of existing shader artworks into a cinematic 3D environment.
+- [SHADERed](https://github.com/dfranx/SHADERed) : is a lightweight tool for creating and testing HLSL and GLSL shaders. 
 - [Light Tracer Render](https://lighttracer.org/) : provides you with everything you need to create photorealistic renderings interactively, in both desktop Web browsers and Windows application.
 - [Tiled](https://www.mapeditor.org/) :  is a general purpose tile map editor for all tile-based games, such as RPGs, platformers or Breakout clones. [![][repo]](https://github.com/bjorn/tiled)
 - Blender Tools:
@@ -643,6 +644,8 @@ Sculpt every day and improve your sculpting skills.
     - ▷[Quick Water Simulation Tutorial in Blender.](https://www.youtube.com/watch?v=_ECgy5hawyY)
     - ▷[How to Create a Mantaflow Fluid Simulation in Blender.](https://www.youtube.com/watch?v=YdUWqkqcxzw)
     - ▷[Advanced Heavy Smoke Simulation in Blender, Easy.](https://www.youtube.com/watch?v=H5oRZonI7a0)
+    - ▷[All Mantaflow Smoke Settings.](https://www.youtube.com/watch?v=soO15rP_h2c)
+    - ▷[All Mantaflow Fluid Settings.](https://www.youtube.com/watch?v=4kV4VJCY7_A)
 - Rigid Body:
     - ▷[Physics in Blender for Absolute Beginners.](https://www.youtube.com/watch?v=KtjJfWlQ8oE)
     - ▷[Create a Ragdoll in under 10 minutes.](https://www.youtube.com/watch?v=AtaG8EqN_nw)
@@ -749,6 +752,7 @@ Sculpt every day and improve your sculpting skills.
     - [blender-debugger-for-vscode](https://github.com/AlansCodeLog/blender-debugger-for-vscode) : Blender addon for remote debugging Blender with VS Code (and Visual Studio).
     - [blender_vscode](https://github.com/JacquesLucke/blender_vscode) : Visual Studio Code extension for Blender development.
     - [blender-cli-rendering](https://github.com/yuki-koyama/blender-cli-rendering) : Python scripts for rendering images using Blender from command-line interface.
+    - [textension](https://github.com/K-410/textension) : Productivity enhancements for Blender's text editor
 - Support:
     - [devtalk/python](https://devtalk.blender.org/c/python/6) : Questions about using and developing the [Blender Python API](https://developer.blender.org/project/view/24/), both for Blender itself and add-ons.
     - [blenderartists/python-support](https://blenderartists.org/c/coding/python-support/19), [stackoverflow/tagged/bpy](https://stackoverflow.com/questions/tagged/bpy)
