@@ -297,12 +297,14 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [3D Warehouse](https://3dwarehouse.sketchup.com/search/) : Download sketchup models.
 - [KitBash3d](https://kitbash3d.com/) [$] : makes premium 3D assets for VFX, concept art and design. Their 3D model kits have immediately been adopted by the industry's top artists, studios. *Get Mini-Kit: [Post-Apocalypse](https://kitbash3d.com/collections/kits/products/mini-kit-post-apocalypse)* for free.
 - [Awesome-3D-Meshes](https://github.com/jvm-graphics-labs/awesome-3d-meshes/) : List of famous 3D meshes.
+- Others:
+    - [Google Poly](https://poly.google.com/blocks), [GrabCAD](https://grabcad.com/library), [Xfree3D](https://vwartclub.com/?section=xfree3d), [Gumroad/free-3d-model](https://gumroad.com/discover?maxPrice=0&query=3d%20model), [Artstation Marketplace/free](https://www.artstation.com/marketplace?sort_by=trending&filter_by=free), [Quaternius's Ultimate Low-Poly Models](http://quaternius.com/index.html), [Cubebrush/freebies](https://cubebrush.co/marketplace?freebies=true).
+- Kitbash Models:
+    - [Free Hard Surface KitBash Models](https://gumroad.com/olegushenok?sort=page_layout&tags=free), [Free sci-fi kitbash set](https://cubebrush.co/polyworkshop/products/audboa/free-sci-fi-kitbash-set-fusion-360-zbrush), [Hard Surface Kitbash Pack](https://gumroad.com/averkin), [3D Kitbashing library](https://gumroad.com/adrianrutkowski), [Kitbash Sci-fi Buildings](https://www.artstation.com/art-mage/store/Vb1A/kitbash-sci-fi-buildings-vol-1-5).
 - VDB Models:
     - [Free VDB Simulations Created With Embergen](https://jangafx.com/software/embergen/download/free-vdb-animations/), [Free Volume Cloud and Smoke](https://gumroad.com/l/PCJDF), [OpenVDB Sample Models](https://www.openvdb.org/download/), [200 Modular OpenVDB Clouds](https://cubebrush.co/byvfx/products/xycqw/200-modular-openvdb-clouds).
 - Scanned Models:
-    - [Scanned Female Head Model by EISKO](https://eisko.com/louise/virtual-model), [Free Hard Surface KitBash Models](https://gumroad.com/olegushenok?sort=page_layout&tags=free), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Scanned Models from Smithsonian](https://3d.si.edu/download-browser), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model), [Public Domain 3D Cultural Heritage](https://sketchfab.com/nebulousflynn/collections/cc0).
-- Others:
-    - [Google Poly](https://poly.google.com/blocks), [GrabCAD](https://grabcad.com/library), [Xfree3D](https://vwartclub.com/?section=xfree3d), [Quaternius's Ultimate Low-Poly Models](http://quaternius.com/assets.html?i=1), [BlenderNation/free-blender-models](https://www.blendernation.com/category/art/free-blender-models/), [Cubebrush/freebies](https://cubebrush.co/marketplace?freebies=true).
+    - [Scanned Female Head Model by EISKO](https://eisko.com/louise/virtual-model), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Scanned Models from Smithsonian](https://3d.si.edu/download-browser), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model), [Public Domain 3D Cultural Heritage](https://sketchfab.com/nebulousflynn/collections/cc0).
 
 ### 🤸🏾‍♀️Mocap/Animation [^](#table)
 - [Mixamo](https://www.mixamo.com/) : Animate 3D characters for games, film, and more.
@@ -310,7 +312,6 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     - [BVH conversions of the Carnegie-Mellon motion capture dataset.](https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture)
 - [motekentertainment/free-samples](http://www.motekentertainment.com/product-category/free-samples/)
 - [turbosquid/motion-capture](https://www.turbosquid.com/Search/Motion-Capture/free/), [sketchfab/animated](https://sketchfab.com/3d-models?features=downloadable+animated&sort_by=-likeCount)
-
 
 ### 🌑Textures [^](#table)
 - [Texture Haven](https://texturehaven.com/textures/index.php?c=all&o=date_published&s=all) : Texture Haven is a website where you can find high quality scanned textures for free, no catch.
@@ -331,7 +332,6 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - Others:
     - [gumroad/lebedev](https://gumroad.com/lebedev), [3d-wolf/textures](https://3d-wolf.com/products/textures.html), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [CGIVault/Textures](https://cgivault.com/product-category/textures/).
 
-
 ### 🌓Blender Materials [^](#table)
 - [Blendermada](http://blendermada.com/materials/) : Free Blender Material Database. also they have an blender [add-on](http://blendermada.com/addon/).
 - [The Blendersauce Vault Materials](http://blendersauce.com/the-blendersauce-vault-2/the-material-vault-categories/) : Abstract, Bricks and Walls, Concrete, Fabric, Fluids, Food, Manmade, Metal, Metal painted Materials, Nature, Plaster, Rocks/Stones, Tiles, Wood.
@@ -344,7 +344,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 
 ### 📁Blender Scenes/Files [^](#table)
 - [Blend Swap](https://www.blendswap.com/blends) : The one place for Open Source Blender files.
-- [blender/demo-files](https://www.blender.org/download/demo-files/), [mantissa/resources](https://mantissa.xyz/resources.php), [gumroad/bluefoxcreation](https://gumroad.com/bluefoxcreation), [gumroad/curtisjamesholt](https://gumroad.com/curtisjamesholt).
+- [blender/demo-files](https://www.blender.org/download/demo-files/), [BlenderNation/free-blender-models](https://www.blendernation.com/category/art/free-blender-models/), [mantissa/resources](https://mantissa.xyz/resources.php), [gumroad/bluefoxcreation](https://gumroad.com/bluefoxcreation), [gumroad/curtisjamesholt](https://gumroad.com/curtisjamesholt).
 - Nodevember Results: [Curtis Holt's Results](https://youtu.be/JhLVzcCl1ug), [Neoyume’s Nodeshaders](https://neoyume.com/en/neoyumes-nodevember-nodeshaders/).
 - Rigged Models: [Dancing Girl](https://gumroad.com/l/mZcjB), [Pikachu](https://www.blendswap.com/blend/23864), [Baqir](https://www.youtube.com/watch?v=UIKuyOP68fA), [Robot](https://gumroad.com/l/luhCU).
 
@@ -563,6 +563,10 @@ _Some accounts where you can find different kinds of content related to blender.
 - [Blender NPR](https://www.youtube.com/user/blendernpr/videos) : Dedicated to Non-Photorealistic and Expressive Rendering.
 - [Martin Klekner](https://www.youtube.com/user/CamperCz/videos) : modeling, texturing.
 - [Danny Mac 3D](https://www.youtube.com/user/djmccabie/videos) : character modeling, posing, rigging, retopology, sculpting.
+- [Daniel Krafft - DSO](https://www.youtube.com/channel/UCojEXrCBzO-cP2N5YlRcrWw/videos) : blender tips, add-ons.
+- [Imphenzia](https://www.youtube.com/user/ImphenziaMusic/videos) : low poly modeling, rigging.
+- [Saqib Hussain](https://www.youtube.com/user/sh2708mf/videos) : modeling, modifiers, texturing, shading.
+- [CrossMind Studio](https://www.youtube.com/channel/UCHihootMqyGz175gqOPahtw/videos) : introduction, modeling, shading, lighting, modifiers.
 
 ### 💻Blogs [^](#table)
 - [Blender Sushi](https://blendersushi.blogspot.com/) : Collection of 3D ideas, poetries and experiments blended in Blender 3D.
@@ -577,6 +581,8 @@ _Some accounts where you can find different kinds of content related to blender.
 - [SculptJanuary](https://cgboost.com/sculptjanuary2020/) : Challenge yourself over 31 days with a set of 31 topics.
 Sculpt every day and improve your sculpting skills.
     - See works: [tw/#sculptjanuary](https://twitter.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?q=sculptjanuary)
+- [36 Days of Type](http://www.36daysoftype.com/) : is a yearly open call inviting designers, illustrators and visual artists to share their view on the letters and numbers from our alphabet.
+    - See works: [tw/#36daysoftype](https://twitter.com/hashtag/36daysoftype), [ig/#36daysoftype](https://www.instagram.com/explore/tags/36daysoftype/), [artstation/36daysoftype](https://www.artstation.com/search?q=36daysoftype)
 
 ### 🎉Events [^](#table)
 - [Blender Conference](https://conference.blender.org/) : The yearly Blender Conference in Amsterdam. (Playlists: [Bcon19](https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S), [Bcon18](https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B), [Bcon17](https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO)).
@@ -675,6 +681,7 @@ Sculpt every day and improve your sculpting skills.
 - ▷[Create Loop Animations.](https://www.youtube.com/watch?v=Uq4OLSRgSQE)
 - ☰[Blender Animation (Speed Tutorials) by Royal Skies LLC.](https://www.youtube.com/playlist?list=PLZpDYt0cyiuu7XqpZ8_rXJG9x26JK7UCr)
 - ☰[Blender Rigging (Speed Tutorials) by Royal Skies LLC.](https://www.youtube.com/playlist?list=PLZpDYt0cyiuuc3QpFeHxGqNpVf5couDeI)
+- ▷[Quick Smooth Camera Movements.](https://www.youtube.com/watch?v=a7qyW1G350g)
 
 ### 🌌Animation Nodes [^](#table)
 - 🧾[Animation Nodes Manual.](https://animation-nodes-manual.readthedocs.io/en/latest/user_guide/getting_started/interface.html) 
