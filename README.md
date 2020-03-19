@@ -122,10 +122,11 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [Floorboard Generator](https://blenderartists.org/t/a-floor-board-generator/582368/195) : generate floor board. [![][repo]](https://github.com/importbpy/Floorboard-Generator)
 - [Piperator](https://blenderartists.org/t/a-floor-board-generator/582368/195) : is an addon for blender which helps generating complex pipe layouts.
 - [mesh_maze](https://github.com/elfnor/mesh_maze) : Blender add-on to generate a maze on any mesh.
+- [BookGen](https://oweissbarth.de/software/book-gen-blender-addon/) : is a free book-generation addon for Blender.
 
 ### 🧊Modeling [^](#table)
 - [Sorcar](https://aachman98.itch.io/sorcar) : Procedural modeling in Blender using Node Editor. [![][repo]](https://github.com/aachman98/Sorcar)
-- [Sverchok](http://nikitron.cc.ua/sverchok_en.html) : is a powerful parametric tool for architects, allowing geometry to be programmed visually with nodes. [![][repo]](https://github.com/nortikin/sverchok)
+- [Sverchok](http://nikitron.cc.ua/sverchok_en.html) : is a powerful parametric tool for architects, allowing geometry to be programmed visually with nodes. [(sverchok-extra)](https://github.com/portnov/sverchok-extra) [![][repo]](https://github.com/nortikin/sverchok)
 - [MACHIN3tools](https://gumroad.com/l/MACHIN3tools) : is a free, continuously evolving collection of blender tools and pie menus in a single customizable package. [![][repo]](https://github.com/machin3io/MACHIN3tools) [[market]](https://blendermarket.com/products/MACHIN3tools)
 - [QBlocker](https://qblockerdocs.readthedocs.io/) :  is an interactive object creation tool for Blender.
 - [fspy](https://fspy.io/) : is an open-source camera matching app, extremely useful for modeling directly from a reference image. [(blender addon)](https://github.com/stuffmatic/fSpy-Blender)
@@ -136,6 +137,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [BezierUtility](https://github.com/Shriinivas/blenderbezierutils) : this add-on contains several tools for working with Bezier curves.
 - [Mesh Heal](https://blenderartists.org/t/mesh-heal/1117095) : is an add-on for Blender, it includes additional Blender operators for healing surface meshes.
 - [JewelCraft](https://github.com/mrachinskiy/jewelcraft) : jewelry design toolkit add-on for Blender.
+- [Box Select X-Ray](https://blenderartists.org/t/box-select-x-ray/1212316) : modified box select tool that automatically toggles x-ray mode on and off during selection.
 - Retopology/Remesh:
     - [retopoflow](https://blendermarket.com/products/retopoflow)  : a suite of retopology tools for Blender. [![][repo]](https://github.com/CGCookie/retopoflow)
     - [InstantMeshesRemesh](https://blenderartists.org/t/instant-meshes-remesh/1114982)  : a suite of retopology tools for Blender. [![][repo]](https://github.com/knekke/blender_addons#instantmeshesremesh)
@@ -154,6 +156,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     - [Poly Source](https://gumroad.com/l/polysource) : is designed to simplify the control of the number of different types of polygons. You can see how many Gone, Quad and Tris are on the active object.
 - Sculpt:
     - [Speedsculpt](https://gumroad.com/l/SpeedSculpt) [$] : The addon allows you to create very fast characters, to manage Dyntopo Sculpting with booleans, cut curves, skin modifier, decimate, mask etc.
+    - [Blender-Sculpt-Tools](https://github.com/anfeo/Blender-Sculpt-Tools) : addon for help sculpting base mesh like Zbrush with Zsphere.
 - Snapping-Align:
     - [Mesh Align Plus](https://github.com/egtwobits/mesh_mesh_align_plus) : precisely align, move, and measure+match objects and mesh parts in your 3D scenes.
     - [Easy Align](https://blenderartists.org/t/addon-easy-align/685704) : Easy Align addon allows you to align mesh objects origins and align mesh objects to each others easily, it works in both Edit mode and Object mode. [![][repo]](https://github.com/sergeod9/Easy_Align_Addon)
@@ -183,6 +186,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     - [JiggleArmature](https://cheece.github.io/JiggleArmature/) : is an easy way to create wiggle effects in blender, just enable jiggle bone on the bones you want to be jiggly. [![][repo]](https://github.com/cheece/JiggleArmature)
     - [Rigacar](https://github.com/digicreatures/rigacar) : generate rig for cars.
     - [RigFlex](https://github.com/nerk987/RigFlex) : simple soft body for Blender armatures.
+    - [rigid bodys generator](https://github.com/12funkeys/rigid_bodys_gen) : Blender addon to add Rigid bones and Joints on selected bones easily.
 
 ### 🦖Game Engine [^](#table)
 -  [Armory](https://armory3d.org/) : is an open-source 3D game engine with full Blender integration. [![][repo]](https://github.com/armory3d/armory)
@@ -190,11 +194,15 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -  [Arsenal](https://katharostech.github.io/arsenal) : is a Blender integrated game engine written in Rust. [![][repo]](https://github.com/katharostech/arsenal)
 
 ### 🗜Render Engine [^](#table)
-- [appleseed](https://appleseedhq.net/) : is an open source, physically-based global illumination rendering engine primarily designed for animation and visual effects. [![][repo]](https://github.com/appleseedhq/appleseed)
+- [appleseed](https://appleseedhq.net/) : is an open source, physically-based global illumination rendering engine primarily designed for animation and visual effects. [![][repo]](https://github.com/appleseedhq/appleseed) [(blender addon)](https://github.com/appleseedhq/blenderseed)
 - [LuxCore](https://luxcorerender.org/) : LuxCoreRender is a physically based and unbiased rendering engine. It offers advanced features like accelerated rendering of indirect light and efficient rendering of caustics. [![][repo]](https://github.com/LuxCoreRender/BlendLuxCore)
 - [E-Cycles](https://blendermarket.com/products/e-cycles) [$] : is a fork of Cycles which renders up to 2.5x faster out of the box when using CUDA GPUs, up to 15x using new options.
 - [AMD Radeon ProRender](https://www.amd.com/en/technologies/radeon-prorender-blender) : This Radeon ProRender plug-in for Blender ​is a feature rich solution which enables the user to render high quality images of their models.
 - [Pixar's RenderMan for Blender](https://github.com/tyler-furby/RenderManForBlender) : physically-based render from Pixar. Not officially supported 2.8 there are bunch of plugins made by blender community. [[more info]](https://blenderartists.org/t/pixar-renderman-for-blender/646404/650)
+- [Blender Octane Render](https://render.otoy.com/forum/viewtopic.php?f=7&t=72241) : fully integrated Octane Render, free tier.
+    - [🧾OctaneRender for Blender Plugin Manual.](https://docs.otoy.com/BlenderH/BlenderPluginManual.htm)
+    - [OTOY Forums/Blender](https://render.otoy.com/forum/viewforum.php?f=32).
+    - [Quixel Megascans Plugin for Octane Edition](https://github.com/Yichen-Dou/MSLiveLink-OC-Blender).
 - [Redshift Blender Plugin Alpha](https://trello.com/c/umeZ5JvZ/4-blender-plugin-alpha) : Redshift Trello page has been updated with a new Blender IPR Preview video. The Plug-in is currently in development. [(video)](https://www.youtube.com/watch?v=udv1uILubzM)
 
 ### 🔳Texture/UV [^](#table)
@@ -224,20 +232,23 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     - [Gaffer](https://github.com/gregzaal/Gaffer) : is a Blender add-on that helps you light your scenes by presenting all the right settings in convenient panels for quick access and experimentation. [[market]](https://blendermarket.com/products/gaffer-light-manager/)
     - [Blender Interplanety Storage](https://blenderartists.org/t/bis-online-material-storage/689728) : the online material (shader) storage add-on for Blender 3D creation. With the BIS add-on, you can save materials (groups of nodes) to the online personal library and then convenient search and upload them.
     - [Asset Wizard](https://blenderartists.org/t/asset-wizard-for-blender-2-8/1149311) : is a asset management addon.
+- Geographic/Maps:
+    - [BlenderGIS](https://github.com/domlysz/BlenderGIS) : Blender addons to make the bridge between Blender and geographic data.
+    - [Maps Models Importer](https://github.com/eliemichel/MapsModelsImporter) : a Blender add-on to import models from *Google Maps*. [[more info]](https://blog.exppad.com/article/importing-actual-3d-models-from-google-maps)
+    - [blender-osm](https://gumroad.com/l/blender-osm) : One click download and import of OpenStreetMap and terrain for Blender.
 - VR/AR 
     - [blender-xr](https://www.marui-plugin.com/blender-xr/) : a free virtual and mixed reality user interface for Blender that enables artists to edit scenes within the software using a suitable headset and controllers.
     - [Blender-Metaverse-Addon](https://github.com/Menithal/Blender-Metaverse-Addon) : blender toolset for creating content for Metaverses like High Fidelity.
 - ArcViz
     - [JARCH-Vis](https://blenderartists.org/t/addon-jarch-vis/642607) : is add-on for Blender 3D that helps create commonly used object for architectural visualization. [![][repo]](https://github.com/BlendingJake/JARCH-Vis)
 - Import:
-    - [glTF](https://github.com/KhronosGroup/glTF-Blender-IO/tree/blender-v2.82-release), [Rhinoceros3D files](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [PLY files](https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280), [SVG](https://github.com/Shriinivas/shapekeyimport), [GIF](https://github.com/doakey3/Bligify), Quake [BSP](https://blenderartists.org/t/quake-1996-game-bsp-import-script/578191) [MD3](https://github.com/axredneck/blender-md3/tree/blender2.8).
-    - [BlenderGIS](https://github.com/domlysz/BlenderGIS) : Blender addons to make the bridge between Blender and geographic data.
-    - [Maps Models Importer](https://github.com/eliemichel/MapsModelsImporter) : a Blender add-on to import models from *Google Maps*. [[more info]](https://blog.exppad.com/article/importing-actual-3d-models-from-google-maps)
+    - [glTF](https://github.com/KhronosGroup/glTF-Blender-IO/tree/blender-v2.82-release), [Rhinoceros3D files](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [SVG](https://github.com/Shriinivas/shapekeyimport), [GIF](https://github.com/doakey3/Bligify), Quake: [BSP](https://blenderartists.org/t/quake-1996-game-bsp-import-script/578191) [MD3](https://github.com/axredneck/blender-md3/tree/blender2.8).
 - Export:
-    - [USDZ](https://github.com/robmcrosby/BlenderUSDZ), [to ZBrush](https://blenderartists.org/t/goz-for-blender-2-8/1138418), [VTK](https://github.com/tkeskita/io_mesh_vtk), [Bezier2SVG](https://leomoon.com/downloads/plugins/leomoon-bezier2svg/).
+    - [USDZ](https://github.com/robmcrosby/BlenderUSDZ), [to ZBrush](https://blenderartists.org/t/goz-for-blender-2-8/1138418), [VTK](https://github.com/tkeskita/io_mesh_vtk), [Bezier2SVG](https://leomoon.com/downloads/plugins/leomoon-bezier2svg/), [Panda3D](https://github.com/Moguri/blend2bam), [EGG](https://github.com/kergalym/YABEE), [XRay-engine](https://github.com/PavelBlend/blender-xray).
     - [Export Paper Model from Blender](https://addam.github.io/Export-Paper-Model-from-Blender/) : add-on for creating paper models. [![][repo]](https://github.com/addam/Export-Paper-Model-from-Blender)
 - Render:
     - [BatchRender](https://github.com/VertStretch/RenderBurst), [Notify](https://github.com/Dziban-dev/Notify_Blender_Render), [AlarmShutdown](https://gumroad.com/l/PcDfw), [RenderButton](https://github.com/Mitsuma/Blender2.8-RenderButton).
+    - [Eevee Presets](https://github.com/danielenger/Eevee-Presets) : Save Eevee Presets.
 - Camera:
     - [Real Camera](https://3d-wolf.com/products/camera.html) : is an addon that allows you to control the Blender camera like a real camera. [![][repo]](https://github.com/macio97/Real-Camera)
     - [Cameras-Lister](https://github.com/Ryxx/Cameras-Lister) : Easy select camera’s in popup shortcut is Alt-C.
@@ -254,6 +265,10 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     - [VSEQF](https://github.com/snuq/VSEQF) : is an overhaul for Blender's VSE that can completely change your workflow. Designed for quick, mouse and keyboard balanced editing with a focus on real-time feedback.
     - [Freesound Add-on](https://github.com/iwkse/freesound/tree/freesound-2.0) : is an addon for Blender that allows users to create and edit subtitles for movies or music. 
     - [Subsimport](https://github.com/doakey3/Subsimport) : is an addon for Blender that allows users to create and edit subtitles for movies or music.
+- Photogrammetry:
+    - [Photogrammetry Importer](https://github.com/SBCV/Blender-Addon-Photogrammetry-Importer)  : Addon to import different photogrammetry formats into Blender.
+    - [blender_kitti](https://github.com/risteon/blender_kitti)  : Render large point clouds and voxel grids with blender.
+    - [Point Cloud Visualizer](https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280) : Display, edit, filter, render, convert, generate and export colored point cloud PLY files.
 - AddonCollections: [varkenvarken/blenderaddons](https://github.com/varkenvarken/blenderaddons), [uhlik/bpy](https://github.com/uhlik/bpy), [YuriyAndropov/blenderPython](https://github.com/YuriyAndropov/blenderPython), [bookyakuno/-Blender-](https://github.com/bookyakuno/-Blender-), [Stromberg90/Scripts](https://github.com/Stromberg90/Scripts/tree/master/Blender), [ethanaeris](https://gist.github.com/ethanaeris/).
 - [Projectors](https://github.com/Ocupe/Projectors) : a blender add-on for simple projector creation and modification.
 - [LeoMoon LightStudio](https://leomoon.com/downloads/plugins/leomoon-lightstudio/) : lighting system for Blender.
@@ -266,6 +281,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [HDRI Sun Aligner](https://github.com/akej74/hdri-sun-aligner) : HDRI Sun Aligner is a Blender 2.8 addon for automatically rotating an object (e.g. a sun) to match the brightest point in a HDRI environment texture.
 - [Modifier List](https://blenderartists.org/t/modifier-list-1-5-1/1147752) : Alternative UI layout for modifiers with handy features. Available also inside the sidebar and as a popup.
 - [NodeCustomBuilder](https://blenderartists.org/t/nodecustombuilder-2-8-free-addon/1152185) : preset system for nodes.
+- [Verge3D](https://www.soft8soft.com/get-verge3d/) : is a powerful yet cost-efficient solution for creating interactive 3D web experiences.
 - [Vertex Oven](https://github.com/ForestKatsch/VertexOven)  : bake game-ready ambient occlusion in seconds without UV unwrapping or agonizingly slow Cycles bakes. [[market]](https://blendermarket.com/products/vertex-oven)
 
 ### 🎴Themes [^](#table)
@@ -304,7 +320,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - VDB Models:
     - [Free VDB Simulations Created With Embergen](https://jangafx.com/software/embergen/download/free-vdb-animations/), [Free Volume Cloud and Smoke](https://gumroad.com/l/PCJDF), [OpenVDB Sample Models](https://www.openvdb.org/download/), [200 Modular OpenVDB Clouds](https://cubebrush.co/byvfx/products/xycqw/200-modular-openvdb-clouds).
 - Scanned Models:
-    - [Scanned Female Head Model by EISKO](https://eisko.com/louise/virtual-model), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Scanned Models from Smithsonian](https://3d.si.edu/download-browser), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model), [Public Domain 3D Cultural Heritage](https://sketchfab.com/nebulousflynn/collections/cc0).
+    - [Scanned Female Head Model by EISKO](https://eisko.com/louise/virtual-model), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Scanned Models from Smithsonian](https://3d.si.edu/explore), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model), [Public Domain 3D Cultural Heritage](https://sketchfab.com/nebulousflynn/collections/cc0).
 
 ### 🤸🏾‍♀️Mocap/Animation [^](#table)
 - [Mixamo](https://www.mixamo.com/) : Animate 3D characters for games, film, and more.
@@ -398,11 +414,9 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 ## 📥Standalone [^](#table)
 
 ### Builds [^](#table)
-- [Blender Octane Render](https://render.otoy.com/forum/viewtopic.php?f=7&t=72241) : fully integrated Octane Render, free tier.
-    - [🧾OctaneRender for Blender Plugin Manual.](https://docs.otoy.com/BlenderH/BlenderPluginManual.htm)
-    - [OTOY Forums/Blender](https://render.otoy.com/forum/viewforum.php?f=32).
-    - [Quixel Megascans Plugin for Octane Edition](https://github.com/Yichen-Dou/MSLiveLink-OC-Blender).
 - [Bforartists](https://github.com/Bforartists/Bforartists) : is a fork of the Blender, with the goal to change the UI.
+- [Open Mesh Effect for Blender](https://github.com/eliemichel/OpenMeshEffectForBlender) : This is an edited version of Blender including an Open Mesh Effects based modifier.
+- [Blender.Community/GraphicAll](https://blender.community/c/graphicall/) : Blender builds for the masses.
 
 ### Various Tools [^](#table)
 - [MeshLab](http://www.meshlab.net/) : open source system for processing and editing 3D triangular meshes. [![][repo]](https://github.com/cnr-isti-vclab/meshlab)
@@ -419,7 +433,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [CineShader](https://cineshader.com/editor) : CineShader is a real-time 3D shader visualiser. It leverages the _Shadertoy_ API to bring thousands of existing shader artworks into a cinematic 3D environment.
 - [SHADERed](https://github.com/dfranx/SHADERed) : is a lightweight tool for creating and testing HLSL and GLSL shaders. 
 - [Light Tracer Render](https://lighttracer.org/) : provides you with everything you need to create photorealistic renderings interactively, in both desktop Web browsers and Windows application.
-- [Tiled](https://www.mapeditor.org/) :  is a general purpose tile map editor for all tile-based games, such as RPGs, platformers or Breakout clones. [![][repo]](https://github.com/bjorn/tiled)
+- [Tiled](https://www.mapeditor.org/) : is a general purpose tile map editor for all tile-based games, such as RPGs, platformers or Breakout clones. [![][repo]](https://github.com/bjorn/tiled)
 - Blender Tools:
     - [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater) : download and install nightly builds with one click.
     - [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : command line version of BlenderUpdater.
@@ -583,6 +597,7 @@ Sculpt every day and improve your sculpting skills.
     - See works: [tw/#sculptjanuary](https://twitter.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?q=sculptjanuary)
 - [36 Days of Type](http://www.36daysoftype.com/) : is a yearly open call inviting designers, illustrators and visual artists to share their view on the letters and numbers from our alphabet.
     - See works: [tw/#36daysoftype](https://twitter.com/hashtag/36daysoftype), [ig/#36daysoftype](https://www.instagram.com/explore/tags/36daysoftype/), [artstation/36daysoftype](https://www.artstation.com/search?q=36daysoftype)
+- Competitions: [/r/blender: contest](https://www.reddit.com/r/blender/), [blenderartists.org/contest](https://blenderartists.org/c/contests).
 
 ### 🎉Events [^](#table)
 - [Blender Conference](https://conference.blender.org/) : The yearly Blender Conference in Amsterdam. (Playlists: [Bcon19](https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S), [Bcon18](https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B), [Bcon17](https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO)).
@@ -762,7 +777,9 @@ Sculpt every day and improve your sculpting skills.
     - [blender-debugger-for-vscode](https://github.com/AlansCodeLog/blender-debugger-for-vscode) : Blender addon for remote debugging Blender with VS Code (and Visual Studio).
     - [blender_vscode](https://github.com/JacquesLucke/blender_vscode) : Visual Studio Code extension for Blender development.
     - [blender-cli-rendering](https://github.com/yuki-koyama/blender-cli-rendering) : Python scripts for rendering images using Blender from command-line interface.
+    - [render-useful](https://github.com/ldo/render-useful) : Command-line tools for Blender renders.
     - [textension](https://github.com/K-410/textension) : Productivity enhancements for Blender's text editor
+    - [blender_autocomplete](https://github.com/K-410/textension) : Autocomplete modules for Blender python API.
 - Support:
     - [devtalk/python](https://devtalk.blender.org/c/python/6) : Questions about using and developing the [Blender Python API](https://developer.blender.org/project/view/24/), both for Blender itself and add-ons.
     - [blenderartists/python-support](https://blenderartists.org/c/coding/python-support/19), [stackoverflow/tagged/bpy](https://stackoverflow.com/questions/tagged/bpy)
