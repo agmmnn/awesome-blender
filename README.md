@@ -120,7 +120,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [Sprytile](https://github.com/ologon/Sprytile) : a blender add-on for building tile based low-poly scenes with paint/map editor like tools. [[more info]](https://itch.io/post/1034106)
 - [Celtic Knot](https://github.com/BorisTheBrave/celtic-knot/wiki/Gallery) : generate bezier curves, pipes and ribbons in elaborate weavings, based off of a framework mesh.
 - [Floorboard Generator](https://blenderartists.org/t/a-floor-board-generator/582368/195) : generate floor board. [![][repo]](https://github.com/importbpy/Floorboard-Generator)
-- [Piperator](https://blenderartists.org/t/a-floor-board-generator/582368/195) : is an addon for blender which helps generating complex pipe layouts.
+- [Piperator](https://blenderartists.org/t/blender-addon-piperator-generation-of-pipe-networks-new-version-with-vertex-color-pipe-control/1186693) : is an addon for blender which helps generating complex pipe layouts.
 - [mesh_maze](https://github.com/elfnor/mesh_maze) : Blender add-on to generate a maze on any mesh.
 - [BookGen](https://oweissbarth.de/software/book-gen-blender-addon/) : is a free book-generation addon for Blender.
 
@@ -311,14 +311,15 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [TurboSquid](https://www.turbosquid.com/Search/3D-Models/free) : Free models from turbosquid
 - [Clara.io](https://clara.io/library) : Free 3D Modeling, Rendering, Sharing and Models.
 - [3D Warehouse](https://3dwarehouse.sketchup.com/search/) : Download sketchup models.
-- [KitBash3d](https://kitbash3d.com/) [$] : makes premium 3D assets for VFX, concept art and design. Their 3D model kits have immediately been adopted by the industry's top artists, studios. *Get Mini-Kit: [Post-Apocalypse](https://kitbash3d.com/collections/kits/products/mini-kit-post-apocalypse)* for free.
+- [KitBash3d](https://kitbash3d.com/) [$] : makes premium 3D assets for VFX, concept art and design. Their 3D model kits have immediately been adopted by the industry's top artists, studios.
+    - *Get [Mini-Kit: Post-Apocalypse](https://kitbash3d.com/collections/kits/products/mini-kit-post-apocalypse)* for free. *Get [Utopia Kit](https://kitbash3d.com/blogs/news/free-utopia-kit-for-brightartdarktimes)* for free. 
 - [Awesome-3D-Meshes](https://github.com/jvm-graphics-labs/awesome-3d-meshes/) : List of famous 3D meshes.
 - Others:
     - [Google Poly](https://poly.google.com/blocks), [GrabCAD](https://grabcad.com/library), [Xfree3D](https://vwartclub.com/?section=xfree3d), [Gumroad/free-3d-model](https://gumroad.com/discover?maxPrice=0&query=3d%20model), [Artstation Marketplace/free](https://www.artstation.com/marketplace?sort_by=trending&filter_by=free), [Quaternius's Ultimate Low-Poly Models](http://quaternius.com/index.html), [Cubebrush/freebies](https://cubebrush.co/marketplace?freebies=true).
 - Kitbash Models:
     - [Free Hard Surface KitBash Models](https://gumroad.com/olegushenok?sort=page_layout&tags=free), [Free sci-fi kitbash set](https://cubebrush.co/polyworkshop/products/audboa/free-sci-fi-kitbash-set-fusion-360-zbrush), [Hard Surface Kitbash Pack](https://gumroad.com/averkin), [3D Kitbashing library](https://gumroad.com/adrianrutkowski), [Kitbash Sci-fi Buildings](https://www.artstation.com/art-mage/store/Vb1A/kitbash-sci-fi-buildings-vol-1-5).
 - VDB Models:
-    - [Free VDB Simulations Created With Embergen](https://jangafx.com/software/embergen/download/free-vdb-animations/), [Free Volume Cloud and Smoke](https://gumroad.com/l/PCJDF), [OpenVDB Sample Models](https://www.openvdb.org/download/), [200 Modular OpenVDB Clouds](https://cubebrush.co/byvfx/products/xycqw/200-modular-openvdb-clouds).
+    - [Free VDB Simulations Created With Embergen](https://jangafx.com/software/embergen/download/free-vdb-animations/), [OpenVDB Sample Models](https://www.openvdb.org/download/), [disneyanimation.com/clouds](https://www.technology.disneyanimation.com/clouds), [Free Volume Cloud and Smoke](https://gumroad.com/l/PCJDF), [200 Modular OpenVDB Clouds](https://cubebrush.co/byvfx/products/xycqw/200-modular-openvdb-clouds).
 - Scanned Models:
     - [Scanned Female Head Model by EISKO](https://eisko.com/louise/virtual-model), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Scanned Models from Smithsonian](https://3d.si.edu/explore), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model), [Public Domain 3D Cultural Heritage](https://sketchfab.com/nebulousflynn/collections/cc0).
 
@@ -326,6 +327,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [Mixamo](https://www.mixamo.com/) : Animate 3D characters for games, film, and more.
 - [Carnegie-Mellon University Graphics Lab Motion Capture Database](http://mocap.cs.cmu.edu/) : contains 2548 free human motion captures.
     - [BVH conversions of the Carnegie-Mellon motion capture dataset.](https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture)
+- [150 free mocap moves from Rokoko’s Motion Library](https://www.rokoko.com/en/downloads) [(blender addon)](https://github.com/RokokoElectronics/rokoko-studio-live-blender)
 - [motekentertainment/free-samples](http://www.motekentertainment.com/product-category/free-samples/)
 - [turbosquid/motion-capture](https://www.turbosquid.com/Search/Motion-Capture/free/), [sketchfab/animated](https://sketchfab.com/3d-models?features=downloadable+animated&sort_by=-likeCount)
 
@@ -342,6 +344,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [Texture Box](https://texturebox.com/) : We are making free textures for 3D Artists from all over the world. Also, we offer custome texture services.
 - [Texture Fun](https://texturefun.com/) : Free PBR texture sets of common architectural materials, including some nice tile textures.
 - [Textures.com](https://www.textures.com/) [$] : is a website that offers digital pictures of all sorts of materials. Sign up for free and download 15 free images every day!
+- [Substance Share](https://share.substance3d.com/) : the free exchange platform for the Substance community.
 - [Substance Source/freebies](https://source.substance3d.com/allassets?free=true) [$] : Hundreds of high quality PBR materials.
 - [Poliigon/freebies](https://www.poliigon.com/search?type=all&refine_by=assets-free) [$] : A library of materials, and HDR's for artists including free textures that want photorealism.
 - [Texturing.xyz](https://texturing.xyz/) [$] : Our textures are used in the biggest and industry-leading VFX companies, and help them achieving their goals faster.
@@ -433,6 +436,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [CineShader](https://cineshader.com/editor) : CineShader is a real-time 3D shader visualiser. It leverages the _Shadertoy_ API to bring thousands of existing shader artworks into a cinematic 3D environment.
 - [SHADERed](https://github.com/dfranx/SHADERed) : is a lightweight tool for creating and testing HLSL and GLSL shaders. 
 - [Light Tracer Render](https://lighttracer.org/) : provides you with everything you need to create photorealistic renderings interactively, in both desktop Web browsers and Windows application.
+- [EmberGen](https://jangafx.com/software/embergen/) [$] :  is a real-time volumetric fluid simulation tool that can instantly simulate, render, and export flipbooks, image sequences, and VDB volumes.
 - [Tiled](https://www.mapeditor.org/) : is a general purpose tile map editor for all tile-based games, such as RPGs, platformers or Breakout clones. [![][repo]](https://github.com/bjorn/tiled)
 - Blender Tools:
     - [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater) : download and install nightly builds with one click.
