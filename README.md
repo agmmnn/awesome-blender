@@ -141,6 +141,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [JewelCraft](https://github.com/mrachinskiy/jewelcraft) : jewelry design toolkit add-on for Blender.
 - [Box Select X-Ray](https://blenderartists.org/t/box-select-x-ray/1212316) : modified box select tool that automatically toggles x-ray mode on and off during selection.
 - [Polysweeper](https://blenderartists.org/t/polysweeper-0-81/1147066) : is a tool to sweep a face profile along a face loop.
+- [Edit Split Normals](https://twitter.com/Oscurart/status/1243226933464268802) : Edit normals like meshes.
 - Retopology/Remesh:
     - [retopoflow](https://blendermarket.com/products/retopoflow)  : a suite of retopology tools for Blender. [![][repo]](https://github.com/CGCookie/retopoflow)
     - [InstantMeshesRemesh](https://blenderartists.org/t/instant-meshes-remesh/1114982)  : a suite of retopology tools for Blender. [![][repo]](https://github.com/knekke/blender_addons#instantmeshesremesh)
@@ -207,7 +208,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     - [🧾OctaneRender for Blender Plugin Manual.](https://docs.otoy.com/BlenderH/BlenderPluginManual.htm)
     - [OTOY Forums/Blender](https://render.otoy.com/forum/viewforum.php?f=32).
     - [Quixel Megascans Plugin for Octane Edition](https://github.com/Yichen-Dou/MSLiveLink-OC-Blender).
-- [Redshift Blender Plugin Alpha](https://trello.com/c/umeZ5JvZ/4-blender-plugin-alpha) : Redshift Trello page has been updated with a new Blender IPR Preview video. The Plug-in is currently in development. [(video)](https://www.youtube.com/watch?v=udv1uILubzM)
+- *[Redshift Blender Plugin Alpha](https://trello.com/c/umeZ5JvZ/4-blender-plugin-alpha) : Redshift Trello page has been updated with a new Blender IPR Preview video. The Plug-in is currently in development. [(video)](https://www.youtube.com/watch?v=udv1uILubzM)
 
 ### 🔳Texture/UV [^](#table)
 - [Poliigon Uber Mapping Node](https://www.dropbox.com/s/b8p5nmg7evqbsd6/PoliigonUberMapping_v1.0.blend) : anti-tile node setup for blender. [[more info]](https://youtu.be/CQ9VmCN2EsE?t=456)
@@ -283,7 +284,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     - [Photogrammetry Importer](https://github.com/SBCV/Blender-Addon-Photogrammetry-Importer)  : Addon to import different photogrammetry formats into Blender.
     - [blender_kitti](https://github.com/risteon/blender_kitti)  : Render large point clouds and voxel grids with blender.
     - [Point Cloud Visualizer](https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280) : Display, edit, filter, render, convert, generate and export colored point cloud PLY files.
-- AddonCollections: [varkenvarken/blenderaddons](https://github.com/varkenvarken/blenderaddons), [uhlik/bpy](https://github.com/uhlik/bpy), [YuriyAndropov/blenderPython](https://github.com/YuriyAndropov/blenderPython), [bookyakuno/-Blender-](https://github.com/bookyakuno/-Blender-), [Stromberg90/Scripts](https://github.com/Stromberg90/Scripts/tree/master/Blender), [ethanaeris](https://gist.github.com/ethanaeris/).
+- AddonCollections: [varkenvarken/blenderaddons](https://github.com/varkenvarken/blenderaddons), [uhlik/bpy](https://github.com/uhlik/bpy), [YuriyAndropov/blenderPython](https://github.com/YuriyAndropov/blenderPython), [bookyakuno/-Blender-](https://github.com/bookyakuno/-Blender-), [Stromberg90/Scripts](https://github.com/Stromberg90/Scripts/tree/master/Blender), [ethanaeris](https://gist.github.com/ethanaeris/), [oscurart](https://github.com/oscurart/Blender-28-Addons).
 - [Projectors](https://github.com/Ocupe/Projectors) : a blender add-on for simple projector creation and modification.
 - [Shape Keys+](https://blenderartists.org/t/shape-keys/680636) : adds a panel with extra options for creating, sorting, viewing, and driving shape keys.
 - [Simple Renaming Panel](https://github.com/Weisl/simple_renaming_panel) : rename more objects at once. The tool includes basic functionalities of adding suffixes, prefixes, search and replace, add suffixes depending on the object type and much more.
@@ -293,6 +294,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [Modifier List](https://blenderartists.org/t/modifier-list-1-5-1/1147752) : Alternative UI layout for modifiers with handy features. Available also inside the sidebar and as a popup.
 - [Verge3D](https://www.soft8soft.com/get-verge3d/) : is a powerful yet cost-efficient solution for creating interactive 3D web experiences.
 - [CubeSter](https://github.com/BlendingJake/CubeSter) : is an add-on for Blender 3D that takes an image or audio file and converts it into a height-based mesh object.
+- [Tilecam](https://github.com/stuffmatic/tilecam) : render seamlessly repeatable images.
 
 ### 🎴Themes [^](#table)
 - [Blender Pro](https://github.com/paulcoops/blender_pro-theme), [80's](https://gumroad.com/l/fWkBi), [Xsi Winter](https://blenderartists.org/t/theme-xsi-winter-pro-blender-2-80/1177994), [Awesome](https://blenderartists.org/t/awesome-theme-for-blender-2-8/1120656), [Fresh Snow](https://devtalk.blender.org/t/call-for-content-themes/3174/345), [Nord](https://devtalk.blender.org/t/call-for-content-themes/3174/382).
@@ -354,13 +356,16 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [3DXO](https://www.3dxo.com) : Free 3D Models, seamless Textures, Backgrounds, Photos & Graphics.
 - [Texture Box](https://texturebox.com/) : We are making free textures for 3D Artists from all over the world. Also, we offer custome texture services.
 - [Texture Fun](https://texturefun.com/) : Free PBR texture sets of common architectural materials, including some nice tile textures.
+- [C4D Center](https://c4dcenter.com/material-library/) : Free C4D Materials created with High Quality Texture Maps for instant download and no limits, Free for Personal and Commercial Use.
+- [WildTextures](https://www.wildtextures.com/) : Free high resolution textures and patterns for commercial or personal use.
 - [Textures.com](https://www.textures.com/) [$] : is a website that offers digital pictures of all sorts of materials. Sign up for free and download 15 free images every day!
 - [Substance Share](https://share.substance3d.com/) : the free exchange platform for the Substance community.
 - [Substance Source/freebies](https://source.substance3d.com/allassets?free=true) [$] : Hundreds of high quality PBR materials.
+- [ScansLibrary](https://beta.scanslibrary.com/library?credit=0) [$] : Digital marketplace with thousands of Real-World scans.
 - [Poliigon/freebies](https://www.poliigon.com/search?type=all&refine_by=assets-free) [$] : A library of materials, and HDR's for artists including free textures that want photorealism.
 - [Texturing.xyz](https://texturing.xyz/) [$] : Our textures are used in the biggest and industry-leading VFX companies, and help them achieving their goals faster.
 - Others:
-    - [gumroad/lebedev](https://gumroad.com/lebedev), [3d-wolf/textures](https://3d-wolf.com/products/textures.html), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [CGIVault/Textures](https://cgivault.com/product-category/textures/).
+    - [gumroad/juliosillet](https://gumroad.com/juliosillet), [gumroad/lebedev](https://gumroad.com/lebedev), [3d-wolf/textures](https://3d-wolf.com/products/textures.html), [Pixar/CommunityResources](https://renderman.pixar.com/community_resources), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [30 Displacement Maps](https://gumroad.com/l/xsQTf), [Texture Hunt Collection](https://gumroad.com/l/texturehunt), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [gumroad/corneliusdammrich](https://gumroad.com/corneliusdammrich), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [EveryTexture.com](https://everytexture.com/), [3DJungle.net](https://3djungle.net/textures/) [Architecture Inspirations](https://www.archinspirations.com/materials), [CGTrader/textures](https://www.cgtrader.com/free-3d-models/textures), [CGIVault/Textures](https://cgivault.com/product-category/textures/).
 
 ### 🌓Blender Materials [^](#table)
 - [Blendermada](http://blendermada.com/materials/) : Free Blender Material Database. also they have an blender [add-on](http://blendermada.com/addon/).
@@ -370,7 +375,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - Sketch/Toon Shaders:
     - [BNPR' Shaders](https://blendernpr.org/downloads/), [Eevee Comics Shader v3.0](https://gumroad.com/l/JWdjJ), [Erisdraw3D's](https://twitter.com/Erisdraw3D/status/1216755574735503361), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [Komikaze[$]](https://blendermarket.com/products/komikaze)(Free: [Aqua](https://drive.google.com/file/d/1jlYxqRfjnjnZSG2gxKqiXa5Fo0Y7N9Kn/edit), [Kismet](https://drive.google.com/file/d/1Mp808PE3Wjew6-hEv0vIJZLzPezRM-jV/view)), [Ultimate Clay Shader[$]](https://blendermarket.com/products/claydoh), [Erito's Toon Shader for Eevee](https://www.artstation.com/eritokaio/store/Wo3B/erito-s-toon-shader-for-blender-eevee).
 - Others: 
-    - [gumroad/simonthommes](https://gumroad.com/simonthommes), [Meta's Massivest Materials](https://www.blendswap.com/blend/16480), [gumroad/juliosillet](https://gumroad.com/juliosillet), [Abstract Materials](https://gumroad.com/l/CCIEF).
+    - [gumroad/simonthommes](https://gumroad.com/simonthommes), [Meta's Massivest Materials](https://www.blendswap.com/blend/16480), [Abstract Materials](https://gumroad.com/l/CCIEF).
 
 ### 📁Blender Scenes/Files [^](#table)
 - [Blend Swap](https://www.blendswap.com/blends) : The one place for Open Source Blender files.
@@ -379,7 +384,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - Rigged Models: [Dancing Girl](https://gumroad.com/l/mZcjB), [Pikachu](https://www.blendswap.com/blend/23864), [Baqir](https://www.youtube.com/watch?v=UIKuyOP68fA), [Robot](https://gumroad.com/l/luhCU).
 
 ### ⛅HDRIs [^](#table)
-- [HDRI Haven](https://hdrihaven.com/hdris/category/index.php?c=all&o=date_published&s=all), [Hdrlabs](http://hdrlabs.com/sibl/archive.html), [Hdrmaps](https://hdrmaps.com/freebies), [Hdri-hub](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [Hdri-skies](https://hdri-skies.com/), [eisklotz/HDRIs](https://drive.google.com/drive/folders/1tnuVLtmLNIajTszoDXybboWxwk1L4YOJ), [locationtextures/panoramas](https://locationtextures.com/panoramas), [noahwitchell](http://www.noahwitchell.com/freebies).
+- [HDRI Haven](https://hdrihaven.com/hdris/category/index.php?c=all&o=date_published&s=all), [Hdrlabs](http://hdrlabs.com/sibl/archive.html), [Hdrmaps](https://hdrmaps.com/freebies), [Hdri-hub](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [Hdri-skies](https://hdri-skies.com/), [eisklotz/HDRIs](https://drive.google.com/drive/folders/1tnuVLtmLNIajTszoDXybboWxwk1L4YOJ), [locationtextures/panoramas](https://locationtextures.com/panoramas), [noahwitchell](http://www.noahwitchell.com/freebies), [Pixar/HDRI](https://renderman.pixar.com/category/111-hdri).
 
 ### 🖼️Art [^](#table)
 - [Dezoomify](https://ophir.alwaysdata.net/dezoomify/dezoomify.html) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats). \([Desktop App](https://github.com/lovasoa/dezoomify-rs)\) \([Extension](https://github.com/lovasoa/dezoomify-extension)\)
@@ -399,13 +404,15 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 ### 🛰Space [^](#table)
 - [Solar Textures](https://www.solarsystemscope.com/textures/) : These textures represent real planetary maps in equirectangular projection. Textures in this pack are based on NASA elevation and imagery data.
 - [NASA-3D-Resources](https://nasa3d.arc.nasa.gov/) : Here you'll find a growing collection of 3D models, textures, and images from inside NASA. All of these resources are free to download and use. [![][repo]](https://github.com/nasa/NASA-3D-Resources)
-- [Hubble Image Gallery (NASA)](https://hubblesite.org/images/gallery), [NASA Image and Video Library](https://images.nasa.gov/), [Astronomy Picture of the Day](https://apod.nasa.gov/apod/archivepix.html), [CGI Moon Kit](https://svs.gsfc.nasa.gov/4720).
-- [ESA - Observing the Earth](https://earth.esa.int/web/guest/images-of-the-earth) ([Image Archive](http://www.esa.int/Applications/Observing_the_Earth/Image_archive)).
+- NASA: [Hubble Image Gallery (NASA)](https://hubblesite.org/images/gallery), [NASA Image and Video Library](https://images.nasa.gov/), [Astronomy Picture of the Day](https://apod.nasa.gov/apod/archivepix.html), [CGI Moon Kit](https://svs.gsfc.nasa.gov/4720).
+- ESA: [ESA - Observing the Earth](https://earth.esa.int/web/guest/images-of-the-earth) ([Image Archive](http://www.esa.int/Applications/Observing_the_Earth/Image_archive)).
 - [Earth View](https://earthview.withgoogle.com/) : Earth View is a collection of the most beautiful and striking landscapes found in Google Earth.
+- Others:
+    - [Natural Earth III](http://www.shadedrelief.com/natural3/pages/textures.html), [Celestia Motherlode](http://www.celestiamotherlode.net/catalog/earth.php), [Planets Pack](https://gumroad.com/l/qMZOE).
 
 ### 🏞Free Stocks [^](#table)
 - Image/Vector : [unsplash](https://unsplash.com/), [pexels](https://www.pexels.com/)
-, [pixabay](https://pixabay.com/tr/), [stocksnap](https://stocksnap.io/).
+, [pixabay](https://pixabay.com/tr/), [stocksnap](https://stocksnap.io/), [rawpixel](https://www.rawpixel.com/), [burst](https://burst.shopify.com/).
 - Video/VFX/Footage : [videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/tr/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos).
 - Cutouts : [MrCutout](https://www.mrcutout.com/), [gumroad/kaiserbold](https://gumroad.com/hi5_kaiserbold), [nonscandinavia](http://www.nonscandinavia.com/), [clipped](http://www.clipped.io/search?sort_uploads=created_at).
 - Visual Loops : [Mantissa](https://mantissa.xyz/vjloops), [BEEPLE](https://www.beeple-crap.com/vjloops), [Vimeo/Catmac](https://vimeo.com/user2777466), [SSWIII](http://www.switzonwigfall.com/vjclips), [rptv](https://www.rptv.co/videoloops).
@@ -449,6 +456,8 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [Light Tracer Render](https://lighttracer.org/) : provides you with everything you need to create photorealistic renderings interactively, in both desktop Web browsers and Windows application.
 - [EmberGen](https://jangafx.com/software/embergen/) [$] :  is a real-time volumetric fluid simulation tool that can instantly simulate, render, and export flipbooks, image sequences, and VDB volumes.
 - [Tiled](https://www.mapeditor.org/) : is a general purpose tile map editor for all tile-based games, such as RPGs, platformers or Breakout clones. [![][repo]](https://github.com/bjorn/tiled)
+- [Possumwood](https://github.com/martin-pr/possumwood) : is a graph-based procedural sandbox, implementing concepts of graph-based visual programming in a simple interface.
+- [Effekseer](https://effekseer.github.io/en/) : Open source particle effect creating tool.
 - Blender Tools:
     - [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater) : download and install nightly builds with one click.
     - [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : command line version of BlenderUpdater.
@@ -561,7 +570,6 @@ _Some accounts where you can find different kinds of content related to blender.
 [@Kazlyan](https://twitter.com/Kazlyan),
 [@arc4g](https://twitter.com/arc4g),
 [@FlipFluids](https://twitter.com/FlipFluids),
-[@arc4g](https://twitter.com/arc4g),
 [@CGGeeks](https://twitter.com/CGGeeks),
 [@PabloVazquez_](https://twitter.com/PabloVazquez_),
 [@IMilk_ManI](https://twitter.com/IMilk_ManI),
@@ -608,6 +616,8 @@ _Some accounts where you can find different kinds of content related to blender.
 - [Creative Shrimp](https://www.creativeshrimp.com/) : High quality CG tutorials and Blender tutorials, digital art and lighting tutorials with Gleb and Aidy.
 - [Blender 3D Architect](https://www.blender3darchitect.com/) : is the place to find news, tutorials, resources and training related to architectural visualization using Blender.
 - [BlenderAddons.org](https://blender-addons.org/) : provides a list of free and paid Blender 2.8 addons. Find the addon you need under categories or tags.
+- [Interplanety](https://b3d.interplanety.org/en/) : Blender tutorials, articles, tips, notes.
+- [Darkfall](https://darkfallblender.blogspot.com/) : Blender python tutorials, nodes.
 
 ### 🎊Challenges [^](#table)
 - [Nodevember](https://nodevember.io/) : The yearly event for everything procedural. Feel like doing a challenge? #nodevember is all about creating and promoting procedural awesomeness! A whole month to improve and show off your procedural skills.
@@ -720,6 +730,7 @@ Sculpt every day and improve your sculpting skills.
 
 ### 🌌Animation Nodes [^](#table)
 - 🧾[Animation Nodes Manual.](https://animation-nodes-manual.readthedocs.io/en/latest/user_guide/getting_started/interface.html) 
+- ☰[Introduction to Animation Nodes by Chris Prenninger](https://www.youtube.com/playlist?list=PLpJWHl1fB7BFm8Ph-DJ_jswjhfbdZC3-I).
 - ☰[Animation Nodes in Blender by Chris Prenninger](https://www.youtube.com/playlist?list=PLpJWHl1fB7BFX5bxrGofVS5BEj7kOBI95).
 - ☰[Animation node tutorial by Bradley Animation](https://www.youtube.com/playlist?list=PLhQ290f8z8FP9PxYv7Cw0He5ayVkMFMyB).
 - ☰[Blender Animation Nodes For Beginners Series by CGMatter](https://www.youtube.com/playlist?list=PL4EqKJjrgoVQMC_W69oAqaHEj7vaPeM9h).
