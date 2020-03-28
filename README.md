@@ -142,6 +142,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [Box Select X-Ray](https://blenderartists.org/t/box-select-x-ray/1212316) : modified box select tool that automatically toggles x-ray mode on and off during selection.
 - [Polysweeper](https://blenderartists.org/t/polysweeper-0-81/1147066) : is a tool to sweep a face profile along a face loop.
 - [Edit Split Normals](https://twitter.com/Oscurart/status/1243226933464268802) : Edit normals like meshes.
+- [Auto Mirror](https://blenderartists.org/t/auto-mirror-blender2-8-ver/1151539) : Automate a series of tasks, such as deleting a half, setting a mirror modifier, setting a clipping, etc.
 - Retopology/Remesh:
     - [retopoflow](https://blendermarket.com/products/retopoflow)  : a suite of retopology tools for Blender. [![][repo]](https://github.com/CGCookie/retopoflow)
     - [InstantMeshesRemesh](https://blenderartists.org/t/instant-meshes-remesh/1114982)  : a suite of retopology tools for Blender. [![][repo]](https://github.com/knekke/blender_addons#instantmeshesremesh)
@@ -219,6 +220,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [Magic-UV](https://nutti.github.io/Magic-UV/) : This is a blender add-on Magic UV consisted of many UV manipulation features which Blender lack of. [![][repo]](https://github.com/nutti/Magic-UV)
 - [EasyBake](https://github.com/leukbaars/EasyBake) : Texture baking UI for Blender that lives in the 3D Viewport. Small but powerful! Fast one-click baking and iteration.
 - [Principled-Baker](https://github.com/danielenger/Principled-Baker) : Bake PBR textures with a few clicks.
+- [Blender Addon PBR](https://github.com/DigiKrafting/blender_addon_pbr) : Provides a material panel that creates Metallic/Roughness or Specular/Gloss Nodes using the Principled BSDF shader.
 - [PBR Texture Mapper](https://github.com/jayanam/pbr_texture_mapper) : create PBR node setup with one click.
 - [Poliigon Material Converter](https://help.poliigon.com/en/articles/2540839-poliigon-material-converter-addon-for-blender) : create PBR node setup.
 - [SCATTr](https://gumroad.com/l/scattr) : Procedural texture placement.
@@ -243,6 +245,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     - [FontSelector](https://github.com/samytichadou/FontSelector_blender_addon/) : easy font management inside Blender.
 - Lighting/HDRI
     - [Gaffer](https://github.com/gregzaal/Gaffer) : is a Blender add-on that helps you light your scenes by presenting all the right settings in convenient panels for quick access and experimentation. [[market]](https://blendermarket.com/products/gaffer-light-manager/)
+    - [Extra Lights](https://github.com/jlampel/bl_extra_lights) :  is a plugin for Blender that adds physically based, photometric lighting presets to the Add menu.
     - [HDRI Sun Aligner](https://github.com/akej74/hdri-sun-aligner) : HDRI Sun Aligner is a Blender 2.8 addon for automatically rotating an object (e.g. a sun) to match the brightest point in a HDRI environment texture.
     - [LeoMoon LightStudio](https://leomoon.com/downloads/plugins/leomoon-lightstudio/) : lighting system for Blender. [[market]](https://blendermarket.com/products/leomoon-lightstudio)
     - [Physical Starlight and Atmosphere](https://blendermarket.com/products/physical-starlight-and-atmosphere) [$] : is a full environmental simulator that takes inspiration of 'sandbox' game worlds and editors, bringing visual consistency between every object in the scene.
@@ -356,7 +359,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [3DXO](https://www.3dxo.com) : Free 3D Models, seamless Textures, Backgrounds, Photos & Graphics.
 - [Texture Box](https://texturebox.com/) : We are making free textures for 3D Artists from all over the world. Also, we offer custome texture services.
 - [Texture Fun](https://texturefun.com/) : Free PBR texture sets of common architectural materials, including some nice tile textures.
-- [C4D Center](https://c4dcenter.com/material-library/) : Free C4D Materials created with High Quality Texture Maps for instant download and no limits, Free for Personal and Commercial Use.
+- [C4DCenter](https://c4dcenter.com/material-library/) : Free C4D Materials created with High Quality Texture Maps for instant download and no limits, Free for Personal and Commercial Use.
 - [WildTextures](https://www.wildtextures.com/) : Free high resolution textures and patterns for commercial or personal use.
 - [Textures.com](https://www.textures.com/) [$] : is a website that offers digital pictures of all sorts of materials. Sign up for free and download 15 free images every day!
 - [Substance Share](https://share.substance3d.com/) : the free exchange platform for the Substance community.
@@ -365,7 +368,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [Poliigon/freebies](https://www.poliigon.com/search?type=all&refine_by=assets-free) [$] : A library of materials, and HDR's for artists including free textures that want photorealism.
 - [Texturing.xyz](https://texturing.xyz/) [$] : Our textures are used in the biggest and industry-leading VFX companies, and help them achieving their goals faster.
 - Others:
-    - [gumroad/juliosillet](https://gumroad.com/juliosillet), [gumroad/lebedev](https://gumroad.com/lebedev), [3d-wolf/textures](https://3d-wolf.com/products/textures.html), [Pixar/CommunityResources](https://renderman.pixar.com/community_resources), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [30 Displacement Maps](https://gumroad.com/l/xsQTf), [Texture Hunt Collection](https://gumroad.com/l/texturehunt), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [gumroad/corneliusdammrich](https://gumroad.com/corneliusdammrich), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [EveryTexture.com](https://everytexture.com/), [3DJungle.net](https://3djungle.net/textures/) [Architecture Inspirations](https://www.archinspirations.com/materials), [CGTrader/textures](https://www.cgtrader.com/free-3d-models/textures), [CGIVault/Textures](https://cgivault.com/product-category/textures/).
+    - [gumroad/juliosillet](https://gumroad.com/juliosillet), [gumroad/lebedev](https://gumroad.com/lebedev), [3d-wolf/textures](https://3d-wolf.com/products/textures.html), [Pixar/CommunityResources](https://renderman.pixar.com/community_resources), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [30 Displacement Maps](https://gumroad.com/l/xsQTf), [Texture Hunt Collection](https://gumroad.com/l/texturehunt), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [gumroad/corneliusdammrich](https://gumroad.com/corneliusdammrich), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [EveryTexture.com](https://everytexture.com/latest), [3DJungle.net](https://3djungle.net/textures/) [Architecture Inspirations](https://www.archinspirations.com/materials), [CGTrader/textures](https://www.cgtrader.com/free-3d-models/textures), [CGIVault/Textures](https://cgivault.com/product-category/textures/).
 
 ### 🌓Blender Materials [^](#table)
 - [Blendermada](http://blendermada.com/materials/) : Free Blender Material Database. also they have an blender [add-on](http://blendermada.com/addon/).
