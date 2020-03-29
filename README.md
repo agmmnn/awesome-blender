@@ -260,7 +260,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     - [JARCH-Vis](https://blenderartists.org/t/addon-jarch-vis/642607) : is add-on for Blender 3D that helps create commonly used object for architectural visualization. [![][repo]](https://github.com/BlendingJake/JARCH-Vis)
     - [Archipack](https://gumroad.com/l/ZRMyP) [$] : The Archipack addon for Blender contains a collection of parametric primitives for ArchViz. You can manipulate these primitives with a realtime on-screen editing interface. [![][repo]](https://github.com/s-leger/archipack)
 - Import:
-    - [glTF](https://github.com/KhronosGroup/glTF-Blender-IO/tree/blender-v2.82-release), [Rhinoceros3D files](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [SVG](https://github.com/Shriinivas/shapekeyimport), [GIF](https://github.com/doakey3/Bligify), Quake: [BSP](https://blenderartists.org/t/quake-1996-game-bsp-import-script/578191) [MD3](https://github.com/axredneck/blender-md3/tree/blender2.8).
+    - [Daz Importer](https://bitbucket.org/Diffeomorphic/import-daz/src/master/), [glTF](https://github.com/KhronosGroup/glTF-Blender-IO/tree/blender-v2.82-release), [Rhinoceros3D files](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [SVG](https://github.com/Shriinivas/shapekeyimport), [GIF](https://github.com/doakey3/Bligify), Quake: [BSP](https://blenderartists.org/t/quake-1996-game-bsp-import-script/578191) [MD3](https://github.com/axredneck/blender-md3/tree/blender2.8).
 - Export:
     - [USDZ](https://github.com/robmcrosby/BlenderUSDZ), [to ZBrush](https://blenderartists.org/t/goz-for-blender-2-8/1138418), [VTK](https://github.com/tkeskita/io_mesh_vtk), [Bezier2SVG](https://leomoon.com/downloads/plugins/leomoon-bezier2svg/), [Panda3D](https://github.com/Moguri/blend2bam), [EGG](https://github.com/kergalym/YABEE), [XRay-engine](https://github.com/PavelBlend/blender-xray).
     - [Export Paper Model from Blender](https://addam.github.io/Export-Paper-Model-from-Blender/) : add-on for creating paper models. [![][repo]](https://github.com/addam/Export-Paper-Model-from-Blender)
@@ -297,7 +297,11 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [Modifier List](https://blenderartists.org/t/modifier-list-1-5-1/1147752) : Alternative UI layout for modifiers with handy features. Available also inside the sidebar and as a popup.
 - [Verge3D](https://www.soft8soft.com/get-verge3d/) : is a powerful yet cost-efficient solution for creating interactive 3D web experiences.
 - [CubeSter](https://github.com/BlendingJake/CubeSter) : is an add-on for Blender 3D that takes an image or audio file and converts it into a height-based mesh object.
+- [ProSidebar](https://github.com/CreativeDesigner3D/ProSidebar) : add additional properties and operators to the 3D View Sidebar.
 - [Tilecam](https://github.com/stuffmatic/tilecam) : render seamlessly repeatable images.
+- [Fbx Format Converter](https://github.com/BobbyAnguelov/FbxFormatConverter) : This project allows you to convert binary fbx files to asciis and vice versa.
+- [GoB](https://github.com/JoseConseco/GoB) : GoZ-alike tools for simple ZBrush-Blender interchange.
+- [Lily Surface Scrapper](https://github.com/eliemichel/LilySurfaceScrapper) : Import shaders in Blender from a single URL.
 
 ### 🎴Themes [^](#table)
 - [Blender Pro](https://github.com/paulcoops/blender_pro-theme), [80's](https://gumroad.com/l/fWkBi), [Xsi Winter](https://blenderartists.org/t/theme-xsi-winter-pro-blender-2-80/1177994), [Awesome](https://blenderartists.org/t/awesome-theme-for-blender-2-8/1120656), [Fresh Snow](https://devtalk.blender.org/t/call-for-content-themes/3174/345), [Nord](https://devtalk.blender.org/t/call-for-content-themes/3174/382).
@@ -377,7 +381,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [BlenderKit](https://www.blenderkit.com/) : Allows you to download assets, materials, and alpha brushes to your blender 2.8 client with the click of a button for free.
 - Sketch/Toon Shaders:
     - [BNPR' Shaders](https://blendernpr.org/downloads/), [Eevee Comics Shader v3.0](https://gumroad.com/l/JWdjJ), [Erisdraw3D's](https://twitter.com/Erisdraw3D/status/1216755574735503361), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [Komikaze[$]](https://blendermarket.com/products/komikaze)(Free: [Aqua](https://drive.google.com/file/d/1jlYxqRfjnjnZSG2gxKqiXa5Fo0Y7N9Kn/edit), [Kismet](https://drive.google.com/file/d/1Mp808PE3Wjew6-hEv0vIJZLzPezRM-jV/view)), [Ultimate Clay Shader[$]](https://blendermarket.com/products/claydoh), [Erito's Toon Shader for Eevee](https://www.artstation.com/eritokaio/store/Wo3B/erito-s-toon-shader-for-blender-eevee).
-- Others: 
+- Others:
     - [gumroad/simonthommes](https://gumroad.com/simonthommes), [Meta's Massivest Materials](https://www.blendswap.com/blend/16480), [Abstract Materials](https://gumroad.com/l/CCIEF).
 
 ### 📁Blender Scenes/Files [^](#table)
@@ -387,7 +391,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - Rigged Models: [Dancing Girl](https://gumroad.com/l/mZcjB), [Pikachu](https://www.blendswap.com/blend/23864), [Baqir](https://www.youtube.com/watch?v=UIKuyOP68fA), [Robot](https://gumroad.com/l/luhCU).
 
 ### ⛅HDRIs [^](#table)
-- [HDRI Haven](https://hdrihaven.com/hdris/category/index.php?c=all&o=date_published&s=all), [Hdrlabs](http://hdrlabs.com/sibl/archive.html), [Hdrmaps](https://hdrmaps.com/freebies), [Hdri-hub](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [Hdri-skies](https://hdri-skies.com/), [eisklotz/HDRIs](https://drive.google.com/drive/folders/1tnuVLtmLNIajTszoDXybboWxwk1L4YOJ), [locationtextures/panoramas](https://locationtextures.com/panoramas), [noahwitchell](http://www.noahwitchell.com/freebies), [Pixar/HDRI](https://renderman.pixar.com/category/111-hdri).
+- [HDRI Haven](https://hdrihaven.com/hdris/category/index.php?c=all&o=date_published&s=all), [Hdrlabs](http://hdrlabs.com/sibl/archive.html), [Hdrmaps](https://hdrmaps.com/freebies), [Hdri-hub](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [Hdri-skies](https://hdri-skies.com/), [eisklotz/HDRIs](https://drive.google.com/drive/folders/1tnuVLtmLNIajTszoDXybboWxwk1L4YOJ), [locationtextures](https://locationtextures.com/panoramas), [noahwitchell](http://www.noahwitchell.com/freebies), [Pixar/HDRI](https://renderman.pixar.com/category/111-hdri), [bobgroothuis](https://www.bobgroothuis.com/collections/360-hdri).
 
 ### 🖼️Art [^](#table)
 - [Dezoomify](https://ophir.alwaysdata.net/dezoomify/dezoomify.html) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats). \([Desktop App](https://github.com/lovasoa/dezoomify-rs)\) \([Extension](https://github.com/lovasoa/dezoomify-extension)\)
