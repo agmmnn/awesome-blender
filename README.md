@@ -1,6 +1,6 @@
 [![img](imgs/splash.jpg "Awesome Blender")](#table)
 <div align="center">
-    <a href="https://github.com/sindresorhus/awesome" target="_blank"><img alt="awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" /></a>
+    <a href="https://awesome.re" target="_blank"><img alt="Awesome" src="https://awesome.re/badge-flat.svg" /></a>
     <a href="#table"><img alt="2.8+ Compatible List" src="https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat-square" /></a>
     <a href="#Contributing-"><img alt="Contributions are Welcome" src="https://img.shields.io/badge/keep-up--to--date-blue?logo=&style=flat-square" /></a>
 <p>
@@ -9,7 +9,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 </div>
 
 <div align="center">
-<a name="table"></a><h2>Table of Contents:</h2>
+<a name="table"></a><h2>Contents:</h2>
     
 | [🔮Add-ons](#Add-ons-) | [🪐Resources](#Resources-) | [📥Standalone](#Standalone-) | [🔍Explore Blender](#Explore-Blender-) | [🖇Social](#Social-) | [👩🏻‍🏫Tutorials](#Tutorials-) | [👩🏽‍💻Development](#Development-) |
 </div>
@@ -398,7 +398,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [HDRI Haven](https://hdrihaven.com/hdris/category/index.php?c=all&o=date_published&s=all), [Hdrlabs](http://hdrlabs.com/sibl/archive.html), [Hdrmaps](https://hdrmaps.com/freebies), [Hdri-hub](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [Hdri-skies](https://hdri-skies.com/), [eisklotz/HDRIs](https://drive.google.com/drive/folders/1tnuVLtmLNIajTszoDXybboWxwk1L4YOJ), [locationtextures](https://locationtextures.com/panoramas), [noahwitchell](http://www.noahwitchell.com/freebies), [Pixar/HDRI](https://renderman.pixar.com/category/111-hdri), [bobgroothuis](https://www.bobgroothuis.com/collections/360-hdri).
 
 ### 🖼️Art [^](#table)
-- [Dezoomify](https://ophir.alwaysdata.net/dezoomify/dezoomify.html) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats). \([Desktop App](https://github.com/lovasoa/dezoomify-rs)\) \([Extension](https://github.com/lovasoa/dezoomify-extension)\)
+- [Dezoomify](https://ophir.alwaysdata.net/dezoomify/dezoomify.html) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats). \([Desktop App](https://github.com/lovasoa/dezoomify-rs)\) \([Extension](https://github.com/lovasoa/dezoomify-extension)\) [![][repo]](https://github.com/lovasoa/dezoomify)
 - [Birmingham Museums Trust](http://dams.birminghammuseums.org.uk/) : Thousands of our out-of-copyright images are now available for all to use under a Creative Commons Zero Licence (CC0). More images are regularly being added. \([Unsplash Profile](https://unsplash.com/@birminghammuseumstrust)\)
 - [Wikimedia Commons/Art](https://commons.wikimedia.org/wiki/Category:Art) : A collection of freely usable media files to which anyone can contribute.
 - [The Art Institute of Chicago](https://www.artic.edu/collection?is_public_domain=1) : Download public-domain artworks from Art Institute of Chicago online collection.
@@ -873,7 +873,7 @@ Sculpt every day and improve your sculpting skills.
 --------------
 ### Contributing [^](#table)
 
-Your contributions are always welcome! ^\_^ If you want to contribute to this list, send a _pull request_ or _contact with me_ @agmmnn. Please read the _contributing guidelines_ first, each section has its own guidelines as a comment line. 
+Your contributions are always welcome! ^\_^ If you want to contribute to this list, send a _pull request_ or _contact with me_ @agmmnn. Please read the _[contributing guidelines](https://github.com/agmmnn/awesome-blender/blob/master/CONTRIBUTING.md)_ first, some sections have their own guidelines as a comment line.
 
 #### Contributors:
 <a href="https://github.com/agmmnn/awesome-blender/graphs/contributors">
