@@ -49,7 +49,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     - [Real-World Height Maps](#real-world-height-maps-)
     - [Generator](#Generator-)
     - [AI-Powered](#AI-Powered-)
-    - [Sound/Music](#SoundMusic-)
+    - [Sound/Music](#SoundMusic--1)
     - [Painting](#Painting-)
 - [🔍Explore Blender](#Explore-Blender-)
     - [Documantation](#Documantation-)
@@ -315,6 +315,9 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [Tilecam](https://github.com/stuffmatic/tilecam) : Render seamlessly repeatable images.
 - [Fbx Format Converter](https://github.com/BobbyAnguelov/FbxFormatConverter) : This project allows you to convert binary fbx files to asciis and vice versa.
 - [Set Viewport Color](https://github.com/eliemichel/LilySurfaceScrapper) : Blender Script to Set the Viewport Color based on a nodetree.
+- [PresetterProfessional](https://github.com/dpdpforlife/PresetterProfessional) : View and visibility presets, 3d cursor presets, snap presets, etc. presets.
+- [PowerSave](https://gumroad.com/l/powersave) : is a tool intended to streamline saving and make saving itself more accessible, friendly and more artist streamlined.
+- [Lodify](https://devtalk.blender.org/t/level-of-detail-addon/12840) : LOD(Level of Detail) and Proxy system for blender. [![][repo]](https://github.com/DB3D/Lodify)
 
 ### 🎴Themes [^](#table)
 - [Blender Pro](https://github.com/paulcoops/blender_pro-theme), [Curt's](https://gumroad.com/l/fWkBi), [80's](https://gumroad.com/l/fWkBi), [Awesome](https://blenderartists.org/t/awesome-theme-for-blender-2-8/1120656), [Nord](https://devtalk.blender.org/t/call-for-content-themes/3174/382).
@@ -347,7 +350,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [KitBash3d](https://kitbash3d.com/) [$] : makes premium 3D assets for VFX, concept art and design. Their 3D model kits have immediately been adopted by the industry's top artists, studios. *Get [Mini-Kit: Post-Apocalypse](https://kitbash3d.com/collections/kits/products/mini-kit-post-apocalypse)* for free. *Get [Utopia Kit](https://kitbash3d.com/blogs/news/free-utopia-kit-for-brightartdarktimes)* for free. 
 - [Awesome-3D-Meshes](https://github.com/jvm-graphics-labs/awesome-3d-meshes/) : List of famous 3D meshes.
 - Others:
-    - [Google Poly](https://poly.google.com/blocks), [GrabCAD](https://grabcad.com/library), [Xfree3D](https://vwartclub.com/?section=xfree3d), [Gumroad/free-3d-model](https://gumroad.com/discover?maxPrice=0&query=3d%20model), [Artstation Marketplace/free](https://www.artstation.com/marketplace?sort_by=trending&filter_by=free), [Quaternius's Ultimate Low-Poly Models](http://quaternius.com/index.html), [Cubebrush/freebies](https://cubebrush.co/marketplace?freebies=true), [Daz3D/freebies](https://www.daz3d.com/free-3d-models).
+    - [Google Poly](https://poly.google.com/blocks), [GrabCAD](https://grabcad.com/library), [Xfree3D](https://vwartclub.com/?section=xfree3d), [Gumroad/free-3d-model](https://gumroad.com/discover?maxPrice=0&query=3d%20model), [Artstation Marketplace/free](https://www.artstation.com/marketplace?sort_by=trending&filter_by=free), [Quaternius's Ultimate Low-Poly Models](http://quaternius.com/index.html), [Cubebrush/freebies](https://cubebrush.co/marketplace?freebies=true), [Daz3D/freebies](https://www.daz3d.com/free-3d-models), [The Art of 3D Insects](https://stock.adobe.com/collections/rTMsIExGHtyXsAv8NL8RfOxokqALHQhy).
 - Kitbash Models:
     - [Free Hard Surface KitBash Models](https://gumroad.com/olegushenok?sort=page_layout&tags=free), [Free sci-fi kitbash set](https://cubebrush.co/polyworkshop/products/audboa/free-sci-fi-kitbash-set-fusion-360-zbrush), [Hard Surface Kitbash Pack](https://gumroad.com/averkin), [3D Kitbashing library](https://gumroad.com/adrianrutkowski), [Kitbash Sci-fi Buildings](https://www.artstation.com/art-mage/store/Vb1A/kitbash-sci-fi-buildings-vol-1-5).
 - Cloth Models:
@@ -432,6 +435,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [Smithsonian Open Access](https://www.si.edu/openaccess) : Download, share, and reuse millions of the Smithsonian’s images right now, without asking. CC0.
 - [Biodiversity Heritage Library](https://www.flickr.com/photos/biodivlibrary/) : 150,000 Botanical and Animal Illustrations available for free download.
 - [Natural History Museum, Data Portal](https://data.nhm.ac.uk/) : Explore and download the Museum’s research and collections data. Collection information, images, sounds, videos, research results, 3D scans.
+- [British Museum](https://www.britishmuseum.org/collection) : The British Museum Just Made 1.9M Stunningly Detailed Images Free Online.
 - [Open Image Collections](https://blogs.ntu.edu.sg/openimagecollections/browse/#collections) : is a collection of digital image sources include museum digital collections, stock images, photo archives, design resources and image search engines.
 - [List of Museums & Libraries with Public-Domain Collection.](http://www.openculture.com/2016/05/1-8-million-free-works-of-art-from-world-class-museums-a-meta-list.html)
 
@@ -480,6 +484,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     - [How to](https://internet-of-tomohiro.netlify.com/google_colab/vnc.en.html) run OpenGL desktop programs on Google Colaboratory. You should follow this instruction if you want to work with Eevee.
 - Daily Blender Tips : [blender.daily](https://www.instagram.com/blender.daily/), [Blender Secrets](https://www.instagram.com/blendersecretsdotorg/)\([tw](https://twitter.com/JanvandenHemel), [yt](https://www.youtube.com/channel/UCp7EwodJcppc6GqiRcnCpOw/videos)\).
 - [IOR List](https://pixelandpoly.com/ior.html) : Index of Refraction values list for use with 3D applications.
+- [MatCaps](https://github.com/nidorx/matcaps) : Huge library of matcap PNG textures organized by color.
 - [UE Sponsored Content](https://www.unrealengine.com/en-US/uesponsoredcontent) : Every month Epic Games gives away several assets from the Unreal Engine marketplace for free.
 
 --------------
@@ -563,6 +568,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 
 ### Generator [^](#table)
 - [JSplacement](https://windmillart.net/?p=jsplacement) : is a cross-platform pseudo-random 8K displacement map generator.
+- [Procedural City Generator](https://probabletrain.itch.io/city-generator) : Create procedurally generated city maps in the style of American grid-based cities. [![][repo]](https://github.com/ProbableTrain/MapGenerator)
 - [Medieval Fantasy City Generator](https://watabou.itch.io/medieval-fantasy-city-generator) : This application generates a random medieval city layout of a requested size. [City Viewer](https://watabou.itch.io/city-viewer) : is a 3d-visualizer for MFCD. See other generators from [watabou.itch.io](https://watabou.itch.io/).
 - [city-roads](https://anvaka.github.io/city-roads/) : This website allows you to select a city and then draws every single road on a screen. [![][repo]](https://github.com/anvaka/city-roads)
 
@@ -575,7 +581,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 - [PaintsChainer](https://paintschainer.preferred.tech/index_en.html) : AI-Powered automatic line drawing colorization colorization. [![][repo]](https://github.com/pfnet/PaintsChainer)
 - [EbSynth](https://ebsynth.com/) : Free tool for converting video footage into stylised motion paintings.
 
-### Sound/Music
+### Sound/Music [^](#table)
 - [Audacity](https://www.audacityteam.org/) : Free, open source, cross-platform audio software.
 - [Libre Music Production](https://libremusicproduction.com/tools.html) : is a community-driven online resource, focused on promoting musical creation and composition using free and open source.
 - SFX Generators : [rFXGen](https://raylibtech.itch.io/rfxgen), [sfxia](https://rxi.itch.io/sfxia), [LabChirp](http://labbed.net/software/labchirp/), [Bfxr](https://iznaut.itch.io/bfxr).
@@ -654,6 +660,7 @@ _Some accounts where you can find different kinds of content related to blender.
 [@andrewpprice](https://twitter.com/andrewpprice),
 [@brentpatterson](https://twitter.com/brentpatterson),
 [@FinEskimo](https://twitter.com/FinEskimo)
+[@VicDoval](https://twitter.com/VicDoval)
 
 <!-- Need to help for channel descriptions -->
 ### 📢Youtube Channels [^](#table)
@@ -683,6 +690,8 @@ _Some accounts where you can find different kinds of content related to blender.
 - [Imphenzia](https://www.youtube.com/user/ImphenziaMusic/videos) : low poly modeling, rigging.
 - [Saqib Hussain](https://www.youtube.com/user/sh2708mf/videos) : modeling, modifiers, texturing, shading.
 - [CrossMind Studio](https://www.youtube.com/channel/UCHihootMqyGz175gqOPahtw/videos) : introduction, modeling, shading, lighting, modifiers.
+- [CBaileyFilm](https://www.youtube.com/channel/UCXguhzOm29mBTYDuxKjxn5A/videos) : blender animation projects.
+- [CG Masters](https://www.youtube.com/user/blengine/videos) : modeling, texturing, shading.
 
 ### 💻Blogs [^](#table)
 - [Blender Sushi](https://blendersushi.blogspot.com/) : Collection of 3D ideas, poetries and experiments blended in Blender 3D.
@@ -729,6 +738,7 @@ Sculpt every day and improve your sculpting skills.
 - ☰[🍦Blender Complete Beginner Tutorial Course by CG Geek.](https://www.youtube.com/playlist?list=PLrjIgEdKLivgpCMmFC0_sV60Y_Ftp-WLD)
 - ☰[🍏Blender Beginner Tutorial Series by CG Boost.](https://www.youtube.com/playlist?list=PL3UWN2F2M2C8-zUjbFlbgtWPQa0NXBsp0)
 - ☰[⚔️3D Modeling a Sword for Complete Beginners by YanSculpts.](https://www.youtube.com/playlist?list=PLvPwLecDlWRD_VK_2INC1VQ18dZdpDwLi) 
+- ☰🪑[Beginner Modelling Chair Tutorial by Blender Guru.](https://www.youtube.com/playlist?list=PLjEaoINr3zgEL9UjPTLWQhLFAK7wVaRMR)
 
 ### 🗿Modeling [^](#table)
 - 🧾[Modeling Manual.](https://docs.blender.org/manual/en/latest/modeling/index.html)
