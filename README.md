@@ -182,7 +182,6 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   Snapping-Align:
     -   [Mesh Align Plus](https://github.com/egtwobits/mesh_mesh_align_plus) : Precisely align, move, and measure+match objects and mesh parts in your 3D scenes.
     -   [Easy Align](https://blenderartists.org/t/addon-easy-align/685704) : Easy Align addon allows you to align mesh objects origins and align mesh objects to each others easily, it works in both Edit mode and Object mode. [![][repo]](https://github.com/sergeod9/Easy_Align_Addon)
-    -   [CAD Transform](https://blenderartists.org/t/cad-like-transform/1226197): CAD Transform provide intuitive snap from/to workflow, allow precise move/rotate/scale using advanced snap options and constraints in both object and edit mode.
 -   Mesh Generate/Stylization:
     -   [Tissue](https://github.com/alessandro-zomparelli/tissue) : Add-on for computational design.
     -   [Mech/Fy](https://gumroad.com/l/KZllV) A procedural workflow that automates the process of hard surfaces modelling.
