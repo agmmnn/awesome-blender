@@ -314,7 +314,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [VSEQF](https://github.com/snuq/VSEQF) : is an overhaul for Blender's VSE that can completely change your workflow. Designed for quick, mouse and keyboard balanced editing with a focus on real-time feedback.
     -   [Transform Tools](https://github.com/doakey3/VSE_Transform_Tools) : Quickly transform, crop and fade video strips in Blender's Video Sequence Editor.
     -   [Easy Proxy](https://github.com/cgvirus/blender-vse-easy-proxy) : Blender addon to create proxy files for Video Sequence Editor (VSE) easily using FFMPEG.
-    -   [Parallel_Render](https://github.com/elmopl/ktba/blob/master/scripts/addons/parallel_render.py) : Render the output from the Sequencer multithreaded through the Render siderbar.
+    -   [Parallel_Render](https://github.com/elmopl/ktba/wiki/Addons) : Render the output from the Sequencer multithreaded through the Render siderbar.
     -   [Export EDL](https://github.com/tin2tin/ExportEDL) : Exports: video, audio and dissolves. to ex. Davinci Resolve, Lightworks, Final Cut Pro & Premiere Pro.
     -   [Import EDL](https://github.com/tin2tin/import_edl) : Imports: video, audio and dissolves.
     -   [Freesound Add-on](https://github.com/iwkse/freesound/tree/freesound-2.0) : is an addon for Blender that allows users to create and edit subtitles for movies or music.
