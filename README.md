@@ -368,6 +368,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [CGTrader](https://www.cgtrader.com/free-3d-models) : Free 3D models from cgtrader.
 -   [Sketchfab](https://sketchfab.com/search?features=downloadable&sort_by=-pertinence&type=models) : Free downloadable models from sketchfab.
 -   [TurboSquid](https://www.turbosquid.com/Search/3D-Models/free) : Free models from turbosquid
+-   [Hum3D](https://hum3d.com/): source of quality 3D models of vehicles in blend file format.
 -   [Clara.io](https://clara.io/library) : Free 3D Modeling, Rendering, Sharing and Models.
 -   [3D Warehouse](https://3dwarehouse.sketchup.com/search/) : Download sketchup models.
 -   [KitBash3d](https://kitbash3d.com/) [$] : makes premium 3D assets for VFX, concept art and design. Their 3D model kits have immediately been adopted by the industry's top artists, studios. _Get [Mini-Kit: Post-Apocalypse](https://kitbash3d.com/collections/kits/products/mini-kit-post-apocalypse)_ for free. _Get [Utopia Kit](https://kitbash3d.com/blogs/news/free-utopia-kit-for-brightartdarktimes)_ for free.
