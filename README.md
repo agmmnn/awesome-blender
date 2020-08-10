@@ -318,7 +318,10 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [Export EDL](https://github.com/tin2tin/ExportEDL) : Exports: video, audio and dissolves. to ex. Davinci Resolve, Lightworks, Final Cut Pro & Premiere Pro.
     -   [Import EDL](https://github.com/tin2tin/import_edl) : Imports: video, audio and dissolves.
     -   [Freesound Add-on](https://github.com/iwkse/freesound/tree/freesound-2.0) : is an addon for Blender that allows users to create and edit subtitles for movies or music.
+    -   [Push to Talk](https://github.com/britalmeida/blender_addon_push_to_talk) : Convenient recording of scratch dialog for an edit.
+    -   [Scene Strip Tools](https://github.com/tin2tin/scene_strip_tools) : Preview Scene Strips directly in the 3D View.    
     -   [Subsimport](https://github.com/doakey3/Subsimport) : is an addon for Blender that allows users to create and edit subtitles for movies or music.
+    
 -   TextEditor:
     -   [TexTension](https://github.com/K-410/textension) : For increasing productivity and generally trying to match the writing experience of a modern text editor.
     -   [Code Editor](https://github.com/K-410/blender-scripts/blob/master/2.8/code_editor.py) : Adds minimap, text tabs, whitespace markers and indent guides.
@@ -328,6 +331,8 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [Run PEP8 Check](https://github.com/tin2tin/Python_Stylechecker_for_Blender) : Check current script for pep8 mistakes.
     -   [Formatting](https://github.com/tin2tin/Trim-Whitespace-Change-Case-and-Split-Join-Lines/blob/master/Trim-Whitespace-Change-Case-and-Split-Join-Lines.py) : Trim whitespace change case and split and join lines.
     -   [Insert and Navigate to Text Markers](https://github.com/tin2tin/TextMarker-blender-addon) : Insert and navigate to text marker positions.
+    -   [Autocomplete/Intellisense](https://github.com/tin2tin/Intellisense_for_Blender_Text_Editor) : Autocomplete/Intellisense for the Text Editor.
+    
 -   Photogrammetry:
     -   [Photogrammetry Importer](https://github.com/SBCV/Blender-Addon-Photogrammetry-Importer) : Addon to import different photogrammetry formats into Blender.
     -   [blender_kitti](https://github.com/risteon/blender_kitti) : Render large point clouds and voxel grids with blender.
