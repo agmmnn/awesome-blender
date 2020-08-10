@@ -350,6 +350,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [PowerSave](https://gumroad.com/l/powersave) : is a tool intended to streamline saving and make saving itself more accessible, friendly and more artist streamlined.
 -   [Lodify](https://devtalk.blender.org/t/level-of-detail-addon/12840) : LOD(Level of Detail) and Proxy system for blender. [![][repo]](https://github.com/DB3D/Lodify)
 -   [Multi-user](https://blenderartists.org/t/multi-user/1187118) : Enable real-time collaborative workflows inside blender. [![][repo]](https://gitlab.com/slumber/multi-user)
+-   [Screenwriter](https://github.com/tin2tin/Blender_Screenwriter) : Write screenplays in Blender Text Editor in Fountain markup syntax view/export with correct screenplay formatting.
 
 ### 🎴Themes [^](#table)
 
