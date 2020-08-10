@@ -326,7 +326,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [Snippets Library](https://github.com/Pullusb/snippetsLibrary) : Allow you use and manage a library of your own and existing code snippets.
     -   [Search Online References](https://github.com/tin2tin/Search-API-Reference) : Search current text in API Reference, Python Reference, Blender Stack Exchange, Blender Source Code and Github.
     -   [Run PEP8 Check](https://github.com/tin2tin/Python_Stylechecker_for_Blender) : Check current script for pep8 mistakes.
-    -   [Formatting](https://github.com/tin2tin/Trim-Whitespace-Change-Case-and-Split-Join-Lines/blob/master/Trim Whitespace Change Case and Split Join Lines) : Check current script for pep8 mistakes.
+    -   [Formatting](https://github.com/tin2tin/Trim-Whitespace-Change-Case-and-Split-Join-Lines/blob/master/Trim_Whitespace_Change_Case_and_Split_Join_Lines.py) : Trim whitespace change case and split and join lines.
     -   [Insert and Navigate to Text Markers](https://github.com/tin2tin/TextMarker-blender-addon) : Insert and navigate to text marker positions.
 -   Photogrammetry:
     -   [Photogrammetry Importer](https://github.com/SBCV/Blender-Addon-Photogrammetry-Importer) : Addon to import different photogrammetry formats into Blender.
