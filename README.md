@@ -182,7 +182,8 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   Snapping-Align:
     -   [Mesh Align Plus](https://github.com/egtwobits/mesh_mesh_align_plus) : Precisely align, move, and measure+match objects and mesh parts in your 3D scenes.
     -   [Easy Align](https://blenderartists.org/t/addon-easy-align/685704) : Easy Align addon allows you to align mesh objects origins and align mesh objects to each others easily, it works in both Edit mode and Object mode. [![][repo]](https://github.com/sergeod9/Easy_Align_Addon)
-    -   [CAD Transform](https://blenderartists.org/t/cad-like-transform/1226197): CAD Transform provide intuitive snap from/to workflow, allow precise move/rotate/scale using advanced snap options and constraints in both object and edit mode.
+    -   [CAD Transform](https://blenderartists.org/t/cad-like-transform/1226197) : CAD Transform provide intuitive snap from/to workflow, allow precise move/rotate/scale using advanced snap options and constraints in both object and edit mode.
+    -   [Blign](https://jack-cooke.github.io/blign/) : is an alignment and distribution tool for Blender. It allows users to align and distribute shapes with many different options.
 -   Mesh Generate/Stylization:
     -   [Tissue](https://github.com/alessandro-zomparelli/tissue) : Add-on for computational design.
     -   [Mech/Fy](https://gumroad.com/l/KZllV) A procedural workflow that automates the process of hard surfaces modelling.
@@ -256,9 +257,9 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 ### 🎮GameDev [^](#table)
 
 -   [MeshSync](https://github.com/unity3d-jp/MeshSync) : Live link plugin for Unity. supported blender and other 3d softwares.
+-   [Blender Tools by Epic Games](https://www.unrealengine.com/en-US/blog/download-our-new-blender-addons) : Blender addons that improve the game development workflow between Blender and Unreal. _Send to Unreal, UE to Rigify._
 -   [Mr Mannequins Tools](https://forums.unrealengine.com/community/community-content-tools-and-tutorials/1661319-easily-export-import-animations-and-meshes-blender-to-ue4-free-addon-mr-mannequins-tools-v1-2) : is a Blender add-on that gives the ability to export animations and weighted meshes that are directly compatible with the third person mannequin without re-targeting anything in Unreal Engine! [![][repo]](https://github.com/Jim-Kroovy/Mr-Mannequins-Tools)
 -   [Blender For Unreal Engine](https://github.com/xavier150/Blender-For-UnrealEngine-Addons) : This Add-on allows you to export content created with Blender to Unreal Engine 4.
--   \*[Send to Unreal](https://www.youtube.com/watch?v=c3_xUMQ6hhs) : Official Unreal add-on for Blender. _The Add-on is currently under development._
 -   [AssetGen](https://blenderartists.org/t/assetgen-create-a-game-asset-in-a-single-click/702849) : is automates the tasks to get a game assets ready for video games from an High Poly model.
 -   [V-HACD](https://blenderartists.org/t/v-hacd-tool-for-creating-accurate-convex-collision-meshes-for-real-time-physics-in-games-etc/1156822) : Library decomposes a 3D surface into a set of near convex parts. [![][repo]](https://github.com/andyp123/blender_vhacd)
 -   [Godot Game Tools](https://viniguerrero.itch.io/godot-game-tools) : Made easy importing mixamo animations. tools to ease the creation/import process of assets into Godot Game Engine and others.
@@ -278,6 +279,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [HDRI Sun Aligner](https://github.com/akej74/hdri-sun-aligner) : HDRI Sun Aligner is a Blender 2.8 addon for automatically rotating an object (e.g. a sun) to match the brightest point in a HDRI environment texture.
     -   [LeoMoon LightStudio](https://leomoon.com/downloads/plugins/leomoon-lightstudio/) : Lighting system for Blender. [[market]](https://blendermarket.com/products/leomoon-lightstudio)
     -   [Physical Starlight and Atmosphere](https://blendermarket.com/products/physical-starlight-and-atmosphere) [$] : is a full environmental simulator that takes inspiration of 'sandbox' game worlds and editors, bringing visual consistency between every object in the scene.
+    -   [Free Sky Environment Shading](https://gumroad.com/l/JUyxL) : free custom procedural environment shading.
 -   Geographic/Maps:
     -   [BlenderGIS](https://github.com/domlysz/BlenderGIS) : Blender addons to make the bridge between Blender and geographic data.
     -   [Maps Models Importer](https://github.com/eliemichel/MapsModelsImporter) : A Blender add-on to import models from _Google Maps_. [[more info]](https://blog.exppad.com/article/importing-actual-3d-models-from-google-maps)
@@ -319,9 +321,8 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [Import EDL](https://github.com/tin2tin/import_edl) : Imports: video, audio and dissolves.
     -   [Freesound Add-on](https://github.com/iwkse/freesound/tree/freesound-2.0) : is an addon for Blender that allows users to create and edit subtitles for movies or music.
     -   [Push to Talk](https://github.com/britalmeida/blender_addon_push_to_talk) : Convenient recording of scratch dialog for an edit.
-    -   [Scene Strip Tools](https://github.com/tin2tin/scene_strip_tools) : Preview Scene Strips directly in the 3D View.    
+    -   [Scene Strip Tools](https://github.com/tin2tin/scene_strip_tools) : Preview Scene Strips directly in the 3D View.
     -   [Subsimport](https://github.com/doakey3/Subsimport) : is an addon for Blender that allows users to create and edit subtitles for movies or music.
-    
 -   TextEditor:
     -   [TexTension](https://github.com/K-410/textension) : For increasing productivity and generally trying to match the writing experience of a modern text editor.
     -   [Code Editor](https://github.com/K-410/blender-scripts/blob/master/2.8/code_editor.py) : Adds minimap, text tabs, whitespace markers and indent guides.
@@ -332,7 +333,6 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [Formatting](https://github.com/tin2tin/Trim-Whitespace-Change-Case-and-Split-Join-Lines/blob/master/Trim-Whitespace-Change-Case-and-Split-Join-Lines.py) : Trim whitespace change case and split and join lines.
     -   [Insert and Navigate to Text Markers](https://github.com/tin2tin/TextMarker-blender-addon) : Insert and navigate to text marker positions.
     -   [Autocomplete/Intellisense](https://github.com/tin2tin/Intellisense_for_Blender_Text_Editor) : Autocomplete/Intellisense for the Text Editor.
-    
 -   Photogrammetry:
     -   [Photogrammetry Importer](https://github.com/SBCV/Blender-Addon-Photogrammetry-Importer) : Addon to import different photogrammetry formats into Blender.
     -   [blender_kitti](https://github.com/risteon/blender_kitti) : Render large point clouds and voxel grids with blender.
@@ -356,6 +356,9 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Lodify](https://devtalk.blender.org/t/level-of-detail-addon/12840) : LOD(Level of Detail) and Proxy system for blender. [![][repo]](https://github.com/DB3D/Lodify)
 -   [Multi-user](https://blenderartists.org/t/multi-user/1187118) : Enable real-time collaborative workflows inside blender. [![][repo]](https://gitlab.com/slumber/multi-user)
 -   [Screenwriter](https://github.com/tin2tin/Blender_Screenwriter) : Write screenplays in Blender Text Editor in Fountain markup syntax view/export with correct screenplay formatting.
+-   [VoxelDraw](https://gumroad.com/l/NClKMV) : An addon to draw voxel meshes in edit mode for Blender.
+-   [BlenderBIM](https://blenderbim.org/) : An add-on for beautiful, detailed, and data-rich OpenBIM with Blender.
+-   [Mixer by Ubisoft](https://github.com/ubisoft/mixer) : is a Blender addon developed at Ubisoft Animation Studio for Real Time Collaboration in 3D edition.
 
 ### 🎴Themes [^](#table)
 
@@ -388,9 +391,12 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [CGTrader](https://www.cgtrader.com/free-3d-models) : Free 3D models from cgtrader.
 -   [Sketchfab](https://sketchfab.com/search?features=downloadable&sort_by=-pertinence&type=models) : Free downloadable models from sketchfab.
 -   [TurboSquid](https://www.turbosquid.com/Search/3D-Models/free) : Free models from turbosquid
--   [Hum3D](https://hum3d.com/): source of quality 3D models of vehicles in blend file format.
+-   [Hum3D](https://hum3d.com/) : source of quality 3D models of vehicles in blend file format.
 -   [Clara.io](https://clara.io/library) : Free 3D Modeling, Rendering, Sharing and Models.
+-   [FlyingArchitecture](https://flyingarchitecture.com/store) : is both an architectural visualizations studio as well as an online store dedicated to 3D models, scenes, materials and tutorials.
 -   [3D Warehouse](https://3dwarehouse.sketchup.com/search/) : Download sketchup models.
+-   [Free3DBase](https://free3dbase.com/) : Download high quality free 3d models.
+-   [RenderHub/free](https://www.renderhub.com/free-3d-models) : Daz Content, 3D models, textures and materials.
 -   [KitBash3d](https://kitbash3d.com/) [$] : makes premium 3D assets for VFX, concept art and design. Their 3D model kits have immediately been adopted by the industry's top artists, studios. _Get [Mini-Kit: Post-Apocalypse](https://kitbash3d.com/collections/kits/products/mini-kit-post-apocalypse)_ for free. _Get [Utopia Kit](https://kitbash3d.com/blogs/news/free-utopia-kit-for-brightartdarktimes)_ for free.
 -   [Awesome-3D-Meshes : List of famous 3D meshes.](https://github.com/jvm-graphics-labs/awesome-3d-meshes/)
 -   [List of Common 3D Test Models.](https://en.wikipedia.org/wiki/List_of_common_3D_test_models)
@@ -430,6 +436,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Texture Box](https://texturebox.com/) : We are making free textures for 3D Artists from all over the world. Also, we offer custome texture services.
 -   [Texture Fun](https://texturefun.com/) : Free PBR texture sets of common architectural materials, including some nice tile textures.
 -   [C4DCenter](https://c4dcenter.com/material-library/) : Free C4D Materials created with High Quality Texture Maps for instant download and no limits, Free for Personal and Commercial Use.
+-   [PBR Horde](https://www.pbrhorde.com/) : is a web library of free materials. Feel free to use them in your Substance Painter projects or 3D scenes.
 -   [WildTextures](https://www.wildtextures.com/) : Free high resolution textures and patterns for commercial or personal use.
 -   [Textures.com](https://www.textures.com/) [$] : is a website that offers digital pictures of all sorts of materials. Sign up for free and download 15 free images every day!
 -   [Substance Share](https://share.substance3d.com/) : The free exchange platform for the Substance community.
@@ -440,7 +447,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   Other Sites:
     -   [EveryTexture.com](https://everytexture.com/latest), [3DJungle.net](https://3djungle.net/textures/), [Architecture Inspirations](https://www.archinspirations.com/materials), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [TextureKing](https://www.textureking.com/category/all-textures/).
 -   Others:
-    -   [gumroad/juliosillet](https://gumroad.com/juliosillet), [gumroad/lebedev](https://gumroad.com/lebedev), [3d-wolf/textures](https://3d-wolf.com/products/textures.html), [Pixar/CommunityResources](https://renderman.pixar.com/community_resources), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [30 Displacement Maps](https://gumroad.com/l/xsQTf), [Texture Hunt Collection](https://gumroad.com/l/texturehunt), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [CGTrader/textures](https://www.cgtrader.com/free-3d-models/textures), [CGIVault/Textures](https://cgivault.com/product-category/textures/).
+    -   [gumroad/juliosillet](https://gumroad.com/juliosillet), [gumroad/lebedev](https://gumroad.com/lebedev), [3d-wolf/textures](https://3d-wolf.com/products/textures.html), [Pixar/CommunityResources](https://renderman.pixar.com/community_resources), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [30 Displacement Maps](https://gumroad.com/l/xsQTf), [Texture Hunt Collection](https://gumroad.com/l/texturehunt), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [PBR Leaf Textures](http://www.treesdesigner.com/materials-library/), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [CGTrader/textures](https://www.cgtrader.com/free-3d-models/textures), [CGIVault/Textures](https://cgivault.com/product-category/textures/), [artstation/alexbeddows](https://www.artstation.com/alexbeddows/store).
 
 ### 🌓Blender Materials [^](#table)
 
@@ -544,6 +551,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [MatCaps](https://github.com/nidorx/matcaps) : Huge library of matcap PNG textures organized by color.
 -   [MATCAP for Blender](https://gumroad.com/l/tJyTi/xor9ydy) : The one and only Matcap shader for Eevee and Cycles.
 -   [UE Sponsored Content](https://www.unrealengine.com/en-US/uesponsoredcontent) : Every month Epic Games gives away several assets from the Unreal Engine marketplace for free.
+-   [IES Library](https://ieslibrary.com/en/browse) : Download free IES lighting files. IES files describe how light from a lamp is distributed in a room.
 
 ---
 
@@ -562,22 +570,25 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 ### 3D Tools [^](#table)
 
 -   [MeshLab](http://www.meshlab.net/) : Open source system for processing and editing 3D triangular meshes. [![][repo]](https://github.com/cnr-isti-vclab/meshlab)
+-   [AutoRemesher](https://github.com/huxingyi/autoremesher) : Open-source auto-retopology tool intended to convert source meshes into clean, animation-friendly all-quad geometry.
 -   [Instant Meshes](https://github.com/wjakob/instant-meshes) : Interactive field-aligned mesh generator.
 -   [Magica Voxel](https://ephtracy.github.io/index.html?page=mv_main) : A free lightweight 8-bit voxel art editor and GPU based interactive path tracing renderer.
--   [ZBrushCoreMini](https://www.evolved-software.com/treeit/treeit) : is designed for new artists of all ages, with a streamlined interface that lets anyone jump right in and start sculpting immediately.
+-   [ZBrushCoreMini](https://zbrushcore.com/mini/) : is designed for new artists of all ages, with a streamlined interface that lets anyone jump right in and start sculpting immediately.
 -   [Goxel](https://github.com/guillaumechereau/goxel) : Create voxel graphics. Export to obj, pyl, png, magica voxel, qubicle.
 -   [aerialod](https://ephtracy.github.io/index.html?page=aerialod) : A free interactive path tracing renderer for height maps.
 -   [Make Human](http://www.makehumancommunity.org/) : Open-source tool for making 3D characters. [![][repo]](https://github.com/makehumancommunity/makehuman)
 -   [Adobe Fuse](https://www.adobe.com/products/fuse.html) : Create unique human characters, designs, prototypes and more. Available as free beta.
 -   [Neobarok](http://neobarok.com/) : Intuitive and free 3D modeling software for everyone.
+-   [Dust3D](https://dust3d.org/) : is a cross-platform open-source modeling software. It helps you create a 3D watertight model in seconds.
 -   [EmberGen](https://jangafx.com/software/embergen/) [$] : is a real-time volumetric fluid simulation tool that can instantly simulate, render, and export flipbooks, image sequences, and VDB volumes.
 -   [HDR Light Studio](https://www.lightmap.co.uk/) [$] : Lets you easily create and edit HDR lighting with your existing 3D software.
 -   [Sweet Home 3D](http://www.sweethome3d.com/) : is a free interior design application that helps you draw the plan of your house, arrange furniture on it and visit the results in 3D. [![][repo]](https://sourceforge.net/projects/sweethome3d/files/)
 -   [TreeIt](https://www.evolved-software.com/treeit/treeit) : is an easy to use real time 3D tree generator for the simple creation.
+-   [Cascadeur](https://cascadeur.com/) : is a standalone software for creating keyframe animation of 3D characters, humanoid or otherwise. _Free for early adopters._
 
 ### Various Tools [^](#table)
 
--   [Quixel Bridge](https://quixel.com/bridge) : connects Megascans to all your favorite tools including blender.
+-   [Quixel Bridge](https://quixel.com/bridge) : Connects Megascans to all your favorite tools including Blender.
 -   [PureRef](https://www.pureref.com/) : Simple way to view and organize your reference images.
 -   [DJV](https://darbyjohnston.github.io/DJV/) : Professional image sequence, media review software for VFX, animation, and film production. [![][repo]](https://github.com/darbyjohnston/DJV)
 -   [Natron](https://natrongithub.github.io/) : Open Source Compositing Software For VFX and Motion Graphics. [![][repo]](https://github.com/NatronGitHub/Natron)
@@ -610,6 +621,8 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [3DF Zephyr Free](https://www.3dflow.net/3df-zephyr-free/) : is free version of 3DF Zephyr photogrammetry software for personal use. It comes with some limitations.
 -   [MicMac](https://github.com/micmacIGN/micmac) : is a free open-source photogrammetric suite that can be used in a variety of 3D reconstruction scenarios.
 -   [Display.land](https://get.display.land/) : Turn your phone into a 3D camera that turns any physical space into a 3D space that can be used with AR/VR.
+-   [RealityCapture](https://www.capturingreality.com/) [$] : Create virtual reality scenes, textured 3D meshes, orthographic projections, geo-referenced maps and much more from images and/or laser scans completely automatically.
+-   [Agisoft Metashape](https://www.agisoft.com/) [$] : is a stand-alone software product that performs photogrammetric processing of digital images and generates 3D spatial data.
 
 ### Texture/Material [^](#table)
 
@@ -778,6 +791,7 @@ _Some accounts where you can find different kinds of content related to blender.
 -   [CrossMind Studio](https://www.youtube.com/channel/UCHihootMqyGz175gqOPahtw/videos) : introduction, modeling, shading, lighting, modifiers.
 -   [CBaileyFilm](https://www.youtube.com/channel/UCXguhzOm29mBTYDuxKjxn5A/videos) : blender animation projects.
 -   [CG Masters](https://www.youtube.com/user/blengine/videos) : modeling, texturing, shading.
+-   [Peter France](hhttps://www.youtube.com/c/PeterFrance/videos) : modeling, texturing, shading, vfx.
 
 ### 💻Blogs [^](#table)
 
