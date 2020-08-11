@@ -312,8 +312,27 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   VideoEditor:
     -   [Power Sequencer](https://github.com/GDQuest/blender-power-sequencer) : Brings smart new editing features to edit faster with Blender's Video Sequence Editor. It is completely Free and Open Source.
     -   [VSEQF](https://github.com/snuq/VSEQF) : is an overhaul for Blender's VSE that can completely change your workflow. Designed for quick, mouse and keyboard balanced editing with a focus on real-time feedback.
+    -   [Transform Tools](https://github.com/doakey3/VSE_Transform_Tools) : Quickly transform, crop and fade video strips in Blender's Video Sequence Editor.
+    -   [Easy Proxy](https://github.com/cgvirus/blender-vse-easy-proxy) : Blender addon to create proxy files for Video Sequence Editor (VSE) easily using FFMPEG.
+    -   [Parallel_Render](https://github.com/elmopl/ktba/wiki/Addons) : Render the output from the Sequencer multithreaded through the Render siderbar.
+    -   [Export EDL](https://github.com/tin2tin/ExportEDL) : Exports: video, audio and dissolves. to ex. Davinci Resolve, Lightworks, Final Cut Pro & Premiere Pro.
+    -   [Import EDL](https://github.com/tin2tin/import_edl) : Imports: video, audio and dissolves.
     -   [Freesound Add-on](https://github.com/iwkse/freesound/tree/freesound-2.0) : is an addon for Blender that allows users to create and edit subtitles for movies or music.
+    -   [Push to Talk](https://github.com/britalmeida/blender_addon_push_to_talk) : Convenient recording of scratch dialog for an edit.
+    -   [Scene Strip Tools](https://github.com/tin2tin/scene_strip_tools) : Preview Scene Strips directly in the 3D View.    
     -   [Subsimport](https://github.com/doakey3/Subsimport) : is an addon for Blender that allows users to create and edit subtitles for movies or music.
+    
+-   TextEditor:
+    -   [TexTension](https://github.com/K-410/textension) : For increasing productivity and generally trying to match the writing experience of a modern text editor.
+    -   [Code Editor](https://github.com/K-410/blender-scripts/blob/master/2.8/code_editor.py) : Adds minimap, text tabs, whitespace markers and indent guides.
+    -   [Run in Console](https://github.com/K-410/blender-scripts/blob/master/2.8/run_in_console.py) : Execute a text block and catch its output (prints and errors) in Blender's interactive console.
+    -   [Snippets Library](https://github.com/Pullusb/snippetsLibrary) : Allow you use and manage a library of your own and existing code snippets.
+    -   [Search Online References](https://github.com/tin2tin/Search-API-Reference) : Search current text in API Reference, Python Reference, Blender Stack Exchange, Blender Source Code and Github.
+    -   [Run PEP8 Check](https://github.com/tin2tin/Python_Stylechecker_for_Blender) : Check current script for pep8 mistakes.
+    -   [Formatting](https://github.com/tin2tin/Trim-Whitespace-Change-Case-and-Split-Join-Lines/blob/master/Trim-Whitespace-Change-Case-and-Split-Join-Lines.py) : Trim whitespace change case and split and join lines.
+    -   [Insert and Navigate to Text Markers](https://github.com/tin2tin/TextMarker-blender-addon) : Insert and navigate to text marker positions.
+    -   [Autocomplete/Intellisense](https://github.com/tin2tin/Intellisense_for_Blender_Text_Editor) : Autocomplete/Intellisense for the Text Editor.
+    
 -   Photogrammetry:
     -   [Photogrammetry Importer](https://github.com/SBCV/Blender-Addon-Photogrammetry-Importer) : Addon to import different photogrammetry formats into Blender.
     -   [blender_kitti](https://github.com/risteon/blender_kitti) : Render large point clouds and voxel grids with blender.
@@ -336,6 +355,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [PowerSave](https://gumroad.com/l/powersave) : is a tool intended to streamline saving and make saving itself more accessible, friendly and more artist streamlined.
 -   [Lodify](https://devtalk.blender.org/t/level-of-detail-addon/12840) : LOD(Level of Detail) and Proxy system for blender. [![][repo]](https://github.com/DB3D/Lodify)
 -   [Multi-user](https://blenderartists.org/t/multi-user/1187118) : Enable real-time collaborative workflows inside blender. [![][repo]](https://gitlab.com/slumber/multi-user)
+-   [Screenwriter](https://github.com/tin2tin/Blender_Screenwriter) : Write screenplays in Blender Text Editor in Fountain markup syntax view/export with correct screenplay formatting.
 
 ### 🎴Themes [^](#table)
 
