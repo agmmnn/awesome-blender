@@ -139,6 +139,8 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [City Scatter](https://gumroad.com/curtisjamesholt#Illil) : Generate cityscape concepts, powered by Blender's collection system.
 -   [TubeTool](https://github.com/zeffii/TubeTool) : Generate tubing between two selected polygons.
 -   [Blender Data Visualisation](https://github.com/Griperis/BlenderDataVis) : Load data into Blender and create visualisations.
+-   [Building Tool](https://github.com/ranjian0/building_tools) : A simple building making add-on.
+-   [Lightning Add-on](https://github.com/paramphy/Lightning_add_onn) : Random lightning generator.
 
 ### 🧊Modeling [^](#table)
 
