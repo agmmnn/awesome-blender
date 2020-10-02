@@ -118,28 +118,28 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   👤[FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) : is a Blender add-on that lets you create photorealistic 3D models of human faces and heads using a few photographs with a neutral face expression. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
 -   🚶🏻‍♀️[MB-Lab](https://mblab.dev/) : is a free, open source character creation tool for Blender. [![][repo]](https://github.com/animate1978/MB-Lab)
 -   [The Grove 3D](https://www.thegrove3d.com/) [$] : Grow natural 3D trees for visualisation and film. Grow, bend, prune, interactively simulate the seasons year by year.
--   [tree-gen](https://github.com/friggog/tree-gen) : procedural generation of tree models in blender.
--   [Modular Tree](https://github.com/MaximeHerpin/modular_tree/tree/blender_28) : This addon for blender allows the creation of realistic trees with the node editor.
--   [Bricker](https://github.com/bblanimation/bricker) : Photoreal Lego/Minecraft Simulations. [[market]](https://www.blendermarket.com/products/bricker)
--   [SpaceshipGenerator](https://github.com/a1studmuffin/SpaceshipGenerator) : procedurally generate 3D spaceships.
+-   [tree-gen](https://github.com/friggog/tree-gen) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) : procedural generation of tree models in blender.
+-   [Modular Tree](https://github.com/MaximeHerpin/modular_tree/tree/blender_28) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) : This addon for blender allows the creation of realistic trees with the node editor.
+-   [Bricker](https://github.com/bblanimation/bricker) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) : Photoreal Lego/Minecraft Simulations. [[market]](https://www.blendermarket.com/products/bricker)
+-   [SpaceshipGenerator](https://github.com/a1studmuffin/SpaceshipGenerator) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) : procedurally generate 3D spaceships.
 -   [Space Station Generator](https://gumroad.com/curtisjamesholt#iABmB) : Tool lets you generate sprawling space stations.
--   [Building Tool](https://github.com/ranjian0/building_tool) : Building generation addon for blender.
+-   [Building Tool](https://github.com/ranjian0/building_tool) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) : Building generation addon for blender.
 -   [Procedural Cloudscape Generation](https://blenderartists.org/t/procedural-cloudscape-generation-in-cycles-now-eevee/694700/12) : Create pretty realistic looking cloudscapes in Cycles and Eevee.
--   [Real Snow](https://3d-wolf.com/products/snow.html) : is an addon to create snow on top of objects. [![][repo]](https://github.com/macio97/Real-Snow)
+-   [Real Snow](https://3d-wolf.com/products/snow.html) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) : is an addon to create snow on top of objects. [![][repo]](https://github.com/macio97/Real-Snow)
 -   [Welder](https://blenderartists.org/t/welder/672478) : welds generator for Blender.
--   [Sprytile](https://github.com/ologon/Sprytile) : a blender add-on for building tile based low-poly scenes with paint/map editor like tools. [[more info]](https://itch.io/post/1034106)
+-   [Sprytile](https://github.com/ologon/Sprytile) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) : a blender add-on for building tile based low-poly scenes with paint/map editor like tools. [[more info]](https://itch.io/post/1034106)
 -   [Scatter](https://blendermarket.com/products/scatter) [$] : The scattering tool for blender.
 -   [SceneCity](https://www.cgchan.com/store/scenecity) [$] : Generate large road networks and mass-place tens of thousands of buildings. Mix both procedural and hand-made assets.
 -   [Graswald](https://www.graswald3d.com/) [$] : is the solution for 3D Artists who need realistic vegetation in their scenes.
 -   [Celtic Knot](https://github.com/BorisTheBrave/celtic-knot/wiki/Gallery) : Generate bezier curves, pipes and ribbons in elaborate weavings, based off of a framework mesh.
--   [Floorboard Generator](https://blenderartists.org/t/a-floor-board-generator/582368/195) : Generate floor board. [![][repo]](https://github.com/importbpy/Floorboard-Generator)
+-   [Floorboard Generator](https://blenderartists.org/t/a-floor-board-generator/582368/195) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) : Generate floor board. [![][repo]](https://github.com/importbpy/Floorboard-Generator)
 -   [Piperator](https://blenderartists.org/t/blender-addon-piperator-generation-of-pipe-networks-new-version-with-vertex-color-pipe-control/1186693) : is an addon for blender which helps generating complex pipe layouts.
 -   [Mesh Maze](https://github.com/elfnor/mesh_maze) : Blender add-on to generate a maze on any mesh.
 -   [BookGen](https://oweissbarth.de/software/book-gen-blender-addon/) : is a free book-generation addon for Blender.
 -   [City Scatter](https://gumroad.com/curtisjamesholt#Illil) : Generate cityscape concepts, powered by Blender's collection system.
--   [TubeTool](https://github.com/zeffii/TubeTool) : Generate tubing between two selected polygons.
--   [Blender Data Visualisation](https://github.com/Griperis/BlenderDataVis) : Load data into Blender and create visualisations.
--   [Lightning Add-on](https://github.com/paramphy/Lightning_add_onn) : Random lightning generator.
+-   [TubeTool](https://github.com/zeffii/TubeTool) [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) : Generate tubing between two selected polygons.
+-   [Blender Data Visualisation](https://github.com/Griperis/BlenderDataVis) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) : Load data into Blender and create visualisations.
+-   [Lightning Add-on](https://github.com/paramphy/Lightning_add_onn) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) : Random lightning generator.
 
 ### 🧊Modeling [^](#table)
 
