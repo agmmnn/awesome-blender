@@ -658,7 +658,6 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [MicMac](https://github.com/micmacIGN/micmac) : is a free open-source photogrammetric suite that can be used in a variety of 3D reconstruction scenarios.
 -   [RealityCapture](https://www.capturingreality.com/) [$] : Create virtual reality scenes, textured 3D meshes, orthographic projections, geo-referenced maps and much more from images and/or laser scans completely automatically.
 -   [Agisoft Metashape](https://www.agisoft.com/) [$] : is a stand-alone software product that performs photogrammetric processing of digital images and generates 3D spatial data.
--   [Display.land](https://get.display.land/) : Turn your phone into a 3D camera that turns any physical space into a 3D space that can be used with AR/VR.
 -   [in3D](https://apps.apple.com/us/app/in3d-3d-body-scanning/id1467153183) : 3D body scanning on your phone.
 
 ### Texture/Material [^](#table)
@@ -729,7 +728,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Krita](https://krita.org/en/) : is a professional free and open source painting program. It is made by artists that want to see affordable art tools for everyone. [![][repo]](https://github.com/KDE/krita)
     -   [Link Krita and Blender](https://www.quora.com/Can-I-link-my-Krita-and-Blender-for-easier-animation)
     -   [Custom Digital Painting Workflow In Krita](https://cloud.blender.org/blog/custom-digital-painting-workflow-in-krita)
--   [HEAVYPAINT](http://www.heavypoly.com/heavypaint) : is a simple app designed for graphic painting. The UI is streamlined for fluid, happy painting with as little friction as possible.
+-   [HEAVYPAINT](https://www.heavypaint.app/home) : is a simple app designed for graphic painting. The UI is streamlined for fluid, happy painting with as little friction as possible.
 
 ---
 
