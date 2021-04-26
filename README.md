@@ -69,7 +69,6 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [🍩Beginning](#Beginning-)
     -   [🗿Modeling](#Modeling--1)
     -   [🔘Shader Nodes](#Shader-Nodes-)
-    -   [🌊Simulation/Physics](#SimulationPhysics--1)
     -   [🌠Animation](#Animation--1)
     -   [🌌Animation Nodes](#Animation-Nodes-)
     -   [🔲UV Mapping](#UV-Mapping-)
@@ -214,6 +213,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Keyframe Nudge](https://github.com/okuma10/Keyframe-Nudge) : Scripts for quick keyframe maniplation.
 -   [Real-Time-Animation](https://github.com/SavMartin/Real-Time-Animation-Addon-Update-to-2.80) : Addon for animating by recording object motion This addon for Blender lets you move objects of any type (including cameras, lights, etc) and bones in 3D space and record their motion as keyframes.
 -   [Shape Keys+](https://blenderartists.org/t/shape-keys/680636) : adds a panel with extra options for creating, sorting, viewing, and driving shape keys.
+-   [Blender NLA Midi Copier](https://github.com/Cornerback24/Blender-NLA-Midi-Copier) : Blender add-on for creating midi-driven animations from the Nonlinear Animation view.
 -   Writing/Counting:
     -   [WritingAnimation](https://github.com/Shriinivas/writinganimation), [Typewriter](https://github.com/doakey3/blender-typewriter-addon), [TextCounter](https://github.com/leomoon-studios/leomoon-textcounter/), [GreaseWriter](https://github.com/doakey3/GreaseWriter).
 -   Rigging:
@@ -246,6 +246,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 
 ### 🔳Texture/UV [^](#table)
 
+-   [UV-Packer](https://www.uv-packer.com/blender/) : Automatic and free UV-Packer Add-on for Blender.
 -   [DreamUV](https://github.com/leukbaars/DreamUV) : is a collection of tools that allow you to manipulate UVs in the 3D viewport.
 -   [TexTools](http://renderhjs.net/textools/blender/) : TexTools is a Free addon for Blender 3D with a set of professional UV and Texturing tools. [![][repo]](https://github.com/SavMartin/TexTools-Blender)
 -   [Poliigon Uber Mapping Node](https://www.dropbox.com/s/b8p5nmg7evqbsd6/PoliigonUberMapping_v1.0.blend) : Anti-tile node setup for blender. [[more info]](https://youtu.be/CQ9VmCN2EsE?t=456)
@@ -407,8 +408,8 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [3DModelHaven](https://3dmodelhaven.com/models/) : is a resource of free high quality 3D assets for everyone, following in the footsteps of HDRI Haven and Texture Haven. All models here are CC0.
 -   [Blender Boom](https://www.blenderboom.com/product-category/free/) : 3D model repository. Free models ready to use.
 -   [Three D Scans](https://threedscans.com/) : Free 3D scans in .stl without copyright restrictions.
+-   [3D Digitization Smithsonian](https://3d.si.edu/explore) : CC0 Photoscan Library from Smithsonian. [(Collections)](https://3d.si.edu/collections)
 -   [Chocofur/Free](https://store.chocofur.com/search/free) : Premium quality 3D models & scenes. [(blender addon)](https://store.chocofur.com/model-manager-blender-2-80-course/blender_model/)
--   [Archive 3D](https://archive3d.net/) : Download Free 3D Objects.
 -   [Free3D](https://free3d.com/) : is the go to place where you can share your free 3D assets and download instantly any you like.
 -   [CGAxis/free](https://free.cgaxis.com/) : Get free 3D models, ready to render interior, PBR textures and HDR images. Royalty-Free. ([one pack](https://free.cgax.co/))
 -   [3DB3](https://3db3.com/) : Check out the best 3D models made by professional 3D artists.
@@ -416,22 +417,22 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [RockThe3D](http://www.rockthe3d.com/) : is a blog site to provide and sharing the best 3D related knowledge and resources around.
 -   [CGTrader](https://www.cgtrader.com/free-3d-models) : Free 3D models from cgtrader.
 -   [Sketchfab](https://sketchfab.com/search?features=downloadable&sort_by=-pertinence&type=models) : Free downloadable models from sketchfab.
--   [TurboSquid](https://www.turbosquid.com/Search/3D-Models/free) : Free models from turbosquid
+-   [TurboSquid/free](https://www.turbosquid.com/Search/3D-Models/free) : Free models from Turbosquid.
 -   [Hum3D](https://hum3d.com/) : source of quality 3D models of vehicles in blend file format.
 -   [Clara.io](https://clara.io/library) : Free 3D Modeling, Rendering, Sharing and Models.
 -   [FlyingArchitecture](https://flyingarchitecture.com/store) : is both an architectural visualizations studio as well as an online store dedicated to 3D models, scenes, materials and tutorials.
 -   [3D Warehouse](https://3dwarehouse.sketchup.com/search/) : Download sketchup models.
 -   [Free3DBase](https://free3dbase.com/) : Download high quality free 3d models.
 -   [RenderHub/free](https://www.renderhub.com/free-3d-models) : Daz Content, 3D models, textures and materials.
--   [KitBash3d](https://kitbash3d.com/) [$] : makes premium 3D assets for VFX, concept art and design. Their 3D model kits have immediately been adopted by the industry's top artists, studios. _Get [Mini Kit: Neo City](https://kitbash3d.com/collections/kits/products/mini-kit-neo-city)_ for free. _Get [Utopia Kit](https://kitbash3d.com/blogs/news/free-utopia-kit-for-brightartdarktimes)_ for free.
+-   [KitBash3d](https://kitbash3d.com/) [$] : makes premium 3D assets for VFX, concept art and design. Their 3D model kits have immediately been adopted by the industry's top artists, studios. _Get [Mini Kit: Neo City](https://kitbash3d.com/collections/kits/products/mini-kit-neo-city)_ for free.
 -   [Awesome-3D-Meshes : List of famous 3D meshes.](https://github.com/jvm-graphics-labs/awesome-3d-meshes/)
 -   [List of Common 3D Test Models.](https://en.wikipedia.org/wiki/List_of_common_3D_test_models)
 -   Other Sites:
-    -   [Google Poly](https://poly.google.com/blocks), [GrabCAD](https://grabcad.com/library), [Xfree3D](https://vwartclub.com/?section=xfree3d), [Gumroad/free-3d-model](https://gumroad.com/discover?maxPrice=0&query=3d%20model), [Artstation Marketplace/free](https://www.artstation.com/marketplace?sort_by=trending&filter_by=free), [Cubebrush/freebies](https://cubebrush.co/marketplace?freebies=true), [Daz3D/freebies](https://www.daz3d.com/free-3d-models#black), [3dsky.org/free](https://3dsky.org/3dmodels?types=free&page=1), [C4DDownload.com](https://c4ddownload.com/), [3DModelsCC0.com](https://www.3dmodelscc0.com/3dmodels).
+    -   [Google Poly](https://poly.google.com/blocks), [GrabCAD](https://grabcad.com/library), [Xfree3D](https://vwartclub.com/?section=xfree3d), [Gumroad/free-3d-model](https://gumroad.com/discover?maxPrice=0&query=3d%20model), [Artstation Marketplace/free](https://www.artstation.com/marketplace?sort_by=trending&filter_by=free), [Cubebrush/freebies](https://cubebrush.co/marketplace?freebies=true), [Daz3D/freebies](https://www.daz3d.com/free-3d-models#black), [3dsky.org/free](https://3dsky.org/3dmodels?types=free&page=1), [C4DDownload.com](https://c4ddownload.com/), [3DModelsCC0.com](https://www.3dmodelscc0.com/3dmodels), [CadNav](https://www.cadnav.com/), [Archive 3D](https://archive3d.net/), [ThePixelLab/freebies](https://www.thepixellab.net/freebies).
 -   Various Models:
     -   [Quaternius's Ultimate Low-Poly Models](http://quaternius.com/index.html), [The Art of 3D Insects by Natural History Museum](https://stock.adobe.com/collections/rTMsIExGHtyXsAv8NL8RfOxokqALHQhy), [First Animals by Oxford University](https://sketchfab.com/morethanadodo/collections/first-animals), [Stylized Characters Base Meshes/Blockouts](https://gumroad.com/georgezaky108), [Wire Wheels Club: Free Car Models](https://wirewheelsclub.com/free-3d-models/).
 -   Scanned Models:
-    -   [Scanned Female Head Model by EISKO](https://eisko.com/louise/virtual-model), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Scanned Models from Smithsonian](https://3d.si.edu/explore), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model), [Deep 3D Studio](https://www.artstation.com/deep3dstudio/store/9BBA/free-download-australian-infantryman-character-from-world-war-2-39), [Public Domain 3D Cultural Heritage](https://sketchfab.com/nebulousflynn/collections/cc0), [The Heretic: Digital Human by Unity](https://assetstore.unity.com/packages/essentials/tutorial-projects/the-heretic-digital-human-168620), [Phenome10K/Scans](https://phenome10k.org/scans/).
+    -   [Scanned Female Head Model by EISKO](https://eisko.com/louise/virtual-model), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model), [Deep 3D Studio](https://www.artstation.com/deep3dstudio/store/9BBA/free-download-australian-infantryman-character-from-world-war-2-39), [Public Domain 3D Cultural Heritage](https://sketchfab.com/nebulousflynn/collections/cc0), [The Heretic: Digital Human by Unity](https://assetstore.unity.com/packages/essentials/tutorial-projects/the-heretic-digital-human-168620), [Phenome10K/Scans](https://phenome10k.org/scans/), [Renderbot/free](https://renderbot.com/3d/free/), [The Małopolska’s Virtual Museums](https://sketchfab.com/WirtualneMuzeaMalopolski).
 -   Kitbash Models:
     -   [Free Hard Surface KitBash Models](https://gumroad.com/olegushenok?sort=page_layout&tags=free), [Free sci-fi kitbash set](https://cubebrush.co/polyworkshop/products/audboa/free-sci-fi-kitbash-set-fusion-360-zbrush), [Hard Surface Kitbash Pack](https://gumroad.com/averkin), [3D Kitbashing library](https://gumroad.com/adrianrutkowski), [Kitbash Sci-fi Buildings](https://www.artstation.com/art-mage/store/Vb1A/kitbash-sci-fi-buildings-vol-1-5).
 -   Cloth Models:
@@ -442,6 +443,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 ### 🤸🏾‍♀️Mocap/Animation [^](#table)
 
 -   [Mixamo](https://www.mixamo.com/) : Animate 3D characters for games, film, and more.
+-   [ActorCore](https://actorcore.reallusion.com/free) : Motion-capture library from Reallusion.
 -   [Carnegie-Mellon University Graphics Lab Motion Capture Database BVH conversions](https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture) : Contains 2500 free human motion captures.
 -   [Rokoko Studio](https://www.rokoko.com/en/downloads) : Get 150 free mocap moves from Rokoko’s Motion Library.
 -   [Motekentertainment/free-samples](http://www.motekentertainment.com/product-category/free-samples/) : Motek has captured and animated the a large variety of characters, for a great number of projects from various sectors.
@@ -463,6 +465,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Texture Fun](https://texturefun.com/) : Free PBR texture sets of common architectural materials, including some nice tile textures.
 -   [C4DCenter](https://c4dcenter.com/material-library/) : Free C4D Materials created with High Quality Texture Maps for instant download and no limits, Free for Personal and Commercial Use.
 -   [PBR Horde](https://www.pbrhorde.com/) : is a web library of free materials. Feel free to use them in your Substance Painter projects or 3D scenes.
+-   [IES Library](https://ieslibrary.com/en/browse) : Download free IES lighting files. IES files describe how light from a lamp is distributed in a room.
 -   [WildTextures](https://www.wildtextures.com/) : Free high resolution textures and patterns for commercial or personal use.
 -   [Textures.com](https://www.textures.com/) [$] : is a website that offers digital pictures of all sorts of materials. Sign up for free and download 15 free images every day!
 -   [Substance Share](https://share.substance3d.com/) : The free exchange platform for the Substance community.
@@ -471,7 +474,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Poliigon/freebies](https://www.poliigon.com/search?type=all&refine_by=assets-free) [$] : A library of materials, and HDR's for artists including free textures that want photorealism.
 -   [Texturing.xyz](https://texturing.xyz/) [$] : Our textures are used in the biggest and industry-leading VFX companies, and help them achieving their goals faster.
 -   Other Sites:
-    -   [EveryTexture.com](https://everytexture.com/latest), [3DJungle.net](https://3djungle.net/textures/), [Architecture Inspirations](https://www.archinspirations.com/materials), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [TextureKing](https://www.textureking.com/category/all-textures/).
+    -   [EveryTexture.com](https://everytexture.com/latest), [3DJungle.net](https://3djungle.net/textures/), [Architecture Inspirations](https://www.archinspirations.com/materials), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [TextureKing](https://www.textureking.com/category/all-textures/), [MotionSquared](https://textures.motionsquared.net/latest-textures/).
 -   Others:
     -   [gumroad/juliosillet](https://gumroad.com/juliosillet), [gumroad/lebedev](https://gumroad.com/lebedev), [3d-wolf/textures](https://3d-wolf.com/products/textures.html), [Pixar/CommunityResources](https://renderman.pixar.com/community_resources), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [30 Displacement Maps](https://gumroad.com/l/xsQTf), [Texture Hunt Collection](https://gumroad.com/l/texturehunt), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [treesDesigner PBR Leaf Textures](http://www.treesdesigner.com/materials-library/), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [CGTrader/textures](https://www.cgtrader.com/free-3d-models/textures), [CGIVault/Textures](https://cgivault.com/product-category/textures/), [artstation/alexbeddows](https://www.artstation.com/alexbeddows/store).
 
@@ -484,7 +487,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   Sketch/Toon Shaders:
     -   [BNPR' Shaders](https://blendernpr.org/downloads/), [Eevee Comics Shader v3.0](https://gumroad.com/l/JWdjJ), [Erisdraw3D's](https://twitter.com/Erisdraw3D/status/1216755574735503361), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [Komikaze[\$]](https://blendermarket.com/products/komikaze)(Free: [Aqua](https://drive.google.com/file/d/1jlYxqRfjnjnZSG2gxKqiXa5Fo0Y7N9Kn/edit), [Kismet](https://drive.google.com/file/d/1Mp808PE3Wjew6-hEv0vIJZLzPezRM-jV/view)), [Ultimate Clay Shader[\$]](https://blendermarket.com/products/claydoh), [Erito's Toon Shader for Eevee](https://www.artstation.com/eritokaio/store/Wo3B/erito-s-toon-shader-for-blender-eevee), [Toonkit-Samples](https://github.com/vitorbalbio/Toonkit-Samples).
 -   Nodevember Results:
-    -   [Curtis Holt's Results](https://youtu.be/JhLVzcCl1ug), [Neoyume’s Nodeshaders](https://neoyume.com/en/neoyumes-nodevember-nodeshaders/).
+    -   [Curtis Holt's Results](https://youtu.be/JhLVzcCl1ug), [Neoyume’s Nodeshaders](https://neoyume.com/en/neoyumes-nodevember-nodeshaders/), [Kyle Hamm](https://gumroad.com/l/kylenodevember2020), [erindale](https://gumroad.com/l/node2020).
 -   Others:
     -   [gumroad/simonthommes](https://gumroad.com/simonthommes), [Meta's Massivest Materials](https://www.blendswap.com/blend/16480), [Abstract Materials](https://gumroad.com/l/CCIEF).
 
@@ -501,7 +504,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 
 ### ⛅HDRIs [^](#table)
 
--   [HDRI Haven](https://hdrihaven.com/hdris/category/index.php?c=all&o=date_published&s=all), [Pixar/HDRI](https://renderman.pixar.com/category/111-hdri), [Hdrlabs](http://hdrlabs.com/sibl/archive.html), [Hdrmaps/freebies](https://hdrmaps.com/freebies), [Hdri-hub/free](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [Hdri-skies](https://hdri-skies.com/), [eisklotz/HDRIs](https://drive.google.com/drive/folders/1tnuVLtmLNIajTszoDXybboWxwk1L4YOJ), [locationtextures/panoramas](https://locationtextures.com/panoramas/?sort=p.price&order=ASC), [noahwitchell](http://www.noahwitchell.com/freebies), [bobgroothuis](https://www.bobgroothuis.com/collections/360-hdri), [vizpeople/free](https://www.viz-people.com/portfolio/free-hdri-maps/), [noemotionhdrs](http://noemotionhdrs.net/hdrevening.html).
+-   [HDRI Haven](https://hdrihaven.com/hdris/category/index.php?c=all&o=date_published&s=all), [Pixar/HDRI](https://renderman.pixar.com/category/111-hdri), [Hdrlabs](http://hdrlabs.com/sibl/archive.html), [Hdrmaps/freebies](https://hdrmaps.com/freebies), [Hdri-hub/free](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [Hdri-skies](https://hdri-skies.com/), [eisklotz/HDRIs](https://drive.google.com/drive/folders/1tnuVLtmLNIajTszoDXybboWxwk1L4YOJ), [locationtextures/panoramas](https://locationtextures.com/panoramas/?sort=p.price&order=ASC), [noahwitchell](http://www.noahwitchell.com/freebies), [bobgroothuis](https://www.bobgroothuis.com/collections/360-hdri), [vizpeople/free](https://www.viz-people.com/portfolio/free-hdri-maps/), [noemotionhdrs](http://noemotionhdrs.net/hdrevening.html), [iHDRI](https://www.ihdri.com/hdri-skies-outdoor/).
 
 ### 🖼️Art/Reference [^](#table)
 
@@ -534,23 +537,18 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Solar Textures](https://www.solarsystemscope.com/textures/) : These textures represent real planetary maps in equirectangular projection. Textures in this pack are based on NASA elevation and imagery data.
 -   [NASA-3D-Resources](https://nasa3d.arc.nasa.gov/) : Here you'll find a growing collection of 3D models, textures, and images from inside NASA. All of these resources are free to download and use. [![][repo]](https://github.com/nasa/NASA-3D-Resources)
 -   [Celestia Motherlode](http://www.celestiamotherlode.net/) : is a repository for various addons like textures, models or celestial objects.
--   NASA : [Hubble Image Gallery (NASA)](https://hubblesite.org/images/gallery), [NASA Image and Video Library](https://images.nasa.gov/), [Astronomy Picture of the Day](https://apod.nasa.gov/apod/archivepix.html), [CGI Moon Kit](https://svs.gsfc.nasa.gov/4720).
+-   NASA : [Hubble Image Gallery (NASA)](https://hubblesite.org/images/gallery), [NASA Image and Video Library](https://images.nasa.gov/), [Astronomy Picture of the Day](https://apod.nasa.gov/apod/archivepix.html).
 -   ESA : [ESA - Observing the Earth](https://earth.esa.int/web/guest/images-of-the-earth) ([Image Archive](http://www.esa.int/Applications/Observing_the_Earth/Image_archive)).
 -   [Earth View](https://earthview.withgoogle.com/) : Earth View is a collection of the most beautiful and striking landscapes found in Google Earth.
 -   [Areo Browser](https://areobrowser.com/) : is a web-app that allows you to explore nearly 2000 Martian terrain models, in full 3D, directly in your browser.
 -   Others:
-    -   [Natural Earth III](http://www.shadedrelief.com/natural3/pages/textures.html), [Planets Pack](https://gumroad.com/l/qMZOE).
+    -   [CGI Moon Kit](https://svs.gsfc.nasa.gov/4720), [Moon 64k](https://gumroad.com/l/MOON_46K), [Earth 42k](https://gumroad.com/l/uHyhPT), [Natural Earth III](http://www.shadedrelief.com/natural3/pages/textures.html), [Planets Pack](https://gumroad.com/l/qMZOE).
 
 ### 🎧Sound/Music [^](#table)
 
 -   [Freesound.org](https://freesound.org/browse/) : Collaborative database of creative-commons licensed sound for musicians and sound lovers.
+-   [GameAudioGDC](https://sonniss.com/gameaudiogdc): Each year we give away thousands of dollars worth of sound effects for free in celebration of the Game Developers Conference. This is our archive. Everything is royalty-free and commercially usable.
 -   [GameSounds.xyz](https://gamesounds.xyz/) : Royalty free music and sounds for your games.
--   GameAudioGDC:
-    [GDC19](https://sonniss.com/gameaudiogdc19/),
-    [GDC18](https://sonniss.com/gameaudiogdc18/),
-    [GDC17](https://sonniss.com/gameaudiogdc2017/),
-    [GDC16](https://sonniss.com/gameaudiogdc2016/),
-    [GDC15](https://archive.org/details/SonnissGameAudioGDC).
 -   [SoundBible.com](http://soundbible.com/free-sound-effects-1.html) : Offers thousands of free sound effects, sound clips, and straight up sounds. These sounds can be used in a variety of sound projects.
 -   [99Sounds.org](http://99sounds.org/free-sound-effects/) : is a website offering free downloads of royalty-free content generated by its own users.
 -   [Freesfx.co.uk](https://www.freesfx.co.uk/) : This web site provides free sound effects that you are able to use in any commercial production.
@@ -566,7 +564,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 
 -   Image/Vector : [unsplash](https://unsplash.com/), [pexels](https://www.pexels.com/)
     , [pixabay](https://pixabay.com/tr/), [stocksnap](https://stocksnap.io/), [rawpixel](https://www.rawpixel.com/), [burst](https://burst.shopify.com/).
--   Video/VFX/Footage : [videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/tr/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos).
+-   Video/VFX/Footage : [videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/tr/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos), [actionvfx](actionvfx.com/blog/3-free-vfx-stock-collections-portals-bullet-tracers-camera-shake-presets), [productioncrate/free](https://vfx.productioncrate.com/search/#!/free).
 -   Cutouts : [MrCutout](https://www.mrcutout.com/), [gumroad/kaiserbold](https://gumroad.com/hi5_kaiserbold), [nonscandinavia](http://www.nonscandinavia.com/), [clipped](http://www.clipped.io/search?sort_uploads=created_at).
 -   Visual Loops : [Mantissa](https://mantissa.xyz/vjloops), [BEEPLE](https://www.beeple-crap.com/vjloops), [Vimeo/Catmac](https://vimeo.com/user2777466), [SSWIII](http://www.switzonwigfall.com/vjclips), [rptv](https://www.rptv.co/videoloops).
 -   Fonts : [google](https://fonts.google.com/), [theleagueofmoveabletype](https://www.theleagueofmoveabletype.com/), [beautifulwebtype](https://beautifulwebtype.com/), [openfoundry](https://open-foundry.com/fonts).
@@ -583,7 +581,6 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [MatCaps](https://github.com/nidorx/matcaps) : Huge library of matcap PNG textures organized by color.
 -   [Blender Matcap Shader](https://gumroad.com/l/tJyTi/xor9ydy) : An implementation of Blender's workbench matcap shading in shader nodes.
 -   [UE Sponsored Content](https://www.unrealengine.com/en-US/uesponsoredcontent) : Every month Epic Games gives away several assets from the Unreal Engine marketplace for free.
--   [IES Library](https://ieslibrary.com/en/browse) : Download free IES lighting files. IES files describe how light from a lamp is distributed in a room.
 -   [Blender & ACES](https://www.toodee.de/?page_id=1720) : Setup Blender to work with ACES using OpenColorIO.
 
 ---
@@ -635,6 +632,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Possumwood](https://github.com/martin-pr/possumwood) : is a graph-based procedural sandbox, implementing concepts of graph-based visual programming in a simple interface.
 -   [Effekseer](https://effekseer.github.io/en/) : Open source particle effect creating tool.
 -   [Particle Illusion](https://borisfx.com/products/particle-illusion/) : Free GPU-accelerated 2D particle generator.
+-   [Exr-IO](https://www.exr-io.com/) : is a robust and exact solution for dealing with multi-layer EXR pictures. It supports Cryptomatte.
 -   Blender Tools:
     -   [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater) : Download and install nightly builds with one click.
     -   [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : Command line version of BlenderUpdater.
@@ -715,6 +713,8 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [EbSynth](https://ebsynth.com/) : Free tool for converting video footage into stylised motion paintings.
 -   [PIFuHD](https://shunsukesaito.github.io/PIFuHD/) : Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization. [![][repo]](https://github.com/facebookresearch/pifuhd)
 -   [Generated.Photos](https://generated.photos/faces) : AI-generated faces.
+-   [Flowframes](https://nmkd.itch.io/flowframes) : is a simple but powerful app that utilizes AI frameworks to interpolate videos in order to increase their framerate with little to no noticable quality loss.
+-   [Cupscale](https://github.com/n00mkrad/cupscale) : Image Upscaling GUI based on ESRGAN.
 
 ### Sound/Music [^](#table)
 
@@ -867,7 +867,8 @@ _Some accounts where you can find different kinds of content related to blender.
 -   [Nodevember](https://nodevember.io/) : The yearly event for everything procedural. Feel like doing a challenge? #nodevember is all about creating and promoting procedural awesomeness! A whole month to improve and show off your procedural skills.
     -   See works: [tw/#nodevember](https://twitter.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?q=nodevember)
 -   [SculptJanuary](https://cgboost.com/sculptjanuary2020/) : Challenge yourself over 31 days with a set of 31 topics.
-    Sculpt every day and improve your sculpting skills. - See works: [tw/#sculptjanuary](https://twitter.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?q=sculptjanuary)
+    Sculpt every day and improve your sculpting skills.
+    -   See works: [tw/#sculptjanuary](https://twitter.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?q=sculptjanuary)
 -   [36 Days of Type](http://www.36daysoftype.com/) : is a yearly open call inviting designers, illustrators and visual artists to share their view on the letters and numbers from our alphabet.
     -   See works: [tw/#36daysoftype](https://twitter.com/hashtag/36daysoftype), [ig/#36daysoftype](https://www.instagram.com/explore/tags/36daysoftype/), [artstation/36daysoftype](https://www.artstation.com/search?q=36daysoftype)
 -   Competitions: [/r/blender: contest](https://www.reddit.com/r/blender/), [blenderartists.org/contest](https://blenderartists.org/c/contests).
@@ -942,34 +943,6 @@ _Some accounts where you can find different kinds of content related to blender.
 -   ☰[Blender Principled BSDF (Speed Tutorials) by Royal Skies LLC.](https://www.youtube.com/playlist?list=PLZpDYt0cyiut8p1fyrNbzQRNkfKHtUy5e)
 -   ☰[Blender Procedural Texturing (Speed Tutorials) by Royal Skies LLC.](https://www.youtube.com/playlist?list=PLZpDYt0cyiuv18KFBVniU2Yi-eI0Jrwo1)
 -   ▷[All 80+ Blender material nodes explained in under 30 minutes.](https://www.youtube.com/watch?v=cQ0qtcSymDI)
-
-### 🌊Simulation/Physics [^](#table)
-
--   🧾[Blender Physics Manual.](https://docs.blender.org/manual/en/latest/physics/index.html)
--   🧾[Flip Fluids Wiki.](https://github.com/rlguy/Blender-FLIP-Fluids/wiki)
--   Fluid/Smoke/Fire:
-    -   ▷[Quick Water Simulation Tutorial in Blender.](https://www.youtube.com/watch?v=_ECgy5hawyY)
-    -   ▷[How to Create a Mantaflow Fluid Simulation in Blender.](https://www.youtube.com/watch?v=YdUWqkqcxzw)
-    -   ▷[Advanced Heavy Smoke Simulation in Blender, Easy.](https://www.youtube.com/watch?v=H5oRZonI7a0)
-    -   ▷[All Mantaflow Smoke Settings.](https://www.youtube.com/watch?v=soO15rP_h2c)
-    -   ▷[All Mantaflow Fluid Settings.](https://www.youtube.com/watch?v=4kV4VJCY7_A)
--   Rigid Body:
-    -   ▷[Physics in Blender for Absolute Beginners.](https://www.youtube.com/watch?v=KtjJfWlQ8oE)
-    -   ▷[Create a Ragdoll in under 10 minutes.](https://www.youtube.com/watch?v=AtaG8EqN_nw)
-    -   ▷[9 Ways to Destroy Things.](https://www.youtube.com/watch?v=wJFE2pb0Ri4)
--   Crowd:
-    -   ▷[Animating Huge Crowds in Blender - Lazy Tutorials.](https://www.youtube.com/watch?v=xWq-ZPMhai8)
-    -   ▷[How to create a bustling crowd simulation in Blender.](https://www.youtube.com/watch?v=d49NUfKAjUM)
--   Hair:
-    -   ▷[Hair Simulations Made Easy.](https://www.youtube.com/watch?v=wxzhik4fAwE)
-    -   ▷[Blender Fur Tutorial (Beginner Level).](https://www.youtube.com/watch?v=c1xKA4itqow)
--   Cloth:
-    -   ▷[Easy Cloth Simulation Tutorial in Blender.](https://www.youtube.com/watch?v=-vVoQ-1U0SY)
-    -   ▷[New Cloth Feature in Blender 2.82.](https://www.youtube.com/watch?v=wCKaiNAmxuo)
--   Particles:
-    -   ▷[How to Create Abstract Particles in Blender!](https://www.youtube.com/watch?v=bEZsFQP6SCg)
-    -   ▷[Sci-Fi Particle Simulation in Eevee Blender.](https://www.youtube.com/watch?v=2bv973aqx-w)
-    -   ▷[Dispersion Effect in Blender - Thanos Fx.](https://www.youtube.com/watch?v=d59AouNM9lk)
 
 ### 🌠Animation [^](#table)
 
