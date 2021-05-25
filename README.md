@@ -142,6 +142,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Blender Data Visualisation](https://github.com/Griperis/BlenderDataVis) : Load data into Blender and create visualisations.
 -   [Lightning Addon](https://github.com/paramphy/Lightning_add_onn) : Simple add-on to summon lightning.
 -   [HGen](https://gumroad.com/l/HGen_nd9h) : Blender hair generation and manipulating tool.
+-   [Data-FX](https://github.com/LandonFerg/Data-FX) : Loads and visualizes different types of data within Blender from .csv files.
 
 ### 🧊Modeling [^](#table)
 
