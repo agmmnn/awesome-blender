@@ -368,6 +368,8 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [SSGI for EEVEE](https://gumroad.com/l/PgyXc) : Converts Diffuse and Principled BSDFs to nodegroups that give representation of diffuse component to SSR for SSGI effect.
     -   [Shader Displacement for Eevee](https://gumroad.com/l/WDCRp) : Using a few modifiers and a nodegroup, realtime shader displacement in Eevee is now possible.
     -   [Eevee Presets](https://github.com/danielenger/Eevee-Presets) : Save Eevee Presets.
+-   Nodes:
+    -   [PrintNodes](https://gumroad.com/yeetusblenditus?recommended_by=search#VZDyc) : Export high quality screenshots of your nodes. Great for getting support.
 -   [CubeSter](https://github.com/BlendingJake/CubeSter) : is an add-on for Blender 3D that takes an image or audio file and converts it into a height-based mesh object.
 -   [Projectors](https://github.com/Ocupe/Projectors) : A blender add-on for simple projector creation and modification.
 -   [Simple Renaming Panel](https://github.com/Weisl/simple_renaming_panel) : Rename more objects at once. The tool includes basic functionalities of adding suffixes, prefixes, search and replace, add suffixes depending on the object type and much more.
