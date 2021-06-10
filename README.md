@@ -321,6 +321,9 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [Blender To Unity FBX Exporter](https://github.com/jayanam/batex) : FBX exporter add-on for Blender compatible with Unity's coordinate and scaling system.
 -   Render:
     -   [BatchRender](https://github.com/VertStretch/RenderBurst), [Notify](https://github.com/Dziban-dev/Notify_Blender_Render), [AlarmShutdown](https://gumroad.com/l/PcDfw), [RenderButton](https://github.com/Mitsuma/Blender2.8-RenderButton).
+    -   [Super Res Render](https://gumroad.com/kevinlorengel?recommended_by=search#absLo) : Plugin that splits renders up into several chunks to make rendering at super high resolutions possible.
+    -   [Super Fast Render](https://gumroad.com/kevinlorengel?recommended_by=search#RaFQi) : Either uses preset render settings optimised to speed up render times or Uses a benchmark to detect the fastest settings for the same render quality
+    -   [Super Image Denoiser](https://gumroad.com/kevinlorengel?recommended_by=search#BQerS) : Super high quality denoiser that desnoises the scene in several layers to reduce artifacts
 -   Camera:
     -   [Real Camera](https://3d-wolf.com/products/camera.html) : is an addon that allows you to control the Blender camera like a real camera. [![][repo]](https://github.com/macio97/Real-Camera)
     -   [Cameras-Lister](https://github.com/Ryxx/Cameras-Lister) : Easy select camera’s in popup shortcut is Alt-C.
