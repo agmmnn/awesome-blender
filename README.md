@@ -121,7 +121,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [The Grove 3D](https://www.thegrove3d.com/) [$] : Grow natural 3D trees for visualisation and film. Grow, bend, prune, interactively simulate the seasons year by year.
 -   [tree-gen](https://github.com/friggog/tree-gen) : procedural generation of tree models in blender.
 -   [Modular Tree](https://github.com/MaximeHerpin/modular_tree/tree/blender_28) : This addon for blender allows the creation of realistic trees with the node editor.
--   [Bricker](https://github.com/bblanimation/bricker) : Photoreal Lego/Minecraft Simulations. [[market]](https://www.blendermarket.com/products/bricker)
+-   [Bricker](https://www.blendermarket.com/products/bricker) [$] : Photoreal Lego/Minecraft Simulations.
 -   [SpaceshipGenerator](https://github.com/a1studmuffin/SpaceshipGenerator) : procedurally generate 3D spaceships.
 -   [Space Station Generator](https://gumroad.com/curtisjamesholt#iABmB) : Tool lets you generate sprawling space stations.
 -   [Building Tools](https://github.com/ranjian0/building_tools) : Building generation addon for blender.
@@ -143,6 +143,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Lightning Addon](https://github.com/paramphy/Lightning_add_onn) : Simple add-on to summon lightning.
 -   [HGen](https://gumroad.com/l/HGen_nd9h) : Blender hair generation and manipulating tool.
 -   [Data-FX](https://github.com/LandonFerg/Data-FX) : Loads and visualizes different types of data within Blender from .csv files.
+-   [Geometry nodes](https://www.blender.org/download/demo-files/#geometry-nodes) : Free examples of geometry nodes including preocdeual buildings and a hex grid map.
 
 ### 🧊Modeling [^](#table)
 
@@ -236,6 +237,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [appleseed](https://appleseedhq.net/) : is an open source, physically-based global illumination rendering engine primarily designed for animation and visual effects. [![][repo]](https://github.com/appleseedhq/appleseed) [(blender addon)](https://github.com/appleseedhq/blenderseed)
 -   [LuxCore](https://luxcorerender.org/) : LuxCoreRender is a physically based and unbiased rendering engine. It offers advanced features like accelerated rendering of indirect light and efficient rendering of caustics. [![][repo]](https://github.com/LuxCoreRender/BlendLuxCore) [(blender addon)](https://github.com/LuxCoreRender/BlendLuxCore)
 -   [E-Cycles](https://blendermarket.com/products/e-cycles) [$] : is a fork of Cycles which renders up to 2.5x faster out of the box when using CUDA GPUs, up to 15x using new options.
+-   [K Cycles](https://blendermarket.com/products/k-cycles) [$] : Another fork of Cycles like E-Cycles. Advertised as an improvement over E-Cycles
 -   [AMD Radeon ProRender](https://www.amd.com/en/technologies/radeon-prorender-blender) : is AMD’s powerful physically-based rendering engine that lets creative professionals use open industry standards to leverage GPU and CPU performance to produce stunningly photorealistic images in Blender.
 -   [Pixar's RenderMan for Blender](https://github.com/tyler-furby/RenderManForBlender) : Physically-based render from Pixar. Not officially supported 2.8 there are bunch of plugins made by blender community. [[more info]](https://blenderartists.org/t/pixar-renderman-for-blender/646404/650)
     -   [Pixar announces RenderMan's new Blender Bridge Tool.](https://www.blendernation.com/2020/09/02/pixar-announces-rendermans-new-blender-bridge-tool-announced/)
@@ -319,10 +321,14 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [Blender To Unity FBX Exporter](https://github.com/jayanam/batex) : FBX exporter add-on for Blender compatible with Unity's coordinate and scaling system.
 -   Render:
     -   [BatchRender](https://github.com/VertStretch/RenderBurst), [Notify](https://github.com/Dziban-dev/Notify_Blender_Render), [AlarmShutdown](https://gumroad.com/l/PcDfw), [RenderButton](https://github.com/Mitsuma/Blender2.8-RenderButton).
+    -   [Super Res Render](https://gumroad.com/kevinlorengel?recommended_by=search#absLo) : Plugin that splits renders up into several chunks to make rendering at super high resolutions possible.
+    -   [Super Fast Render](https://gumroad.com/kevinlorengel?recommended_by=search#RaFQi) : Either uses preset render settings optimised to speed up render times or Uses a benchmark to detect the fastest settings for the same render quality
+    -   [Super Image Denoiser](https://gumroad.com/kevinlorengel?recommended_by=search#BQerS) : Super high quality denoiser that desnoises the scene in several layers to reduce artifacts
 -   Camera:
     -   [Real Camera](https://3d-wolf.com/products/camera.html) : is an addon that allows you to control the Blender camera like a real camera. [![][repo]](https://github.com/macio97/Real-Camera)
     -   [Cameras-Lister](https://github.com/Ryxx/Cameras-Lister) : Easy select camera’s in popup shortcut is Alt-C.
-    -   [Photographer](https://blenderartists.org/t/photographer-camera-exposure-white-balance-and-autofocus/1101721/238) : Camera Exposure, White balance and Autofocus.
+    -   [Photographer 2](https://gumroad.com/chafouin#FWQf) : Camera Exposure, White balance and Autofocus. Photographer 2 was made completely free for all
+    -   [Photographer 3&4](https://blendermarket.com/products/photographer) [$] : Camera Exposure, White balance and Autofocus, Physical Light units, Optical Bokeh and more camera related enhancements. Photographer 3 is at a reduced price while Photographer 4 has newer features
 -   Audio Visualizer
     -   [Bizualizer](https://github.com/doakey3/Bizualizer), [Curtis Holt's](https://gumroad.com/l/klmfi).
 -   Display:
@@ -362,6 +368,8 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [SSGI for EEVEE](https://gumroad.com/l/PgyXc) : Converts Diffuse and Principled BSDFs to nodegroups that give representation of diffuse component to SSR for SSGI effect.
     -   [Shader Displacement for Eevee](https://gumroad.com/l/WDCRp) : Using a few modifiers and a nodegroup, realtime shader displacement in Eevee is now possible.
     -   [Eevee Presets](https://github.com/danielenger/Eevee-Presets) : Save Eevee Presets.
+-   Nodes:
+    -   [PrintNodes](https://gumroad.com/yeetusblenditus?recommended_by=search#VZDyc) : Export high quality screenshots of your nodes. Great for getting support.
 -   [CubeSter](https://github.com/BlendingJake/CubeSter) : is an add-on for Blender 3D that takes an image or audio file and converts it into a height-based mesh object.
 -   [Projectors](https://github.com/Ocupe/Projectors) : A blender add-on for simple projector creation and modification.
 -   [Simple Renaming Panel](https://github.com/Weisl/simple_renaming_panel) : Rename more objects at once. The tool includes basic functionalities of adding suffixes, prefixes, search and replace, add suffixes depending on the object type and much more.
