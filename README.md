@@ -144,6 +144,8 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [HGen](https://gumroad.com/l/HGen_nd9h) : Blender hair generation and manipulating tool.
 -   [Data-FX](https://github.com/LandonFerg/Data-FX) : Loads and visualizes different types of data within Blender from .csv files.
 -   [Geometry nodes](https://www.blender.org/download/demo-files/#geometry-nodes) : Free examples of geometry nodes including procedural buildings and a hex grid map.
+-   [Post USSR Builder](https://kypcaht.gumroad.com/l/PmCLJ) : Simple post USSR style building generator on geometry nodes. 2.93 and newer
+-   [G Scatter](https://www.graswald3d.com/gscatter) : Artist-friendly scattering for free from developers of Grasswald.
 
 ### 🧊Modeling [^](#table)
 
@@ -216,6 +218,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Real-Time-Animation](https://github.com/SavMartin/Real-Time-Animation-Addon-Update-to-2.80) : Addon for animating by recording object motion This addon for Blender lets you move objects of any type (including cameras, lights, etc) and bones in 3D space and record their motion as keyframes.
 -   [Shape Keys+](https://blenderartists.org/t/shape-keys/680636) : adds a panel with extra options for creating, sorting, viewing, and driving shape keys.
 -   [Blender NLA Midi Copier](https://github.com/Cornerback24/Blender-NLA-Midi-Copier) : Blender add-on for creating midi-driven animations from the Nonlinear Animation view.
+-   [BlendyPose](https://github.com/zonkosoft/BlendyPose) : Blender Motion Capture using your camera.
 -   Writing/Counting:
     -   [WritingAnimation](https://github.com/Shriinivas/writinganimation), [Typewriter](https://github.com/doakey3/blender-typewriter-addon), [TextCounter](https://github.com/leomoon-studios/leomoon-textcounter/), [GreaseWriter](https://github.com/doakey3/GreaseWriter).
 -   Rigging:
@@ -393,6 +396,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Daz to Blender Bridge](https://www.daz3d.com/daz-to-blender-bridge) : This easy-to-use Bridge transfers your Genesis 8 and 3 characters from Daz directly to Blender.
 -   [Kaleidoscope](https://github.com/blenderskool/kaleidoscope) : The add-on adds two new nodes, Spectrum and Intensity, which essentially improves your workflow inside Blender when creating materials.
 -   [Spread Objects](https://gumroad.com/l/QYTDu) : Spread the selected objects on an evenly spaced grid.
+-   [BagaPie Modifier](https://app.gumroad.com/l/BbGVh) : This addon create modifier and geometry nodes preset like: boolean, scatter, auto array on curve.
 
 ### 🎴Themes [^](#table)
 
@@ -531,7 +535,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [J. Paul Getty Museum](http://search.getty.edu/gateway/search?q=&cat=highlight&f=%22Open+Content+Images%22&rows=10&srt=a&dir=s&pg=1) : The Getty makes available, without charge, all available digital images to which the Getty holds the rights or that are in the public domain to be used for any purpose. No permission is required.
     -   [Indianapolis Museum of Art Collection](http://collection.imamuseum.org/) : Many images of public domain artworks are available for free download from the Indianapolis Museum of Art at Newfields' collection pages.
 -   [Smithsonian Open Access](https://www.si.edu/openaccess) : Download, share, and reuse millions of the Smithsonian’s images right now, without asking. CC0.
--   [Biodiversity Heritage Library](https://www.flickr.com/photos/biodivlibrary/) : 200,000+ Botanical and Animal Illustrations available for free download.
+-   [Biodiversity Heritage Library](https://www.flickr.com/photos/biodivlibrary/) : 300,000+ Botanical and Animal Illustrations available for free download.
 -   [Natural History Museum, Data Portal](https://data.nhm.ac.uk/) : Explore and download the Museum’s research and collections data. Collection information, images, sounds, videos, research results, 3D scans.
 -   [British Museum](https://www.britishmuseum.org/collection) : The British Museum Just Made 1.9M Stunningly Detailed Images Free Online.
 -   [Open Image Collections](https://blogs.ntu.edu.sg/openimagecollections/browse/#collections) : is a collection of digital image sources include museum digital collections, stock images, photo archives, design resources and image search engines.
@@ -573,8 +577,8 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 
 -   Image/Vector : [unsplash](https://unsplash.com/), [pexels](https://www.pexels.com/)
     , [pixabay](https://pixabay.com/tr/), [stocksnap](https://stocksnap.io/), [rawpixel](https://www.rawpixel.com/), [burst](https://burst.shopify.com/).
--   Video/VFX/Footage : [videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/tr/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos), [actionvfx](actionvfx.com/blog/3-free-vfx-stock-collections-portals-bullet-tracers-camera-shake-presets), [productioncrate/free](https://vfx.productioncrate.com/search/#!/free).
--   Cutouts : [MrCutout](https://www.mrcutout.com/), [gumroad/kaiserbold](https://gumroad.com/hi5_kaiserbold), [nonscandinavia](http://www.nonscandinavia.com/), [clipped](http://www.clipped.io/search?sort_uploads=created_at).
+-   Video/VFX/Footage : [videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/tr/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos), [actionvfx](actionvfx.com/blog/3-free-vfx-stock-collections-portals-bullet-tracers-camera-shake-presets), [productioncrate/free](https://vfx.productioncrate.com/search/#!/free), [benharker](https://benharker.net/store).
+-   Cutouts : [MrCutout](https://www.mrcutout.com/), [nonscandinavia](http://www.nonscandinavia.com/), [clipped](http://www.clipped.io/search?sort_uploads=created_at), [vishopper/free](https://www.vishopper.com/cut-out-people/search/free).
 -   Visual Loops : [Mantissa](https://mantissa.xyz/vjloops), [BEEPLE](https://www.beeple-crap.com/vjloops), [Vimeo/Catmac](https://vimeo.com/user2777466), [SSWIII](http://www.switzonwigfall.com/vjclips), [rptv](https://www.rptv.co/videoloops).
 -   Fonts : [google](https://fonts.google.com/), [theleagueofmoveabletype](https://www.theleagueofmoveabletype.com/), [beautifulwebtype](https://beautifulwebtype.com/), [openfoundry](https://open-foundry.com/fonts).
 
