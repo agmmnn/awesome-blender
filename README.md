@@ -630,7 +630,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Cascadeur](https://cascadeur.com/) : is a standalone software for creating keyframe animation of 3D characters, humanoid or otherwise. _Free for early adopters._
 -   [Sculptron](https://render.otoy.com/forum/viewtopic.php?f=7&t=73665) : GPU-based tool for sculpting animation caches and for converting mesh sequences to volumes. The software is currently available free during early development.
 -   [CNDL](https://cndl.io/) : An IES lighting creation toolset. Improve your renders with custom IES lighting.
--   [Medium by Adobe](https://cndl.io/) : Medium is a dedicated VR sculpting and painting package for users of Oculus headsets, capable of exporting models to DCC applications in OBJ or FBX format.
+-   [Medium by Adobe](https://www.oculus.com/experiences/rift/3257686387611106/) : Medium is a dedicated VR sculpting and painting package for users of Oculus headsets, capable of exporting models to DCC applications in OBJ or FBX format.
 
 ### Various Tools [^](#table)
 
@@ -722,6 +722,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Let'sEnhance.io](https://letsenhance.io/) : Increase image quality and resolution. Our AI-based editing process automatically enhance any flaw in your image.
 -   [Dain-App](https://grisk.itch.io/dain-app) : Dain-App is a free app that let you take any form of media like movies, stop-motion, anime, cartoons, sprites, etc and interpolate new frames, generating a bigger frame-rate from the original file.
 -   [3D Photo Inpainting](https://shihmengli.github.io/3D-Photo-Inpainting/) : 3D Photography using Context-aware Layered Depth Inpainting. [![][repo]](https://github.com/vt-vl-lab/3d-photo-inpainting)
+-   [Infinite Nature](https://infinite-nature.github.io/) : Perpetual view generation of natural scenes from a single image. [![][repo]](https://github.com/google-research/google-research/tree/master/infinite_nature)
 -   [PaintsChainer](https://paintschainer.preferred.tech/index_en.html) : AI-Powered automatic line drawing colorization colorization. [![][repo]](https://github.com/pfnet/PaintsChainer)
 -   [EbSynth](https://ebsynth.com/) : Free tool for converting video footage into stylised motion paintings.
 -   [PIFuHD](https://shunsukesaito.github.io/PIFuHD/) : Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization. [![][repo]](https://github.com/facebookresearch/pifuhd)
