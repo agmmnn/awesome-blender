@@ -1,7 +1,6 @@
 [![img](imgs/splash.jpg "Awesome Blender (bg: mantissa)")](#table)
 
 <div align="center">
-    <a href="https://awesome.re" target="_blank"><img alt="Awesome" src="https://awesome.re/badge-flat.svg" /></a>
     <a href="#table"><img alt="2.8+ Compatible List" src="https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat-square" /></a>
     <a href="https://discord.com/invite/blender"><img alt="discord" src="https://img.shields.io/badge/discord-blender-blue?logo=discord&style=flat-square" /></a>
     <a href="#Contributing-"><img alt="Contributions are Welcome" src="https://img.shields.io/badge/keep-up--to--date-blue?logo=&style=flat-square" /></a>
@@ -242,8 +241,8 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [E-Cycles](https://blendermarket.com/products/e-cycles) [$] : is a fork of Cycles which renders up to 2.5x faster out of the box when using CUDA GPUs, up to 15x using new options.
 -   [K Cycles](https://blendermarket.com/products/k-cycles) [$] : Another fork of Cycles like E-Cycles. Advertised as an improvement over E-Cycles
 -   [AMD Radeon ProRender](https://www.amd.com/en/technologies/radeon-prorender-blender) : is AMD’s powerful physically-based rendering engine that lets creative professionals use open industry standards to leverage GPU and CPU performance to produce stunningly photorealistic images in Blender.
--   [Pixar's RenderMan for Blender](https://github.com/tyler-furby/RenderManForBlender) : Physically-based render from Pixar. Not officially supported 2.8 there are bunch of plugins made by blender community. [[more info]](https://blenderartists.org/t/pixar-renderman-for-blender/646404/650)
-    -   [Pixar announces RenderMan's new Blender Bridge Tool.](https://www.blendernation.com/2020/09/02/pixar-announces-rendermans-new-blender-bridge-tool-announced/)
+-   [AMD Blender USD Hydra](https://gpuopen.com/learn/amd-usd-hydra-blender/) : With Pixar's USD system emerging as a powerful tool for 3D graphics pipelines and interchange, this addon is meant to add first class support for USD and the USD Hydra rendering system to Blender.
+-   [Pixar's RenderMan](https://renderman.pixar.com/) : Physically-based render from Pixar. [[more info]](https://rmanwiki.pixar.com/display/RFB24/RenderMan+for+Blender+24.0)
 -   [Blender Octane Render](https://render.otoy.com/forum/viewtopic.php?f=7&t=72241) : Fully integrated Octane Render, free tier.
     -   [🧾OctaneRender for Blender Plugin Manual.](https://docs.otoy.com/BlenderH/BlenderPluginManual.htm)
     -   [OTOY Forums/Blender](https://render.otoy.com/forum/viewforum.php?f=32).
@@ -273,6 +272,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [glslTexture](https://github.com/patriciogonzalezvivo/glslTexture) : Create textures from Glsl fragment shaders.
 -   [Bake to Vertex Color](https://github.com/danielenger/Bake-to-Vertex-Color) : Transfer Image to selected Vertex Color in all selected Objects.
 -   [EZ Baker](https://blenderartists.org/t/ez-baker/1245869) : An easier alternative to blender's default bake system. [![][repo]](https://gitlab.com/AquaticNightmare/ez_baker)
+-   [Bystedts Blender Baker](https://3dbystedt.gumroad.com/l/JAqLT) : This addon streamlines the texture baking process in Blender.
 
 ### 🎮GameDev [^](#table)
 
@@ -392,11 +392,13 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Screenwriter](https://github.com/tin2tin/Blender_Screenwriter) : Write screenplays in Blender Text Editor in Fountain markup syntax view/export with correct screenplay formatting.
 -   [VoxelDraw](https://gumroad.com/l/NClKMV) : An addon to draw voxel meshes in edit mode for Blender.
 -   [BlenderBIM](https://blenderbim.org/) : An add-on for beautiful, detailed, and data-rich OpenBIM with Blender.
--   [Mixer by Ubisoft](https://github.com/ubisoft/mixer) : is a Blender addon developed at Ubisoft Animation Studio for Real Time Collaboration in 3D edition.
--   [Daz to Blender Bridge](https://www.daz3d.com/daz-to-blender-bridge) : This easy-to-use Bridge transfers your Genesis 8 and 3 characters from Daz directly to Blender.
 -   [Kaleidoscope](https://github.com/blenderskool/kaleidoscope) : The add-on adds two new nodes, Spectrum and Intensity, which essentially improves your workflow inside Blender when creating materials.
 -   [Spread Objects](https://gumroad.com/l/QYTDu) : Spread the selected objects on an evenly spaced grid.
 -   [BagaPie Modifier](https://app.gumroad.com/l/BbGVh) : This addon create modifier and geometry nodes preset like: boolean, scatter, auto array on curve.
+-   [Mixer by Ubisoft](https://github.com/ubisoft/mixer) : is a Blender addon developed at Ubisoft Animation Studio for Real Time Collaboration in 3D edition.
+-   [Daz to Blender Bridge](https://www.daz3d.com/daz-to-blender-bridge) : This easy-to-use Bridge transfers your Genesis 8 and 3 characters from Daz directly to Blender.
+-   [Mixamo add-on for Blender by Adobe](https://substance3d.adobe.com/plugins/mixamo-in-blender/) : This Blender auto control-rig add-on works with characters that have been auto-rigged with the Mixamo service.
+-   [Substance 3D add-on for Blender by Adobe](https://substance3d.adobe.com/magazine/the-substance-3d-add-on-for-blender-is-here/) : with this add-on you can access your Substance materials directly inside Blender.
 
 ### 🎴Themes [^](#table)
 
@@ -418,7 +420,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Quixel Megascans](https://quixel.com/megascans/library/) : World’s largest photogrammetry 2D and 3D asset library. Now it is free for the Epic Games accounts.
 -   [Scan the World](https://www.myminifactory.com/scantheworld/) : is an ambitious community-built initiative whose mission is to share 3D printable sculpture and cultural artefacts using democratised 3D scanning technologies, producing an extensive ecosystem of free to download digital cultural heritage.
 -   [Artec 3D](https://www.artec3d.com/3d-models) : Download high resolution 3D scans for free.
--   [3DModelHaven](https://3dmodelhaven.com/models/) : is a resource of free high quality 3D assets for everyone, following in the footsteps of HDRI Haven and Texture Haven. All models here are CC0.
+-   [Poly Haven/Models](https://polyhaven.com/models) : is a resource of free high quality 3D assets for everyone. All models here are CC0.
 -   [Blender Boom](https://www.blenderboom.com/product-category/free/) : 3D model repository. Free models ready to use.
 -   [Three D Scans](https://threedscans.com/) : Free 3D scans in .stl without copyright restrictions.
 -   [3D Digitization Smithsonian](https://3d.si.edu/explore) : CC0 Photoscan Library from Smithsonian. [(Collections)](https://3d.si.edu/collections)
@@ -448,8 +450,6 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [Scanned Female Head Model by EISKO](https://eisko.com/louise/virtual-model), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model), [Deep 3D Studio](https://www.artstation.com/deep3dstudio/store/9BBA/free-download-australian-infantryman-character-from-world-war-2-39), [Public Domain 3D Cultural Heritage](https://sketchfab.com/nebulousflynn/collections/cc0), [The Heretic: Digital Human by Unity](https://assetstore.unity.com/packages/essentials/tutorial-projects/the-heretic-digital-human-168620), [Phenome10K/Scans](https://phenome10k.org/scans/), [Renderbot/free](https://renderbot.com/3d/free/), [The Małopolska’s Virtual Museums](https://sketchfab.com/WirtualneMuzeaMalopolski).
 -   Kitbash Models:
     -   [Free Hard Surface KitBash Models](https://gumroad.com/olegushenok?sort=page_layout&tags=free), [Free sci-fi kitbash set](https://cubebrush.co/polyworkshop/products/audboa/free-sci-fi-kitbash-set-fusion-360-zbrush), [Hard Surface Kitbash Pack](https://gumroad.com/averkin), [3D Kitbashing library](https://gumroad.com/adrianrutkowski), [Kitbash Sci-fi Buildings](https://www.artstation.com/art-mage/store/Vb1A/kitbash-sci-fi-buildings-vol-1-5).
--   Cloth Models:
-    -   [10 Free Marvelous Designer Pack](https://twitter.com/smeccea/status/1229489865114320896).
 -   VDB Models:
     -   [Free VDB Simulations Created With Embergen](https://jangafx.com/software/embergen/download/free-vdb-animations/), [OpenVDB Sample Models](https://www.openvdb.org/download/), [disneyanimation.com/clouds](https://www.technology.disneyanimation.com/clouds), [Free Volume Cloud and Smoke](https://gumroad.com/l/PCJDF), [200 Modular OpenVDB Clouds](https://cubebrush.co/byvfx/products/xycqw/200-modular-openvdb-clouds), [High Altitude Clouds](https://gumroad.com/l/RcgNe).
 
@@ -465,7 +465,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 
 ### 🌑Textures [^](#table)
 
--   [Texture Haven](https://texturehaven.com/textures/index.php?c=all&o=date_published&s=all) : Texture Haven is a website where you can find high quality scanned textures for free, no catch.
+-   [Poly Haven/Textures](https://polyhaven.com/textures) : Poly Haven/Textures is a website where you can find high quality scanned textures for free.
 -   [CC0 Textures](https://cc0textures.com/) : Get hundreds of PBR materials and textures for free under the Public Domain license.
 -   [cgbookcase](https://cgbookcase.com/textures/) : Discover a library of high-quality PBR textures. Free for every purpose, forever. Some Blender tutorials here and there.
 -   [Textures.one](https://textures.one/) : Search the databases of many of the biggest free texture at once.
@@ -517,7 +517,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 
 ### ⛅HDRIs [^](#table)
 
--   [HDRI Haven](https://hdrihaven.com/hdris/category/index.php?c=all&o=date_published&s=all), [Pixar/HDRI](https://renderman.pixar.com/category/111-hdri), [Hdrlabs](http://hdrlabs.com/sibl/archive.html), [Hdrmaps/freebies](https://hdrmaps.com/freebies), [Hdri-hub/free](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [Hdri-skies](https://hdri-skies.com/), [eisklotz/HDRIs](https://drive.google.com/drive/folders/1tnuVLtmLNIajTszoDXybboWxwk1L4YOJ), [locationtextures/panoramas](https://locationtextures.com/panoramas/?sort=p.price&order=ASC), [noahwitchell](http://www.noahwitchell.com/freebies), [bobgroothuis](https://www.bobgroothuis.com/collections/360-hdri), [vizpeople/free](https://www.viz-people.com/portfolio/free-hdri-maps/), [noemotionhdrs](http://noemotionhdrs.net/hdrevening.html), [iHDRI](https://www.ihdri.com/hdri-skies-outdoor/).
+-   [Poly Haven/HDRIs](https://polyhaven.com/hdris), [Pixar/HDRI](https://renderman.pixar.com/category/111-hdri), [Hdrlabs](http://hdrlabs.com/sibl/archive.html), [Hdrmaps/freebies](https://hdrmaps.com/freebies), [Hdri-hub/free](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [Hdri-skies](https://hdri-skies.com/), [eisklotz/HDRIs](https://drive.google.com/drive/folders/1tnuVLtmLNIajTszoDXybboWxwk1L4YOJ), [locationtextures/panoramas](https://locationtextures.com/panoramas/?sort=p.price&order=ASC), [noahwitchell](http://www.noahwitchell.com/freebies), [bobgroothuis](https://www.bobgroothuis.com/collections/360-hdri), [vizpeople/free](https://www.viz-people.com/portfolio/free-hdri-maps/), [noemotionhdrs](http://noemotionhdrs.net/hdrevening.html), [iHDRI](https://www.ihdri.com/hdri-skies-outdoor/).
 
 ### 🖼️Art/Reference [^](#table)
 
@@ -568,10 +568,11 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [OpenGameArt.org/Sound](https://opengameart.org/art-search-advanced?keys=&title=&field_art_tags_tid_op=or&field_art_tags_tid=&name=&field_art_type_tid%5B%5D=13&sort_by=created&sort_order=DESC&items_per_page=24&Collection=) : Sound Effects from OpenGameArt.
 -   [Free Music Archive](https://freemusicarchive.org/static) : The iconic resource for free music, podcast safe and royalty free music for video.
 -   [Bandcamp.com/cc](https://bandcamp.com/tag/creative-commons) : Creative-common music from Bandcamp.
--   [MusOpen.org](https://musopen.org/music/) : is an online music library of copyright free (public domain) music.
+-   [MusOpen.org](https://musopen.org/music/) : is an online classical music library of copyright free, public domain music.
 -   [ccMixter.org](http://dig.ccmixter.org/) : is a community remix site operated by ArtisTech Media, created by Creative Commons.
 -   [Netlabels](https://archive.org/details/netlabels) : This collection hosts complete, freely downloadable/streamable, often Creative Commons-licensed catalogs of virtual record labels.
 -   [Mixkit](https://mixkit.co/free-stock-music/) : Download Free Stock Video Footage, Stock Music & Premiere Pro Templates for your next video editing project.
+-   [Unminus](https://www.unminus.com/) : Curated Royalty Free Music. Let's create Unsplash for Music together.
 
 ### 🏞Free Stocks [^](#table)
 
@@ -631,6 +632,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Sculptron](https://render.otoy.com/forum/viewtopic.php?f=7&t=73665) : GPU-based tool for sculpting animation caches and for converting mesh sequences to volumes. The software is currently available free during early development.
 -   [CNDL](https://cndl.io/) : An IES lighting creation toolset. Improve your renders with custom IES lighting.
 -   [Medium by Adobe](https://www.oculus.com/experiences/rift/3257686387611106/) : Medium is a dedicated VR sculpting and painting package for users of Oculus headsets, capable of exporting models to DCC applications in OBJ or FBX format.
+-   [Spline](https://spline.design/) : Easily create and publish 3D web experiences. Build and iterate fast with production-ready results.
 
 ### Various Tools [^](#table)
 
@@ -683,6 +685,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Agisoft De-Lighter](https://www.agisoft.com/index.php?id=71) : is a free stand-alone tool designed to remove shadows from model textures.
 -   [Asset Ninja](https://assetninja.art/) : Connects your favorite asset marketplaces and other sources to all of your favorite tools. Browse, manage, and export assets straight from your desktop.
 -   [Normalizer](https://beta.friendlyshade.com/normalizer) : Convert normal maps to displacement maps. Edit, process and combine multiple normal maps and more.
+-   [Agama Materials](https://agama.itch.io/agama-materials) : is software for creating PBR materials and painting 3d models. You can create materials and use them for painting models, or you can use pre-made textures.
 
 ### Terrain [^](#table)
 
