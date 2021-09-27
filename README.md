@@ -1,4 +1,4 @@
-[![img](imgs/splash.jpg "Awesome Blender (bg: mantissa)")](#table)
+[![img](https://random-repo-img.herokuapp.com/agmmnn/awesome-blender/imgs "Awesome Blender, bg: @mantissa, used: random-repo-img")](#table)
 
 <div align="center">
     <a href="#table"><img alt="2.8+ Compatible List" src="https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat-square" /></a>
@@ -166,6 +166,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Auto Mirror](https://blenderartists.org/t/auto-mirror-blender2-8-ver/1151539) : Automate a series of tasks, such as deleting a half, setting a mirror modifier, setting a clipping, etc.
 -   [Drop It](https://blenderartists.org/t/drop-it-free-addon/1244259/) : Designed to drop fast and simply Objects to Ground or Surface. [![][repo]](https://github.com/maxivz/interactivetoolsblender)
 -   [Maxivz’s Interactive Tools](https://gumroad.com/l/ynJmIV) : Collection of intuitive, context sensitive tools for Blender.
+-   [Synced Modifiers](https://amanbairwal.gumroad.com/l/SyncedModifiers) : allows you to add modifiers to multiple objects at the same time and automatically syncs all the modifiers using Drivers.
 -   Retopology/Remesh:
     -   [retopoflow](https://blendermarket.com/products/retopoflow) : A suite of retopology tools for Blender. [![][repo]](https://github.com/CGCookie/retopoflow)
     -   [InstantMeshesRemesh](https://blenderartists.org/t/instant-meshes-remesh/1114982) : A suite of retopology tools for Blender. [![][repo]](https://github.com/knekke/blender_addons#instantmeshesremesh)
@@ -477,13 +478,12 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Texture Box](https://texturebox.com/) : We are making free textures for 3D Artists from all over the world. Also, we offer custome texture services.
 -   [Texture Fun](https://texturefun.com/) : Free PBR texture sets of common architectural materials, including some nice tile textures.
 -   [C4DCenter](https://c4dcenter.com/material-library/) : Free C4D Materials created with High Quality Texture Maps for instant download and no limits, Free for Personal and Commercial Use.
--   [PBR Horde](https://www.pbrhorde.com/) : is a web library of free materials. Feel free to use them in your Substance Painter projects or 3D scenes.
 -   [IES Library](https://ieslibrary.com/en/browse) : Download free IES lighting files. IES files describe how light from a lamp is distributed in a room.
 -   [WildTextures](https://www.wildtextures.com/) : Free high resolution textures and patterns for commercial or personal use.
 -   [Textures.com](https://www.textures.com/) [$] : is a website that offers digital pictures of all sorts of materials. Sign up for free and download 15 free images every day!
 -   [Substance Share](https://share.substance3d.com/) : The free exchange platform for the Substance community.
 -   [Substance Source/freebies](https://source.substance3d.com/allassets?free=true) [$] : Hundreds of high quality PBR materials.
--   [ScansLibrary](https://beta.scanslibrary.com/library?credit=0) [$] : Digital marketplace with thousands of Real-World scans.
+-   [ScansLibrary](https://www.scanslibrary.com/library?credit=0) [$] : Digital marketplace with thousands of Real-World scans.
 -   [Poliigon/freebies](https://www.poliigon.com/search?type=all&refine_by=assets-free) [$] : A library of materials, and HDR's for artists including free textures that want photorealism.
 -   [Texturing.xyz](https://texturing.xyz/) [$] : Our textures are used in the biggest and industry-leading VFX companies, and help them achieving their goals faster.
 -   Other Sites:
@@ -544,6 +544,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Anatomy 360, Free Reference](https://anatomy360.info/anatomy-scan-reference-dump/) : 3D scanned human reference images.
 -   [Wildlife Reference Photos](https://wildlifereferencephotos.com/gallery.php?mode=newest-media&page=1) : Wildlife reference photos for artists.
 -   [Flickr, Creative Commons](https://www.flickr.com/creativecommons/) : Many Flickr users have chosen to offer their work under a Creative Commons license.
+-   [The Empire University, Weapons Library](https://dinustyempire.notion.site/6-1-Weapons-library-0ab1d28137e749f0abfca738d93a9222) : Free reference resource for many types of weapons.
 
 ### 🛰Space [^](#table)
 
