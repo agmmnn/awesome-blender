@@ -1,90 +1,121 @@
 [![img](https://random-repo-img.herokuapp.com/agmmnn/awesome-blender/imgs "Awesome Blender, bg: @mantissa, used: random-repo-img")](#table)
 
 <div align="center">
-    <a href="#table"><img alt="2.8+ Compatible List" src="https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat-square" /></a>
-    <a href="https://discord.com/invite/blender"><img alt="discord" src="https://img.shields.io/badge/discord-blender-blue?logo=discord&style=flat-square" /></a>
-    <a href="#Contributing-"><img alt="Contributions are Welcome" src="https://img.shields.io/badge/keep-up--to--date-blue?logo=&style=flat-square" /></a>
-<p>
-A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources for 3D Artists, Hobbyists, Developers, Researchers. Focused <i>mostly</i> open source and free resources. <b>Blender 2.8+</b> compatible list.
-</p>
+    <a href="#table"><img alt="2.8+ Compatible List"
+            src="https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat-square" /></a>
+    <a href="https://discord.com/invite/blender"><img alt="discord"
+            src="https://img.shields.io/badge/discord-blender-blue?logo=discord&style=flat-square" /></a>
+    <a href="#Contributing-"><img alt="Contributions are Welcome"
+            src="https://img.shields.io/badge/keep-up--to--date-blue?logo=&style=flat-square" /></a>
+    <a href="https://awesome-blender.netlify.app/"><img
+            src="https://api.netlify.com/api/v1/badges/0fe6c176-6b03-4d27-a8fc-faf4f7c460cd/deploy-status" /></a>
+    <p>A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources for 3D Artists, Hobbyists,
+        Developers, Researchers. Focused <i>mostly</i> open source and free resources. <b>Blender 2.8+</b> compatible
+        list.</p>
 </div>
 
+<a name="table"></a>
+
 <div align="center">
-<a name="table"></a><h2>Contents:</h2>
-    
-| [🔮Add-ons](#Add-ons-) | [🪐Resources](#Resources-) | [📥Standalone](#Standalone-) | [🔍Explore Blender](#Explore-Blender-) | [🖇Social](#Social-) | [👩🏻‍🏫Tutorials](#Tutorials-) | [👩🏽‍💻Development](#Development-) |
+    <h2>Contents:</h2>
+    <p>| <a href="#Add-ons-">🔮Add-ons</a> | <a href="#Resources-">🪐Resources</a> | <a
+            href="#Standalone-">📥Standalone</a> | <a href="#Explore-Blender-">🔍Explore Blender</a> | <a
+            href="#Social-">🖇Social</a> | <a href="#Tutorials-">👩🏻‍🏫Tutorials</a> | <a
+            href="#Development-">👩🏽‍💻Development</a> |</p>
 </div>
 
 <details><summary><b>Show Detailed Table:</b></summary>
-
--   [🔮Add-ons](#Add-ons-)
-    -   [🌊Simulation/Physics](#SimulationPhysics-)
-    -   [🦑Generator/Builder](#GeneratorBuilder-)
-    -   [🧊Modeling](#Modeling-)
-    -   [🌠Animation](#Animation-)
-    -   [🦖Game Engine](#Game-Engine-)
-    -   [🗜Render Engine](#Render-Engine-)
-    -   [🔳Texture/UV](#TextureUV-)
-    -   [🎮GameDev](#GameDev-)
-    -   [🪀Misc](#Misc-)
-    -   [🎴Themes](#Themes-)
--   [🪐Resources](#Resources-)
-    -   [🎠3D Models](#3D-Models-)
-    -   [🤸🏾‍♀️Mocap/Animation](#%EF%B8%8Fmocapanimation-)
-    -   [🌑Textures](#Textures-)
-    -   [🌓Blender Materials](#Blender-Materials-)
-    -   [🌲Blender Scenes/Files](#Blender-ScenesFiles-)
-    -   [⛅HDRIs](#HDRIs-)
-    -   [🖼️Art/Reference](#%EF%B8%8Fartreference-)
-    -   [🛰Space](#Space-)
-    -   [🎧Sound/Music](#SoundMusic-)
-    -   [🏞Free Stocks](#Free-Stocks-)
-    -   [🌂Useful](#Useful-)
--   [📥Standalone](#Standalone-)
-    -   [Blender Builds](#Blender-Builds-)
-    -   [3D Tools](#3D-Tools-)
-    -   [Various Tools](#Various-Tools-)
-    -   [Photogrammetry](#Photogrammetry-)
-    -   [Texture/Material](#TextureMaterial-)
-    -   [Terrain](#Terrain-)
-    -   [Real-World Height Maps](#real-world-height-maps-)
-    -   [Point Cloud/LiDAR Data](#point-cloudlidar-data-)
-    -   [Generator](#Generator-)
-    -   [AI-Powered](#AI-Powered-)
-    -   [Sound/Music](#SoundMusic--1)
-    -   [Painting](#Painting-)
--   [🔍Explore Blender](#Explore-Blender-)
-    -   [Documantation](#Documantation-)
-    -   [Developement](#Developement-)
-    -   [Community](#Community-)
--   [🖇Social](#Social-)
-    -   [🔍Explore Artworks](#Explore-Artworks-)
-    -   [🐦Twitter Accounts](#Twitter-Accounts-)
-    -   [📢Youtube Channels](#Youtube-Channels-)
-    -   [💻Blogs](#Blogs-)
-    -   [🎊Challenges](#Challenges-)
-    -   [🎉Events](#Events-)
--   [👩🏻‍🏫Tutorials](#Tutorials-)
-    -   [🍩Beginning](#Beginning-)
-    -   [🗿Modeling](#Modeling--1)
-    -   [🔘Shader Nodes](#Shader-Nodes-)
-    -   [🌠Animation](#Animation--1)
-    -   [🌌Animation Nodes](#Animation-Nodes-)
-    -   [🔲UV Mapping](#UV-Mapping-)
-    -   [🔳Texture Painting](#Texture-Painting-)
-    -   [📐Compositing](#Compositing-)
-    -   [🤺Motion Tracking/Capture](#Motion-TrackingCapture-)
-    -   [Premium Tutorials](#Premium-Tutorials-)
-    -   [Fundamentals](#Fundamentals-)
-    -   [📚Books](#Books-)
--   [👩🏽‍💻Development](#Development-)
-    -   [Scripting/Developing](#ScriptingDeveloping-)
-    -   [Blender Source](#Blender-Source-)
-    -   [Learn Python](#Learn-Python-)
-    -   [Learn Computer Graphics](#Learn-Computer-Graphics-)
-    -   [Related Awesome Lists](#Related-Awesome-Lists-)
--   [Symbols](#Symbols-)
--   [Contributing](#Contributing-)
+<ul>
+    <li><a href="#Add-ons-">🔮Add-ons</a>
+        <ul>
+            <li><a href="#SimulationPhysics-">🌊Simulation/Physics</a></li>
+            <li><a href="#GeneratorBuilder-">🦑Generator/Builder</a></li>
+            <li><a href="#Modeling-">🧊Modeling</a></li>
+            <li><a href="#Animation-">🌠Animation</a></li>
+            <li><a href="#Game-Engine-">🦖Game Engine</a></li>
+            <li><a href="#Render-Engine-">🗜Render Engine</a></li>
+            <li><a href="#TextureUV-">🔳Texture/UV</a></li>
+            <li><a href="#GameDev-">🎮GameDev</a></li>
+            <li><a href="#Misc-">🪀Misc</a></li>
+            <li><a href="#Themes-">🎴Themes</a></li>
+        </ul>
+    </li>
+    <li><a href="#Resources-">🪐Resources</a>
+        <ul>
+            <li><a href="#3D-Models-">🎠3D Models</a></li>
+            <li><a href="#%EF%B8%8Fmocapanimation-">🤸🏾‍♀️Mocap/Animation</a></li>
+            <li><a href="#Textures-">🌑Textures</a></li>
+            <li><a href="#Blender-Materials-">🌓Blender Materials</a></li>
+            <li><a href="#Blender-ScenesFiles-">🌲Blender Scenes/Files</a></li>
+            <li><a href="#HDRIs-">⛅HDRIs</a></li>
+            <li><a href="#%EF%B8%8Fartreference-">🖼️Art/Reference</a></li>
+            <li><a href="#Space-">🛰Space</a></li>
+            <li><a href="#SoundMusic-">🎧Sound/Music</a></li>
+            <li><a href="#Free-Stocks-">🏞Free Stocks</a></li>
+            <li><a href="#Useful-">🌂Useful</a></li>
+        </ul>
+    </li>
+    <li><a href="#Standalone-">📥Standalone</a>
+        <ul>
+            <li><a href="#Blender-Builds-">Blender Builds</a></li>
+            <li><a href="#3D-Tools-">3D Tools</a></li>
+            <li><a href="#Various-Tools-">Various Tools</a></li>
+            <li><a href="#Photogrammetry-">Photogrammetry</a></li>
+            <li><a href="#TextureMaterial-">Texture/Material</a></li>
+            <li><a href="#Terrain-">Terrain</a></li>
+            <li><a href="#real-world-height-maps-">Real-World Height Maps</a></li>
+            <li><a href="#point-cloudlidar-data-">Point Cloud/LiDAR Data</a></li>
+            <li><a href="#Generator-">Generator</a></li>
+            <li><a href="#AI-Powered-">AI-Powered</a></li>
+            <li><a href="#SoundMusic--1">Sound/Music</a></li>
+            <li><a href="#Painting-">Painting</a></li>
+        </ul>
+    </li>
+    <li><a href="#Explore-Blender-">🔍Explore Blender</a>
+        <ul>
+            <li><a href="#Documantation-">Documantation</a></li>
+            <li><a href="#Developement-">Developement</a></li>
+            <li><a href="#Community-">Community</a></li>
+        </ul>
+    </li>
+    <li><a href="#Social-">🖇Social</a>
+        <ul>
+            <li><a href="#Explore-Artworks-">🔍Explore Artworks</a></li>
+            <li><a href="#Twitter-Accounts-">🐦Twitter Accounts</a></li>
+            <li><a href="#Youtube-Channels-">📢Youtube Channels</a></li>
+            <li><a href="#Blogs-">💻Blogs</a></li>
+            <li><a href="#Challenges-">🎊Challenges</a></li>
+            <li><a href="#Events-">🎉Events</a></li>
+        </ul>
+    </li>
+    <li><a href="#Tutorials-">👩🏻‍🏫Tutorials</a>
+        <ul>
+            <li><a href="#Beginning-">🍩Beginning</a></li>
+            <li><a href="#Modeling--1">🗿Modeling</a></li>
+            <li><a href="#Shader-Nodes-">🔘Shader Nodes</a></li>
+            <li><a href="#Animation--1">🌠Animation</a></li>
+            <li><a href="#Animation-Nodes-">🌌Animation Nodes</a></li>
+            <li><a href="#UV-Mapping-">🔲UV Mapping</a></li>
+            <li><a href="#Texture-Painting-">🔳Texture Painting</a></li>
+            <li><a href="#Compositing-">📐Compositing</a></li>
+            <li><a href="#Motion-TrackingCapture-">🤺Motion Tracking/Capture</a></li>
+            <li><a href="#Premium-Tutorials-">Premium Tutorials</a></li>
+            <li><a href="#Fundamentals-">Fundamentals</a></li>
+            <li><a href="#Books-">📚Books</a></li>
+        </ul>
+    </li>
+    <li><a href="#Development-">👩🏽‍💻Development</a>
+        <ul>
+            <li><a href="#ScriptingDeveloping-">Scripting/Developing</a></li>
+            <li><a href="#Blender-Source-">Blender Source</a></li>
+            <li><a href="#Learn-Python-">Learn Python</a></li>
+            <li><a href="#Learn-Computer-Graphics-">Learn Computer Graphics</a></li>
+            <li><a href="#Related-Awesome-Lists-">Related Awesome Lists</a></li>
+        </ul>
+    </li>
+    <li><a href="#Symbols-">Symbols</a></li>
+    <li><a href="#Contributing-">Contributing</a></li>
+</ul>
 </details>
 <br>
 
@@ -228,6 +259,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [RigFlex](https://github.com/nerk987/RigFlex) : Simple soft body for Blender armatures.
     -   [Rigid Bodys Generator](https://github.com/12funkeys/rigid_bodys_gen) : Blender addon to add Rigid bones and Joints on selected bones easily.
     -   [Universal Human Rigged Base Mesh](https://gumroad.com/l/EqNTn) [$] : Rigged human base mesh.
+    -   [Mixamo add-on for Blender by Adobe](https://substance3d.adobe.com/plugins/mixamo-in-blender/) : This Blender auto control-rig add-on works with characters that have been auto-rigged with the Mixamo service.
 
 ### 🦖Game Engine [^](#table)
 
@@ -279,7 +311,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 
 -   [MeshSync](https://github.com/unity3d-jp/MeshSync) : Live link plugin for Unity. supported blender and other 3d softwares.
 -   [Blender Tools by Epic Games](https://www.unrealengine.com/en-US/blog/download-our-new-blender-addons) : Blender addons that improve the game development workflow between Blender and Unreal. _Send to Unreal, UE to Rigify._ [![][repo]](https://github.com/epicgames/blendertools)
--   [Mr Mannequins Tools](https://forums.unrealengine.com/community/community-content-tools-and-tutorials/1661319-easily-export-import-animations-and-meshes-blender-to-ue4-free-addon-mr-mannequins-tools-v1-2) : is a Blender add-on that gives the ability to export animations and weighted meshes that are directly compatible with the third person mannequin without re-targeting anything in Unreal Engine! [![][repo]](https://github.com/Jim-Kroovy/Mr-Mannequins-Tools)
+-   [Mr Mannequins Tools](https://github.com/Jim-Kroovy/Mr-Mannequins-Tools) : is a Blender add-on that gives the ability to export animations and weighted meshes that are directly compatible with the third person mannequin without re-targeting anything in Unreal Engine!
 -   [Blender For Unreal Engine](https://github.com/xavier150/Blender-For-UnrealEngine-Addons) : This Add-on allows you to export content created with Blender to Unreal Engine 4.
 -   [AssetGen](https://blenderartists.org/t/assetgen-create-a-game-asset-in-a-single-click/702849) : is automates the tasks to get a game assets ready for video games from an High Poly model.
 -   [V-HACD](https://blenderartists.org/t/v-hacd-tool-for-creating-accurate-convex-collision-meshes-for-real-time-physics-in-games-etc/1156822) : Library decomposes a 3D surface into a set of near convex parts. [![][repo]](https://github.com/andyp123/blender_vhacd)
@@ -297,6 +329,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [Asset Wizard](https://blenderartists.org/t/asset-wizard-for-blender-2-8/1149311) : is a asset management addon.
     -   [NodeCustomBuilder](https://blenderartists.org/t/nodecustombuilder-2-8-free-addon/1152185) : Preset system for nodes.
     -   [FontSelector](https://github.com/samytichadou/FontSelector_blender_addon/) : Easy font management inside Blender.
+    -   [Shot Manager by Ubisoft](https://github.com/ubisoft/shotmanager) : is a add-on that introduces a true shot entity in Blender scenes.
 -   Lighting/HDRI
     -   [Gaffer](https://github.com/gregzaal/Gaffer) : is a Blender add-on that helps you light your scenes by presenting all the right settings in convenient panels for quick access and experimentation. [[market]](https://blendermarket.com/products/gaffer-light-manager/)
     -   [Extra Lights](https://github.com/jlampel/bl_extra_lights) : is a plugin for Blender that adds physically based, photometric lighting presets to the Add menu. [[market]](https://blendermarket.com/products/extra-lights)
@@ -319,7 +352,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [Daz Importer](https://bitbucket.org/Diffeomorphic/import-daz/src/master/), [glTF](https://github.com/KhronosGroup/glTF-Blender-IO/tree/blender-v2.82-release), [Rhinoceros3D files](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [cityGML](https://github.com/zeffii/io_cityGML_basic), [.SVG](https://github.com/Shriinivas/shapekeyimport), [.XPS](https://github.com/johnzero7/XNALaraMesh), [.GIF](https://github.com/doakey3/Bligify), Quake: [.BSP](https://blenderartists.org/t/quake-1996-game-bsp-import-script/578191) [.MD3](https://github.com/axredneck/blender-md3/tree/blender2.8).
     -   [Sketchfab Blender Addon](https://github.com/sketchfab/blender-plugin) : Directly import and export models from and to Sketchfab in Blender.
 -   Export:
-    -   [USDZ](https://github.com/robmcrosby/BlenderUSDZ), [glTF MultiExport](https://github.com/MozillaReality/blender-gltf-multiexport-addon), [ZBrush](https://blenderartists.org/t/goz-for-blender-2-8/1138418), [.VTK](https://github.com/tkeskita/io_mesh_vtk), [Bezier2SVG](https://leomoon.com/downloads/plugins/leomoon-bezier2svg/), [Panda3D](https://github.com/Moguri/blend2bam), [.EGG](https://github.com/kergalym/YABEE), [XRay-engine](https://github.com/PavelBlend/blender-xray).
+    -   [USDZ](https://github.com/robmcrosby/BlenderUSDZ), [glTF MultiExport](https://github.com/MozillaReality/blender-gltf-multiexport-addon), [ZBrush](https://blenderartists.org/t/goz-for-blender-2-8/1138418), [.VTK](https://github.com/tkeskita/io_mesh_vtk), [Bezier2SVG](https://leomoon.com/downloads/plugins/leomoon-bezier2svg/), [Panda3D](https://github.com/Moguri/blend2bam), [.EGG](https://github.com/kergalym/PRPEE), [XRay-engine](https://github.com/PavelBlend/blender-xray).
     -   [Export Paper Model from Blender](https://addam.github.io/Export-Paper-Model-from-Blender/) : Add-on for creating paper models. [![][repo]](https://github.com/addam/Export-Paper-Model-from-Blender)
     -   [Batex](https://github.com/jayanam/batex) : Export selected objects as fbx in batch operation.
     -   [Blender To Unity FBX Exporter](https://github.com/jayanam/batex) : FBX exporter add-on for Blender compatible with Unity's coordinate and scaling system.
@@ -377,7 +410,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [CubeSter](https://github.com/BlendingJake/CubeSter) : is an add-on for Blender 3D that takes an image or audio file and converts it into a height-based mesh object.
 -   [Projectors](https://github.com/Ocupe/Projectors) : A blender add-on for simple projector creation and modification.
 -   [Simple Renaming Panel](https://github.com/Weisl/simple_renaming_panel) : Rename more objects at once. The tool includes basic functionalities of adding suffixes, prefixes, search and replace, add suffixes depending on the object type and much more.
--   [IOR_reference](https://github.com/diegogangl/IOR_reference) : A blender addon that display IOR values in a list.
+-   [IOR Reference](https://gitlab.com/diegogangl/IOR_reference) : A blender addon that display IOR values in a list.
 -   [QuickSwitch](https://github.com/schroef/QuickSwitch) : A helper to quick switch workspaces and view render menu in viewport.
 -   [MifthTools](https://github.com/mifth/mifthtools) : 3Dcoat, Houdini, Modo mesh exchange tools and more.
 -   [Modifier List](https://blenderartists.org/t/modifier-list-1-5-1/1147752) : Alternative UI layout for modifiers with handy features. Available also inside the sidebar and as a popup.
@@ -394,11 +427,10 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [VoxelDraw](https://gumroad.com/l/NClKMV) : An addon to draw voxel meshes in edit mode for Blender.
 -   [BlenderBIM](https://blenderbim.org/) : An add-on for beautiful, detailed, and data-rich OpenBIM with Blender.
 -   [Kaleidoscope](https://github.com/blenderskool/kaleidoscope) : The add-on adds two new nodes, Spectrum and Intensity, which essentially improves your workflow inside Blender when creating materials.
--   [Spread Objects](https://gumroad.com/l/QYTDu) : Spread the selected objects on an evenly spaced grid.
+-   [Spread Objects](https://abdoubouam.gumroad.com/l/spreadobjects) : Spread the selected objects on an evenly spaced grid.
 -   [BagaPie Modifier](https://app.gumroad.com/l/BbGVh) : This addon create modifier and geometry nodes preset like: boolean, scatter, auto array on curve.
 -   [Mixer by Ubisoft](https://github.com/ubisoft/mixer) : is a Blender addon developed at Ubisoft Animation Studio for Real Time Collaboration in 3D edition.
 -   [Daz to Blender Bridge](https://www.daz3d.com/daz-to-blender-bridge) : This easy-to-use Bridge transfers your Genesis 8 and 3 characters from Daz directly to Blender.
--   [Mixamo add-on for Blender by Adobe](https://substance3d.adobe.com/plugins/mixamo-in-blender/) : This Blender auto control-rig add-on works with characters that have been auto-rigged with the Mixamo service.
 -   [Substance 3D add-on for Blender by Adobe](https://substance3d.adobe.com/magazine/the-substance-3d-add-on-for-blender-is-here/) : with this add-on you can access your Substance materials directly inside Blender.
 
 ### 🎴Themes [^](#table)
@@ -444,15 +476,15 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Awesome-3D-Meshes : List of famous 3D meshes.](https://github.com/jvm-graphics-labs/awesome-3d-meshes/)
 -   [List of Common 3D Test Models.](https://en.wikipedia.org/wiki/List_of_common_3D_test_models)
 -   Other Sites:
-    -   [Google Poly](https://poly.google.com/blocks), [GrabCAD](https://grabcad.com/library), [Xfree3D](https://vwartclub.com/?section=xfree3d), [Gumroad/free-3d-model](https://gumroad.com/discover?maxPrice=0&query=3d%20model), [Artstation Marketplace/free](https://www.artstation.com/marketplace?sort_by=trending&filter_by=free), [Cubebrush/freebies](https://cubebrush.co/marketplace?freebies=true), [Daz3D/freebies](https://www.daz3d.com/free-3d-models#black), [3dsky.org/free](https://3dsky.org/3dmodels?types=free&page=1), [C4DDownload.com](https://c4ddownload.com/), [3DModelsCC0.com](https://www.3dmodelscc0.com/3dmodels), [CadNav](https://www.cadnav.com/), [Archive 3D](https://archive3d.net/), [ThePixelLab/freebies](https://www.thepixellab.net/freebies).
+    -   [Google Poly](https://poly.google.com/blocks), [GrabCAD](https://grabcad.com/library), [Xfree3D](https://vwartclub.com/?section=xfree3d), [Gumroad/free-3d-model](https://gumroad.com/discover?maxPrice=0&query=3d%20model), [Artstation Marketplace/free](https://www.artstation.com/marketplace/game-dev/resources/3d-models?section=trending&price_to=0), [Cubebrush/freebies](https://cubebrush.co/marketplace?freebies=true), [Daz3D/freebies](https://www.daz3d.com/free-3d-models#black), [3dsky.org/free](https://3dsky.org/3dmodels?types=free&page=1), [C4DDownload.com](https://c4ddownload.com/), [3DModelsCC0.com](https://www.3dmodelscc0.com/3dmodels), [CadNav](https://www.cadnav.com/), [Archive 3D](https://archive3d.net/), [ThePixelLab/freebies](https://www.thepixellab.net/freebies).
 -   Various Models:
-    -   [Quaternius's Ultimate Low-Poly Models](http://quaternius.com/index.html), [The Art of 3D Insects by Natural History Museum](https://stock.adobe.com/collections/rTMsIExGHtyXsAv8NL8RfOxokqALHQhy), [First Animals by Oxford University](https://sketchfab.com/morethanadodo/collections/first-animals), [Stylized Characters Base Meshes/Blockouts](https://gumroad.com/georgezaky108), [Wire Wheels Club: Free Car Models](https://wirewheelsclub.com/free-3d-models/).
+    -   [Quaternius's Ultimate Low-Poly Models](http://quaternius.com/index.html), [The Art of 3D Insects by Natural History Museum](https://stock.adobe.com/collections/rTMsIExGHtyXsAv8NL8RfOxokqALHQhy), [First Animals by Oxford University](https://sketchfab.com/morethanadodo/collections/first-animals), [Stylized Characters Base Meshes/Blockouts](https://gumroad.com/georgezaky108), [Wire Wheels Club: Free Car Models](https://wirewheelsclub.com/models/).
 -   Scanned Models:
     -   [Scanned Female Head Model by EISKO](https://eisko.com/louise/virtual-model), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model), [Deep 3D Studio](https://www.artstation.com/deep3dstudio/store/9BBA/free-download-australian-infantryman-character-from-world-war-2-39), [Public Domain 3D Cultural Heritage](https://sketchfab.com/nebulousflynn/collections/cc0), [The Heretic: Digital Human by Unity](https://assetstore.unity.com/packages/essentials/tutorial-projects/the-heretic-digital-human-168620), [Phenome10K/Scans](https://phenome10k.org/scans/), [Renderbot/free](https://renderbot.com/3d/free/), [The Małopolska’s Virtual Museums](https://sketchfab.com/WirtualneMuzeaMalopolski).
 -   Kitbash Models:
-    -   [Free Hard Surface KitBash Models](https://gumroad.com/olegushenok?sort=page_layout&tags=free), [Free sci-fi kitbash set](https://cubebrush.co/polyworkshop/products/audboa/free-sci-fi-kitbash-set-fusion-360-zbrush), [Hard Surface Kitbash Pack](https://gumroad.com/averkin), [3D Kitbashing library](https://gumroad.com/adrianrutkowski), [Kitbash Sci-fi Buildings](https://www.artstation.com/art-mage/store/Vb1A/kitbash-sci-fi-buildings-vol-1-5).
+    -   [Free Hard Surface KitBash Models](https://gumroad.com/olegushenok?sort=page_layout&tags=free), [Free sci-fi kitbash set](https://cubebrush.co/polyworkshop/products/audboa/free-sci-fi-kitbash-set-fusion-360-zbrush), [3D Kitbashing library](https://gumroad.com/adrianrutkowski), [Kitbash Sci-fi Buildings](https://www.artstation.com/art-mage/store/Vb1A/kitbash-sci-fi-buildings-vol-1-5).
 -   VDB Models:
-    -   [Free VDB Simulations Created With Embergen](https://jangafx.com/software/embergen/download/free-vdb-animations/), [OpenVDB Sample Models](https://www.openvdb.org/download/), [disneyanimation.com/clouds](https://www.technology.disneyanimation.com/clouds), [Free Volume Cloud and Smoke](https://gumroad.com/l/PCJDF), [200 Modular OpenVDB Clouds](https://cubebrush.co/byvfx/products/xycqw/200-modular-openvdb-clouds), [High Altitude Clouds](https://gumroad.com/l/RcgNe).
+    -   [Free VDB Simulations Created With Embergen](https://jangafx.com/software/embergen/download/free-vdb-animations/), [OpenVDB Sample Models](https://www.openvdb.org/download/), [disneyanimation.com/clouds](https://disneyanimation.com/resources/clouds/), [Free Volume Cloud and Smoke](https://gumroad.com/l/PCJDF), [High Altitude Clouds](https://gumroad.com/l/RcgNe).
 
 ### 🤸🏾‍♀️Mocap/Animation [^](#table)
 
@@ -467,9 +499,9 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 ### 🌑Textures [^](#table)
 
 -   [Poly Haven/Textures](https://polyhaven.com/textures) : Poly Haven/Textures is a website where you can find high quality scanned textures for free.
--   [CC0 Textures](https://cc0textures.com/) : Get hundreds of PBR materials and textures for free under the Public Domain license.
+-   [ambientCG](https://ambientcg.com/) : Get hundreds of PBR materials and textures for free under the Public Domain license.
 -   [cgbookcase](https://cgbookcase.com/textures/) : Discover a library of high-quality PBR textures. Free for every purpose, forever. Some Blender tutorials here and there.
--   [Textures.one](https://textures.one/) : Search the databases of many of the biggest free texture at once.
+-   [3DAssets.one](https://www.3dassets.one/) : is a search-engine which allows you to explore the largest free texture sites all at once.
 -   [3DTextures.me](https://3dtextures.me/) : Free seamless PBR textures.
 -   [FreePBR.com](https://freepbr.com/) : Free PBR materials and texture files.
 -   [ShareTextures](https://www.sharetextures.com/) : Free High Quality Material Archive for everybody.
@@ -484,12 +516,12 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   [Substance Share](https://share.substance3d.com/) : The free exchange platform for the Substance community.
 -   [Substance Source/freebies](https://source.substance3d.com/allassets?free=true) [$] : Hundreds of high quality PBR materials.
 -   [ScansLibrary](https://www.scanslibrary.com/library?credit=0) [$] : Digital marketplace with thousands of Real-World scans.
--   [Poliigon/freebies](https://www.poliigon.com/search?type=all&refine_by=assets-free) [$] : A library of materials, and HDR's for artists including free textures that want photorealism.
+-   [Poliigon/freebies](https://www.poliigon.com/search?credit=0) [$] : A library of materials, and HDR's for artists including free textures that want photorealism.
 -   [Texturing.xyz](https://texturing.xyz/) [$] : Our textures are used in the biggest and industry-leading VFX companies, and help them achieving their goals faster.
 -   Other Sites:
-    -   [EveryTexture.com](https://everytexture.com/latest), [3DJungle.net](https://3djungle.net/textures/), [Architecture Inspirations](https://www.archinspirations.com/materials), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [TextureKing](https://www.textureking.com/category/all-textures/), [MotionSquared](https://textures.motionsquared.net/latest-textures/).
+    -   [EveryTexture.com](https://everytexture.com/latest), [3DJungle.net](https://3djungle.net/textures/), [Architecture Inspirations](https://www.archinspirations.com/materials), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [TextureKing](https://www.textureking.com/category/all-textures/), [MotionSquared](https://textures.motionsquared.net/latest-textures/), [TextureCan](https://www.texturecan.com/).
 -   Others:
-    -   [gumroad/juliosillet](https://gumroad.com/juliosillet), [gumroad/lebedev](https://gumroad.com/lebedev), [3d-wolf/textures](https://3d-wolf.com/products/textures.html), [Pixar/CommunityResources](https://renderman.pixar.com/community_resources), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [30 Displacement Maps](https://gumroad.com/l/xsQTf), [Texture Hunt Collection](https://gumroad.com/l/texturehunt), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [treesDesigner PBR Leaf Textures](http://www.treesdesigner.com/materials-library/), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [CGTrader/textures](https://www.cgtrader.com/free-3d-models/textures), [CGIVault/Textures](https://cgivault.com/product-category/textures/), [artstation/alexbeddows](https://www.artstation.com/alexbeddows/store).
+    -   [gumroad/juliosillet](https://gumroad.com/juliosillet), [gumroad/lebedev](https://gumroad.com/lebedev), [Pixar/CommunityResources](https://renderman.pixar.com/community_resources), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [30 Displacement Maps](https://gumroad.com/l/xsQTf), [Texture Hunt Collection](https://gumroad.com/l/texturehunt), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [treesDesigner PBR Leaf Textures](http://www.treesdesigner.com/materials-library/), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [CGTrader/textures](https://www.cgtrader.com/free-3d-models/textures), [CGIVault/Textures](https://cgivault.com/product-category/textures/), [artstation/alexbeddows](https://www.artstation.com/alexbeddows/store).
 
 ### 🌓Blender Materials [^](#table)
 
@@ -513,7 +545,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 -   Gumroad Pages:
     -   [gumroad/bluefoxcreation](https://gumroad.com/bluefoxcreation), [gumroad/curtisjamesholt](https://gumroad.com/curtisjamesholt).
 -   Rigged Models:
-    -   [Rain v2](https://cloud.blender.org/p/characters/5f04a68bb5f1a2612f7b29da), [Red-Nelb](https://cgcookie.com/resource/red-nelb-rig-blender-2-8x), [Dancing Girl](https://gumroad.com/l/mZcjB), [Pharah(Overwatch)](https://pharah.gitlab.io/guide/), [Luchadora](https://www.artstation.com/marketplace/p/AWjx/luchadora-rig-blender), [Rocket Girl](https://gumroad.com/l/XGTxw), [Pikachu](https://www.blendswap.com/blend/23864), [MT-103 Droid](https://gumroad.com/l/zvlZV), [Baqir](https://www.youtube.com/watch?v=UIKuyOP68fA), [Robot](https://gumroad.com/l/luhCU), [Ivan](https://gumroad.com/l/ivan-3d-model), [Cori](https://www.blendswap.com/blend/23381), [Judy Hopps](https://www.blendswap.com/blend/17309), [Scorbunny](https://gumroad.com/l/cvJbP), [Stretch](https://tribee.online/product/stretch-free-blender-rig-beta/).
+    -   [Rain v2](https://cloud.blender.org/p/characters/5f04a68bb5f1a2612f7b29da), [Red-Nelb](https://cgcookie.com/resource/red-nelb-rig-blender-2-8x), [Dancing Girl](https://gumroad.com/l/mZcjB), [Pharah(Overwatch)](https://pharah.gitlab.io/guide/), [Luchadora](https://www.artstation.com/marketplace/p/AWjx/luchadora-rig-blender), [Rocket Girl](https://gumroad.com/l/XGTxw), [Pikachu](https://www.blendswap.com/blend/23864), [MT-103 Droid](https://gumroad.com/l/zvlZV), [Baqir](https://www.youtube.com/watch?v=UIKuyOP68fA), [Ivan](https://gumroad.com/l/ivan-3d-model), [Cori](https://www.blendswap.com/blend/23381), [Judy Hopps](https://www.blendswap.com/blend/17309), [Scorbunny](https://gumroad.com/l/cvJbP), [Stretch](https://tribee.online/product/stretch-free-blender-rig-beta/).
 
 ### ⛅HDRIs [^](#table)
 
@@ -522,7 +554,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 ### 🖼️Art/Reference [^](#table)
 
 -   [Dezoomify](https://ophir.alwaysdata.net/dezoomify/dezoomify.html) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats). \([Desktop App](https://github.com/lovasoa/dezoomify-rs)\) \([Desktop App GUI](https://github.com/agmmnn/dezoomify-rs-gui)\) \([Extension](https://github.com/lovasoa/dezoomify-extension)\) [![][repo]](https://github.com/lovasoa/dezoomify)
--   [Birmingham Museums Trust](http://dams.birminghammuseums.org.uk/) : Thousands of our out-of-copyright images are now available for all to use under a Creative Commons Zero Licence (CC0). More images are regularly being added. \([Unsplash Profile](https://unsplash.com/@birminghammuseumstrust)\)
+-   [Birmingham Museums Trust](https://dams.birminghammuseums.org.uk/asset-bank/action/viewDefaultHome?browseType=folders) : Thousands of our out-of-copyright images are now available for all to use under a Creative Commons Zero Licence (CC0). More images are regularly being added. \([Unsplash Profile](https://unsplash.com/@birminghammuseumstrust)\)
 -   [Wikimedia Commons/Art](https://commons.wikimedia.org/wiki/Category:Art) : A collection of freely usable media files to which anyone can contribute.
 -   [The Art Institute of Chicago](https://www.artic.edu/collection?is_public_domain=1) : Download public-domain artworks from Art Institute of Chicago online collection.
 -   [Paris Musées Collections](http://parismuseescollections.paris.fr/en/recherche/image-libre/true) : Paris Musées has released over 100,000 artworks into the public domain. They are all available for free high-resolution download online.
@@ -578,8 +610,8 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 ### 🏞Free Stocks [^](#table)
 
 -   Image/Vector : [unsplash](https://unsplash.com/), [pexels](https://www.pexels.com/)
-    , [pixabay](https://pixabay.com/tr/), [stocksnap](https://stocksnap.io/), [rawpixel](https://www.rawpixel.com/), [burst](https://burst.shopify.com/).
--   Video/VFX/Footage : [videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/tr/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos), [actionvfx](actionvfx.com/blog/3-free-vfx-stock-collections-portals-bullet-tracers-camera-shake-presets), [productioncrate/free](https://vfx.productioncrate.com/search/#!/free), [benharker](https://benharker.net/store).
+    , [pixabay](https://pixabay.com/), [stocksnap](https://stocksnap.io/), [rawpixel](https://www.rawpixel.com/), [burst](https://burst.shopify.com/).
+-   Video/VFX/Footage : [videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos), [actionvfx](actionvfx.com/blog/3-free-vfx-stock-collections-portals-bullet-tracers-camera-shake-presets), [productioncrate/free](https://vfx.productioncrate.com/search/#!/free), [benharker](https://benharker.net/store).
 -   Cutouts : [MrCutout](https://www.mrcutout.com/), [nonscandinavia](http://www.nonscandinavia.com/), [clipped](http://www.clipped.io/search?sort_uploads=created_at), [vishopper/free](https://www.vishopper.com/cut-out-people/search/free).
 -   Visual Loops : [Mantissa](https://mantissa.xyz/vjloops), [BEEPLE](https://www.beeple-crap.com/vjloops), [Vimeo/Catmac](https://vimeo.com/user2777466), [SSWIII](http://www.switzonwigfall.com/vjclips), [rptv](https://www.rptv.co/videoloops).
 -   Fonts : [google](https://fonts.google.com/), [theleagueofmoveabletype](https://www.theleagueofmoveabletype.com/), [beautifulwebtype](https://beautifulwebtype.com/), [openfoundry](https://open-foundry.com/fonts).
@@ -738,7 +770,6 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 
 -   [Audacity](https://www.audacityteam.org/) : Free, open source, cross-platform audio software.
 -   [AudioMass](https://audiomass.co/) : Open-source web based audio and waveform editing tool.
--   [Libre Music Production](https://libremusicproduction.com/tools.html) : is a community-driven online resource, focused on promoting musical creation and composition using free and open source.
 -   SFX Generators : [rFXGen](https://raylibtech.itch.io/rfxgen), [sfxia](https://rxi.itch.io/sfxia), [LabChirp](http://labbed.net/software/labchirp/), [Bfxr](https://iznaut.itch.io/bfxr).
 
 ### Painting [^](#table)
@@ -773,7 +804,6 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
     -   [🖱️Right-Click Select](https://blender.community/c/rightclickselect/) : Got an idea for a feature that you think Blender absolutely must have?
 -   [👨‍🎨Blender Artists Community](http://www.blenderartists.org/) : Home of the Blender Community.
 -   [📰BlenderNation](https://www.blendernation.com/) : daily news, art and tutorials for Blender, the open source 3D content creation suite.
--   [💻Blender Network](https://www.blendernetwork.org/) : is Blender Foundation's official partnership program, an online directory and social network for Blender professionals.
 -   [💬blender.chat](https://blender.chat/) : official chat server for artists and developers.
 -   [🗨️discord/blender](https://discord.gg/blender) : community-managed Discord server.
 -   [fb/blender](https://fb.com/groups/2207257375/) : blender facebook group.
@@ -791,7 +821,7 @@ A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources
 [![](https://img.shields.io/badge/reddit-r%2Fblender-yellowgreen?logo=reddit&style=flat-square)](https://www.reddit.com/r/blender/)
 [![](https://img.shields.io/badge/instagram-%23b3d-yellowgreen?logo=instagram&style=flat-square)](https://www.instagram.com/explore/tags/b3d/)
 [![](https://img.shields.io/badge/twitter-%23b3d-yellowgreen?logo=twitter&style=flat-square)](https://twitter.com/hashtag/b3d)
-[![](https://img.shields.io/badge/artstation-%27blender%27-yellowgreen?logo=artstation&style=flat-square)](https://www.artstation.com/search?q=blender&sort_by=rank)
+[![](https://img.shields.io/badge/artstation-%27blender%27-yellowgreen?logo=artstation&style=flat-square)](https://www.artstation.com/search?sort_by=relevance&query=blender)
 [![](https://img.shields.io/badge/behance-%27blender%27-yellowgreen?logo=behance&style=flat-square)](https://www.behance.net/search?content=projects&user_tags=1012327)
 [![](https://img.shields.io/badge/blenderartists-artwork-yellowgreen?logo=&style=flat-square)](https://blenderartists.org/c/artwork/8)
 
@@ -883,12 +913,12 @@ _Some accounts where you can find different kinds of content related to blender.
 ### 🎊Challenges [^](#table)
 
 -   [Nodevember](https://nodevember.io/) : The yearly event for everything procedural. Feel like doing a challenge? #nodevember is all about creating and promoting procedural awesomeness! A whole month to improve and show off your procedural skills.
-    -   See works: [tw/#nodevember](https://twitter.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?q=nodevember)
+    -   See works: [tw/#nodevember](https://twitter.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?sort_by=relevance&query=nodevember)
 -   [SculptJanuary](https://cgboost.com/sculptjanuary2020/) : Challenge yourself over 31 days with a set of 31 topics.
     Sculpt every day and improve your sculpting skills.
-    -   See works: [tw/#sculptjanuary](https://twitter.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?q=sculptjanuary)
+    -   See works: [tw/#sculptjanuary](https://twitter.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary)
 -   [36 Days of Type](http://www.36daysoftype.com/) : is a yearly open call inviting designers, illustrators and visual artists to share their view on the letters and numbers from our alphabet.
-    -   See works: [tw/#36daysoftype](https://twitter.com/hashtag/36daysoftype), [ig/#36daysoftype](https://www.instagram.com/explore/tags/36daysoftype/), [artstation/36daysoftype](https://www.artstation.com/search?q=36daysoftype)
+    -   See works: [tw/#36daysoftype](https://twitter.com/hashtag/36daysoftype), [ig/#36daysoftype](https://www.instagram.com/explore/tags/36daysoftype/), [artstation/36daysoftype](https://www.artstation.com/search?sort_by=relevance&query=6daysoftype)
 -   Competitions: [/r/blender: contest](https://www.reddit.com/r/blender/), [blenderartists.org/contest](https://blenderartists.org/c/contests).
 
 ### 🎉Events [^](#table)
@@ -975,7 +1005,7 @@ _Some accounts where you can find different kinds of content related to blender.
 
 ### 🌌Animation Nodes [^](#table)
 
--   🧾[Animation Nodes Manual.](https://animation-nodes-manual.readthedocs.io/en/latest/user_guide/getting_started/interface.html)
+-   🧾[Animation Nodes Manual.](https://docs.animation-nodes.com/)
 -   ☰[Introduction to Animation Nodes by Chris Prenninger](https://www.youtube.com/playlist?list=PLpJWHl1fB7BFm8Ph-DJ_jswjhfbdZC3-I).
 -   ☰[Animation Nodes in Blender by Chris Prenninger](https://www.youtube.com/playlist?list=PLpJWHl1fB7BFX5bxrGofVS5BEj7kOBI95).
 -   ☰[Animation node tutorial by Bradley Animation](https://www.youtube.com/playlist?list=PLhQ290f8z8FP9PxYv7Cw0He5ayVkMFMyB).
@@ -1056,7 +1086,6 @@ _Some accounts where you can find different kinds of content related to blender.
     -   [Blender 2.8 Python Scripting Superpowers for Non-Programmers](https://cgcookie.com/articles/blender-2-8-python-scripting-superpowers-for-non-programmers) : If you’ve been using Blender or any other 3D app for a while, you’ve found yourself slogging through the same tasks over and over again and at some point thinking, “I really wish Blender just did this for me”. Through scripting, it can!
     -   [Blender 2.8 Grease Pencil Scripting and Generative Art](https://towardsdatascience.com/blender-2-8-grease-pencil-scripting-and-generative-art-cbbfd3967590) : learning the basics of scripting for Blender Grease-Pencil tool, with focus on generative art as a concrete playground.
     -   [Visualizing Complex Numbers in Blender](https://medium.com/@behreajj/visualizing-complex-numbers-in-blender-d60bd32f20b9) : This tutorial introduces how to make patterns with complex numbers in Blender.
-    -   [Creative Coding in Blender: A Primer](https://medium.com/@behreajj/creative-coding-in-blender-a-primer-53e79ff71e) : This tutorial aims to encourage creative coders to consider Blender as a platform for creating 3D artworks.
 -   Sources:
     -   [blender-scripting](https://github.com/njanakiev/blender-scripting) : Introduction to blender scripting. This is a collection of simple to more involved examples to scripting in Blender with Python.
     -   [The Code Editor](https://blenderartists.org/t/how-would-you-show-some-love-for-the-blender-text-editor/1163857) : This thread is for discussing how the Text Editor can be improved and sharing add-ons which will modernize, expand and ease coding in Blender.
