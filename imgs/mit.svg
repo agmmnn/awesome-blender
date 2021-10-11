@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16.1 16.4">
+  <defs>
+    <symbol overflow="visible" id="a">
+      <path style="stroke:none" d="M.5156 0v-6.6719H2.125l.9531 4.5469.9531-4.5469h1.6094V0h-1v-5.25L3.5937 0H2.5625L1.5156-5.25V0Zm0 0"/>
+    </symbol>
+    <symbol overflow="visible" id="b">
+      <path style="stroke:none" d="M.5 0v-6.6719h1.0781V0Zm0 0"/>
+    </symbol>
+    <symbol overflow="visible" id="c">
+      <path style="stroke:none" d="M1.7344 0v-5.5313H.1563v-1.1406h4.203v1.1406H2.797V0Zm0 0"/>
+    </symbol>
+  </defs>
+  <path style="fill-rule:nonzero;fill:#fff;fill-opacity:1;stroke-width:15.349172;stroke-linecap:round;stroke-linejoin:miter;stroke:#2aabe1;stroke-opacity:1;stroke-miterlimit:4" d="M245.4673 134.7763c0 60.2732-50.6576 109.1116-113.1372 109.1116-62.4796 0-113.1372-48.8384-113.1372-109.1116 0-60.2732 50.6576-109.1116 113.1372-109.1116 62.4796 0 113.1372 48.8384 113.1372 109.1116" transform="matrix(.07071 0 0 .0731 -1.3571 -1.8528)"/>
+  <g style="fill:#2aabe1;fill-opacity:1">
+    <use xlink:href="#a" x="1.5" y="11.3918"/>
+    <use xlink:href="#b" x="7.659" y="11.3918"/>
+    <use xlink:href="#c" x="9.7132" y="11.3918"/>
+  </g>
+</svg>

@@ -269,17 +269,14 @@
 
 ### 🗜Render Engine [^](#table)
 
--   [appleseed](https://appleseedhq.net/) : is an open source, physically-based global illumination rendering engine primarily designed for animation and visual effects. [![][repo]](https://github.com/appleseedhq/appleseed) [(blender addon)](https://github.com/appleseedhq/blenderseed)
--   [LuxCore](https://luxcorerender.org/) : LuxCoreRender is a physically based and unbiased rendering engine. It offers advanced features like accelerated rendering of indirect light and efficient rendering of caustics. [![][repo]](https://github.com/LuxCoreRender/BlendLuxCore) [(blender addon)](https://github.com/LuxCoreRender/BlendLuxCore)
+-   [appleseed](https://appleseedhq.net/) : is an open source, physically-based global illumination rendering engine primarily designed for animation and visual effects. [![][repo]](https://github.com/appleseedhq/appleseed) [(blender addon)](https://github.com/appleseedhq/blenderseed) ![][mit]
+-   [LuxCore](https://luxcorerender.org/) : LuxCoreRender is a physically based and unbiased rendering engine. It offers advanced features like accelerated rendering of indirect light and efficient rendering of caustics. [![][repo]](https://github.com/LuxCoreRender/BlendLuxCore) [(blender addon)](https://github.com/LuxCoreRender/BlendLuxCore) ![][gpl]
 -   [E-Cycles](https://blendermarket.com/products/e-cycles) [$] : is a fork of Cycles which renders up to 2.5x faster out of the box when using CUDA GPUs, up to 15x using new options.
 -   [K Cycles](https://blendermarket.com/products/k-cycles) [$] : Another fork of Cycles like E-Cycles. Advertised as an improvement over E-Cycles
 -   [AMD Radeon ProRender](https://www.amd.com/en/technologies/radeon-prorender-blender) : is AMD’s powerful physically-based rendering engine that lets creative professionals use open industry standards to leverage GPU and CPU performance to produce stunningly photorealistic images in Blender.
 -   [AMD Blender USD Hydra](https://gpuopen.com/learn/amd-usd-hydra-blender/) : With Pixar's USD system emerging as a powerful tool for 3D graphics pipelines and interchange, this addon is meant to add first class support for USD and the USD Hydra rendering system to Blender.
--   [Pixar's RenderMan](https://renderman.pixar.com/) : Physically-based render from Pixar. [[more info]](https://rmanwiki.pixar.com/display/RFB24/RenderMan+for+Blender+24.0)
--   [Blender Octane Render](https://render.otoy.com/forum/viewtopic.php?f=7&t=72241) : Fully integrated Octane Render, free tier.
-    -   [🧾OctaneRender for Blender Plugin Manual.](https://docs.otoy.com/BlenderH/BlenderPluginManual.htm)
-    -   [OTOY Forums/Blender](https://render.otoy.com/forum/viewforum.php?f=32).
-    -   [Quixel Megascans Plugin for Blender Octane Edition](https://github.com/Yichen-Dou/MSLiveLink-OC-Blender).
+-   [Pixar's RenderMan](https://renderman.pixar.com/) : Physically-based render from Pixar. [[more info]](https://rmanwiki.pixar.com/display/RFB24/RenderMan+for+Blender+24.0) ![][mit]
+-   [Blender Octane Render](https://render.otoy.com/forum/viewtopic.php?f=7&t=72241) : Fully integrated Octane Render, free tier. [(blender plugin manual)](https://docs.otoy.com/BlenderH/BlenderPluginManual.htm)
 -   \*[Redshift Blender Plugin Alpha](https://trello.com/c/umeZ5JvZ/4-blender-plugin-alpha) : Redshift Trello page has been updated with a new Blender IPR Preview video. _The Plug-in is currently under development._ [(video)](https://www.youtube.com/watch?v=udv1uILubzM)
 
 ### 🔳Texture/UV [^](#table)
@@ -451,14 +448,14 @@
 ### 🎠3D Models [^](#table)
 
 -   [Quixel Megascans](https://quixel.com/megascans/library/) : World’s largest photogrammetry 2D and 3D asset library. Now it is free for the Epic Games accounts.
--   [Scan the World](https://www.myminifactory.com/scantheworld/) : is an ambitious community-built initiative whose mission is to share 3D printable sculpture and cultural artefacts using democratised 3D scanning technologies, producing an extensive ecosystem of free to download digital cultural heritage.
--   [Artec 3D](https://www.artec3d.com/3d-models) : Download high resolution 3D scans for free.
--   [Poly Haven/Models](https://polyhaven.com/models) : is a resource of free high quality 3D assets for everyone. All models here are CC0.
--   [Blender Boom](https://www.blenderboom.com/product-category/free/) : 3D model repository. Free models ready to use.
--   [Three D Scans](https://threedscans.com/) : Free 3D scans in .stl without copyright restrictions.
--   [3D Digitization Smithsonian](https://3d.si.edu/explore) : CC0 Photoscan Library from Smithsonian. [(Collections)](https://3d.si.edu/collections)
--   [Chocofur/Free](https://store.chocofur.com/search/free) : Premium quality 3D models & scenes. [(blender addon)](https://store.chocofur.com/model-manager-blender-2-80-course/blender_model/)
--   [Free3D](https://free3d.com/) : is the go to place where you can share your free 3D assets and download instantly any you like.
+-   [Scan the World](https://www.myminifactory.com/scantheworld/) : is an ambitious community-built initiative whose mission is to share 3D printable sculpture and cultural artefacts using democratised 3D scanning technologies, producing an extensive ecosystem of free to download digital cultural heritage. [[mixed license]](https://www.myminifactory.com/scantheworld/faq/)
+-   [Artec 3D](https://www.artec3d.com/3d-models) : Download high resolution 3D scans for free. ![][by]
+-   [Poly Haven/Models](https://polyhaven.com/models) : is a resource of free high quality 3D assets for everyone. All models here are CC0. [![][zero]](https://polyhaven.com/license)
+-   [Blender Boom](https://www.blenderboom.com/product-category/free/) : 3D model repository. Free models ready to use. [![][zero]](https://www.blenderboom.com/pages/licences/)
+-   [Three D Scans](https://threedscans.com/) : Free 3D scans in .stl without copyright restrictions. [![][cc]](https://threedscans.com/info/)
+-   [3D Digitization Smithsonian](https://3d.si.edu/explore) : CC0 Photoscan Library from Smithsonian. [(Collections)](https://3d.si.edu/collections) ![][zero]
+-   [Chocofur/Free](https://store.chocofur.com/search/free) : Premium quality 3D models & scenes. [(blender addon)](https://store.chocofur.com/model-manager-blender-2-80-course/blender_model/) [![][zero]](https://chocofur.com/page/license-cc0)
+-   [Free3D](https://free3d.com/) : is the go to place where you can share your free 3D assets and download instantly any you like. [![][cc]](https://free3d.com/terms-conditions)
 -   [CGAxis/free](https://free.cgaxis.com/) : Get free 3D models, ready to render interior, PBR textures and HDR images. Royalty-Free. ([one pack](https://free.cgax.co/))
 -   [3DB3](https://3db3.com/) : Check out the best 3D models made by professional 3D artists.
 -   [Rigmodels](http://rigmodels.com/) : Free rigged, animated and low poly models
@@ -498,14 +495,14 @@
 
 ### 🌑Textures [^](#table)
 
--   [Poly Haven/Textures](https://polyhaven.com/textures) : Poly Haven/Textures is a website where you can find high quality scanned textures for free.
--   [ambientCG](https://ambientcg.com/) : Get hundreds of PBR materials and textures for free under the Public Domain license.
--   [cgbookcase](https://cgbookcase.com/textures/) : Discover a library of high-quality PBR textures. Free for every purpose, forever. Some Blender tutorials here and there.
+-   [Poly Haven/Textures](https://polyhaven.com/textures) : Poly Haven/Textures is a website where you can find high quality scanned textures for free. [![][zero]](https://polyhaven.com/license)
+-   [ambientCG](https://ambientcg.com/) : Get hundreds of PBR materials and textures for free under the Public Domain license. [![][zero]](https://help.ambientcg.com/01-General/Licensing.html)
+-   [cgbookcase](https://cgbookcase.com/textures/) : Discover a library of high-quality PBR textures. Free for every purpose, forever. Some Blender tutorials here and there. [![][zero]](https://creativecommons.org/publicdomain/zero/1.0/)
 -   [3DAssets.one](https://www.3dassets.one/) : is a search-engine which allows you to explore the largest free texture sites all at once.
--   [3DTextures.me](https://3dtextures.me/) : Free seamless PBR textures.
+-   [3DTextures.me](https://3dtextures.me/) : Free seamless PBR textures. [![][zero]](https://3dtextures.me/about/)
 -   [FreePBR.com](https://freepbr.com/) : Free PBR materials and texture files.
--   [ShareTextures](https://www.sharetextures.com/) : Free High Quality Material Archive for everybody.
--   [Texture.Ninja](https://texture.ninja/) : Public domain photographic textures, reference images, cutouts.
+-   [ShareTextures](https://www.sharetextures.com/) : Free High Quality Material Archive for everybody. [![][zero]](https://www.sharetextures.com/privacy/)
+-   [Texture.Ninja](https://texture.ninja/) : Public domain photographic textures, reference images, cutouts. ![][zero]
 -   [3DXO](https://www.3dxo.com) : Free 3D Models, seamless Textures, Backgrounds, Photos & Graphics.
 -   [Texture Box](https://texturebox.com/) : We are making free textures for 3D Artists from all over the world. Also, we offer custome texture services.
 -   [Texture Fun](https://texturefun.com/) : Free PBR texture sets of common architectural materials, including some nice tile textures.
@@ -754,17 +751,18 @@
 ### AI-Powered [^](#table)
 
 -   [Gigapixel AI](https://topazlabs.com/gigapixel-ai/) [$] : is the only photo enlargement product available that can actually add detail back to your upscaled photo.
--   [waifu2x](http://waifu2x.udp.jp/index.tr.html) : Single-Image Super-Resolution for Anime-Style Art using Deep Convolutional Neural Networks. And it supports photo. [![][repo]](https://github.com/nagadomi/waifu2x)
+-   [waifu2x](http://waifu2x.udp.jp/index.tr.html) : Single-Image Super-Resolution for Anime-Style Art using Deep Convolutional Neural Networks. And it supports photo. [![][repo]](https://github.com/nagadomi/waifu2x) [![][mit]](https://github.com/nagadomi/waifu2x/blob/master/LICENSE)
 -   [Let'sEnhance.io](https://letsenhance.io/) : Increase image quality and resolution. Our AI-based editing process automatically enhance any flaw in your image.
--   [Dain-App](https://grisk.itch.io/dain-app) : Dain-App is a free app that let you take any form of media like movies, stop-motion, anime, cartoons, sprites, etc and interpolate new frames, generating a bigger frame-rate from the original file.
--   [3D Photo Inpainting](https://shihmengli.github.io/3D-Photo-Inpainting/) : 3D Photography using Context-aware Layered Depth Inpainting. [![][repo]](https://github.com/vt-vl-lab/3d-photo-inpainting)
+-   [Dain-App](https://grisk.itch.io/dain-app) : [Dain](https://github.com/baowenbo/DAIN)-App is a free app that let you take any form of media like movies, stop-motion, anime, cartoons, sprites, etc and interpolate new frames, generating a bigger frame-rate from the original file. ![][mit]
+-   [3D Photo Inpainting](https://shihmengli.github.io/3D-Photo-Inpainting/) : 3D Photography using Context-aware Layered Depth Inpainting. [![][repo]](https://github.com/vt-vl-lab/3d-photo-inpainting) ![][mit]
 -   [Infinite Nature](https://infinite-nature.github.io/) : Perpetual view generation of natural scenes from a single image. [![][repo]](https://github.com/google-research/google-research/tree/master/infinite_nature)
--   [PaintsChainer](https://paintschainer.preferred.tech/index_en.html) : AI-Powered automatic line drawing colorization colorization. [![][repo]](https://github.com/pfnet/PaintsChainer)
+-   [PaintsChainer](https://paintschainer.preferred.tech/index_en.html) : AI-Powered automatic line drawing colorization colorization. [![][repo]](https://github.com/pfnet/PaintsChainer) ![][mit]
 -   [EbSynth](https://ebsynth.com/) : Free tool for converting video footage into stylised motion paintings.
 -   [PIFuHD](https://shunsukesaito.github.io/PIFuHD/) : Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization. [![][repo]](https://github.com/facebookresearch/pifuhd)
 -   [Generated.Photos](https://generated.photos/faces) : AI-generated faces.
 -   [Flowframes](https://nmkd.itch.io/flowframes) : is a simple but powerful app that utilizes AI frameworks to interpolate videos in order to increase their framerate with little to no noticable quality loss.
 -   [Cupscale](https://github.com/n00mkrad/cupscale) : Image Upscaling GUI based on ESRGAN.
+-   [Video2X](https://video2x.org/) : A lossless video/GIF/image upscaler achieved with waifu2x, Anime4K, SRMD and RealSR. [![][repo]](https://github.com/k4yt3x/video2x) ![][gpl]
 
 ### Sound/Music [^](#table)
 
@@ -1140,7 +1138,15 @@ _Some accounts where you can find different kinds of content related to blender.
 
 > `[$]` paid ones, ![][repo] repo link, `[market]`, `[more info]`, `[medium]`.
 
+#### Video Symbols:
+
 > `▷` video, `☰` playlist, `☷` channel, `🧾` doc.
+
+#### License Symbols:
+
+> ![][cc] [CC](https://creativecommons.org/about/cclicenses/), ![][zero] CC0, ![][by] BY, ![][nc] NC
+
+> ![][mit] [MIT](https://en.wikipedia.org/wiki/MIT_License), ![][gpl] [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License)
 
 ---
 
@@ -1150,7 +1156,7 @@ Your contributions are always welcome! ^\_^ If you want to contribute to this li
 
 ---
 
-Thanks for reading!
+#### _Thanks for reading!_
 
 [![Let's fund](https://img.shields.io/badge/fund-blender-orange?logo=blender&style=for-the-badge)](https://fund.blender.org/)
 
@@ -1158,5 +1164,11 @@ Thanks for reading!
 
 [bl-logo]: imgs/blender.svg
 [repo]: imgs/github.svg
+[zero]: imgs/zero.svg
+[by]: imgs/by.svg
+[cc]: imgs/cc.svg
+[nc]: imgs/nc.svg
+[mit]: imgs/mit.svg
+[gpl]: imgs/gpl.svg
 
 <!-- /markdown references -->
