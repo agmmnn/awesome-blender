@@ -37,7 +37,6 @@
             <li><a href="#TextureUV-">🔳Texture/UV</a></li>
             <li><a href="#GameDev-">🎮GameDev</a></li>
             <li><a href="#Misc-">🪀Misc</a></li>
-            <li><a href="#Themes-">🎴Themes</a></li>
         </ul>
     </li>
     <li><a href="#Resources-">🪐Resources</a>
@@ -92,9 +91,9 @@
         <ul>
             <li><a href="#Beginning-">🍩Beginning</a></li>
             <li><a href="#Modeling--1">🗿Modeling</a></li>
+            <li><a href="#Geometry-Nodes-">🌌Geometry Nodes</a></li>
             <li><a href="#Shader-Nodes-">🔘Shader Nodes</a></li>
             <li><a href="#Animation--1">🌠Animation</a></li>
-            <li><a href="#Animation-Nodes-">🌌Animation Nodes</a></li>
             <li><a href="#UV-Mapping-">🔲UV Mapping</a></li>
             <li><a href="#Texture-Painting-">🔳Texture Painting</a></li>
             <li><a href="#Compositing-">📐Compositing</a></li>
@@ -119,11 +118,6 @@
 </details>
 <br>
 
----
-
-<!-- Contributing Guidelines for Add-ons:
--->
-
 ## 🔮Add-ons [^](#table)
 
 -   Check list of Blender's built-in add-ons documentation [here](https://docs.blender.org/manual/en/dev/addons/index.html).
@@ -140,9 +134,7 @@
 -   [Jet-Fluids](https://github.com/PavelBlend/blender_jet_fluids_addon) : [Jet fluid](https://github.com/doyubkim/fluid-engine-dev) simulator integration in blender.
 -   [Mantaflow](http://mantaflow.com/) : is an open-source framework targeted at fluid simulation research in Computer Graphics. _Now it is [part](https://wiki.blender.org/wiki/Reference/Release_Notes/2.82/Physics) of the blender since 2.82 release!_ [![][repo]](https://github.com/sebbas/BlenderMantaflow)
 -   [projectile](https://gumroad.com/l/projectile) : An artist-friendly tool for throwing stuff around inside blender. [![][repo]](https://github.com/natecraddock/projectile)
--   [Phobos](https://github.com/dfki-ric/phobos) : Phobos is an add-on for the open-source 3D modeling software Blender that enables the creation of WYSIWYG robot models for use in robot frameworks like ROS and ROCK or in real-time simulations such as MARS or Gazebo.
--   [FishSim](https://github.com/nerk987/FishSim) : Fish Swimming Simulator. This addon aims to make it easier to animate natural movements of fish by allowing the animation of targets or proxies, and then simulating the movements required for the fish to follow these targets.
--   [CubeSurfer](https://github.com/porkminer/CubeSurfer) : IsoSurface mesher addons for Blender.
+-   [Phobos](https://github.com/dfki-ric/phobos) : An add-on for Blender allowing to create URDF, SDF and SMURF robot models.
 
 ### 🦑Generator/Builder [^](#table)
 
@@ -170,12 +162,15 @@
 -   [City Scatter](https://gumroad.com/curtisjamesholt#Illil) : Generate cityscape concepts, powered by Blender's collection system.
 -   [TubeTool](https://github.com/zeffii/TubeTool) : Generate tubing between two selected polygons.
 -   [Blender Data Visualisation](https://github.com/Griperis/BlenderDataVis) : Load data into Blender and create visualisations.
--   [Lightning Addon](https://github.com/paramphy/Lightning_add_onn) : Simple add-on to summon lightning.
 -   [HGen](https://gumroad.com/l/HGen_nd9h) : Blender hair generation and manipulating tool.
 -   [Data-FX](https://github.com/LandonFerg/Data-FX) : Loads and visualizes different types of data within Blender from .csv files.
 -   [Geometry nodes](https://www.blender.org/download/demo-files/#geometry-nodes) : Free examples of geometry nodes including procedural buildings and a hex grid map.
 -   [Post USSR Builder](https://kypcaht.gumroad.com/l/PmCLJ) : Simple post USSR style building generator on geometry nodes. 2.93 and newer
 -   [G Scatter](https://www.graswald3d.com/gscatter) : Artist-friendly scattering for free from developers of Grasswald.
+-   [Stylized Fantasy Tree Generator](https://rc12.gumroad.com/l/fantasytree) : Generate endless variations of stylized trees with this geometry nodes tool.
+-   [Random Book Generator](https://ko-fi.com/s/9879a091a9) : Book randomizing asset for Blender. Made with the new Geometry nodes.
+-   [Tyre Generator](https://flexdigitalpottery.gumroad.com/l/Tyregenv1) : Free tyre generator with geometry nodes.
+-   [Procedural Snow Shader](https://plusq.gumroad.com/l/jmdpr) : Procedural snow shader created in Blender.
 
 ### 🧊Modeling [^](#table)
 
@@ -430,19 +425,7 @@
 -   [Mixer by Ubisoft](https://github.com/ubisoft/mixer) : is a Blender addon developed at Ubisoft Animation Studio for Real Time Collaboration in 3D edition.
 -   [Daz to Blender Bridge](https://www.daz3d.com/daz-to-blender-bridge) : This easy-to-use Bridge transfers your Genesis 8 and 3 characters from Daz directly to Blender.
 -   [Substance 3D add-on for Blender by Adobe](https://substance3d.adobe.com/magazine/the-substance-3d-add-on-for-blender-is-here/) : with this add-on you can access your Substance materials directly inside Blender.
-
-### 🎴Themes [^](#table)
-
--   [Blender Pro](https://github.com/paulcoops/blender_pro-theme), [Curt's](https://gumroad.com/l/fWkBi), [80's](https://gumroad.com/l/fWkBi), [Awesome](https://blenderartists.org/t/awesome-theme-for-blender-2-8/1120656), [Nord](https://devtalk.blender.org/t/call-for-content-themes/3174/382).
-    -   [Call for Content: Themes](https://devtalk.blender.org/t/call-for-content-themes/3174)
-    -   [Theme Development - Paper Cuts](https://devtalk.blender.org/t/theme-development-paper-cuts/9715)
-    -   [Blender UI Paper Cuts](https://devtalk.blender.org/t/blender-ui-paper-cuts/2596)
 -   [Theme Switcher](https://blenderartists.org/t/theme-switcher/1211787) : Addon to quickly change active theme not leaving 3D View.
-
----
-
-<!-- Contributing Guidelines for Resources:
--->
 
 ## 🪐Resources [^](#table)
 
@@ -512,6 +495,7 @@
 -   [WildTextures](https://www.wildtextures.com/) : Free high resolution textures and patterns for commercial or personal use.
 -   [Textures.com](https://www.textures.com/) [$] : is a website that offers digital pictures of all sorts of materials. Sign up for free and download 15 free images every day!
 -   [Substance Share](https://share.substance3d.com/) : The free exchange platform for the Substance community.
+-   [MaterialX Library](https://matlib.gpuopen.com/main/materials/all) : AMD launched a free MaterialX-based Material Library. It allows users to download the materials and encourages them to upload their own.
 -   [Substance Source/freebies](https://source.substance3d.com/allassets?free=true) [$] : Hundreds of high quality PBR materials.
 -   [ScansLibrary](https://www.scanslibrary.com/library?credit=0) [$] : Digital marketplace with thousands of Real-World scans.
 -   [Poliigon/freebies](https://www.poliigon.com/search?credit=0) [$] : A library of materials, and HDR's for artists including free textures that want photorealism.
@@ -525,8 +509,9 @@
 
 -   [Blendermada](http://blendermada.com/materials/) : Free Blender Material Database. [(blender addon)](http://blendermada.com/addon/).
 -   [The Blendersauce Vault Materials](http://blendersauce.com/the-blendersauce-vault-2/the-material-vault-categories/) : Abstract, Bricks and Walls, Concrete, Fabric, Fluids, Food, Manmade, Metal, Metal painted Materials, Nature, Plaster, Rocks/Stones, Tiles, Wood.
--   [3d-wolf/materials](https://3d-wolf.com/products/materials.html) : PBR Materials is an addon with physically based materials. [![][repo]](https://github.com/macio97/PBR-Materials)
+-   [3d-wolf/materials](https://3d-wolf.com/products/materials.html) : PBR Materials is an addon with physically based materials. [![][repo]](https://github.com/macio97/PBR-Materials) ![gpl]
 -   [BlenderKit](https://www.blenderkit.com/) : Allows you to download assets, materials, and alpha brushes to your blender 2.8 client with the click of a button for free. _Now you can find it on built-in addons._
+-   [B3DMatPack](https://adamantitemachine.com/B3DMatPack/) : Over 800 procedural materials for Blender. ![zero]
 -   Sketch/Toon Shaders:
     -   [BNPR' Shaders](https://blendernpr.org/downloads/), [Eevee Comics Shader v3.0](https://gumroad.com/l/JWdjJ), [Erisdraw3D's](https://twitter.com/Erisdraw3D/status/1216755574735503361), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [Komikaze[\$]](https://blendermarket.com/products/komikaze)(Free: [Aqua](https://drive.google.com/file/d/1jlYxqRfjnjnZSG2gxKqiXa5Fo0Y7N9Kn/edit), [Kismet](https://drive.google.com/file/d/1Mp808PE3Wjew6-hEv0vIJZLzPezRM-jV/view)), [Ultimate Clay Shader[\$]](https://blendermarket.com/products/claydoh), [Erito's Toon Shader for Eevee](https://www.artstation.com/eritokaio/store/Wo3B/erito-s-toon-shader-for-blender-eevee), [Toonkit-Samples](https://github.com/vitorbalbio/Toonkit-Samples).
 -   Nodevember Results:
@@ -664,6 +649,9 @@
 -   [CNDL](https://cndl.io/) : An IES lighting creation toolset. Improve your renders with custom IES lighting.
 -   [Medium by Adobe](https://www.oculus.com/experiences/rift/3257686387611106/) : Medium is a dedicated VR sculpting and painting package for users of Oculus headsets, capable of exporting models to DCC applications in OBJ or FBX format.
 -   [Spline](https://spline.design/) : Easily create and publish 3D web experiences. Build and iterate fast with production-ready results.
+-   [Connecter](https://www.designconnected.com/connecter) : Free and visual creative assets management for 3d, AEC and design professionals.
+-   [Phototiler](https://halfmaps.itch.io/phototiler) : is a lightweight photorealistic map renderer that allows quick rendering of 3D maps for creative cartography.
+-   [VRoid Studio](https://vroid.com/en/studio) : a 3D character maker that specializes in Japanese anime-like expressions.
 
 ### Various Tools [^](#table)
 
@@ -679,6 +667,7 @@
 -   [Effekseer](https://effekseer.github.io/en/) : Open source particle effect creating tool.
 -   [Particle Illusion](https://borisfx.com/products/particle-illusion/) : Free GPU-accelerated 2D particle generator.
 -   [Exr-IO](https://www.exr-io.com/) : is a robust and exact solution for dealing with multi-layer EXR pictures. It supports Cryptomatte.
+-   [PickPicPack](https://p4ymak.gumroad.com/l/pickpicpack) : Tiny yet powerful utility for packaging multiple images to new one with custom aspect ratio and size.
 -   Blender Tools:
     -   [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater) : Download and install nightly builds with one click.
     -   [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : Command line version of BlenderUpdater.
@@ -896,6 +885,10 @@ _Some accounts where you can find different kinds of content related to blender.
 -   [Lightning Boy Studio](https://www.youtube.com/channel/UCd9i2MKimSaKezat1xkn8-A/videos) : toon shader, npr.
 -   [Giulia Marchetti](https://www.youtube.com/c/GiuliaMarchetti3d/videos) : sculpting, character modeling.
 -   [CG Fast Track](https://www.youtube.com/c/CGFastTrack/videos) : modeling, animation.
+-   [3DGreenhorn](https://www.youtube.com/c/3DGreenhorn/videos) : isometric modeling.
+-   [Bad Normals](https://www.youtube.com/c/BadNormals/videos) : modeling, animation.
+-   [Kevandram](https://www.youtube.com/user/kevandram/videos) : grease pencil.
+-   [Noggi](https://www.youtube.com/c/Noggi_Video/videos) : sculpting.
 
 ### 💻Blogs [^](#table)
 
@@ -919,6 +912,7 @@ _Some accounts where you can find different kinds of content related to blender.
 -   [36 Days of Type](http://www.36daysoftype.com/) : is a yearly open call inviting designers, illustrators and visual artists to share their view on the letters and numbers from our alphabet.
     -   See works: [tw/#36daysoftype](https://twitter.com/hashtag/36daysoftype), [ig/#36daysoftype](https://www.instagram.com/explore/tags/36daysoftype/), [artstation/36daysoftype](https://www.artstation.com/search?sort_by=relevance&query=6daysoftype)
 -   Competitions: [/r/blender: contest](https://www.reddit.com/r/blender/), [blenderartists.org/contest](https://blenderartists.org/c/contests).
+-   [Render Challenge](https://renderchallenge.com/) : The most up-to-date database of 3D art challenges on the Internet! Get notified of new render challenges every Friday.
 
 ### 🎉Events [^](#table)
 
@@ -944,7 +938,7 @@ _Some accounts where you can find different kinds of content related to blender.
 
 -   ☰[Blender Fundamentals by Blender.](https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
 -   ☰[Blender Basics by CG Cookie.](https://cgcookie.com/lesson/welcome-to-the-blender-basics)
--   ☰[🍩Blender Beginner Tutorial Series by Blender Guru.](https://www.youtube.com/playlist?list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U)
+-   ☰[🍩Blender 3.0 Beginner Donut Tutorial by Blender Guru.](https://www.youtube.com/playlist?list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U)
 -   ☰[🍦Blender Complete Beginner Tutorial Course by CG Geek.](https://www.youtube.com/playlist?list=PLrjIgEdKLivgpCMmFC0_sV60Y_Ftp-WLD)
 -   ☰[🍏Blender Beginner Tutorial Series by CG Boost.](https://www.youtube.com/playlist?list=PL3UWN2F2M2C8-zUjbFlbgtWPQa0NXBsp0)
 -   ☰[⚔️3D Modeling a Sword for Complete Beginners by YanSculpts.](https://www.youtube.com/playlist?list=PLvPwLecDlWRD_VK_2INC1VQ18dZdpDwLi)
@@ -979,6 +973,13 @@ _Some accounts where you can find different kinds of content related to blender.
     -   ▷[Generative Modeling with Modifiers.](https://www.youtube.com/watch?v=qC5eX_WZU2E)
     -   ☷[Midge Sinnaeve's Channel](https://www.youtube.com/user/T4ch1k0ma/videos)
 
+### 🌌Geometry Nodes [^](#table)
+
+-   🧾[Geometry Nodes Manual.](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html)
+-   ☰[Geometry Nodes by Chris Prenninger](https://www.youtube.com/playlist?list=PLpJWHl1fB7BG5YiW1sV9smJLdzlxKLCw1).
+-   ☰[Geometry Nodes by Blue Fox](https://www.youtube.com/playlist?list=PLlCNkx8wTCmeK6lCeIytjLJsse6xJwZg1).
+-   ☰[Geometry Nodes Basics for Beginners by Bradley Animation](https://www.youtube.com/playlist?list=PLhQ290f8z8FMzVZAZGyL8CnwOnitw2VdG).
+
 ### 🔘Shader Nodes [^](#table)
 
 -   🧾[Shader Nodes List.](https://docs.blender.org/manual/en/latest/render/shader_nodes/index.html)
@@ -1001,15 +1002,6 @@ _Some accounts where you can find different kinds of content related to blender.
 -   ☰[Blender Animation (Speed Tutorials) by Royal Skies LLC.](https://www.youtube.com/playlist?list=PLZpDYt0cyiuu7XqpZ8_rXJG9x26JK7UCr)
 -   ☰[Blender Rigging (Speed Tutorials) by Royal Skies LLC.](https://www.youtube.com/playlist?list=PLZpDYt0cyiuuc3QpFeHxGqNpVf5couDeI)
 -   ▷[Quick Smooth Camera Movements.](https://www.youtube.com/watch?v=a7qyW1G350g)
-
-### 🌌Animation Nodes [^](#table)
-
--   🧾[Animation Nodes Manual.](https://docs.animation-nodes.com/)
--   ☰[Introduction to Animation Nodes by Chris Prenninger](https://www.youtube.com/playlist?list=PLpJWHl1fB7BFm8Ph-DJ_jswjhfbdZC3-I).
--   ☰[Animation Nodes in Blender by Chris Prenninger](https://www.youtube.com/playlist?list=PLpJWHl1fB7BFX5bxrGofVS5BEj7kOBI95).
--   ☰[Animation node tutorial by Bradley Animation](https://www.youtube.com/playlist?list=PLhQ290f8z8FP9PxYv7Cw0He5ayVkMFMyB).
--   ☰[Blender Animation Nodes For Beginners Series by CGMatter](https://www.youtube.com/playlist?list=PL4EqKJjrgoVQMC_W69oAqaHEj7vaPeM9h).
--   ☷[Blue Fox Creation's Channel.](https://www.youtube.com/channel/UCdhm6jcHjHRbW34qO1tiGZw/videos)
 
 ### 🔲UV Mapping [^](#table)
 
