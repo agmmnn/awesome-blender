@@ -357,7 +357,6 @@
     -   [Real Camera](https://3d-wolf.com/products/camera.html) : is an addon that allows you to control the Blender camera like a real camera. [![][repo]](https://github.com/macio97/Real-Camera)
     -   [Cameras-Lister](https://github.com/Ryxx/Cameras-Lister) : Easy select camera’s in popup shortcut is Alt-C.
     -   [Photographer 2](https://gumroad.com/chafouin#FWQf) : Camera Exposure, White balance and Autofocus. Photographer 2 was made completely free for all.
-    -   [Photographer 3&4](https://blendermarket.com/products/photographer) [$] : Camera Exposure, White balance and Autofocus, Physical Light units, Optical Bokeh and more camera related enhancements. Photographer 3 is at a reduced price while Photographer 4 has newer features.
     -   [Camera Shakify](https://github.com/cessen/camera_shakify) : An addon for Blender that lets you easily add realistic camera shake to your cameras.
 -   Audio Visualizer
     -   [Bizualizer](https://github.com/doakey3/Bizualizer), [Curtis Holt's](https://gumroad.com/l/klmfi).
