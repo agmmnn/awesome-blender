@@ -137,6 +137,7 @@
 ### 🦑Generator/Builder [^](#table)
 
 -   [MB-Lab](https://mblab.dev/) : is a free, open source character creation tool for Blender. [![][repo]](https://github.com/animate1978/MB-Lab)
+-   [Charmorph](https://github.com/Upliner/CharMorph) : is another free, open source character creation tool for Blender.
 -   [FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) [$] : is a Blender add-on that lets you create photorealistic 3D models of human faces and heads using a few photographs with a neutral face expression. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
 -   [The Grove 3D](https://www.thegrove3d.com/) [$] : Grow natural 3D trees for visualisation and film. Grow, bend, prune, interactively simulate the seasons year by year.
 -   [tree-gen](https://github.com/friggog/tree-gen) : procedural generation of tree models in blender.
