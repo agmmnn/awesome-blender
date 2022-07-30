@@ -477,6 +477,7 @@
 -   [Motekentertainment/free-samples](http://www.motekentertainment.com/product-category/free-samples/) : Motek has captured and animated the a large variety of characters, for a great number of projects from various sectors.
 -   [MocapClub](http://www.mocapclub.com/Pages/Library.htm) : Motion Capture Library is free to the public and meant for educational purposes only. The library contains more than 500 diferent motions.
 -   [turbosquid/motion-capture](https://www.turbosquid.com/Search/Motion-Capture/free/), [sketchfab/animated](https://sketchfab.com/3d-models?features=downloadable+animated&sort_by=-likeCount).
+-   [Bandai-Namco-Research-Motiondataset](https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset)
 
 ### 🌑Textures [^](#table)
 
