@@ -147,7 +147,7 @@
 -   [Space Station Generator](https://gumroad.com/curtisjamesholt#iABmB) : Tool lets you generate sprawling space stations.
 -   [Building Tools](https://github.com/ranjian0/building_tools) : Building generation addon for blender.
 -   [Procedural Cloudscape Generation](https://blenderartists.org/t/procedural-cloudscape-generation-in-cycles-now-eevee/694700/12) : Create pretty realistic looking cloudscapes in Cycles and Eevee.
--   [Real Snow](https://3d-wolf.com/products/snow.html) : is an addon to create snow on top of objects. [![][repo]](https://github.com/macio97/Real-Snow)
+-   [Real Snow](https://3d-wolf.com/products/snow.html) : is an addon to create snow on top of objects.
 -   [Welder](https://blenderartists.org/t/welder/672478) : welds generator for Blender.
 -   [Sprytile](https://github.com/Sprytile/Sprytile) : a blender add-on for building tile based low-poly scenes with paint/map editor like tools. [[more info]](https://chemikhazi.itch.io/sprytile)
 -   [Scatter](https://blendermarket.com/products/scatter) [$] : The scattering tool for blender.
@@ -262,7 +262,7 @@
 -   [Redshift Blender Integration](https://www.maxon.net/en/redshift/integrations?categories=721103) [$] : Redshift by Maxon is a GPU-accelerated renderer built to meet the specific demands of contemporary high-end production rendering.
 -   [appleseed](https://appleseedhq.net/) : is an open source, physically-based global illumination rendering engine primarily designed for animation and visual effects. [![][repo]](https://github.com/appleseedhq/appleseed) [(blender addon)](https://github.com/appleseedhq/blenderseed) ![][mit]
 -   [LuxCore](https://luxcorerender.org/) : LuxCoreRender is a physically based and unbiased rendering engine. It offers advanced features like accelerated rendering of indirect light and efficient rendering of caustics. [![][repo]](https://github.com/LuxCoreRender/BlendLuxCore) [(blender addon)](https://github.com/LuxCoreRender/BlendLuxCore) ![][gpl]
--   [E-Cycles](https://blendermarket.com/products/e-cycles) [$] : is a fork of Cycles which renders up to 2.5x faster out of the box when using CUDA GPUs, up to 15x using new options.
+-   [E-Cycles](https://ecycles.gumroad.com/) [$] : is a fork of Cycles which renders up to 2.5x faster out of the box when using CUDA GPUs, up to 15x using new options.
 -   [K Cycles](https://blendermarket.com/products/k-cycles) [$] : Another fork of Cycles like E-Cycles. Advertised as an improvement over E-Cycles
 
 ### 🗺️Texture/UV [^](#table)
@@ -272,7 +272,7 @@
 -   [TexTools](http://renderhjs.net/textools/blender/) : TexTools is a Free addon for Blender 3D with a set of professional UV and Texturing tools. [![][repo]](https://github.com/SavMartin/TexTools-Blender)
 -   [Poliigon Uber Mapping Node](https://www.dropbox.com/s/b8p5nmg7evqbsd6/PoliigonUberMapping_v1.0.blend) : Anti-tile node setup for blender. [[more info]](https://youtu.be/CQ9VmCN2EsE?t=456)
 -   [Parallax Mapping](https://gumroad.com/neveselov#WhPLq) : This is Parallax Mapping material and node setup. Created in Blender 2.8 for eevee renderer, it works well in cycles too. [[more info]](https://www.youtube.com/watch?v=ZL695WnJvmU)
--   [Texel Density Checker](https://gumroad.com/l/CEIOR) : Tools for calculate, set and copy texel density. [![][repo]](https://github.com/mrven/Blender-Texel-Density-Checker) [![market]](https://blendermarket.com/products/texel-density-checker)
+-   [Texel Density Checker](https://gumroad.com/l/CEIOR) : Tools for calculate, set and copy texel density. [![][repo]](https://github.com/mrven/Blender-Texel-Density-Checker)
 -   [UV Toolkit](https://gumroad.com/alexbel#NbMya) : Tools collection for UV editing in blender.
 -   [Magic-UV](https://nutti.github.io/Magic-UV/) : This is a blender add-on Magic UV consisted of many UV manipulation features which Blender lack of. [![][repo]](https://github.com/nutti/Magic-UV)
 -   [EasyBake](https://github.com/leukbaars/EasyBake) : Texture baking UI for Blender that lives in the 3D Viewport. Small but powerful! Fast one-click baking and iteration.
@@ -281,7 +281,7 @@
 -   [PBR Texture Mapper](https://github.com/jayanam/pbr_texture_mapper) : Create PBR node setup with one click.
 -   [Poliigon Material Converter](https://help.poliigon.com/en/articles/2540839-poliigon-material-converter-addon-for-blender) : Create PBR node setup.
 -   [SCATTr](https://gumroad.com/l/scattr) : Procedural texture placement.
--   [Vertex Oven](https://github.com/ForestKatsch/VertexOven) : Bake game-ready ambient occlusion in seconds without UV unwrapping or agonizingly slow Cycles bakes. [![market]](https://blendermarket.com/products/vertex-oven)
+-   [Vertex Oven](https://github.com/ForestKatsch/VertexOven) : Bake game-ready ambient occlusion in seconds without UV unwrapping or agonizingly slow Cycles bakes.
 -   [Bake Wrangler](https://blenderartists.org/t/bake-wrangler-node-based-baking-tool-set-ver-b0-9-4-curvycavity/1187732) : is a nodes based extension and replacement for the inbuilt baking system.
 -   [3D-Coat Applink](https://www.youtube.com/watch?v=2bo2XGUPwIU) : 3DCoat now has native support of Blender via built-in AppLink.
 -   [Lily Surface Scrapper](https://github.com/eliemichel/LilySurfaceScrapper) : Import shaders in Blender from a single URL.
@@ -294,7 +294,7 @@
 ### 🎮GameDev [^](#table)
 
 -   [MeshSync](https://github.com/unity3d-jp/MeshSync) : Live link plugin for Unity. supported blender and other 3d softwares.
--   [Blender Tools by Epic Games](https://www.unrealengine.com/en-US/blog/download-our-new-blender-addons) : Blender addons that improve the game development workflow between Blender and Unreal. _Send to Unreal, UE to Rigify._ [![][repo]](https://github.com/epicgames/blendertools)
+-   [Blender Tools by Epic Games](https://www.unrealengine.com/en-US/blog/download-our-new-blender-addons) : Blender addons that improve the game development workflow between Blender and Unreal. _Send to Unreal, UE to Rigify._
 -   [Mr Mannequins Tools](https://github.com/Jim-Kroovy/Mr-Mannequins-Tools) : is a Blender add-on that gives the ability to export animations and weighted meshes that are directly compatible with the third person mannequin without re-targeting anything in Unreal Engine!
 -   [Blender For Unreal Engine](https://github.com/xavier150/Blender-For-UnrealEngine-Addons) : This Add-on allows you to export content created with Blender to Unreal Engine 4.
 -   [AssetGen](https://blenderartists.org/t/assetgen-create-a-game-asset-in-a-single-click/702849) : is automates the tasks to get a game assets ready for video games from an High Poly model.
@@ -332,7 +332,7 @@
     -   [Maps Models Importer](https://github.com/eliemichel/MapsModelsImporter) : A Blender add-on to import models from _Google Maps_. [[more info]](https://blog.exppad.com/article/importing-actual-3d-models-from-google-maps)
     -   [blender-osm](https://gumroad.com/l/blender-osm) : One click download and import of OpenStreetMap and terrain for Blender.
 -   VR/AR:
-    -   [blender-xr](https://www.marui-plugin.com/blender-xr/) : A free virtual and mixed reality user interface for Blender that enables artists to edit scenes within the software using a suitable headset and controllers.
+    -   [blender-xr](https://github.com/MARUI-PlugIn/BlenderXR) : A free virtual and mixed reality user interface for Blender that enables artists to edit scenes within the software using a suitable headset and controllers.
     -   [Blender-Metaverse-Addon](https://github.com/Menithal/Blender-Metaverse-Addon) : Blender toolset for creating content for Metaverses like High Fidelity.
 -   ArchViz:
     -   [JARCH-Vis](https://blenderartists.org/t/addon-jarch-vis/642607) : is add-on for Blender 3D that helps create commonly used object for architectural visualization. [![][repo]](https://github.com/BlendingJake/JARCH-Vis)
@@ -349,11 +349,11 @@
 -   Render:
     -   [BatchRender](https://github.com/VertStretch/RenderBurst), [Notify](https://github.com/Dziban-dev/Notify_Blender_Render), [AlarmShutdown](https://gumroad.com/l/PcDfw), [RenderButton](https://github.com/Mitsuma/Blender2.8-RenderButton).
     -   [MDSANIMA RenderTime](https://github.com/mdsanima-dev/mdsanima-render-time) : Blender add-on estimates and calculate how long your animation will take to render done based on the rendering time of the only one frame.
-    -   [Super Res Render](https://gumroad.com/kevinlorengel?recommended_by=search#absLo) : Plugin that splits renders up into several chunks to make rendering at super high resolutions possible.
-    -   [Super Fast Render](https://gumroad.com/kevinlorengel?recommended_by=search#RaFQi) : Either uses preset render settings optimised to speed up render times or Uses a benchmark to detect the fastest settings for the same render quality
-    -   [Super Image Denoiser](https://gumroad.com/kevinlorengel?recommended_by=search#BQerS) : Super high quality denoiser that desnoises the scene in several layers to reduce artifacts
+    -   [Super Res Render](https://kevinlorengel.gumroad.com/l/SuperResRender) : Plugin that splits renders up into several chunks to make rendering at super high resolutions possible.
+    -   [Super Fast Render](https://kevinlorengel.gumroad.com/l/SuperFastRender) : Either uses preset render settings optimised to speed up render times or Uses a benchmark to detect the fastest settings for the same render quality
+    -   [Super Image Denoiser](https://kevinlorengel.gumroad.com/l/SuperImageDenoiser) : Super high quality denoiser that desnoises the scene in several layers to reduce artifacts
 -   Camera:
-    -   [Real Camera](https://3d-wolf.com/products/camera.html) : is an addon that allows you to control the Blender camera like a real camera. [![][repo]](https://github.com/macio97/Real-Camera)
+    -   [Real Camera](https://3d-wolf.com/products/camera.html) : is an addon that allows you to control the Blender camera like a real camera.
     -   [Cameras-Lister](https://github.com/Ryxx/Cameras-Lister) : Easy select camera’s in popup shortcut is Alt-C.
     -   [Photographer 2](https://gumroad.com/chafouin#FWQf) : Camera Exposure, White balance and Autofocus. Photographer 2 was made completely free for all.
     -   [Camera Shakify](https://github.com/cessen/camera_shakify) : An addon for Blender that lets you easily add realistic camera shake to your cameras.
@@ -439,7 +439,6 @@
 -   [3D Digitization Smithsonian](https://3d.si.edu/explore) : CC0 Photoscan Library from Smithsonian. [(Collections)](https://3d.si.edu/collections) ![][zero]
 -   [Chocofur/Free](https://store.chocofur.com/search/free) : Premium quality 3D models & scenes. [(blender addon)](https://store.chocofur.com/model-manager-blender-2-80-course/blender_model/) [![][zero]](https://chocofur.com/page/license-cc0)
 -   [Free3D](https://free3d.com/) : is the go to place where you can share your free 3D assets and download instantly any you like. [![][cc]](https://free3d.com/terms-conditions)
--   [CGAxis/free](https://free.cgaxis.com/) : Get free 3D models, ready to render interior, PBR textures and HDR images. Royalty-Free. ([one pack](https://free.cgax.co/))
 -   [3DB3](https://3db3.com/) : Check out the best 3D models made by professional 3D artists.
 -   [Rigmodels](http://rigmodels.com/) : Free rigged, animated and low poly models
 -   [RockThe3D](http://www.rockthe3d.com/) : is a blog site to provide and sharing the best 3D related knowledge and resources around.
@@ -475,7 +474,6 @@
 -   [Carnegie-Mellon University Graphics Lab Motion Capture Database BVH conversions](https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture) : Contains 2500 free human motion captures.
 -   [Rokoko Studio](https://www.rokoko.com/en/downloads) : Get 150 free mocap moves from Rokoko’s Motion Library.
 -   [Motekentertainment/free-samples](http://www.motekentertainment.com/product-category/free-samples/) : Motek has captured and animated the a large variety of characters, for a great number of projects from various sectors.
--   [MocapClub](http://www.mocapclub.com/Pages/Library.htm) : Motion Capture Library is free to the public and meant for educational purposes only. The library contains more than 500 diferent motions.
 -   [turbosquid/motion-capture](https://www.turbosquid.com/Search/Motion-Capture/free/), [sketchfab/animated](https://sketchfab.com/3d-models?features=downloadable+animated&sort_by=-likeCount).
 -   [Bandai-Namco-Research-Motiondataset](https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset)
 
@@ -505,15 +503,14 @@
 -   Other Sites:
     -   [EveryTexture.com](https://everytexture.com/latest), [3DJungle.net](https://3djungle.net/textures/), [Architecture Inspirations](https://www.archinspirations.com/materials), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [TextureKing](https://www.textureking.com/category/all-textures/), [MotionSquared](https://textures.motionsquared.net/latest-textures/), [TextureCan](https://www.texturecan.com/).
 -   Others:
-    -   [gumroad/juliosillet](https://gumroad.com/juliosillet), [gumroad/lebedev](https://gumroad.com/lebedev), [Pixar/CommunityResources](https://renderman.pixar.com/community_resources), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [30 Displacement Maps](https://gumroad.com/l/xsQTf), [Texture Hunt Collection](https://gumroad.com/l/texturehunt), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [treesDesigner PBR Leaf Textures](http://www.treesdesigner.com/materials-library/), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [CGTrader/textures](https://www.cgtrader.com/free-3d-models/textures), [CGIVault/Textures](https://cgivault.com/product-category/textures/), [artstation/alexbeddows](https://www.artstation.com/alexbeddows/store).
+    -   [gumroad/juliosillet](https://gumroad.com/juliosillet), [Pixar/CommunityResources](https://renderman.pixar.com/community_resources), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [Texture Hunt Collection](https://gumroad.com/l/texturehunt), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [treesDesigner PBR Leaf Textures](http://www.treesdesigner.com/materials-library/), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [CGTrader/textures](https://www.cgtrader.com/free-3d-models/textures), [CGIVault/Textures](https://cgivault.com/product-category/textures/), [artstation/alexbeddows](https://www.artstation.com/alexbeddows/store).
 
 ### 🌓Blender Materials [^](#table)
 
 -   [Blendermada](http://blendermada.com/materials/) : Free Blender Material Database. [(blender addon)](http://blendermada.com/addon/).
 -   [The Blendersauce Vault Materials](http://blendersauce.com/the-blendersauce-vault-2/the-material-vault-categories/) : Abstract, Bricks and Walls, Concrete, Fabric, Fluids, Food, Manmade, Metal, Metal painted Materials, Nature, Plaster, Rocks/Stones, Tiles, Wood.
--   [3d-wolf/materials](https://3d-wolf.com/products/materials.html) : PBR Materials is an addon with physically based materials. [![][repo]](https://github.com/macio97/PBR-Materials) ![gpl]
+-   [3d-wolf/materials](https://3d-wolf.com/products/materials.html) : PBR Materials is an addon with physically based materials. ![gpl]
 -   [BlenderKit](https://www.blenderkit.com/) : Allows you to download assets, materials, and alpha brushes to your blender client with the click of a button for free. _Now you can find it on built-in addons._
--   [B3DMatPack](https://adamantitemachine.com/B3DMatPack/) : Over 800 procedural materials for Blender. ![zero]
 -   Sketch/Toon Shaders:
     -   [BNPR' Shaders](https://blendernpr.org/downloads/), [Eevee Comics Shader v3.0](https://gumroad.com/l/JWdjJ), [Erisdraw3D's](https://twitter.com/Erisdraw3D/status/1216755574735503361), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [Komikaze[\$]](https://blendermarket.com/products/komikaze)(Free: [Aqua](https://drive.google.com/file/d/1jlYxqRfjnjnZSG2gxKqiXa5Fo0Y7N9Kn/edit), [Kismet](https://drive.google.com/file/d/1Mp808PE3Wjew6-hEv0vIJZLzPezRM-jV/view)), [Ultimate Clay Shader[\$]](https://blendermarket.com/products/claydoh), [Erito's Toon Shader for Eevee](https://www.artstation.com/eritokaio/store/Wo3B/erito-s-toon-shader-for-blender-eevee), [Toonkit-Samples](https://github.com/vitorbalbio/Toonkit-Samples).
 -   Nodevember Results:
@@ -540,11 +537,11 @@
 
 ### 🖼️Art/Reference [^](#table)
 
--   [Dezoomify](https://ophir.alwaysdata.net/dezoomify/dezoomify.html) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats). \([Desktop App](https://github.com/lovasoa/dezoomify-rs)\) \([Desktop App GUI](https://github.com/agmmnn/dezoomify-rs-gui)\) \([Extension](https://github.com/lovasoa/dezoomify-extension)\) [![][repo]](https://github.com/lovasoa/dezoomify)
+-   [Dezoomify](https://dezoomify.ophir.dev/) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats). \([Desktop App](https://github.com/lovasoa/dezoomify-rs)\) \([Desktop App GUI](https://github.com/agmmnn/dezoomify-rs-gui)\) \([Extension](https://github.com/lovasoa/dezoomify-extension)\) [![][repo]](https://github.com/lovasoa/dezoomify)
 -   [Birmingham Museums Trust](https://dams.birminghammuseums.org.uk/asset-bank/action/viewDefaultHome?browseType=folders) : Thousands of our out-of-copyright images are now available for all to use under a Creative Commons Zero Licence. More images are regularly being added. \([Unsplash Profile](https://unsplash.com/@birminghammuseumstrust)\) ![zero]
 -   [Wikimedia Commons/Art](https://commons.wikimedia.org/wiki/Category:Art) : A collection of freely usable media files to which anyone can contribute. ![cc]
 -   [The Art Institute of Chicago](https://www.artic.edu/collection?is_public_domain=1) : Download public-domain artworks from Art Institute of Chicago online collection. [![zero]](https://www.artic.edu/image-licensing)
--   [Paris Musées Collections](http://parismuseescollections.paris.fr/en/recherche/image-libre/true) : Paris Musées has released over 100,000 artworks into the public domain. They are all available for free high-resolution download online.
+-   [Paris Musées Collections](https://www.parismuseescollections.paris.fr/en/recherche/image-libre/true) : Paris Musées has released over 100,000 artworks into the public domain. They are all available for free high-resolution download online.
 -   [The Metropolitan Museum of Art](https://www.metmuseum.org/art/collection/search#!?searchField=All&showOnly=openAccess&sortBy=Relevance&offset=0&pageSize=0) : Browse more than 406,000 hi-res images of public-domain works in The Met collection that can be downloaded, shared, and remixed without restriction.
 -   [USEUM](https://useum.org/download-artworks) : Download thousands of royalty free images of artworks and use them in anyway you like, anywhere around the world.
 -   [National Gallery of Art Images](https://www.nga.gov/open-access-images.html) : Download images from collections of the National Gallery of Art. More than 51,000 open access digital images are available free of charge for download and use. ![zero]
@@ -598,7 +595,7 @@
 
 -   Image/Vector : [unsplash](https://unsplash.com/), [pexels](https://www.pexels.com/)
     , [pixabay](https://pixabay.com/), [stocksnap](https://stocksnap.io/), [rawpixel](https://www.rawpixel.com/), [burst](https://burst.shopify.com/).
--   Video/VFX/Footage : [videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos), [actionvfx](actionvfx.com/blog/3-free-vfx-stock-collections-portals-bullet-tracers-camera-shake-presets), [productioncrate/free](https://vfx.productioncrate.com/search/#!/free), [benharker](https://benharker.net/store).
+-   Video/VFX/Footage : [videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos), [actionvfx](https://www.actionvfx.com/blog/3-free-vfx-stock-collections-portals-bullet-tracers-camera-shake-presets), [productioncrate/free](https://vfx.productioncrate.com/search/#!/free), [benharker](https://benharker.net/store).
 -   Cutouts : [MrCutout](https://www.mrcutout.com/), [nonscandinavia](http://www.nonscandinavia.com/), [clipped](http://www.clipped.io/search?sort_uploads=created_at), [vishopper/free](https://www.vishopper.com/cut-out-people/search/free).
 -   Visual Loops : [Mantissa](https://mantissa.xyz/vjloops), [BEEPLE](https://www.beeple-crap.com/vjloops), [Vimeo/Catmac](https://vimeo.com/user2777466), [SSWIII](http://www.switzonwigfall.com/vjclips), [rptv](https://www.rptv.co/videoloops).
 -   Fonts : [google](https://fonts.google.com/), [theleagueofmoveabletype](https://www.theleagueofmoveabletype.com/), [beautifulwebtype](https://beautifulwebtype.com/), [openfoundry](https://open-foundry.com/fonts).
@@ -637,7 +634,7 @@
 -   [AutoRemesher](https://github.com/huxingyi/autoremesher) : Open-source auto-retopology tool intended to convert source meshes into clean, animation-friendly all-quad geometry.
 -   [Instant Meshes](https://github.com/wjakob/instant-meshes) : Interactive field-aligned mesh generator.
 -   [Magica Voxel](https://ephtracy.github.io/index.html?page=mv_main) : A free lightweight 8-bit voxel art editor and GPU based interactive path tracing renderer.
--   [ZBrushCoreMini](https://zbrushcore.com/mini/) : is designed for new artists of all ages, with a streamlined interface that lets anyone jump right in and start sculpting immediately.
+-   [ZBrushCoreMini](https://www.maxon.net/en/zbrushcoremini) : is designed for new artists of all ages, with a streamlined interface that lets anyone jump right in and start sculpting immediately.
 -   [Goxel](https://github.com/guillaumechereau/goxel) : Create voxel graphics. Export to obj, pyl, png, magica voxel, qubicle.
 -   [aerialod](https://ephtracy.github.io/index.html?page=aerialod) : A free interactive path tracing renderer for height maps.
 -   [Make Human](http://www.makehumancommunity.org/) : Open-source tool for making 3D characters. ([blender addon](https://github.com/makehumancommunity/makehuman-plugin-for-blender)) [![][repo]](https://github.com/makehumancommunity/makehuman)
@@ -706,7 +703,7 @@
 -   [Material Maker](https://rodzilla.itch.io/material-maker) : is a simple procedural materials generation tool.
 -   [TextureLab](https://njbrown.itch.io/texturelab) : is a tool designed to make procedural texture generation.
 -   [AwesomeBump](https://github.com/kmkolasinski/AwesomeBump) : Generate normal, height, specular or ambient occlusion textures from a single image.
--   [Agisoft De-Lighter](https://www.agisoft.com/index.php?id=71) : is a free stand-alone tool designed to remove shadows from model textures.
+-   [Agisoft De-Lighter](https://agisoft.freshdesk.com/support/solutions/articles/31000158376-agisoft-texture-de-lighter-general-workflow) : is a free stand-alone tool designed to remove shadows from model textures. [!download](https://www.agisoft.com/downloads/installer/)
 -   [Asset Ninja](https://assetninja.art/) : Connects your favorite asset marketplaces and other sources to all of your favorite tools. Browse, manage, and export assets straight from your desktop.
 -   [Normalizer](https://beta.friendlyshade.com/normalizer) : Convert normal maps to displacement maps. Edit, process and combine multiple normal maps and more.
 -   [Agama Materials](https://agama.itch.io/agama-materials) : is software for creating PBR materials and painting 3d models. You can create materials and use them for painting models, or you can use pre-made textures.
@@ -910,7 +907,7 @@ _Some accounts where you can find different kinds of content related to blender.
 
 -   [Nodevember](https://nodevember.io/) : The yearly event for everything procedural. Feel like doing a challenge? #nodevember is all about creating and promoting procedural awesomeness! A whole month to improve and show off your procedural skills.
     -   See works: [tw/#nodevember](https://twitter.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?sort_by=relevance&query=nodevember)
--   [SculptJanuary](https://cgboost.com/sculptjanuary2020/) : Challenge yourself over 31 days with a set of 31 topics.
+-   [SculptJanuary](https://www.cgboost.com/sculptjanuary2022 : Challenge yourself over 31 days with a set of 31 topics.
     Sculpt every day and improve your sculpting skills.
     -   See works: [tw/#sculptjanuary](https://twitter.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary)
 -   [36 Days of Type](http://www.36daysoftype.com/) : is a yearly open call inviting designers, illustrators and visual artists to share their view on the letters and numbers from our alphabet.
@@ -1040,7 +1037,7 @@ _Some accounts where you can find different kinds of content related to blender.
 ### Premium Tutorials [^](#table)
 
 -   [Blender Cloud](https://cloud.blender.org/welcome)
--   [CG Cookie](https://cgcookie.com/categories/3d/tutorials), [CG Masters](https://cgmasters.net/category/training-courses/), [CG Boost Academy](https://academy.cgboost.com/), [polygonrunway](https://polygonrunway.com/)
+-   [CG Cookie](https://cgcookie.com/courses), [CG Masters](https://cgmasters.com/category/blender-training-courses/), [CG Boost Academy](https://academy.cgboost.com/), [polygonrunway](https://polygonrunway.com/)
 -   [gumroad/blender](https://gumroad.com/discover?query=blender%20tutorial):
     -   [jamajurabaev](https://gumroad.com/jamajurabaev), [janurschel](https://gumroad.com/janurschel), [yansculpts](https://gumroad.com/yansculpts),
 -   [udemy/blender](https://www.udemy.com/courses/search/?ref=home&src=ukw&q=blender):
