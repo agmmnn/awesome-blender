@@ -356,7 +356,7 @@
     -   [Real Camera](https://3d-wolf.com/products/camera.html) : is an addon that allows you to control the Blender camera like a real camera.
     -   [Cameras-Lister](https://github.com/Ryxx/Cameras-Lister) : Easy select camera’s in popup shortcut is Alt-C.
     -   [Photographer 2](https://gumroad.com/chafouin#FWQf) : Camera Exposure, White balance and Autofocus. Photographer 2 was made completely free for all.
-    -   [Camera Shakify](https://github.com/cessen/camera_shakify) : An addon for Blender that lets you easily add realistic camera shake to your cameras.
+    -   [Camera Shakify](https://github.com/EatTheFuture/camera_shakify) : An addon for Blender that lets you easily add realistic camera shake to your cameras.
 -   Audio Visualizer
     -   [Bizualizer](https://github.com/doakey3/Bizualizer), [Curtis Holt's](https://gumroad.com/l/klmfi).
 -   Display:
@@ -707,6 +707,8 @@
 -   [Asset Ninja](https://assetninja.art/) : Connects your favorite asset marketplaces and other sources to all of your favorite tools. Browse, manage, and export assets straight from your desktop.
 -   [Normalizer](https://beta.friendlyshade.com/normalizer) : Convert normal maps to displacement maps. Edit, process and combine multiple normal maps and more.
 -   [Agama Materials](https://agama.itch.io/agama-materials) : is software for creating PBR materials and painting 3d models. You can create materials and use them for painting models, or you can use pre-made textures.
+-   [Architextures - Create](https://architextures.org/create) : web app allows you to create seamless textures, bump maps and CAD hatches. Select any of the parameters to get started.
+-   [Dream Textures](https://github.com/carson-katri/dream-textures) : Stable Diffusion built-in to the Blender shader editor.
 
 ### Terrain [^](#table)
 
@@ -754,6 +756,7 @@
 -   [Flowframes](https://nmkd.itch.io/flowframes) : is a simple but powerful app that utilizes AI frameworks to interpolate videos in order to increase their framerate with little to no noticable quality loss.
 -   [Cupscale](https://github.com/n00mkrad/cupscale) : Image Upscaling GUI based on ESRGAN.
 -   [Video2X](https://video2x.org/) : A lossless video/GIF/image upscaler achieved with waifu2x, Anime4K, SRMD and RealSR. [![][repo]](https://github.com/k4yt3x/video2x) ![][gpl]
+-   [koi](https://github.com/nousr/koi) : A plug-in for Krita that enables the use of AI models for img2img generation.
 
 ### Sound/Music [^](#table)
 
@@ -777,7 +780,7 @@
 
 [![](https://img.shields.io/badge/Download-Latest-yellowgreen?logo=blender&style=flat-square)](https://www.blender.org/download/)[![](https://img.shields.io/badge/Experimental-red?logo=&style=flat-square)](https://builder.blender.org/download/)[![](https://img.shields.io/badge/Branches-brown?style=flat-square)](https://builder.blender.org/download/branches/) [![](https://img.shields.io/badge/Show-Release%20Notes-yellowgreen?logo=blender&style=flat-square)](https://wiki.blender.org/wiki/Reference/Release_Notes)[![](https://img.shields.io/badge/Recent%20Activities-olivedrab?style=flat-square)](https://developer.blender.org/project/view/2/)
 
-### [Documantation](https://docs.blender.org/) [^](#table)
+### [Documentation](https://docs.blender.org/) [^](#table)
 
 [📖 User Manual](https://docs.blender.org/manual/en/latest/) | [🔗 Python API](https://docs.blender.org/api/current/) | [⚙️ Developer Wiki](https://wiki.blender.org/wiki/Main_Page)
 
@@ -1125,6 +1128,7 @@ _Some accounts where you can find different kinds of content related to blender.
 -   [Awesome Stock Resources](https://github.com/neutraltone/awesome-stock-resources) : A collection of links for free stock photography, video and Illustration websites.
 -   [GameDev Resources](https://github.com/Kavex/GameDev-Resources) : A wonderful list of Game Development resources.
 -   [VFX Good Night Reading](https://github.com/jtomori/vfx_good_night_reading) : Curated collection of good reading about VFX and CG.
+-   [Photogrammetry Guide](https://github.com/mikeroyal/Photogrammetry-Guide) : A guide covering Photogrammetry including the applications, libraries and tools that will make you a better and more efficient Photogrammetry development.
 
 ---
 
