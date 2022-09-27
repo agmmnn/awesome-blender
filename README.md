@@ -198,7 +198,7 @@
     -   [Retopo MT](https://gumroad.com/l/cNGNb) : is a tool for retopo, you use it in addition with other addons or tools in Blender, in Edit Mode.
 -   Hard Surface:
     -   [KIT OPS](https://gumroad.com/l/kitops) : Can create objects and scenes with extreme efficiency and speed. Complex industrial designs can be generated in a single sitting.
-    -   [ND](https://hugemenace.gumroad.com/l/nd-blender-addon) : is a free non-destructive & interactive hard surface toolkit (featuring smart modifiers, booleans, and geometry management)
+    -   [ND](https://hugemenace.gumroad.com/l/nd-blender-addon) : is a free non-destructive & interactive hard surface toolkit (smart modifiers, booleans, and geometry management) [![][repo]](https://github.com/hugemenace/nd) [![market]](https://www.blendermarket.com/products/nd-addon)
     -   [HardOps/Boxcutter](https://blendermarket.com/products/hard-ops--boxcutter-ultimate-bundle) [$] : [HardOps](https://blendermarket.com/products/hardopsofficial), is intended to be a workflow assistant toolkit. [Boxcutter](https://blendermarket.com/products/boxcutter), the most powerful boolean subsystem for blender.
     -   [Speedflow](https://gumroad.com/l/speedflow) [$] : Addon for non-destructive workflow.
     -   [Bevel After Boolean](https://blenderartists.org/t/wip-bevel-after-boolean/693072?u=peetie) : Addon comes in handy when working with booleans that have a curved surface.
