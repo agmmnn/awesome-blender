@@ -10,8 +10,7 @@
     <a href="https://awesome-blender.netlify.app/"><img
             src="https://api.netlify.com/api/v1/badges/0fe6c176-6b03-4d27-a8fc-faf4f7c460cd/deploy-status" /></a>
     <p>A curated list of awesome <b>Blender</b> add-ons, tools, tutorials and resources for 3D Artists, Hobbyists,
-        Developers, Researchers. Focused <i>mostly</i> open source and free resources. <b>Blender 2.8+</b> compatible
-        list.</p>
+        Developers, Researchers. Focused <i>mostly</i> open source and free resources.
 </div>
 
 <a name="table"></a>
@@ -120,11 +119,6 @@
 ## 🔮Add-ons [^](#table)
 
 -   Check list of Blender's built-in add-ons documentation [here](https://docs.blender.org/manual/en/dev/addons/index.html).
--   Blender addon reviews:
-    -   Blogs: [BlenderAddons.org](https://blender-addons.org/), [BlenderNation](https://www.blendernation.com/category/blender/add-ons/).
-    -   Youtube: [New Media Supply](https://www.youtube.com/channel/UCrRilykeqb6WzYpxaUTzzgg/videos), [Steven Scott](https://www.youtube.com/playlist?list=PLegkgTs-3xf4KkKYDW3jF27lwtSBQQU51), [Markom3D](https://www.youtube.com/playlist?list=PL1DrFRqy1K5XySpq-FFTXqT4JSEg5pEtS), [InspirationTuts](https://www.youtube.com/playlist?list=PLoDnAgxGXt61ngPDUUdR6447KNwnvWlGe).
-    -   [BlenderArtists/Released Scripts and Themes](https://blenderartists.org/c/coding/released-scripts-and-themes/50).
--   Get premium add-ons from [BlenderMarket](https://blendermarket.com/products), [Gumroad](https://gumroad.com/discover?query=blender%20addon).
 
 ### 🌊Simulation/Physics [^](#table)
 
@@ -170,6 +164,7 @@
 -   [Random Book Generator](https://ko-fi.com/s/9879a091a9) : Book randomizing asset for Blender. Made with the new Geometry nodes.
 -   [Tyre Generator](https://flexdigitalpottery.gumroad.com/l/Tyregenv1) : Free tyre generator with geometry nodes.
 -   [Procedural Snow Shader](https://plusq.gumroad.com/l/jmdpr) : Procedural snow shader created in Blender.
+-   [Buildify](https://paveloliva.gumroad.com/l/buildify) : is a geometry nodes library for easy building creation.
 
 ### 🧊Modeling [^](#table)
 
@@ -475,8 +470,8 @@
 -   [Carnegie-Mellon University Graphics Lab Motion Capture Database BVH conversions](https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture) : Contains 2500 free human motion captures.
 -   [Rokoko Studio](https://www.rokoko.com/en/downloads) : Get 150 free mocap moves from Rokoko’s Motion Library.
 -   [Motekentertainment/free-samples](http://www.motekentertainment.com/product-category/free-samples/) : Motek has captured and animated the a large variety of characters, for a great number of projects from various sectors.
+-   [Bandai Namco Research Motiondataset](https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset) : the R&D division of game publisher and developer Bandai Namco, has released a massive library of free motion-capture data for research and personal use.
 -   [turbosquid/motion-capture](https://www.turbosquid.com/Search/Motion-Capture/free/), [sketchfab/animated](https://sketchfab.com/3d-models?features=downloadable+animated&sort_by=-likeCount).
--   [Bandai-Namco-Research-Motiondataset](https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset)
 
 ### 🌑Textures [^](#table)
 
@@ -501,6 +496,7 @@
 -   [ScansLibrary](https://www.scanslibrary.com/library?credit=0) [$] : Digital marketplace with thousands of Real-World scans.
 -   [Poliigon/freebies](https://www.poliigon.com/search?credit=0) [$] : A library of materials, and HDR's for artists including free textures that want photorealism.
 -   [Texturing.xyz](https://texturing.xyz/) [$] : Our textures are used in the biggest and industry-leading VFX companies, and help them achieving their goals faster.
+-   [LotPixel](https://www.lotpixel.com/texture-library?credit=free) : Free scan-based textures of interior and exterior materials at up to 8K resolution. For commercial use.
 -   Other Sites:
     -   [EveryTexture.com](https://everytexture.com/latest), [3DJungle.net](https://3djungle.net/textures/), [Architecture Inspirations](https://www.archinspirations.com/materials), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [TextureKing](https://www.textureking.com/category/all-textures/), [MotionSquared](https://textures.motionsquared.net/latest-textures/), [TextureCan](https://www.texturecan.com/).
 -   Others:
@@ -654,6 +650,7 @@
 -   [Connecter](https://www.designconnected.com/connecter) : Free and visual creative assets management for 3d, AEC and design professionals.
 -   [Phototiler](https://halfmaps.itch.io/phototiler) : is a lightweight photorealistic map renderer that allows quick rendering of 3D maps for creative cartography.
 -   [VRoid Studio](https://vroid.com/en/studio) : a 3D character maker that specializes in Japanese anime-like expressions.
+-   [AccuRIG](https://actorcore.reallusion.com/auto-rig) : is a free application designed for fast and easy character rigging.
 
 ### Various Tools [^](#table)
 
@@ -670,6 +667,8 @@
 -   [Particle Illusion](https://borisfx.com/products/particle-illusion/) : Free GPU-accelerated 2D particle generator.
 -   [Exr-IO](https://www.exr-io.com/) : is a robust and exact solution for dealing with multi-layer EXR pictures. It supports Cryptomatte.
 -   [PickPicPack](https://p4ymak.gumroad.com/l/pickpicpack) : Tiny yet powerful utility for packaging multiple images to new one with custom aspect ratio and size.
+-   [GameTextureViewer](https://jangafx.com/software/gametextureviewer/) : is a fast, reliable, and simple tool for
+    artists to preview textures and sprite sheet animations on the fly.
 -   Blender Tools:
     -   [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater) : Download and install nightly builds with one click.
     -   [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : Command line version of BlenderUpdater.
@@ -701,11 +700,10 @@
 -   [Quixel Mixer](https://quixel.com/mixer) : Create photorealistic, tileable, materials in seconds with powerful mixing and painting.
 -   [NVIDIA Texture Tools Exporter](https://developer.nvidia.com/nvidia-texture-tools-exporter) : Allows users to create highly compressed texture files (that stay small both on disk and in memory) directly from image sources using NVIDIA’s CUDA-accelerated Texture Tools compressor technology. [![][repo]](https://github.com/castano/nvidia-texture-tools/)
 -   [Materialize](http://boundingboxsoftware.com/materialize/) : is a stand alone tool for creating materials from images. [![][repo]](https://github.com/BoundingBoxSoftware/Materialize)
--   [Material Maker](https://rodzilla.itch.io/material-maker) : is a simple procedural materials generation tool.
+-   [Material Maker](https://rodzilla.itch.io/material-maker) : is a simple procedural materials generation tool. [![][repo]](https://github.com/RodZill4/material-maker)
 -   [TextureLab](https://njbrown.itch.io/texturelab) : is a tool designed to make procedural texture generation.
 -   [AwesomeBump](https://github.com/kmkolasinski/AwesomeBump) : Generate normal, height, specular or ambient occlusion textures from a single image.
 -   [Agisoft De-Lighter](https://agisoft.freshdesk.com/support/solutions/articles/31000158376-agisoft-texture-de-lighter-general-workflow) : is a free stand-alone tool designed to remove shadows from model textures. [!download](https://www.agisoft.com/downloads/installer/)
--   [Asset Ninja](https://assetninja.art/) : Connects your favorite asset marketplaces and other sources to all of your favorite tools. Browse, manage, and export assets straight from your desktop.
 -   [Normalizer](https://beta.friendlyshade.com/normalizer) : Convert normal maps to displacement maps. Edit, process and combine multiple normal maps and more.
 -   [Agama Materials](https://agama.itch.io/agama-materials) : is software for creating PBR materials and painting 3d models. You can create materials and use them for painting models, or you can use pre-made textures.
 -   [Architextures - Create](https://architextures.org/create) : web app allows you to create seamless textures, bump maps and CAD hatches. Select any of the parameters to get started.
@@ -754,10 +752,14 @@
 -   [EbSynth](https://ebsynth.com/) : Free tool for converting video footage into stylised motion paintings.
 -   [PIFuHD](https://shunsukesaito.github.io/PIFuHD/) : Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization. [![][repo]](https://github.com/facebookresearch/pifuhd)
 -   [Generated.Photos](https://generated.photos/faces) : AI-generated faces.
--   [Flowframes](https://nmkd.itch.io/flowframes) : is a simple but powerful app that utilizes AI frameworks to interpolate videos in order to increase their framerate with little to no noticable quality loss.
+-   [Flowframes](https://nmkd.itch.io/flowframes) : is a simple but powerful app that utilizes AI frameworks to interpolate videos in order to increase their framerate with little to no noticable quality loss. [![][repo]](https://github.com/n00mkrad/flowframes)
 -   [Cupscale](https://github.com/n00mkrad/cupscale) : Image Upscaling GUI based on ESRGAN.
 -   [Video2X](https://video2x.org/) : A lossless video/GIF/image upscaler achieved with waifu2x, Anime4K, SRMD and RealSR. [![][repo]](https://github.com/k4yt3x/video2x) ![][gpl]
 -   [koi](https://github.com/nousr/koi) : A plug-in for Krita that enables the use of AI models for img2img generation.
+-   [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) : aims at developing Practical Algorithms for General Image/Video Restoration.
+-   [Midjourney](https://www.midjourney.com/home/) : is an independent research lab that produces a proprietary artificial intelligence program that creates images from textual descriptions.
+-   [Stable Diffusion](https://stability.ai/blog/stable-diffusion-public-release) : is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input.
+-   [Deforum Stable Diffusion](https://replicate.com/deforum/deforum_stable_diffusion) : Animating prompts with Stable Diffusion.
 
 ### Sound/Music [^](#table)
 
@@ -768,9 +770,7 @@
 ### Painting [^](#table)
 
 -   [Krita](https://krita.org/en/) : is a professional free and open source painting program. It is made by artists that want to see affordable art tools for everyone. [![][repo]](https://github.com/KDE/krita)
-    -   [Link Krita and Blender](https://www.quora.com/Can-I-link-my-Krita-and-Blender-for-easier-animation)
-    -   [Custom Digital Painting Workflow In Krita](https://cloud.blender.org/blog/custom-digital-painting-workflow-in-krita)
--   [HEAVYPAINT](https://www.heavypaint.app/home) : is a simple app designed for graphic painting. The UI is streamlined for fluid, happy painting with as little friction as possible.
+-   [HEAVYPAINT](https://www.heavypaint.com/) : is a simple app designed for graphic painting. The UI is streamlined for fluid, happy painting with as little friction as possible.
 
 ---
 
