@@ -249,7 +249,7 @@
     -   [Rigid Bodys Generator](https://github.com/12funkeys/rigid_bodys_gen) : Blender addon to add Rigid bones and Joints on selected bones easily.
     -   [Universal Human Rigged Base Mesh](https://gumroad.com/l/EqNTn) [$] : Rigged human base mesh.
     -   [Mixamo add-on for Blender by Adobe](https://substance3d.adobe.com/plugins/mixamo-in-blender/) : This Blender auto control-rig add-on works with characters that have been auto-rigged with the Mixamo service.
-    -   [Skin Selection](https://blendermarket.com/products/auto-rig-pro](https://www.blendermarket.com/products/skin-selection?ref=46) [$] : Skin Selection is a Blender addon to select bones controllers intuitively, by clicking the mesh surface. 
+    -   [Skin Selection](https://www.blendermarket.com/products/skin-selection?ref=46) [$] : Skin Selection is a Blender addon to select bones controllers intuitively, by clicking the mesh surface. 
 
 ### 🗜Render Engine [^](#table)
 
