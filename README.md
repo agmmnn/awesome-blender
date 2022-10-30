@@ -421,6 +421,7 @@
 -   [Theme Switcher](https://blenderartists.org/t/theme-switcher/1211787) : Addon to quickly change active theme not leaving 3D View.
 -   [LibSM64-Blender](https://github.com/libsm64/libsm64-blender) : This add-on integrates libsm64 into Blender and provides various additional integrations with Fast64.
 -   [BlenderProc](https://github.com/DLR-RM/BlenderProc) : A procedural Blender pipeline for photorealistic training image generation.
+-   [AI Render](https://github.com/benrugg/AI-Render) : Stable Diffusion in Blender. This add-on renders an AI generated image based on a text prompt and your scene.
 
 ---
 
@@ -560,16 +561,16 @@
 -   [Wildlife Reference Photos](https://wildlifereferencephotos.com/gallery.php?mode=newest-media&page=1) : Wildlife reference photos for artists.
 -   [Flickr, Creative Commons](https://www.flickr.com/creativecommons/) : Many Flickr users have chosen to offer their work under a Creative Commons license.
 -   [The Empire University, Weapons Library](https://dinustyempire.notion.site/6-1-Weapons-library-0ab1d28137e749f0abfca738d93a9222) : Free reference resource for many types of weapons.
+-   [Old Maps Online](https://www.oldmapsonline.org/) : Discovering the Cartography of the Past. Welcome to Old Maps Online, the easy-to-use gateway to historical maps in libraries around the world.
 
 ### 🛰Space [^](#table)
 
 -   [Solar Textures](https://www.solarsystemscope.com/textures/) : These textures represent real planetary maps in equirectangular projection. Textures in this pack are based on NASA elevation and imagery data. ![by]
 -   [NASA-3D-Resources](https://nasa3d.arc.nasa.gov/) : Here you'll find a growing collection of 3D models, textures, and images from inside NASA. All of these resources are free to download and use. [![][repo]](https://github.com/nasa/NASA-3D-Resources)
 -   [Celestia Motherlode](http://www.celestiamotherlode.net/) : is a repository for various addons like textures, models or celestial objects.
--   NASA : [Hubble Image Gallery (NASA)](https://hubblesite.org/images/gallery), [NASA Image and Video Library](https://images.nasa.gov/), [Astronomy Picture of the Day](https://apod.nasa.gov/apod/archivepix.html).
--   ESA : [ESA - Observing the Earth](https://earth.esa.int/web/guest/images-of-the-earth) ([Image Archive](http://www.esa.int/Applications/Observing_the_Earth/Image_archive)).
+-   NASA : [James Webb Images](https://webbtelescope.org/resource-gallery/images) ([flickr](https://www.flickr.com/photos/nasawebbtelescope/)), [Hubble Image Gallery](https://hubblesite.org/resource-gallery/images?Collection=Hubble%20Favorites) ([flickr](https://www.flickr.com/photos/nasahubble/)), [Astronomy Picture of the Day](https://apod.nasa.gov/apod/archivepix.html).
 -   [Earth View](https://earthview.withgoogle.com/) : Earth View is a collection of the most beautiful and striking landscapes found in Google Earth.
--   [Areo Browser](https://areobrowser.com/) : is a web-app that allows you to explore nearly 2000 Martian terrain models, in full 3D, directly in your browser.
+-   [Areo Browser](https://areobrowser.com/) : Easily explore all of the latest _martian_ terrain data and rover imagery, directly in your browser.
 -   Others:
     -   [CGI Moon Kit](https://svs.gsfc.nasa.gov/4720), [Moon 64k](https://gumroad.com/l/MOON_46K), [Earth 42k](https://gumroad.com/l/uHyhPT), [Natural Earth III](http://www.shadedrelief.com/natural3/pages/textures.html), [Planets Pack](https://gumroad.com/l/qMZOE).
 
@@ -602,14 +603,10 @@
 ### 🌂Useful [^](#table)
 
 -   [Sheep it Render Farm](https://www.sheepit-renderfarm.com/) : is a free distributed renderfarm for Blender.
--   Render on **_Google Colab_** :
-    -   [This script ](https://github.com/donmahallem/colab_blender)can be used to render with blender on Google Colab. Only Cycles. \([Alternative](https://github.com/syn73/blender-colab)\) \([Video Tutorial](https://www.youtube.com/watch?v=uv45KzL9ick)\)
-    -   [This is](https://gist.github.com/natowi/3044484ad0c98877692c399297e3ab7e) an example on how to use Meshroom in Google Colab with uploaded images to generate a textured mesh (OBJ) that can be downloaded.
-    -   [How to](https://internet-of-tomohiro.netlify.com/google_colab/vnc.en.html) run OpenGL desktop programs on Google Colab. You should follow this instruction if you want to work with Eevee.
--   Daily Blender Tips : [blender.daily](https://www.instagram.com/blender.daily/), [Blender Secrets](https://www.instagram.com/blendersecretsdotorg/)\([tw](https://twitter.com/JanvandenHemel), [yt](https://www.youtube.com/channel/UCp7EwodJcppc6GqiRcnCpOw/videos)\).
+-   [Blender-Colab](https://github.com/syn73/blender-colab): Render on **_Google Colab_**, this is a Python script that allows you to render Blender scene using Google Colaboratory. Only Cycles.
+-   Daily Blender Tips : [blender.daily](https://www.instagram.com/blender.daily/), [Blender Secrets](https://www.instagram.com/blendersecretsdotorg/).
 -   [IOR List](https://pixelandpoly.com/ior.html) : Index of Refraction values list for use with 3D applications.
 -   [MatCaps](https://github.com/nidorx/matcaps) : Huge library of matcap PNG textures organized by color.
--   [Blender Matcap Shader](https://gumroad.com/l/tJyTi/xor9ydy) : An implementation of Blender's workbench matcap shading in shader nodes.
 -   [UE Sponsored Content](https://www.unrealengine.com/en-US/uesponsoredcontent) : Every month Epic Games gives away several assets from the Unreal Engine marketplace for free.
 -   [Blender & ACES](https://www.toodee.de/?page_id=1720) : Setup Blender to work with ACES using OpenColorIO.
 
@@ -619,13 +616,6 @@
 -->
 
 ## 📥Standalone [^](#table)
-
-### Blender Builds [^](#table)
-
--   [Bforartists](https://github.com/Bforartists/Bforartists) : is a fork of the Blender, with the goal to change the UI.
--   [Open Mesh Effect for Blender](https://github.com/eliemichel/OpenMeshEffectForBlender) : This is an edited version of Blender including an Open Mesh Effects based modifier.
-    -   [Houdini-Engine Open Mesh Effect](https://github.com/eliemichel/MfxHoudini) : Convert any OBJ or SOP based Houdini Digital Asset library (.hda or .otls file) into an Open Mesh Effect plugin.
--   [Blender.Community/GraphicAll](https://blender.community/c/graphicall/) : Blender builds for the masses.
 
 ### 3D Tools [^](#table)
 
