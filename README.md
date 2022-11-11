@@ -242,14 +242,13 @@
     -   [WritingAnimation](https://github.com/Shriinivas/writinganimation), [Typewriter](https://github.com/doakey3/blender-typewriter-addon), [TextCounter](https://github.com/leomoon-studios/leomoon-textcounter/), [GreaseWriter](https://github.com/doakey3/GreaseWriter).
 -   Rigging:
     -   [Rig on the Fly](https://gitlab.com/dypsloom/rigonthefly) : Rig on the Fly is a Blender dynamic rigging tool used to simplify and speed up animation workflow.
-    -   [Auto-Rig Pro](https://blendermarket.com/products/auto-rig-pro) [$] : Auto-Rig Pro is an addon for Blender to rig characters, retarget animations, and provide Fbx export, with presets for Unity and Unreal Engine. 
+    -   [Auto-Rig Pro](https://blendermarket.com/products/auto-rig-pro) [$] : Auto-Rig Pro is an addon for Blender to rig characters, retarget animations, and provide Fbx export, with presets for Unity and Unreal Engine.
     -   [JiggleArmature](https://cheece.github.io/JiggleArmature/) : is an easy way to create wiggle effects in blender, just enable jiggle bone on the bones you want to be jiggly. [![][repo]](https://github.com/cheece/JiggleArmature)
     -   [Rigacar](https://github.com/digicreatures/rigacar) : Generate a complete rig as quickly as possible for standard car models.
     -   [RigFlex](https://github.com/nerk987/RigFlex) : Simple soft body for Blender armatures.
     -   [Rigid Bodys Generator](https://github.com/12funkeys/rigid_bodys_gen) : Blender addon to add Rigid bones and Joints on selected bones easily.
     -   [Universal Human Rigged Base Mesh](https://gumroad.com/l/EqNTn) [$] : Rigged human base mesh.
     -   [Mixamo add-on for Blender by Adobe](https://substance3d.adobe.com/plugins/mixamo-in-blender/) : This Blender auto control-rig add-on works with characters that have been auto-rigged with the Mixamo service.
-    -   [Skin Selection](https://www.blendermarket.com/products/skin-selection?ref=46) [$] : Skin Selection is a Blender addon to select bones controllers intuitively, by clicking the mesh surface. 
 
 ### 🗜Render Engine [^](#table)
 
@@ -288,6 +287,7 @@
 -   [EZ Baker](https://blenderartists.org/t/ez-baker/1245869) : An easier alternative to blender's default bake system. [![][repo]](https://gitlab.com/AquaticNightmare/ez_baker)
 -   [Bystedts Blender Baker](https://3dbystedt.gumroad.com/l/JAqLT) : This addon streamlines the texture baking process in Blender.
 -   [Flow Map Painter](https://clemensbeute.gumroad.com/l/heZDT) : This blender add-on provides a brush tool for flow map painting.
+-   [Sanctus Library](https://blendermarket.com/products/sanctus-library-addon---procedural-shaders-collection-for-blender/) [$] : The ever-growing procedural material library for Blender.
 
 ### 🎮GameDev [^](#table)
 
@@ -306,7 +306,7 @@
 ### 🪀Misc [^](#table)
 
 -   Management:
-    -   [BlenderKit](https://www.blenderkit.com/) : Allows you to download assets, materials, and alpha brushes to your blender client with the click of a button for free. _Now you can find it on built-in addons._
+    -   [BlenderKit](https://www.blenderkit.com/) : Allows you to download assets, materials, and alpha brushes to your blender client with the click of a button.
     -   [Blender Interplanety Storage](https://blenderartists.org/t/bis-online-material-storage/689728) : The online material (shader) storage add-on for Blender 3D creation. With the BIS add-on, you can save materials (groups of nodes) to the online personal library and then convenient search and upload them.
     -   [Asset Wizard](https://blenderartists.org/t/asset-wizard-for-blender-2-8/1149311) : is a asset management addon.
     -   [NodeCustomBuilder](https://blenderartists.org/t/nodecustombuilder-2-8-free-addon/1152185) : Preset system for nodes.
@@ -438,6 +438,7 @@
 -   [3D Digitization Smithsonian](https://3d.si.edu/explore) : CC0 Photoscan Library from Smithsonian. [(Collections)](https://3d.si.edu/collections) ![][zero]
 -   [Chocofur/Free](https://store.chocofur.com/search/free) : Premium quality 3D models & scenes. [(blender addon)](https://store.chocofur.com/model-manager-blender-2-80-course/blender_model/) [![][zero]](https://chocofur.com/page/license-cc0)
 -   [Free3D](https://free3d.com/) : is the go to place where you can share your free 3D assets and download instantly any you like. [![][cc]](https://free3d.com/terms-conditions)
+-   [TheBaseMesh.com](https://thebasemesh.com/model-library) : A public library of over 600+ base meshes. All assets are real world scale and come unwrapped. [![][zero]](https://thebasemesh.com/faqs)
 -   [3DB3](https://3db3.com/) : Check out the best 3D models made by professional 3D artists.
 -   [Rigmodels](http://rigmodels.com/) : Free rigged, animated and low poly models
 -   [RockThe3D](http://www.rockthe3d.com/) : is a blog site to provide and sharing the best 3D related knowledge and resources around.
@@ -603,7 +604,7 @@
 ### 🌂Useful [^](#table)
 
 -   [Sheep it Render Farm](https://www.sheepit-renderfarm.com/) : is a free distributed renderfarm for Blender.
--   [Blender-Colab](https://github.com/syn73/blender-colab): Render on **_Google Colab_**, this is a Python script that allows you to render Blender scene using Google Colaboratory. Only Cycles.
+-   [Blender-Colab](https://github.com/syn73/blender-colab) : Render on **_Google Colab_**, this is a Python script that allows you to render Blender scene using Google Colaboratory. Only Cycles.
 -   Daily Blender Tips : [blender.daily](https://www.instagram.com/blender.daily/), [Blender Secrets](https://www.instagram.com/blendersecretsdotorg/).
 -   [IOR List](https://pixelandpoly.com/ior.html) : Index of Refraction values list for use with 3D applications.
 -   [MatCaps](https://github.com/nidorx/matcaps) : Huge library of matcap PNG textures organized by color.
@@ -886,6 +887,7 @@ _Some accounts where you can find different kinds of content related to blender.
 -   [Bad Normals](https://www.youtube.com/c/BadNormals/videos) : modeling, animation.
 -   [Kevandram](https://www.youtube.com/user/kevandram/videos) : grease pencil.
 -   [Noggi](https://www.youtube.com/c/Noggi_Video/videos) : sculpting.
+-   [DerekElliott](https://www.youtube.com/c/DerekElliott/videos) : modeling, animation.
 
 ### 💻Blogs [^](#table)
 
@@ -903,7 +905,7 @@ _Some accounts where you can find different kinds of content related to blender.
 
 -   [Nodevember](https://nodevember.io/) : The yearly event for everything procedural. Feel like doing a challenge? #nodevember is all about creating and promoting procedural awesomeness! A whole month to improve and show off your procedural skills.
     -   See works: [tw/#nodevember](https://twitter.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?sort_by=relevance&query=nodevember)
--   [SculptJanuary](https://www.cgboost.com/sculptjanuary2022 : Challenge yourself over 31 days with a set of 31 topics.
+-   [SculptJanuary](https://www.cgboost.com/challenges) : Challenge yourself over 31 days with a set of 31 topics.
     Sculpt every day and improve your sculpting skills.
     -   See works: [tw/#sculptjanuary](https://twitter.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary)
 -   [36 Days of Type](http://www.36daysoftype.com/) : is a yearly open call inviting designers, illustrators and visual artists to share their view on the letters and numbers from our alphabet.
@@ -914,7 +916,7 @@ _Some accounts where you can find different kinds of content related to blender.
 
 ### 🎉Events [^](#table)
 
--   [Blender Conference](https://conference.blender.org/) : The yearly Blender Conference in Amsterdam. (Playlists: [Bcon20](https://www.youtube.com/watch?v=uEjmbsiflMU), [Bcon19](https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S), [Bcon18](https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B), [Bcon17](https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO)).
+-   [Blender Conference](https://conference.blender.org/) : The yearly Blender Conference in Amsterdam. (Playlists: [Bcon22](https://www.youtube.com/playlist?list=PLa1F2ddGya__2Ip2UB-xp6M54cQVvw1W-), [Bcon20](https://www.youtube.com/watch?v=uEjmbsiflMU), [Bcon19](https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S), [Bcon18](https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B), [Bcon17](https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO)).
 
 ---
 
