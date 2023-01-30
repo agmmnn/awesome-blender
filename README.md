@@ -130,7 +130,7 @@
 
 ### 🦑Generator/Builder [^](#table)
 
--   [MB-Lab](https://mblab.dev/) : is a free, open source character creation tool for Blender. [![][repo]](https://github.com/animate1978/MB-Lab)
+-   [MB-Lab](https://mb-lab-community.github.io/MB-Lab.github.io/) : is a free, open source character creation tool for Blender. [![][repo]](https://github.com/animate1978/MB-Lab)
 -   [Charmorph](https://github.com/Upliner/CharMorph) : is another free, open source character creation tool for Blender.
 -   [FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) [$] : is a Blender add-on that lets you create photorealistic 3D models of human faces and heads using a few photographs with a neutral face expression. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
 -   [The Grove 3D](https://www.thegrove3d.com/) [$] : Grow natural 3D trees for visualisation and film. Grow, bend, prune, interactively simulate the seasons year by year.
@@ -174,7 +174,7 @@
 -   [fspy](https://fspy.io/) : is an open-source camera matching app, extremely useful for modeling directly from a reference image. [(blender addon)](https://github.com/stuffmatic/fSpy-Blender)
 -   [PolyQuilt](https://github.com/sakana3/PolyQuilt) : is provides a few functions in edit mode like creating faces, knife tool, fan, edge-loops, etc. It does this with only the left-mouse-button. So no menu’s, no shortcuts. [[more info]](https://www.youtube.com/watch?v=VKLPHh3CYCU)
 -   [Modeling Cloth](https://github.com/the3dadvantage/Modeling-Cloth-2_8) : Create real-time cloth-like behavior in meshes in Blender.
--   [KeKit](https://artbykjell.com/blender.html) : Brings some much needed functionality to Blender, with a whole array of production tools.
+-   [KeKit](https://ke-code.xyz/scripts/kekit.html) : Brings some much needed functionality to Blender, with a whole array of production tools.
 -   [Array Tools](https://blenderartists.org/t/array-tools-all-in-one-for-translation-scale-and-rotation-array/1170295?u=peetie) : is an addon for Blender to create translation, scale, rotation array with offset or global parameters in any direction and mix them. [![][repo]](https://github.com/Elreenys/array_tools)
 -   [BezierUtility](https://github.com/Shriinivas/blenderbezierutils) : This add-on contains several tools for working with Bezier curves.
 -   [Mesh Heal](https://blenderartists.org/t/mesh-heal/1117095) : is an add-on for Blender, it includes additional Blender operators for healing surface meshes.
@@ -348,9 +348,6 @@
 -   Render:
     -   [BatchRender](https://github.com/VertStretch/RenderBurst), [Notify](https://github.com/Dziban-dev/Notify_Blender_Render), [AlarmShutdown](https://gumroad.com/l/PcDfw), [RenderButton](https://github.com/Mitsuma/Blender2.8-RenderButton).
     -   [MDSANIMA RenderTime](https://github.com/mdsanima-dev/mdsanima-render-time) : Blender add-on estimates and calculate how long your animation will take to render done based on the rendering time of the only one frame.
-    -   [Super Res Render](https://kevinlorengel.gumroad.com/l/SuperResRender) : Plugin that splits renders up into several chunks to make rendering at super high resolutions possible.
-    -   [Super Fast Render](https://kevinlorengel.gumroad.com/l/SuperFastRender) : Either uses preset render settings optimised to speed up render times or Uses a benchmark to detect the fastest settings for the same render quality
-    -   [Super Image Denoiser](https://kevinlorengel.gumroad.com/l/SuperImageDenoiser) : Super high quality denoiser that desnoises the scene in several layers to reduce artifacts
 -   Camera:
     -   [Real Camera](https://3d-wolf.com/products/camera.html) : is an addon that allows you to control the Blender camera like a real camera.
     -   [Cameras-Lister](https://github.com/Ryxx/Cameras-Lister) : Easy select camera’s in popup shortcut is Alt-C.
@@ -363,7 +360,6 @@
     -   [Shortcut VUr](https://github.com/jayanam/shortcut_VUr) : With this addon you can display mouse and keyboard input.
     -   [ExtraInfo](https://gumroad.com/l/UznDL) : Show more info in the viewport.
     -   [AStats](https://github.com/YuriyAndropov/blenderPython/tree/master/AStats) : Show Stats in Viewport.
-    -   [QuickRef](https://www.patreon.com/posts/quickref-addon-43439148) : Display reference images in Blender.
 -   VideoEditor:
     -   [Power Sequencer](https://github.com/GDQuest/blender-power-sequencer) : Brings smart new editing features to edit faster with Blender's Video Sequence Editor. It is completely Free and Open Source.
     -   [VSEQF](https://github.com/snuq/VSEQF) : is an overhaul for Blender's VSE that can completely change your workflow. Designed for quick, mouse and keyboard balanced editing with a focus on real-time feedback.
@@ -432,7 +428,7 @@
 
 -   [Poly Haven/Models](https://polyhaven.com/models) : is a resource of free high quality 3D assets for everyone. All models here are CC0. [![][zero]](https://polyhaven.com/license)
 -   [Quixel Megascans](https://quixel.com/megascans/library/) : World’s largest photogrammetry 2D and 3D asset library. Now it is free for the Epic Games accounts (only UE projects).
--   [Scan the World](https://www.myminifactory.com/scantheworld/) : is an ambitious community-built initiative whose mission is to share 3D printable sculpture and cultural artefacts using democratised 3D scanning technologies, producing an extensive ecosystem of free to download digital cultural heritage. [[mixed license]](https://www.myminifactory.com/scantheworld/faq/)
+-   [Scan the World](https://www.myminifactory.com/scantheworld/full-collection) : is an ambitious community-built initiative whose mission is to share 3D printable sculpture and cultural artefacts using democratised 3D scanning technologies, producing an extensive ecosystem of free to download digital cultural heritage. [[mixed license]](https://www.myminifactory.com/scantheworld/faq/#licensing)
 -   [Artec 3D](https://www.artec3d.com/3d-models) : Download high resolution 3D scans for free. ![][by]
 -   [Blender Boom](https://www.blenderboom.com/product-category/free/) : 3D model repository. Free models ready to use. [![][zero]](https://www.blenderboom.com/pages/licences/)
 -   [Three D Scans](https://threedscans.com/) : Free 3D scans in .stl without copyright restrictions. [![][cc]](https://threedscans.com/info/)
@@ -460,7 +456,7 @@
 -   Various Models:
     -   [Quaternius's Ultimate Low-Poly Models](http://quaternius.com/index.html), [The Art of 3D Insects by Natural History Museum](https://stock.adobe.com/collections/rTMsIExGHtyXsAv8NL8RfOxokqALHQhy), [First Animals by Oxford University](https://sketchfab.com/morethanadodo/collections/first-animals), [Stylized Characters Base Meshes/Blockouts](https://gumroad.com/georgezaky108), [Wire Wheels Club: Free Car Models](https://wirewheelsclub.com/models/).
 -   Scanned Models:
-    -   [Scanned Female Head Model by EISKO](https://eisko.com/louise/virtual-model), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model), [Deep 3D Studio](https://www.artstation.com/deep3dstudio/store/9BBA/free-download-australian-infantryman-character-from-world-war-2-39), [Public Domain 3D Cultural Heritage](https://sketchfab.com/nebulousflynn/collections/cc0), [The Heretic: Digital Human by Unity](https://assetstore.unity.com/packages/essentials/tutorial-projects/the-heretic-digital-human-168620), [Phenome10K/Scans](https://phenome10k.org/scans/), [Renderbot/free](https://renderbot.com/3d/free/), [The Małopolska’s Virtual Museums](https://sketchfab.com/WirtualneMuzeaMalopolski).
+    -   [Scanned Female Head Model by EISKO](https://eisko.com/louise/), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model), [Deep 3D Studio](https://www.artstation.com/marketplace/p/9BBA/free-download-australian-infantryman-character-from-world-war-2-39), [Public Domain 3D Cultural Heritage](https://sketchfab.com/nebulousflynn/collections/cc0), [The Heretic: Digital Human by Unity](https://assetstore.unity.com/packages/essentials/tutorial-projects/the-heretic-digital-human-168620), [Phenome10K/Scans](https://phenome10k.org/scans/), [Renderbot/free](https://renderbot.com/3d/free/), [The Małopolska’s Virtual Museums](https://sketchfab.com/WirtualneMuzeaMalopolski).
 -   CAD Models:
     -   [GrabCAD](https://grabcad.com/library), [McMaster-Carr](https://www.mcmaster.com/cad-models/).
 -   Kitbash Models:
@@ -481,12 +477,12 @@
 ### 🌑Textures [^](#table)
 
 -   [Poly Haven/Textures](https://polyhaven.com/textures) : Poly Haven/Textures is a website where you can find high quality scanned textures for free. [![][zero]](https://polyhaven.com/license)
--   [ambientCG](https://ambientcg.com/) : Get hundreds of PBR materials and textures for free under the Public Domain license. [![][zero]](https://help.ambientcg.com/01-General/Licensing.html)
+-   [ambientCG](https://ambientcg.com/) : Get hundreds of PBR materials and textures for free under the Public Domain license. [![][zero]](https://docs.ambientcg.com/books/website-licensing/page/license-information)
 -   [cgbookcase](https://cgbookcase.com/textures/) : Discover a library of high-quality PBR textures. Free for every purpose, forever. Some Blender tutorials here and there. [![][zero]](https://creativecommons.org/publicdomain/zero/1.0/)
 -   [3DAssets.one](https://www.3dassets.one/) : is a search-engine which allows you to explore the largest free texture sites all at once.
 -   [3DTextures.me](https://3dtextures.me/) : Free seamless PBR textures. [![][zero]](https://3dtextures.me/about/)
 -   [FreePBR.com](https://freepbr.com/) : Free PBR materials and texture files.
--   [ShareTextures](https://www.sharetextures.com/) : Free High Quality Material Archive for everybody. [![][zero]](https://www.sharetextures.com/privacy/)
+-   [ShareTextures](https://www.sharetextures.com/) : Free High Quality Material Archive for everybody. [![][zero]](https://www.sharetextures.com/p/license)
 -   [Texture.Ninja](https://texture.ninja/) : Public domain photographic textures, reference images, cutouts. ![][zero]
 -   [3DXO](https://www.3dxo.com) : Free 3D Models, seamless Textures, Backgrounds, Photos & Graphics.
 -   [Texture Box](https://texturebox.com/) : We are making free textures for 3D Artists from all over the world. Also, we offer custome texture services.
@@ -592,15 +588,22 @@
 -   [Netlabels](https://archive.org/details/netlabels) : This collection hosts complete, freely downloadable/streamable, often Creative Commons-licensed catalogs of virtual record labels.
 -   [Mixkit](https://mixkit.co/free-stock-music/) : Download Free Stock Video Footage, Stock Music & Premiere Pro Templates for your next video editing project.
 -   [Unminus](https://www.unminus.com/) : Curated Royalty Free Music. Let's create Unsplash for Music together.
+-   [Adobe Audition Sound Effects](https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html) : includes thousands of uncompressed, royalty-free audio sound effects.
+-   [Pixabay/music](https://pixabay.com/music/) : Royalty free music from Pixabay.
+-   [Artlist](https://artlist.io/royalty-free-music) : Royalty-free music catalog for unlimited use in YouTube videos, social media & films created by inspiring indie artists worldwide.
+-   [Bensound](https://www.bensound.com/free-music-for-videos) : Top royalty free music freshly composed by independent artists. Use our royalty free music for YouTube videos, social media, films
+-   [Pixabay/music](https://pixabay.com/music/) : Royalty free music from Pixabay.
+-   [Soundcloud/cc](https://soundcloud.com/search/sounds?q=house&filter.license=to_use_commercially) : Search for licensed under a Creative Commons License.
+-   [YouTube/Audio Library](https://www.youtube.com/audiolibrary) : In the Audio Library in YouTube Studio, you can find royalty-free production music and sound effects to use in your videos.
 
 ### 🏞Free Stocks [^](#table)
 
 -   Image/Vector : [unsplash](https://unsplash.com/), [pexels](https://www.pexels.com/)
     , [pixabay](https://pixabay.com/), [stocksnap](https://stocksnap.io/), [rawpixel](https://www.rawpixel.com/), [burst](https://burst.shopify.com/).
 -   Video/VFX/Footage : [videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos), [actionvfx](https://www.actionvfx.com/blog/3-free-vfx-stock-collections-portals-bullet-tracers-camera-shake-presets), [productioncrate/free](https://vfx.productioncrate.com/search/#!/free), [benharker](https://benharker.net/store).
--   Cutouts : [MrCutout](https://www.mrcutout.com/), [nonscandinavia](http://www.nonscandinavia.com/), [clipped](http://www.clipped.io/search?sort_uploads=created_at), [vishopper/free](https://www.vishopper.com/cut-out-people/search/free).
+-   Cutouts : [MrCutout](https://www.mrcutout.com/), [nonscandinavia](http://www.nonscandinavia.com/), [vishopper/free](https://www.vishopper.com/cut-out-people/search/free).
 -   Visual Loops : [Mantissa](https://mantissa.xyz/vjloops), [BEEPLE](https://www.beeple-crap.com/vjloops), [Vimeo/Catmac](https://vimeo.com/user2777466), [SSWIII](http://www.switzonwigfall.com/vjclips), [rptv](https://www.rptv.co/videoloops).
--   Fonts : [google](https://fonts.google.com/), [theleagueofmoveabletype](https://www.theleagueofmoveabletype.com/), [beautifulwebtype](https://beautifulwebtype.com/), [openfoundry](https://open-foundry.com/fonts).
+-   Fonts : [fonts.google](https://fonts.google.com/), [theleagueofmoveabletype](https://www.theleagueofmoveabletype.com/), [beautifulwebtype](https://beautifulwebtype.com/).
 
 ### 🌂Useful [^](#table)
 
@@ -629,7 +632,6 @@
 -   [Goxel](https://github.com/guillaumechereau/goxel) : Create voxel graphics. Export to obj, pyl, png, magica voxel, qubicle.
 -   [aerialod](https://ephtracy.github.io/index.html?page=aerialod) : A free interactive path tracing renderer for height maps.
 -   [Make Human](http://www.makehumancommunity.org/) : Open-source tool for making 3D characters. ([blender addon](https://github.com/makehumancommunity/makehuman-plugin-for-blender)) [![][repo]](https://github.com/makehumancommunity/makehuman)
--   [Adobe Fuse](https://www.adobe.com/products/fuse.html) : Create unique human characters, designs, prototypes and more. Available as free beta.
 -   [Neobarok](http://neobarok.com/) : Intuitive and free 3D modeling software for everyone.
 -   [Dust3D](https://dust3d.org/) : is a cross-platform open-source modeling software. It helps you create a 3D watertight model in seconds.
 -   [EmberGen](https://jangafx.com/software/embergen/) [$] : is a real-time volumetric fluid simulation tool that can instantly simulate, render, and export flipbooks, image sequences, and VDB volumes.
@@ -663,20 +665,13 @@
 -   [PickPicPack](https://p4ymak.gumroad.com/l/pickpicpack) : Tiny yet powerful utility for packaging multiple images to new one with custom aspect ratio and size.
 -   [GameTextureViewer](https://jangafx.com/software/gametextureviewer/) : is a fast, reliable, and simple tool for
     artists to preview textures and sprite sheet animations on the fly.
+-   [Mandelbulb3D](http://www.andreas-maschke.com/?page_id=4607) : is a free software application created for 3D fractal imaging. [![][repo]](https://github.com/thargor6/mb3d)
+-   [JWildfire](http://www.andreas-maschke.com/?page_id=42) : Stands out for its flame fractal generator. Wildfire is a java-based image processing software. [![][repo]](https://github.com/thargor6/JWildfire)
 -   Blender Tools:
     -   [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater) : Download and install nightly builds with one click.
     -   [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : Command line version of BlenderUpdater.
     -   [Blender Version Manager](https://github.com/DotBow/Blender-Version-Manager) : Minimalistic download manager for blender.
     -   [Blender Launcher](https://github.com/DotBow/Blender-Launcher) : Standalone client for managing official builds of blender.
--   Fractal:
-    -   [Mandelbulb3D](http://www.andreas-maschke.com/?page_id=4607) : is a free software application created for 3D fractal imaging. [![][repo]](https://github.com/thargor6/mb3d)
-    -   [JWildfire](http://www.andreas-maschke.com/?page_id=42) : Stands out for its flame fractal generator. Wildfire is a java-based image processing software. [![][repo]](https://github.com/thargor6/JWildfire)
-    -   [glChAoS.P](https://www.michelemorrone.eu/glchaosp/) : 3D strange attractors GPU scout and hypercomplex fractals over 200 Million particles. [![][repo]](https://github.com/BrutPitt/glChAoS.P)
-    -   [Other Fractal Softwares.](https://fractalforums.org/index.php?action=downloads;cat=1)
--   Design:
-    -   [Nodi](https://nodi3d.com/editor) : is an online node-based geometry design tool & social development environment.
-    -   [Dotgrid](https://hundredrabbits.itch.io/dotgrid) : is a grid-based vector drawing software designed to create logos, icons and type. It supports layers, the full SVG specs and additional effects such as mirroring and radial drawing. [![][repo]](https://github.com/hundredrabbits/Dotgrid)
-    -   [Adobe Color](https://color.adobe.com/create/) : Create color palettes with the color wheel or image, browse thousands of color combinations from the Adobe Color community.
 
 ### Photogrammetry [^](#table)
 
@@ -717,6 +712,8 @@
 -   [terrain.party](http://terrain.party/) : The easiest way to get real-world height maps.
 -   [Tangram Heightmapper](https://tangrams.github.io/heightmapper/) : is an interactive grayscale heightmap browser, which can generate heightmaps for use in 3D applications.
 -   [OpenTopography/datasets](https://portal.opentopography.org/datasets) : Facilitates community access to high-resolution, Earth science-oriented, topography data, and related tools and resources. _Registration required_.
+-   [Cities: Skylines map generator](https://heightmap.skydark.pl/beta/) : A heightmap generator for Cities: Skylines.
+-   [Copernicus DEM - ESA](https://spacedata.copernicus.eu/web/guest/collections) : The Copernicus Digital Elevation Model is a Digital Surface Model (DSM) that represents the surface of the Earth including buildings, infrastructure and vegetation.
 
 ### Point Cloud/LiDAR Data [^](#table)
 
@@ -754,6 +751,7 @@
 -   [Midjourney](https://www.midjourney.com/home/) : is an independent research lab that produces a proprietary artificial intelligence program that creates images from textual descriptions.
 -   [Stable Diffusion](https://stability.ai/blog/stable-diffusion-public-release) : is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input.
 -   [Deforum Stable Diffusion](https://replicate.com/deforum/deforum_stable_diffusion) : Animating prompts with Stable Diffusion.
+-   [Rokoko Video](https://www.rokoko.com/products/video) : motion capture using your webcam or video-upload and animate in minutes.
 
 ### Sound/Music [^](#table)
 
@@ -773,7 +771,7 @@
 
 ## 🔍Explore Blender [^](#table)
 
-[![](https://img.shields.io/badge/Download-Latest-yellowgreen?logo=blender&style=flat-square)](https://www.blender.org/download/)[![](https://img.shields.io/badge/Experimental-red?logo=&style=flat-square)](https://builder.blender.org/download/)[![](https://img.shields.io/badge/Branches-brown?style=flat-square)](https://builder.blender.org/download/branches/) [![](https://img.shields.io/badge/Show-Release%20Notes-yellowgreen?logo=blender&style=flat-square)](https://wiki.blender.org/wiki/Reference/Release_Notes)[![](https://img.shields.io/badge/Recent%20Activities-olivedrab?style=flat-square)](https://developer.blender.org/project/view/2/)
+[![](https://img.shields.io/badge/Download-Latest-yellowgreen?logo=blender&style=flat-square)](https://www.blender.org/download/)[![](https://img.shields.io/badge/Daily%20Builds-red?logo=&style=flat-square)](https://builder.blender.org/download/daily) [![](https://img.shields.io/badge/Show-Release%20Notes-yellowgreen?logo=blender&style=flat-square)](https://wiki.blender.org/wiki/Reference/Release_Notes)[![](https://img.shields.io/badge/Recent%20Activities-olivedrab?style=flat-square)](https://developer.blender.org/project/view/2/)
 
 ### [Documentation](https://docs.blender.org/) [^](#table)
 
