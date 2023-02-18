@@ -1,4 +1,4 @@
-name: Check Markdown links
+name: Check Links (lychee)
 
 on:
     workflow_dispatch:
@@ -12,5 +12,5 @@ jobs:
             - name: Link Checker
               id: lychee
               uses: lycheeverse/lychee-action@v1.5.4
-              env:
-                  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+              with:
+                  args: --no-progress --exclude artstation.com --exclude twitter.com --exclude pixabay.com -- README.md
