@@ -396,7 +396,7 @@
 -   [IOR Reference](https://gitlab.com/diegogangl/IOR_reference) : A blender addon that display IOR values in a list.
 -   [QuickSwitch](https://github.com/schroef/QuickSwitch) : A helper to quick switch workspaces and view render menu in viewport.
 -   [MifthTools](https://github.com/mifth/mifthtools) : 3Dcoat, Houdini, Modo mesh exchange tools and more.
--   [Modifier List](https://blenderartists.org/t/modifier-list-1-5-1/1147752) : Alternative UI layout for modifiers with handy features. Available also inside the sidebar and as a popup.
+-   [Modifier List](https://github.com/Symstract/modifier_list) : Blender add-on with enhanced UI layout for modifiers with handy features. Replaces the regular modifier UI and adds a tab in the Sidebar and a popup.
 -   [Verge3D](https://www.soft8soft.com/get-verge3d/) : is a powerful yet cost-efficient solution for creating interactive 3D web experiences.
 -   [ProSidebar](https://github.com/CreativeDesigner3D/ProSidebar) : Add additional properties and operators to the 3D View Sidebar.
 -   [Tilecam](https://github.com/stuffmatic/tilecam) : Render seamlessly repeatable images.
