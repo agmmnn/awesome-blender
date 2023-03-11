@@ -259,6 +259,7 @@
 -   [Redshift Blender Integration](https://www.maxon.net/en/redshift/integrations?categories=721103) [$] : Redshift by Maxon is a GPU-accelerated renderer built to meet the specific demands of contemporary high-end production rendering.
 -   [appleseed](https://appleseedhq.net/) : is an open source, physically-based global illumination rendering engine primarily designed for animation and visual effects. [![][repo]](https://github.com/appleseedhq/appleseed) [(blender addon)](https://github.com/appleseedhq/blenderseed) ![][mit]
 -   [LuxCore](https://luxcorerender.org/) : LuxCoreRender is a physically based and unbiased rendering engine. It offers advanced features like accelerated rendering of indirect light and efficient rendering of caustics. [![][repo]](https://github.com/LuxCoreRender/BlendLuxCore) [(blender addon)](https://github.com/LuxCoreRender/BlendLuxCore) ![][gpl]
+-   [Malt](https://malt3d.com/) : Malt is a non photorealistic rendering (NPR) framework. It offers fully customizable real-time rendering framework for animation and illustration. [![][repo]](https://github.com/bnpr/Malt) ![][mit]
 -   [E-Cycles](https://ecycles.gumroad.com/) [$] : is a fork of Cycles which renders up to 2.5x faster out of the box when using CUDA GPUs, up to 15x using new options.
 -   [K Cycles](https://blendermarket.com/products/k-cycles) [$] : Another fork of Cycles like E-Cycles. Advertised as an improvement over E-Cycles
 
