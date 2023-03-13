@@ -499,6 +499,7 @@
 -   [Poliigon/freebies](https://www.poliigon.com/search?credit=0) [$] : A library of materials, and HDR's for artists including free textures that want photorealism.
 -   [Texturing.xyz](https://texturing.xyz/) [$] : Our textures are used in the biggest and industry-leading VFX companies, and help them achieving their goals faster.
 -   [LotPixel](https://www.lotpixel.com/texture-library?credit=free) : Free scan-based textures of interior and exterior materials at up to 8K resolution. For commercial use.
+-   [Poly](https://withpoly.com/) : is a seamless texture generator & gallery (up to 8K) with PBR maps (up to 32-bit) for any types of materials with a simple text or image prompt.
 -   Other Sites:
     -   [EveryTexture.com](https://everytexture.com/latest), [3DJungle.net](https://3djungle.net/textures/), [Architecture Inspirations](https://www.archinspirations.com/materials), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [TextureKing](https://www.textureking.com/category/all-textures/), [MotionSquared](https://textures.motionsquared.net/latest-textures/), [TextureCan](https://www.texturecan.com/).
 -   Others:
@@ -698,6 +699,7 @@
 -   [Agama Materials](https://agama.itch.io/agama-materials) : is software for creating PBR materials and painting 3d models. You can create materials and use them for painting models, or you can use pre-made textures.
 -   [Architextures - Create](https://architextures.org/create) : web app allows you to create seamless textures, bump maps and CAD hatches. Select any of the parameters to get started.
 -   [Dream Textures](https://github.com/carson-katri/dream-textures) : Stable Diffusion built-in to the Blender shader editor.
+-   [Poly](https://withpoly.com/) : is a seamless texture generator & gallery (up to 8K) with PBR maps (up to 32-bit) for any types of materials with a simple text or image prompt.
 
 ### Terrain [^](#table)
 
