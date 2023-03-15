@@ -144,7 +144,6 @@
 -   [Real Snow](https://3d-wolf.com/products/snow.html) : is an addon to create snow on top of objects.
 -   [Welder](https://blenderartists.org/t/welder/672478) : welds generator for Blender.
 -   [Sprytile](https://github.com/Sprytile/Sprytile) : a blender add-on for building tile based low-poly scenes with paint/map editor like tools. [[more info]](https://chemikhazi.itch.io/sprytile)
--   [Scatter](https://blendermarket.com/products/scatter) [$] : The scattering tool for blender.
 -   [SceneCity](https://www.cgchan.com/store/scenecity) [$] : Generate large road networks and mass-place tens of thousands of buildings. Mix both procedural and hand-made assets.
 -   [Graswald](https://www.graswald3d.com/) [$] : is the solution for 3D Artists who need realistic vegetation in their scenes.
 -   [Celtic Knot](https://github.com/BorisTheBrave/celtic-knot/wiki/Gallery) : Generate bezier curves, pipes and ribbons in elaborate weavings, based off of a framework mesh.
@@ -152,24 +151,26 @@
 -   [Piperator](https://blenderartists.org/t/blender-addon-piperator-generation-of-pipe-networks-new-version-with-vertex-color-pipe-control/1186693) : is an addon for blender which helps generating complex pipe layouts.
 -   [Mesh Maze](https://github.com/elfnor/mesh_maze) : Blender add-on to generate a maze on any mesh.
 -   [BookGen](https://oweissbarth.de/software/book-gen-blender-addon/) : is a free book-generation addon for Blender.
--   [City Scatter](https://gumroad.com/curtisjamesholt#Illil) : Generate cityscape concepts, powered by Blender's collection system.
 -   [TubeTool](https://github.com/zeffii/TubeTool) : Generate tubing between two selected polygons.
 -   [Blender Data Visualisation](https://github.com/Griperis/BlenderDataVis) : Load data into Blender and create visualisations.
 -   [HGen](https://gumroad.com/l/HGen_nd9h) : Blender hair generation and manipulating tool.
 -   [Data-FX](https://github.com/LandonFerg/Data-FX) : Loads and visualizes different types of data within Blender from .csv files.
 -   [Geometry nodes](https://www.blender.org/download/demo-files/#geometry-nodes) : Free examples of geometry nodes including procedural buildings and a hex grid map.
 -   [Post USSR Builder](https://kypcaht.gumroad.com/l/PmCLJ) : Simple post USSR style building generator on geometry nodes. 2.93 and newer
--   [G Scatter](https://www.graswald3d.com/gscatter) : Artist-friendly scattering for free from developers of Grasswald.
 -   [Stylized Fantasy Tree Generator](https://rc12.gumroad.com/l/fantasytree) : Generate endless variations of stylized trees with this geometry nodes tool.
 -   [Random Book Generator](https://ko-fi.com/s/9879a091a9) : Book randomizing asset for Blender. Made with the new Geometry nodes.
 -   [Tyre Generator](https://flexdigitalpottery.gumroad.com/l/Tyregenv1) : Free tyre generator with geometry nodes.
 -   [Procedural Snow Shader](https://plusq.gumroad.com/l/jmdpr) : Procedural snow shader created in Blender.
 -   [Buildify](https://paveloliva.gumroad.com/l/buildify) : is a geometry nodes library for easy building creation.
+-   Scatter:
+    -   [Geo-Scatter](https://blendermarket.com/products/scatter) [$] : The scattering tool for blender.
+    -   [BagaPie Modifier](https://app.gumroad.com/l/BbGVh) : This addon create modifier and geometry nodes preset like: boolean, scatter, auto array on curve.
+    -   [Gscatter](https://www.graswald3d.com/gscatter) : Artist-friendly scattering for free from developers of Grasswald.
+    -   [City Scatter](https://curtisjamesholt.gumroad.com/l/city_scatter_free) : Generate cityscape concepts, powered by Blender's collection system.
 
 ### 🧊Modeling [^](#table)
 
 -   [MACHIN3tools](https://gumroad.com/l/MACHIN3tools) : is a free, continuously evolving collection of blender tools and pie menus in a single customizable package. [![][repo]](https://github.com/machin3io/MACHIN3tools) [![market]](https://blendermarket.com/products/MACHIN3tools)
--   [Sverchok](https://github.com/nortikin/sverchok) : is a powerful parametric tool for architects, allowing geometry to be programmed visually with nodes.
 -   [QBlocker](https://qblockerdocs.readthedocs.io/) : is an interactive object creation tool for Blender.
 -   [fspy](https://fspy.io/) : is an open-source camera matching app, extremely useful for modeling directly from a reference image. [(blender addon)](https://github.com/stuffmatic/fSpy-Blender)
 -   [PolyQuilt](https://github.com/sakana3/PolyQuilt) : is provides a few functions in edit mode like creating faces, knife tool, fan, edge-loops, etc. It does this with only the left-mouse-button. So no menu’s, no shortcuts. [[more info]](https://www.youtube.com/watch?v=VKLPHh3CYCU)
@@ -186,6 +187,14 @@
 -   [Drop It](https://blenderartists.org/t/drop-it-free-addon/1244259/) : Designed to drop fast and simply Objects to Ground or Surface. [![][repo]](https://github.com/maxivz/interactivetoolsblender)
 -   [Maxivz’s Interactive Tools](https://gumroad.com/l/ynJmIV) : Collection of intuitive, context sensitive tools for Blender.
 -   [Synced Modifiers](https://amanbairwal.gumroad.com/l/SyncedModifiers) : allows you to add modifiers to multiple objects at the same time and automatically syncs all the modifiers using Drivers.
+-   CAD:
+    -   [BlenderBIM](https://blenderbim.org/) : An add-on for beautiful, detailed, and data-rich OpenBIM with Blender.
+    -   [Archipack](https://gumroad.com/l/ZRMyP) [$] : The Archipack addon for Blender contains a collection of parametric primitives for ArchViz. You can manipulate these primitives with a realtime on-screen editing interface. [![][repo]](https://github.com/s-leger/archipack)
+    -   [Sverchok](https://github.com/nortikin/sverchok) : is a powerful parametric tool for architects, allowing geometry to be programmed visually with nodes.
+    -   [CAD Sketcher](https://www.cadsketcher.com/) : CAD Sketcher is a free and open-source project looking to enhance precision workflows in blender by bringing CAD like tools, features and usability.
+    -   [CAD Transform](https://blenderartists.org/t/cad-like-transform/1226197) : CAD Transform provide intuitive snap from/to workflow, allow precise move/rotate/scale using advanced snap options and constraints in both object and edit mode.
+    -   [MeasureIt-ARCH](https://github.com/kevancress/MeasureIt_ARCH) : An expansion of Antonio Vazquez's MeasureIt addon to add features to create Architectural Drawings.
+    -   [JARCH-Vis](https://blenderartists.org/t/addon-jarch-vis/642607) : is add-on for Blender 3D that helps create commonly used object for architectural visualization. [![][repo]](https://github.com/BlendingJake/JARCH-Vis)
 -   Retopology/Remesh:
     -   [retopoflow](https://blendermarket.com/products/retopoflow) : A suite of retopology tools for Blender. [![][repo]](https://github.com/CGCookie/retopoflow)
     -   [InstantMeshesRemesh](https://blenderartists.org/t/instant-meshes-remesh/1114982) : A suite of retopology tools for Blender. [![][repo]](https://github.com/knekke/blender_addons#instantmeshesremesh)
@@ -212,7 +221,6 @@
 -   Snapping-Align:
     -   [Mesh Align Plus](https://github.com/egtwobits/mesh_mesh_align_plus) : Precisely align, move, and measure+match objects and mesh parts in your 3D scenes.
     -   [Easy Align](https://blenderartists.org/t/addon-easy-align/685704) : Easy Align addon allows you to align mesh objects origins and align mesh objects to each others easily, it works in both Edit mode and Object mode. [![][repo]](https://github.com/sergeod9/Easy_Align_Addon)
-    -   [CAD Transform](https://blenderartists.org/t/cad-like-transform/1226197) : CAD Transform provide intuitive snap from/to workflow, allow precise move/rotate/scale using advanced snap options and constraints in both object and edit mode.
     -   [Blign](https://jack-cooke.github.io/blign/) : is an alignment and distribution tool for Blender. It allows users to align and distribute shapes with many different options.
 -   Mesh Generate/Stylization:
     -   [Tissue](https://github.com/alessandro-zomparelli/tissue) : Add-on for computational design.
@@ -323,7 +331,7 @@
     -   [Free Sky Environment Shading](https://gumroad.com/l/JUyxL) : free custom procedural environment shading.
     -   [Lumiere](https://github.com/clarkx/Lumiere-V0.4) : Interactive Lighting add-on for Blender.
 -   Game Engine:
-    -   [Armory](https://armory3d.org/) : is an open-source 3D game engine with full Blender integration. [![][repo]](https://github.com/armory3d/armory)
+    -   [Armory3D](https://armory3d.org/) : is an open-source 3D game engine with full Blender integration. [![][repo]](https://github.com/armory3d/armory)
     -   [UPBGE](https://upbge.org/) : is an open-source 3D game engine forked from old Blender Game Engine, deployed with Blender itself. [![][repo]](https://github.com/UPBGE/upbge)
     -   [Arsenal](https://katharostech.github.io/arsenal) : is a Blender integrated game engine written in Rust. [![][repo]](https://github.com/katharostech/arsenal)
     -   [INOX](https://github.com/gents83/INOX) : Rust Game engine integrated in Blender.
@@ -334,10 +342,6 @@
 -   VR/AR:
     -   [blender-xr](https://github.com/MARUI-PlugIn/BlenderXR) : A free virtual and mixed reality user interface for Blender that enables artists to edit scenes within the software using a suitable headset and controllers.
     -   [Blender-Metaverse-Addon](https://github.com/Menithal/Blender-Metaverse-Addon) : Blender toolset for creating content for Metaverses like High Fidelity.
--   ArchViz:
-    -   [JARCH-Vis](https://blenderartists.org/t/addon-jarch-vis/642607) : is add-on for Blender 3D that helps create commonly used object for architectural visualization. [![][repo]](https://github.com/BlendingJake/JARCH-Vis)
-    -   [Archipack](https://gumroad.com/l/ZRMyP) [$] : The Archipack addon for Blender contains a collection of parametric primitives for ArchViz. You can manipulate these primitives with a realtime on-screen editing interface. [![][repo]](https://github.com/s-leger/archipack)
-    -   [MeasureIt-ARCH](https://github.com/kevancress/MeasureIt_ARCH) : An expansion of Antonio Vazquez's MeasureIt addon to add features to create Architectural Drawings.
 -   Import:
     -   [Daz Importer](https://bitbucket.org/Diffeomorphic/import-daz/src/master/), [glTF](https://github.com/KhronosGroup/glTF-Blender-IO), [Rhinoceros3D files](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [cityGML](https://github.com/zeffii/io_cityGML_basic), [.SVG](https://github.com/Shriinivas/shapekeyimport), [.XPS](https://github.com/johnzero7/XNALaraMesh), [.GIF](https://github.com/doakey3/Bligify), Quake: [.BSP](https://blenderartists.org/t/quake-1996-game-bsp-import-script/578191) [.MD3](https://github.com/axredneck/blender-md3/tree/blender2.8).
     -   [Sketchfab Blender Addon](https://github.com/sketchfab/blender-plugin) : Directly import and export models from and to Sketchfab in Blender.
@@ -409,10 +413,8 @@
 -   [Multi-user](https://blenderartists.org/t/multi-user/1187118) : Enable real-time collaborative workflows inside blender. [![][repo]](https://gitlab.com/slumber/multi-user)
 -   [Screenwriter](https://github.com/tin2tin/Blender_Screenwriter) : Write screenplays in Blender Text Editor in Fountain markup syntax view/export with correct screenplay formatting.
 -   [VoxelDraw](https://gumroad.com/l/NClKMV) : An addon to draw voxel meshes in edit mode for Blender.
--   [BlenderBIM](https://blenderbim.org/) : An add-on for beautiful, detailed, and data-rich OpenBIM with Blender.
 -   [Kaleidoscope](https://github.com/blenderskool/kaleidoscope) : The add-on adds two new nodes, Spectrum and Intensity, which essentially improves your workflow inside Blender when creating materials.
 -   [Spread Objects](https://abdoubouam.gumroad.com/l/spreadobjects) : Spread the selected objects on an evenly spaced grid.
--   [BagaPie Modifier](https://app.gumroad.com/l/BbGVh) : This addon create modifier and geometry nodes preset like: boolean, scatter, auto array on curve.
 -   [Mixer by Ubisoft](https://github.com/ubisoft/mixer) : is a Blender addon developed at Ubisoft Animation Studio for Real Time Collaboration in 3D edition.
 -   [Daz to Blender Bridge](https://www.daz3d.com/daz-to-blender-bridge) : This easy-to-use Bridge transfers your Genesis 8 and 3 characters from Daz directly to Blender.
 -   [Substance 3D add-on for Blender by Adobe](https://substance3d.adobe.com/magazine/the-substance-3d-add-on-for-blender-is-here/) : with this add-on you can access your Substance materials directly inside Blender.
@@ -634,7 +636,7 @@
 -   [Goxel](https://github.com/guillaumechereau/goxel) : Create voxel graphics. Export to obj, pyl, png, magica voxel, qubicle.
 -   [aerialod](https://ephtracy.github.io/index.html?page=aerialod) : A free interactive path tracing renderer for height maps.
 -   [Make Human](http://www.makehumancommunity.org/) : Open-source tool for making 3D characters. ([blender addon](https://github.com/makehumancommunity/makehuman-plugin-for-blender)) [![][repo]](https://github.com/makehumancommunity/makehuman)
--   [Neobarok](http://neobarok.com/) : Intuitive and free 3D modeling software for everyone.
+-   [Clavicula](https://clavicula.link/) : Intuitive and free 3D modeling software for everyone.
 -   [Dust3D](https://dust3d.org/) : is a cross-platform open-source modeling software. It helps you create a 3D watertight model in seconds.
 -   [EmberGen](https://jangafx.com/software/embergen/) [$] : is a real-time volumetric fluid simulation tool that can instantly simulate, render, and export flipbooks, image sequences, and VDB volumes.
 -   [HDR Light Studio](https://www.lightmap.co.uk/) [$] : Lets you easily create and edit HDR lighting with your existing 3D software.
