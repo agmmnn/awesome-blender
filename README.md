@@ -133,35 +133,36 @@
 -   [MB-Lab](https://mb-lab-community.github.io/MB-Lab.github.io/) : is a free, open source character creation tool for Blender. [![][repo]](https://github.com/animate1978/MB-Lab)
 -   [Charmorph](https://github.com/Upliner/CharMorph) : is another free, open source character creation tool for Blender.
 -   [FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) [$] : is a Blender add-on that lets you create photorealistic 3D models of human faces and heads using a few photographs with a neutral face expression. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
--   [The Grove 3D](https://www.thegrove3d.com/) [$] : Grow natural 3D trees for visualisation and film. Grow, bend, prune, interactively simulate the seasons year by year.
--   [tree-gen](https://github.com/friggog/tree-gen) : procedural generation of tree models in blender.
--   [Modular Tree](https://github.com/MaximeHerpin/modular_tree/tree/blender_28) : This addon for blender allows the creation of realistic trees with the node editor.
+-   [Wolf Generators](https://3d-wolf.com/products/assets/generators/) : a pack of 16 geometry nodes generators, including Bridge, Cables, Chain, Falling Particles, Lightning, Music Visualizer, Rope, Snow, Snow Flake, Spider Web.
+-   [Buildify](https://paveloliva.gumroad.com/l/buildify) : is a geometry nodes library for easy building creation.
+-   [Building Tools](https://github.com/ranjian0/building_tools) : Building generation addon for blender.
 -   [Bricker](https://www.blendermarket.com/products/bricker) [$] : Photoreal Lego/Minecraft Simulations.
+-   [Blender Data Visualisation](https://github.com/Griperis/BlenderDataVis) : Load data into Blender and create visualisations.
+-   [BookGen](https://oweissbarth.de/software/book-gen-blender-addon/) : is a free book-generation addon for Blender.
+-   [Celtic Knot](https://github.com/BorisTheBrave/celtic-knot/wiki/Gallery) : Generate bezier curves, pipes and ribbons in elaborate weavings, based off of a framework mesh.
+-   [Data-FX](https://github.com/LandonFerg/Data-FX) : Loads and visualizes different types of data within Blender from .csv files.
+-   [Electric Line Generator](https://blenderesse.gumroad.com/l/electriclinegenerator) : is an addon for blender which helps generating complex Electric power Line.
+-   [Geometry Nodes Demo](https://www.blender.org/download/demo-files/#geometry-nodes) : Free examples of geometry nodes including procedural buildings and a hex grid map.
+-   [Geometry Nodes Pipes](https://raywakui.gumroad.com/l/pcxni) : is an addon for blender which helps generating complex pipe layouts.
+-   [Graswald](https://www.graswald3d.com/) [$] : is the solution for 3D Artists who need realistic vegetation in their scenes.
+-   [HGen](https://gumroad.com/l/HGen_nd9h) : Blender hair generation and manipulating tool.
+-   [Industrial Geonodes](https://ko-fi.com/s/8d276833cf) : A collection of industrial themed Geometry nodes. Includes; Pipes, Vents and Catwalks.
+-   [Mesh Maze](https://github.com/elfnor/mesh_maze) : Blender add-on to generate a maze on any mesh.
+-   [Modular Tree](https://github.com/MaximeHerpin/modular_tree/tree/blender_28) : This addon for blender allows the creation of realistic trees with the node editor.
+-   [Post USSR Builder](https://kypcaht.gumroad.com/l/PmCLJ) : Simple post USSR style building generator on geometry nodes. 2.93 and newer.
+-   [Procedural Snow Shader](https://plusq.gumroad.com/l/jmdpr) : Procedural snow shader created in Blender.
+-   [Procedural Slime](https://artichoke18.gumroad.com/l/spsra) : generates procedural slime between objects.
+-   [Random Book Generator](https://ko-fi.com/s/9879a091a9) : Book randomizing asset for Blender. Made with the new Geometry nodes.
+-   [Real Sky](https://3d-wolf.com/products/sky/) : This add-on can generate procedural clouds, which Blender's built-in Dynamic Sky add-on lacks.
+-   [SceneCity](https://www.cgchan.com/store/scenecity) [$] : Generate large road networks and mass-place tens of thousands of buildings. Mix both procedural and hand-made assets.
 -   [SpaceshipGenerator](https://github.com/a1studmuffin/SpaceshipGenerator) : procedurally generate 3D spaceships.
 -   [Space Station Generator](https://gumroad.com/curtisjamesholt#iABmB) : Tool lets you generate sprawling space stations.
--   [Building Tools](https://github.com/ranjian0/building_tools) : Building generation addon for blender.
--   [Procedural Cloudscape Generation](https://blenderartists.org/t/procedural-cloudscape-generation-in-cycles-now-eevee/694700/12) : Create pretty realistic looking cloudscapes in Cycles and Eevee.
--   [Real Snow](https://3d-wolf.com/products/snow.html) : is an addon to create snow on top of objects.
--   [Welder](https://blenderartists.org/t/welder/672478) : welds generator for Blender.
 -   [Sprytile](https://github.com/Sprytile/Sprytile) : a blender add-on for building tile based low-poly scenes with paint/map editor like tools. [[more info]](https://chemikhazi.itch.io/sprytile)
--   [SceneCity](https://www.cgchan.com/store/scenecity) [$] : Generate large road networks and mass-place tens of thousands of buildings. Mix both procedural and hand-made assets.
--   [Graswald](https://www.graswald3d.com/) [$] : is the solution for 3D Artists who need realistic vegetation in their scenes.
--   [Celtic Knot](https://github.com/BorisTheBrave/celtic-knot/wiki/Gallery) : Generate bezier curves, pipes and ribbons in elaborate weavings, based off of a framework mesh.
--   [Floorboard Generator](https://blenderartists.org/t/a-floor-board-generator/582368/195) : Generate floor board. [![][repo]](https://github.com/importbpy/Floorboard-Generator)
--   [Piperator](https://blenderartists.org/t/blender-addon-piperator-generation-of-pipe-networks-new-version-with-vertex-color-pipe-control/1186693) : is an addon for blender which helps generating complex pipe layouts.
--   [Mesh Maze](https://github.com/elfnor/mesh_maze) : Blender add-on to generate a maze on any mesh.
--   [BookGen](https://oweissbarth.de/software/book-gen-blender-addon/) : is a free book-generation addon for Blender.
--   [TubeTool](https://github.com/zeffii/TubeTool) : Generate tubing between two selected polygons.
--   [Blender Data Visualisation](https://github.com/Griperis/BlenderDataVis) : Load data into Blender and create visualisations.
--   [HGen](https://gumroad.com/l/HGen_nd9h) : Blender hair generation and manipulating tool.
--   [Data-FX](https://github.com/LandonFerg/Data-FX) : Loads and visualizes different types of data within Blender from .csv files.
--   [Geometry nodes](https://www.blender.org/download/demo-files/#geometry-nodes) : Free examples of geometry nodes including procedural buildings and a hex grid map.
--   [Post USSR Builder](https://kypcaht.gumroad.com/l/PmCLJ) : Simple post USSR style building generator on geometry nodes. 2.93 and newer
 -   [Stylized Fantasy Tree Generator](https://rc12.gumroad.com/l/fantasytree) : Generate endless variations of stylized trees with this geometry nodes tool.
--   [Random Book Generator](https://ko-fi.com/s/9879a091a9) : Book randomizing asset for Blender. Made with the new Geometry nodes.
+-   [The Grove 3D](https://www.thegrove3d.com/) [$] : Grow natural 3D trees for visualisation and film. Grow, bend, prune, interactively simulate the seasons year by year.
+-   [tree-gen](https://github.com/friggog/tree-gen) : procedural generation of tree models in blender.
 -   [Tyre Generator](https://flexdigitalpottery.gumroad.com/l/Tyregenv1) : Free tyre generator with geometry nodes.
--   [Procedural Snow Shader](https://plusq.gumroad.com/l/jmdpr) : Procedural snow shader created in Blender.
--   [Buildify](https://paveloliva.gumroad.com/l/buildify) : is a geometry nodes library for easy building creation.
+-   [Welder](https://blenderartists.org/t/welder/672478) : welds generator for Blender.
 -   Scatter:
     -   [Geo-Scatter](https://blendermarket.com/products/scatter) [$] : The scattering tool for blender.
     -   [BagaPie Modifier](https://app.gumroad.com/l/BbGVh) : This addon create modifier and geometry nodes preset like: boolean, scatter, auto array on curve.
@@ -297,7 +298,8 @@
 -   [Bake to Vertex Color](https://github.com/danielenger/Bake-to-Vertex-Color) : Transfer Image to selected Vertex Color in all selected Objects.
 -   [EZ Baker](https://blenderartists.org/t/ez-baker/1245869) : An easier alternative to blender's default bake system. [![][repo]](https://gitlab.com/AquaticNightmare/ez_baker)
 -   [Bystedts Blender Baker](https://3dbystedt.gumroad.com/l/JAqLT) : This addon streamlines the texture baking process in Blender.
--   [Flow Map Painter](https://clemensbeute.gumroad.com/l/heZDT) : This blender add-on provides a brush tool for flow map painting.
+-   [Flow Map Painter](https://clemensbeute.gumroad.com/l/heZDT) : This blender add-on provides a brush tool for flow map painting. [![][repo]](https://github.com/ClemensBeute/flow_map_painter)
+-   [Layer Painter](https://joshuaknauber.gumroad.com/l/layerpainter) : allows you to use a Layer-System for creating materials with painting and procedurals. The layers include masks, filters and much more. Even though the addon is designed with a PBR workflow in mind, you can also use it for stylized painting. [![][repo]](https://github.com/joshuaKnauber/layer_painter)
 -   [Sanctus Library](https://blendermarket.com/products/sanctus-library-addon---procedural-shaders-collection-for-blender/) [$] : The ever-growing procedural material library for Blender.
 
 ### 🎮GameDev [^](#table)
