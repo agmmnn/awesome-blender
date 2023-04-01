@@ -1,0 +1,16 @@
+name: Check Links (lychee)
+
+on:
+    workflow_dispatch:
+
+jobs:
+    linkChecker:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+
+            - name: Link Checker
+              id: lychee
+              uses: lycheeverse/lychee-action@v1.5.4
+              with:
+                  args: --no-progress --exclude artstation.com --exclude twitter.com --exclude pixabay.com -- README.md
