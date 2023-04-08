@@ -1039,6 +1039,7 @@ _Some accounts where you can find different kinds of content related to blender.
 -   ▷[Add CGI Characters to Live Footage by CG Geek.](https://www.youtube.com/watch?v=hymtATx1QXw)
 -   ▷[Blender Facial motion capture tutorial.](https://www.youtube.com/watch?v=uNK8S19OSmA)
 -   ▷[How to 3D Motion Capture Easy and Free with a Phone!](https://www.youtube.com/watch?v=fwc9vTCLYCc)
+-   ▷[Add VFX to Cinematic RAW and LOG Footage](https://youtu.be/LssHxDCM7H4)
 
 ### Premium Tutorials [^](#table)
 
