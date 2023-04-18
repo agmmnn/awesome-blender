@@ -897,9 +897,11 @@ _Some accounts where you can find different kinds of content related to blender.
 -   [Kevandram](https://www.youtube.com/user/kevandram/videos) : grease pencil.
 -   [Noggi](https://www.youtube.com/c/Noggi_Video/videos) : sculpting.
 -   [DerekElliott](https://www.youtube.com/c/DerekElliott/videos) : modeling, animation.
+-   [Samuel Sullins](https://www.youtube.com/@samuelsullins) : Geometry Nodes, vfx, lowpoly, general
 
 ### 💻Blogs [^](#table)
 
+-   [The Blend](https://blend.beehiiv.com) : Weekly articles & lessons on Blender & 3D
 -   [Blender Sushi](https://blendersushi.blogspot.com/) : Collection of 3D ideas, poetries and experiments blended in Blender 3D.
 -   [Artisticrender](https://artisticrender.com/) : Tutorials, tips, resources about Blender and 3D.
 -   [Creative Shrimp](https://www.creativeshrimp.com/) : High quality CG tutorials and Blender tutorials, digital art and lighting tutorials with Gleb and Aidy.
