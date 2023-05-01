@@ -130,8 +130,7 @@
 
 ### 🦑Generator/Builder [^](#table)
 
--   [MB-Lab](https://mb-lab-community.github.io/MB-Lab.github.io/) : is a free, open source character creation tool for Blender. [![][repo]](https://github.com/animate1978/MB-Lab)
--   [Charmorph](https://github.com/Upliner/CharMorph) : is another free, open source character creation tool for Blender.
+-   [CharMorph](https://blenderartists.org/t/charmorph-character-creation-tool-mb-lab-based/1252543) : is an open source character creation tool for Blender. It's a rewrite of [MB-Lab](https://github.com/animate1978/MB-Lab), which is now unmaintained. [![][repo]](https://github.com/Upliner/CharMorph)
 -   [FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) [$] : is a Blender add-on that lets you create photorealistic 3D models of human faces and heads using a few photographs with a neutral face expression. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
 -   [Wolf Generators](https://3d-wolf.com/products/assets/generators/) : a pack of 16 geometry nodes generators, including Bridge, Cables, Chain, Falling Particles, Lightning, Music Visualizer, Rope, Snow, Snow Flake, Spider Web.
 -   [Buildify](https://paveloliva.gumroad.com/l/buildify) : is a geometry nodes library for easy building creation.
@@ -189,7 +188,7 @@
 -   [Maxivz’s Interactive Tools](https://gumroad.com/l/ynJmIV) : Collection of intuitive, context sensitive tools for Blender.
 -   [Synced Modifiers](https://amanbairwal.gumroad.com/l/SyncedModifiers) : allows you to add modifiers to multiple objects at the same time and automatically syncs all the modifiers using Drivers.
 -   CAD:
-    -   [BlenderBIM](https://blenderbim.org/) : An add-on for beautiful, detailed, and data-rich OpenBIM with Blender.
+    -   [BlenderBIM](https://blenderbim.org/) : An add-on for beautiful, detailed, and data-rich OpenBIM with Blender. [![][repo]](https://github.com/ifcopenshell/ifcopenshell)
     -   [Archipack](https://gumroad.com/l/ZRMyP) [$] : The Archipack addon for Blender contains a collection of parametric primitives for ArchViz. You can manipulate these primitives with a realtime on-screen editing interface. [![][repo]](https://github.com/s-leger/archipack)
     -   [Sverchok](https://github.com/nortikin/sverchok) : is a powerful parametric tool for architects, allowing geometry to be programmed visually with nodes.
     -   [CAD Sketcher](https://www.cadsketcher.com/) : CAD Sketcher is a free and open-source project looking to enhance precision workflows in blender by bringing CAD like tools, features and usability.
@@ -245,6 +244,7 @@
 -   [reflow](https://gitlab.com/diegogangl/reflow) : Blender addon to change fps.
 -   [Keyframe Nudge](https://github.com/okuma10/Keyframe-Nudge) : Scripts for quick keyframe manipulation.
 -   [Shape Keys+](https://blenderartists.org/t/shape-keys/680636) : adds a panel with extra options for creating, sorting, viewing, and driving shape keys.
+-   [Stop-Mo](https://blendermarket.com/products/stop-mo) : transforms animations into a beautiful, hand-crafted stop motion style.
 -   [Blender NLA Midi Copier](https://github.com/Cornerback24/Blender-NLA-Midi-Copier) : Blender add-on for creating midi-driven animations from the Nonlinear Animation view.
 -   [BlendyPose](https://github.com/zonkosoft/BlendyPose) : Blender Motion Capture using your camera.
 -   Writing/Counting:
@@ -258,7 +258,8 @@
     -   [Rigacar](http://digicreatures.net/articles/rigacar.html) : Generate a complete rig as quickly as possible for standard car models. [![][repo]](https://github.com/digicreatures/rigacar) ![][gpl]
     -   [Wiggle Bones](https://blenderartists.org/t/wiggle-2/1454788) : Jiggle bone implementation for Blender with realistic physics. [![][repo]](https://github.com/shteeve3d/blender-wiggle-2) ![][gpl]
     -   [Spring Bones](https://github.com/artellblender/springbones) : Blender addon to add spring/bouncy dynamic effect to bones.
-    -   [Rigid Body Bones](https://github.com/Pauan/blender-rigid-body-bones) : Blender Addon which adds rigid body / spring physics to bones.
+    -   [Rigid Body Bones](https://github.com/Pauan/blender-rigid-body-bones) : Blender addon which adds rigid body / spring physics to bones.
+    -   [Bone Widget](https://github.com/BlenderDefender/boneWidget) : Blender addon to assist with making custom bone shapes.
 
 ### 🗜Render Engine [^](#table)
 
