@@ -898,7 +898,8 @@ _Some accounts where you can find different kinds of content related to blender.
 -   [Kevandram](https://www.youtube.com/user/kevandram/videos) : grease pencil.
 -   [Noggi](https://www.youtube.com/c/Noggi_Video/videos) : sculpting.
 -   [DerekElliott](https://www.youtube.com/c/DerekElliott/videos) : modeling, animation.
--   [Samuel Sullins](https://www.youtube.com/@samuelsullins) : Geometry Nodes, vfx, lowpoly, general
+-   [Samuel Sullins](https://www.youtube.com/@samuelsullins) : Geometry Nodes, vfx, lowpoly, general.
+-   [CG Python](https://www.youtube.com/@CGPython) : blender Python scripting tips and tricks.
 
 ### 💻Blogs [^](#table)
 
