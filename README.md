@@ -660,6 +660,7 @@
 
 ### Various Tools [^](#table)
 
+-   [Allusion](https://allusion-app.github.io/) : Organizer for your entire collection of references, inspiration and any other kinds of images. [![][repo]](https://github.com/allusion-app/Allusion)
 -   [Quixel Bridge](https://quixel.com/bridge) : Connects Megascans to all your favorite tools including Blender.
 -   [PureRef](https://www.pureref.com/) : Simple way to view and organize your reference images.
 -   [DJV](https://darbyjohnston.github.io/DJV/) : Professional image sequence, media review software for VFX, animation, and film production. [![][repo]](https://github.com/darbyjohnston/DJV)
