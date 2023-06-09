@@ -359,6 +359,9 @@
 -   Render:
     -   [BatchRender](https://github.com/VertStretch/RenderBurst), [Notify](https://github.com/Dziban-dev/Notify_Blender_Render), [AlarmShutdown](https://gumroad.com/l/PcDfw), [RenderButton](https://github.com/Mitsuma/Blender2.8-RenderButton).
     -   [MDSANIMA RenderTime](https://github.com/mdsanima-dev/mdsanima-render-time) : Blender add-on estimates and calculate how long your animation will take to render done based on the rendering time of the only one frame.
+    -   [Super Res Render](https://pidgeontools.gumroad.com/l/SuperResRender) : Plugin that splits renders up into several chunks to make rendering at super high resolutions possible.
+    -   [Super Fast Render](https://pidgeontools.gumroad.com/l/SuperFastRender) : Either uses preset render settings optimised to speed up render times or Uses a benchmark to detect the fastest settings for the same render quality
+    -   [Super Image Denoiser](https://pidgeontools.gumroad.com/l/SuperImageDenoiser) : Super high quality denoiser that desnoises the scene in several layers to reduce artifacts
 -   Camera:
     -   [Real Camera](https://3d-wolf.com/products/camera.html) : is an addon that allows you to control the Blender camera like a real camera.
     -   [Cameras-Lister](https://github.com/Ryxx/Cameras-Lister) : Easy select camera’s in popup shortcut is Alt-C.
