@@ -18,9 +18,9 @@
 <div align="center">
     <h2>Contents:</h2>
     <p>| <a href="#Add-ons-">🔮Add-ons</a> | <a href="#Resources-">🪐Resources</a> | <a
-            href="#Standalone-">📥Standalone</a> | <a href="#Explore-Blender-">🔍Explore Blender</a> | <a
-            href="#Social-">🖇Social</a> | <a href="#Tutorials-">👩🏻‍🏫Tutorials</a> | <a
-            href="#Development-">👩🏽‍💻Development</a> |</p>
+            href="#Standalone-">📥Standalone</a> | <a href="#Explore-Blender-">🔍Explore Blender</a> | <a href="#Tutorials-">👩🏻‍🏫Tutorials</a> | <a
+            href="#Development-">👩🏽‍💻Development</a> | <a
+            href="#Social-">🖇Social</a> |</p>
 </div>
 
 <details><summary><b>Show Detailed Table:</b></summary>
@@ -75,16 +75,6 @@
             <li><a href="#Community-">Community</a></li>
         </ul>
     </li>
-    <li><a href="#Social-">🖇Social</a>
-        <ul>
-            <li><a href="#Explore-Artworks-">🔍Explore Artworks</a></li>
-            <li><a href="#Twitter-Accounts-">🐦Twitter Accounts</a></li>
-            <li><a href="#Youtube-Channels-">📢Youtube Channels</a></li>
-            <li><a href="#Blogs-">💻Blogs</a></li>
-            <li><a href="#Challenges-">🎊Challenges</a></li>
-            <li><a href="#Events-">🎉Events</a></li>
-        </ul>
-    </li>
     <li><a href="#Tutorials-">👩🏻‍🏫Tutorials</a>
         <ul>
             <li><a href="#Beginning-">🍩Beginning</a></li>
@@ -108,6 +98,16 @@
             <li><a href="#Learn-Python-">Learn Python</a></li>
             <li><a href="#Learn-Computer-Graphics-">Learn Computer Graphics</a></li>
             <li><a href="#Related-Awesome-Lists-">Related Awesome Lists</a></li>
+        </ul>
+    </li>
+    <li><a href="#Social-">🖇Social</a>
+        <ul>
+            <li><a href="#Explore-Artworks-">🔍Explore Artworks</a></li>
+            <li><a href="#Twitter-Accounts-">🐦Twitter Accounts</a></li>
+            <li><a href="#Youtube-Channels-">📢Youtube Channels</a></li>
+            <li><a href="#Blogs-">💻Blogs</a></li>
+            <li><a href="#Challenges-">🎊Challenges</a></li>
+            <li><a href="#Events-">🎉Events</a></li>
         </ul>
     </li>
     <li><a href="#Symbols-">Symbols</a></li>
@@ -326,7 +326,7 @@
 -   [Asset Creation Toolset](https://gumroad.com/l/hPXIh) : Asset Creation Toolset is many tools for game asset creation.
 -   [Mixamo Converter](https://github.com/enziop/mixamo_converter) : is a Blender Plugin that Converts Mixamo animations to work in Unreal Engine 4 with root motion.
 -   [WoT Tank Viewer](https://bitbucket.org/SkepticalFox/bigworld-blender-tools-wot-wowp-wows) : is a package of plugins for Blender, which allows you view 3D models from World of Tanks.
-- Game Engine:
+-   Game Engine:
     -   [Armory3D](https://armory3d.org/) : is an open-source 3D game engine with full Blender integration. [![][repo]](https://github.com/armory3d/armory)
     -   [UPBGE](https://upbge.org/) : is an open-source 3D game engine forked from old Blender Game Engine, deployed with Blender itself. [![][repo]](https://github.com/UPBGE/upbge)
     -   [Arsenal](https://katharostech.github.io/arsenal) : is a Blender integrated game engine written in Rust. [![][repo]](https://github.com/katharostech/arsenal)
@@ -862,15 +862,6 @@
 -   Hard Surface:
     -   ☰[Hard-surface Modeling in Blender by Gleb Alexandrov.](https://www.youtube.com/playlist?list=PL2aDImegRwZHQsA5_N4DpaOQmUXaIsBdN)
     -   ▷[Blender Hardsurface Sculpting Tips.](https://www.youtube.com/watch?v=qbC2iX4SATc)
--   Procedural Modeling: (Sverchok, Sorcar, Modifiers)
-    -   🧾[Sverchok Documentation.](https://sverchok.readthedocs.io/en/latest/main.html)
-    -   ▷[Sverchok Nodes - Quick Guide 4 minutes.](https://www.youtube.com/watch?v=mHNeH8H2wZI)
-    -   ☰[Sverchok Exploration by Jimmy Gunawan.](https://www.youtube.com/playlist?list=PLsbztkb4az9iEow8vgB0guWe1kd1Gw6Dy)
-    -   🧾[Sorcar Documentation.](https://github.com/aachman98/Sorcar/wiki/Getting-started)
-    -   ▷[Exploring Nodes of Sorcar.](https://youtu.be/tWhfj9otoYM)
-    -   🧾[Modifiers Manual.](https://docs.blender.org/manual/en/latest/modeling/modifiers/index.html)
-    -   ▷[Generative Modeling with Modifiers.](https://www.youtube.com/watch?v=qC5eX_WZU2E)
-    -   ☷[Midge Sinnaeve's Channel](https://www.youtube.com/user/T4ch1k0ma/videos)
 
 ### 🌌Geometry Nodes [^](#table)
 
