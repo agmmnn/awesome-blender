@@ -18,9 +18,9 @@
 <div align="center">
     <h2>Contents:</h2>
     <p>| <a href="#Add-ons-">🔮Add-ons</a> | <a href="#Resources-">🪐Resources</a> | <a
-            href="#Standalone-">📥Standalone</a> | <a href="#Explore-Blender-">🔍Explore Blender</a> | <a
-            href="#Social-">🖇Social</a> | <a href="#Tutorials-">👩🏻‍🏫Tutorials</a> | <a
-            href="#Development-">👩🏽‍💻Development</a> |</p>
+            href="#Standalone-">📥Standalone</a> | <a href="#Explore-Blender-">🔍Explore Blender</a> | <a href="#Tutorials-">👩🏻‍🏫Tutorials</a> | <a
+            href="#Development-">👩🏽‍💻Development</a> | <a
+            href="#Social-">🖇Social</a> |</p>
 </div>
 
 <details><summary><b>Show Detailed Table:</b></summary>
@@ -75,16 +75,6 @@
             <li><a href="#Community-">Community</a></li>
         </ul>
     </li>
-    <li><a href="#Social-">🖇Social</a>
-        <ul>
-            <li><a href="#Explore-Artworks-">🔍Explore Artworks</a></li>
-            <li><a href="#Twitter-Accounts-">🐦Twitter Accounts</a></li>
-            <li><a href="#Youtube-Channels-">📢Youtube Channels</a></li>
-            <li><a href="#Blogs-">💻Blogs</a></li>
-            <li><a href="#Challenges-">🎊Challenges</a></li>
-            <li><a href="#Events-">🎉Events</a></li>
-        </ul>
-    </li>
     <li><a href="#Tutorials-">👩🏻‍🏫Tutorials</a>
         <ul>
             <li><a href="#Beginning-">🍩Beginning</a></li>
@@ -110,6 +100,16 @@
             <li><a href="#Related-Awesome-Lists-">Related Awesome Lists</a></li>
         </ul>
     </li>
+    <li><a href="#Social-">🖇Social</a>
+        <ul>
+            <li><a href="#Explore-Artworks-">🔍Explore Artworks</a></li>
+            <li><a href="#Twitter-Accounts-">🐦Twitter Accounts</a></li>
+            <li><a href="#Youtube-Channels-">📢Youtube Channels</a></li>
+            <li><a href="#Blogs-">💻Blogs</a></li>
+            <li><a href="#Challenges-">🎊Challenges</a></li>
+            <li><a href="#Events-">🎉Events</a></li>
+        </ul>
+    </li>
     <li><a href="#Symbols-">Symbols</a></li>
     <li><a href="#Contributing-">Contributing</a></li>
 </ul>
@@ -131,7 +131,10 @@
 ### 🦑Generator/Builder [^](#table)
 
 -   [CharMorph](https://blenderartists.org/t/charmorph-character-creation-tool-mb-lab-based/1252543) : is an open source character creation tool for Blender. It's a rewrite of [MB-Lab](https://github.com/animate1978/MB-Lab), which is now unmaintained. [![][repo]](https://github.com/Upliner/CharMorph)
+-   [MPFB](http://static.makehumancommunity.org/mpfb.html) : MPFB2 is an open source human generator for Blender. It's complete rewrite of MakeHuman as a Blender addon. [![][repo]](https://github.com/makehumancommunity/mpfb2)
 -   [FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) [$] : is a Blender add-on that lets you create photorealistic 3D models of human faces and heads using a few photographs with a neutral face expression. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
+-   [Tiny Eye](https://tinynocky.gumroad.com/l/tinyeye) : Tiny Eye is a FREE, fully procedural, stylised eye that works in Eevee and Cycles.
+-   [Infinigen](https://infinigen.org) : Infinigen is a procedural generator of 3D scenes. It can generate infinite Photorealistic Worlds using real geometry. Infinigen is optimized for computer vision research and generates diverse high-quality 3D training data.
 -   [Wolf Generators](https://3d-wolf.com/products/assets/generators/) : a pack of 16 geometry nodes generators, including Bridge, Cables, Chain, Falling Particles, Lightning, Music Visualizer, Rope, Snow, Snow Flake, Spider Web.
 -   [Buildify](https://paveloliva.gumroad.com/l/buildify) : is a geometry nodes library for easy building creation.
 -   [Building Tools](https://github.com/ranjian0/building_tools) : Building generation addon for blender.
@@ -247,8 +250,6 @@
 -   [Stop-Mo](https://blendermarket.com/products/stop-mo) : transforms animations into a beautiful, hand-crafted stop motion style.
 -   [Blender NLA Midi Copier](https://github.com/Cornerback24/Blender-NLA-Midi-Copier) : Blender add-on for creating midi-driven animations from the Nonlinear Animation view.
 -   [BlendyPose](https://github.com/zonkosoft/BlendyPose) : Blender Motion Capture using your camera.
--   Writing/Counting:
-    -   [WritingAnimation](https://github.com/Shriinivas/writinganimation), [Typewriter](https://github.com/doakey3/blender-typewriter-addon), [TextCounter](https://github.com/leomoon-studios/leomoon-textcounter/), [GreaseWriter](https://github.com/doakey3/GreaseWriter).
 -   Rigging:
     -   [BlenRig](https://www.blendermarket.com/products/blenrig) : BlenRig is an Auto-rigging and skinning system. It provides the user with a Feature Film quality rig; including an advanced facial system. [![][repo]](https://github.com/jpbouza/BlenRig) ![][gpl]
     -   [Rig on the Fly](https://gitlab.com/dypsloom/rigonthefly) : Rig on the Fly is a Blender dynamic rigging tool used to simplify and speed up animation workflow.
@@ -260,6 +261,11 @@
     -   [Spring Bones](https://github.com/artellblender/springbones) : Blender addon to add spring/bouncy dynamic effect to bones.
     -   [Rigid Body Bones](https://github.com/Pauan/blender-rigid-body-bones) : Blender addon which adds rigid body / spring physics to bones.
     -   [Bone Widget](https://github.com/BlenderDefender/boneWidget) : Blender addon to assist with making custom bone shapes.
+-   Writing/Counting:
+    -   [WritingAnimation](https://github.com/Shriinivas/writinganimation) : This add-on generates writing animation for the selected Bezier curves in blender.
+    -   [Typewriter](https://github.com/doakey3/blender-typewriter-addon) : Typewriter text animation for font objects.
+    -   [TextCounter](https://github.com/leomoon-studios/leomoon-textcounter/) : LeoMoon TextCounter is an easy to use text animation plugin for Blender that can be used to make GUI simulations.
+    -   [GreaseWriter](https://github.com/doakey3/GreaseWriter) : A Blender Add-on for auto-animating grease pencil strokes and emulating hand-drawn text.
 
 ### 🗜Render Engine [^](#table)
 
@@ -271,6 +277,7 @@
 -   [Redshift Blender Integration](https://www.maxon.net/en/redshift/integrations?categories=721103) [$] : Redshift by Maxon is a GPU-accelerated renderer built to meet the specific demands of contemporary high-end production rendering.
 -   [LuxCore](https://luxcorerender.org/) : LuxCoreRender is a physically based and unbiased rendering engine. It offers advanced features like accelerated rendering of indirect light and efficient rendering of caustics. [![][repo]](https://github.com/LuxCoreRender/BlendLuxCore) [(blender addon)](https://github.com/LuxCoreRender/BlendLuxCore) ![][gpl]
 -   [Malt](https://malt3d.com/) : Malt is a non photorealistic rendering (NPR) framework. It offers fully customizable real-time rendering framework for animation and illustration. [![][repo]](https://github.com/bnpr/Malt) ![][mit]
+-   [Pixel Art Rendering](https://lucasroedel.gumroad.com/l/pixel_art) : This is a free addon to make pixel art like renders in blender. It works with eevee, bayer dithering and multiple light sources.
 -   [Mitsuba Renderer](https://www.mitsuba-renderer.org/) : Mitsuba 3 is a research-oriented retargetable rendering system for forward and inverse light transport simulation. [![][repo]](https://github.com/mitsuba-renderer/mitsuba3) [(blender addon)](https://github.com/mitsuba-renderer/mitsuba-blender)
 -   [appleseed](https://appleseedhq.net/) : is an open source, physically-based global illumination rendering engine primarily designed for animation and visual effects. [![][repo]](https://github.com/appleseedhq/appleseed) [(blender addon)](https://github.com/appleseedhq/blenderseed) ![][mit]
 -   [E-Cycles](https://ecycles.gumroad.com/l/E-Cycles) [$] : is a fork of Cycles which renders up to 2.5x faster out of the box when using CUDA GPUs, up to 15x using new options.
@@ -301,6 +308,7 @@
 -   [EZ Baker](https://blenderartists.org/t/ez-baker/1245869) : An easier alternative to blender's default bake system. [![][repo]](https://gitlab.com/AquaticNightmare/ez_baker)
 -   [Bystedts Blender Baker](https://3dbystedt.gumroad.com/l/JAqLT) : This addon streamlines the texture baking process in Blender.
 -   [Flow Map Painter](https://clemensbeute.gumroad.com/l/heZDT) : This blender add-on provides a brush tool for flow map painting. [![][repo]](https://github.com/ClemensBeute/flow_map_painter)
+-   [Grungit](https://abdoubouam.gumroad.com/l/grungit) : Grungit is an addon that automatically and effortlessly adds wear and tear to your models with a single click. The result is fully controllable and can deliver anything from imperfections and light wear to heavy damage. ![][gpl]
 -   [Layer Painter](https://joshuaknauber.gumroad.com/l/layerpainter) : allows you to use a Layer-System for creating materials with painting and procedurals. The layers include masks, filters and much more. Even though the addon is designed with a PBR workflow in mind, you can also use it for stylized painting. [![][repo]](https://github.com/joshuaKnauber/layer_painter)
 -   [Sanctus Library](https://blendermarket.com/products/sanctus-library-addon---procedural-shaders-collection-for-blender/) [$] : The ever-growing procedural material library for Blender.
 
@@ -318,6 +326,11 @@
 -   [Asset Creation Toolset](https://gumroad.com/l/hPXIh) : Asset Creation Toolset is many tools for game asset creation.
 -   [Mixamo Converter](https://github.com/enziop/mixamo_converter) : is a Blender Plugin that Converts Mixamo animations to work in Unreal Engine 4 with root motion.
 -   [WoT Tank Viewer](https://bitbucket.org/SkepticalFox/bigworld-blender-tools-wot-wowp-wows) : is a package of plugins for Blender, which allows you view 3D models from World of Tanks.
+-   Game Engine:
+    -   [Armory3D](https://armory3d.org/) : is an open-source 3D game engine with full Blender integration. [![][repo]](https://github.com/armory3d/armory)
+    -   [UPBGE](https://upbge.org/) : is an open-source 3D game engine forked from old Blender Game Engine, deployed with Blender itself. [![][repo]](https://github.com/UPBGE/upbge)
+    -   [Arsenal](https://katharostech.github.io/arsenal) : is a Blender integrated game engine written in Rust. [![][repo]](https://github.com/katharostech/arsenal)
+    -   [INOX](https://github.com/gents83/INOX) : Rust Game engine integrated in Blender.
 
 ### 🪀Misc [^](#table)
 
@@ -336,11 +349,6 @@
     -   [Physical Starlight and Atmosphere](https://blendermarket.com/products/physical-starlight-and-atmosphere) [$] : is a full environmental simulator that takes inspiration of 'sandbox' game worlds and editors, bringing visual consistency between every object in the scene.
     -   [Free Sky Environment Shading](https://gumroad.com/l/JUyxL) : free custom procedural environment shading.
     -   [Lumiere](https://github.com/clarkx/Lumiere-V0.4) : Interactive Lighting add-on for Blender.
--   Game Engine:
-    -   [Armory3D](https://armory3d.org/) : is an open-source 3D game engine with full Blender integration. [![][repo]](https://github.com/armory3d/armory)
-    -   [UPBGE](https://upbge.org/) : is an open-source 3D game engine forked from old Blender Game Engine, deployed with Blender itself. [![][repo]](https://github.com/UPBGE/upbge)
-    -   [Arsenal](https://katharostech.github.io/arsenal) : is a Blender integrated game engine written in Rust. [![][repo]](https://github.com/katharostech/arsenal)
-    -   [INOX](https://github.com/gents83/INOX) : Rust Game engine integrated in Blender.
 -   Geographic/Maps:
     -   [BlenderGIS](https://github.com/domlysz/BlenderGIS) : Blender addons to make the bridge between Blender and geographic data.
     -   [Maps Models Importer](https://github.com/eliemichel/MapsModelsImporter) : A Blender add-on to import models from _Google Maps_. [[more info]](https://blog.exppad.com/article/importing-actual-3d-models-from-google-maps)
@@ -812,132 +820,6 @@
 
 ---
 
-<!-- Contributing Guidelines for Social:
--->
-
-## 🖇Social [^](#table)
-
-### 🔍Explore Artworks [^](#table)
-
-[![](https://img.shields.io/badge/reddit-r%2Fblender-yellowgreen?logo=reddit&style=flat-square)](https://www.reddit.com/r/blender/)
-[![](https://img.shields.io/badge/instagram-%23b3d-yellowgreen?logo=instagram&style=flat-square)](https://www.instagram.com/explore/tags/b3d/)
-[![](https://img.shields.io/badge/twitter-%23b3d-yellowgreen?logo=twitter&style=flat-square)](https://twitter.com/hashtag/b3d)
-[![](https://img.shields.io/badge/artstation-%27blender%27-yellowgreen?logo=artstation&style=flat-square)](https://www.artstation.com/search?sort_by=relevance&query=blender)
-[![](https://img.shields.io/badge/behance-%27blender%27-yellowgreen?logo=behance&style=flat-square)](https://www.behance.net/search?content=projects&user_tags=1012327)
-[![](https://img.shields.io/badge/blenderartists-artwork-yellowgreen?logo=&style=flat-square)](https://blenderartists.org/c/artwork/8)
-
-### 🐦Twitter Accounts [^](#table)
-
-_Some accounts where you can find different kinds of content related to blender._
-
-[@pablodp606](https://twitter.com/pablodp606),
-[@3DBystedt](https://twitter.com/3DBystedt),
-[@ppaawweeuu](https://twitter.com/ppaawweeuu),
-[@mxeon1001](https://twitter.com/mxeon1001),
-[@Mrdodobird](https://twitter.com/Mrdodobird),
-[@ArtFromRachel](https://twitter.com/ArtFromRachel),
-[@wanoco4D](https://twitter.com/wanoco4D),
-[@dedouze\_](https://twitter.com/dedouze_),
-[@AFX_LAB](https://twitter.com/AFX_LAB),
-[@Yokohara_h](https://twitter.com/Yokohara_h),
-[@Karl_poyzer](https://twitter.com/Karl_poyzer),
-[@Kazlyan](https://twitter.com/Kazlyan),
-[@arc4g](https://twitter.com/arc4g),
-[@FlipFluids](https://twitter.com/FlipFluids),
-[@CGGeeks](https://twitter.com/CGGeeks),
-[@PabloVazquez\_](https://twitter.com/PabloVazquez_),
-[@IMilk_ManI](https://twitter.com/IMilk_ManI),
-[@bluefox_3d](https://twitter.com/bluefox_3d),
-[@LucaRood](https://twitter.com/LucaRood),
-[@janurschel](https://twitter.com/janurschel),
-[@zuggamasta](https://twitter.com/zuggamasta),
-[@andrewpprice](https://twitter.com/andrewpprice),
-[@brentpatterson](https://twitter.com/brentpatterson),
-[@FinEskimo](https://twitter.com/FinEskimo)
-[@VicDoval](https://twitter.com/VicDoval)
-
-<!-- Need to help for channel descriptions -->
-
-### 📢Youtube Channels [^](#table)
-
--   [IanHubert](https://www.youtube.com/user/mrdodobird/videos) : _Lazy tutorials_, modeling, animating, vfx, cinematic.
--   [Midge Sinnaeve](https://www.youtube.com/channel/UCChYCkbgArLsCl5DWlxuKhQ/videos) : modifiers, _weird sh!t_, art streams.
--   [CGMatter](https://www.youtube.com/channel/UCy1f4m64dwCwk8CBZ_vHfPg/videos) : short tutorials.
--   [Default Cube](https://www.youtube.com/channel/UCdpWKLNfbROyoGPV46-zaUQ/videos) : CGMatter's second channel used for longer tutorials and other kinds of videos.
--   [SouthernShotty](https://www.youtube.com/channel/UCOWrbryuVEPUMSSgayuLURg/videos) : stylized modeling, character creation, sculpting.
--   [Blender Guru ](https://www.youtube.com/user/AndrewPPrice/videos) : Most popular blender channel on youtube.
--   [CG Geek](https://www.youtube.com/user/Blenderfan93/videos) : second most popular blender channel on youtube.
--   [Gleb Alexandrov](https://www.youtube.com/user/GlebAlexandrov/videos) : one of the best-known blender channel on youtube.
--   [Ducky 3D](https://www.youtube.com/channel/UCuNhGhbemBkdflZ1FGJ0lUQ/videos) : abstract designs, modifiers.
--   [Royal Skies LLC](https://www.youtube.com/channel/UC2U5mRfclG1Rrr1ztNkpGKA/videos) : _Speed tutorials_, texturing, mapping, nodes, animation.
--   [Grant Abbitt](https://www.youtube.com/user/mediagabbitt/videos) : modeling, animation, sculpting, low-poly, game assets.
--   [Chris Prenninger](https://www.youtube.com/user/chrisprenn/videos) : animation nodes, particle systems, shading.
--   [Jayanam](https://www.youtube.com/user/jayanamgames/videos) : Shading, coding, modeling.
--   [CG Boost](https://www.youtube.com/channel/UCWWybvw9jnpOdJq_6wTHryA/videos) : modeling, sculpting.
--   [CG Cookie](https://www.youtube.com/user/blendercookie/videos) : free tutorials from [CG Cookie](https://cgcookie.com/).
--   [FlippedNormals](https://www.youtube.com/user/FlippedNormalsTuts/videos) : sculpting, modeling.
--   [Curtis Holt](https://www.youtube.com/channel/UCzghqpGuEmk4YdVewxA79GA/videos) : modeling, modifiers, coding.
--   [Polygon Runway](https://www.youtube.com/channel/UCGSJevmBuDyxjLLOBNaYMGA/videos) : stylish low-poly modeling.
--   [Steven Scott](https://www.youtube.com/channel/UCiy-QcXrvu9hhe4arymNcfw/videos) : add-ons, feature reviews.
--   [Blender NPR](https://www.youtube.com/user/blendernpr/videos) : non-Photorealistic and expressive rendering.
--   [Martin Klekner](https://www.youtube.com/user/CamperCz/videos) : modeling, texturing.
--   [Danny Mac 3D](https://www.youtube.com/user/djmccabie/videos) : character modeling, posing, rigging, retopology, sculpting.
--   [Daniel Krafft - DSO](https://www.youtube.com/channel/UCojEXrCBzO-cP2N5YlRcrWw/videos) : blender tips, add-ons.
--   [Imphenzia](https://www.youtube.com/user/ImphenziaMusic/videos) : low poly modeling, rigging.
--   [Saqib Hussain](https://www.youtube.com/user/sh2708mf/videos) : modeling, modifiers, texturing, shading.
--   [CrossMind Studio](https://www.youtube.com/channel/UCHihootMqyGz175gqOPahtw/videos) : introduction, modeling, shading, lighting, modifiers.
--   [CBaileyFilm](https://www.youtube.com/channel/UCXguhzOm29mBTYDuxKjxn5A/videos) : blender animation projects.
--   [Josh Gambrell](https://www.youtube.com/c/JoshGambrell/videos) : hard surface modeling.
--   [CG Masters](https://www.youtube.com/user/blengine/videos) : modeling, texturing, shading.
--   [Peter France](https://www.youtube.com/c/PeterFrance/videos) : modeling, texturing, shading, vfx.
--   [Polyfjord](https://www.youtube.com/c/Polyfjord/videos) : animation.
--   [Cédric Lepiller](https://www.youtube.com/c/pitiwazou/videos) : hard surface modeling.
--   [FlyCat](https://www.youtube.com/channel/UCnXU0MjnApXHZkf3uGYbLSA/videos) : character modeling.
--   [Stylized Station](https://www.youtube.com/c/StylizedStation/videos) : game art.
--   [Iridesium](https://www.youtube.com/c/Iridesium/videos) : simulation, vfx.
--   [Lightning Boy Studio](https://www.youtube.com/channel/UCd9i2MKimSaKezat1xkn8-A/videos) : toon shader, npr.
--   [Giulia Marchetti](https://www.youtube.com/c/GiuliaMarchetti3d/videos) : sculpting, character modeling.
--   [CG Fast Track](https://www.youtube.com/c/CGFastTrack/videos) : modeling, animation.
--   [3DGreenhorn](https://www.youtube.com/c/3DGreenhorn/videos) : isometric modeling.
--   [Bad Normals](https://www.youtube.com/c/BadNormals/videos) : modeling, animation.
--   [Kevandram](https://www.youtube.com/user/kevandram/videos) : grease pencil.
--   [Noggi](https://www.youtube.com/c/Noggi_Video/videos) : sculpting.
--   [DerekElliott](https://www.youtube.com/c/DerekElliott/videos) : modeling, animation.
--   [Samuel Sullins](https://www.youtube.com/@samuelsullins) : Geometry Nodes, vfx, lowpoly, general.
--   [CG Python](https://www.youtube.com/@CGPython) : blender Python scripting tips and tricks.
-
-### 💻Blogs [^](#table)
-
--   [The Blend](https://blend.beehiiv.com) : Weekly articles & lessons on Blender & 3D
--   [Blender Sushi](https://blendersushi.blogspot.com/) : Collection of 3D ideas, poetries and experiments blended in Blender 3D.
--   [Artisticrender](https://artisticrender.com/) : Tutorials, tips, resources about Blender and 3D.
--   [Creative Shrimp](https://www.creativeshrimp.com/) : High quality CG tutorials and Blender tutorials, digital art and lighting tutorials with Gleb and Aidy.
--   [Blender 3D Architect](https://www.blender3darchitect.com/) : is the place to find news, tutorials, resources and training related to architectural visualization using Blender.
--   [BlenderAddons.org](https://blender-addons.org/) : provides a list of free and paid Blender addons. Find the addon you need under categories or tags.
--   [Interplanety](https://b3d.interplanety.org/en/) : Blender tutorials, articles, tips, notes.
--   [Darkfall](https://darkfallblender.blogspot.com/) : Blender python tutorials, nodes.
--   [The CG Essentials](https://thecgessentials.com/) : 3D modeling, rendering, animation, particle simulation, and more, this is the place to be for Blender Tutorials.
--   [Blender Secrets](https://www.blendersecrets.org/secrets) : is home to hundreds of one-minute or less video tutorials that teach you specific topics.
-
-### 🎊Challenges [^](#table)
-
--   [Nodevember](https://nodevember.io/) : The yearly event for everything procedural. Feel like doing a challenge? #nodevember is all about creating and promoting procedural awesomeness! A whole month to improve and show off your procedural skills.
-    -   See works: [tw/#nodevember](https://twitter.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?sort_by=relevance&query=nodevember)
--   [SculptJanuary](https://www.cgboost.com/challenges) : Challenge yourself over 31 days with a set of 31 topics.
-    Sculpt every day and improve your sculpting skills.
-    -   See works: [tw/#sculptjanuary](https://twitter.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary)
--   [36 Days of Type](http://www.36daysoftype.com/) : is a yearly open call inviting designers, illustrators and visual artists to share their view on the letters and numbers from our alphabet.
-    -   See works: [tw/#36daysoftype](https://twitter.com/hashtag/36daysoftype), [ig/#36daysoftype](https://www.instagram.com/explore/tags/36daysoftype/), [artstation/36daysoftype](https://www.artstation.com/search?sort_by=relevance&query=6daysoftype)
--   Competitions: [/r/blender: contest](https://www.reddit.com/r/blender/), [blenderartists.org/contest](https://blenderartists.org/c/contests).
--   [Render Challenge](https://renderchallenge.com/) : The most up-to-date database of 3D art challenges on the Internet! Get notified of new render challenges every Friday.
--   [pwnisher](https://www.youtube.com/c/pwnisher/videos) : Clinton Jones' Youtube channel regularly organizes 3D Challanges.
-
-### 🎉Events [^](#table)
-
--   [Blender Conference](https://conference.blender.org/) : The yearly Blender Conference in Amsterdam. (Playlists: [Bcon22](https://www.youtube.com/playlist?list=PLa1F2ddGya__2Ip2UB-xp6M54cQVvw1W-), [Bcon20](https://www.youtube.com/watch?v=uEjmbsiflMU), [Bcon19](https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S), [Bcon18](https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B), [Bcon17](https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO)).
-
----
-
 <!-- Contributing Guidelines for Tutorials:
 - The added video must have information appropriate to the category.
 - Please do not add for advertising purposes.
@@ -980,15 +862,6 @@ _Some accounts where you can find different kinds of content related to blender.
 -   Hard Surface:
     -   ☰[Hard-surface Modeling in Blender by Gleb Alexandrov.](https://www.youtube.com/playlist?list=PL2aDImegRwZHQsA5_N4DpaOQmUXaIsBdN)
     -   ▷[Blender Hardsurface Sculpting Tips.](https://www.youtube.com/watch?v=qbC2iX4SATc)
--   Procedural Modeling: (Sverchok, Sorcar, Modifiers)
-    -   🧾[Sverchok Documentation.](https://sverchok.readthedocs.io/en/latest/main.html)
-    -   ▷[Sverchok Nodes - Quick Guide 4 minutes.](https://www.youtube.com/watch?v=mHNeH8H2wZI)
-    -   ☰[Sverchok Exploration by Jimmy Gunawan.](https://www.youtube.com/playlist?list=PLsbztkb4az9iEow8vgB0guWe1kd1Gw6Dy)
-    -   🧾[Sorcar Documentation.](https://github.com/aachman98/Sorcar/wiki/Getting-started)
-    -   ▷[Exploring Nodes of Sorcar.](https://youtu.be/tWhfj9otoYM)
-    -   🧾[Modifiers Manual.](https://docs.blender.org/manual/en/latest/modeling/modifiers/index.html)
-    -   ▷[Generative Modeling with Modifiers.](https://www.youtube.com/watch?v=qC5eX_WZU2E)
-    -   ☷[Midge Sinnaeve's Channel](https://www.youtube.com/user/T4ch1k0ma/videos)
 
 ### 🌌Geometry Nodes [^](#table)
 
@@ -1144,6 +1017,132 @@ _Some accounts where you can find different kinds of content related to blender.
 -   [GameDev Resources](https://github.com/Kavex/GameDev-Resources) : A wonderful list of Game Development resources.
 -   [VFX Good Night Reading](https://github.com/jtomori/vfx_good_night_reading) : Curated collection of good reading about VFX and CG.
 -   [Photogrammetry Guide](https://github.com/mikeroyal/Photogrammetry-Guide) : A guide covering Photogrammetry including the applications, libraries and tools that will make you a better and more efficient Photogrammetry development.
+
+---
+
+<!-- Contributing Guidelines for Social:
+-->
+
+## 🖇Social [^](#table)
+
+### 🔍Explore Artworks [^](#table)
+
+[![](https://img.shields.io/badge/reddit-r%2Fblender-yellowgreen?logo=reddit&style=flat-square)](https://www.reddit.com/r/blender/)
+[![](https://img.shields.io/badge/instagram-%23b3d-yellowgreen?logo=instagram&style=flat-square)](https://www.instagram.com/explore/tags/b3d/)
+[![](https://img.shields.io/badge/twitter-%23b3d-yellowgreen?logo=twitter&style=flat-square)](https://twitter.com/hashtag/b3d)
+[![](https://img.shields.io/badge/artstation-%27blender%27-yellowgreen?logo=artstation&style=flat-square)](https://www.artstation.com/search?sort_by=relevance&query=blender)
+[![](https://img.shields.io/badge/behance-%27blender%27-yellowgreen?logo=behance&style=flat-square)](https://www.behance.net/search?content=projects&user_tags=1012327)
+[![](https://img.shields.io/badge/blenderartists-artwork-yellowgreen?logo=&style=flat-square)](https://blenderartists.org/c/artwork/8)
+
+### 🐦Twitter Accounts [^](#table)
+
+_Some accounts where you can find different kinds of content related to blender._
+
+[@pablodp606](https://twitter.com/pablodp606),
+[@3DBystedt](https://twitter.com/3DBystedt),
+[@ppaawweeuu](https://twitter.com/ppaawweeuu),
+[@mxeon1001](https://twitter.com/mxeon1001),
+[@Mrdodobird](https://twitter.com/Mrdodobird),
+[@ArtFromRachel](https://twitter.com/ArtFromRachel),
+[@wanoco4D](https://twitter.com/wanoco4D),
+[@dedouze\_](https://twitter.com/dedouze_),
+[@AFX_LAB](https://twitter.com/AFX_LAB),
+[@Yokohara_h](https://twitter.com/Yokohara_h),
+[@Karl_poyzer](https://twitter.com/Karl_poyzer),
+[@Kazlyan](https://twitter.com/Kazlyan),
+[@arc4g](https://twitter.com/arc4g),
+[@FlipFluids](https://twitter.com/FlipFluids),
+[@CGGeeks](https://twitter.com/CGGeeks),
+[@PabloVazquez\_](https://twitter.com/PabloVazquez_),
+[@IMilk_ManI](https://twitter.com/IMilk_ManI),
+[@bluefox_3d](https://twitter.com/bluefox_3d),
+[@LucaRood](https://twitter.com/LucaRood),
+[@janurschel](https://twitter.com/janurschel),
+[@zuggamasta](https://twitter.com/zuggamasta),
+[@andrewpprice](https://twitter.com/andrewpprice),
+[@brentpatterson](https://twitter.com/brentpatterson),
+[@FinEskimo](https://twitter.com/FinEskimo)
+[@VicDoval](https://twitter.com/VicDoval)
+
+<!-- Need to help for channel descriptions -->
+
+### 📢Youtube Channels [^](#table)
+
+-   [IanHubert](https://www.youtube.com/user/mrdodobird/videos) : _Lazy tutorials_, modeling, animating, vfx, cinematic.
+-   [Midge Sinnaeve](https://www.youtube.com/channel/UCChYCkbgArLsCl5DWlxuKhQ/videos) : modifiers, _weird sh!t_, art streams.
+-   [CGMatter](https://www.youtube.com/channel/UCy1f4m64dwCwk8CBZ_vHfPg/videos) : short tutorials.
+-   [Default Cube](https://www.youtube.com/channel/UCdpWKLNfbROyoGPV46-zaUQ/videos) : CGMatter's second channel used for longer tutorials and other kinds of videos.
+-   [SouthernShotty](https://www.youtube.com/channel/UCOWrbryuVEPUMSSgayuLURg/videos) : stylized modeling, character creation, sculpting.
+-   [Blender Guru ](https://www.youtube.com/user/AndrewPPrice/videos) : Most popular blender channel on youtube.
+-   [CG Geek](https://www.youtube.com/user/Blenderfan93/videos) : second most popular blender channel on youtube.
+-   [Gleb Alexandrov](https://www.youtube.com/user/GlebAlexandrov/videos) : one of the best-known blender channel on youtube.
+-   [Ducky 3D](https://www.youtube.com/channel/UCuNhGhbemBkdflZ1FGJ0lUQ/videos) : abstract designs, modifiers.
+-   [Royal Skies LLC](https://www.youtube.com/channel/UC2U5mRfclG1Rrr1ztNkpGKA/videos) : _Speed tutorials_, texturing, mapping, nodes, animation.
+-   [Grant Abbitt](https://www.youtube.com/user/mediagabbitt/videos) : modeling, animation, sculpting, low-poly, game assets.
+-   [Chris Prenninger](https://www.youtube.com/user/chrisprenn/videos) : animation nodes, particle systems, shading.
+-   [Jayanam](https://www.youtube.com/user/jayanamgames/videos) : Shading, coding, modeling.
+-   [CG Boost](https://www.youtube.com/channel/UCWWybvw9jnpOdJq_6wTHryA/videos) : modeling, sculpting.
+-   [CG Cookie](https://www.youtube.com/user/blendercookie/videos) : free tutorials from [CG Cookie](https://cgcookie.com/).
+-   [FlippedNormals](https://www.youtube.com/user/FlippedNormalsTuts/videos) : sculpting, modeling.
+-   [Curtis Holt](https://www.youtube.com/channel/UCzghqpGuEmk4YdVewxA79GA/videos) : modeling, modifiers, coding.
+-   [Polygon Runway](https://www.youtube.com/channel/UCGSJevmBuDyxjLLOBNaYMGA/videos) : stylish low-poly modeling.
+-   [Steven Scott](https://www.youtube.com/channel/UCiy-QcXrvu9hhe4arymNcfw/videos) : add-ons, feature reviews.
+-   [Blender NPR](https://www.youtube.com/user/blendernpr/videos) : non-Photorealistic and expressive rendering.
+-   [Martin Klekner](https://www.youtube.com/user/CamperCz/videos) : modeling, texturing.
+-   [Danny Mac 3D](https://www.youtube.com/user/djmccabie/videos) : character modeling, posing, rigging, retopology, sculpting.
+-   [Daniel Krafft - DSO](https://www.youtube.com/channel/UCojEXrCBzO-cP2N5YlRcrWw/videos) : blender tips, add-ons.
+-   [Imphenzia](https://www.youtube.com/user/ImphenziaMusic/videos) : low poly modeling, rigging.
+-   [Saqib Hussain](https://www.youtube.com/user/sh2708mf/videos) : modeling, modifiers, texturing, shading.
+-   [CrossMind Studio](https://www.youtube.com/channel/UCHihootMqyGz175gqOPahtw/videos) : introduction, modeling, shading, lighting, modifiers.
+-   [CBaileyFilm](https://www.youtube.com/channel/UCXguhzOm29mBTYDuxKjxn5A/videos) : blender animation projects.
+-   [Josh Gambrell](https://www.youtube.com/c/JoshGambrell/videos) : hard surface modeling.
+-   [CG Masters](https://www.youtube.com/user/blengine/videos) : modeling, texturing, shading.
+-   [Peter France](https://www.youtube.com/c/PeterFrance/videos) : modeling, texturing, shading, vfx.
+-   [Polyfjord](https://www.youtube.com/c/Polyfjord/videos) : animation.
+-   [Cédric Lepiller](https://www.youtube.com/c/pitiwazou/videos) : hard surface modeling.
+-   [FlyCat](https://www.youtube.com/channel/UCnXU0MjnApXHZkf3uGYbLSA/videos) : character modeling.
+-   [Stylized Station](https://www.youtube.com/c/StylizedStation/videos) : game art.
+-   [Iridesium](https://www.youtube.com/c/Iridesium/videos) : simulation, vfx.
+-   [Lightning Boy Studio](https://www.youtube.com/channel/UCd9i2MKimSaKezat1xkn8-A/videos) : toon shader, npr.
+-   [Giulia Marchetti](https://www.youtube.com/c/GiuliaMarchetti3d/videos) : sculpting, character modeling.
+-   [CG Fast Track](https://www.youtube.com/c/CGFastTrack/videos) : modeling, animation.
+-   [3DGreenhorn](https://www.youtube.com/c/3DGreenhorn/videos) : isometric modeling.
+-   [Bad Normals](https://www.youtube.com/c/BadNormals/videos) : modeling, animation.
+-   [Kevandram](https://www.youtube.com/user/kevandram/videos) : grease pencil.
+-   [Noggi](https://www.youtube.com/c/Noggi_Video/videos) : sculpting.
+-   [DerekElliott](https://www.youtube.com/c/DerekElliott/videos) : modeling, animation.
+-   [Samuel Sullins](https://www.youtube.com/@samuelsullins) : Geometry Nodes, vfx, lowpoly, general.
+-   [CG Python](https://www.youtube.com/@CGPython) : blender Python scripting tips and tricks.
+
+### 💻Blogs [^](#table)
+
+-   [The Blend](https://blend.beehiiv.com) : Weekly articles & lessons on Blender & 3D
+-   [Blender Sushi](https://blendersushi.blogspot.com/) : Collection of 3D ideas, poetries and experiments blended in Blender 3D.
+-   [Artisticrender](https://artisticrender.com/) : Tutorials, tips, resources about Blender and 3D.
+-   [Creative Shrimp](https://www.creativeshrimp.com/) : High quality CG tutorials and Blender tutorials, digital art and lighting tutorials with Gleb and Aidy.
+-   [Blender 3D Architect](https://www.blender3darchitect.com/) : is the place to find news, tutorials, resources and training related to architectural visualization using Blender.
+-   [BlenderAddons.org](https://blender-addons.org/) : provides a list of free and paid Blender addons. Find the addon you need under categories or tags.
+-   [Interplanety](https://b3d.interplanety.org/en/) : Blender tutorials, articles, tips, notes.
+-   [Darkfall](https://darkfallblender.blogspot.com/) : Blender python tutorials, nodes.
+-   [The CG Essentials](https://thecgessentials.com/) : 3D modeling, rendering, animation, particle simulation, and more, this is the place to be for Blender Tutorials.
+-   [Blender Secrets](https://www.blendersecrets.org/secrets) : is home to hundreds of one-minute or less video tutorials that teach you specific topics.
+
+### 🎊Challenges [^](#table)
+
+-   [Nodevember](https://nodevember.io/) : The yearly event for everything procedural. Feel like doing a challenge? #nodevember is all about creating and promoting procedural awesomeness! A whole month to improve and show off your procedural skills.
+    -   See works: [tw/#nodevember](https://twitter.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?sort_by=relevance&query=nodevember)
+-   [SculptJanuary](https://www.cgboost.com/challenges) : Challenge yourself over 31 days with a set of 31 topics.
+    Sculpt every day and improve your sculpting skills.
+    -   See works: [tw/#sculptjanuary](https://twitter.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary)
+-   [36 Days of Type](http://www.36daysoftype.com/) : is a yearly open call inviting designers, illustrators and visual artists to share their view on the letters and numbers from our alphabet.
+    -   See works: [tw/#36daysoftype](https://twitter.com/hashtag/36daysoftype), [ig/#36daysoftype](https://www.instagram.com/explore/tags/36daysoftype/), [artstation/36daysoftype](https://www.artstation.com/search?sort_by=relevance&query=6daysoftype)
+-   Competitions: [/r/blender: contest](https://www.reddit.com/r/blender/), [blenderartists.org/contest](https://blenderartists.org/c/contests).
+-   [Render Challenge](https://renderchallenge.com/) : The most up-to-date database of 3D art challenges on the Internet! Get notified of new render challenges every Friday.
+-   [pwnisher](https://www.youtube.com/c/pwnisher/videos) : Clinton Jones' Youtube channel regularly organizes 3D Challanges.
+
+### 🎉Events [^](#table)
+
+-   [Blender Conference](https://conference.blender.org/) : The yearly Blender Conference in Amsterdam. (Playlists: [Bcon22](https://www.youtube.com/playlist?list=PLa1F2ddGya__2Ip2UB-xp6M54cQVvw1W-), [Bcon20](https://www.youtube.com/watch?v=uEjmbsiflMU), [Bcon19](https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S), [Bcon18](https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B), [Bcon17](https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO)).
 
 ---
 
