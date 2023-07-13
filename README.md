@@ -668,6 +668,7 @@
 -   [Phototiler](https://halfmaps.itch.io/phototiler) : is a lightweight photorealistic map renderer that allows quick rendering of 3D maps for creative cartography.
 -   [VRoid Studio](https://vroid.com/en/studio) : a 3D character maker that specializes in Japanese anime-like expressions.
 -   [AccuRIG](https://actorcore.reallusion.com/auto-rig) : is a free application designed for fast and easy character rigging.
+-   [3D House Planner](https://www.3dhouseplanner.com/) : is a professional home design web application that allows users to design houses and apartments.
 
 ### Various Tools [^](#table)
 
