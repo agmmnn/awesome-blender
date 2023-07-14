@@ -365,7 +365,7 @@
     -   [Batex](https://github.com/jayanam/batex) : Export selected objects as fbx in batch operation.
     -   [Blender To Unity FBX Exporter](https://github.com/jayanam/batex) : FBX exporter add-on for Blender compatible with Unity's coordinate and scaling system.
 -   Render:
-    -   [Loom](https://github.com/p2or/blender-loom) : Add-on to simplify the rendering process of image sequences and certain frames,  allows batch rendering and comes with some handy utilities that help in production.
+    -   [Loom](https://github.com/p2or/blender-loom) : Add-on to simplify the rendering process of image sequences and certain frames, allows batch rendering and comes with some handy utilities that help in production.
     -   [BatchRender](https://github.com/VertStretch/RenderBurst), [Notify](https://github.com/Dziban-dev/Notify_Blender_Render), [AlarmShutdown](https://gumroad.com/l/PcDfw), [RenderButton](https://github.com/Mitsuma/Blender2.8-RenderButton).
     -   [MDSANIMA RenderTime](https://github.com/mdsanima-dev/mdsanima-render-time) : Blender add-on estimates and calculate how long your animation will take to render done based on the rendering time of the only one frame.
     -   [Super Res Render](https://pidgeontools.gumroad.com/l/SuperResRender) : Plugin that splits renders up into several chunks to make rendering at super high resolutions possible.
