@@ -134,10 +134,8 @@
 -   [MPFB](http://static.makehumancommunity.org/mpfb.html) : MPFB2 is an open source human generator for Blender. It's complete rewrite of MakeHuman as a Blender addon. [![][repo]](https://github.com/makehumancommunity/mpfb2)
 -   [FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) [$] : is a Blender add-on that lets you create photorealistic 3D models of human faces and heads using a few photographs with a neutral face expression. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
 -   [Tiny Eye](https://tinynocky.gumroad.com/l/tinyeye) : Tiny Eye is a FREE, fully procedural, stylised eye that works in Eevee and Cycles.
--   [Infinigen](https://infinigen.org) : Infinigen is a procedural generator of 3D scenes. It can generate infinite Photorealistic Worlds using real geometry. Infinigen is optimized for computer vision research and generates diverse high-quality 3D training data.
 -   [Wolf Generators](https://3d-wolf.com/products/assets/generators/) : a pack of 16 geometry nodes generators, including Bridge, Cables, Chain, Falling Particles, Lightning, Music Visualizer, Rope, Snow, Snow Flake, Spider Web.
 -   [Buildify](https://paveloliva.gumroad.com/l/buildify) : is a geometry nodes library for easy building creation.
--   [Building Tools](https://github.com/ranjian0/building_tools) : Building generation addon for blender.
 -   [Bricker](https://www.blendermarket.com/products/bricker) [$] : Photoreal Lego/Minecraft Simulations.
 -   [Blender Data Visualisation](https://github.com/Griperis/BlenderDataVis) : Load data into Blender and create visualisations.
 -   [BookGen](https://oweissbarth.de/software/book-gen-blender-addon/) : is a free book-generation addon for Blender.
@@ -146,7 +144,6 @@
 -   [Electric Line Generator](https://blenderesse.gumroad.com/l/electriclinegenerator) : is an addon for blender which helps generating complex Electric power Line.
 -   [Geometry Nodes Demo](https://www.blender.org/download/demo-files/#geometry-nodes) : Free examples of geometry nodes including procedural buildings and a hex grid map.
 -   [Geometry Nodes Pipes](https://raywakui.gumroad.com/l/pcxni) : is an addon for blender which helps generating complex pipe layouts.
--   [Graswald](https://www.graswald3d.com/) [$] : is the solution for 3D Artists who need realistic vegetation in their scenes.
 -   [HGen](https://gumroad.com/l/HGen_nd9h) : Blender hair generation and manipulating tool.
 -   [Industrial Geonodes](https://ko-fi.com/s/8d276833cf) : A collection of industrial themed Geometry nodes. Includes; Pipes, Vents and Catwalks.
 -   [Mesh Maze](https://github.com/elfnor/mesh_maze) : Blender add-on to generate a maze on any mesh.
@@ -156,18 +153,21 @@
 -   [Procedural Slime](https://artichoke18.gumroad.com/l/spsra) : generates procedural slime between objects.
 -   [Random Book Generator](https://ko-fi.com/s/9879a091a9) : Book randomizing asset for Blender. Made with the new Geometry nodes.
 -   [Real Sky](https://3d-wolf.com/products/sky/) : This add-on can generate procedural clouds, which Blender's built-in Dynamic Sky add-on lacks.
--   [SceneCity](https://www.cgchan.com/store/scenecity) [$] : Generate large road networks and mass-place tens of thousands of buildings. Mix both procedural and hand-made assets.
 -   [SpaceshipGenerator](https://github.com/a1studmuffin/SpaceshipGenerator) : procedurally generate 3D spaceships.
 -   [Space Station Generator](https://gumroad.com/curtisjamesholt#iABmB) : Tool lets you generate sprawling space stations.
 -   [Sprytile](https://github.com/Sprytile/Sprytile) : a blender add-on for building tile based low-poly scenes with paint/map editor like tools. [[more info]](https://chemikhazi.itch.io/sprytile)
 -   [Stylized Fantasy Tree Generator](https://rc12.gumroad.com/l/fantasytree) : Generate endless variations of stylized trees with this geometry nodes tool.
--   [The Grove 3D](https://www.thegrove3d.com/) [$] : Grow natural 3D trees for visualisation and film. Grow, bend, prune, interactively simulate the seasons year by year.
 -   [tree-gen](https://github.com/friggog/tree-gen) : procedural generation of tree models in blender.
 -   [Tyre Generator](https://flexdigitalpottery.gumroad.com/l/Tyregenv1) : Free tyre generator with geometry nodes.
 -   [Welder](https://blenderartists.org/t/welder/672478) : welds generator for Blender.
+-   Environment:
+    -   [Infinigen](https://infinigen.org) : Infinigen is a procedural generator of 3D scenes. It can generate infinite Photorealistic Worlds using real geometry. Infinigen is optimized for computer vision research and generates diverse high-quality 3D training data. [![][repo]](https://github.com/princeton-vl/infinigen)
+    -   [Graswald](https://www.graswald3d.com/) [$] : is the solution for 3D Artists who need realistic vegetation in their scenes.
+    -   [SceneCity](https://www.cgchan.com/store/scenecity) [$] : Generate large road networks and mass-place tens of thousands of buildings. Mix both procedural and hand-made assets.
+    -   [The Grove 3D](https://www.thegrove3d.com/) [$] : Grow natural 3D trees for visualisation and film. Grow, bend, prune, interactively simulate the seasons year by year.
 -   Scatter:
     -   [Geo-Scatter](https://blendermarket.com/products/scatter) [$] : The scattering tool for blender.
-    -   [BagaPie Modifier](https://app.gumroad.com/l/BbGVh) : This addon create modifier and geometry nodes preset like: boolean, scatter, auto array on curve.
+    -   [BagaPie Modifier](https://app.gumroad.com/l/BbGVh) : This addon create modifier and geometry nodes preset like: boolean, scatter, auto array on curve. ![][gpl]
     -   [Gscatter](https://www.graswald3d.com/gscatter) : Artist-friendly scattering for free from developers of Grasswald.
     -   [City Scatter](https://curtisjamesholt.gumroad.com/l/city_scatter_free) : Generate cityscape concepts, powered by Blender's collection system.
 
@@ -192,7 +192,8 @@
 -   [Synced Modifiers](https://amanbairwal.gumroad.com/l/SyncedModifiers) : allows you to add modifiers to multiple objects at the same time and automatically syncs all the modifiers using Drivers.
 -   CAD:
     -   [BlenderBIM](https://blenderbim.org/) : An add-on for beautiful, detailed, and data-rich OpenBIM with Blender. [![][repo]](https://github.com/ifcopenshell/ifcopenshell)
-    -   [Archipack](https://gumroad.com/l/ZRMyP) [$] : The Archipack addon for Blender contains a collection of parametric primitives for ArchViz. You can manipulate these primitives with a realtime on-screen editing interface. [![][repo]](https://github.com/s-leger/archipack)
+    -   [Archipack](https://gumroad.com/l/ZRMyP) [$] : The Archipack addon for Blender contains a collection of parametric primitives for ArchViz. You can manipulate these primitives with a realtime on-screen editing interface.
+    -   [Building Tools](https://github.com/ranjian0/building_tools) : Building generation addon for blender.
     -   [Sverchok](https://github.com/nortikin/sverchok) : is a powerful parametric tool for architects, allowing geometry to be programmed visually with nodes.
     -   [CAD Sketcher](https://www.cadsketcher.com/) : CAD Sketcher is a free and open-source project looking to enhance precision workflows in blender by bringing CAD like tools, features and usability.
     -   [CAD Transform](https://blenderartists.org/t/cad-like-transform/1226197) : CAD Transform provide intuitive snap from/to workflow, allow precise move/rotate/scale using advanced snap options and constraints in both object and edit mode.
@@ -275,7 +276,7 @@
 -   [Pixar's RenderMan](https://renderman.pixar.com/) : Physically-based render from Pixar. [[more info]](https://rmanwiki.pixar.com/display/RFB24) ![][mit]
 -   [OctaneRender Prime for Blender](https://home.otoy.com/render/octane-render/demo/#prime) : Fully integrated Octane Render, free tier. [(blender plugin manual)](https://docs.otoy.com/BlenderH/BlenderPluginManual.htm)
 -   [Redshift Blender Integration](https://www.maxon.net/en/redshift/integrations?categories=721103) [$] : Redshift by Maxon is a GPU-accelerated renderer built to meet the specific demands of contemporary high-end production rendering.
--   [LuxCore](https://luxcorerender.org/) : LuxCoreRender is a physically based and unbiased rendering engine. It offers advanced features like accelerated rendering of indirect light and efficient rendering of caustics. [![][repo]](https://github.com/LuxCoreRender/BlendLuxCore) [(blender addon)](https://github.com/LuxCoreRender/BlendLuxCore) ![][gpl]
+-   [LuxCore](https://luxcorerender.org/) : LuxCoreRender is a physically based and unbiased rendering engine. It offers advanced features like accelerated rendering of indirect light and efficient rendering of caustics. [![][repo]](https://github.com/LuxCoreRender/LuxCore) [(blender addon)](https://github.com/LuxCoreRender/BlendLuxCore) ![][gpl]
 -   [Malt](https://malt3d.com/) : Malt is a non photorealistic rendering (NPR) framework. It offers fully customizable real-time rendering framework for animation and illustration. [![][repo]](https://github.com/bnpr/Malt) ![][mit]
 -   [Pixel Art Rendering](https://lucasroedel.gumroad.com/l/pixel_art) : This is a free addon to make pixel art like renders in blender. It works with eevee, bayer dithering and multiple light sources.
 -   [Mitsuba Renderer](https://www.mitsuba-renderer.org/) : Mitsuba 3 is a research-oriented retargetable rendering system for forward and inverse light transport simulation. [![][repo]](https://github.com/mitsuba-renderer/mitsuba3) [(blender addon)](https://github.com/mitsuba-renderer/mitsuba-blender)
