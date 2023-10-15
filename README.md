@@ -978,9 +978,8 @@
     -   [blender-debugger-for-vscode](https://github.com/AlansCodeLog/blender-debugger-for-vscode) : Blender addon for remote debugging Blender with VS Code (and Visual Studio).
     -   [Blender Development in VS Code](https://marketplace.visualstudio.com/items?itemName=JacquesLucke.blender-development) : Visual Studio Code extension for Blender development. [![][repo]](https://github.com/JacquesLucke/blender_vscode)
     -   [blender-cli-rendering](https://github.com/yuki-koyama/blender-cli-rendering) : Python scripts for rendering images using Blender from command-line interface.
-    -   [render-useful](https://github.com/ldo/render-useful) : Command-line tools for Blender renders.
-    -   [textension](https://github.com/K-410/textension) : Productivity enhancements for Blender's text editor
-    -   [blender_autocomplete](https://github.com/K-410/textension) : Autocomplete modules for Blender python API.
+    -   [render-useful](https://gitlab.com/ldo/render-useful) : Command-line tools for Blender renders.
+    -   [textension](https://github.com/K-410/textension) : Productivity enhancements for Blender's text editor and autocomplete modules for Blender python API.
     -   [blender-addon-tester](https://github.com/nangtani/blender-addon-tester) : The blender addon tester is a test harness to enable pytest hook to allow addons to be tested inside a defined version of blender.
     -   [EasyBPY](https://gumroad.com/l/easybpy) : This purpose of this module is to simplify the use of the Blender API (bpy) by creating an extra layer of abstraction that is more human-readable, memorable and reduces the user's exposure to complex code paths. [![][repo]](https://github.com/curtisjamesholt/EasyBPY)
     -   [Advanced Blender Add-on](https://github.com/eliemichel/AdvancedBlenderAddon) : This repository intends to give a starter kit as well as to illustrate and intensively comment design patterns commonly used in advanced Blender add-ons.
