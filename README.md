@@ -440,6 +440,7 @@
 -   [Theme Switcher](https://blenderartists.org/t/theme-switcher/1211787) : Addon to quickly change active theme not leaving 3D View.
 -   [LibSM64-Blender](https://github.com/libsm64/libsm64-blender) : This add-on integrates libsm64 into Blender and provides various additional integrations with Fast64.
 -   [BlenderProc](https://github.com/DLR-RM/BlenderProc) : A procedural Blender pipeline for photorealistic training image generation.
+-   [BlenderSynth](https://github.com/OllieBoyne/BlenderSynth) : Blender scripting for generating synthetic datasets at scale.
 -   [AI Render](https://github.com/benrugg/AI-Render) : Stable Diffusion in Blender. This add-on renders an AI generated image based on a text prompt and your scene.
 
 ---
