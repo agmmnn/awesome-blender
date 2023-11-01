@@ -355,6 +355,7 @@
     -   [Maps Models Importer](https://github.com/eliemichel/MapsModelsImporter) : A Blender add-on to import models from _Google Maps_. [[more info]](https://blog.exppad.com/article/importing-actual-3d-models-from-google-maps)
     -   [blender-osm](https://gumroad.com/l/blender-osm) : One click download and import of OpenStreetMap and terrain for Blender.
 -   VR/AR:
+    -   [A-Frame VR](https://github.com/silverslade/aframe_blender_exporter) : Blender add-on allows you to model your scene in Blender and export it to an A-Frame VR project with a single click.
     -   [blender-xr](https://github.com/MARUI-PlugIn/BlenderXR) : A free virtual and mixed reality user interface for Blender that enables artists to edit scenes within the software using a suitable headset and controllers.
     -   [Blender-Metaverse-Addon](https://github.com/Menithal/Blender-Metaverse-Addon) : Blender toolset for creating content for Metaverses like High Fidelity.
 -   Import:
