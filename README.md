@@ -130,35 +130,37 @@
 
 ### 🦑Generator/Builder [^](#table)
 
--   [CharMorph](https://blenderartists.org/t/charmorph-character-creation-tool-mb-lab-based/1252543) : is an open source character creation tool for Blender. It's a rewrite of [MB-Lab](https://github.com/animate1978/MB-Lab), which is now unmaintained. [![][repo]](https://github.com/Upliner/CharMorph)
+-   [CharMorph](https://blenderartists.org/t/charmorph-character-creation-tool-mb-lab-based/1252543) : An open source character creation tool for Blender. It's a rewrite of [MB-Lab](https://github.com/animate1978/MB-Lab), which is now unmaintained. [![][repo]](https://github.com/Upliner/CharMorph)
 -   [MPFB](http://static.makehumancommunity.org/mpfb.html) : MPFB2 is an open source human generator for Blender. It's complete rewrite of MakeHuman as a Blender addon. [![][repo]](https://github.com/makehumancommunity/mpfb2)
--   [FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) [$] : is a Blender add-on that lets you create photorealistic 3D models of human faces and heads using a few photographs with a neutral face expression. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
+-   [FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) [$] : A Blender add-on that lets you create photorealistic 3D models of human faces and heads using a few photographs with a neutral face expression. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
 -   [Tiny Eye](https://tinynocky.gumroad.com/l/tinyeye) : Tiny Eye is a FREE, fully procedural, stylised eye that works in Eevee and Cycles.
--   [Wolf Generators](https://3d-wolf.com/products/assets/generators/) : a pack of 16 geometry nodes generators, including Bridge, Cables, Chain, Falling Particles, Lightning, Music Visualizer, Rope, Snow, Snow Flake, Spider Web.
+-   [Wolf Generators](https://3d-wolf.com/products/assets/generators) : A collection of 16 geometry nodes generators. It includes; **_Bridge, Cables, Caustics, Chain, Falling Particles, Lightning, Music Visualizer, Rope, Snow, Snow Flake, Spider Web, Tree_**.
+-   [Auto-Terrainer](https://unicornhunter.gumroad.com/l/AutoTerrainer) : Automatic Blender Terrain Generator is a powerful and easy-to-use tool that lets you turn any low poly mesh into realistic and customizable terrain. You can use it to create mountains, valleys, islands, deserts, forests, and more.
+-   [Blenderesse's Generators](https://blenderesse.gumroad.com) : Blenderesse offers a few geometry nodes generators for free. Including; [Electric Power Line](https://blenderesse.gumroad.com/l/electriclinegenerator), [Melt](https://blenderesse.gumroad.com/l/melt), [Bird](https://blenderesse.gumroad.com/l/birdgenerator).
 -   [Buildify](https://paveloliva.gumroad.com/l/buildify) : is a geometry nodes library for easy building creation.
 -   [Bricker](https://www.blendermarket.com/products/bricker) [$] : Photoreal Lego/Minecraft Simulations.
 -   [Blender Data Visualisation](https://github.com/Griperis/BlenderDataVis) : Load data into Blender and create visualisations.
 -   [BookGen](https://oweissbarth.de/software/book-gen-blender-addon/) : is a free book-generation addon for Blender.
 -   [Celtic Knot](https://github.com/BorisTheBrave/celtic-knot/wiki/Gallery) : Generate bezier curves, pipes and ribbons in elaborate weavings, based off of a framework mesh.
+-   [Curtis Holt's Generators](https://curtisjamesholt.gumroad.com) : Curtis Holt offers a few geometry nodes generators for free. Including; [Space Station](https://curtisjamesholt.gumroad.com/l/space_station_gen_free), [Mech](https://curtisjamesholt.gumroad.com/l/mech_gen_free), [Weapon](https://curtisjamesholt.gumroad.com/l/random_weapon_generator).
 -   [Data-FX](https://github.com/LandonFerg/Data-FX) : Loads and visualizes different types of data within Blender from .csv files.
--   [Electric Line Generator](https://blenderesse.gumroad.com/l/electriclinegenerator) : is an addon for blender which helps generating complex Electric power Line.
+-   [Flex's Generators](https://flexdigitalpottery.gumroad.com) : Flex offers a few free geometry nodes generators, including; **_Crystal, Curtain, Engine, Lego Character, Pillow, Rope, Stair, Stingwire, Table, Tyre_**.
 -   [Geometry Nodes Demo](https://www.blender.org/download/demo-files/#geometry-nodes) : Free examples of geometry nodes including procedural buildings and a hex grid map.
 -   [Geometry Nodes Pipes](https://raywakui.gumroad.com/l/pcxni) : is an addon for blender which helps generating complex pipe layouts.
--   [HGen](https://gumroad.com/l/HGen_nd9h) : Blender hair generation and manipulating tool.
--   [Industrial Geonodes](https://ko-fi.com/s/8d276833cf) : A collection of industrial themed Geometry nodes. Includes; Pipes, Vents and Catwalks.
+-   [Industrial Geonodes](https://ko-fi.com/s/8d276833cf) : A collection of industrial themed Geometry nodes. It includes; **Pipes, Vents** and **Catwalks**.
 -   [Mesh Maze](https://github.com/elfnor/mesh_maze) : Blender add-on to generate a maze on any mesh.
 -   [Modular Tree](https://github.com/MaximeHerpin/modular_tree/tree/blender_28) : This addon for blender allows the creation of realistic trees with the node editor.
+-   [Nino DefoQ's Generators](https://ninodefoq.gumroad.com) : Nino DefoQ offers a few geometry nodes generators for free. Including; [Hair](https://ninodefoq.gumroad.com/l/hairgeometrynodes), [Braid](https://ninodefoq.gumroad.com/l/braidify), [Cornrow](https://ninodefoq.gumroad.com/l/cornrows), [Moss](https://ninodefoq.gumroad.com/l/mossify), [Snow](https://ninodefoq.gumroad.com/l/Snowify).
+-   [Pleebs Generators](https://pleebs.gumroad.com) : Pleebs offers free geometry nodes generators for creating procedural assets. Including; [Bush](https://pleebs.gumroad.com/l/BushDraw), [Wall](https://pleebs.gumroad.com/l/WallDraw), [Cobble](https://pleebs.gumroad.com/l/cobbledraw).
 -   [Post USSR Builder](https://kypcaht.gumroad.com/l/PmCLJ) : Simple post USSR style building generator on geometry nodes. 2.93 and newer.
--   [Procedural Snow Shader](https://plusq.gumroad.com/l/jmdpr) : Procedural snow shader created in Blender.
 -   [Procedural Slime](https://artichoke18.gumroad.com/l/spsra) : generates procedural slime between objects.
 -   [Random Book Generator](https://ko-fi.com/s/9879a091a9) : Book randomizing asset for Blender. Made with the new Geometry nodes.
 -   [Real Sky](https://3d-wolf.com/products/sky/) : This add-on can generate procedural clouds, which Blender's built-in Dynamic Sky add-on lacks.
--   [SpaceshipGenerator](https://github.com/a1studmuffin/SpaceshipGenerator) : procedurally generate 3D spaceships.
--   [Space Station Generator](https://gumroad.com/curtisjamesholt#iABmB) : Tool lets you generate sprawling space stations.
+-   [Snow Generator](https://blendermarket.com/products/free-snow) : Procedural snow generator for snow effects.
+-   [Spaceship Generator](https://github.com/a1studmuffin/SpaceshipGenerator) : procedurally generate 3D spaceships.
 -   [Sprytile](https://github.com/Sprytile/Sprytile) : a blender add-on for building tile based low-poly scenes with paint/map editor like tools. [[more info]](https://chemikhazi.itch.io/sprytile)
 -   [Stylized Fantasy Tree Generator](https://rc12.gumroad.com/l/fantasytree) : Generate endless variations of stylized trees with this geometry nodes tool.
 -   [tree-gen](https://github.com/friggog/tree-gen) : procedural generation of tree models in blender.
--   [Tyre Generator](https://flexdigitalpottery.gumroad.com/l/Tyregenv1) : Free tyre generator with geometry nodes.
 -   [Welder](https://blenderartists.org/t/welder/672478) : welds generator for Blender.
 -   Environment:
     -   [Infinigen](https://infinigen.org) : Infinigen is a procedural generator of 3D scenes. It can generate infinite Photorealistic Worlds using real geometry. Infinigen is optimized for computer vision research and generates diverse high-quality 3D training data. [![][repo]](https://github.com/princeton-vl/infinigen)
@@ -191,14 +193,14 @@
 -   [Maxivz’s Interactive Tools](https://gumroad.com/l/ynJmIV) : Collection of intuitive, context sensitive tools for Blender.
 -   [Synced Modifiers](https://amanbairwal.gumroad.com/l/SyncedModifiers) : allows you to add modifiers to multiple objects at the same time and automatically syncs all the modifiers using Drivers.
 -   CAD:
-    -   [BlenderBIM](https://blenderbim.org/) : An add-on for beautiful, detailed, and data-rich OpenBIM with Blender. [![][repo]](https://github.com/ifcopenshell/ifcopenshell)
+    -   [BlenderBIM](https://blenderbim.org) : An add-on for beautiful, detailed, and data-rich OpenBIM with Blender. [![][repo]](https://github.com/ifcopenshell/ifcopenshell) ![][gpl]
     -   [Archipack](https://gumroad.com/l/ZRMyP) [$] : The Archipack addon for Blender contains a collection of parametric primitives for ArchViz. You can manipulate these primitives with a realtime on-screen editing interface.
     -   [Building Tools](https://github.com/ranjian0/building_tools) : Building generation addon for blender.
-    -   [Sverchok](https://github.com/nortikin/sverchok) : is a powerful parametric tool for architects, allowing geometry to be programmed visually with nodes.
-    -   [CAD Sketcher](https://www.cadsketcher.com/) : CAD Sketcher is a free and open-source project looking to enhance precision workflows in blender by bringing CAD like tools, features and usability.
-    -   [CAD Transform](https://blenderartists.org/t/cad-like-transform/1226197) : CAD Transform provide intuitive snap from/to workflow, allow precise move/rotate/scale using advanced snap options and constraints in both object and edit mode.
+    -   [Sverchok](https://nortikin.github.io/sverchok) : is a powerful parametric tool for architects, allowing geometry to be programmed visually with nodes. [![][repo]](https://github.com/nortikin/sverchok) ![][gpl]
+    -   [CAD Sketcher](https://www.cadsketcher.com) : CAD Sketcher is a free and open-source project looking to enhance precision workflows in blender by bringing CAD like tools, features and usability. [![][repo]](https://github.com/hlorus/CAD_Sketcher) ![][gpl]
+    -   [CAD Transform](https://blenderartists.org/t/cad-like-transform/1226197) : CAD Transform provide intuitive snap from/to workflow, allow precise move/rotate/scale using advanced snap options and constraints in both object and edit mode. [![][repo]](https://github.com/s-leger/blender_cad_transforms) ![][gpl]
     -   [MeasureIt-ARCH](https://github.com/kevancress/MeasureIt_ARCH) : An expansion of Antonio Vazquez's MeasureIt addon to add features to create Architectural Drawings.
-    -   [JARCH-Vis](https://blenderartists.org/t/addon-jarch-vis/642607) : is add-on for Blender 3D that helps create commonly used object for architectural visualization. [![][repo]](https://github.com/BlendingJake/JARCH-Vis)
+    -   [JARCH-Vis](https://blenderartists.org/t/addon-jarch-vis/642607) : is add-on for Blender 3D that helps create commonly used object for architectural visualization. [![][repo]](https://github.com/BlendingJake/JARCH-Vis) ![][gpl]
 -   Retopology/Remesh:
     -   [retopoflow](https://blendermarket.com/products/retopoflow) : A suite of retopology tools for Blender. [![][repo]](https://github.com/CGCookie/retopoflow)
     -   [InstantMeshesRemesh](https://blenderartists.org/t/instant-meshes-remesh/1114982) : A suite of retopology tools for Blender. [![][repo]](https://github.com/knekke/blender_addons#instantmeshesremesh)
@@ -286,32 +288,33 @@
 
 ### 🗺️Texture/UV [^](#table)
 
--   [UV-Packer](https://www.uv-packer.com/blender/) : Automatic and free UV-Packer Add-on for Blender.
--   [DreamUV](https://github.com/leukbaars/DreamUV) : is a collection of tools that allow you to manipulate UVs in the 3D viewport.
--   [TexTools](http://renderhjs.net/textools/blender/) : TexTools is a Free addon for Blender 3D with a set of professional UV and Texturing tools. [![][repo]](https://github.com/SavMartin/TexTools-Blender)
--   [Poliigon Uber Mapping Node](https://www.dropbox.com/s/b8p5nmg7evqbsd6/PoliigonUberMapping_v1.0.blend) : Anti-tile node setup for blender. [[more info]](https://youtu.be/CQ9VmCN2EsE?t=456)
--   [Parallax Mapping](https://gumroad.com/neveselov#WhPLq) : This is Parallax Mapping material and node setup. Created in Blender 2.8 for eevee renderer, it works well in cycles too. [[more info]](https://www.youtube.com/watch?v=ZL695WnJvmU)
--   [Texel Density Checker](https://gumroad.com/l/CEIOR) : Tools for calculate, set and copy texel density. [![][repo]](https://github.com/mrven/Blender-Texel-Density-Checker)
--   [UV Toolkit](https://gumroad.com/alexbel#NbMya) : Tools collection for UV editing in blender.
--   [Magic-UV](https://nutti.github.io/Magic-UV/) : This is a blender add-on Magic UV consisted of many UV manipulation features which Blender lack of. [![][repo]](https://github.com/nutti/Magic-UV)
--   [EasyBake](https://github.com/leukbaars/EasyBake) : Texture baking UI for Blender that lives in the 3D Viewport. Small but powerful! Fast one-click baking and iteration.
--   [Principled-Baker](https://github.com/danielenger/Principled-Baker) : Bake PBR textures with a few clicks.
--   [Blender Addon PBR](https://github.com/DigiKrafting/blender_addon_pbr) : Provides a material panel that creates Metallic/Roughness or Specular/Gloss Nodes using the Principled BSDF shader.
--   [PBR Texture Mapper](https://github.com/jayanam/pbr_texture_mapper) : Create PBR node setup with one click.
--   [Poliigon Material Converter](https://help.poliigon.com/en/articles/2540839-poliigon-material-converter-addon-for-blender) : Create PBR node setup.
--   [SCATTr](https://gumroad.com/l/scattr) : Procedural texture placement.
--   [Vertex Oven](https://github.com/ForestKatsch/VertexOven) : Bake game-ready ambient occlusion in seconds without UV unwrapping or agonizingly slow Cycles bakes.
--   [Bake Wrangler](https://blenderartists.org/t/bake-wrangler-node-based-baking-tool-set-ver-b0-9-4-curvycavity/1187732) : is a nodes based extension and replacement for the inbuilt baking system.
--   [3D-Coat Applink](https://www.youtube.com/watch?v=2bo2XGUPwIU) : 3DCoat now has native support of Blender via built-in AppLink.
--   [Lily Surface Scrapper](https://github.com/eliemichel/LilySurfaceScrapper) : Import shaders in Blender from a single URL.
--   [glslTexture](https://github.com/patriciogonzalezvivo/glslTexture) : Create textures from Glsl fragment shaders.
--   [Bake to Vertex Color](https://github.com/danielenger/Bake-to-Vertex-Color) : Transfer Image to selected Vertex Color in all selected Objects.
--   [EZ Baker](https://blenderartists.org/t/ez-baker/1245869) : An easier alternative to blender's default bake system. [![][repo]](https://gitlab.com/AquaticNightmare/ez_baker)
--   [Bystedts Blender Baker](https://3dbystedt.gumroad.com/l/JAqLT) : This addon streamlines the texture baking process in Blender.
--   [Flow Map Painter](https://clemensbeute.gumroad.com/l/heZDT) : This blender add-on provides a brush tool for flow map painting. [![][repo]](https://github.com/ClemensBeute/flow_map_painter)
--   [Grungit](https://abdoubouam.gumroad.com/l/grungit) : Grungit is an addon that automatically and effortlessly adds wear and tear to your models with a single click. The result is fully controllable and can deliver anything from imperfections and light wear to heavy damage. ![][gpl]
 -   [Layer Painter](https://joshuaknauber.gumroad.com/l/layerpainter) : allows you to use a Layer-System for creating materials with painting and procedurals. The layers include masks, filters and much more. Even though the addon is designed with a PBR workflow in mind, you can also use it for stylized painting. [![][repo]](https://github.com/joshuaKnauber/layer_painter)
+-   [TexTools](https://blenderartists.org/t/textools-for-blender/700811) : TexTools is a Free addon for Blender 3D with a set of professional UV and Texturing tools. [![][repo]](https://github.com/SavMartin/TexTools-Blender)
+-   [3D-Coat Applink](https://www.youtube.com/watch?v=2bo2XGUPwIU) : 3DCoat now has native support of Blender via built-in AppLink.
+-   [Bake to Vertex Color](https://github.com/danielenger/Bake-to-Vertex-Color) : Transfer Image to selected Vertex Color in all selected Objects.
+-   [Bake Wrangler](https://blenderartists.org/t/bake-wrangler-node-based-baking-tool-set-ver-b0-9-4-curvycavity/1187732) : is a nodes based extension and replacement for the inbuilt baking system.
+-   [Blender Addon PBR](https://github.com/DigiKrafting/blender_addon_pbr) : Provides a material panel that creates Metallic/Roughness or Specular/Gloss Nodes using the Principled BSDF shader.
+-   [Bystedts Blender Baker](https://3dbystedt.gumroad.com/l/JAqLT) : This addon streamlines the texture baking process in Blender.
+-   [Car Paint Shader](https://blenderesse.gumroad.com/l/carpaintshader) : Simple shader setup that lets you easily create variety of different car paint finishes.
+-   [DreamUV](https://github.com/leukbaars/DreamUV) : is a collection of tools that allow you to manipulate UVs in the 3D viewport.
+-   [EasyBake](https://github.com/leukbaars/EasyBake) : Texture baking UI for Blender that lives in the 3D Viewport. Small but powerful! Fast one-click baking and iteration.
+-   [EZ Baker](https://blenderartists.org/t/ez-baker/1245869) : An easier alternative to blender's default bake system. [![][repo]](https://gitlab.com/AquaticNightmare/ez_baker)
+-   [Flow Map Painter](https://clemensbeute.gumroad.com/l/heZDT) : This blender add-on provides a brush tool for flow map painting. [![][repo]](https://github.com/ClemensBeute/flow_map_painter)
+-   [glslTexture](https://github.com/patriciogonzalezvivo/glslTexture) : Create textures from Glsl fragment shaders.
+-   [Grungit](https://abdoubouam.gumroad.com/l/grungit) : Grungit is an addon that automatically and effortlessly adds wear and tear to your models with a single click. The result is fully controllable and can deliver anything from imperfections and light wear to heavy damage. ![][gpl]
+-   [Lily Surface Scrapper](https://github.com/eliemichel/LilySurfaceScrapper) : Import shaders in Blender from a single URL.
+-   [Magic UV](https://nutti.github.io/Magic-UV/) : This is a blender add-on Magic UV consisted of many UV manipulation features which Blender lack of. [![][repo]](https://github.com/nutti/Magic-UV)
+-   [Parallax UV Mapping](https://neveselov.gumroad.com/l/btnpx) : This is Parallax Mapping material and node setup. Created in Blender 2.8 for eevee renderer, it works well in cycles too. [[more info]](https://www.youtube.com/watch?v=ZL695WnJvmU)
+-   [PBR Texture Mapper](https://github.com/jayanam/pbr_texture_mapper) : Create PBR node setup with one click.
+-   [Poliigon Blender Addon](https://help.poliigon.com/en/articles/6342599) : this addon allows you to browse, purchase, download, and import Poliigon assets from inside Blender. It supports loading textures, models, and HDRs, and more recently supports generating blender files for use in the Blender Asset Browser.
+-   [Principled-Baker](https://github.com/danielenger/Principled-Baker) : Bake PBR textures with a few clicks.
 -   [Sanctus Library](https://blendermarket.com/products/sanctus-library-addon---procedural-shaders-collection-for-blender/) [$] : The ever-growing procedural material library for Blender.
+-   [SCATTr](https://gumroad.com/l/scattr) : Procedural texture placement.
+-   [Texel Density Checker](https://gumroad.com/l/CEIOR) : Tools for calculate, set and copy texel density. [![][repo]](https://github.com/mrven/Blender-Texel-Density-Checker)
+-   [UcuPaint](https://github.com/ucupumar/ucupaint) : A addon to manage texture layers for Eevee and Cycles renderer.
+-   [UV-Packer](https://www.uv-packer.com/blender/) : Automatic and free UV-Packer Add-on for Blender.
+-   [UV Toolkit](https://gumroad.com/alexbel#NbMya) : Tools collection for UV editing in blender.
+-   [Vertex Oven](https://github.com/ForestKatsch/VertexOven) : Bake game-ready ambient occlusion in seconds without UV unwrapping or agonizingly slow Cycles bakes.
 
 ### 🎮GameDev [^](#table)
 
