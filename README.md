@@ -389,6 +389,7 @@
     -   [ExtraInfo](https://gumroad.com/l/UznDL) : Show more info in the viewport.
     -   [AStats](https://github.com/YuriyAndropov/blenderPython/tree/master/AStats) : Show Stats in Viewport.
 -   VideoEditor:
+    -   [Bangingcuts](https://github.com/OllyFunkster/bangingcuts): Cut up audio and video clips based on peaks in the audio track removing silences. Last Blender versions: don't install the zip, install .py file instead.     
     -   [Power Sequencer](https://github.com/GDQuest/blender-power-sequencer) : Brings smart new editing features to edit faster with Blender's Video Sequence Editor. It is completely Free and Open Source.
     -   [VSEQF](https://github.com/snuq/VSEQF) : is an overhaul for Blender's VSE that can completely change your workflow. Designed for quick, mouse and keyboard balanced editing with a focus on real-time feedback.
     -   [Transform Tools](https://github.com/doakey3/VSE_Transform_Tools) : Quickly transform, crop and fade video strips in Blender's Video Sequence Editor.
