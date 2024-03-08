@@ -986,6 +986,7 @@
     -   [blender-cli-rendering](https://github.com/yuki-koyama/blender-cli-rendering) : Python scripts for rendering images using Blender from command-line interface.
     -   [render-useful](https://gitlab.com/ldo/render-useful) : Command-line tools for Blender renders.
     -   [textension](https://github.com/K-410/textension) : Productivity enhancements for Blender's text editor and autocomplete modules for Blender python API.
+    -   [open recent](https://github.com/Jishnu-jithu/text-editor-addons/blob/main/open_recent.py) : A handy Blender addon that enhances your productivity by allowing you to quickly open recently used scripts in the text editor.
     -   [blender-addon-tester](https://github.com/nangtani/blender-addon-tester) : The blender addon tester is a test harness to enable pytest hook to allow addons to be tested inside a defined version of blender.
     -   [EasyBPY](https://gumroad.com/l/easybpy) : This purpose of this module is to simplify the use of the Blender API (bpy) by creating an extra layer of abstraction that is more human-readable, memorable and reduces the user's exposure to complex code paths. [![][repo]](https://github.com/curtisjamesholt/EasyBPY)
     -   [Advanced Blender Add-on](https://github.com/eliemichel/AdvancedBlenderAddon) : This repository intends to give a starter kit as well as to illustrate and intensively comment design patterns commonly used in advanced Blender add-ons.
