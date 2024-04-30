@@ -677,6 +677,7 @@
 -   [VRoid Studio](https://vroid.com/en/studio) : a 3D character maker that specializes in Japanese anime-like expressions.
 -   [AccuRIG](https://actorcore.reallusion.com/auto-rig) : is a free application designed for fast and easy character rigging.
 -   [3D House Planner](https://www.3dhouseplanner.com/) : is a professional home design web application that allows users to design houses and apartments.
+-   [3D Material Editor](https://www.3dhouseplanner.com/index2.php) : is a professional 3D material editor, allowing you to tailor the visual aspects of 3D models.
 
 ### Various Tools [^](#table)
 
