@@ -116,6 +116,8 @@
 </details>
 <br>
 
+[简体中文版](README_ZH.md)
+
 ## 🔮Add-ons [^](#table)
 
 -   Check list of Blender's built-in add-ons documentation [here](https://docs.blender.org/manual/en/dev/addons/index.html).
