@@ -986,6 +986,7 @@
   - [Advanced Blender Add-on](https://github.com/eliemichel/AdvancedBlenderAddon)：这个仓库旨在提供一个入门套件，并深入评论在高级Blender插件中常用的设计模式。
   - [3DN BIP](https://github.com/3dninjas/3dn-bip)：一个Python库，用于Blender。在Blender中快速预览加载。任意大小的图像。`bpy.utils.previews`的替代品。
   - [Geometry Script](https://github.com/carson-katri/geometry-script)：是Blender几何节点的脚本API。它使复杂的节点树更易于管理和共享。
+  - [BlenderAddonPackageTool](https://github.com/xzhuah/BlenderAddonPackageTool)：一个整合了多种Blender插件/扩展开发技术的开发框架。实现了测试过程的热更新，依赖文件智能打包，绝对路径转相对路径等功能，并提供了解决自动类加载，插件国际化等工程方案以满足开发高质量插件的需求。
 - 支持：
   - [devtalk/python](https://devtalk.blender.org/c/python/6)：关于使用和开发[Blender Python API](https://developer.blender.org/project/view/24/)的问题，无论是Blender本身还是插件。
   - [blenderartists/python-support](https://blenderartists.org/c/coding/python-support/19), [stackoverflow/tagged/bpy](https://stackoverflow.com/questions/tagged/bpy)
