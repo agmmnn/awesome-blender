@@ -551,7 +551,7 @@
 -   [Blend Swap](https://www.blendswap.com/blends) : The one place for Open Source Blender files.
 -   [Blender/demo-files](https://www.blender.org/download/demo-files/) : Demo Scenes from blender.
 -   [BlenderNation.com/models](https://www.blendernation.com/category/art/free-blender-models/) : collects the best free Blender 3D model downloads from all across the Blender community.
--   [Mantissa/resources](https://mantissa.xyz/pages/free.html) : Free Blender files, resources.
+-   [Mantissa/resources](https://mantissa.xyz/free.html) : Free Blender files, resources.
 -   Gumroad Pages:
     -   [gumroad/bluefoxcreation](https://gumroad.com/bluefoxcreation), [gumroad/curtisjamesholt](https://gumroad.com/curtisjamesholt).
 -   Rigged Models:
