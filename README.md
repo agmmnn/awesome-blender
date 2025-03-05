@@ -110,7 +110,7 @@
             <li><a href="#events-">🎉Events</a></li>
         </ul>
     </li>
-    <li><a href="#symbols-">Symbols</a></li>
+    <li><a href="#symbols-">符号</a></li>
     <li><a href="#contributing-">Contributing</a></li>
 </ul>
 </details>
@@ -120,7 +120,7 @@
 
 ## 🔮Add-ons [^](#table)
 
--   Check list of Blender's built-in add-ons documentation [here](https://docs.blender.org/manual/en/dev/addons/index.html).
+-   Check list of Blender's built-in add-ons documentation [here](https://docs.blender.org/manual/en/dev/addons/index.html)。
 
 ### 🌊Simulation/Physics [^](#table)
 
@@ -136,23 +136,23 @@
 -   [MPFB](http://static.makehumancommunity.org/mpfb.html) : MPFB2 is an open source human generator for Blender. It's complete rewrite of MakeHuman as a Blender addon. [![][repo]](https://github.com/makehumancommunity/mpfb2)
 -   [FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) [$] : A Blender add-on that lets you create photorealistic 3D models of human faces and heads using a few photographs with a neutral face expression. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
 -   [Tiny Eye](https://tinynocky.gumroad.com/l/tinyeye) : Tiny Eye is a FREE, fully procedural, stylised eye that works in Eevee and Cycles.
--   [Auto-Terrainer](https://unicornhunter.gumroad.com/l/AutoTerrainer) : Automatic Blender Terrain Generator is a powerful and easy-to-use tool that lets you turn any low poly mesh into realistic and customizable terrain. You can use it to create mountains, valleys, islands, deserts, forests, and more.
--   [Blenderesse's Generators](https://blenderesse.gumroad.com) : Blenderesse offers a few geometry nodes generators for free. Including; [Electric Power Line](https://blenderesse.gumroad.com/l/electriclinegenerator), [Melt](https://blenderesse.gumroad.com/l/melt), [Bird](https://blenderesse.gumroad.com/l/birdgenerator).
+- [Auto-Terrainer](https://unicornhunter.gumroad.com/l/AutoTerrainer) : Automatic Blender Terrain Generator is a powerful and easy-to-use tool that lets you turn any low poly mesh into realistic and customizable terrain. You can use it to create mountains, valleys, islands, deserts, forests, 和 more.
+-   [Blenderesse's Generators](https://blenderesse.gumroad.com) : Blenderesse offers a few geometry nodes generators for free. Including; [Electric Power Line](https://blenderesse.gumroad.com/l/electriclinegenerator)， [Melt](https://blenderesse.gumroad.com/l/melt)， [Bird](https://blenderesse.gumroad.com/l/birdgenerator)。
 -   [Buildify](https://paveloliva.gumroad.com/l/buildify) : is a geometry nodes library for easy building creation.
 -   [Bricker](https://www.blendermarket.com/products/bricker) [$] : Photoreal Lego/Minecraft Simulations.
 -   [Blender Data Visualisation](https://github.com/Griperis/BlenderDataVis) : Load data into Blender and create visualisations.
 -   [BookGen](https://oweissbarth.de/software/book-gen-blender-addon/) : is a free book-generation addon for Blender.
 -   [Celtic Knot](https://github.com/BorisTheBrave/celtic-knot/wiki/Gallery) : Generate bezier curves, pipes and ribbons in elaborate weavings, based off of a framework mesh.
--   [Curtis Holt's Generators](https://curtisjamesholt.gumroad.com) : Curtis Holt offers a few geometry nodes generators for free. Including; [Space Station](https://curtisjamesholt.gumroad.com/l/space_station_gen_free), [Mech](https://curtisjamesholt.gumroad.com/l/mech_gen_free), [Weapon](https://curtisjamesholt.gumroad.com/l/random_weapon_generator).
+-   [Curtis Holt's Generators](https://curtisjamesholt.gumroad.com) : Curtis Holt offers a few geometry nodes generators for free. Including; [Space Station](https://curtisjamesholt.gumroad.com/l/space_station_gen_free)， [Mech](https://curtisjamesholt.gumroad.com/l/mech_gen_free)， [Weapon](https://curtisjamesholt.gumroad.com/l/random_weapon_generator)。
 -   [Data-FX](https://github.com/LandonFerg/Data-FX) : Loads and visualizes different types of data within Blender from .csv files.
--   [Flex's Generators](https://flexdigitalpottery.gumroad.com) : Flex offers a few free geometry nodes generators, including; **_Crystal, Curtain, Engine, Lego Character, Pillow, Rope, Stair, Stingwire, Table, Tyre_**.
+-   [Flex's Generators](https://flexdigitalpottery.gumroad.com) : Flex offers a few free geometry nodes generators, including; **_Crystal, Curtain, Engine, Lego Character, Pillow, Rope, Stair, Stingwire, Table, Tyre_**。
 -   [Geometry Nodes Demo](https://www.blender.org/download/demo-files/#geometry-nodes) : Free examples of geometry nodes including procedural buildings and a hex grid map.
 -   [Geometry Nodes Pipes](https://raywakui.gumroad.com/l/pcxni) : is an addon for blender which helps generating complex pipe layouts.
--   [Industrial Geonodes](https://ko-fi.com/s/8d276833cf) : A collection of industrial themed Geometry nodes. It includes; **Pipes, Vents** and **Catwalks**.
+-   [Industrial Geonodes](https://ko-fi.com/s/8d276833cf) : A collection of industrial themed Geometry nodes. It includes; **Pipes, Vents** 和 **Catwalks**。
 -   [Mesh Maze](https://github.com/elfnor/mesh_maze) : Blender add-on to generate a maze on any mesh.
 -   [Modular Tree](https://github.com/MaximeHerpin/modular_tree/tree/blender_28) : This addon for blender allows the creation of realistic trees with the node editor.
--   [Nino DefoQ's Generators](https://ninodefoq.gumroad.com) : Nino DefoQ offers a few geometry nodes generators for free. Including; [Hair](https://ninodefoq.gumroad.com/l/hairgeometrynodes), [Braid](https://ninodefoq.gumroad.com/l/braidify), [Cornrow](https://ninodefoq.gumroad.com/l/cornrows), [Moss](https://ninodefoq.gumroad.com/l/mossify), [Snow](https://ninodefoq.gumroad.com/l/Snowify).
--   [Pleebs Generators](https://pleebs.gumroad.com) : Pleebs offers free geometry nodes generators for creating procedural assets. Including; [Bush](https://pleebs.gumroad.com/l/BushDraw), [Wall](https://pleebs.gumroad.com/l/WallDraw), [Cobble](https://pleebs.gumroad.com/l/cobbledraw).
+-   [Nino DefoQ's Generators](https://ninodefoq.gumroad.com) : Nino DefoQ offers a few geometry nodes generators for free. Including; [Hair](https://ninodefoq.gumroad.com/l/hairgeometrynodes)， [Braid](https://ninodefoq.gumroad.com/l/braidify)， [Cornrow](https://ninodefoq.gumroad.com/l/cornrows)， [Moss](https://ninodefoq.gumroad.com/l/mossify)， [Snow](https://ninodefoq.gumroad.com/l/Snowify)。
+-   [Pleebs Generators](https://pleebs.gumroad.com) : Pleebs offers free geometry nodes generators for creating procedural assets. Including; [Bush](https://pleebs.gumroad.com/l/BushDraw)， [Wall](https://pleebs.gumroad.com/l/WallDraw)， [Cobble](https://pleebs.gumroad.com/l/cobbledraw)。
 -   [Post USSR Builder](https://kypcaht.gumroad.com/l/PmCLJ) : Simple post USSR style building generator on geometry nodes. 2.93 and newer.
 -   [Procedural Slime](https://artichoke18.gumroad.com/l/spsra) : generates procedural slime between objects.
 -   [Random Book Generator](https://ko-fi.com/s/9879a091a9) : Book randomizing asset for Blender. Made with the new Geometry nodes.
@@ -194,7 +194,7 @@
 -   [Maxivz’s Interactive Tools](https://gumroad.com/l/ynJmIV) : Collection of intuitive, context sensitive tools for Blender.
 -   [Synced Modifiers](https://amanbairwal.gumroad.com/l/SyncedModifiers) : allows you to add modifiers to multiple objects at the same time and automatically syncs all the modifiers using Drivers.
 -   CAD:
-    -   [BlenderBIM](https://blenderbim.org) : An add-on for beautiful, detailed, and data-rich OpenBIM with Blender. [![][repo]](https://github.com/ifcopenshell/ifcopenshell) ![][gpl]
+    -   [BlenderBIM](https://blenderbim.org) : An add-on for beautiful, detailed, 和 data-rich OpenBIM with Blender. [![][repo]](https://github.com/ifcopenshell/ifcopenshell) ![][gpl]
     -   [Archipack](https://gumroad.com/l/ZRMyP) [$] : The Archipack addon for Blender contains a collection of parametric primitives for ArchViz. You can manipulate these primitives with a realtime on-screen editing interface.
     -   [Building Tools](https://github.com/ranjian0/building_tools) : Building generation addon for blender.
     -   [Sverchok](https://nortikin.github.io/sverchok) : is a powerful parametric tool for architects, allowing geometry to be programmed visually with nodes. [![][repo]](https://github.com/nortikin/sverchok) ![][gpl]
@@ -202,6 +202,7 @@
     -   [CAD Transform](https://blenderartists.org/t/cad-like-transform/1226197) : CAD Transform provide intuitive snap from/to workflow, allow precise move/rotate/scale using advanced snap options and constraints in both object and edit mode. [![][repo]](https://github.com/s-leger/blender_cad_transforms) ![][gpl]
     -   [MeasureIt-ARCH](https://github.com/kevancress/MeasureIt_ARCH) : An expansion of Antonio Vazquez's MeasureIt addon to add features to create Architectural Drawings.
     -   [JARCH-Vis](https://blenderartists.org/t/addon-jarch-vis/642607) : is add-on for Blender 3D that helps create commonly used object for architectural visualization. [![][repo]](https://github.com/BlendingJake/JARCH-Vis) ![][gpl]
+    -   [Import-CAD-Model](https://github.com/chenpaner/Import-CAD-Model) :  is add-on for Blender 3D that let\`s you import stp/iges files in Blender 4.0+.
 -   Retopology/Remesh:
     -   [retopoflow](https://blendermarket.com/products/retopoflow) : A suite of retopology tools for Blender. [![][repo]](https://github.com/CGCookie/retopoflow)
     -   [InstantMeshesRemesh](https://blenderartists.org/t/instant-meshes-remesh/1114982) : A suite of retopology tools for Blender. [![][repo]](https://github.com/knekke/blender_addons#instantmeshesremesh)
@@ -209,7 +210,7 @@
     -   [Retopo MT](https://gumroad.com/l/cNGNb) : is a tool for retopo, you use it in addition with other addons or tools in Blender, in Edit Mode.
 -   Hard Surface:
     -   [KIT OPS](https://gumroad.com/l/kitops) : Can create objects and scenes with extreme efficiency and speed. Complex industrial designs can be generated in a single sitting.
-    -   [ND](https://hugemenace.gumroad.com/l/nd-blender-addon) : is a free non-destructive & interactive hard surface toolkit (smart modifiers, booleans, and geometry management) [![][repo]](https://github.com/hugemenace/nd) [![market]](https://www.blendermarket.com/products/nd-addon)
+    -   [ND](https://hugemenace.gumroad.com/l/nd-blender-addon) : is a free non-destructive & interactive hard surface toolkit (smart modifiers, booleans, 和 geometry management) [![][repo]](https://github.com/hugemenace/nd) [![market]](https://www.blendermarket.com/products/nd-addon)
     -   [HardOps/Boxcutter](https://blendermarket.com/products/hard-ops--boxcutter-ultimate-bundle) [$] : [HardOps](https://blendermarket.com/products/hardopsofficial), is intended to be a workflow assistant toolkit. [Boxcutter](https://blendermarket.com/products/boxcutter), the most powerful boolean subsystem for blender.
     -   [Speedflow](https://gumroad.com/l/speedflow) [$] : Addon for non-destructive workflow.
     -   [Bevel After Boolean](https://blenderartists.org/t/wip-bevel-after-boolean/693072?u=peetie) : Addon comes in handy when working with booleans that have a curved surface.
@@ -217,7 +218,7 @@
     -   [Engraver](https://gumroad.com/l/qOyVO) : is an Blender addon with set of few tools designed to help carving decals in 3d models.
     -   [JMesh Tools](https://github.com/jayanam/jmesh-tools) : Hardsurface utility Blender addon for fast boolean and bevel operations.
     -   [Offset Edges](https://blenderartists.org/t/offset-edges/584283/259) : this addon introduces a cad-like feature, which create edges that have consistent distance from original selected ones.
-    -   [Mesh Utils](https://github.com/rpopovici/mesh-utils) : Overlapping vert/edge/face, interior faces, edges by trait, and other stuff.
+    -   [Mesh Utils](https://github.com/rpopovici/mesh-utils) : Overlapping vert/edge/face, interior faces, edges by trait, 和 other stuff.
     -   [Poly Source](https://gumroad.com/l/polysource) : is designed to simplify the control of the number of different types of polygons. You can see how many Gone, Quad and Tris are on the active object.
 -   Sculpt:
     -   [Blender-Sculpt-Tools](https://github.com/anfeo/Blender-Sculpt-Tools) : Addon for help sculpting base mesh like Zbrush with Zsphere.
@@ -226,7 +227,7 @@
     -   [GoB](https://github.com/JoseConseco/GoB) : GoZ-alike tools for simple ZBrush-Blender interchange.
     -   [Brush Manager for Blender](https://gumroad.com/l/zLBPz) : is an add-on for Blender that helps you to create custom brushes, store them in a file and organize the library of various categories of brushes.
 -   Snapping-Align:
-    -   [Mesh Align Plus](https://github.com/egtwobits/mesh_mesh_align_plus) : Precisely align, move, and measure+match objects and mesh parts in your 3D scenes.
+    -   [Mesh Align Plus](https://github.com/egtwobits/mesh_mesh_align_plus) : Precisely align, move, 和 measure+match objects and mesh parts in your 3D scenes.
     -   [Easy Align](https://blenderartists.org/t/addon-easy-align/685704) : Easy Align addon allows you to align mesh objects origins and align mesh objects to each others easily, it works in both Edit mode and Object mode. [![][repo]](https://github.com/sergeod9/Easy_Align_Addon)
     -   [Blign](https://jack-cooke.github.io/blign/) : is an alignment and distribution tool for Blender. It allows users to align and distribute shapes with many different options.
 -   Mesh Generate/Stylization:
@@ -250,14 +251,14 @@
 -   [COA Tools](https://github.com/ndee85/coa_tools) : is a 2D Animation Suite for blender. It offers a 2D cutout animation workflow similar to programs like spine or spriter.
 -   [reflow](https://gitlab.com/diegogangl/reflow) : Blender addon to change fps.
 -   [Keyframe Nudge](https://github.com/okuma10/Keyframe-Nudge) : Scripts for quick keyframe manipulation.
--   [Shape Keys+](https://blenderartists.org/t/shape-keys/680636) : adds a panel with extra options for creating, sorting, viewing, and driving shape keys.
+-   [Shape Keys+](https://blenderartists.org/t/shape-keys/680636) : adds a panel with extra options for creating, sorting, viewing, 和 driving shape keys.
 -   [Stop-Mo](https://blendermarket.com/products/stop-mo) : transforms animations into a beautiful, hand-crafted stop motion style.
 -   [Blender NLA Midi Copier](https://github.com/Cornerback24/Blender-NLA-Midi-Copier) : Blender add-on for creating midi-driven animations from the Nonlinear Animation view.
 -   [BlendyPose](https://github.com/zonkosoft/BlendyPose) : Blender Motion Capture using your camera.
 -   Rigging:
     -   [BlenRig](https://www.blendermarket.com/products/blenrig) : BlenRig is an Auto-rigging and skinning system. It provides the user with a Feature Film quality rig; including an advanced facial system. [![][repo]](https://github.com/jpbouza/BlenRig) ![][gpl]
     -   [Rig on the Fly](https://gitlab.com/dypsloom/rigonthefly) : Rig on the Fly is a Blender dynamic rigging tool used to simplify and speed up animation workflow.
-    -   [Auto-Rig Pro](https://blendermarket.com/products/auto-rig-pro) [$] : Auto-Rig Pro is an addon for Blender to rig characters, retarget animations, and provide Fbx export, with presets for Unity and Unreal Engine.
+    -   [Auto-Rig Pro](https://blendermarket.com/products/auto-rig-pro) [$] : Auto-Rig Pro is an addon for Blender to rig characters, retarget animations, 和 provide Fbx export, with presets for Unity and Unreal Engine.
     -   [Universal Human Rigged Base Mesh](https://gumroad.com/l/EqNTn) [$] : Rigged human base mesh.
     -   [Mixamo add-on for Blender by Adobe](https://substance3d.adobe.com/plugins/mixamo-in-blender/) : This Blender auto control-rig add-on works with characters that have been auto-rigged with the Mixamo service.
     -   [Rigacar](http://digicreatures.net/articles/rigacar.html) : Generate a complete rig as quickly as possible for standard car models. [![][repo]](https://github.com/digicreatures/rigacar) ![][gpl]
