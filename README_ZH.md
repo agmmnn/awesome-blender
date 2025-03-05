@@ -109,7 +109,7 @@
             <li><a href="#events-">🎉Events</a></li>
         </ul>
     </li>
-    <li><a href="#symbols-">Symbols</a></li>
+    <li><a href="#symbols-">符号</a></li>
     <li><a href="#contributing-">Contributing</a></li>
 </ul>
 </details>
@@ -135,13 +135,13 @@
 - [FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) [$]：一个Blender插件，允许你使用几张中性表情的照片创建逼真的3D人脸和头部模型。[[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c) 
 - [Tiny Eye](https://tinynocky.gumroad.com/l/tinyeye)：Tiny Eye是一个完全程序化的、风格化的免费眼睛，适用于Eevee和Cycles。
 - [Auto-Terrainer](https://unicornhunter.gumroad.com/l/AutoTerrainer)：自动Blender地形生成器是一个功能强大且易于使用的工具，可以让你将任何低多边形网格转换成真实且可定制的地形。你可以用它来创造山脉、山谷、岛屿、沙漠、森林等。
-- [Blenderesse's Generators](https://blenderesse.gumroad.com)：Blenderesse提供了一些免费的几何节点生成器。包括；[Electric Power Line](https://blenderesse.gumroad.com/l/electriclinegenerator), [Melt](https://blenderesse.gumroad.com/l/melt), [Bird](https://blenderesse.gumroad.com/l/birdgenerator). 
+- [Blenderesse's Generators](https://blenderesse.gumroad.com)：Blenderesse提供了一些免费的几何节点生成器。包括；[Electric Power Line](https://blenderesse.gumroad.com/l/electriclinegenerator)， [Melt](https://blenderesse.gumroad.com/l/melt)， [Bird](https://blenderesse.gumroad.com/l/birdgenerator)。 
 - [Buildify](https://paveloliva.gumroad.com/l/buildify)：是一个几何节点库，用于轻松创建建筑。
 - [Bricker](https://www.blendermarket.com/products/bricker) [$]：逼真的乐高/Minecraft模拟。
 - [Blender Data Visualisation](https://github.com/Griperis/BlenderDataVis)：将数据加载到Blender中并创建可视化。
 - [BookGen](https://oweissbarth.de/software/book-gen-blender-addon/)：是Blender的免费书籍生成插件。
 - [Celtic Knot](https://github.com/BorisTheBrave/celtic-knot/wiki/Gallery)：基于框架网格生成复杂的编织贝塞尔曲线、管道和丝带。
-- [Curtis Holt's Generators](https://curtisjamesholt.gumroad.com)：Curtis Holt提供了一些免费的几何节点生成器。包括；[Space Station](https://curtisjamesholt.gumroad.com/l/space_station_gen_free), [Mech](https://curtisjamesholt.gumroad.com/l/mech_gen_free), [Weapon](https://curtisjamesholt.gumroad.com/l/random_weapon_generator). 
+- [Curtis Holt's Generators](https://curtisjamesholt.gumroad.com)：Curtis Holt提供了一些免费的几何节点生成器。包括；[Space Station](https://curtisjamesholt.gumroad.com/l/space_station_gen_free)， [Mech](https://curtisjamesholt.gumroad.com/l/mech_gen_free)， [Weapon](https://curtisjamesholt.gumroad.com/l/random_weapon_generator)。 
 - [Data-FX](https://github.com/LandonFerg/Data-FX)：从.csv文件中加载并可视化Blender中的不同类型的数据。
 - [Flex's Generators](https://flexdigitalpottery.gumroad.com)：Flex提供了一些免费的几何节点生成器，包括；**_Crystal, Curtain, Engine, Lego Character, Pillow, Rope, Stair, Stingwire, Table, Tyre_**。
 - [Geometry Nodes Demo](https://www.blender.org/download/demo-files/#geometry-nodes)：免费的几何节点示例，包括程序化建筑和六角网格图。
@@ -149,8 +149,8 @@
 - [Industrial Geonodes](https://ko-fi.com/s/8d276833cf)：一系列工业主题的几何节点。包括；**Pipes, Vents** 和 **Catwalks**。
 - [Mesh Maze](https://github.com/elfnor/mesh_maze)：Blender插件，在任何网格上生成迷宫。
 - [Modular Tree](https://github.com/MaximeHerpin/modular_tree/tree/blender_28)：这个Blender插件允许使用节点编辑器创建逼真的树木。
-- [Nino DefoQ's Generators](https://ninodefoq.gumroad.com)：Nino DefoQ提供了一些免费的几何节点生成器。包括；[Hair](https://ninodefoq.gumroad.com/l/hairgeometrynodes), [Braid](https://ninodefoq.gumroad.com/l/braidify), [Cornrow](https://ninodefoq.gumroad.com/l/cornrows), [Moss](https://ninodefoq.gumroad.com/l/mossify), [Snow](https://ninodefoq.gumroad.com/l/Snowify). 
-- [Pleebs Generators](https://pleebs.gumroad.com)：Pleebs提供免费的几何节点生成器，用于创建程序化资产。包括；[Bush](https://pleebs.gumroad.com/l/BushDraw), [Wall](https://pleebs.gumroad.com/l/WallDraw), [Cobble](https://pleebs.gumroad.com/l/cobbledraw). 
+- [Nino DefoQ's Generators](https://ninodefoq.gumroad.com)：Nino DefoQ提供了一些免费的几何节点生成器。包括；[Hair](https://ninodefoq.gumroad.com/l/hairgeometrynodes)， [Braid](https://ninodefoq.gumroad.com/l/braidify)， [Cornrow](https://ninodefoq.gumroad.com/l/cornrows)， [Moss](https://ninodefoq.gumroad.com/l/mossify)， [Snow](https://ninodefoq.gumroad.com/l/Snowify)。 
+- [Pleebs Generators](https://pleebs.gumroad.com)：Pleebs提供免费的几何节点生成器，用于创建程序化资产。包括；[Bush](https://pleebs.gumroad.com/l/BushDraw)， [Wall](https://pleebs.gumroad.com/l/WallDraw)， [Cobble](https://pleebs.gumroad.com/l/cobbledraw)。 
 - [Post USSR Builder](https://kypcaht.gumroad.com/l/PmCLJ)：简单的后苏联风格建筑生成器，基于几何节点。2.93及更高版本。
 - [Procedural Slime](https://artichoke18.gumroad.com/l/spsra)：在对象之间生成程序化粘液。
 - [Random Book Generator](https://ko-fi.com/s/9879a091a9)：Blender的书籍随机化资产。使用新的几何节点制作。
@@ -200,6 +200,7 @@
   - [CAD Transform](https://blenderartists.org/t/cad-like-transform/1226197)：CAD Transform提供直观的吸附从/到工作流程，允许在对象和编辑模式中使用高级吸附选项和约束进行精确的移动/旋转/缩放。[![][repo]](https://github.com/s-leger/blender_cad_transforms) ![gpl]
   - [MeasureIt-ARCH](https://github.com/kevancress/MeasureIt_ARCH)：Antonio Vazquez的MeasureIt插件的扩展，增加创建建筑绘图的功能。
   - [JARCH-Vis](https://blenderartists.org/t/addon-jarch-vis/642607)：是Blender 3D的插件，帮助创建常用于建筑可视化的对象。[![][repo]](https://github.com/BlendingJake/JARCH-Vis) ![gpl]
+  - [Import-CAD-Model](https://github.com/chenpaner/Import-CAD-Model) :可以让你在blender里直接导入stp/iges格式的模型.
 - 拓扑/重网格：
   - [retopoflow](https://blendermarket.com/products/retopoflow)：Blender的一套拓扑工具。[![][repo]](https://github.com/CGCookie/retopoflow) 
   - [InstantMeshesRemesh](https://blenderartists.org/t/instant-meshes-remesh/1114982)：Blender的一套拓扑工具。[![][repo]](https://github.com/knekke/blender_addons#instantmeshesremesh) 
