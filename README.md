@@ -71,7 +71,7 @@
     <li><a href="#explore-blender-">🔍Explore Blender</a>
         <ul>
             <li><a href="#documantation-">Documantation</a></li>
-            <li><a href="#developement-">Developement</a></li>
+            <li><a href="#developement-">Development</a></li>
             <li><a href="#community-">Community</a></li>
         </ul>
     </li>
@@ -135,14 +135,14 @@
 -   [CharMorph](https://blenderartists.org/t/charmorph-character-creation-tool-mb-lab-based/1252543) : An open source character creation tool for Blender. It's a rewrite of [MB-Lab](https://github.com/animate1978/MB-Lab), which is now unmaintained. [![][repo]](https://github.com/Upliner/CharMorph)
 -   [MPFB](http://static.makehumancommunity.org/mpfb.html) : MPFB2 is an open source human generator for Blender. It's complete rewrite of MakeHuman as a Blender addon. [![][repo]](https://github.com/makehumancommunity/mpfb2)
 -   [FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) [$] : A Blender add-on that lets you create photorealistic 3D models of human faces and heads using a few photographs with a neutral face expression. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
--   [Tiny Eye](https://tinynocky.gumroad.com/l/tinyeye) : Tiny Eye is a FREE, fully procedural, stylised eye that works in Eevee and Cycles.
+-   [Tiny Eye](https://tinynocky.gumroad.com/l/tinyeye) : Tiny Eye is a FREE, fully procedural, stylised eye that works in EEVEE and Cycles.
 -   [Auto-Terrainer](https://unicornhunter.gumroad.com/l/AutoTerrainer) : Automatic Blender Terrain Generator is a powerful and easy-to-use tool that lets you turn any low poly mesh into realistic and customizable terrain. You can use it to create mountains, valleys, islands, deserts, forests, and more.
 -   [Blenderesse's Generators](https://blenderesse.gumroad.com) : Blenderesse offers a few geometry nodes generators for free. Including; [Electric Power Line](https://blenderesse.gumroad.com/l/electriclinegenerator), [Melt](https://blenderesse.gumroad.com/l/melt), [Bird](https://blenderesse.gumroad.com/l/birdgenerator).
 -   [Buildify](https://paveloliva.gumroad.com/l/buildify) : is a geometry nodes library for easy building creation.
 -   [Bricker](https://www.blendermarket.com/products/bricker) [$] : Photoreal Lego/Minecraft Simulations.
 -   [Blender Data Visualisation](https://github.com/Griperis/BlenderDataVis) : Load data into Blender and create visualisations.
 -   [BookGen](https://oweissbarth.de/software/book-gen-blender-addon/) : is a free book-generation addon for Blender.
--   [Celtic Knot](https://github.com/BorisTheBrave/celtic-knot/wiki/Gallery) : Generate bezier curves, pipes and ribbons in elaborate weavings, based off of a framework mesh.
+-   [Celtic Knot](https://github.com/BorisTheBrave/celtic-knot/wiki/Gallery) : Generate Bezier curves, pipes and ribbons in elaborate weavings, based off of a framework mesh.
 -   [Curtis Holt's Generators](https://curtisjamesholt.gumroad.com) : Curtis Holt offers a few geometry nodes generators for free. Including; [Space Station](https://curtisjamesholt.gumroad.com/l/space_station_gen_free), [Mech](https://curtisjamesholt.gumroad.com/l/mech_gen_free), [Weapon](https://curtisjamesholt.gumroad.com/l/random_weapon_generator).
 -   [Data-FX](https://github.com/LandonFerg/Data-FX) : Loads and visualizes different types of data within Blender from .csv files.
 -   [Flex's Generators](https://flexdigitalpottery.gumroad.com) : Flex offers a few free geometry nodes generators, including; **_Crystal, Curtain, Engine, Lego Character, Pillow, Rope, Stair, Stingwire, Table, Tyre_**.
@@ -214,7 +214,7 @@
     -   [Speedflow](https://gumroad.com/l/speedflow) [$] : Addon for non-destructive workflow.
     -   [Bevel After Boolean](https://blenderartists.org/t/wip-bevel-after-boolean/693072?u=peetie) : Addon comes in handy when working with booleans that have a curved surface.
     -   [EdgeFlow](https://github.com/BenjaminSauder/EdgeFlow/tree/blender_28) : This addon adds two operators to blender which both work on edgeloop selections.
-    -   [Engraver](https://gumroad.com/l/qOyVO) : is an Blender addon with set of few tools designed to help carving decals in 3d models.
+    -   [Engraver](https://gumroad.com/l/qOyVO) : is an Blender addon with set of few tools designed to help carving decals in 3D models.
     -   [JMesh Tools](https://github.com/jayanam/jmesh-tools) : Hardsurface utility Blender addon for fast boolean and bevel operations.
     -   [Offset Edges](https://blenderartists.org/t/offset-edges/584283/259) : this addon introduces a cad-like feature, which create edges that have consistent distance from original selected ones.
     -   [Mesh Utils](https://github.com/rpopovici/mesh-utils) : Overlapping vert/edge/face, interior faces, edges by trait, and other stuff.
@@ -281,7 +281,7 @@
 -   [Redshift Blender Integration](https://www.maxon.net/en/redshift/integrations?categories=721103) [$] : Redshift by Maxon is a GPU-accelerated renderer built to meet the specific demands of contemporary high-end production rendering.
 -   [LuxCore](https://luxcorerender.org/) : LuxCoreRender is a physically based and unbiased rendering engine. It offers advanced features like accelerated rendering of indirect light and efficient rendering of caustics. [![][repo]](https://github.com/LuxCoreRender/LuxCore) [(blender addon)](https://github.com/LuxCoreRender/BlendLuxCore) ![][gpl]
 -   [Malt](https://malt3d.com/) : Malt is a non photorealistic rendering (NPR) framework. It offers fully customizable real-time rendering framework for animation and illustration. [![][repo]](https://github.com/bnpr/Malt) ![][mit]
--   [Pixel Art Rendering](https://lucasroedel.gumroad.com/l/pixel_art) : This is a free addon to make pixel art like renders in blender. It works with eevee, bayer dithering and multiple light sources.
+-   [Pixel Art Rendering](https://lucasroedel.gumroad.com/l/pixel_art) : This is a free addon to make pixel art like renders in blender. It works with EEVEE, Bayer dithering and multiple light sources.
 -   [Mitsuba Renderer](https://www.mitsuba-renderer.org/) : Mitsuba 3 is a research-oriented retargetable rendering system for forward and inverse light transport simulation. [![][repo]](https://github.com/mitsuba-renderer/mitsuba3) [(blender addon)](https://github.com/mitsuba-renderer/mitsuba-blender)
 -   [appleseed](https://appleseedhq.net/) : is an open source, physically-based global illumination rendering engine primarily designed for animation and visual effects. [![][repo]](https://github.com/appleseedhq/appleseed) [(blender addon)](https://github.com/appleseedhq/blenderseed) ![][mit]
 -   [E-Cycles](https://ecycles.gumroad.com/l/E-Cycles) [$] : is a fork of Cycles which renders up to 2.5x faster out of the box when using CUDA GPUs, up to 15x using new options.
@@ -305,21 +305,21 @@
 -   [Grungit](https://abdoubouam.gumroad.com/l/grungit) : Grungit is an addon that automatically and effortlessly adds wear and tear to your models with a single click. The result is fully controllable and can deliver anything from imperfections and light wear to heavy damage. ![][gpl]
 -   [Lily Surface Scrapper](https://github.com/eliemichel/LilySurfaceScrapper) : Import shaders in Blender from a single URL.
 -   [Magic UV](https://nutti.github.io/Magic-UV/) : This is a blender add-on Magic UV consisted of many UV manipulation features which Blender lack of. [![][repo]](https://github.com/nutti/Magic-UV)
--   [Parallax UV Mapping](https://neveselov.gumroad.com/l/btnpx) : This is Parallax Mapping material and node setup. Created in Blender 2.8 for eevee renderer, it works well in cycles too. [[more info]](https://www.youtube.com/watch?v=ZL695WnJvmU)
+-   [Parallax UV Mapping](https://neveselov.gumroad.com/l/btnpx) : This is Parallax Mapping material and node setup. Created in Blender 2.8 for EEVEE renderer, it works well in cycles too. [[more info]](https://www.youtube.com/watch?v=ZL695WnJvmU)
 -   [PBR Texture Mapper](https://github.com/jayanam/pbr_texture_mapper) : Create PBR node setup with one click.
 -   [Poliigon Blender Addon](https://help.poliigon.com/en/articles/6342599) : this addon allows you to browse, purchase, download, and import Poliigon assets from inside Blender. It supports loading textures, models, and HDRs, and more recently supports generating blender files for use in the Blender Asset Browser.
 -   [Principled-Baker](https://github.com/danielenger/Principled-Baker) : Bake PBR textures with a few clicks.
 -   [Sanctus Library](https://blendermarket.com/products/sanctus-library-addon---procedural-shaders-collection-for-blender/) [$] : The ever-growing procedural material library for Blender.
 -   [SCATTr](https://gumroad.com/l/scattr) : Procedural texture placement.
 -   [Texel Density Checker](https://gumroad.com/l/CEIOR) : Tools for calculate, set and copy texel density. [![][repo]](https://github.com/mrven/Blender-Texel-Density-Checker)
--   [UcuPaint](https://github.com/ucupumar/ucupaint) : A addon to manage texture layers for Eevee and Cycles renderer.
+-   [UcuPaint](https://github.com/ucupumar/ucupaint) : A addon to manage texture layers for EEVEE and Cycles renderer.
 -   [UV-Packer](https://www.uv-packer.com/blender/) : Automatic and free UV-Packer Add-on for Blender.
 -   [UV Toolkit](https://gumroad.com/alexbel#NbMya) : Tools collection for UV editing in blender.
 -   [Vertex Oven](https://github.com/ForestKatsch/VertexOven) : Bake game-ready ambient occlusion in seconds without UV unwrapping or agonizingly slow Cycles bakes.
 
 ### 🎮GameDev [^](#table)
 
--   [MeshSync](https://github.com/unity3d-jp/MeshSync) : Live link plugin for Unity. supported blender and other 3d softwares.
+-   [MeshSync](https://github.com/unity3d-jp/MeshSync) : Live link plugin for Unity. supported blender and other 3D software.
 -   [Blender Tools by Epic Games](https://www.unrealengine.com/en-US/blog/download-our-new-blender-addons) : Blender addons that improve the game development workflow between Blender and Unreal. _Send to Unreal, UE to Rigify._
 -   [Mr Mannequins Tools](https://github.com/Jim-Kroovy/Mr-Mannequins-Tools) : is a Blender add-on that gives the ability to export animations and weighted meshes that are directly compatible with the third person mannequin without re-targeting anything in Unreal Engine!
 -   [Blender For Unreal Engine](https://github.com/xavier150/Blender-For-UnrealEngine-Addons) : This Add-on allows you to export content created with Blender to Unreal Engine 4.
@@ -395,13 +395,14 @@
     -   [VSEQF](https://github.com/snuq/VSEQF) : is an overhaul for Blender's VSE that can completely change your workflow. Designed for quick, mouse and keyboard balanced editing with a focus on real-time feedback.
     -   [Transform Tools](https://github.com/doakey3/VSE_Transform_Tools) : Quickly transform, crop and fade video strips in Blender's Video Sequence Editor.
     -   [Easy Proxy](https://github.com/cgvirus/blender-vse-easy-proxy) : Blender addon to create proxy files for Video Sequence Editor (VSE) easily using FFMPEG.
-    -   [Parallel_Render](https://github.com/elmopl/ktba/wiki/Addons) : Render the output from the Sequencer multithreaded through the Render siderbar.
+    -   [Parallel_Render](https://github.com/elmopl/ktba/wiki/Addons) : Render the output from the Sequencer multithreaded through the Render sidebar.
     -   [Export EDL](https://github.com/tin2tin/ExportEDL) : Exports: video, audio and dissolves. to ex. Davinci Resolve, Lightworks, Final Cut Pro & Premiere Pro.
     -   [Import EDL](https://github.com/tin2tin/import_edl) : Imports: video, audio and dissolves.
     -   [Freesound Add-on](https://github.com/iwkse/freesound/tree/freesound-2.0) : is an addon for Blender that allows users to create and edit subtitles for movies or music.
     -   [Push to Talk](https://github.com/britalmeida/blender_addon_push_to_talk) : Convenient recording of scratch dialog for an edit.
     -   [Scene Strip Tools](https://github.com/tin2tin/scene_strip_tools) : Preview Scene Strips directly in the 3D View.
     -   [Subsimport](https://github.com/doakey3/Subsimport) : is an addon for Blender that allows users to create and edit subtitles for movies or music.
+    -   [LUT Exporter](https://github.com/ichlubna/BlenderLUTExporter) : is an addon for export of LUT .cube files from the VSE adjustment layer.
 -   TextEditor:
     -   [TexTension](https://github.com/K-410/textension) : For increasing productivity and generally trying to match the writing experience of a modern text editor.
     -   [Code Editor](https://github.com/K-410/blender-scripts/blob/master/2.8/code_editor.py) : Adds minimap, text tabs, whitespace markers and indent guides.
@@ -417,10 +418,10 @@
     -   [blender_kitti](https://github.com/risteon/blender_kitti) : Render large point clouds and voxel grids with blender.
     -   [Point Cloud Visualizer](https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280) : Display, edit, filter, render, convert, generate and export colored point cloud PLY files.
 -   EEVEE:
-    -   [Glass for EEVEE](https://www.blendswap.com/blend/25759) : This shader allows you to make realistic glass with eevee.
+    -   [Glass for EEVEE](https://www.blendswap.com/blend/25759) : This shader allows you to make realistic glass with EEVEE.
     -   [SSGI for EEVEE](https://gumroad.com/l/PgyXc) : Converts Diffuse and Principled BSDFs to nodegroups that give representation of diffuse component to SSR for SSGI effect.
-    -   [Shader Displacement for Eevee](https://gumroad.com/l/WDCRp) : Using a few modifiers and a nodegroup, realtime shader displacement in Eevee is now possible.
-    -   [Eevee Presets](https://github.com/danielenger/Eevee-Presets) : Save Eevee Presets.
+    -   [Shader Displacement for EEVEE](https://gumroad.com/l/WDCRp) : Using a few modifiers and a nodegroup, realtime shader displacement in EEVEE is now possible.
+    -   [EEVEE Presets](https://github.com/danielenger/Eevee-Presets) : Save EEVEE Presets.
 -   [Projectors](https://github.com/Ocupe/Projectors) : A blender add-on for simple projector creation and modification.
 -   [Simple Renaming Panel](https://github.com/Weisl/simple_renaming_panel) : Rename more objects at once. The tool includes basic functionalities of adding suffixes, prefixes, search and replace, add suffixes depending on the object type and much more.
 -   [IOR Reference](https://gitlab.com/diegogangl/IOR_reference) : A blender addon that display IOR values in a list.
@@ -468,8 +469,8 @@
 -   [3DB3](https://3db3.com/) : Check out the best 3D models made by professional 3D artists.
 -   [Rigmodels](http://rigmodels.com/) : Free rigged, animated and low poly models
 -   [RockThe3D](http://www.rockthe3d.com/) : is a blog site to provide and sharing the best 3D related knowledge and resources around.
--   [CGTrader](https://www.cgtrader.com/free-3d-models) : Free 3D models from cgtrader.
--   [Sketchfab](https://sketchfab.com/search?features=downloadable&sort_by=-pertinence&type=models) : Free downloadable models from sketchfab.
+-   [CGTrader](https://www.cgtrader.com/free-3d-models) : Free 3D models from CGTrader.
+-   [Sketchfab](https://sketchfab.com/search?features=downloadable&sort_by=-pertinence&type=models) : Free downloadable models from Sketchfab.
 -   [TurboSquid/free](https://www.turbosquid.com/Search/3D-Models/free) : Free models from Turbosquid.
 -   [Hum3D](https://hum3d.com/) : source of quality 3D models of vehicles in blend file format.
 -   [Clara.io](https://clara.io/library) : Free 3D Modeling, Rendering, Sharing and Models.
@@ -501,7 +502,7 @@
 -   [Rokoko Studio](https://www.rokoko.com/en/downloads) : Get 150 free mocap moves from Rokoko’s Motion Library.
 -   [Motekentertainment/free-samples](http://www.motekentertainment.com/product-category/free-samples/) : Motek has captured and animated the a large variety of characters, for a great number of projects from various sectors.
 -   [Bandai Namco Research Motiondataset](https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset) : the R&D division of game publisher and developer Bandai Namco, has released a massive library of free motion-capture data for research and personal use.
--   [turbosquid/motion-capture](https://www.turbosquid.com/Search/Motion-Capture/free/), [sketchfab/animated](https://sketchfab.com/3d-models?features=downloadable+animated&sort_by=-likeCount).
+-   [turbosquid/motion-capture](https://www.turbosquid.com/Search/Motion-Capture/free/), [Sketchfab/animated](https://sketchfab.com/3d-models?features=downloadable+animated&sort_by=-likeCount).
 
 ### 🌑Textures [^](#table)
 
@@ -540,7 +541,7 @@
 -   [3d-wolf/materials](https://3d-wolf.com/products/materials.html) : PBR Materials is an addon with physically based materials. ![gpl]
 -   [BlenderKit](https://www.blenderkit.com/) : Allows you to download assets, materials, and alpha brushes to your blender client with the click of a button for free. _Now you can find it on built-in addons._
 -   Sketch/Toon Shaders:
-    -   [BNPR' Shaders](https://blendernpr.org/downloads/), [Eevee Comics Shader v3.0](https://gumroad.com/l/JWdjJ), [Erisdraw3D's](https://twitter.com/Erisdraw3D/status/1216755574735503361), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [Komikaze[\$]](https://blendermarket.com/products/komikaze)(Free: [Aqua](https://drive.google.com/file/d/1jlYxqRfjnjnZSG2gxKqiXa5Fo0Y7N9Kn/edit), [Kismet](https://drive.google.com/file/d/1Mp808PE3Wjew6-hEv0vIJZLzPezRM-jV/view)), [Ultimate Clay Shader[\$]](https://blendermarket.com/products/claydoh), [Erito's Toon Shader for Eevee](https://www.artstation.com/eritokaio/store/Wo3B/erito-s-toon-shader-for-blender-eevee), [Toonkit-Samples](https://github.com/vitorbalbio/Toonkit-Samples).
+    -   [BNPR' Shaders](https://blendernpr.org/downloads/), [EEVEE Comics Shader v3.0](https://gumroad.com/l/JWdjJ), [Erisdraw3D's](https://twitter.com/Erisdraw3D/status/1216755574735503361), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [Komikaze[\$]](https://blendermarket.com/products/komikaze)(Free: [Aqua](https://drive.google.com/file/d/1jlYxqRfjnjnZSG2gxKqiXa5Fo0Y7N9Kn/edit), [Kismet](https://drive.google.com/file/d/1Mp808PE3Wjew6-hEv0vIJZLzPezRM-jV/view)), [Ultimate Clay Shader[\$]](https://blendermarket.com/products/claydoh), [Erito's Toon Shader for EEVEE](https://www.artstation.com/eritokaio/store/Wo3B/erito-s-toon-shader-for-blender-eevee), [Toonkit-Samples](https://github.com/vitorbalbio/Toonkit-Samples).
 -   Nodevember Results:
     -   [Curtis Holt's Results](https://youtu.be/JhLVzcCl1ug), [Neoyume’s Nodeshaders](https://neoyume.com/en/neoyumes-nodevember-nodeshaders/), [Kyle Hamm](https://gumroad.com/l/kylenodevember2020), [erindale](https://gumroad.com/l/node2020).
 -   Others:
@@ -777,7 +778,7 @@
 -   [EbSynth](https://ebsynth.com/) : Free tool for converting video footage into stylised motion paintings.
 -   [PIFuHD](https://shunsukesaito.github.io/PIFuHD/) : Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization. [![][repo]](https://github.com/facebookresearch/pifuhd)
 -   [Generated.Photos](https://generated.photos/faces) : AI-generated faces.
--   [Flowframes](https://nmkd.itch.io/flowframes) : is a simple but powerful app that utilizes AI frameworks to interpolate videos in order to increase their framerate with little to no noticable quality loss. [![][repo]](https://github.com/n00mkrad/flowframes)
+-   [Flowframes](https://nmkd.itch.io/flowframes) : is a simple but powerful app that utilizes AI frameworks to interpolate videos in order to increase their framerate with little to no noticeable quality loss. [![][repo]](https://github.com/n00mkrad/flowframes)
 -   [Cupscale](https://github.com/n00mkrad/cupscale) : Image Upscaling GUI based on ESRGAN.
 -   [Video2X](https://video2x.org/) : A lossless video/GIF/image upscaler achieved with waifu2x, Anime4K, SRMD and RealSR. [![][repo]](https://github.com/k4yt3x/video2x) ![][gpl]
 -   [koi](https://github.com/nousr/koi) : A plug-in for Krita that enables the use of AI models for img2img generation.
@@ -811,7 +812,7 @@
 
 [📖 User Manual](https://docs.blender.org/manual/en/latest/) | [🔗 Python API](https://docs.blender.org/api/current/) | [⚙️ Developer Wiki](https://wiki.blender.org/wiki/Main_Page)
 
-### Developement [^](#table)
+### Development [^](#table)
 
 [🔌 Developer Portal](https://developer.blender.org/) | [💭 DevTalk](https://devtalk.blender.org/) | [💻 Developers Blog](https://code.blender.org/)
 
@@ -825,7 +826,7 @@
 -   [📰BlenderNation](https://www.blendernation.com/) : daily news, art and tutorials for Blender, the open source 3D content creation suite.
 -   [💬blender.chat](https://blender.chat/) : official chat server for artists and developers.
 -   [🗨️discord/blender](https://discord.gg/blender) : community-managed Discord server.
--   [fb/blender](https://fb.com/groups/2207257375/) : blender facebook group.
+-   [fb/blender](https://fb.com/groups/2207257375/) : Blender Facebook group.
 -   [blender.stackexchange.com](https://blender.stackexchange.com/) : questions and answers.
 
 ---
@@ -857,7 +858,7 @@
 
 -   🧾[Modeling Manual.](https://docs.blender.org/manual/en/latest/modeling/index.html)
 -   ▷[Blender Beginner 3D Modeling Tutorial.](https://www.youtube.com/watch?v=elUJCEC06r8)
--   ☰[Beginner Exercieses - Low Poly Asset Modeling by Grant Abbitt.](https://www.youtube.com/playlist?list=PLn3ukorJv4vvv3ZpWJYvV5Tmvo7ISO-NN)
+-   ☰[Beginner Exercises - Low Poly Asset Modeling by Grant Abbitt.](https://www.youtube.com/playlist?list=PLn3ukorJv4vvv3ZpWJYvV5Tmvo7ISO-NN)
 -   ▷[Recording Studio in Blender- 3D Isometric Modeling Process.](https://www.youtube.com/watch?v=QkCrhycrJi8)
 -   ▷[All 50+ Modifiers in Blender Explained in 30 Minutes.](https://www.youtube.com/watch?v=8BQYAwDW6IE)
 -   Sculpting:
