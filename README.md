@@ -705,6 +705,7 @@
     -   [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : Command line version of BlenderUpdater.
     -   [Blender Version Manager](https://github.com/DotBow/Blender-Version-Manager) : Minimalistic download manager for blender.
     -   [Blender Launcher](https://github.com/DotBow/Blender-Launcher) : Standalone client for managing official builds of blender.
+    -   [Blender Manager](https://github.com/verlorengest/BlenderManager) : Auto-Update, Project Management and Time Tracking, Addon Control, Version Handling, Render Management, and More.
 
 ### Photogrammetry [^](#table)
 
