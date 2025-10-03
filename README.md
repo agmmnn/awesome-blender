@@ -448,6 +448,8 @@
 -   [BlenderProc](https://github.com/DLR-RM/BlenderProc) : A procedural Blender pipeline for photorealistic training image generation.
 -   [BlenderSynth](https://github.com/OllieBoyne/BlenderSynth) : Blender scripting for generating synthetic datasets at scale.
 -   [AI Render](https://github.com/benrugg/AI-Render) : Stable Diffusion in Blender. This add-on renders an AI generated image based on a text prompt and your scene.
+-   [Needle Engine](http://docs.needle.tools/blender) : allows you to create highly interactive, flexible and lightweight web applications right inside Blender.
+
 
 ---
 
