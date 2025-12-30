@@ -1027,6 +1027,7 @@
 -   [GameDev Resources](https://github.com/Kavex/GameDev-Resources) : A wonderful list of Game Development resources.
 -   [VFX Good Night Reading](https://github.com/jtomori/vfx_good_night_reading) : Curated collection of good reading about VFX and CG.
 -   [Photogrammetry Guide](https://github.com/mikeroyal/Photogrammetry-Guide) : A guide covering Photogrammetry including the applications, libraries and tools that will make you a better and more efficient Photogrammetry development.
+-   [Usage in Science, Academia, and Industry](https://github.com/ichlubna/blenderSurvey) : Curated list of resources about the usage of Blender in Science, Academia, and Industry.
 
 ---
 
