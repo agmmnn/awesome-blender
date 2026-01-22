@@ -448,7 +448,7 @@
 -   [BlenderProc](https://github.com/DLR-RM/BlenderProc) : A procedural Blender pipeline for photorealistic training image generation.
 -   [BlenderSynth](https://github.com/OllieBoyne/BlenderSynth) : Blender scripting for generating synthetic datasets at scale.
 -   [AI Render](https://github.com/benrugg/AI-Render) : Stable Diffusion in Blender. This add-on renders an AI generated image based on a text prompt and your scene.
-
+-   [NodeToPython](https://github.com/BrendanParmer/NodeToPython) : Convert Geometry, Shader, and Compositing nodes to legible Python scripts and add-ons. [![][mit]](https://github.com/BrendanParmer/NodeToPython/blob/main/LICENSE)
 ---
 
 ## 🪐Resources [^](#table)
