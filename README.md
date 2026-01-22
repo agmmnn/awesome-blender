@@ -995,6 +995,7 @@
     -   [Advanced Blender Add-on](https://github.com/eliemichel/AdvancedBlenderAddon) : This repository intends to give a starter kit as well as to illustrate and intensively comment design patterns commonly used in advanced Blender add-ons.
     -   [3DN BIP](https://github.com/3dninjas/3dn-bip) : A Python library for Blender. Blazingly fast preview loads in Blender. Images of arbitrary size. `bpy.utils.previews` drop-in replacement.
     -   [Geometry Script](https://github.com/carson-katri/geometry-script) : is a scripting API for Blender's Geometry Nodes. It makes complicated node trees more managable and easy to share.
+    -   [BlenderAddonPackageTool](https://github.com/xzhuah/BlenderAddonPackageTool) : A Framework integrated with handy tools for developing Blender Addons/Extension. It realizes hot-swap for testing, dependency-awareness packaging, absolute import to relative import auto conversion and offers engineering solution for auto class loading, addon internationalization etc, to help develop high quality addons. 
 -   Support:
     -   [devtalk/python](https://devtalk.blender.org/c/python/6) : Questions about using and developing the [Blender Python API](https://developer.blender.org/project/view/24/), both for Blender itself and add-ons.
     -   [blenderartists/python-support](https://blenderartists.org/c/coding/python-support/19), [stackoverflow/tagged/bpy](https://stackoverflow.com/questions/tagged/bpy)
