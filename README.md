@@ -449,7 +449,7 @@
 -   [BlenderSynth](https://github.com/OllieBoyne/BlenderSynth) : Blender scripting for generating synthetic datasets at scale.
 -   [AI Render](https://github.com/benrugg/AI-Render) : Stable Diffusion in Blender. This add-on renders an AI generated image based on a text prompt and your scene.
 -   [Needle Engine](http://docs.needle.tools/blender) : allows you to create highly interactive, flexible and lightweight web applications right inside Blender.
-
+-   [NodeToPython](https://github.com/BrendanParmer/NodeToPython) : Convert Geometry, Shader, and Compositing nodes to legible Python scripts and add-ons. [![][mit]](https://github.com/BrendanParmer/NodeToPython/blob/main/LICENSE)
 
 ---
 
@@ -707,6 +707,7 @@
     -   [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : Command line version of BlenderUpdater.
     -   [Blender Version Manager](https://github.com/DotBow/Blender-Version-Manager) : Minimalistic download manager for blender.
     -   [Blender Launcher](https://github.com/DotBow/Blender-Launcher) : Standalone client for managing official builds of blender.
+    -   [Blender Manager](https://github.com/verlorengest/BlenderManager) : Auto-Update, Project Management and Time Tracking, Addon Control, Version Handling, Render Management, and More.
 
 ### Photogrammetry [^](#table)
 
