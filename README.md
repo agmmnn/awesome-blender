@@ -342,6 +342,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 ### 🪀Misc [^](#table)
 
 - Management:
+    - [Scene Cleaner Pro](https://github.com/vesper-astrena/blender-scene-cleaner) : One-click scene cleanup addon — purge unused datablocks across 24+ categories, remove empty collections, fix naming suffixes, remove loose geometry, and more.
     - [BlenderKit](https://www.blenderkit.com/) : Allows you to download assets, materials, and alpha brushes to your blender client with the click of a button.
     - [Blender Interplanety Storage](https://blenderartists.org/t/bis-online-material-storage/689728) : The online material (shader) storage add-on for Blender 3D creation. With the BIS add-on, you can save materials (groups of nodes) to the online personal library and then convenient search and upload them.
     - [Asset Wizard](https://blenderartists.org/t/asset-wizard-for-blender-2-8/1149311) : is a asset management addon.
