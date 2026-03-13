@@ -347,6 +347,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
     - [Asset Wizard](https://blenderartists.org/t/asset-wizard-for-blender-2-8/1149311) : is a asset management addon.
     - [NodeCustomBuilder](https://blenderartists.org/t/nodecustombuilder-2-8-free-addon/1152185) : Preset system for nodes.
     - [FontSelector](https://github.com/samytichadou/FontSelector_blender_addon/) : Easy font management inside Blender.
+    - [Vesper Tools](https://github.com/vesper-astrena) : Collection of 10 free utility addons for Blender — scene cleanup, batch renaming, material management, UV tools, collection organizer, batch export, modifier manager, viewport controls, lighting presets, and mesh QC. [![][repo]](https://github.com/vesper-astrena/blender-scene-cleaner)
     - [Shot Manager by Ubisoft](https://github.com/ubisoft/shotmanager) : is a add-on that introduces a true shot entity in Blender scenes.
 - Lighting/HDRI:
     - [Gaffer](https://github.com/gregzaal/Gaffer) : is a Blender add-on that helps you light your scenes by presenting all the right settings in convenient panels for quick access and experimentation. [![market]](https://blendermarket.com/products/gaffer-light-manager/)
