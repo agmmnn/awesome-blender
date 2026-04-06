@@ -458,6 +458,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 
 ## 🪐Resources [^](#table)
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Blender workflow orchestration, automated 3D pipeline management, and multi-agent coordination. MIT licensed.
 ### 🎠3D Models [^](#table)
 
 - [Poly Haven/Models](https://polyhaven.com/models) : is a resource of free high quality 3D assets for everyone. All models here are CC0. [![][zero]](https://polyhaven.com/license)
