@@ -684,6 +684,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 - [AccuRIG](https://actorcore.reallusion.com/auto-rig) : is a free application designed for fast and easy character rigging.
 - [3D House Planner](https://www.3dhouseplanner.com/) : is a professional home design web application that allows users to design houses and apartments.
 
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=agmmnn_awesome-blender) - See what developers you follow are starring on GitHub. Free.
 ### Various Tools [^](#table)
 
 - [Allusion](https://allusion-app.github.io/) : Organizer for your entire collection of references, inspiration and any other kinds of images. [![][repo]](https://github.com/allusion-app/Allusion)
