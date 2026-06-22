@@ -400,6 +400,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
     - [Parallel_Render](https://github.com/elmopl/ktba/wiki/Addons) : Render the output from the Sequencer multithreaded through the Render sidebar.
     - [Export EDL](https://github.com/tin2tin/ExportEDL) : Exports: video, audio and dissolves. to ex. Davinci Resolve, Lightworks, Final Cut Pro & Premiere Pro.
     - [Import EDL](https://github.com/tin2tin/import_edl) : Imports: video, audio and dissolves.
+    - [BlendFusion](https://github.com/startingframe/blendfusion) : Exports the active camera and tracked objects (as nulls) to a native DaVinci Resolve Fusion .comp — lens and animation baked per frame, for screen-replacement and camera-tracking work. Free and open source.
     - [Freesound Add-on](https://github.com/iwkse/freesound/tree/freesound-2.0) : is an addon for Blender that allows users to create and edit subtitles for movies or music.
     - [Push to Talk](https://github.com/britalmeida/blender_addon_push_to_talk) : Convenient recording of scratch dialog for an edit.
     - [Scene Strip Tools](https://github.com/tin2tin/scene_strip_tools) : Preview Scene Strips directly in the 3D View.
