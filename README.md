@@ -773,6 +773,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 
 ### AI-Powered [^](#table)
 
+- [img2stl.art](https://img2stl.art) [$] : Convert your photos into 3D printable STL models using AI — no 3D modeling skills required.
 - [Gigapixel AI](https://topazlabs.com/gigapixel-ai/) [$] : is the only photo enlargement product available that can actually add detail back to your upscaled photo.
 - [Rokoko Video](https://www.rokoko.com/products/video) : motion capture using your webcam or video-upload and animate in minutes.
 
