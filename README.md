@@ -474,6 +474,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 - [Rigmodels](http://rigmodels.com/) : Free rigged, animated and low poly models
 - [RockThe3D](http://www.rockthe3d.com/) : is a blog site to provide and sharing the best 3D related knowledge and resources around.
 - [CGTrader](https://www.cgtrader.com/free-3d-models) : Free 3D models from CGTrader.
+- [SplatMart](https://www.splatmart.com) : Marketplace for buying and selling gaussian splat scenes and assets (PLY/SOGS/SPZ).
 - [Sketchfab](https://sketchfab.com/search?features=downloadable&sort_by=-pertinence&type=models) : Free downloadable models from Sketchfab.
 - [TurboSquid/free](https://www.turbosquid.com/Search/3D-Models/free) : Free models from Turbosquid.
 - [Hum3D](https://hum3d.com/) : source of quality 3D models of vehicles in blend file format.
