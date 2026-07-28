@@ -129,6 +129,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 - [Jet-Fluids](https://github.com/PavelBlend/blender_jet_fluids_addon) : [Jet fluid](https://github.com/doyubkim/fluid-engine-dev) simulator integration in blender.
 - [projectile](https://gumroad.com/l/projectile) : An artist-friendly tool for throwing stuff around inside blender. [![][repo]](https://github.com/natecraddock/projectile)
 - [Phobos](https://github.com/dfki-ric/phobos) : An add-on for Blender allowing to create URDF, SDF and SMURF robot models.
+- [Blender Optics Simulator](https://github.com/emircbngl/blender-optics-simulator) : An add-on that turns Blender into a physics-checked optical bench: live beam tracing with polarization and Gaussian-beam propagation, real opto-mechanical mounts, and a headless Python API.
 
 ### 🦑Generator/Builder [^](#table)
 
