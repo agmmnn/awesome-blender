@@ -649,6 +649,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 - [MatCaps](https://github.com/nidorx/matcaps) : Huge library of matcap PNG textures organized by color.
 - [UE Sponsored Content](https://www.unrealengine.com/en-US/uesponsoredcontent) : Every month Epic Games gives away several assets from the Unreal Engine marketplace for free.
 - [Blender & ACES](https://www.toodee.de/?page_id=1720) : Setup Blender to work with ACES using OpenColorIO.
+- [Blender Keyboard Shortcuts](https://hkeys.app/apps/blender) : Shortcut reference for Windows and macOS, with a printable cheat sheet and a drill to practice them.
 
 ---
 
