@@ -453,6 +453,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 - [AI Render](https://github.com/benrugg/AI-Render) : Stable Diffusion in Blender. This add-on renders an AI generated image based on a text prompt and your scene.
 - [Needle Engine](http://docs.needle.tools/blender) : allows you to create highly interactive, flexible and lightweight web applications right inside Blender.
 - [NodeToPython](https://github.com/BrendanParmer/NodeToPython) : Convert Geometry, Shader, and Compositing nodes to legible Python scripts and add-ons. [![][mit]](https://github.com/BrendanParmer/NodeToPython/blob/main/LICENSE)
+- [SceneTrace](https://github.com/DustinHanke/SceneTrace) : Tracks Blender scene performance regressions and helps identify contributors to slowdowns.
 
 ---
 
