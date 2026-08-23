@@ -372,6 +372,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
     - [Export Paper Model from Blender](https://addam.github.io/Export-Paper-Model-from-Blender/) : Add-on for creating paper models. [![][repo]](https://github.com/addam/Export-Paper-Model-from-Blender)
     - [Batex](https://github.com/jayanam/batex) : Export selected objects as fbx in batch operation.
     - [Blender To Unity FBX Exporter](https://github.com/jayanam/batex) : FBX exporter add-on for Blender compatible with Unity's coordinate and scaling system.
+    - [Export Object Dimensions](https://github.com/rafaeloliveiraz/blender-dimexport) : Export the width, height, depth and volume of selected objects to TXT, CSV or JSON, with custom labels and unit conversion. [![][repo]](https://github.com/rafaeloliveiraz/blender-dimexport)
 - Render:
     - [Loom](https://github.com/p2or/blender-loom) : Add-on to simplify the rendering process of image sequences and certain frames, allows batch rendering and comes with some handy utilities that help in production.
     - [BatchRender](https://github.com/VertStretch/RenderBurst), [Notify](https://github.com/Dziban-dev/Notify_Blender_Render), [AlarmShutdown](https://gumroad.com/l/PcDfw), [RenderButton](https://github.com/Mitsuma/Blender2.8-RenderButton).
