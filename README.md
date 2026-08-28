@@ -202,6 +202,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
     - [CAD Transform](https://blenderartists.org/t/cad-like-transform/1226197) : CAD Transform provide intuitive snap from/to workflow, allow precise move/rotate/scale using advanced snap options and constraints in both object and edit mode. [![][repo]](https://github.com/s-leger/blender_cad_transforms) ![][gpl]
     - [MeasureIt-ARCH](https://github.com/kevancress/MeasureIt_ARCH) : An expansion of Antonio Vazquez's MeasureIt addon to add features to create Architectural Drawings.
     - [JARCH-Vis](https://blenderartists.org/t/addon-jarch-vis/642607) : is add-on for Blender 3D that helps create commonly used object for architectural visualization. [![][repo]](https://github.com/BlendingJake/JARCH-Vis) ![][gpl]
+    - [Fusion to Blender Bridge](https://github.com/inspace9018/fusion-to-blender-bridge) : One-click sync from Fusion 360 to Blender. Geometry updates on each CAD revision while materials, modifiers and hand-marked edges stay. ![][gpl]
 - Manufacturing/CAM:
     - [BlenderCAM](https://blendercam.com) : An Open Source solution for CAM with Blender 3D. [![][repo]](https://github.com/vilemduha/blendercam) ![][gpl]
 - Retopology/Remesh:
