@@ -540,6 +540,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 
 ### 🌓Blender Materials [^](#table)
 
+- [Blender Dispersion Numbers](https://j4zz.eu/blender-dispersion/) : Abbe numbers and per-channel refractive indices for four real materials (N-BK7, N-SF11, diamond, moissanite), for use with Blender 5.3's native dispersion input (alpha builds only) or the manual three-IOR workaround in 5.2 and earlier.
 - [Blendermada](http://blendermada.com/materials/) : Free Blender Material Database. [(blender addon)](http://blendermada.com/addon/).
 - [The Blendersauce Vault Materials](http://blendersauce.com/the-blendersauce-vault-2/the-material-vault-categories/) : Abstract, Bricks and Walls, Concrete, Fabric, Fluids, Food, Manmade, Metal, Metal painted Materials, Nature, Plaster, Rocks/Stones, Tiles, Wood.
 - [3d-wolf/materials](https://3d-wolf.com/products/materials.html) : PBR Materials is an addon with physically based materials. ![gpl]
