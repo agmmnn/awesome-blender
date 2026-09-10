@@ -321,6 +321,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 
 ### 🎮GameDev [^](#table)
 
+- [lodsmith](https://github.com/saengha/lodsmith) : Local JSON recipes that build named low-poly game props in Blender with known triangle budgets. [![][repo]](https://github.com/saengha/lodsmith)
 - [MeshSync](https://github.com/unity3d-jp/MeshSync) : Live link plugin for Unity. supported blender and other 3D software.
 - [Blender Tools by Epic Games](https://www.unrealengine.com/en-US/blog/download-our-new-blender-addons) : Blender addons that improve the game development workflow between Blender and Unreal. _Send to Unreal, UE to Rigify._
 - [Mr Mannequins Tools](https://github.com/Jim-Kroovy/Mr-Mannequins-Tools) : is a Blender add-on that gives the ability to export animations and weighted meshes that are directly compatible with the third person mannequin without re-targeting anything in Unreal Engine!
