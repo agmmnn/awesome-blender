@@ -643,6 +643,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 ### 🌂Useful [^](#table)
 
 - [Sheep it Render Farm](https://www.sheepit-renderfarm.com/) : is a free distributed renderfarm for Blender.
+- [JANCTION Render](https://render.janction.jp/) : Cloud GPU render farm for Blender, from the Render properties panel or from AI agents (MCP). Preview, estimate, then final frames or MP4; new keys start with free GPU time. [![][repo]](https://github.com/JasmyLab-JANCTION/janction-render)
 - [Blender-Colab](https://github.com/syn73/blender-colab) : Render on **_Google Colab_**, this is a Python script that allows you to render Blender scene using Google Colaboratory. Only Cycles.
 - Daily Blender Tips : [blender.daily](https://www.instagram.com/blender.daily/), [Blender Secrets](https://www.instagram.com/blendersecretsdotorg/).
 - [IOR List](https://pixelandpoly.com/ior.html) : Index of Refraction values list for use with 3D applications.
