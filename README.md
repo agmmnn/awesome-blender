@@ -773,6 +773,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 
 ### AI-Powered [^](#table)
 
+- [3D-Agent](https://3d-agent.com/blender-ai) [$] : Desktop AI agent that models with clean quad topology, adds materials, lighting and animation, renders and writes Blender Python on the open scene from plain-language prompts. Installs its own Blender extension; no API key needed.
 - [Gigapixel AI](https://topazlabs.com/gigapixel-ai/) [$] : is the only photo enlargement product available that can actually add detail back to your upscaled photo.
 - [Rokoko Video](https://www.rokoko.com/products/video) : motion capture using your webcam or video-upload and animate in minutes.
 
