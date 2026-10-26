@@ -256,6 +256,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 - [Stop-Mo](https://blendermarket.com/products/stop-mo) : transforms animations into a beautiful, hand-crafted stop motion style.
 - [Blender NLA Midi Copier](https://github.com/Cornerback24/Blender-NLA-Midi-Copier) : Blender add-on for creating midi-driven animations from the Nonlinear Animation view.
 - [BlendyPose](https://github.com/zonkosoft/BlendyPose) : Blender Motion Capture using your camera.
+- [mmdance](https://github.com/starryark/mmdance) : Makes Mixamo-rigged characters dance MikuMikuDance (VMD) motions, with skirt and hair physics, facial animation and the MMD camera, rendered headless to video.
 - Rigging:
     - [BlenRig](https://www.blendermarket.com/products/blenrig) : BlenRig is an Auto-rigging and skinning system. It provides the user with a Feature Film quality rig; including an advanced facial system. [![][repo]](https://github.com/jpbouza/BlenRig) ![][gpl]
     - [Rig on the Fly](https://gitlab.com/dypsloom/rigonthefly) : Rig on the Fly is a Blender dynamic rigging tool used to simplify and speed up animation workflow.
