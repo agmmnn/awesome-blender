@@ -1013,6 +1013,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 - [Awesome Design](https://github.com/gztchan/awesome-design) : Curated design resources.
 - [Awesome Stock Resources](https://github.com/neutraltone/awesome-stock-resources) : A collection of links for free stock photography, video and Illustration websites.
 - [GameDev Resources](https://github.com/Kavex/GameDev-Resources) : A wonderful list of Game Development resources.
+- [RespawnStack](https://respawnstack.com) : Curated directory of AI tools for game developers.
 - [VFX Good Night Reading](https://github.com/jtomori/vfx_good_night_reading) : Curated collection of good reading about VFX and CG.
 - [Photogrammetry Guide](https://github.com/mikeroyal/Photogrammetry-Guide) : A guide covering Photogrammetry including the applications, libraries and tools that will make you a better and more efficient Photogrammetry development.
 - [Usage in Science, Academia, and Industry](https://github.com/ichlubna/blenderSurvey) : Curated list of resources about the usage of Blender in Science, Academia, and Industry.
