@@ -332,6 +332,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 - [Embark Blender Tools](https://github.com/EmbarkStudios/blender-tools) : A Blender add-on containing workflow tools for game development. Includes tools for standardized import/export workflow, 3D modelling and new object types. [[medium]](https://medium.com/embarkstudios/a-love-letter-to-blender-e54167c22193)
 - [Asset Creation Toolset](https://gumroad.com/l/hPXIh) : Asset Creation Toolset is many tools for game asset creation.
 - [Mixamo Converter](https://github.com/enziop/mixamo_converter) : is a Blender Plugin that Converts Mixamo animations to work in Unreal Engine 4 with root motion.
+- [Mesh Check for Roblox](https://github.com/2328312928-commits/blender-mesh-check-roblox) : is an add-on that checks meshes against Roblox's import limits (triangle budgets, accessory sizes in studs, UVs, bone influences, cages) before FBX export.
 - [WoT Tank Viewer](https://bitbucket.org/SkepticalFox/bigworld-blender-tools-wot-wowp-wows) : is a package of plugins for Blender, which allows you view 3D models from World of Tanks.
 - Game Engine:
     - [Armory3D](https://armory3d.org/) : is an open-source 3D game engine with full Blender integration. [![][repo]](https://github.com/armory3d/armory)
