@@ -993,6 +993,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
     - [Advanced Blender Add-on](https://github.com/eliemichel/AdvancedBlenderAddon) : This repository intends to give a starter kit as well as to illustrate and intensively comment design patterns commonly used in advanced Blender add-ons.
     - [3DN BIP](https://github.com/3dninjas/3dn-bip) : A Python library for Blender. Blazingly fast preview loads in Blender. Images of arbitrary size. `bpy.utils.previews` drop-in replacement.
     - [Geometry Script](https://github.com/carson-katri/geometry-script) : is a scripting API for Blender's Geometry Nodes. It makes complicated node trees more managable and easy to share.
+    - [Molecular Animation](https://github.com/AmadeusBio-ai/Molecular_Animation) : Python framework and command-line pipeline for scripted, headless molecular animation in Blender from PDB and AlphaFold structures.
 - Support:
     - [devtalk/python](https://devtalk.blender.org/c/python/6) : Questions about using and developing the [Blender Python API](https://developer.blender.org/project/view/24/), both for Blender itself and add-ons.
     - [blenderartists/python-support](https://blenderartists.org/c/coding/python-support/19), [stackoverflow/tagged/bpy](https://stackoverflow.com/questions/tagged/bpy)
