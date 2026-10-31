@@ -846,6 +846,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 - ☰[Blender Fundamentals by Blender.](https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
 - ☰[Blender Basics by CG Cookie.](https://cgcookie.com/lesson/welcome-to-the-blender-basics)
 - ☰[🍩Blender 3.0 Beginner Donut Tutorial by Blender Guru.](https://www.youtube.com/playlist?list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U)
+- 🧾[Blender Fundamentals by Dev Null Productions](https://docs.google.com/document/d/1oWYIJWIGyjYJeQ9ZXnwKgS2uFzZ6K8jfILafHJdvg7M)
 - ☰[🍦Blender Complete Beginner Tutorial Course by CG Geek.](https://www.youtube.com/playlist?list=PLrjIgEdKLivgpCMmFC0_sV60Y_Ftp-WLD)
 - ☰[🍏Blender Beginner Tutorial Series by CG Boost.](https://www.youtube.com/playlist?list=PL3UWN2F2M2C8-zUjbFlbgtWPQa0NXBsp0)
 - ☰[⚔️3D Modeling a Sword for Complete Beginners by YanSculpts.](https://www.youtube.com/playlist?list=PLvPwLecDlWRD_VK_2INC1VQ18dZdpDwLi)
@@ -877,9 +878,11 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 - ☰[Geometry Nodes by Chris Prenninger](https://www.youtube.com/playlist?list=PLpJWHl1fB7BG5YiW1sV9smJLdzlxKLCw1).
 - ☰[Geometry Nodes by Blue Fox](https://www.youtube.com/playlist?list=PLlCNkx8wTCmeK6lCeIytjLJsse6xJwZg1).
 - ☰[Geometry Nodes Basics for Beginners by Bradley Animation](https://www.youtube.com/playlist?list=PLhQ290f8z8FMzVZAZGyL8CnwOnitw2VdG).
+- 🧾[Geometry Nodes Design Patterns by Dev Null Productions](https://docs.google.com/document/d/10c84Mg8OojWg2O7LiruQ_Cgb4kpMxSL4XRTPuQQPuDI).
 
 ### 🔘Shader Nodes [^](#table)
 
+- 🧾[Blender Material/Shader Design Patterns by Dev Null Productions](https://docs.google.com/document/d/1hSVjUuQOEvJCHDx8JDGbgf_4Buv7kzVuT6wKdEY7U_g)
 - 🧾[Shader Nodes List.](https://docs.blender.org/manual/en/latest/render/shader_nodes/index.html)
 - ▷[Shading Editor Basics by Blender.](https://www.youtube.com/watch?v=0zrd37k2tJM)
 - ▷[Blender - Everything About The Principled BSDF (In 3 Minutes).](https://www.youtube.com/watch?v=_IjSYLt9k2A)
