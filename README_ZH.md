@@ -1,129 +1,119 @@
-[![img](https://randomrepoimg.fly.dev/agmmnn/awesome-blender/imgs "Awesome Blender, bg: @mantissa (randomrepoimg.fly.dev)")](#table)
+<a id="table"></a>
+
+[![Awesome Blender](https://randomrepoimg.fly.dev/agmmnn/awesome-blender/imgs "Awesome Blender, bg: @mantissa (randomrepoimg.fly.dev)")](#table)
 
 <div align="center">
-    <a href="#table"><img alt="Awesome Blender"
-            src="https://img.shields.io/badge/awesome-gray?logo=blender&style=flat-square" /></a>
-    <a href="https://discord.com/invite/blender"><img alt="discord"
-            src="https://img.shields.io/badge/discord-blender-blue?logo=discord&style=flat-square" /></a>
-    <a href="#贡献-"><img alt="Contributions are Welcome"
-            src="https://img.shields.io/badge/keep-up--to--date-blue?logo=&style=flat-square" /></a>
-    <a href="https://awesome-blender.netlify.app/"><img
-            src="https://api.netlify.com/api/v1/badges/0fe6c176-6b03-4d27-a8fc-faf4f7c460cd/deploy-status" /></a>
-    <p>为 3D 艺术家、爱好者、开发人员、研究人员精心策划的一系列优秀的 <b>Blender</b> 插件、工具、教程和资源。主要关注开源和免费资源。
+    <p>
+        <a href="https://github.com/sindresorhus/awesome"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/awesome-blender-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=sm&amp;mode=dark"><img alt="Awesome Blender" src="https://www.shieldcn.dev/badge/awesome-blender-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=sm&amp;mode=light"></picture></a>
+        <a href="https://github.com/agmmnn/awesome-blender/stargazers"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/stars/agmmnn/awesome-blender.svg?variant=secondary&amp;size=sm&amp;mode=dark"><img alt="GitHub Stars" src="https://www.shieldcn.dev/github/stars/agmmnn/awesome-blender.svg?variant=secondary&amp;size=sm&amp;mode=light"></picture></a>
+        <a href="CONTRIBUTING.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/PRs-welcome.svg?logo=lu:GitPullRequest&amp;variant=secondary&amp;size=sm&amp;mode=dark"><img alt="PRs Welcome" src="https://www.shieldcn.dev/badge/PRs-welcome.svg?logo=lu:GitPullRequest&amp;variant=secondary&amp;size=sm&amp;mode=light"></picture></a>
+        <a href="https://discord.com/invite/blender"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/discord/online-members/blender.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Blender Discord Online" src="https://www.shieldcn.dev/discord/online-members/blender.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+        <a href="LICENSE"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/license/agmmnn/awesome-blender.svg?variant=ghost&amp;size=sm&amp;mode=dark"><img alt="License" src="https://www.shieldcn.dev/github/license/agmmnn/awesome-blender.svg?variant=ghost&amp;size=sm&amp;mode=light"></picture></a>
+    </p>
+    <p>为 3D 艺术家、爱好者、开发人员与研究人员精心策划的优秀 <b>Blender</b> 插件、工具、教程和资源列表——主要聚焦开源与免费资源。</p>
+    <p><a href="README.md">English</a> &nbsp;·&nbsp; <b>简体中文</b></p>
+    <hr />
+    <p><a href="#-插件">🔮 插件</a> &nbsp;·&nbsp; <a href="#-资源">🪐 资源</a> &nbsp;·&nbsp; <a href="#-独立">📥 独立</a> &nbsp;·&nbsp; <a href="#-探索blender">🔍 探索Blender</a> &nbsp;·&nbsp; <a href="#--教程">👩🏻‍ 🏫 教程</a> &nbsp;·&nbsp; <a href="#--开发">👩🏽‍ 💻 开发</a> &nbsp;·&nbsp; <a href="#-社交">🖇 社交</a></p>
 </div>
 
-<a name="table"></a>
-
-<div align="center">
-    <h2>内容：</h2>
-    <p>| <a href="#-插件-">🔮 插件</a> | <a href="#-资源-">🪐 资源</a> | <a
-            href="#-独立-">📥 独立</a> | <a href="#-探索blender-">🔍 探索 Blender</a> | <a href="#-教程-">👩🏻‍🏫 教程</a> | <a
-            href="#-开发-">👩🏽‍💻 开发</a> | <a
-            href="#-社交-">🖇 社交</a> |</p>
-</div>
-
-<details><summary><b>显示详细目录：</b></summary>
+<details><summary><b>📖 展开完整目录</b></summary>
 <ul>
-    <li><a href="#-插件-">🔮 插件</a>
+    <li><a href="#-插件">🔮 插件</a>
         <ul>
-            <li><a href="#-模拟物理-">🌊 模拟/物理</a></li>
-            <li><a href="#-生成器构建器-">🦑 生成器/构建器</a></li>
-            <li><a href="#-建模-">🧊 建模</a></li>
-            <li><a href="#-动画-">🌠 动画</a></li>
-            <li><a href="#-渲染引擎-">🗜 渲染引擎</a></li>
-            <li><a href="#%ef%b8%8f-纹理uv-">🗺️ 纹理/UV</a></li>
-            <li><a href="#-游戏开发-">🎮 游戏开发</a></li>
-            <li><a href="#-aimcp-">🤖 AI/MCP</a></li>
-            <li><a href="#-杂项-">🪀 杂项</a></li>
+            <li><a href="#-模拟物理">🌊 模拟/物理</a></li>
+            <li><a href="#-生成器构建器">🦑 生成器/构建器</a></li>
+            <li><a href="#-建模">🧊 建模</a></li>
+            <li><a href="#-动画">🌠 动画</a></li>
+            <li><a href="#-渲染引擎">🗜 渲染引擎</a></li>
+            <li><a href="#-%ef%b8%8f-纹理uv">🗺 ️ 纹理/UV</a></li>
+            <li><a href="#-游戏开发">🎮 游戏开发</a></li>
+            <li><a href="#-aimcp">🤖 AI/MCP</a></li>
+            <li><a href="#-杂项">🪀 杂项</a></li>
         </ul>
     </li>
-    <li><a href="#-资源-">🪐 资源</a>
+    <li><a href="#-资源">🪐 资源</a>
         <ul>
-            <li><a href="#-3d模型-">🎠 3D 模型</a></li>
-            <li><a href="#%ef%b8%8f-动作捕捉动画-">🤸🏾‍♀️ 动作捕捉/动画</a></li>
-            <li><a href="#-纹理-">🌑 纹理</a></li>
-            <li><a href="#-blender材质-">🌓 Blender 材质</a></li>
-            <li><a href="#-blender场景文件-">🌲 Blender 场景/文件</a></li>
-            <li><a href="#-hdri-">⛅ HDRI</a></li>
-            <li><a href="#%ef%b8%8f-艺术参考-">🖼️ 艺术/参考</a></li>
-            <li><a href="#-太空-">🛰 太空</a></li>
-            <li><a href="#-声音音乐-">🎧 声音/音乐</a></li>
-            <li><a href="#-免费库存-">🏞 免费库存</a></li>
-            <li><a href="#-实用-">🌂 实用</a></li>
+            <li><a href="#-3d模型">🎠 3D模型</a></li>
+            <li><a href="#-%ef%b8%8f-动作捕捉动画">🤸🏾‍♀ ️ 动作捕捉/动画</a></li>
+            <li><a href="#-纹理">🌑 纹理</a></li>
+            <li><a href="#-blender材质">🌓 Blender材质</a></li>
+            <li><a href="#-blender场景文件">🌲 Blender场景/文件</a></li>
+            <li><a href="#-hdri">⛅ HDRI</a></li>
+            <li><a href="#-%ef%b8%8f-艺术参考">🖼 ️ 艺术/参考</a></li>
+            <li><a href="#-太空">🛰 太空</a></li>
+            <li><a href="#-声音音乐">🎧 声音/音乐</a></li>
+            <li><a href="#-免费库存">🏞 免费库存</a></li>
+            <li><a href="#-实用">🌂 实用</a></li>
         </ul>
     </li>
-    <li><a href="#-独立-">📥 独立</a>
+    <li><a href="#-独立">📥 独立</a>
         <ul>
-            <li><a href="#-独立-">Blender 版本</a></li>
-            <li><a href="#3d工具-">3D 工具</a></li>
-            <li><a href="#各种工具-">各种工具</a></li>
-            <li><a href="#摄影测量-">摄影测量</a></li>
-            <li><a href="#纹理材质-">纹理/材质</a></li>
-            <li><a href="#地形-">地形</a></li>
-            <li><a href="#真实世界高度图-">真实世界高度图</a></li>
-            <li><a href="#点云lidar数据-">点云/LiDAR 数据</a></li>
-            <li><a href="#生成器-">生成器</a></li>
-            <li><a href="#ai驱动-">AI 驱动</a></li>
-            <li><a href="#声音音乐-">声音/音乐</a></li>
-            <li><a href="#绘画-">绘画</a></li>
+            <li><a href="#3d工具">3D工具</a></li>
+            <li><a href="#各种工具">各种工具</a></li>
+            <li><a href="#摄影测量">摄影测量</a></li>
+            <li><a href="#纹理材质">纹理/材质</a></li>
+            <li><a href="#地形">地形</a></li>
+            <li><a href="#真实世界高度图">真实世界高度图</a></li>
+            <li><a href="#点云lidar数据">点云/LiDAR数据</a></li>
+            <li><a href="#生成器">生成器</a></li>
+            <li><a href="#ai驱动">AI驱动</a></li>
+            <li><a href="#声音音乐">声音/音乐</a></li>
+            <li><a href="#绘画">绘画</a></li>
         </ul>
     </li>
-    <li><a href="#-探索blender-">🔍 探索 Blender</a>
+    <li><a href="#-探索blender">🔍 探索Blender</a>
         <ul>
-            <li><a href="#文档-">文档</a></li>
-            <li><a href="#开发-">开发</a></li>
-            <li><a href="#社区-">社区</a></li>
+            <li><a href="#文档">文档</a></li>
+            <li><a href="#开发">开发</a></li>
+            <li><a href="#社区">社区</a></li>
         </ul>
     </li>
-    <li><a href="#-教程-">👩🏻‍🏫 教程</a>
+    <li><a href="#--教程">👩🏻‍ 🏫 教程</a>
         <ul>
-            <li><a href="#-入门-">🍩 入门</a></li>
-            <li><a href="#-建模--1">🗿 建模</a></li>
-            <li><a href="#-几何节点-">🌌 几何节点</a></li>
-            <li><a href="#-着色节点-">🔘 着色节点</a></li>
-            <li><a href="#-动画--1">🌠 动画</a></li>
-            <li><a href="#-uv映射-">🔲 UV 映射</a></li>
-            <li><a href="#-纹理绘画-">🔳 纹理绘画</a></li>
-            <li><a href="#-合成-">📐 合成</a></li>
-            <li><a href="#-运动跟踪捕捉-">🤺 运动跟踪/捕捉</a></li>
-            <li><a href="#高级教程-">高级教程</a></li>
-            <li><a href="#基础-">基础</a></li>
-            <li><a href="#-书籍-">📚 书籍</a></li>
+            <li><a href="#-入门">🍩 入门</a></li>
+            <li><a href="#-建模-1">🗿 建模</a></li>
+            <li><a href="#-几何节点">🌌 几何节点</a></li>
+            <li><a href="#-着色节点">🔘 着色节点</a></li>
+            <li><a href="#-动画-1">🌠 动画</a></li>
+            <li><a href="#-uv映射">🔲 UV映射</a></li>
+            <li><a href="#-纹理绘画">🔳 纹理绘画</a></li>
+            <li><a href="#-合成">📐 合成</a></li>
+            <li><a href="#-运动跟踪捕捉">🤺 运动跟踪/捕捉</a></li>
+            <li><a href="#高级教程">高级教程</a></li>
+            <li><a href="#基础">基础</a></li>
+            <li><a href="#-书籍">📚 书籍</a></li>
         </ul>
     </li>
-    <li><a href="#-开发-">👩🏽‍💻 开发</a>
+    <li><a href="#--开发">👩🏽‍ 💻 开发</a>
         <ul>
-            <li><a href="#脚本开发-">脚本/开发</a></li>
-            <li><a href="#blender源代码-">Blender 源码</a></li>
-            <li><a href="#学习python-">学习 Python</a></li>
-            <li><a href="#学习计算机图形学-">学习计算机图形学</a></li>
-            <li><a href="#相关awesome列表-">相关优秀列表</a></li>
+            <li><a href="#脚本开发">脚本/开发</a></li>
+            <li><a href="#blender源代码">Blender源代码</a></li>
+            <li><a href="#学习python">学习Python</a></li>
+            <li><a href="#学习计算机图形学">学习计算机图形学</a></li>
+            <li><a href="#相关awesome列表">相关Awesome列表</a></li>
         </ul>
     </li>
-    <li><a href="#-社交-">🖇 社交</a>
+    <li><a href="#-社交">🖇 社交</a>
         <ul>
-            <li><a href="#-探索艺术作品-">🔍 探索艺术作品</a></li>
-            <li><a href="#-twitter-账号-">🐦 Twitter 账号</a></li>
-            <li><a href="#-youtube频道-">📢 YouTube 频道</a></li>
-            <li><a href="#-博客-">💻 博客</a></li>
-            <li><a href="#-挑战-">🎊 挑战</a></li>
-            <li><a href="#-活动-">🎉 活动</a></li>
+            <li><a href="#-探索艺术作品">🔍 探索艺术作品</a></li>
+            <li><a href="#-twitter-账号">🐦 Twitter 账号</a></li>
+            <li><a href="#-youtube频道">📢 YouTube频道</a></li>
+            <li><a href="#-博客">💻 博客</a></li>
+            <li><a href="#-挑战">🎊 挑战</a></li>
+            <li><a href="#-活动">🎉 活动</a></li>
         </ul>
     </li>
-    <li><a href="#符号-">符号</a></li>
-    <li><a href="#贡献-">贡献</a></li>
-
+    <li><a href="#符号">符号</a></li>
+    <li><a href="#贡献">贡献</a></li>
+    <li><a href="#-star-趋势">⭐ Star 趋势</a></li>
 </ul>
 </details>
-<br>
 
-[English](README.md) | 简体中文版 (Chinese)
-
-## 🔮 插件 [^](#table)
+## 🔮 插件
 
 - 在 **[Blender 扩展平台 (Blender Extensions)](https://extensions.blender.org/)**（Blender 4.2+）上浏览官方与社区审核的扩展，或查看[内置插件文档](https://docs.blender.org/manual/en/latest/addons/index.html)。
 
-### 🌊 模拟/物理 [^](#table)
+### 🌊 模拟/物理
 
 - [FLIP Fluids](https://github.com/rlguy/Blender-FLIP-Fluids)：是一个强大的液体模拟插件，让你能够在Blender这个免费且开源的3D创作套件中创建高质量的流体效果。 [![market]](https://blendermarket.com/products/flipfluids)
 - [Molecular Script](https://github.com/scorpion81/Blender-Molecular-Script)：是一个粒子碰撞插件，使粒子能够碰撞，用于创建特定类型的模拟、效果和粒子链接。
@@ -133,7 +123,7 @@
 - [Blender Optics Simulator](https://github.com/emircbngl/blender-optics-simulator)：将 Blender 变为经过物理校验的光学实验台：支持偏振与高斯光束传播的实时光线追踪、真实光机支架以及无头 Python API。![][gpl]
 - [Stop-motion-OBJ](https://github.com/neverhood311/Stop-motion-OBJ)：将 `.obj`、`.ply` 或 `.stl` 网格序列（如外部流体或粒子模拟结果）作为动画网格序列导入 Blender。![][gpl]
 
-### 🦑 生成器/构建器 [^](#table)
+### 🦑 生成器/构建器
 
 - [CharMorph](https://blenderartists.org/t/charmorph-character-creation-tool-mb-lab-based/1252543)：Blender的开源角色创建工具。它是现在不再维护的[MB-Lab](https://github.com/animate1978/MB-Lab)的重写版本。 [![][repo]](https://github.com/Upliner/CharMorph)
 - [MPFB](http://static.makehumancommunity.org/mpfb.html)：MPFB2是Blender的开源人类生成器。它是MakeHuman作为Blender插件的完整重写。 [![][repo]](https://github.com/makehumancommunity/mpfb2)
@@ -178,7 +168,7 @@
     - [Gscatter](https://www.graswald3d.com/gscatter)：由Grasswald开发者提供的艺术家友好的免费散布工具。
     - [City Scatter](https://curtisjamesholt.gumroad.com/l/city_scatter_free)：生成城市景观概念，由Blender的集合系统驱动。
 
-### 🧊 建模 [^](#table)
+### 🧊 建模
 
 - [MACHIN3tools](https://gumroad.com/l/MACHIN3tools) [$]：在一个可自定义的软件包中集成了持续演进的 Blender 实用工具与饼菜单集合。[![market]](https://blendermarket.com/products/MACHIN3tools)
 - [QBlocker](https://qblockerdocs.readthedocs.io/)：是Blender的一个交互式对象创建工具。
@@ -249,7 +239,7 @@
     - [Fiber Mesh](https://blenderartists.org/t/fiber-mesh-resurrected-for-2-80/1141872)：生成纤维网格。
     - [Laser Slicer](https://github.com/rgsouthall/laser_slicer)：将Blender对象切割并导出切片到SVG文件，以便在激光切割机或其他后处理上进行切割。
 
-### 🌠 动画 [^](#table)
+### 🌠 动画
 
 - [Animation Nodes](https://animation-nodes.com/)：为Blender中的动作图形设计的基于节点的视觉脚本系统。 [![][repo]](https://github.com/JacquesLucke/animation_nodes)
 - [Commotion](https://github.com/mrachinskiy/commotion)：Blender的动作图形插件。
@@ -278,7 +268,7 @@
     - [TextCounter](https://github.com/leomoon-studios/leomoon-textcounter/)：LeoMoon TextCounter是一个易于使用的Blender文本动画插件，可用于制作GUI模拟。
     - [GreaseWriter](https://github.com/doakey3/GreaseWriter)：一个Blender插件，用于自动动画化 grease pencil 笔画并模拟手绘文本。
 
-### 🗜 渲染引擎 [^](#table)
+### 🗜 渲染引擎
 
 - [AMD Radeon ProRender](https://www.amd.com/en/technologies/radeon-prorender-blender)：这是AMD的强大基于物理的渲染引擎，让创意专业人士使用开放的行业标准来利用GPU和CPU性能，在Blender中制作令人惊叹的逼真图像。
     - [AMD Blender USD Hydra](https://gpuopen.com/learn/amd-usd-hydra-blender/)：随着Pixar的USD系统作为3D图形管道和交换的强大工具出现，这个插件旨在为Blender添加对USD和USD Hydra渲染系统的第一类支持。
@@ -294,7 +284,7 @@
 - [E-Cycles](https://ecycles.gumroad.com/l/E-Cycles) [$]：是Cycles的一个分支，在使用CUDA GPU时渲染速度高达2.5倍，使用新选项时高达15倍。
 - [K-Cycles](https://blendermarket.com/products/k-cycles) [$]：像E-Cycles一样是Cycles的一个分支。被宣传为E-Cycles的改进。
 
-### 🗺️ 纹理/UV [^](#table)
+### 🗺 ️ 纹理/UV
 
 - [Layer Painter](https://joshuaknauber.gumroad.com/l/layerpainter)：允许您使用图层系统通过绘画和程序化创建材料。图层包括遮罩、过滤器等。尽管插件是为PBR工作流程设计的，您也可以用于风格化绘画。 [![][repo]](https://github.com/joshuaKnauber/layer_painter)
 - [TexTools](https://blenderartists.org/t/textools-for-blender/700811)：TexTools是Blender 3D的免费插件，包含一组专业的UV和纹理工具。 [![][repo]](https://github.com/SavMartin/TexTools-Blender)
@@ -324,7 +314,7 @@
 - [UV Toolkit](https://gumroad.com/alexbel#NbMya)：Blender中UV编辑的工具集合。
 - [Vertex Oven](https://github.com/ForestKatsch/VertexOven)：在几秒钟内烘焙游戏就绪的环境光遮蔽，无需UV展开或缓慢的Cycles烘焙。
 
-### 🎮 游戏开发 [^](#table)
+### 🎮 游戏开发
 
 - [MeshSync](https://github.com/unity3d-jp/MeshSync)：Unity的实时链接插件。支持Blender和其他3D软件。
 - [Blender Tools by Epic Games](https://www.unrealengine.com/en-US/blog/download-our-new-blender-addons)：提高Blender和Unreal之间游戏开发工作流程的Blender插件。_Send to Unreal, UE to Rigify._
@@ -344,7 +334,7 @@
     - [Arsenal](https://katharostech.github.io/arsenal)：是一个用Rust编写的Blender集成游戏引擎。 [![][repo]](https://github.com/katharostech/arsenal)
     - [INOX](https://github.com/gents83/INOX)：在Blender中集成的Rust游戏引擎。
 
-### 🤖 AI/MCP [^](#table)
+### 🤖 AI/MCP
 
 - [BlenderMCP](https://github.com/ahujasid/blender-mcp)：通过模型上下文协议 (MCP) 将 Blender 连接到 Claude AI 及其他 MCP 客户端，实现提示词辅助的 3D 建模、场景创建与操控。![][mit]
 - [Dream Textures](https://github.com/carson-katri/dream-textures)：内置于 Blender 着色器编辑器、图像编辑器和合成器中的 Stable Diffusion 插件。![][gpl]
@@ -354,7 +344,7 @@
 - [BlenderProc](https://github.com/DLR-RM/BlenderProc)：用于逼真训练图像生成的程序化 Blender 管线。![][gpl]
 - [BlenderSynth](https://github.com/OllieBoyne/BlenderSynth)：用于大规模生成合成数据集的 Blender 脚本工具。
 
-### 🪀 杂项 [^](#table)
+### 🪀 杂项
 
 - 管理：
     - [BlenderKit](https://www.blendkit.com/)：允许您通过点击按钮，将资产、材质和 alpha 笔刷下载到您的 Blender 客户端。
@@ -462,11 +452,13 @@
 - [NodeToPython](https://github.com/BrendanParmer/NodeToPython)：将几何节点、着色器节点和合成节点转换为易读的 Python 脚本与插件。[![][mit]](https://github.com/BrendanParmer/NodeToPython/blob/main/LICENSE)
 - [Leviate for Blender](https://extensions.blender.org/add-ons/leviate/)：通过网络摄像头或手机用手势移动 3D 视图或所选物体，手部追踪直接在 Blender 内运行。[![][repo]](https://github.com/vladpereverzyev/leviate)
 
+<p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
+
 ---
 
-## 🪐 资源 [^](#table)
+## 🪐 资源
 
-### 🎠 3D模型 [^](#table)
+### 🎠 3D模型
 
 - [Poly Haven/Models](https://polyhaven.com/models)：是每个人的免费高质量3D资产资源。这里的所有模型都是CC0。 [![][zero]](https://polyhaven.com/license)
 - [Greeble Town](https://greebletown.com/)：免费的高品质科幻细节 (Greebles) 硬表面 Kitbash 3D 资产库。
@@ -507,7 +499,7 @@
 - VDB 模型：
     - [Free VDB Simulations Created With Embergen](https://jangafx.com/software/embergen/download/free-vdb-animations/), [OpenVDB Sample Models](https://www.openvdb.org/download/), [disneyanimation.com/clouds](https://disneyanimation.com/resources/clouds/), [Free Volume Cloud and Smoke](https://gumroad.com/l/PCJDF), [High Altitude Clouds](https://gumroad.com/l/RcgNe).
 
-### 🤸🏾‍♀️ 动作捕捉/动画 [^](#table)
+### 🤸🏾‍♀ ️ 动作捕捉/动画
 
 - [Mixamo](https://www.mixamo.com/)：为游戏、电影等动画化3D角色。
 - [ActorCore](https://actorcore.reallusion.com/free)：来自Reallusion的动作捕捉库。
@@ -516,7 +508,7 @@
 - [Bandai Namco Research Motiondataset](https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset)：游戏出版商和开发商万代南梦宫的研发部门，发布了一个庞大的免费动作捕捉数据库，供研究和个人使用。
 - [turbosquid/motion-capture](https://www.turbosquid.com/Search/Motion-Capture/free/), [Sketchfab/animated](https://sketchfab.com/3d-models?features=downloadable+animated&sort_by=-likeCount).
 
-### 🌑 纹理 [^](#table)
+### 🌑 纹理
 
 - [Poly Haven/Textures](https://polyhaven.com/textures)：Poly Haven/Textures是一个网站，您可以在这里找到高质量的扫描纹理，全部免费。 [![][zero]](https://polyhaven.com/license)
 - [ambientCG](https://ambientcg.com/)：获取数以百计的PBR材料和纹理，免费使用公共领域许可证。 [![][zero]](https://docs.ambientcg.com/license/)
@@ -548,7 +540,7 @@
 - 其他：
     - [gumroad/juliosillet](https://gumroad.com/juliosillet), [Pixar/CommunityResources](https://renderman.pixar.com/community_resources), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [Texture Hunt Collection](https://gumroad.com/l/texturehunt), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [treesDesigner PBR Leaf Textures](http://www.treesdesigner.com/materials-library/), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [CGTrader/textures](https://www.cgtrader.com/free-3d-models/textures), [CGIVault/Textures](https://cgivault.com/product-category/textures/), [artstation/alexbeddows](https://www.artstation.com/alexbeddows/store).
 
-### 🌓 Blender材质 [^](#table)
+### 🌓 Blender材质
 
 - [The Blendersauce Vault Materials](http://blendersauce.com/the-blendersauce-vault-2/the-material-vault-categories/)：抽象，砖块和墙壁，混凝土，织物，流体，食物，人造，金属，金属漆面材质，自然，石膏，岩石/石头，瓷砖，木材。
 - [3d-wolf/materials](https://3d-wolf.com/products/materials.html)：PBR材质是一个插件，包含基于物理的材料。 ![gpl]
@@ -560,7 +552,7 @@
 - 其他：
     - [gumroad/simonthommes](https://gumroad.com/simonthommes), [Meta's Massivest Materials](https://www.blendswap.com/blend/16480), [Abstract Materials](https://gumroad.com/l/CCIEF).
 
-### 🌲 Blender场景/文件 [^](#table)
+### 🌲 Blender场景/文件
 
 - [Blend Swap](https://www.blendswap.com/blends)：开源Blender文件的唯一场所。
 - [Blender/demo-files](https://www.blender.org/download/demo-files/)：来自Blender的演示场景。
@@ -573,11 +565,11 @@
 - 几何节点：
     - [Higgsas Blender](https://higgsas.gumroad.com/l/wrusot), [Mesh Tension Map](https://higgsas.gumroad.com/l/tnqal), [Droplet Generator](https://ibotpl.gumroad.com/l/alvgr), [BackdropGen](https://yamato3d.gumroad.com/l/BackdropGen).
 
-### ⛅ HDRI [^](#table)
+### ⛅ HDRI
 
 - [Poly Haven/HDRIs](https://polyhaven.com/hdris), [Pixar/HDRI](https://renderman.pixar.com/category/111-hdri), [Hdrmaps/freebies](https://hdrmaps.com/freebies), [Hdri-hub/free](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [Hdri-skies](https://hdri-skies.com/), [locationtextures/panoramas](https://locationtextures.com/panoramas/?sort=p.price&order=ASC), [noahwitchell](http://www.noahwitchell.com/freebies), [bobgroothuis](https://www.bobgroothuis.com/collections/360-hdri), [vizpeople/free](https://www.viz-people.com/portfolio/free-hdri-maps/), [noemotionhdrs](http://noemotionhdrs.net/hdrevening.html), [iHDRI](https://www.ihdri.com/hdri-skies-outdoor/).
 
-### 🖼️ 艺术/参考 [^](#table)
+### 🖼 ️ 艺术/参考
 
 - [Dezoomify](https://dezoomify.ophir.dev/)：从 [Google Arts & Culture](https://artsandculture.google.com/)、[The National Gallery](https://www.nationalgallery.org.uk/)、[Gallica](https://gallica.bnf.fr/)、[Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) 及[更多网站](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats)下载可缩放的高清图像。([桌面应用](https://github.com/lovasoa/dezoomify-rs)) [![][repo]](https://github.com/lovasoa/dezoomify)
 - [Birmingham Museums Trust](https://dams.birminghammuseums.org.uk/asset-bank/action/viewDefaultHome?browseType=folders)：成千上万的我们无版权图像现在可供所有人在Creative Commons Zero许可下使用。更多图像将定期添加。[(Unsplash资料)](https://unsplash.com/@birminghammuseumstrust) ![zero]
@@ -604,7 +596,7 @@
 - [The Empire University, Weapons Library](https://dinustyempire.notion.site/6-1-Weapons-library-0ab1d28137e749f0abfca738d93a9222)：许多类型的武器的免费参考资源。
 - [Old Maps Online](https://www.oldmapsonline.org/)：探索过去的制图。欢迎来到Old Maps Online，这是一个易于使用的网关，提供世界各地图书馆的历史地图。
 
-### 🛰 太空 [^](#table)
+### 🛰 太空
 
 - [Solar Textures](https://www.solarsystemscope.com/textures/)：这些纹理表示基于NASA高程和成像数据的真实行星图，在等矩形投影中。 ![by]
 - [NASA-3D-Resources](https://nasa3d.arc.nasa.gov/)：这里有一个不断增长的3D模型、纹理和图像集合来自NASA。所有这些资源都可以免费下载和使用。 [![][repo]](https://github.com/nasa/NASA-3D-Resources)
@@ -615,7 +607,7 @@
 - 其他：
     - [CGI Moon Kit](https://svs.gsfc.nasa.gov/4720), [Moon 64k](https://gumroad.com/l/MOON_46K), [Earth 42k](https://gumroad.com/l/uHyhPT), [Natural Earth III](http://www.shadedrelief.com/natural3/pages/textures.html), [Planets Pack](https://gumroad.com/l/qMZOE).
 
-### 🎧 声音/音乐 [^](#table)
+### 🎧 声音/音乐
 
 - [Freesound.org](https://freesound.org/browse/)：一个协作式数据库，提供创意共享许可的声音，供音乐家和声音爱好者使用。 [![cc]](https://freesound.org/help/faq/#licenses)
 - [GameAudioGDC](https://sonniss.com/gameaudiogdc): Each year we give away thousands of dollars worth of sound effects for free in celebration of the Game Developers Conference. This is our archive. Everything is royalty-free and commercially usable.
@@ -638,7 +630,7 @@
 - [Soundcloud/cc](https://soundcloud.com/search/sounds?q=house&filter.license=to_use_commercially)：搜索根据创意共享许可许可的。
 - [YouTube/Audio Library](https://www.youtube.com/audiolibrary)：在YouTube Studio的音频库中，您可以找到无版税的生产音乐和音效，用于您的视频。
 
-### 🏞 免费库存 [^](#table)
+### 🏞 免费库存
 
 - 图像/矢量：[unsplash](https://unsplash.com/), [pexels](https://www.pexels.com/), [pixabay](https://pixabay.com/), [stocksnap](https://stocksnap.io/), [rawpixel](https://www.rawpixel.com/), [burst](https://burst.shopify.com/).
 - 视频/VFX/素材：[videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos), [actionvfx](https://www.actionvfx.com/blog/3-free-vfx-stock-collections-portals-bullet-tracers-camera-shake-presets), [productioncrate/free](https://vfx.productioncrate.com/search/#!/free), [benharker](https://benharker.net/store).
@@ -646,7 +638,7 @@
 - 视觉循环：[Mantissa](https://mantissa.xyz/vjloops), [BEEPLE](https://www.beeple-crap.com/vjloops), [Vimeo/Catmac](https://vimeo.com/user2777466).
 - 字体：[fonts.google](https://fonts.google.com/), [theleagueofmoveabletype](https://www.theleagueofmoveabletype.com/), [beautifulwebtype](https://beautifulwebtype.com/).
 
-### 🌂 实用 [^](#table)
+### 🌂 实用
 
 - [Sheep it Render Farm](https://www.sheepit-renderfarm.com/)：Blender的免费分布式渲染农场。
 - [Blender-Colab](https://github.com/syn73/blender-colab)：在***Google Colab***上渲染，这是一个Python脚本，允许您使用Google Colaboratory渲染Blender场景。仅Cycles。
@@ -656,14 +648,16 @@
 - [UE Sponsored Content](https://www.unrealengine.com/en-US/uesponsoredcontent)：每个月Epic Games都会免费赠送一些来自Unreal Engine市场的资产。
 - [Blender & ACES](https://www.toodee.de/?page_id=1720)：设置Blender以使用ACES和OpenColorIO。
 
+<p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
+
 ---
 
 <!-- Contributing Guidelines for Standalone:
 -->
 
-## 📥 独立 [^](#table)
+## 📥 独立
 
-### 3D工具 [^](#table)
+### 3D工具
 
 - [MeshLab](http://www.meshlab.net/)：开源系统，用于处理和编辑3D三角网格。 [![][repo]](https://github.com/cnr-isti-vclab/meshlab)
 - [AutoRemesher](https://github.com/huxingyi/autoremesher)：开源自动拓扑工具，旨在将源网格转换为干净、适合动画的全四边形几何体。
@@ -689,7 +683,7 @@
 - [AccuRIG](https://actorcore.reallusion.com/auto-rig)：是一款免费应用程序，旨在快速轻松地进行角色绑定。
 - [3D House Planner](https://www.3dhouseplanner.com/)：是一款专业的家庭设计网络应用程序，允许用户设计房屋和公寓。
 
-### 各种工具 [^](#table)
+### 各种工具
 
 - [Allusion](https://allusion-app.github.io/)：您的整个参考收藏、灵感和其他类型的图像的组织者。 [![][repo]](https://github.com/allusion-app/Allusion)
 - [Quixel Bridge](https://quixel.com/bridge)：将Megascans连接到包括Blender在内的所有您喜欢的工具。
@@ -716,7 +710,7 @@
     - [Blender Launcher](https://github.com/DotBow/Blender-Launcher)：用于管理Blender官方构建的独立客户端。
     - [Blender Manager](https://github.com/verlorengest/BlenderManager)：支持自动更新、项目管理与时间追踪、插件控制、版本管理、渲染管理等功能。
 
-### 摄影测量 [^](#table)
+### 摄影测量
 
 - [Meshroom](https://alicevision.org/#meshroom)：是一个免费开源的3D摄影测量软件。 [![][repo]](https://github.com/alicevision/meshroom)
 - [COLMAP](https://colmap.github.io/)：自动从有序或无序的图像集合重建3D模型。 [![][repo]](https://github.com/colmap/colmap)
@@ -726,7 +720,7 @@
 - [Agisoft Metashape](https://www.agisoft.com/) [$]：是一个独立的软件产品，执行数字图像的摄影测量处理，并生成3D空间数据。
 - [RealityScan](https://www.capturingreality.com/introducing-realityscan)：一个免费的3D扫描应用，与Quixel合作开发，以最便捷的方式将智能手机照片转换为高保真3D模型。
 
-### 纹理/材质 [^](#table)
+### 纹理/材质
 
 - [ArmorPaint](https://armorpaint.org/)：开源3D PBR纹理绘制软件。 [![][repo]](https://github.com/armory3d/armorpaint)
 - [Quixel Mixer](https://quixel.com/mixer)：用强大的混合和绘画功能在几秒钟内创建逼真的、可平铺的材料。
@@ -741,7 +735,7 @@
 - [Poly](https://withpoly.com/)：是一个无缝纹理生成器和画廊（高达8K）与PBR地图（高达32位）为任何类型的材料与一个简单的文本或图像提示。
 - [Normal Map Bench](https://normalmapbench.com/)：免费的基于浏览器的图像转法线贴图生成器，支持实时强度、平滑、边缘与光照控制，可导出 OpenGL/DirectX 格式。
 
-### 地形 [^](#table)
+### 地形
 
 - [TerreSculptor](http://www.demenzunmedia.com/home/terresculptor/)：是地形创建和编辑软件。它是免费软件。
 - [World Machine](https://www.world-machine.com/)：指挥强大的工具，如侵蚀和高级颜色图，为您的游戏或3D场景创建地形高度图、网格和纹理。您可以免费使用基本版。
@@ -750,13 +744,13 @@
 - [Gaea](https://quadspinner.com/)：是一个复杂而现代的地形设计软件，用于瞬间获得顶级结果。社区免费版有一些限制。
 - [Instant Terra](https://www.wysilab.com/)：实时地形生成工具。为您的游戏、电影或模拟创建地形、世界和景观。
 
-### 真实世界高度图 [^](#table)
+### 真实世界高度图
 
 - [Tangram Heightmapper](https://tangrams.github.io/heightmapper/)：是一个交互式灰度高度图浏览器，可以为3D应用生成高度图。
 - [OpenTopography/datasets](https://portal.opentopography.org/datasets)：促进社区访问高分辨率、面向地球科学的地形数据和相关工具及资源。需要注册。
 - [Copernicus DEM - ESA](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM)：哥白尼数字高程模型是数字表面模型（DSM），代表包括建筑物、基础设施和植被在内的地球表面。
 
-### 点云/LiDAR数据 [^](#table)
+### 点云/LiDAR数据
 
 - [OpenTopography](https://portal.opentopography.org/dataCatalog?formats=0)：是一个LiDAR用户的协作数据存储库。
 - [NOAA’s Data Access Viewer](https://coast.noaa.gov/dataviewer/#/lidar/search/)：这个在线工具允许用户搜索和下载LiDAR、图像和土地覆盖数据。
@@ -765,48 +759,55 @@
 - [USGS/Entwine](https://usgs.entwine.io/)：这个网站提供了Potree和Plasio.js界面到AWS USGS LiDAR公共数据集。 [![][repo]](https://github.com/hobu/usgs-lidar)
 - [Sketchfab/lidar](https://sketchfab.com/tags/lidar), [Sketchfab/point-cloud](https://sketchfab.com/tags/point-cloud).
 
-### 生成器 [^](#table)
+### 生成器
 
 - [JSplacement](https://archive.org/details/jsplacement-1.3.0-allplatforms_202108)：是一个跨平台的伪随机8K位移图生成器。
 - [Procedural City Generator](https://probabletrain.itch.io/city-generator)：创建程序化生成的城市地图，风格类似于美国基于网格的城市。 [![][repo]](https://github.com/ProbableTrain/MapGenerator)
 - [Medieval Fantasy City Generator](https://watabou.itch.io/medieval-fantasy-city-generator)：这个应用程序可以生成一个随机的中世纪城市布局，大小可请求。[City Viewer](https://watabou.itch.io/city-viewer)：是MFCD的3D可视化工具。查看[watabou.itch.io](https://watabou.itch.io/)上的其他生成器。
 - [city-roads](https://anvaka.github.io/city-roads/)：这个网站允许您选择一个城市，然后在屏幕上绘制每一条道路。 [![][repo]](https://github.com/anvaka/city-roads)
 
-### AI驱动 [^](#table)
+### AI驱动
 
 - [Gigapixel AI](https://topazlabs.com/gigapixel-ai/) [$]：是唯一可用的照片放大产品，可以在放大照片时实际添加细节。
 - [Rokoko Video](https://www.rokoko.com/products/video)：使用网络摄像头或视频上传进行动作捕捉，并在几分钟内动画化。
 - [Skilly](https://tryskilly.app)：面向 Mac 的语音优先 AI 导师，可实时观察您的 Blender 屏幕并一步步指导任何修改器或工作流。[![][repo]](https://github.com/tryskilly/skilly)
 
-### 声音/音乐 [^](#table)
+### 声音/音乐
 
 - [Audacity](https://www.audacityteam.org/)：免费开源跨平台音频软件。
 - [AudioMass](https://audiomass.co/)：开源基于Web的音频和波形编辑工具。
 - 音效生成器：[rFXGen](https://raylibtech.itch.io/rfxgen), [sfxia](https://rxi.itch.io/sfxia), [LabChirp](http://labbed.net/software/labchirp/), [Bfxr](https://iznaut.itch.io/bfxr).
 
-### 绘画 [^](#table)
+### 绘画
 
 - [Krita](https://krita.org/en/)：是一个专业的免费开源绘画程序。它是由希望每个人都能负担得起艺术工具的艺术家制作的。 [![][repo]](https://github.com/KDE/krita)
 - [HEAVYPAINT](https://www.heavypaint.com/)：是一个简单的应用程序，专为图形绘画设计。用户界面流线型，以最小的摩擦为绘画提供流畅、愉快的体验。
+
+<p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
 
 ---
 
 <!-- Contributing Guidelines for Explore Blender:
 -->
 
-## 🔍 探索Blender [^](#table)
+## 🔍 探索Blender
 
-[![下载最新版](https://img.shields.io/badge/Download-Latest-yellowgreen?logo=blender&style=flat-square)](https://www.blender.org/download/)[![每日构建](https://img.shields.io/badge/Daily%20Builds-red?logo=&style=flat-square)](https://builder.blender.org/download/daily) [![显示发布说明](https://img.shields.io/badge/Show-Release%20Notes-yellowgreen?logo=blender&style=flat-square)](https://wiki.blender.org/wiki/Reference/Release_Notes)[![最近活动](https://img.shields.io/badge/Recent%20Activities-olivedrab?style=flat-square)](https://developer.blender.org/project/view/2/)
+<p>
+    <a href="https://www.blender.org/download/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Blender-Download-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=sm&amp;mode=dark"><img alt="Download Blender" src="https://www.shieldcn.dev/badge/Blender-Download-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=sm&amp;mode=light"></picture></a>
+    <a href="https://builder.blender.org/download/daily/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Daily-Builds.svg?logo=lu:FlaskConical&amp;variant=secondary&amp;size=sm&amp;mode=dark"><img alt="Daily Builds" src="https://www.shieldcn.dev/badge/Daily-Builds.svg?logo=lu:FlaskConical&amp;variant=secondary&amp;size=sm&amp;mode=light"></picture></a>
+    <a href="https://extensions.blender.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Extensions-Platform.svg?logo=lu:Blocks&amp;variant=outline&amp;size=sm&amp;mode=dark"><img alt="Blender Extensions" src="https://www.shieldcn.dev/badge/Extensions-Platform.svg?logo=lu:Blocks&amp;variant=outline&amp;size=sm&amp;mode=light"></picture></a>
+    <a href="https://www.blender.org/download/releases/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Release-Notes.svg?logo=lu:FileText&amp;variant=outline&amp;size=sm&amp;mode=dark"><img alt="Release Notes" src="https://www.shieldcn.dev/badge/Release-Notes.svg?logo=lu:FileText&amp;variant=outline&amp;size=sm&amp;mode=light"></picture></a>
+</p>
 
-### [文档](https://docs.blender.org/) [^](#table)
+### [文档](https://docs.blender.org/)
 
 [📖 用户手册](https://docs.blender.org/manual/en/latest/) | [🔗 Python API](https://docs.blender.org/api/current/) | [⚙️ 开发者维基](https://wiki.blender.org/wiki/Main_Page)
 
-### 开发 [^](#table)
+### 开发
 
 [🔌 开发者门户](https://developer.blender.org/) | [💭 DevTalk](https://devtalk.blender.org/) | [💻 开发者博客](https://code.blender.org/)
 
-### 社区 [^](#table)
+### 社区
 
 - [👨🏽‍🚀Blender.Community](https://blender.community/c/)：由 Blender 爱好者为 Blender 爱好者打造的独立社区聚合平台。
     - [☕Blender.Today](https://blender.community/c/today/)：社区驱动的Blender新闻、聊天和直播！流媒体[播放列表](https://www.youtube.com/playlist?list=PLa1F2ddGya_87HJ72v_IgKUTNLIXSMfvB).
@@ -817,6 +818,8 @@
 - [🗨️discord/blender](https://discord.gg/blender)：社区管理的Discord服务器。
 - [fb/blender](https://fb.com/groups/2207257375/)：Blender Facebook小组。
 - [blender.stackexchange.com](https://blender.stackexchange.com/)：问题和答案。
+
+<p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
 
 ---
 
@@ -829,11 +832,11 @@
     - Don't use symbols other than "-" and parentheses.
 -->
 
-## 👩🏻‍🏫 教程 [^](#table)
+## 👩🏻‍ 🏫 教程
 
 > _`▷` 视频，`☰` 播放列表，`☷` 频道，`🧾` 文档。_
 
-### 🍩 入门 [^](#table)
+### 🍩 入门
 
 - ☰[Blender基础由Blender提供。](https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
 - ☰[Blender基础由CG Cookie提供。](https://cgcookie.com/lesson/welcome-to-the-blender-basics)
@@ -844,7 +847,7 @@
 - ☰[⚔️3D建模剑为完全初学者由YanSculpts提供。](https://www.youtube.com/playlist?list=PLvPwLecDlWRD_VK_2INC1VQ18dZdpDwLi)
 - ☰🪑[初学者建模椅子教程 - Blender Guru](https://www.youtube.com/playlist?list=PLjEaoINr3zgEL9UjPTLWQhLFAK7wVaRMR)
 
-### 🗿 建模 [^](#table)
+### 🗿 建模
 
 - 🧾[建模手册。](https://docs.blender.org/manual/en/latest/modeling/index.html)
 - ▷[Blender初学者3D建模教程。](https://www.youtube.com/watch?v=elUJCEC06r8)
@@ -864,7 +867,7 @@
     - ☰[Blender中硬表面建模由Gleb Alexandrov提供。](https://www.youtube.com/playlist?list=PL2aDImegRwZHQsA5_N4DpaOQmUXaIsBdN)
     - ▷[Blender硬表面雕刻技巧。](https://www.youtube.com/watch?v=qbC2iX4SATc)
 
-### 🌌 几何节点 [^](#table)
+### 🌌 几何节点
 
 - 🧾[Geometry Nodes Manual](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html)
 - ☰[Chris Prenninger的几何节点](https://www.youtube.com/playlist?list=PLpJWHl1fB7BG5YiW1sV9smJLdzlxKLCw1).
@@ -872,7 +875,7 @@
 - ☰[初学者基础几何节点由Bradley Animation提供](https://www.youtube.com/playlist?list=PLhQ290f8z8FMzVZAZGyL8CnwOnitw2VdG).
 - 🧾[几何节点设计模式 - Dev Null Productions](https://docs.google.com/document/d/10c84Mg8OojWg2O7LiruQ_Cgb4kpMxSL4XRTPuQQPuDI).
 
-### 🔘 着色节点 [^](#table)
+### 🔘 着色节点
 
 - 🧾[Blender 材质/着色器设计模式 - Dev Null Productions](https://docs.google.com/document/d/1hSVjUuQOEvJCHDx8JDGbgf_4Buv7kzVuT6wKdEY7U_g)
 - 🧾[着色节点列表。](https://docs.blender.org/manual/en/latest/render/shader_nodes/index.html)
@@ -885,7 +888,7 @@
 - ☰[Royal Skies LLC的Blender程序化纹理（快速教程）](https://www.youtube.com/playlist?list=PLZpDYt0cyiuv18KFBVniU2Yi-eI0Jrwo1)
 - ▷[Blender所有80+个材质节点在30分钟内解释。](https://www.youtube.com/watch?v=cQ0qtcSymDI)
 
-### 🌠 动画 [^](#table)
+### 🌠 动画
 
 - 🧾[动画与绑定手册。](https://docs.blender.org/manual/en/latest/physics/index.html)
 - ▷[Blender动画跑步在2分钟内！](https://www.youtube.com/watch?v=qxoo_bcUZos)
@@ -896,20 +899,20 @@
 - ☰[Royal Skies LLC的Blender绑定（快速教程）](https://www.youtube.com/playlist?list=PLZpDYt0cyiuuc3QpFeHxGqNpVf5couDeI)
 - ▷[快速平滑相机移动。](https://www.youtube.com/watch?v=a7qyW1G350g)
 
-### 🔲 UV映射 [^](#table)
+### 🔲 UV映射
 
 - 🧾[UV编辑器手册。](https://docs.blender.org/manual/en/latest/editors/uv/index.html)
 - ▷[UV展开 - Blender基础。](https://www.youtube.com/watch?v=Y7M-B6xnaEM)
 - ☰[Royal Skies LLC的Blender UV映射（快速教程）](https://www.youtube.com/playlist?list=PLZpDYt0cyiuuwWbyUAWSllrhtZ9KfU3B_)
 
-### 🔳 纹理绘画 [^](#table)
+### 🔳 纹理绘画
 
 - 🧾[纹理绘制手册。](https://docs.blender.org/manual/en/latest/sculpt_paint/texture_paint/index.html)
 - ▷[Blender初学者纹理绘制教程。](https://www.youtube.com/watch?v=vTYustK-XBk)
 - ▷[Blender纹理绘制快速开始。](https://www.youtube.com/watch?v=u9nE2Xg6Jgk)
 - ☰[Royal Skies LLC的Blender纹理绘制（快速教程）](https://www.youtube.com/playlist?list=PLZpDYt0cyiuvyEDCMOIjWMsl8ASiZgeCg)
 
-### 📐 合成 [^](#table)
+### 📐 合成
 
 - 🧾[合成节点列表。](https://docs.blender.org/manual/en/latest/compositing/index.html#node-types)
 - ▷[如何在Blender中合成渲染](https://www.youtube.com/watch?v=Eka75kHHBrA)
@@ -918,7 +921,7 @@
 - ▷[如何使用Blender的合成器改进渲染帧序列。](https://www.youtube.com/watch?v=T57tbazDZEA)
 - ▷[Blender合成器用于后期处理。](https://www.youtube.com/watch?v=W5KqXPCKBuI)
 
-### 🤺 运动跟踪/捕捉 [^](#table)
+### 🤺 运动跟踪/捕捉
 
 - 🧾[运动跟踪手册。](https://docs.blender.org/manual/en/latest/movie_clip/tracking/introduction.html)
 - ☰[CGmatter的Blender运动跟踪系列](https://www.youtube.com/playlist?list=PL4EqKJjrgoVTCrjTOBHePGXHqFdqaPYyR)
@@ -927,7 +930,7 @@
 - ▷[如何使用手机轻松免费进行3D运动捕捉！](https://www.youtube.com/watch?v=fwc9vTCLYCc)
 - ▷[为电影RAW和LOG镜头添加VFX](https://youtu.be/LssHxDCM7H4)
 
-### 高级教程 [^](#table)
+### 高级教程
 
 - [Blender Studio](https://studio.blender.org/welcome/)
 - [CG Cookie](https://cgcookie.com/courses), [CG Masters](https://cgmasters.com/category/blender-training-courses/), [CG Boost Academy](https://academy.cgboost.com/), [polygonrunway](https://polygonrunway.com/)
@@ -937,25 +940,27 @@
     - [在Blender中创建3D环境由Rob Tuytel提供](https://www.udemy.com/course/blender-environments/)
 - [blendermarket/training](https://blendermarket.com/categories/training), [lynda/blender](https://www.lynda.com/Blender-training-tutorials/164-0.html), [skillshare/blender](https://www.skillshare.com/browse/blender)
 
-### 基础 [^](#table)
+### 基础
 
 - 📦[Pixar in a Box](https://www.khanacademy.org/humanities/hass-storytelling/storytelling-pixar-in-a-box)：皮克斯与可汗学院合作创建的一系列学习教程，展示数学、科学和艺术等学科在皮克斯电影制作流程中的核心作用。
 - 🧾[Skilly Blender 基础课程](https://github.com/tryskilly/skilly/tree/main/skills/blender-fundamentals)：源自官方 Blender 手册的开源 Markdown 课程，涵盖物体/编辑模式、视口导航、属性编辑器、核心修改器、材质、灯光与渲染。
 
-### 📚 书籍 [^](#table)
+### 📚 书籍
 
 - [Blender For Dummies by Jason van Gumster](https://www.amazon.com/Blender-Dummies-Computer-Tech/dp/1119616964)
 - [Blender Secrets by Jan van den Hemel](https://www.blendersecrets.org/book)
 - [Blender 3D Architect by Allan Brito](https://www.blender3darchitect.com/blender-books/)
+
+<p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
 
 ---
 
 <!-- Contributing Guidelines for Development:
 -->
 
-## 👩🏽‍💻 开发 [^](#table)
+## 👩🏽‍ 💻 开发
 
-### 脚本/开发 [^](#table)
+### 脚本/开发
 
 - 🧾文档：
     - [Blender Python API Documentation](https://docs.blender.org/api/current/)：官方Blender Python API文档。
@@ -990,17 +995,17 @@
     - [devtalk/python](https://devtalk.blender.org/c/python/6)：关于使用和开发[Blender Python API](https://developer.blender.org/project/view/24/)的问题，无论是Blender本身还是插件。
     - [blenderartists/python-support](https://blenderartists.org/c/coding/python-support/19), [stackoverflow/tagged/bpy](https://stackoverflow.com/questions/tagged/bpy)
 
-### Blender源代码 [^](#table)
+### Blender源代码
 
 - 🧾[Developer Documentation](https://wiki.blender.org/wiki/Main_Page)：在这里您可以找到关于Blender的开发过程、设计和架构的信息，以及构建Blender的说明。
 - [🔌 Developer Portal](https://developer.blender.org/) | [💭 DevTalk](https://devtalk.blender.org/) | [💻 Developers Blog](https://code.blender.org/)
 
-### 学习Python [^](#table)
+### 学习Python
 
 - [Awesome Python](https://github.com/vinta/awesome-python)：一个精选的Python框架、库、软件和资源列表。
 - [所有算法用Python实现](https://github.com/TheAlgorithms/Python).
 
-### 学习计算机图形学 [^](#table)
+### 学习计算机图形学
 
 - [Computer Graphics from scratch](https://gabrielgambetta.com/computer-graphics-from-scratch/introduction.html) This book will not teach you how to use OpenGL or DirectX; instead, it can teach you how OpenGL and DirectX work. [![][repo]](https://github.com/ggambetta/computer-graphics-from-scratch)
 - [tinyraytracer](https://github.com/ssloy/tinyraytracer/wiki)：易于理解的RayTracing，仅用256行裸C++代码。
@@ -1008,7 +1013,7 @@
 - [Awesome Computer Graphics](https://github.com/luisnts/awesome-computer-graphics)：一个精选的计算机图形学资源列表。
 - [awesome-graphics](https://github.com/ericjang/awesome-graphics)：精选的计算机图形学教程和资源列表。
 
-### 相关Awesome列表 [^](#table)
+### 相关Awesome列表
 
 - [awesome-3d-human](https://github.com/lijiaman/awesome-3d-human)：一个精选的论文和资源列表，与3D人类研究相关，包括面部、身体、手和动作建模。
 - [awesome-3d-printing](https://github.com/ad-si/awesome-3d-printing)：一个精选的3D打印资源列表。
@@ -1022,23 +1027,27 @@
 - [Photogrammetry Guide](https://github.com/mikeroyal/Photogrammetry-Guide)：一个涵盖摄影测量的指南，包括应用、库和工具，使您成为一个更好、更高效的摄影测量开发人员。
 - [科研、学术与工业界应用综述](https://github.com/ichlubna/blenderSurvey)：关于 Blender 在科学、学术和工业界应用研究的精选资源列表。
 
+<p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
+
 ---
 
 <!-- Contributing Guidelines for Social:
 -->
 
-## 🖇 社交 [^](#table)
+## 🖇 社交
 
-### 🔍 探索艺术作品 [^](#table)
+### 🔍 探索艺术作品
 
-[![](https://img.shields.io/badge/reddit-r%2Fblender-yellowgreen?logo=reddit&style=flat-square)](https://www.reddit.com/r/blender/)
-[![](https://img.shields.io/badge/instagram-%23b3d-yellowgreen?logo=instagram&style=flat-square)](https://www.instagram.com/explore/tags/b3d/)
-[![](https://img.shields.io/badge/twitter-%23b3d-yellowgreen?logo=twitter&style=flat-square)](https://twitter.com/hashtag/b3d)
-[![](https://img.shields.io/badge/artstation-%27blender%27-yellowgreen?logo=artstation&style=flat-square)](https://www.artstation.com/search?sort_by=relevance&query=blender)
-[![](https://img.shields.io/badge/behance-%27blender%27-yellowgreen?logo=behance&style=flat-square)](https://www.behance.net/search?content=projects&user_tags=1012327)
-[![](https://img.shields.io/badge/blenderartists-artwork-yellowgreen?logo=&style=flat-square)](https://blenderartists.org/c/artwork/8)
+<p>
+    <a href="https://www.reddit.com/r/blender/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/reddit/subscribers/r/blender.svg?variant=secondary&amp;size=sm&amp;mode=dark"><img alt="r/blender" src="https://www.shieldcn.dev/reddit/subscribers/r/blender.svg?variant=secondary&amp;size=sm&amp;mode=light"></picture></a>
+    <a href="https://www.instagram.com/explore/tags/b3d/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Instagram-%23b3d.svg?logo=instagram&amp;variant=secondary&amp;size=sm&amp;mode=dark"><img alt="Instagram #b3d" src="https://www.shieldcn.dev/badge/Instagram-%23b3d.svg?logo=instagram&amp;variant=secondary&amp;size=sm&amp;mode=light"></picture></a>
+    <a href="https://twitter.com/hashtag/b3d"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/X-%23b3d.svg?logo=x&amp;variant=secondary&amp;size=sm&amp;mode=dark"><img alt="X #b3d" src="https://www.shieldcn.dev/badge/X-%23b3d.svg?logo=x&amp;variant=secondary&amp;size=sm&amp;mode=light"></picture></a>
+    <a href="https://www.artstation.com/search?sort_by=relevance&query=blender"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/ArtStation-blender.svg?logo=artstation&amp;variant=secondary&amp;size=sm&amp;mode=dark"><img alt="ArtStation blender" src="https://www.shieldcn.dev/badge/ArtStation-blender.svg?logo=artstation&amp;variant=secondary&amp;size=sm&amp;mode=light"></picture></a>
+    <a href="https://www.behance.net/search?content=projects&user_tags=1012327"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Behance-blender.svg?logo=behance&amp;variant=secondary&amp;size=sm&amp;mode=dark"><img alt="Behance blender" src="https://www.shieldcn.dev/badge/Behance-blender.svg?logo=behance&amp;variant=secondary&amp;size=sm&amp;mode=light"></picture></a>
+    <a href="https://blenderartists.org/c/artwork/8"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Blender%20Artists-Artwork.svg?logo=blender&amp;variant=secondary&amp;size=sm&amp;mode=dark"><img alt="Blender Artists Artwork" src="https://www.shieldcn.dev/badge/Blender%20Artists-Artwork.svg?logo=blender&amp;variant=secondary&amp;size=sm&amp;mode=light"></picture></a>
+</p>
 
-### 🐦 Twitter 账号 [^](#table)
+### 🐦 Twitter 账号
 
 _一些可以找到各种 Blender 相关内容的账号。_
 
@@ -1070,7 +1079,7 @@ _一些可以找到各种 Blender 相关内容的账号。_
 
 <!-- Need to help for channel descriptions -->
 
-### 📢 YouTube频道 [^](#table)
+### 📢 YouTube频道
 
 - [IanHubert](https://www.youtube.com/user/mrdodobird/videos)：《懒人教程》，建模，动画，视觉效果，电影。
 - [Midge Sinnaeve](https://www.youtube.com/channel/UCChYCkbgArLsCl5DWlxuKhQ/videos)：修改器，奇奇怪怪的东西，艺术直播。
@@ -1118,7 +1127,7 @@ _一些可以找到各种 Blender 相关内容的账号。_
 - [Samuel Sullins](https://www.youtube.com/@samuelsullins)：几何节点，视觉效果，低多边形，综合。
 - [CG Python](https://www.youtube.com/@CGPython)：Blender Python脚本技巧和窍门。
 
-### 💻 博客 [^](#table)
+### 💻 博客
 
 - [The Blend](https://blend.beehiiv.com)：关于Blender和3D的每周文章和课程。
 - [Blender Sushi](https://blendersushi.blogspot.com/)：在Blender 3D中混合的3D创意、诗歌和实验的集合。
@@ -1131,7 +1140,7 @@ _一些可以找到各种 Blender 相关内容的账号。_
 - [The CG Essentials](https://thecgessentials.com/)：3D建模、渲染、动画、粒子模拟等，这是Blender教程的地方。
 - [Blender Secrets](https://www.blendersecrets.org/secrets)：这里汇集了数百个一分钟或更短的视频教程，教授您特定的主题。
 
-### 🎊 挑战 [^](#table)
+### 🎊 挑战
 
 - [Nodevember](https://x.com/NodevemberIO)：一年一度的程序化活动。想要挑战吗？#nodevember是关于创造和推广程序化的精彩！一整个月的时间来提高和展示您的程序化技能。
     - 查看作品：[tw/#nodevember](https://twitter.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?sort_by=relevance&query=nodevember)
@@ -1143,13 +1152,15 @@ _一些可以找到各种 Blender 相关内容的账号。_
 - [Render Challenge](https://renderchallenge.com/)：互联网上最新的3D艺术挑战数据库！每周五获取新的渲染挑战通知。
 - [pwnisher](https://www.youtube.com/c/pwnisher/videos)：Clinton Jones的YouTube频道定期组织3D挑战。
 
-### 🎉 活动 [^](#table)
+### 🎉 活动
 
 - [Blender Conference](https://conference.blender.org/)：每年在阿姆斯特丹举行的 Blender 大会。（播放列表：[Bcon25](https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd), [Bcon24](https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x), [Bcon23](https://www.youtube.com/playlist?list=PLa1F2ddGya_84ye1JAvIGh0Yp7utEKZI_), [Bcon22](https://www.youtube.com/playlist?list=PLa1F2ddGya__2Ip2UB-xp6M54cQVvw1W-), [Bcon20](https://www.youtube.com/watch?v=uEjmbsiflMU), [Bcon19](https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S), [Bcon18](https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B), [Bcon17](https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO)).
 
+<p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
+
 ---
 
-### 符号 [^](#table)
+### 符号
 
 > `[$]` 付费资源，![][repo] 仓库链接，![market] Superhive (Blender Market)，`🧾` 文档。
 
@@ -1163,17 +1174,28 @@ _一些可以找到各种 Blender 相关内容的账号。_
 
 > ![][mit] [MIT](https://en.wikipedia.org/wiki/MIT_License), ![][gpl] [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License)
 
+<p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
+
 ---
 
-### 贡献 [^](#table)
+### 贡献
 
 欢迎您的贡献！^\_^ 如果您想为这个列表做贡献，请提交 _pull request_（仅需编辑英文 `README.md`）、创建 _issue_ 或联系我 @agmmnn。请先阅读 _[贡献指南](https://github.com/agmmnn/awesome-blender/blob/master/CONTRIBUTING.md)_，部分章节也有注释形式的专属说明。
 
+<p>
+    <a href="https://github.com/agmmnn/awesome-blender/graphs/contributors"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;mode=dark"><img alt="agmmnn/awesome-blender contributors" src="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;mode=light"></picture></a>
+</p>
+
 ---
 
-#### _感谢阅读！_
+### ⭐ Star 趋势
 
-[![Let's fund](https://img.shields.io/badge/fund-blender-orange?logo=blender&style=for-the-badge)](https://fund.blender.org/)
+<div align="center">
+    <a href="https://github.com/agmmnn/awesome-blender/stargazers"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/chart/github/stars/agmmnn/awesome-blender.svg?theme=orange&amp;title=awesome-blender&amp;icon=blender&amp;mode=dark"><img alt="Star History Chart" src="https://www.shieldcn.dev/chart/github/stars/agmmnn/awesome-blender.svg?theme=orange&amp;title=awesome-blender&amp;icon=blender&amp;mode=light"></picture></a>
+    <br><br>
+    <p><i>感谢阅读！</i></p>
+    <a href="https://fund.blender.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Fund-Blender%20Development-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=default&amp;mode=dark"><img alt="资助 Blender 开发" src="https://www.shieldcn.dev/badge/Fund-Blender%20Development-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=default&amp;mode=light"></picture></a>
+</div>
 
 <!-- markdown references -->
 

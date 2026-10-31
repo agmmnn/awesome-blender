@@ -23,7 +23,7 @@ Before adding content please read the _contributing guidelines_, some sections h
 - Use `[$]` for paid contents. Adding **paid** addons/contents to the list:
     - To be accepted by a lot of people in the Blender/3D community.
     - Functionally, there are no other instances in the list.
-- Use video, playlist, channel, doc [symbols](https://github.com/agmmnn/awesome-blender#symbols-) for Tutorials.
+- Use video, playlist, channel, doc [symbols](https://github.com/agmmnn/awesome-blender#symbols) for Tutorials.
 - Use 4-space indentation for nested lists (checked automatically with Prettier via `npx prettier . --check`).
 
 ### Need to help:
