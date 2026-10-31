@@ -105,7 +105,6 @@
     </li>
     <li><a href="#symbols">Symbols</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#-star-history">⭐ Star History</a></li>
 </ul>
 </details>
 
@@ -1186,12 +1185,8 @@ Your contributions are always welcome! ^\_^ If you want to contribute to this li
     <a href="https://github.com/agmmnn/awesome-blender/graphs/contributors"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;mode=dark"><img alt="agmmnn/awesome-blender contributors" src="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;mode=light"></picture></a>
 </p>
 
----
-
-### ⭐ Star History
-
 <div align="center">
-    <a href="https://github.com/agmmnn/awesome-blender/stargazers"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/chart/github/stars/agmmnn/awesome-blender.svg?theme=orange&amp;title=awesome-blender&amp;icon=blender&amp;mode=dark"><img alt="Star History Chart" src="https://www.shieldcn.dev/chart/github/stars/agmmnn/awesome-blender.svg?theme=orange&amp;title=awesome-blender&amp;icon=blender&amp;mode=light"></picture></a>
+    <a href="https://github.com/agmmnn/awesome-blender/stargazers"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/chart/github/stars/agmmnn/awesome-blender.svg?theme=orange&amp;title=awesome-blender&amp;icon=blender&amp;logo=false&amp;mode=dark"><img alt="Star History Chart" src="https://www.shieldcn.dev/chart/github/stars/agmmnn/awesome-blender.svg?theme=orange&amp;title=awesome-blender&amp;icon=blender&amp;logo=false&amp;mode=light"></picture></a>
     <br><br>
     <p><i>Thanks for reading!</i></p>
     <a href="https://fund.blender.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Fund-Blender%20Development-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=default&amp;mode=dark"><img alt="Fund Blender Development" src="https://www.shieldcn.dev/badge/Fund-Blender%20Development-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=default&amp;mode=light"></picture></a>

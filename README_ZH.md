@@ -105,7 +105,6 @@
     </li>
     <li><a href="#符号">符号</a></li>
     <li><a href="#贡献">贡献</a></li>
-    <li><a href="#-star-趋势">⭐ Star 趋势</a></li>
 </ul>
 </details>
 
@@ -1186,12 +1185,8 @@ _一些可以找到各种 Blender 相关内容的账号。_
     <a href="https://github.com/agmmnn/awesome-blender/graphs/contributors"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;mode=dark"><img alt="agmmnn/awesome-blender contributors" src="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;mode=light"></picture></a>
 </p>
 
----
-
-### ⭐ Star 趋势
-
 <div align="center">
-    <a href="https://github.com/agmmnn/awesome-blender/stargazers"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/chart/github/stars/agmmnn/awesome-blender.svg?theme=orange&amp;title=awesome-blender&amp;icon=blender&amp;mode=dark"><img alt="Star History Chart" src="https://www.shieldcn.dev/chart/github/stars/agmmnn/awesome-blender.svg?theme=orange&amp;title=awesome-blender&amp;icon=blender&amp;mode=light"></picture></a>
+    <a href="https://github.com/agmmnn/awesome-blender/stargazers"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/chart/github/stars/agmmnn/awesome-blender.svg?theme=orange&amp;title=awesome-blender&amp;icon=blender&amp;logo=false&amp;mode=dark"><img alt="Star History Chart" src="https://www.shieldcn.dev/chart/github/stars/agmmnn/awesome-blender.svg?theme=orange&amp;title=awesome-blender&amp;icon=blender&amp;logo=false&amp;mode=light"></picture></a>
     <br><br>
     <p><i>感谢阅读！</i></p>
     <a href="https://fund.blender.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Fund-Blender%20Development-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=default&amp;mode=dark"><img alt="资助 Blender 开发" src="https://www.shieldcn.dev/badge/Fund-Blender%20Development-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=default&amp;mode=light"></picture></a>
