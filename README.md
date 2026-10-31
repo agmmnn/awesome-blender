@@ -157,6 +157,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 - [Procedural Slime](https://artichoke18.gumroad.com/l/spsra) : generates procedural slime between objects.
 - [Random Book Generator](https://ko-fi.com/s/9879a091a9) : Book randomizing asset for Blender. Made with the new Geometry nodes.
 - [Real Sky](https://3d-wolf.com/products/sky/) : This add-on can generate procedural clouds, which Blender's built-in Dynamic Sky add-on lacks.
+- [Sapling Tree Gen](https://github.com/meet-brad-ch/add_curve_sapling) : Parametric Weber-Penn trees with leaves, pruning, an armature rig and wind. A maintained fork of the Sapling Tree Gen extension. ![][repo]
 - [Snow Generator](https://blendermarket.com/products/free-snow) : Procedural snow generator for snow effects.
 - [Spaceship Generator](https://github.com/a1studmuffin/SpaceshipGenerator) : procedurally generate 3D spaceships.
 - [Sprytile](https://github.com/Sprytile/Sprytile) : a blender add-on for building tile based low-poly scenes with paint/map editor like tools. [[more info]](https://chemikhazi.itch.io/sprytile)
