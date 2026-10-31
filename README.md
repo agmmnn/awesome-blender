@@ -342,7 +342,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 ### 🪀Misc [^](#table)
 
 - Management:
-    - [BlenderKit](https://www.blenderkit.com/) : Allows you to download assets, materials, and alpha brushes to your blender client with the click of a button.
+    - [BlenderKit](https://www.blendkit.com/) : Allows you to download assets, materials, and alpha brushes to your blender client with the click of a button.
     - [Blender Interplanety Storage](https://blenderartists.org/t/bis-online-material-storage/689728) : The online material (shader) storage add-on for Blender 3D creation. With the BIS add-on, you can save materials (groups of nodes) to the online personal library and then convenient search and upload them.
     - [Asset Wizard](https://blenderartists.org/t/asset-wizard-for-blender-2-8/1149311) : is a asset management addon.
     - [NodeCustomBuilder](https://blenderartists.org/t/nodecustombuilder-2-8-free-addon/1152185) : Preset system for nodes.
@@ -543,7 +543,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 - [Blendermada](http://blendermada.com/materials/) : Free Blender Material Database. [(blender addon)](http://blendermada.com/addon/).
 - [The Blendersauce Vault Materials](http://blendersauce.com/the-blendersauce-vault-2/the-material-vault-categories/) : Abstract, Bricks and Walls, Concrete, Fabric, Fluids, Food, Manmade, Metal, Metal painted Materials, Nature, Plaster, Rocks/Stones, Tiles, Wood.
 - [3d-wolf/materials](https://3d-wolf.com/products/materials.html) : PBR Materials is an addon with physically based materials. ![gpl]
-- [BlenderKit](https://www.blenderkit.com/) : Allows you to download assets, materials, and alpha brushes to your blender client with the click of a button for free. _Now you can find it on built-in addons._
+- [BlenderKit](https://www.blendkit.com/) : Allows you to download assets, materials, and alpha brushes to your blender client with the click of a button for free. _Now you can find it on built-in addons._
 - Sketch/Toon Shaders:
     - [BNPR' Shaders](https://blendernpr.org/downloads/), [EEVEE Comics Shader v3.0](https://gumroad.com/l/JWdjJ), [Erisdraw3D's](https://twitter.com/Erisdraw3D/status/1216755574735503361), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [Komikaze[\$]](https://blendermarket.com/products/komikaze)(Free: [Aqua](https://drive.google.com/file/d/1jlYxqRfjnjnZSG2gxKqiXa5Fo0Y7N9Kn/edit), [Kismet](https://drive.google.com/file/d/1Mp808PE3Wjew6-hEv0vIJZLzPezRM-jV/view)), [Ultimate Clay Shader[\$]](https://blendermarket.com/products/claydoh), [Erito's Toon Shader for EEVEE](https://www.artstation.com/eritokaio/store/Wo3B/erito-s-toon-shader-for-blender-eevee), [Toonkit-Samples](https://github.com/vitorbalbio/Toonkit-Samples).
 - Nodevember Results:

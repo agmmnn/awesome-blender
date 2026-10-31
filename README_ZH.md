@@ -342,7 +342,7 @@
 ### 🪀 杂项 [^](#table)
 
 - 管理：
-    - [BlenderKit](https://www.blenderkit.com/)：允许您通过点击按钮，将资产、材质和alpha笔刷下载到您的blender客户端。
+    - [BlenderKit](https://www.blendkit.com/)：允许您通过点击按钮，将资产、材质和alpha笔刷下载到您的blender客户端。
     - [Blender Interplanety Storage](https://blenderartists.org/t/bis-online-material-storage/689728)：Blender 3D创作的在线材质（着色器）存储插件。有了BIS插件，您可以将材质（节点组）保存到在线个人库中，然后方便地搜索和上传它们。
     - [Asset Wizard](https://blenderartists.org/t/asset-wizard-for-blender-2-8/1149311)：是一个资产管理插件。
     - [NodeCustomBuilder](https://blenderartists.org/t/nodecustombuilder-2-8-free-addon/1152185)：节点预设系统。
@@ -540,7 +540,7 @@
 - [Blendermada](http://blendermada.com/materials/)：Blender材质数据库。[(blender插件)](http://blendermada.com/addon/).
 - [The Blendersauce Vault Materials](http://blendersauce.com/the-blendersauce-vault-2/the-material-vault-categories/)：抽象，砖块和墙壁，混凝土，织物，流体，食物，人造，金属，金属漆面材质，自然，石膏，岩石/石头，瓷砖，木材。
 - [3d-wolf/materials](https://3d-wolf.com/products/materials.html)：PBR材质是一个插件，包含基于物理的材料。![gpl]
-- [BlenderKit](https://www.blenderkit.com/)：允许您免费下载资产、材质和alpha笔刷到您的blender客户端。现在您可以在内置插件中找到它。
+- [BlenderKit](https://www.blendkit.com/)：允许您免费下载资产、材质和alpha笔刷到您的blender客户端。现在您可以在内置插件中找到它。
 - 素描/卡通着色器：
     - [BNPR' Shaders](https://blendernpr.org/downloads/), [Eevee Comics Shader v3.0](https://gumroad.com/l/JWdjJ), [Erisdraw3D's](https://twitter.com/Erisdraw3D/status/1216755574735503361), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [Komikaze[$]](https://blendermarket.com/products/komikaze)(免费：[Aqua](https://drive.google.com/file/d/1jlYxqRfjnjnZSG2gxKqiXa5Fo0Y7N9Kn/edit), [Kismet](https://drive.google.com/file/d/1Mp808PE3Wjew6-hEv0vIJZLzPezRM-jV/view)), [Ultimate Clay Shader[$]](https://blendermarket.com/products/claydoh), [Erito's Toon Shader for Eevee](https://www.artstation.com/eritokaio/store/Wo3B/erito-s-toon-shader-for-blender-eevee), [Toonkit-Samples](https://github.com/vitorbalbio/Toonkit-Samples).
 - Nodevember结果：
