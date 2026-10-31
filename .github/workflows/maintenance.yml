@@ -1,0 +1,145 @@
+name: Maintenance
+
+on:
+    schedule:
+        - cron: "0 0 * * 0" # Run every Sunday at midnight UTC
+    pull_request:
+        branches: [main, master]
+    workflow_dispatch:
+
+permissions:
+    contents: read
+
+jobs:
+    format-check:
+        if: github.event_name != 'schedule'
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: Check Formatting with Prettier
+              run: npx --yes prettier@3 . --check
+
+    pr-link-check:
+        if: github.event_name == 'pull_request'
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Extract newly added or modified URLs
+              env:
+                  BASE_REF: ${{ github.base_ref }}
+                  OUT_FILE: ${{ runner.temp }}/pr_added_links.md
+              run: |
+                  python3 - <<'PY'
+                  import os, re, subprocess
+
+                  base_ref = f"origin/{os.environ['BASE_REF']}"
+                  out_file = os.environ["OUT_FILE"]
+
+                  def extract_urls(text: str) -> set[str]:
+                      urls = set()
+                      md_link = re.compile(r"\]\((https?://[^\s()]+(?:\([^\s()]*\)[^\s()]*)*)\)")
+                      for m in md_link.finditer(text):
+                          urls.add(m.group(1))
+                      rem = md_link.sub("]()", text)
+                      for m in re.finditer(r'https?://[^\s<>"\')\]]+', rem):
+                          urls.add(m.group(0).rstrip(".,;:"))
+                      return urls
+
+                  files_out = subprocess.check_output(
+                      ["git", "ls-tree", "-r", "--name-only", base_ref], text=True
+                  ).splitlines()
+                  base_urls = set()
+                  for path in files_out:
+                      if path.endswith(".md"):
+                          blob = subprocess.check_output(
+                              ["git", "show", f"{base_ref}:{path}"], text=True, errors="ignore"
+                          )
+                          base_urls |= extract_urls(blob)
+
+                  diff = subprocess.check_output(
+                      ["git", "diff", "--unified=0", f"{base_ref}...HEAD", "--", "*.md", "**/*.md"],
+                      text=True,
+                      errors="ignore",
+                  )
+                  added_lines = "\n".join(
+                      line[1:]
+                      for line in diff.splitlines()
+                      if line.startswith("+") and not line.startswith("+++ ")
+                  )
+                  new_urls = sorted(extract_urls(added_lines) - base_urls)
+
+                  with open(out_file, "w", encoding="utf-8") as f:
+                      for u in new_urls:
+                          f.write(f"- <{u}>\n")
+
+                  print(f"Found {len(new_urls)} newly added/modified URL(s) to check:")
+                  for u in new_urls:
+                      print(f"  {u}")
+                  PY
+
+            - name: Check Newly Added/Modified Links
+              uses: lycheeverse/lychee-action@v2.9.0
+              with:
+                  failIfEmpty: false
+                  jobSummary: true
+                  args: >-
+                      --no-progress
+                      --exclude artstation.com
+                      --exclude twitter.com
+                      --exclude x.com
+                      --exclude pixabay.com
+                      --exclude reddit.com
+                      --exclude blendermarket.com
+                      --exclude superhivemarket.com
+                      --exclude free3d.com
+                      --exclude medium.com
+                      --exclude udemy.com
+                      --exclude skillshare.com
+                      --exclude turbosquid.com
+                      --exclude unrealengine.com
+                      --exclude videvo.net
+                      --exclude grabcad.com
+                      --exclude musopen.org
+                      -- "${{ runner.temp }}/pr_added_links.md"
+
+    scheduled-link-check:
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - name: Full Repository Link Audit
+              uses: lycheeverse/lychee-action@v2.9.0
+              with:
+                  jobSummary: true
+                  args: >-
+                      --no-progress
+                      --exclude artstation.com
+                      --exclude twitter.com
+                      --exclude x.com
+                      --exclude pixabay.com
+                      --exclude reddit.com
+                      --exclude blendermarket.com
+                      --exclude superhivemarket.com
+                      --exclude free3d.com
+                      --exclude medium.com
+                      --exclude udemy.com
+                      --exclude skillshare.com
+                      --exclude turbosquid.com
+                      --exclude unrealengine.com
+                      --exclude videvo.net
+                      --exclude grabcad.com
+                      --exclude musopen.org
+                      --exclude artic.edu
+                      --exclude britishmuseum.org
+                      --exclude nga.gov
+                      --exclude si.edu
+                      --exclude capturingreality.com
+                      --exclude phenome10k.org
+                      --exclude blenderboom.com
+                      --exclude discord.com
+                      --exclude discord.gg
+                      -- '*.md' '**/*.md'

@@ -640,8 +640,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 
 ### 🏞Free Stocks [^](#table)
 
-- Image/Vector : [unsplash](https://unsplash.com/), [pexels](https://www.pexels.com/)
-  , [pixabay](https://pixabay.com/), [stocksnap](https://stocksnap.io/), [rawpixel](https://www.rawpixel.com/), [burst](https://burst.shopify.com/).
+- Image/Vector : [unsplash](https://unsplash.com/), [pexels](https://www.pexels.com/), [pixabay](https://pixabay.com/), [stocksnap](https://stocksnap.io/), [rawpixel](https://www.rawpixel.com/), [burst](https://burst.shopify.com/).
 - Video/VFX/Footage : [videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos), [actionvfx](https://www.actionvfx.com/blog/3-free-vfx-stock-collections-portals-bullet-tracers-camera-shake-presets), [productioncrate/free](https://vfx.productioncrate.com/search/#!/free), [benharker](https://benharker.net/store).
 - Cutouts : [MrCutout](https://www.mrcutout.com/), [nonscandinavia](http://www.nonscandinavia.com/), [vishopper/free](https://www.vishopper.com/cut-out-people/search/free).
 - Visual Loops : [Mantissa](https://mantissa.xyz/vjloops), [BEEPLE](https://www.beeple-crap.com/vjloops), [Vimeo/Catmac](https://vimeo.com/user2777466).
@@ -706,8 +705,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 - [Particle Illusion](https://borisfx.com/products/particle-illusion/) : Free GPU-accelerated 2D particle generator.
 - [Exr-IO](https://www.exr-io.com/) : is a robust and exact solution for dealing with multi-layer EXR pictures. It supports Cryptomatte.
 - [PickPicPack](https://p4ymak.gumroad.com/l/pickpicpack) : Tiny yet powerful utility for packaging multiple images to new one with custom aspect ratio and size.
-- [GameTextureViewer](https://jangafx.com/software/gametextureviewer/) : is a fast, reliable, and simple tool for
-  artists to preview textures and sprite sheet animations on the fly.
+- [GameTextureViewer](https://jangafx.com/software/gametextureviewer/) : is a fast, reliable, and simple tool for artists to preview textures and sprite sheet animations on the fly.
 - [Mandelbulb3D](http://www.andreas-maschke.com/?page_id=4607) : is a free software application created for 3D fractal imaging. [![][repo]](https://github.com/thargor6/mb3d)
 - [F3D](http://f3d.app) : Fast and minimalist open source cross-platform 3D viewer. Support many fileformats and rendering style. [![][repo]](https://github.com/f3d-app/f3d)
 - [JWildfire](http://www.andreas-maschke.com/?page_id=42) : Stands out for its flame fractal generator. Wildfire is a java-based image processing software. [![][repo]](https://github.com/thargor6/JWildfire)
@@ -737,7 +735,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 - [Material Maker](https://rodzilla.itch.io/material-maker) : is a simple procedural materials generation tool. [![][repo]](https://github.com/RodZill4/material-maker)
 - [TextureLab](https://njbrown.itch.io/texturelab) : is a tool designed to make procedural texture generation.
 - [AwesomeBump](https://github.com/kmkolasinski/AwesomeBump) : Generate normal, height, specular or ambient occlusion textures from a single image.
-- [Agisoft De-Lighter](https://agisoft.freshdesk.com/support/solutions/articles/31000158376-agisoft-texture-de-lighter-general-workflow) : is a free stand-alone tool designed to remove shadows from model textures. [!download](https://www.agisoft.com/downloads/installer/)
+- [Agisoft De-Lighter](https://agisoft.freshdesk.com/support/solutions/articles/31000158376-agisoft-texture-de-lighter-general-workflow) : is a free stand-alone tool designed to remove shadows from model textures. [[download]](https://www.agisoft.com/downloads/installer/)
 - [Agama Materials](https://agama.itch.io/agama-materials) : is software for creating PBR materials and painting 3d models. You can create materials and use them for painting models, or you can use pre-made textures.
 - [Architextures - Create](https://architextures.org/create) : web app allows you to create seamless textures, bump maps and CAD hatches. Select any of the parameters to get started.
 - [Poly](https://withpoly.com/) : is a seamless texture generator & gallery (up to 8K) with PBR maps (up to 32-bit) for any types of materials with a simple text or image prompt.
@@ -810,8 +808,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 
 ### Community [^](#table)
 
-- [👨🏽‍🚀Blender.Community](https://blender.community/c/)
-  : is an independent community aggregator, by Blenderheads for Blenderheads.
+- [👨🏽‍🚀Blender.Community](https://blender.community/c/) : is an independent community aggregator, by Blenderheads for Blenderheads.
     - [☕Blender.Today](https://blender.community/c/today/) : Community-driven Blender news, chat, and live streams! Stream [playlist](https://www.youtube.com/playlist?list=PLa1F2ddGya_87HJ72v_IgKUTNLIXSMfvB).
     - [🖱️Right-Click Select](https://blender.community/c/rightclickselect/) : Got an idea for a feature that you think Blender absolutely must have?
 - [👨‍🎨Blender Artists Community](http://www.blenderartists.org/) : Home of the Blender Community.
@@ -1138,8 +1135,7 @@ _Some accounts where you can find different kinds of content related to blender.
 
 - [Nodevember](https://x.com/NodevemberIO) : The yearly event for everything procedural. Feel like doing a challenge? #nodevember is all about creating and promoting procedural awesomeness! A whole month to improve and show off your procedural skills.
     - See works: [tw/#nodevember](https://twitter.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?sort_by=relevance&query=nodevember)
-- [SculptJanuary](https://www.cgboost.com/challenges) : Challenge yourself over 31 days with a set of 31 topics.
-  Sculpt every day and improve your sculpting skills.
+- [SculptJanuary](https://www.cgboost.com/challenges) : Challenge yourself over 31 days with a set of 31 topics. Sculpt every day and improve your sculpting skills.
     - See works: [tw/#sculptjanuary](https://twitter.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary)
 - [36 Days of Type](http://www.36daysoftype.com/) : is a yearly open call inviting designers, illustrators and visual artists to share their view on the letters and numbers from our alphabet.
     - See works: [tw/#36daysoftype](https://twitter.com/hashtag/36daysoftype), [ig/#36daysoftype](https://www.instagram.com/explore/tags/36daysoftype/), [artstation/36daysoftype](https://www.artstation.com/search?sort_by=relevance&query=6daysoftype)

@@ -8,26 +8,29 @@ The purpose of this list is to bring together addons, tools, tutorials, and many
 
 Before adding content please read the _contributing guidelines_, some sections have their own guidelines as a comment line.
 
--   Focused _mostly_ open source and free resources.
--   Please do not add for advertising purposes.
+- Focused _mostly_ open source and free resources.
+- Please do not add for advertising purposes.
+- **English `README.md` only:** Only edit [`README.md`](README.md) in your pull request. Translations (such as [`README_ZH.md`](README_ZH.md)) are synced periodically by maintainers.
+- **Project maturity:** Brand-new or untested day-0 repositories should first gain some real-world testing, releases, community adoption, or an approved listing on the [Blender Extensions Platform](https://extensions.blender.org/) before submission.
 
 ### Formats:
 
--   Use the following format: `[package](link) : Description.`
--   If the description starts with `is` start with lowercase letter, otherwise use capital letter.
--   Keep descriptions short and simple.
-    -   Don't use blender _version number_ in description, if it doesn't specifically point to it.
--   Use `![][repo]` reference for repo link at the end of the line.
--   Use `[$]` for paid contents. Adding **paid** addons/contents to the list:
-    -   To be accepted by a lot of people in the Blender/3D community.
-    -   Functionally, there are no other instances in the list.
--   Use video, playlist, channel, doc [symbols](https://github.com/agmmnn/awesome-blender#symbols-) for Tutorials.
+- Use the following format: `[package](link) : Description.`
+- If the description starts with `is` start with lowercase letter, otherwise use capital letter.
+- Keep descriptions short and simple.
+    - Don't use blender _version number_ in description, if it doesn't specifically point to it.
+- Use `![][repo]` reference for repo link at the end of the line.
+- Use `[$]` for paid contents. Adding **paid** addons/contents to the list:
+    - To be accepted by a lot of people in the Blender/3D community.
+    - Functionally, there are no other instances in the list.
+- Use video, playlist, channel, doc [symbols](https://github.com/agmmnn/awesome-blender#symbols-) for Tutorials.
+- Use 4-space indentation for nested lists (checked automatically with Prettier via `npx prettier . --check`).
 
 ### Need to help:
 
--   Adding new contents.
--   Categorizing contents.
--   There may be grammatical or spelling mistakes in the list because english is not my native language. Please, correct it.
+- Adding new contents.
+- Categorizing contents.
+- There may be grammatical or spelling mistakes in the list because english is not my native language. Please, correct it.
 
 Thank you for your contribution.
 
