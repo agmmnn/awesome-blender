@@ -1001,6 +1001,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
     - [3DN BIP](https://github.com/3dninjas/3dn-bip) : A Python library for Blender. Blazingly fast preview loads in Blender. Images of arbitrary size. `bpy.utils.previews` drop-in replacement.
     - [Geometry Script](https://github.com/carson-katri/geometry-script) : is a scripting API for Blender's Geometry Nodes. It makes complicated node trees more managable and easy to share.
     - [Molecular Animation](https://github.com/AmadeusBio-ai/Molecular_Animation) : Python framework and command-line pipeline for scripted, headless molecular animation in Blender from PDB and AlphaFold structures.
+    - [BlenderAddonPackageTool](https://github.com/xzhuah/BlenderAddonPackageTool) : A framework integrated with handy tools for developing Blender add-ons and extensions, featuring hot-swap for testing, dependency-aware packaging, auto class loading, and add-on internationalization. ![][mit]
 - Support:
     - [devtalk/python](https://devtalk.blender.org/c/python/6) : Questions about using and developing the [Blender Python API](https://developer.blender.org/project/view/24/), both for Blender itself and add-ons.
     - [blenderartists/python-support](https://blenderartists.org/c/coding/python-support/19), [stackoverflow/tagged/bpy](https://stackoverflow.com/questions/tagged/bpy)
