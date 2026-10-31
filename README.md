@@ -786,6 +786,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 - [Gigapixel AI](https://topazlabs.com/gigapixel-ai/) [$] : is the only photo enlargement product available that can actually add detail back to your upscaled photo.
 - [Rokoko Video](https://www.rokoko.com/products/video) : motion capture using your webcam or video-upload and animate in minutes.
 - [blender-kiln](https://github.com/elithril/blender-kiln) : a Claude Code plugin that drives Blender through an MCP server to build, texture, optimize and export game-ready assets from a text brief or a photo. ![][repo]
+- [Skilly](https://tryskilly.app) : Voice-first AI tutor for Mac that watches your Blender screen and walks you through any modifier or workflow in real time. [![][repo]](https://github.com/tryskilly/skilly)
 
 ### Sound/Music [^](#table)
 
@@ -950,6 +951,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 ### Fundamentals [^](#table)
 
 - 📦[Pixar in a Box](https://www.khanacademy.org/humanities/hass-storytelling/storytelling-pixar-in-a-box) : Pixar and Khan Academy have collaborated to create, develop, and promote a series of learning tutorials that demonstrate how traditional school subjects such as math, science, and the arts are a vital part of the everyday work put into Pixar's filmmaking process.
+- 🧾[Skilly Blender Fundamentals Curriculum](https://github.com/tryskilly/skilly/tree/main/skills/blender-fundamentals) : Open-source markdown curriculum sourced from the official Blender Manual covering Object vs Edit mode, viewport navigation, Properties Editor, core modifiers, materials, lighting, and rendering.
 
 ### 📚Books [^](#table)
 
