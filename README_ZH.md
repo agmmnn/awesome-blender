@@ -28,7 +28,9 @@
             <li><a href="#-%ef%b8%8f-纹理uv">🗺 ️ 纹理/UV</a></li>
             <li><a href="#-游戏开发">🎮 游戏开发</a></li>
             <li><a href="#-aimcp">🤖 AI/MCP</a></li>
-            <li><a href="#-杂项">🪀 杂项</a></li>
+            <li><a href="#-灯光相机与视频">🎬 灯光、相机与视频</a></li>
+            <li><a href="#-管线导入导出与-3d-扫描">📦 管线、导入导出与 3D 扫描</a></li>
+            <li><a href="#-工作流界面与实用工具">⚡ 工作流、界面与实用工具</a></li>
         </ul>
     </li>
     <li><a href="#-资源">🪐 资源</a>
@@ -115,7 +117,8 @@
 ### 🌊 模拟/物理
 
 - [FLIP Fluids](https://github.com/rlguy/Blender-FLIP-Fluids)：是一个强大的液体模拟插件，让你能够在Blender这个免费且开源的3D创作套件中创建高质量的流体效果。 [![market]](https://blendermarket.com/products/flipfluids)
-- [Molecular Script](https://github.com/scorpion81/Blender-Molecular-Script)：是一个粒子碰撞插件，使粒子能够碰撞，用于创建特定类型的模拟、效果和粒子链接。
+- [MolecularNodes](https://github.com/BradyAJohnston/MolecularNodes)：使用几何节点在 Blender 中导入、制作动画和模拟分子生物学与结构数据。![][gpl]
+- [Molecular+](https://github.com/u3dreal/molecular-plus)：面向 Blender 4.x 的 [Molecular Script](https://github.com/scorpion81/Blender-Molecular-Script) 现代化延续分支，用于粒子碰撞、连接和物理模拟。![][gpl]
 - [Jet-Fluids](https://github.com/PavelBlend/blender_jet_fluids_addon)：[Jet fluid](https://github.com/doyubkim/fluid-engine-dev) 模拟器集成在Blender中。
 - [projectile](https://github.com/natecraddock/projectile)：在 Blender 中轻松投掷物体的艺术家友好型物理工具。
 - [Phobos](https://github.com/dfki-ric/phobos)：Blender插件，允许创建URDF、SDF和SMURF机器人模型。
@@ -124,48 +127,48 @@
 
 ### 🦑 生成器/构建器
 
-- [CharMorph](https://blenderartists.org/t/charmorph-character-creation-tool-mb-lab-based/1252543)：Blender的开源角色创建工具。它是现在不再维护的[MB-Lab](https://github.com/animate1978/MB-Lab)的重写版本。 [![][repo]](https://github.com/Upliner/CharMorph)
-- [MPFB](http://static.makehumancommunity.org/mpfb.html)：MPFB2是Blender的开源人类生成器。它是MakeHuman作为Blender插件的完整重写。 [![][repo]](https://github.com/makehumancommunity/mpfb2)
-- [FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) [$]：一个Blender插件，允许你使用几张中性表情的照片创建逼真的3D人脸和头部模型。[[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
-- [Tiny Eye](https://tinynocky.gumroad.com/l/tinyeye)：Tiny Eye是一个完全程序化的、风格化的免费眼睛，适用于Eevee和Cycles。
-- [Auto-Terrainer](https://unicornhunter.gumroad.com/l/AutoTerrainer)：自动Blender地形生成器是一个功能强大且易于使用的工具，可以让你将任何低多边形网格转换成真实且可定制的地形。你可以用它来创造山脉、山谷、岛屿、沙漠、森林等。
-- [Blenderesse's Generators](https://blenderesse.gumroad.com)：Blenderesse提供了一些免费的几何节点生成器。包括；[Electric Power Line](https://blenderesse.gumroad.com/l/electriclinegenerator), [Melt](https://blenderesse.gumroad.com/l/melt), [Bird](https://blenderesse.gumroad.com/l/birdgenerator).
-- [Buildify](https://paveloliva.gumroad.com/l/buildify)：是一个几何节点库，用于轻松创建建筑。
-- [Bricker](https://www.blendermarket.com/products/bricker) [$]：逼真的乐高/Minecraft模拟。
-- [Blender Data Visualisation](https://github.com/Griperis/BlenderDataVis)：将数据加载到Blender中并创建可视化。
-- [BookGen](https://oweissbarth.de/software/book-gen-blender-addon/)：是Blender的免费书籍生成插件。
+- [CharMorph](https://blenderartists.org/t/charmorph-character-creation-tool-mb-lab-based/1252543)：Blender 的开源角色创建工具，是已停止维护的 [MB-Lab](https://github.com/animate1978/MB-Lab) 的现代化重写版本。 [![][repo]](https://github.com/Upliner/CharMorph)
+- [MPFB](http://static.makehumancommunity.org/mpfb.html)：Blender 的开源人体生成器，作为原生插件完整重写了 MakeHuman。 [![][repo]](https://github.com/makehumancommunity/mpfb2)
+- [FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) [$]：仅凭几张参考照片即可创建逼真的 3D 人脸与头部模型。[[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
+- [Auto-Terrainer](https://unicornhunter.gumroad.com/l/AutoTerrainer)：将任意低多边形网格转化为逼真且可定制的山脉、山谷、岛屿和沙漠地形。
+- [Blender Data Visualisation](https://github.com/Griperis/BlenderDataVis)：将数据加载到 Blender 中并生成 3D 图表与可视化效果。
+- [BookGen](https://oweissbarth.de/software/book-gen-blender-addon/)：用于书架与室内场景的免费书籍生成插件。
+- [Buildify](https://paveloliva.gumroad.com/l/buildify)：用于模块化程序化建筑创建的几何节点库。
+- [Bricker](https://www.blendermarket.com/products/bricker) [$]：将 3D 网格与模拟转化为逼真的乐高与 Minecraft 积木模型。
 - [Celtic Knot](https://github.com/BorisTheBrave/celtic-knot/wiki/Gallery)：基于框架网格生成复杂的编织贝塞尔曲线、管道和丝带。
-- [Curtis Holt's Generators](https://curtisjamesholt.gumroad.com)：Curtis Holt提供了一些免费的几何节点生成器。包括；[Space Station](https://curtisjamesholt.gumroad.com/l/space_station_gen_free), [Mech](https://curtisjamesholt.gumroad.com/l/mech_gen_free), [Weapon](https://curtisjamesholt.gumroad.com/l/random_weapon_generator).
-- [Data-FX](https://github.com/LandonFerg/Data-FX)：从.csv文件中加载并可视化Blender中的不同类型的数据。
-- [Flex's Generators](https://flexdigitalpottery.gumroad.com)：Flex提供了一些免费的几何节点生成器，包括；**_Crystal, Curtain, Engine, Lego Character, Pillow, Rope, Stair, Stingwire, Table, Tyre_**。
-- [Geometry Nodes Demo](https://www.blender.org/download/demo-files/#geometry-nodes)：免费的几何节点示例，包括程序化建筑和六角网格图。
-- [Geometry Nodes Pipes](https://raywakui.gumroad.com/l/pcxni)：是一个Blender插件，帮助生成复杂的管道布局。
-- [Industrial Geonodes](https://ko-fi.com/s/8d276833cf)：一系列工业主题的几何节点。包括；**Pipes, Vents** 和 **Catwalks**。
-- [Mesh Maze](https://github.com/elfnor/mesh_maze)：Blender插件，在任何网格上生成迷宫。
-- [Modular Tree](https://github.com/MaximeHerpin/modular_tree/tree/blender_28)：这个Blender插件允许使用节点编辑器创建逼真的树木。
-- [Nino DefoQ's Generators](https://ninodefoq.gumroad.com)：Nino DefoQ提供了一些免费的几何节点生成器。包括；[Hair](https://ninodefoq.gumroad.com/l/hairgeometrynodes), [Braid](https://ninodefoq.gumroad.com/l/braidify), [Cornrow](https://ninodefoq.gumroad.com/l/cornrows), [Moss](https://ninodefoq.gumroad.com/l/mossify), [Snow](https://ninodefoq.gumroad.com/l/Snowify).
-- [Pleebs Generators](https://pleebs.gumroad.com)：Pleebs提供免费的几何节点生成器，用于创建程序化资产。包括；[Bush](https://pleebs.gumroad.com/l/BushDraw), [Wall](https://pleebs.gumroad.com/l/WallDraw), [Cobble](https://pleebs.gumroad.com/l/cobbledraw).
-- [Post USSR Builder](https://kypcaht.gumroad.com/l/PmCLJ)：简单的后苏联风格建筑生成器，基于几何节点。2.93及更高版本。
-- [Procedural Slime](https://artichoke18.gumroad.com/l/spsra)：在对象之间生成程序化粘液。
-- [Random Book Generator](https://ko-fi.com/s/9879a091a9)：Blender的书籍随机化资产。使用新的几何节点制作。
-- [Real Sky](https://3d-wolf.com/products/sky/)：这个插件可以生成程序化云朵，这是Blender内置的动态天空插件所缺乏的。
-- [Sapling Tree Gen](https://github.com/meet-brad-ch/add_curve_sapling)：支持树叶、修剪、骨架绑定与风力动画的参数化 Weber-Penn 树木生成器，是 Sapling Tree Gen 扩展的持续维护分支。![][gpl]
-- [Snow Generator](https://blendermarket.com/products/free-snow)：程序化雪生成器，用于雪效果。
-- [Spaceship Generator](https://github.com/a1studmuffin/SpaceshipGenerator)：程序化生成3D飞船。
-- [Sprytile](https://github.com/Sprytile/Sprytile)：一个Blender插件，用于使用类似画图/地图编辑器的工具构建基于瓷砖的低多边形场景。[[更多信息]](https://chemikhazi.itch.io/sprytile)
-- [Stylized Fantasy Tree Generator](https://rc12.gumroad.com/l/fantasytree)：使用这个几何节点工具生成无尽的风格化树木变体。
-- [tree-gen](https://github.com/friggog/tree-gen)：Blender中树木模型的程序化生成。
-- [Welder](https://blenderartists.org/t/welder/672478)：Blender的焊接生成器。
+- [Data-FX](https://github.com/LandonFerg/Data-FX)：从 `.csv` 文件加载并在 Blender 中可视化数据。
+- [Mesh Maze](https://github.com/elfnor/mesh_maze)：在任意网格表面生成程序化迷宫图案。
+- [Modular Tree](https://github.com/MaximeHerpin/modular_tree/tree/blender_28)：基于节点的程序化树木与植被生成插件。
+- [Real Sky](https://3d-wolf.com/products/sky/)：在 Blender 中生成程序化云层与大气天空。
+- [Sapling Tree Gen](https://github.com/meet-brad-ch/add_curve_sapling)：支持树叶、修剪、骨架绑定与风力动画的参数化 Weber-Penn 树木生成器。![][gpl]
+- [Snow Generator](https://blendermarket.com/products/free-snow)：面向 3D 表面的程序化积雪生成器。
+- [Spaceship Generator](https://github.com/a1studmuffin/SpaceshipGenerator)：在 Blender 中程序化生成 3D 宇宙飞船。
+- [Sprytile](https://github.com/Sprytile/Sprytile)：使用类似画图与地图编辑器的工具构建基于瓦片的低多边形场景。[[更多信息]](https://chemikhazi.itch.io/sprytile)
+- [tree-gen](https://github.com/friggog/tree-gen)：Blender 树木模型程序化生成工具。
+- [Welder](https://blenderartists.org/t/welder/672478)：沿物体交界处生成逼真的焊接缝。
 - 环境：
-    - [Infinigen](https://infinigen.org)：Infinigen是一个3D场景的程序化生成器,。它可以使用真实几何体生成无限的逼真世界。Infinigen针对计算机视觉研究进行了优化，并生成多样的高质量3D训练数据。 [![][repo]](https://github.com/princeton-vl/infinigen)
-    - [Graswald](https://www.graswald3d.com/) [$]：是3D艺术家需要在场景中添加逼真植被的解决方案。
-    - [SceneCity](https://superhivemarket.com/products/scenecity) [$]：生成大型道路网络和大量放置数以万计的建筑物。混合使用程序化和手工制作的资产。
-    - [The Grove 3D](https://www.thegrove3d.com/) [$]：为视觉化和电影制作自然3D树木。逐年交互式模拟季节变化。
+    - [Infinigen](https://infinigen.org)：使用真实几何体生成无限逼真自然与室内 3D 世界的程序化生成器，针对计算机视觉研究与 3D 训练数据进行了优化。 [![][repo]](https://github.com/princeton-vl/infinigen)
+    - [Graswald](https://www.graswald3d.com/) [$]：面向 Blender 的高精度植被、苔藓与杂草资产系统。
+    - [SceneCity](https://superhivemarket.com/products/scenecity) [$]：生成大型道路网络并批量布置数以万计的程序化与自定义建筑。
+    - [The Grove 3D](https://www.thegrove3d.com/) [$]：模拟自然树木生长、分枝、修剪和季节变化，适用于建筑可视化与影视制作。
 - 散布：
-    - [Geo-Scatter](https://blendermarket.com/products/scatter) [$]：Blender的散布工具。
-    - [BagaPie Modifier](https://app.gumroad.com/l/BbGVh)：这个插件创建了修改器和几何节点预设，例如：布尔运算、散布、沿曲线自动阵列。 ![][gpl]
-    - [Gscatter](https://www.graswald3d.com/gscatter)：由Grasswald开发者提供的艺术家友好的免费散布工具。
-    - [City Scatter](https://curtisjamesholt.gumroad.com/l/city_scatter_free)：生成城市景观概念，由Blender的集合系统驱动。
+    - [Geo-Scatter](https://blendermarket.com/products/scatter) [$]：Blender 专业级生物群落与实例化散布系统。
+    - [BagaPie Modifier](https://app.gumroad.com/l/BbGVh)：集成布尔、散布、曲线阵列与建筑工具的修改器与几何节点预设工具包。 ![][gpl]
+    - [Gscatter](https://www.graswald3d.com/gscatter)：由 Graswald 团队打造的艺术家友好型免费散布插件。
+    - [City Scatter](https://curtisjamesholt.gumroad.com/l/city_scatter_free)：由 Blender 集合系统驱动的城市景观概念生成工具。
+- 几何节点包与预设：
+    - [Geometry Nodes Demo](https://www.blender.org/download/demo-files/#geometry-nodes)：Blender 官方几何节点示例文件，包括程序化建筑与六角网格地图。
+    - [Higgsas Geometry Nodes](https://higgsas.gumroad.com/l/wrusot)：丰富的几何节点实用工具与变形器节点组集合，另含 [Mesh Tension Map](https://higgsas.gumroad.com/l/tnqal)。
+    - [Blenderesse's Generators](https://blenderesse.gumroad.com)：免费几何节点生成器，包含 [Electric Power Line](https://blenderesse.gumroad.com/l/electriclinegenerator)、[Melt](https://blenderesse.gumroad.com/l/melt) 和 [Bird](https://blenderesse.gumroad.com/l/birdgenerator)。
+    - [Curtis Holt's Generators](https://curtisjamesholt.gumroad.com)：免费几何节点生成器，包含 [Space Station](https://curtisjamesholt.gumroad.com/l/space_station_gen_free)、[Mech](https://curtisjamesholt.gumroad.com/l/mech_gen_free) 和 [Weapon](https://curtisjamesholt.gumroad.com/l/random_weapon_generator)。
+    - [Flex's Generators](https://flexdigitalpottery.gumroad.com)：免费几何节点预设，包含 **_Crystal, Curtain, Engine, Lego Character, Pillow, Rope, Stair, Stingwire, Table, Tyre_**。
+    - [Nino DefoQ's Generators](https://ninodefoq.gumroad.com)：免费几何节点预设，包含 [Hair](https://ninodefoq.gumroad.com/l/hairgeometrynodes)、[Braid](https://ninodefoq.gumroad.com/l/braidify)、[Cornrow](https://ninodefoq.gumroad.com/l/cornrows)、[Moss](https://ninodefoq.gumroad.com/l/mossify) 和 [Snow](https://ninodefoq.gumroad.com/l/Snowify)。
+    - [Pleebs Generators](https://pleebs.gumroad.com)：免费程序化几何节点预设，包含 [Bush](https://pleebs.gumroad.com/l/BushDraw)、[Wall](https://pleebs.gumroad.com/l/WallDraw) 和 [Cobble](https://pleebs.gumroad.com/l/cobbledraw)。
+    - [Industrial Geonodes](https://ko-fi.com/s/8d276833cf)：工业主题几何节点包，包含**管道、通风管**与**工业走道**。
+    - [Geometry Nodes Pipes](https://raywakui.gumroad.com/l/pcxni)：生成复杂的程序化管道布局。
+    - [Stylized Fantasy Tree Generator](https://rc12.gumroad.com/l/fantasytree)：使用几何节点生成无尽的风格化奇幻树木。
+    - [Tiny Eye](https://tinynocky.gumroad.com/l/tinyeye)：适用于 EEVEE 与 Cycles 的免费程序化风格化眼球模型与着色器。
+    - [更多几何节点预设](https://www.blender.org/download/demo-files/#geometry-nodes)：[Droplet Generator](https://ibotpl.gumroad.com/l/alvgr), [BackdropGen](https://yamato3d.gumroad.com/l/BackdropGen), [Random Book Generator](https://ko-fi.com/s/9879a091a9), [Post USSR Builder](https://kypcaht.gumroad.com/l/PmCLJ), [Procedural Slime](https://artichoke18.gumroad.com/l/spsra)。
 
 ### 🧊 建模
 
@@ -251,6 +254,7 @@
 - [Blender NLA Midi Copier](https://github.com/Cornerback24/Blender-NLA-Midi-Copier)：Blender插件，用于从非线性动画视图创建由MIDI驱动的动画。
 - [BlendyPose](https://github.com/zonkosoft/BlendyPose)：使用你的相机进行Blender动作捕捉。
 - 绑定：
+    - [CloudRig](https://projects.blender.org/extensions/cloudrig)：Blender Studio 官方推出的电影级 Rigify 功能集与绑定生成器。![][gpl]
     - [BlenRig](https://www.blendermarket.com/products/blenrig)：BlenRig是一个自动绑定和蒙皮系统。它为用户提供了电影级别的绑定；包括高级面部系统。 [![][repo]](https://github.com/jpbouza/BlenRig) ![][gpl]
     - [Rig on the Fly](https://gitlab.com/dypsloom/rigonthefly)：Rig on the Fly是一个Blender动态绑定工具，用于简化和加快动画工作流程。
     - [Auto-Rig Pro](https://blendermarket.com/products/auto-rig-pro) [$]：Auto-Rig Pro是一个Blender插件，用于绑定角色、重新定位动画，并提供Fbx导出，预设适用于Unity和Unreal Engine。
@@ -323,6 +327,7 @@
 - [V-HACD](https://blenderartists.org/t/v-hacd-tool-for-creating-accurate-convex-collision-meshes-for-real-time-physics-in-games-etc/1156822)：库将3D表面分解成一组近凸部分。 [![][repo]](https://github.com/andyp123/blender_vhacd)
 - [Godot Game Tools](https://viniguerrero.itch.io/godot-game-tools)：轻松导入mixamo动画。工具简化了资产导入/导出过程到Godot游戏引擎等。
 - [Blender2Godot](https://www.zammedev.com/home/wip_projects/blender2godot)：是一个插件，可以将Blender场景导出到Godot Engine项目。
+- [Blenvy](https://github.com/kaosat-dev/Blenvy)：面向 Rust 游戏引擎 Bevy 的以 Blender 为中心的工作流与组件编辑器。![][mit]
 - [Embark Blender Tools](https://github.com/EmbarkStudios/blender-tools)：一个Blender插件，包含游戏开发工作流程工具。包括标准化导入/导出工作流程、3D建模和新对象类型。[(medium)](https://medium.com/embarkstudios/a-love-letter-to-blender-e54167c22193)
 - [Asset Creation Toolset](https://gumroad.com/l/hPXIh)：游戏资产创建的多种工具。
 - [Mixamo Converter](https://github.com/enziop/mixamo_converter)：是一个Blender插件，可以将Mixamo动画转换为在Unreal Engine 4中使用根运动的工作。
@@ -330,127 +335,128 @@
 - 游戏引擎：
     - [Armory3D](https://armory3d.org/)：一个具有完整Blender集成的开源3D游戏引擎。 [![][repo]](https://github.com/armory3d/armory)
     - [UPBGE](https://upbge.org/)：是从旧Blender游戏引擎分叉出来的开源3D游戏引擎，与Blender一起部署。 [![][repo]](https://github.com/UPBGE/upbge)
-    - [Arsenal](https://katharostech.github.io/arsenal)：是一个用Rust编写的Blender集成游戏引擎。 [![][repo]](https://github.com/katharostech/arsenal)
-    - [INOX](https://github.com/gents83/INOX)：在Blender中集成的Rust游戏引擎。
 
 ### 🤖 AI/MCP
 
-- [BlenderMCP](https://github.com/ahujasid/blender-mcp)：通过模型上下文协议 (MCP) 将 Blender 连接到 Claude AI 及其他 MCP 客户端，实现提示词辅助的 3D 建模、场景创建与操控。![][mit]
-- [Dream Textures](https://github.com/carson-katri/dream-textures)：内置于 Blender 着色器编辑器、图像编辑器和合成器中的 Stable Diffusion 插件。![][gpl]
-- [AI Render](https://github.com/benrugg/AI-Render)：在 Blender 中使用 Stable Diffusion，根据文本提示词与当前场景渲染 AI 生成图像。
-- [blender-kiln](https://github.com/elithril/blender-kiln)：通过 MCP 服务器驱动 Blender 的 Claude Code 插件，可根据文本简述或照片构建、贴图、优化并导出游戏级资产。![][mit]
-- [DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender)：让 AI 编程智能体借助 `bpy` 知识库、执行契约和 3D 打印生产门禁在 Blender 中构建模型的智能体工具包。
-- [BlenderProc](https://github.com/DLR-RM/BlenderProc)：用于逼真训练图像生成的程序化 Blender 管线。![][gpl]
-- [BlenderSynth](https://github.com/OllieBoyne/BlenderSynth)：用于大规模生成合成数据集的 Blender 脚本工具。
+- 智能体与 MCP：
+    - [BlenderMCP](https://github.com/ahujasid/blender-mcp)：通过模型上下文协议 (MCP) 将 Blender 连接到 Claude AI 及其他 MCP 客户端，实现提示词辅助的 3D 建模、场景创建与操控。![][mit]
+    - [blender-kiln](https://github.com/elithril/blender-kiln)：通过 MCP 服务器驱动 Blender 的 Claude Code 插件，可根据文本简述或照片构建、贴图、优化并导出游戏级资产。![][mit]
+    - [DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender)：让 AI 编程智能体借助 `bpy` 知识库、执行契约和 3D 打印生产门禁在 Blender 中构建模型的智能体工具包。
+    - [ComfyUI-Blender](https://github.com/alexisrolland/ComfyUI-Blender)：在 Blender 内部直接运行 ComfyUI 工作流的插件，用于 AI 贴图、图像和 3D 资产生成。
+- 生成式 3D、纹理与视频：
+    - [Hunyuan3D-2](https://github.com/Tencent-Hunyuan/Hunyuan3D-2)：开源高分辨率 3D 资产生成系统（支持文本/图像转 3D 几何体与 PBR 纹理），内置官方 Blender 插件。
+    - [Dream Textures](https://github.com/carson-katri/dream-textures)：内置于 Blender 着色器编辑器、图像编辑器和合成器中的 Stable Diffusion 插件。![][gpl]
+    - [AI Render](https://github.com/benrugg/AI-Render)：在 Blender 中使用 Stable Diffusion，根据文本提示词与当前场景渲染 AI 生成图像。
+    - [Pallaidium](https://github.com/tin2tin/Pallaidium)：集成在 Blender 视频序列编辑器 (VSE) 中的生成式 AI 影视工作室，支持文本、图像、音频和视频生成。![][gpl]
+- 合成数据与视觉 AI：
+    - [BlenderProc](https://github.com/DLR-RM/BlenderProc)：用于逼真训练图像生成的程序化 Blender 管线。![][gpl]
+    - [BlenderSynth](https://github.com/OllieBoyne/BlenderSynth)：用于大规模生成合成数据集的 Blender 脚本工具。
+    - [Kubric](https://github.com/google-research/kubric)：Google Research 推出的数据生成管线，结合 Blender 与 PyBullet 生成带丰富真值标注的半逼真多物体合成视频。
 
-### 🪀 杂项
+### 🎬 灯光、相机与视频
 
-- 管理：
-    - [BlenderKit](https://www.blendkit.com/)：允许您通过点击按钮，将资产、材质和 alpha 笔刷下载到您的 Blender 客户端。
-    - [Blender Interplanety Storage](https://blenderartists.org/t/bis-online-material-storage/689728)：Blender 3D创作的在线材质（着色器）存储插件。有了BIS插件，您可以将材质（节点组）保存到在线个人库中，然后方便地搜索和上传它们。
-    - [Asset Wizard](https://blenderartists.org/t/asset-wizard-for-blender-2-8/1149311)：是一个资产管理插件。
-    - [NodeCustomBuilder](https://blenderartists.org/t/nodecustombuilder-2-8-free-addon/1152185)：节点预设系统。
-    - [FontSelector](https://github.com/samytichadou/FontSelector_blender_addon/)：Blender内部轻松管理字体。
-    - [Shot Manager by Ubisoft](https://github.com/ubisoft/shotmanager)：是一个插件，引入了Blender场景中真正的镜头实体。
-- 灯光/HDRI：
-    - [Gaffer](https://github.com/gregzaal/Gaffer)：是一个Blender插件，通过在方便的面板中呈现所有正确的设置，快速访问和实验，帮助您照亮场景。 [![market]](https://blendermarket.com/products/gaffer-light-manager/)
-    - [Extra Lights](https://github.com/jlampel/bl_extra_lights)：是一个Blender插件，为添加菜单添加基于物理的，光度学照明预设。 [![market]](https://blendermarket.com/products/extra-lights)
-    - [HDRI Sun Aligner](https://github.com/akej74/hdri-sun-aligner)：HDRI Sun Aligner是一个Blender插件，可以自动旋转对象（例如太阳）以匹配HDRI环境纹理中最亮的点。
-    - [LeoMoon LightStudio](https://leomoon.com/downloads/plugins/leomoon-lightstudio/)：Blender的照明系统。 [![market]](https://blendermarket.com/products/leomoon-lightstudio)
-    - [Physical Starlight and Atmosphere](https://blendermarket.com/products/physical-starlight-and-atmosphere) [$]：是一个完整的环境模拟器，灵感来自'沙盒'游戏世界和编辑器，为场景中的每个对象带来视觉一致性。
-    - [Free Sky Environment Shading](https://gumroad.com/l/JUyxL)：免费的自定义程序环境着色。
-    - [Lumiere](https://github.com/clarkx/Lumiere-V0.4)：交互式照明插件，适用于Blender。
-- 地理/地图：
-    - [BlenderGIS](https://github.com/domlysz/BlenderGIS)：Blender插件，架起Blender和地理数据之间的桥梁。
-    - [Maps Models Importer](https://github.com/eliemichel/MapsModelsImporter)：一个Blender插件，从*Google Maps*导入模型。[更多信息](https://blog.exppad.com/article/importing-actual-3d-models-from-google-maps)
-    - [blender-osm](https://gumroad.com/l/blender-osm)：一键下载和导入OpenStreetMap和Blender的地形。
-- VR/AR：
-    - [A-Frame VR](https://github.com/silverslade/aframe_blender_exporter)：Blender插件，允许您在Blender中建模场景，并一键导出到A-Frame VR项目。
-    - [blender-xr](https://github.com/MARUI-PlugIn/BlenderXR)：一个免费的Blender虚拟和混合现实用户界面，使艺术家能够使用合适的头显和控制器，在软件内编辑场景。
-    - [Blender-Metaverse-Addon](https://github.com/Menithal/Blender-Metaverse-Addon)：Blender工具集，用于为像High Fidelity这样的元宇宙创建内容。
-- 导入：
-    - [Daz Importer](https://bitbucket.org/Diffeomorphic/import_daz), [glTF](https://github.com/KhronosGroup/glTF-Blender-IO), [Rhinoceros3D files](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [cityGML](https://github.com/zeffii/io_cityGML_basic), [.SVG](https://github.com/Shriinivas/shapekeyimport), [.XPS](https://github.com/johnzero7/XNALaraMesh), [.GIF](https://github.com/doakey3/Bligify), Quake: [.BSP](https://blenderartists.org/t/quake-1996-game-bsp-import-script/578191) [.MD3](https://github.com/axredneck/blender-md3/tree/blender2.8).
-    - [Sketchfab Blender Addon](https://github.com/sketchfab/blender-plugin)：在Blender中直接导入和导出模型到和从Sketchfab。
-- 导出：
-    - [USDZ](https://github.com/robmcrosby/BlenderUSDZ), [glTF MultiExport](https://github.com/MozillaReality/blender-gltf-multiexport-addon), [ZBrush](https://blenderartists.org/t/goz-for-blender-2-8/1138418), [.VTK](https://github.com/tkeskita/io_mesh_vtk), [Bezier2SVG](https://leomoon.com/downloads/plugins/leomoon-bezier2svg/), [Panda3D](https://github.com/Moguri/blend2bam), [XRay-engine](https://github.com/PavelBlend/blender-xray).
-    - [Export Paper Model from Blender](https://addam.github.io/Export-Paper-Model-from-Blender/)：创建纸模型的插件。 [![][repo]](https://github.com/addam/Export-Paper-Model-from-Blender)
-    - [Batex](https://github.com/jayanam/batex)：批量操作中将选定对象导出为fbx。
-    - [Blender To Unity FBX Exporter](https://github.com/jayanam/batex)：批量操作中将选定对象导出为fbx。
-    - [Export Object Dimensions](https://github.com/rafaeloliveiraz/blender-dimexport)：将所选物体的宽度、高度、深度和体积导出为 TXT、CSV 或 JSON，支持自定义标签与单位换算。![][gpl]
-- 渲染：
-    - [Loom](https://github.com/p2or/blender-loom)：插件，简化图像序列和特定帧的渲染过程，允许批量渲染，并附带一些实用的工具，帮助生产。
-    - [BatchRender](https://github.com/VertStretch/RenderBurst), [Notify](https://github.com/Dziban-dev/Notify_Blender_Render), [AlarmShutdown](https://gumroad.com/l/PcDfw), [RenderButton](https://github.com/Mitsuma/Blender2.8-RenderButton).
-    - [MDSANIMA RenderTime](https://github.com/mdsanima-dev/mdsanima-render-time)：Blender插件估计并计算您的动画渲染所需的时间，基于单一帧的渲染时间。
-    - [Super Res Render](https://pidgeontools.gumroad.com/l/SuperResRender)：插件将渲染分成几个部分，使在超高分辨率下渲染成为可能。
-    - [Super Fast Render](https://pidgeontools.gumroad.com/l/SuperFastRender)：使用为加快渲染时间而优化的预设渲染设置，或使用基准测试来检测相同渲染质量的最快设置。
-    - [Super Image Denoiser](https://pidgeontools.gumroad.com/l/SuperImageDenoiser)：超高画质的去噪器，通过多层去噪场景以减少伪影。
+- 灯光与环境：
+    - [Gaffer](https://github.com/gregzaal/Gaffer)：将所有场景灯光与 HDRI 设置集中在简洁面板中的灯光管理器，便于快速实验与布光。 [![market]](https://blendermarket.com/products/gaffer-light-manager/)
+    - [Extra Lights](https://github.com/jlampel/bl_extra_lights)：在添加菜单中增加基于物理的光度学照明预设。 [![market]](https://blendermarket.com/products/extra-lights)
+    - [HDRI Sun Aligner](https://github.com/akej74/hdri-sun-aligner)：自动旋转太阳光或物体以匹配 HDRI 环境纹理中最亮的位置。
+    - [LeoMoon LightStudio](https://leomoon.com/downloads/plugins/leomoon-lightstudio/)：Blender 交互式摄影棚布光系统。 [![market]](https://blendermarket.com/products/leomoon-lightstudio)
+    - [Physical Starlight and Atmosphere](https://blendermarket.com/products/physical-starlight-and-atmosphere) [$]：完整的程序化天空、日光与大气模拟器，为场景提供一致的视觉光照。
+    - [Free Sky Environment Shading](https://gumroad.com/l/JUyxL)：免费自定义程序化天空与环境着色节点组。
+    - [Lumiere](https://github.com/clarkx/Lumiere-V0.4)：Blender 交互式光线投射布光插件。
+    - [Projectors](https://github.com/Ocupe/Projectors)：在 Cycles 与 EEVEE 中创建和调整物理级投影仪灯光。
+    - [EEVEE Presets](https://github.com/danielenger/Eevee-Presets)：保存和加载 EEVEE 渲染预设。
 - 相机：
-    - [Real Camera](https://3d-wolf.com/products/camera.html)：是一个插件，允许您像控制真实相机一样控制Blender相机。
-    - [Cameras-Lister](https://github.com/Ryxx/Cameras-Lister)：在弹出式快捷方式中轻松选择相机，快捷键是Alt-C。
-    - [Photographer 2](https://gumroad.com/chafouin#FWQf)：相机曝光、白平衡和自动对焦。Photographer 2完全免费提供给所有人。
-    - [Camera Shakify](https://github.com/EatTheFuture/camera_shakify)：一个Blender插件，让您轻松地为您的相机添加真实的相机抖动。
-- 音频可视化：
-    - [Bizualizer](https://github.com/doakey3/Bizualizer), [Curtis Holt's](https://gumroad.com/l/klmfi).
-- 显示：
-    - [Screencast-Keys](https://github.com/nutti/Screencast-Keys)：Blender的状态插件。
-    - [Shortcut VUr](https://github.com/jayanam/shortcut_VUr)：有了这个插件，您可以显示鼠标和键盘输入。
-    - [ExtraInfo](https://gumroad.com/l/UznDL)：在视口中显示更多信息。
-    - [AStats](https://github.com/YuriyAndropov/blenderPython/tree/master/AStats)：在视口中显示统计信息。
-- 视频编辑：
-    - [Bangingcuts](https://github.com/OllyFunkster/bangingcuts): Cut up audio and video clips based on peaks in the audio track removing silences. Last Blender versions: don't install the zip, install .py file instead.
-    - [Power Sequencer](https://github.com/GDQuest/blender-power-sequencer)：为Blender的视频序列编辑器带来智能的新编辑功能，让您更快编辑。完全免费且开源。
-    - [VSEQF](https://github.com/snuq/VSEQF)：是Blender VSE的全面改进，可以完全改变您的工作流程。设计为快速、鼠标和键盘平衡的编辑，重点是实时反馈。
-    - [Transform Tools](https://github.com/doakey3/VSE_Transform_Tools)：在Blender的视频序列编辑器中快速变换、裁剪和淡入淡出视频条。
-    - [Easy Proxy](https://github.com/cgvirus/blender-vse-easy-proxy)：Blender插件，可以轻松使用FFMPEG为视频序列编辑器(VSE)创建代理文件。
-    - [Parallel_Render](https://github.com/elmopl/ktba/wiki/Addons)：通过渲染侧边栏多线程渲染序列器的输出。
-    - [Export EDL](https://github.com/tin2tin/ExportEDL)：导出：视频、音频和溶解。例如到Davinci Resolve、Lightworks、Final Cut Pro和Premiere Pro。
-    - [Import EDL](https://github.com/tin2tin/import_edl)：导入：视频、音频和溶解。
-    - [Freesound Add-on](https://github.com/iwkse/freesound/tree/freesound-2.0)：是Blender的插件，允许用户为电影或音乐创建和编辑字幕。
-    - [Push to Talk](https://github.com/britalmeida/blender_addon_push_to_talk)：方便地录制用于编辑的临时对话。
-    - [Scene Strip Tools](https://github.com/tin2tin/scene_strip_tools)：直接在3D视图中预览场景条。
-    - [Subsimport](https://github.com/doakey3/Subsimport)：是Blender的插件，允许用户为电影或音乐创建和编辑字幕。
-    - [LUT Exporter](https://github.com/ichlubna/BlenderLUTExporter)：从 VSE 调整图层导出 LUT `.cube` 文件的插件。
-- 文本编辑器：
-    - [Snippets Library](https://github.com/Pullusb/snippetsLibrary)：允许您使用和管理自己的和现有的代码片段库。
-    - [Search Online References](https://github.com/tin2tin/Search-API-Reference)：在API参考、Python参考、Blender堆栈交换、Blender源代码和Github中搜索当前文本。
-    - [Run PEP8 Check](https://github.com/tin2tin/Python_Stylechecker_for_Blender)：检查当前脚本是否有pep8错误。
-    - [Insert and Navigate to Text Markers](https://github.com/tin2tin/TextMarker-blender-addon)：插入和导航到文本标记位置。
-    - [Autocomplete/Intellisense](https://github.com/tin2tin/Intellisense_for_Blender_Text_Editor)：文本编辑器的自动完成/智能感知。
-- 摄影测量：
-    - [Photogrammetry Importer](https://github.com/SBCV/Blender-Addon-Photogrammetry-Importer)：插件，将不同的摄影测量格式导入Blender。
-    - [blender_kitti](https://github.com/risteon/blender_kitti)：用blender渲染大型点云和体素网格。
-    - [Point Cloud Visualizer](https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280)：显示、编辑、过滤、渲染、转换、生成和导出彩色点云PLY文件。
-- EEVEE：
-    - [Glass for EEVEE](https://www.blendswap.com/blend/25759)：这个着色器允许您在eevee中制作真实的玻璃。
-    - [SSGI for EEVEE](https://gumroad.com/l/PgyXc)：将漫反射和Principled BSDF转换为节点组，为SSR提供漫反射分量以获得SSGI效果。
-    - [Shader Displacement for EEVEE](https://gumroad.com/l/WDCRp)：使用一些修改器和一个节点组，现在可以在Eevee中实现实时着色器位移。
-    - [EEVEE Presets](https://github.com/danielenger/Eevee-Presets)：保存Eevee预设。
-- [Projectors](https://github.com/Ocupe/Projectors)：一个Blender插件，用于简单的投影器创建和修改。
-- [Simple Renaming Panel](https://github.com/Weisl/simple_renaming_panel)：一次重命名更多对象。该工具包括添加前缀、后缀、搜索和替换、根据对象类型添加后缀等基本功能。
-- [IOR Reference](https://gitlab.com/diegogangl/IOR_reference)：一个Blender插件，以列表形式显示IOR值。
-- [QuickSwitch](https://github.com/schroef/QuickSwitch)：一个助手，用于快速切换工作区和在视口中查看渲染菜单。
-- [MifthTools](https://github.com/mifth/mifthtools)：3Dcoat、Houdini、Modo网格交换工具等。
-- [Modifier List](https://github.com/Symstract/modifier_list)：Blender插件，具有增强的UI布局，用于修改器，带有方便的功能。替换常规的修改器UI，并在侧边栏和弹出菜单中添加一个标签页。
-- [Verge3D](https://www.soft8soft.com/get-verge3d/)：是一个功能强大但成本效益高的解决方案，用于创建交互式的3D网络体验。
-- [ProSidebar](https://github.com/CreativeDesigner3D/ProSidebar)：为3D视图侧边栏添加额外的属性和操作符。
-- [Tilecam](https://github.com/stuffmatic/tilecam)：渲染无缝可重复的图像。
-- [Fbx Format Converter](https://github.com/BobbyAnguelov/FbxFormatConverter)：这个项目允许您将二进制fbx文件转换为ascii，反之亦然。
-- [Set Viewport Color](https://github.com/johnnygizmo/set_viewport_color)：根据节点树设置视口颜色的 Blender 脚本。
-- [PresetterProfessional](https://github.com/dpdpforlife/PresetterProfessional)：视图和可见性预设、3D光标预设、吸附预设等预设。
-- [PowerSave](https://gumroad.com/l/powersave)：是一个旨在简化保存工作并使保存本身更易于访问、友好、更符合艺术家流程的工具。
-- [Lodify](https://devtalk.blender.org/t/level-of-detail-addon/12840)：LOD（细节层次）和代理系统Blender插件。 [![][repo]](https://github.com/DB3D/Lodify)
-- [Multi-user](https://blenderartists.org/t/multi-user/1187118)：在Blender内启用实时协作工作流程。 [![][repo]](https://gitlab.com/slumber/multi-user)
-- [Screenwriter](https://github.com/tin2tin/Blender_Screenwriter)：在Blender文本编辑器中以Fountain标记语法视图/导出剧本，具有正确的剧本格式。
-- [Kaleidoscope](https://github.com/blenderskool/kaleidoscope)：该插件添加了两个新节点，光谱和强度，这在Blender中创建材质时基本上可以改善您的工作流程。
-- [Mixer by Ubisoft](https://github.com/ubisoft/mixer)：是Ubisoft动画工作室开发的Blender插件，用于3D编辑中的实时协作。
-- [Daz to Blender Bridge](https://www.daz3d.com/daz-to-blender-bridge)：这个易于使用的桥接工具可以将您的Genesis 8和3角色直接从Daz传输到Blender。
-- [Substance 3D add-on for Blender by Adobe](https://substance3d.adobe.com/magazine/the-substance-3d-add-on-for-blender-is-here/)：有了这个插件，您可以直接在Blender中访问您的Substance材质。
-- [Theme Switcher](https://blenderartists.org/t/theme-switcher/1211787)：插件，用于快速更改活动主题，不离开3D视图。
-- [LibSM64-Blender](https://github.com/libsm64/libsm64-blender)：这个插件将libsm64集成到Blender中，并提供了与Fast64的各种额外集成。
-- [Needle Engine](http://docs.needle.tools/blender)：允许您直接在 Blender 中创建高交互性、灵活且轻量的 Web 应用程序。
-- [NodeToPython](https://github.com/BrendanParmer/NodeToPython)：将几何节点、着色器节点和合成节点转换为易读的 Python 脚本与插件。[![][mit]](https://github.com/BrendanParmer/NodeToPython/blob/main/LICENSE)
-- [Leviate for Blender](https://extensions.blender.org/add-ons/leviate/)：通过网络摄像头或手机用手势移动 3D 视图或所选物体，手部追踪直接在 Blender 内运行。[![][repo]](https://github.com/vladpereverzyev/leviate)
+    - [Photographer 2](https://gumroad.com/chafouin#FWQf)：提供物理相机曝光、白平衡与自动对焦控制（v2 版本完全免费）。
+    - [Camera Shakify](https://github.com/EatTheFuture/camera_shakify)：为 Blender 相机轻松添加基于动作捕捉的真实镜头抖动。
+    - [Real Camera](https://3d-wolf.com/products/camera.html)：使用真实摄影参数控制 Blender 相机。
+    - [Cameras-Lister](https://github.com/Ryxx/Cameras-Lister)：通过弹出式快捷键（`Alt+C`）快速切换与管理场景相机。
+    - [Tilecam](https://github.com/stuffmatic/tilecam)：用于渲染无缝可平铺图像的相机辅助工具。
+- 渲染与批处理工具：
+    - [Loom](https://github.com/p2or/blender-loom)：简化图像序列与指定帧范围的渲染流程，支持批量渲染与后台编码。
+    - [MDSANIMA RenderTime](https://github.com/mdsanima-dev/mdsanima-render-time)：根据单帧渲染耗时估算整段动画的总渲染时间。
+    - [Super Res Render](https://pidgeontools.gumroad.com/l/SuperResRender)：将渲染画面分块处理，从而在不爆显存的情况下渲染超高分辨率图像。
+    - [Super Fast Render](https://pidgeontools.gumroad.com/l/SuperFastRender)：通过预设或基准测试自动优化 Cycles 渲染设置，在同等画质下获得最快速度。
+    - [Super Image Denoiser](https://pidgeontools.gumroad.com/l/SuperImageDenoiser)：多通道时域与空域去噪节点设置，大幅减少渲染噪点与伪影。
+    - 批量渲染与提醒工具：[BatchRender](https://github.com/VertStretch/RenderBurst), [Notify](https://github.com/Dziban-dev/Notify_Blender_Render), [AlarmShutdown](https://gumroad.com/l/PcDfw), [RenderButton](https://github.com/Mitsuma/Blender2.8-RenderButton)。
+- 视频序列编辑器 (VSE) 与音频：
+    - [Power Sequencer](https://github.com/GDQuest/blender-power-sequencer)：完全免费开源的 Blender 视频序列编辑器 (VSE) 高效剪辑扩展工具集。
+    - [VSEQF](https://github.com/snuq/VSEQF)：全面改进 Blender VSE 工作流，主打实时反馈与键鼠协同快速剪辑。
+    - [Transform Tools](https://github.com/doakey3/VSE_Transform_Tools)：在 VSE 预览窗口中交互式变换、裁剪和淡入淡出视频条带。
+    - [Easy Proxy](https://github.com/cgvirus/blender-vse-easy-proxy)：使用 FFmpeg 快速为 VSE 创建代理视频文件。
+    - [Parallel_Render](https://github.com/elmopl/ktba/wiki/Addons)：通过侧边栏多线程并行渲染 VSE 输出。
+    - [Bangingcuts](https://github.com/OllyFunkster/bangingcuts)：根据音轨峰值自动切分音视频片段并剔除静音段落。
+    - [Export EDL](https://github.com/tin2tin/ExportEDL) 与 [Import EDL](https://github.com/tin2tin/import_edl)：通过 EDL 格式与 DaVinci Resolve、Premiere Pro 和 Final Cut Pro 交换时间线。
+    - [Scene Strip Tools](https://github.com/tin2tin/scene_strip_tools)：直接在 3D 视图中预览并编辑 VSE 场景条带。
+    - [Subsimport](https://github.com/doakey3/Subsimport) 与 [Freesound Add-on](https://github.com/iwkse/freesound/tree/freesound-2.0)：在 VSE 中创建编辑字幕及直接导入 Freesound 音效。
+    - [Push to Talk](https://github.com/britalmeida/blender_addon_push_to_talk)：直接在 VSE 时间线中便捷录制临时配音。
+    - [LUT Exporter](https://github.com/ichlubna/BlenderLUTExporter)：从 VSE 调整图层导出 `.cube` LUT 调色文件。
+    - [Screenwriter](https://github.com/tin2tin/Blender_Screenwriter)：在 Blender 文本编辑器中使用 Fountain 语法编写和导出标准格式剧本。
+    - 音频可视化工具：[Bizualizer](https://github.com/doakey3/Bizualizer), [Curtis Holt's Audio Visualizer](https://gumroad.com/l/klmfi)。
 
+### 📦 管线、导入导出与 3D 扫描
+
+- 导入与软件桥接：
+    - [VRM Add-on for Blender](https://github.com/saturday06/VRM-Addon-for-Blender)：为 Blender 添加 VRM 人形虚拟形象导入、导出、材质和绑定功能。![][mit]
+    - [Sketchfab Blender Addon](https://github.com/sketchfab/blender-plugin)：在 Blender 与 Sketchfab 之间直接浏览、导入和上传 3D 模型。
+    - [Substance 3D add-on for Blender by Adobe](https://substance3d.adobe.com/magazine/the-substance-3d-add-on-for-blender-is-here/)：在 Blender 中直接加载并调整参数化 Substance `.sbsar` 材质。
+    - [Daz to Blender Bridge](https://www.daz3d.com/daz-to-blender-bridge)：将 Daz Studio 中的 Genesis 角色与绑定直接传输至 Blender。
+    - [MifthTools](https://github.com/mifth/mifthtools)：面向 3DCoat、Houdini 和 Modo 的网格交换工具集。
+    - [LibSM64-Blender](https://github.com/libsm64/libsm64-blender)：将 `libsm64` 物理与《超级马里奥 64》角色工作流集成至 Blender。
+    - 格式导入器：[Daz Importer](https://bitbucket.org/Diffeomorphic/import_daz), [glTF-Blender-IO](https://github.com/KhronosGroup/glTF-Blender-IO), [Rhinoceros 3D (`.3dm`)](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [CityGML](https://github.com/zeffii/io_cityGML_basic), [SVG 形态键](https://github.com/Shriinivas/shapekeyimport), [XPS/XNALara](https://github.com/johnzero7/XNALaraMesh), [GIF 动画 (Bligify)](https://github.com/doakey3/Bligify)。
+- 导出与格式转换：
+    - [Export Paper Model from Blender](https://addam.github.io/Export-Paper-Model-from-Blender/)：将 3D 网格展开为可打印的 SVG/PDF 纸模图纸。 [![][repo]](https://github.com/addam/Export-Paper-Model-from-Blender)
+    - [Batex](https://github.com/jayanam/batex)：批量将所选物体导出为兼容 Unity 坐标系与缩放系统的 FBX 文件。
+    - [Export Object Dimensions](https://github.com/rafaeloliveiraz/blender-dimexport)：将所选物体的宽度、高度、深度和体积导出为 TXT、CSV 或 JSON，支持自定义标签与单位换算。![][gpl]
+    - [Fbx Format Converter](https://github.com/BobbyAnguelov/FbxFormatConverter)：在二进制 FBX 与 ASCII FBX 格式之间互相转换。
+    - 格式导出器：[USDZ](https://github.com/robmcrosby/BlenderUSDZ), [glTF MultiExport](https://github.com/MozillaReality/blender-gltf-multiexport-addon), [VTK](https://github.com/tkeskita/io_mesh_vtk), [Bezier2SVG](https://leomoon.com/downloads/plugins/leomoon-bezier2svg/), [Panda3D (`blend2bam`)](https://github.com/Moguri/blend2bam), [X-Ray Engine](https://github.com/PavelBlend/blender-xray)。
+- 摄影测量与高斯泼溅 (3DGS)：
+    - [3DGS Render by KIRI Engine](https://github.com/Kiri-Innovation/3dgs-render-blender-addon)：开源插件，支持在 Blender 中直接导入、编辑、变形和渲染 3D 高斯泼溅（3DGS `.ply`）场景。![][gpl]
+    - [Gaussian Splatting Blender Add-on](https://github.com/ReshotAI/gaussian-splatting-blender-addon)：轻量级工具，用于在 Blender 视口中导入和可视化 3D 高斯泼溅。![][mit]
+    - [Photogrammetry Importer](https://github.com/SBCV/Blender-Addon-Photogrammetry-Importer)：将 COLMAP、Meshroom、OpenMVG 和 VisualSFM 等摄影测量重建结果导入 Blender。
+    - [Point Cloud Visualizer](https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280)：在 Blender 中显示、编辑、过滤和渲染彩色 PLY 点云文件。
+    - [blender_kitti](https://github.com/risteon/blender_kitti)：在 Blender 中渲染大型 LiDAR 点云与体素网格。
+- 地理与地图：
+    - [BlenderGIS](https://github.com/domlysz/BlenderGIS)：在 Blender 与地理空间数据（Shapefile、DEM 高程图、卫星影像与 OpenStreetMap）之间架起桥梁。
+    - [Maps Models Importer](https://github.com/eliemichel/MapsModelsImporter)：从 Google Maps 导入 3D 城市网格模型至 Blender。[更多信息](https://blog.exppad.com/article/importing-actual-3d-models-from-google-maps)
+    - [blender-osm](https://gumroad.com/l/blender-osm)：一键下载并导入 OpenStreetMap 建筑与地形数据。
+- Web、XR 与实时协作：
+    - [Needle Engine](http://docs.needle.tools/blender)：直接在 Blender 中创建高交互性、轻量的 Three.js / WebXR 网页应用。
+    - [Verge3D](https://www.soft8soft.com/get-verge3d/)：将 Blender 场景转化为交互式 3D Web 体验与产品配置器的工具套件。
+    - [Multi-user](https://blenderartists.org/t/multi-user/1187118)：在 Blender 内实现多用户实时协同场景编辑。 [![][repo]](https://gitlab.com/slumber/multi-user)
+    - [Mixer by Ubisoft](https://github.com/ubisoft/mixer)：育碧动画工作室开发的 Blender 实时 3D 协作编辑插件。
+    - [Shot Manager by Ubisoft](https://github.com/ubisoft/shotmanager)：为 Blender 场景引入影视级镜头管理与动态预演 (Previz) 工作流。
+    - [A-Frame VR](https://github.com/silverslade/aframe_blender_exporter)：在 Blender 中建模并一键导出至 A-Frame WebVR 项目。
+    - [blender-xr](https://github.com/MARUI-PlugIn/BlenderXR)：使用 VR/MR 头显与手柄在 Blender 内直接编辑场景的虚拟现实界面。
+    - [Blender-Metaverse-Addon](https://github.com/Menithal/Blender-Metaverse-Addon)：面向社交 VR 与元宇宙平台的内容创作工具集。
+
+### ⚡ 工作流、界面与实用工具
+
+- 资产与场景管理：
+    - [BlenderKit](https://www.blendkit.com/)：一键将 3D 模型、PBR 材质、HDRI 和笔刷下载至 Blender 客户端。
+    - [Blender Interplanety Storage](https://blenderartists.org/t/bis-online-material-storage/689728)：用于在线保存、搜索和加载着色器与节点组的个人云端库插件。
+    - [Asset Wizard](https://blenderartists.org/t/asset-wizard-for-blender-2-8/1149311)：资产创建、缩略图渲染与资产库管理工具。
+    - [FontSelector](https://github.com/samytichadou/FontSelector_blender_addon/)：在 Blender 内部直观地浏览和管理字体。
+    - [Simple Renaming Panel](https://github.com/Weisl/simple_renaming_panel)：支持前缀、后缀、查找替换与规则的批量物体/骨骼/材质重命名面板。
+    - [Lodify](https://devtalk.blender.org/t/level-of-detail-addon/12840)：Blender 细节层次 (LOD) 与代理网格管理系统。 [![][repo]](https://github.com/DB3D/Lodify)
+    - [PowerSave](https://gumroad.com/l/powersave)：面向艺术家工作流的增量保存与自动保存管理工具。
+    - [PresetterProfessional](https://github.com/dpdpforlife/PresetterProfessional)：保存与恢复视图可见性、3D 游标和吸附预设。
+- 视口与界面增强：
+    - [Modifier List](https://github.com/Symstract/modifier_list)：提供紧凑列表布局、侧边栏标签页和快捷弹出菜单的修改器堆栈增强插件。
+    - [ProSidebar](https://github.com/CreativeDesigner3D/ProSidebar)：为 3D 视图侧边栏添加常用变换、原点与视口快捷操作。
+    - [QuickSwitch](https://github.com/schroef/QuickSwitch)：用于快速切换工作区与视口渲染菜单的饼菜单助手。
+    - [Theme Switcher](https://blenderartists.org/t/theme-switcher/1211787)：无需离开 3D 视图即可快速切换界面主题。
+    - [Screencast-Keys](https://github.com/nutti/Screencast-Keys)：在视口中实时显示按键与鼠标操作，适合教程录制与演示。
+    - [Shortcut VUr](https://github.com/jayanam/shortcut_VUr)：轻量的键鼠快捷键视口叠加显示工具。
+    - [ExtraInfo](https://gumroad.com/l/UznDL) 与 [AStats](https://github.com/YuriyAndropov/blenderPython/tree/master/AStats)：在视口中显示扩展网格统计信息。
+    - [Leviate for Blender](https://extensions.blender.org/add-ons/leviate/)：通过网络摄像头或手机用手势移动 3D 视图或所选物体，手部追踪直接在 Blender 内运行。[![][repo]](https://github.com/vladpereverzyev/leviate)
+    - [IOR Reference](https://gitlab.com/diegogangl/IOR_reference)：在着色面板中提供可搜索的折射率 (IOR) 参考表。
+- 节点与文本编辑器：
+    - [NodeToPython](https://github.com/BrendanParmer/NodeToPython)：将几何节点、着色器节点和合成节点转换为易读的 Python 脚本与插件。[![][mit]](https://github.com/BrendanParmer/NodeToPython/blob/main/LICENSE)
+    - [NodeCustomBuilder](https://blenderartists.org/t/nodecustombuilder-2-8-free-addon/1152185)：面向着色器与几何节点的自定义节点预设构建器。
+    - [Kaleidoscope](https://github.com/blenderskool/kaleidoscope)：为着色器编辑器添加光谱 (Spectrum) 与强度调色板节点。
+    - [Set Viewport Color](https://github.com/johnnygizmo/set_viewport_color)：根据材质节点树自动同步物体的视口显示颜色。
+    - [Snippets Library](https://github.com/Pullusb/snippetsLibrary)：在 Blender 文本编辑器中管理和插入常用代码片段。
+    - 文本编辑器增强套件：[Autocomplete/Intellisense](https://github.com/tin2tin/Intellisense_for_Blender_Text_Editor)、[Search Online References](https://github.com/tin2tin/Search-API-Reference)、[Run PEP8 Check](https://github.com/tin2tin/Python_Stylechecker_for_Blender) 与 [Text Markers](https://github.com/tin2tin/TextMarker-blender-addon)。
 <p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
 
 ---
@@ -533,7 +539,6 @@
 - [Poliigon/freebies](https://www.poliigon.com/search?credit=0) [$]：艺术家的材质库和HDR库，包括想要照片般真实感的免费纹理。
 - [Texturing.xyz](https://texturing.xyz/) [$]：我们的纹理被一些最大和行业领先的VFX公司使用，帮助他们更快地实现目标。
 - [LotPixel](https://www.lotpixel.com/texture-library?credit=free)：免费扫描基础纹理的内部和外部材料，高达8K分辨率。商业使用。
-- [Poly](https://withpoly.com/)：是一个无缝纹理生成器和画廊（高达8K）与PBR地图（高达32位）为任何类型的材料与一个简单的文本或图像提示。
 - 其他网站：
     - [EveryTexture.com](https://everytexture.com/latest), [3DJungle.net](https://3djungle.net/textures/), [Architecture Inspirations](https://www.archinspirations.com/materials), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [TextureKing](https://www.textureking.com/category/all-textures/), [TextureCan](https://www.texturecan.com/).
 - 其他：
@@ -541,49 +546,50 @@
 
 ### 🌓 Blender材质
 
-- [The Blendersauce Vault Materials](http://blendersauce.com/the-blendersauce-vault-2/the-material-vault-categories/)：抽象，砖块和墙壁，混凝土，织物，流体，食物，人造，金属，金属漆面材质，自然，石膏，岩石/石头，瓷砖，木材。
-- [3d-wolf/materials](https://3d-wolf.com/products/materials.html)：PBR材质是一个插件，包含基于物理的材料。 ![gpl]
-- [BlenderKit](https://www.blendkit.com/)：允许您一键免费将资产、材质和 alpha 笔刷下载到您的 Blender 客户端。
-- 手绘/卡通着色器：
-    - [BNPR' Shaders](https://blendernpr.org/downloads/), [EEVEE Comics Shader v3.0](https://gumroad.com/l/JWdjJ), [Erisdraw3D's](https://twitter.com/Erisdraw3D/status/1216755574735503361), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [Komikaze[\$]](https://blendermarket.com/products/komikaze)(Free: [Aqua](https://drive.google.com/file/d/1jlYxqRfjnjnZSG2gxKqiXa5Fo0Y7N9Kn/edit), [Kismet](https://drive.google.com/file/d/1Mp808PE3Wjew6-hEv0vIJZLzPezRM-jV/view)), [Ultimate Clay Shader[\$]](https://blendermarket.com/products/claydoh), [Erito's Toon Shader for EEVEE](https://www.artstation.com/eritokaio/store/Wo3B/erito-s-toon-shader-for-blender-eevee), [Toonkit-Samples](https://github.com/vitorbalbio/Toonkit-Samples).
-- Nodevember 作品：
-    - [Curtis Holt's Results](https://youtu.be/JhLVzcCl1ug), [Neoyume’s Nodeshaders](https://neoyume.com/en/neoyumes-nodevember-nodeshaders/), [Kyle Hamm](https://gumroad.com/l/kylenodevember2020), [erindale](https://gumroad.com/l/node2020).
-- 其他：
-    - [gumroad/simonthommes](https://gumroad.com/simonthommes), [Meta's Massivest Materials](https://www.blendswap.com/blend/16480), [Abstract Materials](https://gumroad.com/l/CCIEF).
+- [The Blendersauce Vault Materials](http://blendersauce.com/the-blendersauce-vault-2/the-material-vault-categories/)：免费分类 Blender 材质库，涵盖砖墙、混凝土、织物、流体、金属、自然、石膏、岩石、瓷砖与木材。
+- [3d-wolf/materials](https://3d-wolf.com/products/materials.html)：包含基于物理的程序化材质的免费插件。 ![][gpl]
+- [Simon Thommes' Procedural Shaders](https://gumroad.com/simonthommes)：Blender Studio 材质艺术家 Simon Thommes 出品的影视级程序化着色器与节点组。
+- 手绘与卡通着色器 (NPR)：
+    - [BNPR Shaders](https://blendernpr.org/downloads/), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [EEVEE Comics Shader v3.0](https://gumroad.com/l/JWdjJ), [Erito's Toon Shader for EEVEE](https://www.artstation.com/eritokaio/store/Wo3B/erito-s-toon-shader-for-blender-eevee), [Toonkit Samples](https://github.com/vitorbalbio/Toonkit-Samples), [Erisdraw3D's Setup](https://twitter.com/Erisdraw3D/status/1216755574735503361)。
+    - 付费 NPR 材质包：[Komikaze](https://blendermarket.com/products/komikaze) [$]（免费示例：[Aqua](https://drive.google.com/file/d/1jlYxqRfjnjnZSG2gxKqiXa5Fo0Y7N9Kn/edit), [Kismet](https://drive.google.com/file/d/1Mp808PE3Wjew6-hEv0vIJZLzPezRM-jV/view)）, [Ultimate Clay Shader](https://blendermarket.com/products/claydoh) [$]。
+- Nodevember 与程序化材质合集：
+    - [Erindale's Nodevember Pack](https://gumroad.com/l/node2020), [Neoyume’s Nodeshaders](https://neoyume.com/en/neoyumes-nodevember-nodeshaders/), [Kyle Hamm](https://gumroad.com/l/kylenodevember2020), [Curtis Holt's Results](https://youtu.be/JhLVzcCl1ug), [Meta's Massivest Materials](https://www.blendswap.com/blend/16480), [Abstract Materials](https://gumroad.com/l/CCIEF)。
 
 ### 🌲 Blender场景/文件
 
-- [Blend Swap](https://www.blendswap.com/blends)：开源Blender文件的唯一场所。
-- [Blender/demo-files](https://www.blender.org/download/demo-files/)：来自Blender的演示场景。
-- [BlenderNation.com/models](https://www.blendernation.com/category/art/free-blender-models/)：收集来自Blender社区的最佳免费Blender 3D模型下载。
-- [Mantissa/resources](https://mantissa.xyz/free.html)：免费Blender文件、资源。
-- Gumroad 主页：
-    - [gumroad/bluefoxcreation](https://gumroad.com/bluefoxcreation), [gumroad/curtisjamesholt](https://gumroad.com/curtisjamesholt).
-- 绑定模型：
-    - [Rain v2](https://studio.blender.org/characters/rain/v2/), [Snow v2](https://studio.blender.org/characters/snow/v2/), [Red-Nelb](https://cgcookie.com/resource/red-nelb-rig-blender-2-8x), [Dancing Girl](https://gumroad.com/l/mZcjB), [Pharah(Overwatch)](https://pharah.gitlab.io/guide/), [Luchadora](https://www.artstation.com/marketplace/p/AWjx/luchadora-rig-blender), [Rocket Girl](https://gumroad.com/l/XGTxw), [Pikachu](https://www.blendswap.com/blend/23864), [MT-103 Droid](https://gumroad.com/l/zvlZV), [Baqir](https://www.youtube.com/watch?v=UIKuyOP68fA), [Ivan](https://gumroad.com/l/ivan-3d-model), [Cori](https://www.blendswap.com/blend/23381), [Judy Hopps](https://www.blendswap.com/blend/17309), [Scorbunny](https://gumroad.com/l/cvJbP), [Stretch](https://tribee.online/product/stretch-free-blender-rig-beta/).
-- 几何节点：
-    - [Higgsas Blender](https://higgsas.gumroad.com/l/wrusot), [Mesh Tension Map](https://higgsas.gumroad.com/l/tnqal), [Droplet Generator](https://ibotpl.gumroad.com/l/alvgr), [BackdropGen](https://yamato3d.gumroad.com/l/BackdropGen).
+- [Blend Swap](https://www.blendswap.com/blends)：开源 `.blend` 场景与模型文件共享社区。
+- [Blender Demo Files](https://www.blender.org/download/demo-files/)：Blender 官方基准测试、启动画面、Cycles、EEVEE 与物理模拟演示场景。
+- [BlenderNation Free Models](https://www.blendernation.com/category/art/free-blender-models/)：汇集来自社区的优质免费 Blender 3D 模型下载。
+- [Mantissa Resources](https://mantissa.xyz/free.html)：免费程序化 `.blend` 场景与环境资源。
+- 创作者 Gumroad 资源主页：[Blue Fox Creation](https://gumroad.com/bluefoxcreation), [Curtis Holt](https://gumroad.com/curtisjamesholt)。
+- 免费绑定角色模型：
+    - [Blender Studio 官方角色绑定](https://studio.blender.org/characters/)：[Rain v2](https://studio.blender.org/characters/rain/v2/), [Snow v2](https://studio.blender.org/characters/snow/v2/)。
+    - 社区绑定角色：[Red-Nelb](https://cgcookie.com/resource/red-nelb-rig-blender-2-8x), [Dancing Girl](https://gumroad.com/l/mZcjB), [Pharah (Overwatch)](https://pharah.gitlab.io/guide/), [Luchadora](https://www.artstation.com/marketplace/p/AWjx/luchadora-rig-blender), [Rocket Girl](https://gumroad.com/l/XGTxw), [Pikachu](https://www.blendswap.com/blend/23864), [MT-103 Droid](https://gumroad.com/l/zvlZV), [Baqir](https://www.youtube.com/watch?v=UIKuyOP68fA), [Ivan](https://gumroad.com/l/ivan-3d-model), [Cori](https://www.blendswap.com/blend/23381), [Judy Hopps](https://www.blendswap.com/blend/17309), [Scorbunny](https://gumroad.com/l/cvJbP), [Stretch](https://tribee.online/product/stretch-free-blender-rig-beta/)。
 
 ### ⛅ HDRI
 
-- [Poly Haven/HDRIs](https://polyhaven.com/hdris), [Pixar/HDRI](https://renderman.pixar.com/category/111-hdri), [Hdrmaps/freebies](https://hdrmaps.com/freebies), [Hdri-hub/free](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [Hdri-skies](https://hdri-skies.com/), [locationtextures/panoramas](https://locationtextures.com/panoramas/?sort=p.price&order=ASC), [noahwitchell](http://www.noahwitchell.com/freebies), [bobgroothuis](https://www.bobgroothuis.com/collections/360-hdri), [vizpeople/free](https://www.viz-people.com/portfolio/free-hdri-maps/), [noemotionhdrs](http://noemotionhdrs.net/hdrevening.html), [iHDRI](https://www.ihdri.com/hdri-skies-outdoor/).
+- [Poly Haven/HDRIs](https://polyhaven.com/hdris)：数百款免费 CC0 高分辨率 HDRI 天空、室内摄影棚与自然环境贴图（高达 16K+）。 [![][zero]](https://polyhaven.com/license)
+- [Pixar/HDRI](https://renderman.pixar.com/category/111-hdri)：来自皮克斯 RenderMan 社区资源的免费生产级 HDRI 环境贴图。
+- [HDRMaps/Freebies](https://hdrmaps.com/freebies)：免费高动态范围全景图与摄影测量背景。
+- [iHDRI](https://www.ihdri.com/hdri-skies-outdoor/)：高达 16K 分辨率的免费室外与室内 HDRI 贴图。
+- 更多免费 HDRI 资源库：[HDRI-Hub](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [HDRI-Skies](https://hdri-skies.com/), [Location Textures](https://locationtextures.com/panoramas/?sort=p.price&order=ASC), [Noah Witchell](http://www.noahwitchell.com/freebies), [Bob Groothuis](https://www.bobgroothuis.com/collections/360-hdri), [Viz-People](https://www.viz-people.com/portfolio/free-hdri-maps/), [NoEmotionHDRs](http://noemotionhdrs.net/hdrevening.html)。
 
 ### 🖼 ️ 艺术/参考
 
 - [Dezoomify](https://dezoomify.ophir.dev/)：从 [Google Arts & Culture](https://artsandculture.google.com/)、[The National Gallery](https://www.nationalgallery.org.uk/)、[Gallica](https://gallica.bnf.fr/)、[Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) 及[更多网站](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats)下载可缩放的高清图像。([桌面应用](https://github.com/lovasoa/dezoomify-rs)) [![][repo]](https://github.com/lovasoa/dezoomify)
-- [Birmingham Museums Trust](https://dams.birminghammuseums.org.uk/asset-bank/action/viewDefaultHome?browseType=folders)：成千上万的我们无版权图像现在可供所有人在Creative Commons Zero许可下使用。更多图像将定期添加。[(Unsplash资料)](https://unsplash.com/@birminghammuseumstrust) ![zero]
-- [Wikimedia Commons/Art](https://commons.wikimedia.org/wiki/Category:Art)：一个自由使用的媒体文件集合，任何人都可以贡献。 ![cc]
-- [The Art Institute of Chicago](https://www.artic.edu/collection?is_public_domain=1)：从芝加哥艺术学院在线收藏下载公共领域艺术作品。 [![zero]](https://www.artic.edu/image-licensing)
+- [Birmingham Museums Trust](https://dams.birminghammuseums.org.uk/asset-bank/action/viewDefaultHome?browseType=folders)：成千上万的我们无版权图像现在可供所有人在Creative Commons Zero许可下使用。更多图像将定期添加。[(Unsplash资料)](https://unsplash.com/@birminghammuseumstrust) ![][zero]
+- [Wikimedia Commons/Art](https://commons.wikimedia.org/wiki/Category:Art)：一个自由使用的媒体文件集合，任何人都可以贡献。 ![][cc]
+- [The Art Institute of Chicago](https://www.artic.edu/collection?is_public_domain=1)：从芝加哥艺术学院在线收藏下载公共领域艺术作品。 [![][zero]](https://www.artic.edu/image-licensing)
 - [Paris Musées Collections](https://www.parismuseescollections.paris.fr/en/recherche/image-libre/true)：巴黎博物馆已经将超过10万件艺术品作品释放到公共领域。它们都可以在线免费高分辨率下载。
 - [The Metropolitan Museum of Art](https://www.metmuseum.org/art/collection/search#!?searchField=All&showOnly=openAccess&sortBy=Relevance&offset=0&pageSize=0)：浏览大都会博物馆收藏中的406,000多件公共领域作品的高清图像，可以下载、分享和重新混合，没有任何限制。
-- [National Gallery of Art Images](https://www.nga.gov/open-access-images.html)：从国家美术馆收藏中下载图像。超过51,000张开放访问数字图像可供免费下载和使用。 ![zero]
+- [National Gallery of Art Images](https://www.nga.gov/open-access-images.html)：从国家美术馆收藏中下载图像。超过51,000张开放访问数字图像可供免费下载和使用。 ![][zero]
 - [Rijksmuseum ](https://www.rijksmuseum.nl/en/search)：是欧洲最大的艺术和历史博物馆之一，其庞大的收藏中的25万件作品可供免费在线查看或下载。
 - [National Gallery of Denmark](https://open.smk.dk/en/art?q=*&filters=public_domain%3Atrue)：您可以探索我们的亮点，并免费获得高分辨率的公共领域艺术作品图像。
 - [Los Angeles County Museum of Art](https://collections.lacma.org/search/site/?f[1]=bm_field_has_unrestricted_image%3Atrue)：从LACMA的收藏中下载公共领域艺术作品。
 - [J. Paul Getty Museum](https://www.getty.edu/art/collection/)：盖蒂提供所有可用的数字图像，这些图像是盖蒂拥有的权利，或者是公共领域的，可以用于任何目的。无需许可。
 - [Indianapolis Museum of Art Collection](http://collection.imamuseum.org/)：许多公共领域艺术作品的图像可以从Indianapolis Museum of Art at Newfields的收藏页面免费下载。
-- [Smithsonian Open Access](https://www.si.edu/openaccess)：现在就下载、分享和重用史密森尼的数百万图像，无需请求。 [![zero]](https://www.si.edu/termsofuse)
-- [Biodiversity Heritage Library](https://www.flickr.com/photos/biodivlibrary/)：300,000+植物和动物插图可供免费下载。 ![zero]
+- [Smithsonian Open Access](https://www.si.edu/openaccess)：现在就下载、分享和重用史密森尼的数百万图像，无需请求。 [![][zero]](https://www.si.edu/termsofuse)
+- [Biodiversity Heritage Library](https://www.flickr.com/photos/biodivlibrary/)：300,000+植物和动物插图可供免费下载。 ![][zero]
 - [Natural History Museum, Data Portal](https://data.nhm.ac.uk/)：探索和下载博物馆的研究和收藏数据。集合信息、图像、声音、视频、研究成果、3D扫描。
 - [British Museum](https://www.britishmuseum.org/collection)：大英博物馆刚刚在线免费提供了190万张精美的详细图像。
 - [Open Image Collections](https://blogs.ntu.edu.sg/openimagecollections/browse/#collections)：是一系列数字图像源，包括博物馆数字收藏、库存图像、照片档案、设计资源和图像搜索引擎。
@@ -597,7 +603,7 @@
 
 ### 🛰 太空
 
-- [Solar Textures](https://www.solarsystemscope.com/textures/)：这些纹理表示基于NASA高程和成像数据的真实行星图，在等矩形投影中。 ![by]
+- [Solar Textures](https://www.solarsystemscope.com/textures/)：这些纹理表示基于NASA高程和成像数据的真实行星图，在等矩形投影中。 ![][by]
 - [NASA-3D-Resources](https://nasa3d.arc.nasa.gov/)：这里有一个不断增长的3D模型、纹理和图像集合来自NASA。所有这些资源都可以免费下载和使用。 [![][repo]](https://github.com/nasa/NASA-3D-Resources)
 - [Celestia Motherlode](http://www.celestiamotherlode.net/)：是一个存储库，包含各种插件，如纹理、模型或天体。
 - NASA：[James Webb Images](https://webbtelescope.org/resource-gallery/images) ([flickr](https://www.flickr.com/photos/nasawebbtelescope/)), [Hubble Image Gallery](https://hubblesite.org/resource-gallery/images?Collection=Hubble%20Favorites) ([flickr](https://www.flickr.com/photos/nasahubble/)), [Astronomy Picture of the Day](https://apod.nasa.gov/apod/archivepix.html).
@@ -608,17 +614,17 @@
 
 ### 🎧 声音/音乐
 
-- [Freesound.org](https://freesound.org/browse/)：一个协作式数据库，提供创意共享许可的声音，供音乐家和声音爱好者使用。 [![cc]](https://freesound.org/help/faq/#licenses)
+- [Freesound.org](https://freesound.org/browse/)：一个协作式数据库，提供创意共享许可的声音，供音乐家和声音爱好者使用。 [![][cc]](https://freesound.org/help/faq/#licenses)
 - [GameAudioGDC](https://sonniss.com/gameaudiogdc): Each year we give away thousands of dollars worth of sound effects for free in celebration of the Game Developers Conference. This is our archive. Everything is royalty-free and commercially usable.
 - [GameSounds.xyz](https://gamesounds.xyz/)：为您的游戏提供免费的无版税音乐和声音。
-- [SoundBible.com](http://soundbible.com/free-sound-effects-1.html)：提供数千个免费的声音效果、声音剪辑和直接声音。这些声音可以用于各种声音项目。 [![by]](https://soundbible.com/about.php)
+- [SoundBible.com](http://soundbible.com/free-sound-effects-1.html)：提供数千个免费的声音效果、声音剪辑和直接声音。这些声音可以用于各种声音项目。 [![][by]](https://soundbible.com/about.php)
 - [99Sounds.org](http://99sounds.org/free-sound-effects/)：是一个网站，提供用户生成的无版税内容的免费下载。
 - [Freesfx.co.uk](https://www.freesfx.co.uk/)：这个网站提供了您可以在任何商业制作中使用的免费声音效果。
 - [OpenGameArt.org/Sound](https://opengameart.org/art-search-advanced?keys=&title=&field_art_tags_tid_op=or&field_art_tags_tid=&name=&field_art_type_tid%5B%5D=13&sort_by=created&sort_order=DESC&items_per_page=24&Collection=)：OpenGameArt中的声音效果。
 - [Free Music Archive](https://freemusicarchive.org/static)：图标性的免费音乐资源，适用于视频的播客安全和无版税音乐。
 - [Bandcamp.com/cc](https://bandcamp.com/tag/creative-commons)：来自Bandcamp的创意共享音乐。
-- [MusOpen.org](https://musopen.org/music/)：是一个在线古典音乐库，提供版权免费、公共领域的音乐。 ![cc]
-- [ccMixter.org](http://dig.ccmixter.org/)：由ArtisTech Media运营的社区混音网站，由Creative Commons创建。 [![cc]](http://dig.ccmixter.org/licenses)
+- [MusOpen.org](https://musopen.org/music/)：是一个在线古典音乐库，提供版权免费、公共领域的音乐。 ![][cc]
+- [ccMixter.org](http://dig.ccmixter.org/)：由ArtisTech Media运营的社区混音网站，由Creative Commons创建。 [![][cc]](http://dig.ccmixter.org/licenses)
 - [Netlabels](https://archive.org/details/netlabels)：这个收藏托管了完整的、可自由下载/流式传输的虚拟唱片目录，通常带有创意共享许可。
 - [Mixkit](https://mixkit.co/free-stock-music/)：下载免费的股票视频素材、股票音乐和Premiere Pro模板，用于您的下一个视频编辑项目。
 - [Unminus](https://www.unminus.com/)：一起创造音乐的Unsplash
@@ -702,7 +708,8 @@
 - [Mandelbulb3D](http://www.andreas-maschke.com/?page_id=4607)：是一个免费软件应用程序，用于3D分形成像。 [![][repo]](https://github.com/thargor6/mb3d)
 - [F3D](http://f3d.app)：快速且简约的开源跨平台3D查看器。支持许多文件格式和渲染风格。 [![][repo]](https://github.com/f3d-app/f3d)
 - [JWildfire](http://www.andreas-maschke.com/?page_id=42)：以其火焰分形生成器脱颖而出。Wildfire是基于Java的图像处理软件。 [![][repo]](https://github.com/thargor6/JWildfire)
-- Blender 工具：
+- Blender 工具与定制构建：
+    - [Goo Engine](https://github.com/dillongoostudios/goo-engine)：DillonGoo Studios 打造的开源定制版 Blender，专为 3D 动漫与非真实感渲染（NPR）量身定制。![][gpl]
     - [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater)：一键下载和安装夜间构建。
     - [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI)：BlenderUpdater的命令行版本。
     - [Blender Version Manager](https://github.com/DotBow/Blender-Version-Manager)：Blender的最小下载管理器。
@@ -731,7 +738,6 @@
 - [Agisoft De-Lighter](https://agisoft.freshdesk.com/support/solutions/articles/31000158376-agisoft-texture-de-lighter-general-workflow)：是一个免费的独立工具，旨在从模型纹理中去除阴影。[[下载]](https://www.agisoft.com/downloads/installer/)
 - [Agama Materials](https://agama.itch.io/agama-materials)：是用于创建PBR材料和绘制3D模型的软件。您可以创建材料并用于绘制模型，或者使用预制的纹理。
 - [Architextures - Create](https://architextures.org/create)：Web应用程序允许您创建无缝纹理、凹凸贴图和CAD图案。选择任何参数开始。
-- [Poly](https://withpoly.com/)：是一个无缝纹理生成器和画廊（高达8K）与PBR地图（高达32位）为任何类型的材料与一个简单的文本或图像提示。
 - [Normal Map Bench](https://normalmapbench.com/)：免费的基于浏览器的图像转法线贴图生成器，支持实时强度、平滑、边缘与光照控制，可导出 OpenGL/DirectX 格式。
 
 ### 地形
@@ -839,7 +845,7 @@
 
 - ☰[Blender基础由Blender提供。](https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
 - ☰[Blender基础由CG Cookie提供。](https://cgcookie.com/lesson/welcome-to-the-blender-basics)
-- ☰[🍩Blender 3.0初学者甜甜圈教程由Blender Guru提供。](https://www.youtube.com/playlist?list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U)
+- ☰[🍩Blender 4.0 初学者甜甜圈教程由 Blender Guru 提供。](https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z)
 - 🧾[Blender 基础指南 - Dev Null Productions](https://docs.google.com/document/d/1oWYIJWIGyjYJeQ9ZXnwKgS2uFzZ6K8jfILafHJdvg7M)
 - ☰[🍦Blender完整初学者教程课程由CG Geek提供。](https://www.youtube.com/playlist?list=PLrjIgEdKLivgpCMmFC0_sV60Y_Ftp-WLD)
 - ☰[🍏Blender初学者教程系列由CG Boost提供。](https://www.youtube.com/playlist?list=PL3UWN2F2M2C8-zUjbFlbgtWPQa0NXBsp0)
@@ -890,6 +896,7 @@
 ### 🌠 动画
 
 - 🧾[动画与绑定手册。](https://docs.blender.org/manual/en/latest/physics/index.html)
+- 🧾[蜡笔 (Grease Pencil) 手册。](https://docs.blender.org/manual/en/latest/grease_pencil/index.html)
 - ▷[Blender动画跑步在2分钟内！](https://www.youtube.com/watch?v=qxoo_bcUZos)
 - ▷[为动画绑定任何角色在10分钟内！](https://www.youtube.com/watch?v=SBYb1YmaOMY)
 - ▷[Blender角色动画：形状键。](https://www.youtube.com/watch?v=YDu6y_2jFg0)
@@ -963,6 +970,7 @@
 
 - 🧾文档：
     - [Blender Python API Documentation](https://docs.blender.org/api/current/)：官方Blender Python API文档。
+    - [Creating Extensions (Blender 4.2+)](https://docs.blender.org/manual/en/latest/advanced/extensions/getting_started.html)：关于使用 `blender_manifest.toml` 为 Blender 扩展平台打包插件与主题的官方手册。
     - [Programming Add-ons for Blender 2.8](http://airplanes3d.net/pydev-000_e.xml)：它展示了如何为Blender设置一个专业的IDE来编写Python程序，以一个简单的插件为例。它是一个电子书，基于Creative Commons许可免费发布。
     - [blenderscripting](https://blenderscripting.blogspot.com/)：与Blender相关的Python代码片段，帮助你开始。
     - [Blender 3D: Noob to Pro/Python Scripting](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Advanced_Tutorials/Python_Scripting/Introduction)：来自[Blender 3D: Noob to Pro](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro)书籍的Python脚本教程。
@@ -975,21 +983,23 @@
 - 文章：
     - [Blender 2.8 Python Scripting Superpowers for Non-Programmers](https://cgcookie.com/articles/blender-2-8-python-scripting-superpowers-for-non-programmers)：如果你已经使用Blender或任何其他3D应用一段时间，你会发现自己在一遍又一遍地做着相同的任务，有时会想，“我真希望Blender能为我做这个”。通过脚本，它可以！
     - [Visualizing Complex Numbers in Blender](https://medium.com/@behreajj/visualizing-complex-numbers-in-blender-d60bd32f20b9)：本教程介绍了如何在Blender中使用复数制作图案。
-- 源码与资源：
-    - [blender-scripting](https://github.com/njanakiev/blender-scripting)：Blender脚本入门。这是一个简单到更复杂示例的集合，用于Blender中的Python脚本。
-    - [The Code Editor](https://blenderartists.org/t/how-would-you-show-some-love-for-the-blender-text-editor/1163857)：这个线程用于讨论如何改进文本编辑器，并分享将Blender代码现代化、扩展和简化的插件。
-    - [fake-bpy-module](https://github.com/nutti/fake-bpy-module)：是Blender Python API模块的集合，用于常用IDE中的代码补全。
-    - [blender-debugger-for-vscode](https://github.com/AlansCodeLog/blender-debugger-for-vscode)：Blender插件，用于通过VS Code（和Visual Studio）远程调试Blender。
-    - [Blender Development in VS Code](https://marketplace.visualstudio.com/items?itemName=JacquesLucke.blender-development)：Visual Studio Code的Blender开发扩展。 [![][repo]](https://github.com/JacquesLucke/blender_vscode)
-    - [blender-cli-rendering](https://github.com/yuki-koyama/blender-cli-rendering)：用于使用命令行界面从命令行界面渲染图像的Python脚本。
-    - [render-useful](https://gitlab.com/ldo/render-useful)：Blender渲染的命令行工具。
-    - [blender-addon-tester](https://github.com/nangtani/blender-addon-tester)：Blender插件测试器是一个测试框架，允许pytest钩子在定义的Blender版本内测试插件。
-    - [EasyBPY](https://gumroad.com/l/easybpy)：这个模块的目的是简化Blender API（bpy）的使用，通过创建一个额外的抽象层，使其更易于阅读、记忆，并减少用户对复杂代码路径的暴露。 [![][repo]](https://github.com/curtisjamesholt/EasyBPY)
-    - [Advanced Blender Add-on](https://github.com/eliemichel/AdvancedBlenderAddon)：这个仓库旨在提供一个入门套件，并深入评论在高级Blender插件中常用的设计模式。
-    - [3DN BIP](https://github.com/3dninjas/3dn-bip)：一个Python库，用于Blender。在Blender中快速预览加载。任意大小的图像。`bpy.utils.previews`的替代品。
-    - [Geometry Script](https://github.com/carson-katri/geometry-script)：是Blender几何节点的脚本API。它使复杂的节点树更易于管理和共享。
-    - [Molecular Animation](https://github.com/AmadeusBio-ai/Molecular_Animation)：基于 PDB 和 AlphaFold 结构在 Blender 中进行脚本化无头分子动画渲染的 Python 框架与命令行管线。
+- IDE、调试与测试：
+    - [fake-bpy-module](https://github.com/nutti/fake-bpy-module)：用于 VS Code、PyCharm 等主流 IDE 代码补全与类型检查的 Blender Python API (`bpy`) 存根模块集合。
+    - [Blender Development in VS Code](https://marketplace.visualstudio.com/items?itemName=JacquesLucke.blender-development)：用于构建、运行与热重载 Blender 插件的 Visual Studio Code 扩展。 [![][repo]](https://github.com/JacquesLucke/blender_vscode)
+    - [blender-debugger-for-vscode](https://github.com/AlansCodeLog/blender-debugger-for-vscode)：通过 VS Code 远程调试 Blender Python 脚本的插件。
+    - [blender-addon-tester](https://github.com/nangtani/blender-addon-tester)：基于 pytest 的测试框架，可在指定版本的 Blender 中自动运行插件测试。
+    - [The Code Editor](https://blenderartists.org/t/how-would-you-show-some-love-for-the-blender-text-editor/1163857)：汇集现代化 Blender 内置文本编辑器插件与改进方案的社区讨论帖。
+- 开发框架、打包与 API：
     - [BlenderAddonPackageTool](https://github.com/xzhuah/BlenderAddonPackageTool)：集成实用工具的 Blender 插件与扩展开发框架，支持热重载测试、依赖感知打包、自动类加载与插件国际化。![][mit]
+    - [Advanced Blender Add-on](https://github.com/eliemichel/AdvancedBlenderAddon)：展示复杂 Blender 插件架构与常用设计模式的入门模板仓库。
+    - [EasyBPY](https://gumroad.com/l/easybpy)：通过人性化抽象层简化常用 `bpy` API 调用的辅助模块。 [![][repo]](https://github.com/curtisjamesholt/EasyBPY)
+    - [Geometry Script](https://github.com/carson-katri/geometry-script)：用于通过 Python 代码构建和管理复杂几何节点树的脚本 API。
+    - [3DN BIP](https://github.com/3dninjas/3dn-bip)：支持任意图像尺寸的高速预览图加载库，可无缝替代 `bpy.utils.previews`。
+    - [blender-scripting](https://github.com/njanakiev/blender-scripting)：从基础到进阶的实用 Blender Python 脚本示例集合。
+- 无头渲染与命令行管线：
+    - [blender-cli-rendering](https://github.com/yuki-koyama/blender-cli-rendering)：使用命令行界面调用 Blender 进行无头批量渲染的 Python 脚本。
+    - [render-useful](https://gitlab.com/ldo/render-useful)：管理 Blender 命令行渲染的实用工具集。
+    - [Molecular Animation](https://github.com/AmadeusBio-ai/Molecular_Animation)：基于 PDB 和 AlphaFold 结构在 Blender 中进行脚本化无头分子动画渲染的 Python 框架与命令行管线。
 - 支持：
     - [devtalk/python](https://devtalk.blender.org/c/python/6)：关于使用和开发[Blender Python API](https://developer.blender.org/project/view/24/)的问题，无论是Blender本身还是插件。
     - [blenderartists/python-support](https://blenderartists.org/c/coding/python-support/19), [stackoverflow/tagged/bpy](https://stackoverflow.com/questions/tagged/bpy)
@@ -1038,7 +1048,7 @@
 ### 🔍 探索艺术作品
 
 <p>
-    <a href="https://www.reddit.com/r/blender/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/reddit/subscribers/r/blender.svg?variant=secondary&amp;size=xs&amp;mode=dark"><img alt="r/blender" src="https://www.shieldcn.dev/reddit/subscribers/r/blender.svg?variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
+    <a href="https://www.reddit.com/r/blender/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Reddit-r%2Fblender.svg?logo=reddit&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="r/blender" src="https://www.shieldcn.dev/badge/Reddit-r%2Fblender.svg?logo=reddit&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
     <a href="https://www.instagram.com/explore/tags/b3d/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Instagram-%23b3d.svg?logo=instagram&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="Instagram #b3d" src="https://www.shieldcn.dev/badge/Instagram-%23b3d.svg?logo=instagram&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
     <a href="https://twitter.com/hashtag/b3d"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/X-%23b3d.svg?logo=x&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="X #b3d" src="https://www.shieldcn.dev/badge/X-%23b3d.svg?logo=x&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
     <a href="https://www.artstation.com/search?sort_by=relevance&query=blender"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/ArtStation-blender.svg?logo=artstation&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="ArtStation blender" src="https://www.shieldcn.dev/badge/ArtStation-blender.svg?logo=artstation&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
@@ -1124,7 +1134,14 @@ _一些可以找到各种 Blender 相关内容的账号。_
 - [Noggi](https://www.youtube.com/c/Noggi_Video/videos)：雕刻。
 - [DerekElliott](https://www.youtube.com/c/DerekElliott/videos)：建模，动画。
 - [Samuel Sullins](https://www.youtube.com/@samuelsullins)：几何节点，视觉效果，低多边形，综合。
-- [CG Python](https://www.youtube.com/@CGPython)：Blender Python脚本技巧和窍门。
+- [CG Python](https://www.youtube.com/@CGPython)：Blender Python 脚本技巧和窍门。
+- [Erindale](https://www.youtube.com/@Erindale/videos)：几何节点，程序化着色，节点工作流。
+- [Brady Johnston](https://www.youtube.com/@BradyJohnston/videos)：几何节点，科学可视化，MolecularNodes。
+- [Cartesian Caramel](https://www.youtube.com/@CartesianCaramel/videos)：程序化系统，几何节点物理模拟，技术美术。
+- [Ryan King Art](https://www.youtube.com/@RyanKingArt/videos)：新手教程，程序化材质，每日 Blender 指南。
+- [Max Hay](https://www.youtube.com/@MaxHayArt/videos)：照片级 3D 环境艺术，灯光，构图。
+- [Kaizen](https://www.youtube.com/@KaizenTutorials/videos)：建模，纹理，布光，工作流技巧。
+- [DillonGoo](https://www.youtube.com/@dillongoo/videos)：3D 动漫制作，非真实感渲染 (NPR)，Goo Engine。
 
 ### 💻 博客
 
@@ -1182,7 +1199,7 @@ _一些可以找到各种 Blender 相关内容的账号。_
 欢迎您的贡献！^\_^ 如果您想为这个列表做贡献，请提交 _pull request_（仅需编辑英文 `README.md`）、创建 _issue_ 或联系我 @agmmnn。请先阅读 _[贡献指南](https://github.com/agmmnn/awesome-blender/blob/master/CONTRIBUTING.md)_，部分章节也有注释形式的专属说明。
 
 <p>
-    <a href="https://github.com/agmmnn/awesome-blender/graphs/contributors"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;title=&amp;mode=dark"><img alt="agmmnn/awesome-blender contributors" src="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;title=&amp;mode=light"></picture></a>
+    <a href="https://github.com/agmmnn/awesome-blender/graphs/contributors"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;title=false&amp;mode=dark"><img alt="agmmnn/awesome-blender contributors" src="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;title=false&amp;mode=light"></picture></a>
 </p>
 
 <p>

@@ -28,7 +28,9 @@
             <li><a href="#%ef%b8%8f-textureuv">🗺️ Texture/UV</a></li>
             <li><a href="#-gamedev">🎮 GameDev</a></li>
             <li><a href="#-aimcp">🤖 AI/MCP</a></li>
-            <li><a href="#-misc">🪀 Misc</a></li>
+            <li><a href="#-lighting-camera--video">🎬 Lighting, Camera & Video</a></li>
+            <li><a href="#-pipeline-io--3d-scanning">📦 Pipeline, I/O & 3D Scanning</a></li>
+            <li><a href="#-workflow-ui--utilities">⚡ Workflow, UI & Utilities</a></li>
         </ul>
     </li>
     <li><a href="#-resources">🪐 Resources</a>
@@ -114,8 +116,9 @@
 
 ### 🌊 Simulation/Physics
 
-- [FLIP Fluids](https://github.com/rlguy/Blender-FLIP-Fluids) : is a powerful liquid simulation plugin that gives you the ability to create high quality fluid effects all within Blender, the free and open source 3D creation suite. [![market]](https://blendermarket.com/products/flipfluids)
-- [Molecular Script](https://github.com/scorpion81/Blender-Molecular-Script) : is a particle collision addon that makes particles collide for creating certain types of simulations, effects and particles linking as well.
+- [FLIP Fluids](https://github.com/rlguy/Blender-FLIP-Fluids) : Powerful liquid simulation plugin that gives you the ability to create high quality fluid effects all within Blender, the free and open source 3D creation suite. [![market]](https://blendermarket.com/products/flipfluids)
+- [MolecularNodes](https://github.com/BradyAJohnston/MolecularNodes) : Import, animate, and simulate molecular biology and structural data inside Blender using Geometry Nodes. ![][gpl]
+- [Molecular+](https://github.com/u3dreal/molecular-plus) : Modernized continuation of the [Molecular Script](https://github.com/scorpion81/Blender-Molecular-Script) add-on for particle collisions, linking, and physics simulations in Blender 4.x. ![][gpl]
 - [Jet-Fluids](https://github.com/PavelBlend/blender_jet_fluids_addon) : [Jet fluid](https://github.com/doyubkim/fluid-engine-dev) simulator integration in blender.
 - [projectile](https://github.com/natecraddock/projectile) : An artist-friendly tool for throwing stuff around inside blender.
 - [Phobos](https://github.com/dfki-ric/phobos) : An add-on for Blender allowing to create URDF, SDF and SMURF robot models.
@@ -124,77 +127,77 @@
 
 ### 🦑 Generator/Builder
 
-- [CharMorph](https://blenderartists.org/t/charmorph-character-creation-tool-mb-lab-based/1252543) : An open source character creation tool for Blender. It's a rewrite of [MB-Lab](https://github.com/animate1978/MB-Lab), which is now unmaintained. [![][repo]](https://github.com/Upliner/CharMorph)
-- [MPFB](http://static.makehumancommunity.org/mpfb.html) : MPFB2 is an open source human generator for Blender. It's complete rewrite of MakeHuman as a Blender addon. [![][repo]](https://github.com/makehumancommunity/mpfb2)
-- [FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) [$] : A Blender add-on that lets you create photorealistic 3D models of human faces and heads using a few photographs with a neutral face expression. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
-- [Tiny Eye](https://tinynocky.gumroad.com/l/tinyeye) : Tiny Eye is a FREE, fully procedural, stylised eye that works in EEVEE and Cycles.
-- [Auto-Terrainer](https://unicornhunter.gumroad.com/l/AutoTerrainer) : Automatic Blender Terrain Generator is a powerful and easy-to-use tool that lets you turn any low poly mesh into realistic and customizable terrain. You can use it to create mountains, valleys, islands, deserts, forests, and more.
-- [Blenderesse's Generators](https://blenderesse.gumroad.com) : Blenderesse offers a few geometry nodes generators for free. Including; [Electric Power Line](https://blenderesse.gumroad.com/l/electriclinegenerator), [Melt](https://blenderesse.gumroad.com/l/melt), [Bird](https://blenderesse.gumroad.com/l/birdgenerator).
-- [Buildify](https://paveloliva.gumroad.com/l/buildify) : is a geometry nodes library for easy building creation.
-- [Bricker](https://www.blendermarket.com/products/bricker) [$] : Photoreal Lego/Minecraft Simulations.
-- [Blender Data Visualisation](https://github.com/Griperis/BlenderDataVis) : Load data into Blender and create visualisations.
-- [BookGen](https://oweissbarth.de/software/book-gen-blender-addon/) : is a free book-generation addon for Blender.
-- [Celtic Knot](https://github.com/BorisTheBrave/celtic-knot/wiki/Gallery) : Generate Bezier curves, pipes and ribbons in elaborate weavings, based off of a framework mesh.
-- [Curtis Holt's Generators](https://curtisjamesholt.gumroad.com) : Curtis Holt offers a few geometry nodes generators for free. Including; [Space Station](https://curtisjamesholt.gumroad.com/l/space_station_gen_free), [Mech](https://curtisjamesholt.gumroad.com/l/mech_gen_free), [Weapon](https://curtisjamesholt.gumroad.com/l/random_weapon_generator).
-- [Data-FX](https://github.com/LandonFerg/Data-FX) : Loads and visualizes different types of data within Blender from .csv files.
-- [Flex's Generators](https://flexdigitalpottery.gumroad.com) : Flex offers a few free geometry nodes generators, including; **_Crystal, Curtain, Engine, Lego Character, Pillow, Rope, Stair, Stingwire, Table, Tyre_**.
-- [Geometry Nodes Demo](https://www.blender.org/download/demo-files/#geometry-nodes) : Free examples of geometry nodes including procedural buildings and a hex grid map.
-- [Geometry Nodes Pipes](https://raywakui.gumroad.com/l/pcxni) : is an addon for blender which helps generating complex pipe layouts.
-- [Industrial Geonodes](https://ko-fi.com/s/8d276833cf) : A collection of industrial themed Geometry nodes. It includes; **Pipes, Vents** and **Catwalks**.
-- [Mesh Maze](https://github.com/elfnor/mesh_maze) : Blender add-on to generate a maze on any mesh.
-- [Modular Tree](https://github.com/MaximeHerpin/modular_tree/tree/blender_28) : This addon for blender allows the creation of realistic trees with the node editor.
-- [Nino DefoQ's Generators](https://ninodefoq.gumroad.com) : Nino DefoQ offers a few geometry nodes generators for free. Including; [Hair](https://ninodefoq.gumroad.com/l/hairgeometrynodes), [Braid](https://ninodefoq.gumroad.com/l/braidify), [Cornrow](https://ninodefoq.gumroad.com/l/cornrows), [Moss](https://ninodefoq.gumroad.com/l/mossify), [Snow](https://ninodefoq.gumroad.com/l/Snowify).
-- [Pleebs Generators](https://pleebs.gumroad.com) : Pleebs offers free geometry nodes generators for creating procedural assets. Including; [Bush](https://pleebs.gumroad.com/l/BushDraw), [Wall](https://pleebs.gumroad.com/l/WallDraw), [Cobble](https://pleebs.gumroad.com/l/cobbledraw).
-- [Post USSR Builder](https://kypcaht.gumroad.com/l/PmCLJ) : Simple post USSR style building generator on geometry nodes. 2.93 and newer.
-- [Procedural Slime](https://artichoke18.gumroad.com/l/spsra) : generates procedural slime between objects.
-- [Random Book Generator](https://ko-fi.com/s/9879a091a9) : Book randomizing asset for Blender. Made with the new Geometry nodes.
-- [Real Sky](https://3d-wolf.com/products/sky/) : This add-on can generate procedural clouds, which Blender's built-in Dynamic Sky add-on lacks.
-- [Sapling Tree Gen](https://github.com/meet-brad-ch/add_curve_sapling) : Parametric Weber-Penn trees with leaves, pruning, an armature rig and wind. A maintained fork of the Sapling Tree Gen extension. ![][gpl]
-- [Snow Generator](https://blendermarket.com/products/free-snow) : Procedural snow generator for snow effects.
-- [Spaceship Generator](https://github.com/a1studmuffin/SpaceshipGenerator) : procedurally generate 3D spaceships.
-- [Sprytile](https://github.com/Sprytile/Sprytile) : a blender add-on for building tile based low-poly scenes with paint/map editor like tools. [[more info]](https://chemikhazi.itch.io/sprytile)
-- [Stylized Fantasy Tree Generator](https://rc12.gumroad.com/l/fantasytree) : Generate endless variations of stylized trees with this geometry nodes tool.
-- [tree-gen](https://github.com/friggog/tree-gen) : procedural generation of tree models in blender.
-- [Welder](https://blenderartists.org/t/welder/672478) : welds generator for Blender.
+- [CharMorph](https://blenderartists.org/t/charmorph-character-creation-tool-mb-lab-based/1252543) : Open-source character creation tool for Blender, built as a modern rewrite of [MB-Lab](https://github.com/animate1978/MB-Lab). [![][repo]](https://github.com/Upliner/CharMorph)
+- [MPFB](http://static.makehumancommunity.org/mpfb.html) : Open-source human generator for Blender and complete rewrite of MakeHuman as a native add-on. [![][repo]](https://github.com/makehumancommunity/mpfb2)
+- [FaceBuilder](https://www.keentools.io/download/facebuilder-for-blender) [$] : Creates photorealistic 3D models of human faces and heads from a few reference photographs. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
+- [Auto-Terrainer](https://unicornhunter.gumroad.com/l/AutoTerrainer) : Turns any low-poly mesh into realistic, customizable terrain such as mountains, valleys, islands, and deserts.
+- [Blender Data Visualisation](https://github.com/Griperis/BlenderDataVis) : Loads data into Blender and generates 3D charts and visualizations.
+- [BookGen](https://oweissbarth.de/software/book-gen-blender-addon/) : Free book-generation add-on for shelves and interior scenes in Blender.
+- [Buildify](https://paveloliva.gumroad.com/l/buildify) : Geometry Nodes library for modular procedural building creation.
+- [Bricker](https://www.blendermarket.com/products/bricker) [$] : Converts 3D meshes and simulations into photorealistic Lego and Minecraft brick models.
+- [Celtic Knot](https://github.com/BorisTheBrave/celtic-knot/wiki/Gallery) : Generates Bezier curves, pipes, and ribbons in elaborate weavings from a framework mesh.
+- [Data-FX](https://github.com/LandonFerg/Data-FX) : Loads and visualizes data within Blender from `.csv` files.
+- [Mesh Maze](https://github.com/elfnor/mesh_maze) : Generates procedural maze patterns over any mesh surface.
+- [Modular Tree](https://github.com/MaximeHerpin/modular_tree/tree/blender_28) : Node-based procedural tree and vegetation generator for Blender.
+- [Real Sky](https://3d-wolf.com/products/sky/) : Generates procedural clouds and atmospheric skies in Blender.
+- [Sapling Tree Gen](https://github.com/meet-brad-ch/add_curve_sapling) : Parametric Weber-Penn trees with leaves, pruning, armature rigs, and wind animation. ![][gpl]
+- [Snow Generator](https://blendermarket.com/products/free-snow) : Procedural snow accumulation generator for 3D surfaces.
+- [Spaceship Generator](https://github.com/a1studmuffin/SpaceshipGenerator) : Procedurally generates 3D spaceships in Blender.
+- [Sprytile](https://github.com/Sprytile/Sprytile) : Builds tile-based low-poly scenes in Blender with paint and map-editor tools. [[more info]](https://chemikhazi.itch.io/sprytile)
+- [tree-gen](https://github.com/friggog/tree-gen) : Procedural tree model generator in Blender.
+- [Welder](https://blenderartists.org/t/welder/672478) : Generates realistic weld seams along object intersections.
 - Environment:
-    - [Infinigen](https://infinigen.org) : Infinigen is a procedural generator of 3D scenes. It can generate infinite Photorealistic Worlds using real geometry. Infinigen is optimized for computer vision research and generates diverse high-quality 3D training data. [![][repo]](https://github.com/princeton-vl/infinigen)
-    - [Graswald](https://www.graswald3d.com/) [$] : is the solution for 3D Artists who need realistic vegetation in their scenes.
-    - [SceneCity](https://superhivemarket.com/products/scenecity) [$] : Generate large road networks and mass-place tens of thousands of buildings. Mix both procedural and hand-made assets.
-    - [The Grove 3D](https://www.thegrove3d.com/) [$] : Grow natural 3D trees for visualisation and film. Grow, bend, prune, interactively simulate the seasons year by year.
+    - [Infinigen](https://infinigen.org) : Procedural generator of photorealistic 3D worlds, nature, and indoor scenes using real geometry, optimized for computer vision and 3D training data. [![][repo]](https://github.com/princeton-vl/infinigen)
+    - [Graswald](https://www.graswald3d.com/) [$] : High-detail vegetation, moss, and weed asset system for Blender.
+    - [SceneCity](https://superhivemarket.com/products/scenecity) [$] : Generates large-scale road networks and places tens of thousands of procedural and custom buildings.
+    - [The Grove 3D](https://www.thegrove3d.com/) [$] : Simulates natural tree growth, branching, pruning, and seasonal changes for visualization and film.
 - Scatter:
-    - [Geo-Scatter](https://blendermarket.com/products/scatter) [$] : The scattering tool for blender.
-    - [BagaPie Modifier](https://app.gumroad.com/l/BbGVh) : This addon create modifier and geometry nodes preset like: boolean, scatter, auto array on curve. ![][gpl]
-    - [Gscatter](https://www.graswald3d.com/gscatter) : Artist-friendly scattering for free from developers of Grasswald.
-    - [City Scatter](https://curtisjamesholt.gumroad.com/l/city_scatter_free) : Generate cityscape concepts, powered by Blender's collection system.
+    - [Geo-Scatter](https://blendermarket.com/products/scatter) [$] : Professional biome and instancing scattering system for Blender.
+    - [BagaPie Modifier](https://app.gumroad.com/l/BbGVh) : Modifier and Geometry Nodes preset toolkit including booleans, scattering, arrays, and architecture tools. ![][gpl]
+    - [Gscatter](https://www.graswald3d.com/gscatter) : Free artist-friendly scattering add-on by the developers of Graswald.
+    - [City Scatter](https://curtisjamesholt.gumroad.com/l/city_scatter_free) : Generates cityscape concepts powered by Blender's collection system.
+- Geometry Nodes Packs & Presets:
+    - [Geometry Nodes Demo](https://www.blender.org/download/demo-files/#geometry-nodes) : Official Blender Geometry Nodes example files, including procedural buildings and hex grids.
+    - [Higgsas Geometry Nodes](https://higgsas.gumroad.com/l/wrusot) : Extensive collection of utility and deformer node groups for Geometry Nodes, plus [Mesh Tension Map](https://higgsas.gumroad.com/l/tnqal).
+    - [Blenderesse's Generators](https://blenderesse.gumroad.com) : Free Geometry Nodes generators including [Electric Power Line](https://blenderesse.gumroad.com/l/electriclinegenerator), [Melt](https://blenderesse.gumroad.com/l/melt), and [Bird](https://blenderesse.gumroad.com/l/birdgenerator).
+    - [Curtis Holt's Generators](https://curtisjamesholt.gumroad.com) : Free Geometry Nodes generators including [Space Station](https://curtisjamesholt.gumroad.com/l/space_station_gen_free), [Mech](https://curtisjamesholt.gumroad.com/l/mech_gen_free), and [Weapon](https://curtisjamesholt.gumroad.com/l/random_weapon_generator).
+    - [Flex's Generators](https://flexdigitalpottery.gumroad.com) : Free Geometry Nodes presets including **_Crystal, Curtain, Engine, Lego Character, Pillow, Rope, Stair, Stingwire, Table, Tyre_**.
+    - [Nino DefoQ's Generators](https://ninodefoq.gumroad.com) : Free Geometry Nodes setups for [Hair](https://ninodefoq.gumroad.com/l/hairgeometrynodes), [Braid](https://ninodefoq.gumroad.com/l/braidify), [Cornrow](https://ninodefoq.gumroad.com/l/cornrows), [Moss](https://ninodefoq.gumroad.com/l/mossify), and [Snow](https://ninodefoq.gumroad.com/l/Snowify).
+    - [Pleebs Generators](https://pleebs.gumroad.com) : Free procedural Geometry Nodes setups including [Bush](https://pleebs.gumroad.com/l/BushDraw), [Wall](https://pleebs.gumroad.com/l/WallDraw), and [Cobble](https://pleebs.gumroad.com/l/cobbledraw).
+    - [Industrial Geonodes](https://ko-fi.com/s/8d276833cf) : Industrial Geometry Nodes pack featuring **Pipes, Vents**, and **Catwalks**.
+    - [Geometry Nodes Pipes](https://raywakui.gumroad.com/l/pcxni) : Generates complex procedural pipe layouts.
+    - [Stylized Fantasy Tree Generator](https://rc12.gumroad.com/l/fantasytree) : Generates stylized fantasy trees with Geometry Nodes.
+    - [Tiny Eye](https://tinynocky.gumroad.com/l/tinyeye) : Free procedural stylized eye shader and mesh for EEVEE and Cycles.
+    - [More Geometry Nodes Setups](https://www.blender.org/download/demo-files/#geometry-nodes) : [Droplet Generator](https://ibotpl.gumroad.com/l/alvgr), [BackdropGen](https://yamato3d.gumroad.com/l/BackdropGen), [Random Book Generator](https://ko-fi.com/s/9879a091a9), [Post USSR Builder](https://kypcaht.gumroad.com/l/PmCLJ), [Procedural Slime](https://artichoke18.gumroad.com/l/spsra).
 
 ### 🧊 Modeling
 
-- [MACHIN3tools](https://gumroad.com/l/MACHIN3tools) [$] : is a continuously evolving collection of blender tools and pie menus in a single customizable package. [![market]](https://blendermarket.com/products/MACHIN3tools)
-- [QBlocker](https://qblockerdocs.readthedocs.io/) : is an interactive object creation tool for Blender.
-- [fspy](https://fspy.io/) : is an open-source camera matching app, extremely useful for modeling directly from a reference image. [(blender addon)](https://github.com/stuffmatic/fSpy-Blender)
-- [PolyQuilt](https://github.com/sakana3/PolyQuilt) : is provides a few functions in edit mode like creating faces, knife tool, fan, edge-loops, etc. It does this with only the left-mouse-button. So no menu’s, no shortcuts. [[more info]](https://www.youtube.com/watch?v=VKLPHh3CYCU)
+- [MACHIN3tools](https://gumroad.com/l/MACHIN3tools) [$] : Continuously evolving collection of blender tools and pie menus in a single customizable package. [![market]](https://blendermarket.com/products/MACHIN3tools)
+- [QBlocker](https://qblockerdocs.readthedocs.io/) : Interactive object creation tool for Blender.
+- [fspy](https://fspy.io/) : Open-source camera matching app, extremely useful for modeling directly from a reference image. [(blender addon)](https://github.com/stuffmatic/fSpy-Blender)
+- [PolyQuilt](https://github.com/sakana3/PolyQuilt) : Provides a few functions in edit mode like creating faces, knife tool, fan, edge-loops, etc. It does this with only the left-mouse-button. So no menu’s, no shortcuts. [[more info]](https://www.youtube.com/watch?v=VKLPHh3CYCU)
 - [Modeling Cloth](https://github.com/the3dadvantage/Modeling-Cloth-2_8) : Create real-time cloth-like behavior in meshes in Blender.
 - [KeKit](https://ke-code.xyz/scripts/kekit.html) : Brings some much needed functionality to Blender, with a whole array of production tools.
-- [Array Tools](https://blenderartists.org/t/array-tools-all-in-one-for-translation-scale-and-rotation-array/1170295?u=peetie) : is an addon for Blender to create translation, scale, rotation array with offset or global parameters in any direction and mix them. [![][repo]](https://github.com/Elreenys/array_tools)
+- [Array Tools](https://blenderartists.org/t/array-tools-all-in-one-for-translation-scale-and-rotation-array/1170295?u=peetie) : Addon for Blender to create translation, scale, rotation array with offset or global parameters in any direction and mix them. [![][repo]](https://github.com/Elreenys/array_tools)
 - [BezierUtility](https://github.com/Shriinivas/blenderbezierutils) : This add-on contains several tools for working with Bezier curves.
-- [Mesh Heal](https://blenderartists.org/t/mesh-heal/1117095) : is an add-on for Blender, it includes additional Blender operators for healing surface meshes.
-- [JewelCraft](https://github.com/mrachinskiy/jewelcraft) : jewelry design toolkit add-on for Blender.
+- [Mesh Heal](https://blenderartists.org/t/mesh-heal/1117095) : Add-on for Blender, it includes additional Blender operators for healing surface meshes.
+- [JewelCraft](https://github.com/mrachinskiy/jewelcraft) : Jewelry design toolkit add-on for Blender.
 - [Box Select X-Ray](https://blenderartists.org/t/box-select-x-ray/1212316) : Modified box select tool that automatically toggles x-ray mode on and off during selection.
-- [Polysweeper](https://blenderartists.org/t/polysweeper-0-81/1147066) : is a tool to sweep a face profile along a face loop.
+- [Polysweeper](https://blenderartists.org/t/polysweeper-0-81/1147066) : Tool to sweep a face profile along a face loop.
 - [Edit Split Normals](https://twitter.com/Oscurart/status/1243226933464268802) : Edit normals like meshes.
 - [Auto Mirror](https://blenderartists.org/t/auto-mirror-blender2-8-ver/1151539) : Automate a series of tasks, such as deleting a half, setting a mirror modifier, setting a clipping, etc.
 - [Drop It](https://blenderartists.org/t/drop-it-free-addon/1244259/) : Designed to drop fast and simply Objects to Ground or Surface. [![][repo]](https://github.com/maxivz/interactivetoolsblender)
 - [Maxivz’s Interactive Tools](https://gumroad.com/l/ynJmIV) : Collection of intuitive, context sensitive tools for Blender.
-- [Synced Modifiers](https://amanbairwal.gumroad.com/l/SyncedModifiers) : allows you to add modifiers to multiple objects at the same time and automatically syncs all the modifiers using Drivers.
+- [Synced Modifiers](https://amanbairwal.gumroad.com/l/SyncedModifiers) : Allows you to add modifiers to multiple objects at the same time and automatically syncs all the modifiers using Drivers.
 - CAD:
     - [Bonsai (formerly BlenderBIM)](https://bonsaibim.org) : An add-on for beautiful, detailed, and data-rich OpenBIM with Blender. [![][repo]](https://github.com/IfcOpenShell/IfcOpenShell) ![][gpl]
     - [Archipack](https://gumroad.com/l/ZRMyP) [$] : The Archipack addon for Blender contains a collection of parametric primitives for ArchViz. You can manipulate these primitives with a realtime on-screen editing interface.
     - [Building Tools](https://github.com/ranjian0/building_tools) : Building generation addon for blender.
-    - [Sverchok](https://nortikin.github.io/sverchok) : is a powerful parametric tool for architects, allowing geometry to be programmed visually with nodes. [![][repo]](https://github.com/nortikin/sverchok) ![][gpl]
+    - [Sverchok](https://nortikin.github.io/sverchok) : Powerful parametric tool for architects, allowing geometry to be programmed visually with nodes. [![][repo]](https://github.com/nortikin/sverchok) ![][gpl]
     - [CAD Sketcher](https://www.cadsketcher.com) : CAD Sketcher is a free and open-source project looking to enhance precision workflows in blender by bringing CAD like tools, features and usability. [![][repo]](https://github.com/hlorus/CAD_Sketcher) ![][gpl]
     - [CAD Transform](https://blenderartists.org/t/cad-like-transform/1226197) : CAD Transform provide intuitive snap from/to workflow, allow precise move/rotate/scale using advanced snap options and constraints in both object and edit mode. [![][repo]](https://github.com/s-leger/blender_cad_transforms) ![][gpl]
     - [MeasureIt-ARCH](https://github.com/kevancress/MeasureIt_ARCH) : An expansion of Antonio Vazquez's MeasureIt addon to add features to create Architectural Drawings.
-    - [JARCH-Vis](https://blenderartists.org/t/addon-jarch-vis/642607) : is add-on for Blender 3D that helps create commonly used object for architectural visualization. [![][repo]](https://github.com/BlendingJake/JARCH-Vis) ![][gpl]
+    - [JARCH-Vis](https://blenderartists.org/t/addon-jarch-vis/642607) : Add-on for Blender 3D that helps create commonly used object for architectural visualization. [![][repo]](https://github.com/BlendingJake/JARCH-Vis) ![][gpl]
     - [Fusion to Blender Bridge](https://github.com/inspace9018/fusion-to-blender-bridge) : One-click sync from Fusion 360 to Blender. Geometry updates on each CAD revision while materials, modifiers and hand-marked edges stay. ![][gpl]
 - Manufacturing/CAM:
     - [BlenderCAM](https://blendercam.com) : An Open Source solution for CAM with Blender 3D. [![][repo]](https://github.com/vilemduha/blendercam) ![][gpl]
@@ -204,37 +207,37 @@
 - Retopology/Remesh:
     - [retopoflow](https://blendermarket.com/products/retopoflow) : A suite of retopology tools for Blender. [![][repo]](https://github.com/CGCookie/retopoflow)
     - [InstantMeshesRemesh](https://blenderartists.org/t/instant-meshes-remesh/1114982) : A suite of retopology tools for Blender. [![][repo]](https://github.com/knekke/blender_addons#instantmeshesremesh)
-    - [SpeedRetopo](https://gumroad.com/l/speedretopo) : is a free add-on for Blender to make fast and easy retopology using Bsurface.
-    - [Retopo MT](https://gumroad.com/l/cNGNb) : is a tool for retopo, you use it in addition with other addons or tools in Blender, in Edit Mode.
+    - [SpeedRetopo](https://gumroad.com/l/speedretopo) : Free add-on for Blender to make fast and easy retopology using Bsurface.
+    - [Retopo MT](https://gumroad.com/l/cNGNb) : Tool for retopo, you use it in addition with other addons or tools in Blender, in Edit Mode.
 - Hard Surface:
     - [KIT OPS](https://gumroad.com/l/kitops) : Can create objects and scenes with extreme efficiency and speed. Complex industrial designs can be generated in a single sitting.
-    - [ND](https://hugemenace.gumroad.com/l/nd-blender-addon) : is a free non-destructive & interactive hard surface toolkit (smart modifiers, booleans, and geometry management) [![][repo]](https://github.com/hugemenace/nd) [![market]](https://www.blendermarket.com/products/nd-addon)
+    - [ND](https://hugemenace.gumroad.com/l/nd-blender-addon) : Free non-destructive & interactive hard surface toolkit (smart modifiers, booleans, and geometry management) [![][repo]](https://github.com/hugemenace/nd) [![market]](https://www.blendermarket.com/products/nd-addon)
     - [HardOps/Boxcutter](https://blendermarket.com/products/hard-ops--boxcutter-ultimate-bundle) [$] : [HardOps](https://blendermarket.com/products/hardopsofficial), is intended to be a workflow assistant toolkit. [Boxcutter](https://blendermarket.com/products/boxcutter), the most powerful boolean subsystem for blender.
     - [Speedflow](https://gumroad.com/l/speedflow) [$] : Addon for non-destructive workflow.
     - [Bevel After Boolean](https://blenderartists.org/t/wip-bevel-after-boolean/693072?u=peetie) : Addon comes in handy when working with booleans that have a curved surface.
     - [EdgeFlow](https://github.com/BenjaminSauder/EdgeFlow/tree/blender_28) : This addon adds two operators to blender which both work on edgeloop selections.
-    - [Engraver](https://gumroad.com/l/qOyVO) : is an Blender addon with set of few tools designed to help carving decals in 3D models.
-    - [Offset Edges](https://blenderartists.org/t/offset-edges/584283/259) : this addon introduces a cad-like feature, which create edges that have consistent distance from original selected ones.
+    - [Engraver](https://gumroad.com/l/qOyVO) : Blender addon with set of few tools designed to help carving decals in 3D models.
+    - [Offset Edges](https://blenderartists.org/t/offset-edges/584283/259) : This addon introduces a cad-like feature, which create edges that have consistent distance from original selected ones.
     - [Mesh Utils](https://github.com/rpopovici/mesh-utils) : Overlapping vert/edge/face, interior faces, edges by trait, and other stuff.
-    - [Poly Source](https://gumroad.com/l/polysource) : is designed to simplify the control of the number of different types of polygons. You can see how many Gone, Quad and Tris are on the active object.
+    - [Poly Source](https://gumroad.com/l/polysource) : Is designed to simplify the control of the number of different types of polygons. You can see how many Gone, Quad and Tris are on the active object.
 - Sculpt:
     - [Blender-Sculpt-Tools](https://github.com/anfeo/Blender-Sculpt-Tools) : Addon for help sculpting base mesh like Zbrush with Zsphere.
     - [Sculpt Alphas Manager](https://blenderartists.org/t/sculpt-alphas-manager/1200725) : This addon provides a simple solution to be able to quickly switch alpha textures for the sculpt brushes.
     - [Speedsculpt](https://gumroad.com/l/SpeedSculpt) [$] : The addon allows you to create very fast characters, to manage Dyntopo Sculpting with booleans, cut curves, skin modifier, decimate, mask etc.
     - [GoB](https://github.com/JoseConseco/GoB) : GoZ-alike tools for simple ZBrush-Blender interchange.
-    - [Brush Manager for Blender](https://gumroad.com/l/zLBPz) : is an add-on for Blender that helps you to create custom brushes, store them in a file and organize the library of various categories of brushes.
+    - [Brush Manager for Blender](https://gumroad.com/l/zLBPz) : Add-on for Blender that helps you to create custom brushes, store them in a file and organize the library of various categories of brushes.
 - Snapping-Align:
     - [Mesh Align Plus](https://github.com/egtwobits/mesh_mesh_align_plus) : Precisely align, move, and measure+match objects and mesh parts in your 3D scenes.
     - [Easy Align](https://blenderartists.org/t/addon-easy-align/685704) : Easy Align addon allows you to align mesh objects origins and align mesh objects to each others easily, it works in both Edit mode and Object mode. [![][repo]](https://github.com/sergeod9/Easy_Align_Addon)
-    - [Blign](https://jack-cooke.github.io/blign/) : is an alignment and distribution tool for Blender. It allows users to align and distribute shapes with many different options.
+    - [Blign](https://jack-cooke.github.io/blign/) : Alignment and distribution tool for Blender. It allows users to align and distribute shapes with many different options.
 - Mesh Generate/Stylization:
     - [Tissue](https://github.com/alessandro-zomparelli/tissue) : Add-on for computational design.
-    - [Mech/Fy](https://gumroad.com/l/KZllV) A procedural workflow that automates the process of hard surfaces modelling.
+    - [Mech/Fy](https://gumroad.com/l/KZllV) : Procedural workflow that automates the process of hard surfaces modelling.
     - [RandoMesh](https://github.com/mantissa-/RandoMesh) : A blender addon to add randomized geometry to any mesh.
     - [SliceMesh](https://github.com/mantissa-/SliceMesh) : Simple script for Blender to automate mesh slicing.
     - [SuperPoke](https://github.com/mantissa-/SuperPoke) : Iterative poking tool for Blender.
     - [MegaGrid](https://github.com/mantissa-/MegaGrid) : Simple Python script to randomly spam subdivisions.
-    - [BY-GEN](https://gumroad.com/l/BY-GEN) : is an addon designed to simplify the process of creating non-destructive, generative modeling styles in Blender. [![][repo]](https://github.com/curtisjamesholt/BY-GEN-public)
+    - [BY-GEN](https://gumroad.com/l/BY-GEN) : Addon designed to simplify the process of creating non-destructive, generative modeling styles in Blender. [![][repo]](https://github.com/curtisjamesholt/BY-GEN-public)
     - [Fiber Mesh](https://blenderartists.org/t/fiber-mesh-resurrected-for-2-80/1141872) : Generate fiber meshes.
     - [Laser Slicer](https://github.com/rgsouthall/laser_slicer) : Cuts up a Blender object and exports the slices to SVG files for cutting on a laser cutter or other post-processing.
 
@@ -242,15 +245,16 @@
 
 - [Animation Nodes](https://animation-nodes.com/) : A node based visual scripting system designed for motion graphics in Blender. [![][repo]](https://github.com/JacquesLucke/animation_nodes)
 - [Commotion](https://github.com/mrachinskiy/commotion) : Blender add-on for motion graphics.
-- [Animax](https://blendermarket.com/products/animax---procedural-animation-system-) [$] : is a procedural animation system for Blender. Useful for animating multiple objects.
+- [Animax](https://blendermarket.com/products/animax---procedural-animation-system-) [$] : Procedural animation system for Blender. Useful for animating multiple objects.
 - [AutoMask](https://github.com/lukas-blecher/AutoMask) : A Blender Add-on for automatic rotoscoping with the help of Machine Learning.
-- [COA Tools](https://github.com/ndee85/coa_tools) : is a 2D Animation Suite for blender. It offers a 2D cutout animation workflow similar to programs like spine or spriter.
+- [COA Tools](https://github.com/ndee85/coa_tools) : 2D Animation Suite for blender. It offers a 2D cutout animation workflow similar to programs like spine or spriter.
 - [reflow](https://gitlab.com/diegogangl/reflow) : Blender addon to change fps.
-- [Shape Keys+](https://blenderartists.org/t/shape-keys/680636) : adds a panel with extra options for creating, sorting, viewing, and driving shape keys.
-- [Stop-Mo](https://blendermarket.com/products/stop-mo) : transforms animations into a beautiful, hand-crafted stop motion style.
+- [Shape Keys+](https://blenderartists.org/t/shape-keys/680636) : Adds a panel with extra options for creating, sorting, viewing, and driving shape keys.
+- [Stop-Mo](https://blendermarket.com/products/stop-mo) : Transforms animations into a beautiful, hand-crafted stop motion style.
 - [Blender NLA Midi Copier](https://github.com/Cornerback24/Blender-NLA-Midi-Copier) : Blender add-on for creating midi-driven animations from the Nonlinear Animation view.
 - [BlendyPose](https://github.com/zonkosoft/BlendyPose) : Blender Motion Capture using your camera.
 - Rigging:
+    - [CloudRig](https://projects.blender.org/extensions/cloudrig) : Blender Studio's official feature-film quality Rigify feature set and rig generator for Blender. ![][gpl]
     - [BlenRig](https://www.blendermarket.com/products/blenrig) : BlenRig is an Auto-rigging and skinning system. It provides the user with a Feature Film quality rig; including an advanced facial system. [![][repo]](https://github.com/jpbouza/BlenRig) ![][gpl]
     - [Rig on the Fly](https://gitlab.com/dypsloom/rigonthefly) : Rig on the Fly is a Blender dynamic rigging tool used to simplify and speed up animation workflow.
     - [Auto-Rig Pro](https://blendermarket.com/products/auto-rig-pro) [$] : Auto-Rig Pro is an addon for Blender to rig characters, retarget animations, and provide Fbx export, with presets for Unity and Unreal Engine.
@@ -269,7 +273,7 @@
 
 ### 🗜 Render Engine
 
-- [AMD Radeon ProRender](https://www.amd.com/en/technologies/radeon-prorender-blender) : is AMD’s powerful physically-based rendering engine that lets creative professionals use open industry standards to leverage GPU and CPU performance to produce stunningly photorealistic images in Blender.
+- [AMD Radeon ProRender](https://www.amd.com/en/technologies/radeon-prorender-blender) : Is AMD’s powerful physically-based rendering engine that lets creative professionals use open industry standards to leverage GPU and CPU performance to produce stunningly photorealistic images in Blender.
     - [AMD Blender USD Hydra](https://gpuopen.com/learn/amd-usd-hydra-blender/) : With Pixar's USD system emerging as a powerful tool for 3D graphics pipelines and interchange, this addon is meant to add first class support for USD and the USD Hydra rendering system to Blender.
 - [DreamWork's MoonRay](https://openmoonray.org/) : MoonRay is a physically based path-tracing renderer; it includes a USD Hydra render delegate, multi-machine and cloud rendering via the Arras distributed computation framework. [![][repo]](https://github.com/dreamworksanimation/openmoonray)
 - [Pixar's RenderMan](https://renderman.pixar.com/) : Physically-based render from Pixar. [[more info]](https://rmanwiki.pixar.com/display/RFB24) ![][mit]
@@ -279,21 +283,21 @@
 - [Malt](https://malt3d.com/) : Malt is a non photorealistic rendering (NPR) framework. It offers fully customizable real-time rendering framework for animation and illustration. [![][repo]](https://github.com/bnpr/Malt) ![][mit]
 - [Pixel Art Rendering](https://lucasroedel.gumroad.com/l/pixel_art) : This is a free addon to make pixel art like renders in blender. It works with EEVEE, Bayer dithering and multiple light sources.
 - [Mitsuba Renderer](https://www.mitsuba-renderer.org/) : Mitsuba 3 is a research-oriented retargetable rendering system for forward and inverse light transport simulation. [![][repo]](https://github.com/mitsuba-renderer/mitsuba3) [(blender addon)](https://github.com/mitsuba-renderer/mitsuba-blender)
-- [appleseed](https://appleseedhq.net/) : is an open source, physically-based global illumination rendering engine primarily designed for animation and visual effects. [![][repo]](https://github.com/appleseedhq/appleseed) [(blender addon)](https://github.com/appleseedhq/blenderseed) ![][mit]
-- [E-Cycles](https://ecycles.gumroad.com/l/E-Cycles) [$] : is a fork of Cycles which renders up to 2.5x faster out of the box when using CUDA GPUs, up to 15x using new options.
+- [appleseed](https://appleseedhq.net/) : Open source, physically-based global illumination rendering engine primarily designed for animation and visual effects. [![][repo]](https://github.com/appleseedhq/appleseed) [(blender addon)](https://github.com/appleseedhq/blenderseed) ![][mit]
+- [E-Cycles](https://ecycles.gumroad.com/l/E-Cycles) [$] : Fork of Cycles which renders up to 2.5x faster out of the box when using CUDA GPUs, up to 15x using new options.
 - [K-Cycles](https://blendermarket.com/products/k-cycles) [$] : Another fork of Cycles like E-Cycles. Advertised as an improvement over E-Cycles.
 
 ### 🗺️ Texture/UV
 
-- [Layer Painter](https://joshuaknauber.gumroad.com/l/layerpainter) : allows you to use a Layer-System for creating materials with painting and procedurals. The layers include masks, filters and much more. Even though the addon is designed with a PBR workflow in mind, you can also use it for stylized painting. [![][repo]](https://github.com/joshuaKnauber/layer_painter)
+- [Layer Painter](https://joshuaknauber.gumroad.com/l/layerpainter) : Allows you to use a Layer-System for creating materials with painting and procedurals. The layers include masks, filters and much more. Even though the addon is designed with a PBR workflow in mind, you can also use it for stylized painting. [![][repo]](https://github.com/joshuaKnauber/layer_painter)
 - [TexTools](https://blenderartists.org/t/textools-for-blender/700811) : TexTools is a Free addon for Blender 3D with a set of professional UV and Texturing tools. [![][repo]](https://github.com/SavMartin/TexTools-Blender)
 - [3D-Coat Applink](https://www.youtube.com/watch?v=2bo2XGUPwIU) : 3DCoat now has native support of Blender via built-in AppLink.
 - [Bake to Vertex Color](https://github.com/danielenger/Bake-to-Vertex-Color) : Transfer Image to selected Vertex Color in all selected Objects.
-- [Bake Wrangler](https://blenderartists.org/t/bake-wrangler-node-based-baking-tool-set-ver-b0-9-4-curvycavity/1187732) : is a nodes based extension and replacement for the inbuilt baking system.
+- [Bake Wrangler](https://blenderartists.org/t/bake-wrangler-node-based-baking-tool-set-ver-b0-9-4-curvycavity/1187732) : Nodes based extension and replacement for the inbuilt baking system.
 - [Blender Addon PBR](https://github.com/DigiKrafting/blender_addon_pbr) : Provides a material panel that creates Metallic/Roughness or Specular/Gloss Nodes using the Principled BSDF shader.
 - [Bystedts Blender Baker](https://3dbystedt.gumroad.com/l/JAqLT) : This addon streamlines the texture baking process in Blender.
 - [Car Paint Shader](https://blenderesse.gumroad.com/l/carpaintshader) : Simple shader setup that lets you easily create variety of different car paint finishes.
-- [DreamUV](https://github.com/leukbaars/DreamUV) : is a collection of tools that allow you to manipulate UVs in the 3D viewport.
+- [DreamUV](https://github.com/leukbaars/DreamUV) : Collection of tools that allow you to manipulate UVs in the 3D viewport.
 - [EasyBake](https://github.com/leukbaars/EasyBake) : Texture baking UI for Blender that lives in the 3D Viewport. Small but powerful! Fast one-click baking and iteration.
 - [EZ Baker](https://blenderartists.org/t/ez-baker/1245869) : An easier alternative to blender's default bake system. [![][repo]](https://gitlab.com/AquaticNightmare/ez_baker)
 - [Flow Map Painter](https://clemensbeute.gumroad.com/l/heZDT) : This blender add-on provides a brush tool for flow map painting. [![][repo]](https://github.com/ClemensBeute/flow_map_painter)
@@ -303,7 +307,7 @@
 - [Magic UV](https://nutti.github.io/Magic-UV/) : This is a blender add-on Magic UV consisted of many UV manipulation features which Blender lack of. [![][repo]](https://github.com/nutti/Magic-UV)
 - [Parallax UV Mapping](https://neveselov.gumroad.com/l/btnpx) : This is Parallax Mapping material and node setup. Created in Blender 2.8 for EEVEE renderer, it works well in cycles too. [[more info]](https://www.youtube.com/watch?v=ZL695WnJvmU)
 - [PBR Texture Mapper](https://github.com/jayanam/pbr_texture_mapper) : Create PBR node setup with one click.
-- [Poliigon Blender Addon](https://help.poliigon.com/en/articles/6342599) : this addon allows you to browse, purchase, download, and import Poliigon assets from inside Blender. It supports loading textures, models, and HDRs, and more recently supports generating blender files for use in the Blender Asset Browser.
+- [Poliigon Blender Addon](https://help.poliigon.com/en/articles/6342599) : Allows you to browse, purchase, download, and import Poliigon assets from inside Blender. It supports loading textures, models, and HDRs, and more recently supports generating blender files for use in the Blender Asset Browser.
 - [Principled-Baker](https://github.com/danielenger/Principled-Baker) : Bake PBR textures with a few clicks.
 - [Sanctus Library](https://blendermarket.com/products/sanctus-library-addon---procedural-shaders-collection-for-blender/) [$] : The ever-growing procedural material library for Blender.
 - [SCATTr](https://gumroad.com/l/scattr) : Procedural texture placement.
@@ -317,140 +321,142 @@
 
 - [MeshSync](https://github.com/unity3d-jp/MeshSync) : Live link plugin for Unity. supported blender and other 3D software.
 - [Blender Tools by Epic Games](https://www.unrealengine.com/en-US/blog/download-our-new-blender-addons) : Blender addons that improve the game development workflow between Blender and Unreal. _Send to Unreal, UE to Rigify._
-- [Mr Mannequins Tools](https://github.com/Jim-Kroovy/Mr-Mannequins-Tools) : is a Blender add-on that gives the ability to export animations and weighted meshes that are directly compatible with the third person mannequin without re-targeting anything in Unreal Engine!
+- [Mr Mannequins Tools](https://github.com/Jim-Kroovy/Mr-Mannequins-Tools) : Blender add-on that gives the ability to export animations and weighted meshes that are directly compatible with the third person mannequin without re-targeting anything in Unreal Engine!
 - [Blender For Unreal Engine](https://github.com/xavier150/Blender-For-UnrealEngine-Addons) : This Add-on allows you to export content created with Blender to Unreal Engine 4.
-- [AssetGen](https://blenderartists.org/t/assetgen-create-a-game-asset-in-a-single-click/702849) : is automates the tasks to get a game assets ready for video games from an High Poly model.
+- [AssetGen](https://blenderartists.org/t/assetgen-create-a-game-asset-in-a-single-click/702849) : Automates the tasks to get a game assets ready for video games from an High Poly model.
 - [V-HACD](https://blenderartists.org/t/v-hacd-tool-for-creating-accurate-convex-collision-meshes-for-real-time-physics-in-games-etc/1156822) : Library decomposes a 3D surface into a set of near convex parts. [![][repo]](https://github.com/andyp123/blender_vhacd)
 - [Godot Game Tools](https://viniguerrero.itch.io/godot-game-tools) : Made easy importing mixamo animations. tools to ease the creation/import process of assets into Godot Game Engine and others.
-- [Blender2Godot](https://www.zammedev.com/home/wip_projects/blender2godot) : is a addon that exports a Blender scene to a Godot Engine project.
+- [Blender2Godot](https://www.zammedev.com/home/wip_projects/blender2godot) : Addon that exports a Blender scene to a Godot Engine project.
+- [Blenvy](https://github.com/kaosat-dev/Blenvy) : Blender-centric workflow and component editor for the Rust-based Bevy game engine. ![][mit]
 - [Embark Blender Tools](https://github.com/EmbarkStudios/blender-tools) : A Blender add-on containing workflow tools for game development. Includes tools for standardized import/export workflow, 3D modelling and new object types. [[medium]](https://medium.com/embarkstudios/a-love-letter-to-blender-e54167c22193)
 - [Asset Creation Toolset](https://gumroad.com/l/hPXIh) : Asset Creation Toolset is many tools for game asset creation.
-- [Mixamo Converter](https://github.com/enziop/mixamo_converter) : is a Blender Plugin that Converts Mixamo animations to work in Unreal Engine 4 with root motion.
-- [WoT Tank Viewer](https://bitbucket.org/SkepticalFox/bigworld-blender-tools-wot-wowp-wows) : is a package of plugins for Blender, which allows you view 3D models from World of Tanks.
+- [Mixamo Converter](https://github.com/enziop/mixamo_converter) : Blender Plugin that Converts Mixamo animations to work in Unreal Engine 4 with root motion.
+- [WoT Tank Viewer](https://bitbucket.org/SkepticalFox/bigworld-blender-tools-wot-wowp-wows) : Package of plugins for Blender, which allows you view 3D models from World of Tanks.
 - Game Engine:
-    - [Armory3D](https://armory3d.org/) : is an open-source 3D game engine with full Blender integration. [![][repo]](https://github.com/armory3d/armory)
-    - [UPBGE](https://upbge.org/) : is an open-source 3D game engine forked from old Blender Game Engine, deployed with Blender itself. [![][repo]](https://github.com/UPBGE/upbge)
-    - [Arsenal](https://katharostech.github.io/arsenal) : is a Blender integrated game engine written in Rust. [![][repo]](https://github.com/katharostech/arsenal)
-    - [INOX](https://github.com/gents83/INOX) : Rust Game engine integrated in Blender.
+    - [Armory3D](https://armory3d.org/) : Open-source 3D game engine with full Blender integration. [![][repo]](https://github.com/armory3d/armory)
+    - [UPBGE](https://upbge.org/) : Open-source 3D game engine forked from old Blender Game Engine, deployed with Blender itself. [![][repo]](https://github.com/UPBGE/upbge)
 
 ### 🤖 AI/MCP
 
-- [BlenderMCP](https://github.com/ahujasid/blender-mcp) : Connects Blender to Claude AI and other MCP clients through the Model Context Protocol for prompt-assisted 3D modeling, scene creation, and manipulation. ![][mit]
-- [Dream Textures](https://github.com/carson-katri/dream-textures) : Stable Diffusion built-in to the Blender shader editor, image editor, and compositor. ![][gpl]
-- [AI Render](https://github.com/benrugg/AI-Render) : Stable Diffusion in Blender. This add-on renders an AI generated image based on a text prompt and your scene.
-- [blender-kiln](https://github.com/elithril/blender-kiln) : A Claude Code plugin that drives Blender through an MCP server to build, texture, optimize, and export game-ready assets from a text brief or a photo. ![][mit]
-- [DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender) : Agent toolkit that lets AI coding agents build models in Blender with a `bpy` knowledge base, an execution contract, and a 3D-print production gate.
-- [BlenderProc](https://github.com/DLR-RM/BlenderProc) : A procedural Blender pipeline for photorealistic training image generation. ![][gpl]
-- [BlenderSynth](https://github.com/OllieBoyne/BlenderSynth) : Blender scripting for generating synthetic datasets at scale.
+- Agentic & MCP:
+    - [BlenderMCP](https://github.com/ahujasid/blender-mcp) : Connects Blender to Claude AI and other MCP clients through the Model Context Protocol for prompt-assisted 3D modeling, scene creation, and manipulation. ![][mit]
+    - [blender-kiln](https://github.com/elithril/blender-kiln) : A Claude Code plugin that drives Blender through an MCP server to build, texture, optimize, and export game-ready assets from a text brief or a photo. ![][mit]
+    - [DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender) : Agent toolkit that lets AI coding agents build models in Blender with a `bpy` knowledge base, an execution contract, and a 3D-print production gate.
+    - [ComfyUI-Blender](https://github.com/alexisrolland/ComfyUI-Blender) : Blender add-on to run ComfyUI workflows directly inside Blender for AI texture, image, and 3D asset generation.
+- Generative 3D, Textures & Video:
+    - [Hunyuan3D-2](https://github.com/Tencent-Hunyuan/Hunyuan3D-2) : High-resolution open-source 3D asset creation system (Text/Image-to-3D geometry and PBR textures) with an official Blender add-on.
+    - [Dream Textures](https://github.com/carson-katri/dream-textures) : Stable Diffusion built-in to the Blender shader editor, image editor, and compositor. ![][gpl]
+    - [AI Render](https://github.com/benrugg/AI-Render) : Stable Diffusion in Blender. This add-on renders an AI generated image based on a text prompt and your scene.
+    - [Pallaidium](https://github.com/tin2tin/Pallaidium) : Generative AI movie studio integrated into the Blender Video Sequence Editor (VSE) for text, image, audio, and video generation. ![][gpl]
+- Synthetic Data & Vision AI:
+    - [BlenderProc](https://github.com/DLR-RM/BlenderProc) : A procedural Blender pipeline for photorealistic training image generation. ![][gpl]
+    - [BlenderSynth](https://github.com/OllieBoyne/BlenderSynth) : Blender scripting for generating synthetic datasets at scale.
+    - [Kubric](https://github.com/google-research/kubric) : Data generation pipeline by Google Research for creating semi-realistic synthetic multi-object videos with rich ground-truth annotations using Blender and PyBullet.
 
-### 🪀 Misc
+### 🎬 Lighting, Camera & Video
 
-- Management:
-    - [BlenderKit](https://www.blendkit.com/) : Allows you to download assets, materials, and alpha brushes to your blender client with the click of a button.
-    - [Blender Interplanety Storage](https://blenderartists.org/t/bis-online-material-storage/689728) : The online material (shader) storage add-on for Blender 3D creation. With the BIS add-on, you can save materials (groups of nodes) to the online personal library and then convenient search and upload them.
-    - [Asset Wizard](https://blenderartists.org/t/asset-wizard-for-blender-2-8/1149311) : is a asset management addon.
-    - [NodeCustomBuilder](https://blenderartists.org/t/nodecustombuilder-2-8-free-addon/1152185) : Preset system for nodes.
-    - [FontSelector](https://github.com/samytichadou/FontSelector_blender_addon/) : Easy font management inside Blender.
-    - [Shot Manager by Ubisoft](https://github.com/ubisoft/shotmanager) : is a add-on that introduces a true shot entity in Blender scenes.
-- Lighting/HDRI:
-    - [Gaffer](https://github.com/gregzaal/Gaffer) : is a Blender add-on that helps you light your scenes by presenting all the right settings in convenient panels for quick access and experimentation. [![market]](https://blendermarket.com/products/gaffer-light-manager/)
-    - [Extra Lights](https://github.com/jlampel/bl_extra_lights) : is a plugin for Blender that adds physically based, photometric lighting presets to the Add menu. [![market]](https://blendermarket.com/products/extra-lights)
-    - [HDRI Sun Aligner](https://github.com/akej74/hdri-sun-aligner) : HDRI Sun Aligner is a Blender addon for automatically rotating an object (e.g. a sun) to match the brightest point in a HDRI environment texture.
-    - [LeoMoon LightStudio](https://leomoon.com/downloads/plugins/leomoon-lightstudio/) : Lighting system for Blender. [![market]](https://blendermarket.com/products/leomoon-lightstudio)
-    - [Physical Starlight and Atmosphere](https://blendermarket.com/products/physical-starlight-and-atmosphere) [$] : is a full environmental simulator that takes inspiration of 'sandbox' game worlds and editors, bringing visual consistency between every object in the scene.
-    - [Free Sky Environment Shading](https://gumroad.com/l/JUyxL) : free custom procedural environment shading.
-    - [Lumiere](https://github.com/clarkx/Lumiere-V0.4) : Interactive Lighting add-on for Blender.
-- Geographic/Maps:
-    - [BlenderGIS](https://github.com/domlysz/BlenderGIS) : Blender addons to make the bridge between Blender and geographic data.
-    - [Maps Models Importer](https://github.com/eliemichel/MapsModelsImporter) : A Blender add-on to import models from _Google Maps_. [[more info]](https://blog.exppad.com/article/importing-actual-3d-models-from-google-maps)
-    - [blender-osm](https://gumroad.com/l/blender-osm) : One click download and import of OpenStreetMap and terrain for Blender.
-- VR/AR:
-    - [A-Frame VR](https://github.com/silverslade/aframe_blender_exporter) : Blender add-on allows you to model your scene in Blender and export it to an A-Frame VR project with a single click.
-    - [blender-xr](https://github.com/MARUI-PlugIn/BlenderXR) : A free virtual and mixed reality user interface for Blender that enables artists to edit scenes within the software using a suitable headset and controllers.
-    - [Blender-Metaverse-Addon](https://github.com/Menithal/Blender-Metaverse-Addon) : Blender toolset for creating content for Metaverses like High Fidelity.
-- Import:
-    - [Daz Importer](https://bitbucket.org/Diffeomorphic/import_daz), [glTF](https://github.com/KhronosGroup/glTF-Blender-IO), [Rhinoceros3D files](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [cityGML](https://github.com/zeffii/io_cityGML_basic), [.SVG](https://github.com/Shriinivas/shapekeyimport), [.XPS](https://github.com/johnzero7/XNALaraMesh), [.GIF](https://github.com/doakey3/Bligify), Quake: [.BSP](https://blenderartists.org/t/quake-1996-game-bsp-import-script/578191) [.MD3](https://github.com/axredneck/blender-md3/tree/blender2.8).
-    - [Sketchfab Blender Addon](https://github.com/sketchfab/blender-plugin) : Directly import and export models from and to Sketchfab in Blender.
-- Export:
-    - [USDZ](https://github.com/robmcrosby/BlenderUSDZ), [glTF MultiExport](https://github.com/MozillaReality/blender-gltf-multiexport-addon), [ZBrush](https://blenderartists.org/t/goz-for-blender-2-8/1138418), [.VTK](https://github.com/tkeskita/io_mesh_vtk), [Bezier2SVG](https://leomoon.com/downloads/plugins/leomoon-bezier2svg/), [Panda3D](https://github.com/Moguri/blend2bam), [XRay-engine](https://github.com/PavelBlend/blender-xray).
-    - [Export Paper Model from Blender](https://addam.github.io/Export-Paper-Model-from-Blender/) : Add-on for creating paper models. [![][repo]](https://github.com/addam/Export-Paper-Model-from-Blender)
-    - [Batex](https://github.com/jayanam/batex) : Export selected objects as fbx in batch operation.
-    - [Blender To Unity FBX Exporter](https://github.com/jayanam/batex) : FBX exporter add-on for Blender compatible with Unity's coordinate and scaling system.
-    - [Export Object Dimensions](https://github.com/rafaeloliveiraz/blender-dimexport) : Export the width, height, depth and volume of selected objects to TXT, CSV or JSON, with custom labels and unit conversion. ![][gpl]
-- Render:
-    - [Loom](https://github.com/p2or/blender-loom) : Add-on to simplify the rendering process of image sequences and certain frames, allows batch rendering and comes with some handy utilities that help in production.
-    - [BatchRender](https://github.com/VertStretch/RenderBurst), [Notify](https://github.com/Dziban-dev/Notify_Blender_Render), [AlarmShutdown](https://gumroad.com/l/PcDfw), [RenderButton](https://github.com/Mitsuma/Blender2.8-RenderButton).
-    - [MDSANIMA RenderTime](https://github.com/mdsanima-dev/mdsanima-render-time) : Blender add-on estimates and calculate how long your animation will take to render done based on the rendering time of the only one frame.
-    - [Super Res Render](https://pidgeontools.gumroad.com/l/SuperResRender) : Plugin that splits renders up into several chunks to make rendering at super high resolutions possible.
-    - [Super Fast Render](https://pidgeontools.gumroad.com/l/SuperFastRender) : Either uses preset render settings optimised to speed up render times or Uses a benchmark to detect the fastest settings for the same render quality
-    - [Super Image Denoiser](https://pidgeontools.gumroad.com/l/SuperImageDenoiser) : Super high quality denoiser that desnoises the scene in several layers to reduce artifacts
+- Lighting & Environment:
+    - [Gaffer](https://github.com/gregzaal/Gaffer) : Light manager that presents all scene lighting and HDRI settings in streamlined panels for quick experimentation. [![market]](https://blendermarket.com/products/gaffer-light-manager/)
+    - [Extra Lights](https://github.com/jlampel/bl_extra_lights) : Adds physically based, photometric lighting presets to the Add menu. [![market]](https://blendermarket.com/products/extra-lights)
+    - [HDRI Sun Aligner](https://github.com/akej74/hdri-sun-aligner) : Automatically rotates a sun lamp or object to match the brightest point in an HDRI environment texture.
+    - [LeoMoon LightStudio](https://leomoon.com/downloads/plugins/leomoon-lightstudio/) : Interactive studio lighting system for Blender. [![market]](https://blendermarket.com/products/leomoon-lightstudio)
+    - [Physical Starlight and Atmosphere](https://blendermarket.com/products/physical-starlight-and-atmosphere) [$] : Full procedural sky, sunlight, and atmosphere simulator for visual consistency across scenes.
+    - [Free Sky Environment Shading](https://gumroad.com/l/JUyxL) : Free custom procedural sky and environment shader node setup.
+    - [Lumiere](https://github.com/clarkx/Lumiere-V0.4) : Interactive raycast lighting add-on for Blender.
+    - [Projectors](https://github.com/Ocupe/Projectors) : Physically plausible projector creation and modification in Cycles and EEVEE.
+    - [EEVEE Presets](https://github.com/danielenger/Eevee-Presets) : Save and load render presets for EEVEE.
 - Camera:
-    - [Real Camera](https://3d-wolf.com/products/camera.html) : is an addon that allows you to control the Blender camera like a real camera.
-    - [Cameras-Lister](https://github.com/Ryxx/Cameras-Lister) : Easy select camera’s in popup shortcut is Alt-C.
-    - [Photographer 2](https://gumroad.com/chafouin#FWQf) : Camera Exposure, White balance and Autofocus. Photographer 2 was made completely free for all.
-    - [Camera Shakify](https://github.com/EatTheFuture/camera_shakify) : An addon for Blender that lets you easily add realistic camera shake to your cameras.
-- Audio Visualizer
-    - [Bizualizer](https://github.com/doakey3/Bizualizer), [Curtis Holt's](https://gumroad.com/l/klmfi).
-- Display:
-    - [Screencast-Keys](https://github.com/nutti/Screencast-Keys) : Status Add-On for Blender.
-    - [Shortcut VUr](https://github.com/jayanam/shortcut_VUr) : With this addon you can display mouse and keyboard input.
-    - [ExtraInfo](https://gumroad.com/l/UznDL) : Show more info in the viewport.
-    - [AStats](https://github.com/YuriyAndropov/blenderPython/tree/master/AStats) : Show Stats in Viewport.
-- VideoEditor:
-    - [Bangingcuts](https://github.com/OllyFunkster/bangingcuts): Cut up audio and video clips based on peaks in the audio track removing silences. Last Blender versions: don't install the zip, install .py file instead.
-    - [Power Sequencer](https://github.com/GDQuest/blender-power-sequencer) : Brings smart new editing features to edit faster with Blender's Video Sequence Editor. It is completely Free and Open Source.
-    - [VSEQF](https://github.com/snuq/VSEQF) : is an overhaul for Blender's VSE that can completely change your workflow. Designed for quick, mouse and keyboard balanced editing with a focus on real-time feedback.
-    - [Transform Tools](https://github.com/doakey3/VSE_Transform_Tools) : Quickly transform, crop and fade video strips in Blender's Video Sequence Editor.
-    - [Easy Proxy](https://github.com/cgvirus/blender-vse-easy-proxy) : Blender addon to create proxy files for Video Sequence Editor (VSE) easily using FFMPEG.
-    - [Parallel_Render](https://github.com/elmopl/ktba/wiki/Addons) : Render the output from the Sequencer multithreaded through the Render sidebar.
-    - [Export EDL](https://github.com/tin2tin/ExportEDL) : Exports: video, audio and dissolves. to ex. Davinci Resolve, Lightworks, Final Cut Pro & Premiere Pro.
-    - [Import EDL](https://github.com/tin2tin/import_edl) : Imports: video, audio and dissolves.
-    - [Freesound Add-on](https://github.com/iwkse/freesound/tree/freesound-2.0) : is an addon for Blender that allows users to create and edit subtitles for movies or music.
-    - [Push to Talk](https://github.com/britalmeida/blender_addon_push_to_talk) : Convenient recording of scratch dialog for an edit.
-    - [Scene Strip Tools](https://github.com/tin2tin/scene_strip_tools) : Preview Scene Strips directly in the 3D View.
-    - [Subsimport](https://github.com/doakey3/Subsimport) : is an addon for Blender that allows users to create and edit subtitles for movies or music.
-    - [LUT Exporter](https://github.com/ichlubna/BlenderLUTExporter) : is an addon for export of LUT .cube files from the VSE adjustment layer.
-- TextEditor:
-    - [Snippets Library](https://github.com/Pullusb/snippetsLibrary) : Allow you use and manage a library of your own and existing code snippets.
-    - [Search Online References](https://github.com/tin2tin/Search-API-Reference) : Search current text in API Reference, Python Reference, Blender Stack Exchange, Blender Source Code and Github.
-    - [Run PEP8 Check](https://github.com/tin2tin/Python_Stylechecker_for_Blender) : Check current script for pep8 mistakes.
-    - [Insert and Navigate to Text Markers](https://github.com/tin2tin/TextMarker-blender-addon) : Insert and navigate to text marker positions.
-    - [Autocomplete/Intellisense](https://github.com/tin2tin/Intellisense_for_Blender_Text_Editor) : Autocomplete/Intellisense for the Text Editor.
-- Photogrammetry:
-    - [Photogrammetry Importer](https://github.com/SBCV/Blender-Addon-Photogrammetry-Importer) : Addon to import different photogrammetry formats into Blender.
-    - [blender_kitti](https://github.com/risteon/blender_kitti) : Render large point clouds and voxel grids with blender.
-    - [Point Cloud Visualizer](https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280) : Display, edit, filter, render, convert, generate and export colored point cloud PLY files.
-- EEVEE:
-    - [Glass for EEVEE](https://www.blendswap.com/blend/25759) : This shader allows you to make realistic glass with EEVEE.
-    - [SSGI for EEVEE](https://gumroad.com/l/PgyXc) : Converts Diffuse and Principled BSDFs to nodegroups that give representation of diffuse component to SSR for SSGI effect.
-    - [Shader Displacement for EEVEE](https://gumroad.com/l/WDCRp) : Using a few modifiers and a nodegroup, realtime shader displacement in EEVEE is now possible.
-    - [EEVEE Presets](https://github.com/danielenger/Eevee-Presets) : Save EEVEE Presets.
-- [Projectors](https://github.com/Ocupe/Projectors) : A blender add-on for simple projector creation and modification.
-- [Simple Renaming Panel](https://github.com/Weisl/simple_renaming_panel) : Rename more objects at once. The tool includes basic functionalities of adding suffixes, prefixes, search and replace, add suffixes depending on the object type and much more.
-- [IOR Reference](https://gitlab.com/diegogangl/IOR_reference) : A blender addon that display IOR values in a list.
-- [QuickSwitch](https://github.com/schroef/QuickSwitch) : A helper to quick switch workspaces and view render menu in viewport.
-- [MifthTools](https://github.com/mifth/mifthtools) : 3Dcoat, Houdini, Modo mesh exchange tools and more.
-- [Modifier List](https://github.com/Symstract/modifier_list) : Blender add-on with enhanced UI layout for modifiers with handy features. Replaces the regular modifier UI and adds a tab in the Sidebar and a popup.
-- [Verge3D](https://www.soft8soft.com/get-verge3d/) : is a powerful yet cost-efficient solution for creating interactive 3D web experiences.
-- [ProSidebar](https://github.com/CreativeDesigner3D/ProSidebar) : Add additional properties and operators to the 3D View Sidebar.
-- [Tilecam](https://github.com/stuffmatic/tilecam) : Render seamlessly repeatable images.
-- [Fbx Format Converter](https://github.com/BobbyAnguelov/FbxFormatConverter) : This project allows you to convert binary fbx files to asciis and vice versa.
-- [Set Viewport Color](https://github.com/johnnygizmo/set_viewport_color) : Blender Script to Set the Viewport Color based on a nodetree.
-- [PresetterProfessional](https://github.com/dpdpforlife/PresetterProfessional) : View and visibility presets, 3d cursor presets, snap presets, etc. presets.
-- [PowerSave](https://gumroad.com/l/powersave) : is a tool intended to streamline saving and make saving itself more accessible, friendly and more artist streamlined.
-- [Lodify](https://devtalk.blender.org/t/level-of-detail-addon/12840) : LOD(Level of Detail) and Proxy system for blender. [![][repo]](https://github.com/DB3D/Lodify)
-- [Multi-user](https://blenderartists.org/t/multi-user/1187118) : Enable real-time collaborative workflows inside blender. [![][repo]](https://gitlab.com/slumber/multi-user)
-- [Screenwriter](https://github.com/tin2tin/Blender_Screenwriter) : Write screenplays in Blender Text Editor in Fountain markup syntax view/export with correct screenplay formatting.
-- [Kaleidoscope](https://github.com/blenderskool/kaleidoscope) : The add-on adds two new nodes, Spectrum and Intensity, which essentially improves your workflow inside Blender when creating materials.
-- [Mixer by Ubisoft](https://github.com/ubisoft/mixer) : is a Blender addon developed at Ubisoft Animation Studio for Real Time Collaboration in 3D edition.
-- [Daz to Blender Bridge](https://www.daz3d.com/daz-to-blender-bridge) : This easy-to-use Bridge transfers your Genesis 8 and 3 characters from Daz directly to Blender.
-- [Substance 3D add-on for Blender by Adobe](https://substance3d.adobe.com/magazine/the-substance-3d-add-on-for-blender-is-here/) : with this add-on you can access your Substance materials directly inside Blender.
-- [Theme Switcher](https://blenderartists.org/t/theme-switcher/1211787) : Addon to quickly change active theme not leaving 3D View.
-- [LibSM64-Blender](https://github.com/libsm64/libsm64-blender) : This add-on integrates libsm64 into Blender and provides various additional integrations with Fast64.
-- [Needle Engine](http://docs.needle.tools/blender) : allows you to create highly interactive, flexible and lightweight web applications right inside Blender.
-- [NodeToPython](https://github.com/BrendanParmer/NodeToPython) : Convert Geometry, Shader, and Compositing nodes to legible Python scripts and add-ons. [![][mit]](https://github.com/BrendanParmer/NodeToPython/blob/main/LICENSE)
-- [Leviate for Blender](https://extensions.blender.org/add-ons/leviate/) : Moves the 3D view or the selected objects with your hand, through a webcam or a phone. The hand tracking runs inside Blender. [![][repo]](https://github.com/vladpereverzyev/leviate)
+    - [Photographer 2](https://gumroad.com/chafouin#FWQf) : Physical camera exposure, white balance, and autofocus controls (v2 available for free).
+    - [Camera Shakify](https://github.com/EatTheFuture/camera_shakify) : Adds realistic, motion-captured camera shake to Blender cameras.
+    - [Real Camera](https://3d-wolf.com/products/camera.html) : Controls the Blender camera using real-world photographic parameters.
+    - [Cameras-Lister](https://github.com/Ryxx/Cameras-Lister) : Quick popup menu (`Alt+C`) to switch and manage scene cameras.
+    - [Tilecam](https://github.com/stuffmatic/tilecam) : Camera setup helper for rendering seamlessly repeatable tiles.
+- Render & Batch Utilities:
+    - [Loom](https://github.com/p2or/blender-loom) : Simplifies rendering of specific frame ranges, batch rendering, and background encoding.
+    - [MDSANIMA RenderTime](https://github.com/mdsanima-dev/mdsanima-render-time) : Estimates total animation render time from a single frame.
+    - [Super Res Render](https://pidgeontools.gumroad.com/l/SuperResRender) : Splits renders into chunks to render ultra-high-resolution images without running out of VRAM.
+    - [Super Fast Render](https://pidgeontools.gumroad.com/l/SuperFastRender) : Benchmarks and optimizes Cycles render settings for maximum speed at target quality.
+    - [Super Image Denoiser](https://pidgeontools.gumroad.com/l/SuperImageDenoiser) : Multi-pass temporal and spatial denoiser node setup to reduce render artifacts.
+    - Batch & Notification Helpers : [BatchRender](https://github.com/VertStretch/RenderBurst), [Notify](https://github.com/Dziban-dev/Notify_Blender_Render), [AlarmShutdown](https://gumroad.com/l/PcDfw), [RenderButton](https://github.com/Mitsuma/Blender2.8-RenderButton).
+- Video Sequence Editor (VSE) & Audio:
+    - [Power Sequencer](https://github.com/GDQuest/blender-power-sequencer) : Free and open-source productivity tools for faster editing in Blender's Video Sequence Editor.
+    - [VSEQF](https://github.com/snuq/VSEQF) : Quick Functions overhaul for Blender VSE focused on real-time feedback and mouse/keyboard editing.
+    - [Transform Tools](https://github.com/doakey3/VSE_Transform_Tools) : Interactive strip transform, crop, and fade controls in the VSE preview.
+    - [Easy Proxy](https://github.com/cgvirus/blender-vse-easy-proxy) : Generates FFmpeg video proxies for smooth VSE playback.
+    - [Parallel_Render](https://github.com/elmopl/ktba/wiki/Addons) : Multi-threaded rendering for the Video Sequence Editor.
+    - [Bangingcuts](https://github.com/OllyFunkster/bangingcuts) : Automatically cuts audio and video strips based on audio peaks to remove silences.
+    - [Export EDL](https://github.com/tin2tin/ExportEDL) & [Import EDL](https://github.com/tin2tin/import_edl) : Exchange timelines with DaVinci Resolve, Premiere Pro, and Final Cut Pro via EDL.
+    - [Scene Strip Tools](https://github.com/tin2tin/scene_strip_tools) : Preview and edit VSE Scene Strips directly in the 3D Viewport.
+    - [Subsimport](https://github.com/doakey3/Subsimport) & [Freesound Add-on](https://github.com/iwkse/freesound/tree/freesound-2.0) : Subtitle editing and direct Freesound audio importing in VSE.
+    - [Push to Talk](https://github.com/britalmeida/blender_addon_push_to_talk) : Record scratch dialogue directly into the VSE timeline.
+    - [LUT Exporter](https://github.com/ichlubna/BlenderLUTExporter) : Exports `.cube` LUT files from VSE adjustment layers.
+    - [Screenwriter](https://github.com/tin2tin/Blender_Screenwriter) : Write and format screenplays in Blender's Text Editor using Fountain syntax with VSE sync.
+    - Audio Visualizers : [Bizualizer](https://github.com/doakey3/Bizualizer), [Curtis Holt's Audio Visualizer](https://gumroad.com/l/klmfi).
 
+### 📦 Pipeline, I/O & 3D Scanning
+
+- Import & Software Bridges:
+    - [VRM Add-on for Blender](https://github.com/saturday06/VRM-Addon-for-Blender) : Adds VRM humanoid avatar import, export, shading, and rigging capabilities to Blender. ![][mit]
+    - [Sketchfab Blender Addon](https://github.com/sketchfab/blender-plugin) : Browse, import, and upload 3D models directly between Sketchfab and Blender.
+    - [Substance 3D add-on for Blender by Adobe](https://substance3d.adobe.com/magazine/the-substance-3d-add-on-for-blender-is-here/) : Load and tweak parametric Substance `.sbsar` materials directly inside Blender.
+    - [Daz to Blender Bridge](https://www.daz3d.com/daz-to-blender-bridge) : Transfers Genesis characters and rigs from Daz Studio directly into Blender.
+    - [MifthTools](https://github.com/mifth/mifthtools) : Mesh exchange tools for 3DCoat, Houdini, and Modo.
+    - [LibSM64-Blender](https://github.com/libsm64/libsm64-blender) : Integrates `libsm64` physics and Mario 64 character workflows into Blender.
+    - Format Importers : [Daz Importer](https://bitbucket.org/Diffeomorphic/import_daz), [glTF-Blender-IO](https://github.com/KhronosGroup/glTF-Blender-IO), [Rhinoceros 3D (`.3dm`)](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [CityGML](https://github.com/zeffii/io_cityGML_basic), [SVG Shape Keys](https://github.com/Shriinivas/shapekeyimport), [XPS/XNALara](https://github.com/johnzero7/XNALaraMesh), [Animated GIF (Bligify)](https://github.com/doakey3/Bligify).
+- Export & Format Converters:
+    - [Export Paper Model from Blender](https://addam.github.io/Export-Paper-Model-from-Blender/) : Unfolds 3D meshes into printable SVG/PDF papercraft patterns. [![][repo]](https://github.com/addam/Export-Paper-Model-from-Blender)
+    - [Batex](https://github.com/jayanam/batex) : Batch-exports selected objects as FBX compatible with Unity's coordinate and scaling system.
+    - [Export Object Dimensions](https://github.com/rafaeloliveiraz/blender-dimexport) : Exports width, height, depth, and volume of selected objects to TXT, CSV, or JSON with unit conversion. ![][gpl]
+    - [Fbx Format Converter](https://github.com/BobbyAnguelov/FbxFormatConverter) : Converts binary FBX files to ASCII and vice versa.
+    - Format Exporters : [USDZ](https://github.com/robmcrosby/BlenderUSDZ), [glTF MultiExport](https://github.com/MozillaReality/blender-gltf-multiexport-addon), [VTK](https://github.com/tkeskita/io_mesh_vtk), [Bezier2SVG](https://leomoon.com/downloads/plugins/leomoon-bezier2svg/), [Panda3D (`blend2bam`)](https://github.com/Moguri/blend2bam), [X-Ray Engine](https://github.com/PavelBlend/blender-xray).
+- Photogrammetry & Gaussian Splatting:
+    - [3DGS Render by KIRI Engine](https://github.com/Kiri-Innovation/3dgs-render-blender-addon) : Open-source add-on for importing, editing, deforming, and rendering 3D Gaussian Splatting (`.ply`) scenes directly inside Blender. ![][gpl]
+    - [Gaussian Splatting Blender Add-on](https://github.com/ReshotAI/gaussian-splatting-blender-addon) : Lightweight utility to import and visualize 3D Gaussian Splats inside the Blender viewport. ![][mit]
+    - [Photogrammetry Importer](https://github.com/SBCV/Blender-Addon-Photogrammetry-Importer) : Imports reconstruction outputs from COLMAP, Meshroom, OpenMVG, and VisualSFM into Blender.
+    - [Point Cloud Visualizer](https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280) : Displays, edits, filters, and renders colored PLY point clouds in Blender.
+    - [blender_kitti](https://github.com/risteon/blender_kitti) : Renders large LiDAR point clouds and voxel grids in Blender.
+- Geographic & Maps:
+    - [BlenderGIS](https://github.com/domlysz/BlenderGIS) : Bridges Blender with geographic data (shapefiles, DEM elevation, satellite imagery, and OpenStreetMap).
+    - [Maps Models Importer](https://github.com/eliemichel/MapsModelsImporter) : Imports 3D city captures from Google Maps into Blender. [[more info]](https://blog.exppad.com/article/importing-actual-3d-models-from-google-maps)
+    - [blender-osm](https://gumroad.com/l/blender-osm) : One-click download and import of OpenStreetMap buildings and terrain for Blender.
+- Web, XR & Collaboration:
+    - [Needle Engine](http://docs.needle.tools/blender) : Creates interactive, lightweight Three.js / WebXR web applications directly inside Blender.
+    - [Verge3D](https://www.soft8soft.com/get-verge3d/) : Toolkit for creating interactive 3D web experiences and product configurators from Blender scenes.
+    - [Multi-user](https://blenderartists.org/t/multi-user/1187118) : Enables real-time multi-user collaborative scene editing inside Blender. [![][repo]](https://gitlab.com/slumber/multi-user)
+    - [Mixer by Ubisoft](https://github.com/ubisoft/mixer) : Real-time collaborative 3D editing add-on developed at Ubisoft Animation Studio.
+    - [Shot Manager by Ubisoft](https://github.com/ubisoft/shotmanager) : Introduces a production shot entity and previz workflow inside Blender scenes.
+    - [A-Frame VR](https://github.com/silverslade/aframe_blender_exporter) : Exports Blender scenes to A-Frame WebVR projects with a single click.
+    - [blender-xr](https://github.com/MARUI-PlugIn/BlenderXR) : Virtual and mixed reality user interface for editing Blender scenes with VR headsets and controllers.
+    - [Blender-Metaverse-Addon](https://github.com/Menithal/Blender-Metaverse-Addon) : Toolset for authoring content for social VR and metaverse platforms.
+
+### ⚡ Workflow, UI & Utilities
+
+- Asset & Scene Management:
+    - [BlenderKit](https://www.blendkit.com/) : Download 3D models, PBR materials, HDRIs, and brushes directly into Blender.
+    - [Blender Interplanety Storage](https://blenderartists.org/t/bis-online-material-storage/689728) : Online personal library for saving, searching, and loading shader and node groups.
+    - [Asset Wizard](https://blenderartists.org/t/asset-wizard-for-blender-2-8/1149311) : Asset creation, thumbnail rendering, and library management utility.
+    - [FontSelector](https://github.com/samytichadou/FontSelector_blender_addon/) : Visual font browsing and management inside Blender.
+    - [Simple Renaming Panel](https://github.com/Weisl/simple_renaming_panel) : Batch-rename objects, bones, materials, and data-blocks with prefix/suffix and regex rules.
+    - [Lodify](https://devtalk.blender.org/t/level-of-detail-addon/12840) : Level of Detail (LOD) and proxy mesh management system for Blender. [![][repo]](https://github.com/DB3D/Lodify)
+    - [PowerSave](https://gumroad.com/l/powersave) : Streamlined incremental saving and autosave management for Blender artists.
+    - [PresetterProfessional](https://github.com/dpdpforlife/PresetterProfessional) : Saves and restores viewport visibility, 3D cursor, and snapping presets.
+- Viewport & UI Enhancements:
+    - [Modifier List](https://github.com/Symstract/modifier_list) : Enhanced compact UI layout, sidebar tab, and popup menu for managing modifier stacks.
+    - [ProSidebar](https://github.com/CreativeDesigner3D/ProSidebar) : Adds quick-access transform, origin, and viewport operators to the 3D View Sidebar.
+    - [QuickSwitch](https://github.com/schroef/QuickSwitch) : Pie menu helper to quickly switch workspaces and render views.
+    - [Theme Switcher](https://blenderartists.org/t/theme-switcher/1211787) : Quickly switch active UI themes without leaving the 3D Viewport.
+    - [Screencast-Keys](https://github.com/nutti/Screencast-Keys) : Displays keyboard and mouse inputs on-screen for tutorials and demos.
+    - [Shortcut VUr](https://github.com/jayanam/shortcut_VUr) : Lightweight viewport overlay for displaying mouse and keyboard shortcuts.
+    - [ExtraInfo](https://gumroad.com/l/UznDL) & [AStats](https://github.com/YuriyAndropov/blenderPython/tree/master/AStats) : Custom viewport statistics and mesh count overlays.
+    - [Leviate for Blender](https://extensions.blender.org/add-ons/leviate/) : Navigate the 3D viewport or move objects using webcam/phone hand tracking inside Blender. [![][repo]](https://github.com/vladpereverzyev/leviate)
+    - [IOR Reference](https://gitlab.com/diegogangl/IOR_reference) : Searchable Index of Refraction (IOR) reference list inside the shader panel.
+- Nodes & Text Editor:
+    - [NodeToPython](https://github.com/BrendanParmer/NodeToPython) : Converts Geometry, Shader, and Compositing node trees into clean, reusable Python scripts and add-ons. [![][mit]](https://github.com/BrendanParmer/NodeToPython/blob/main/LICENSE)
+    - [NodeCustomBuilder](https://blenderartists.org/t/nodecustombuilder-2-8-free-addon/1152185) : Custom preset builder for shader and geometry node groups.
+    - [Kaleidoscope](https://github.com/blenderskool/kaleidoscope) : Adds Spectrum and Intensity color palette nodes to the Shader Editor.
+    - [Set Viewport Color](https://github.com/johnnygizmo/set_viewport_color) : Automatically syncs object viewport display color from its shader node tree.
+    - [Snippets Library](https://github.com/Pullusb/snippetsLibrary) : Manage and insert reusable Python code snippets in Blender's Text Editor.
+    - [Autocomplete/Intellisense](https://github.com/tin2tin/Intellisense_for_Blender_Text_Editor), [Search Online References](https://github.com/tin2tin/Search-API-Reference), [Run PEP8 Check](https://github.com/tin2tin/Python_Stylechecker_for_Blender), and [Text Markers](https://github.com/tin2tin/TextMarker-blender-addon) for Blender's built-in Text Editor.
 <p align="right"><sub><a href="#table">↑ Back to top</a></sub></p>
 
 ---
@@ -459,30 +465,30 @@
 
 ### 🎠 3D Models
 
-- [Poly Haven/Models](https://polyhaven.com/models) : is a resource of free high quality 3D assets for everyone. All models here are CC0. [![][zero]](https://polyhaven.com/license)
+- [Poly Haven/Models](https://polyhaven.com/models) : Resource of free high quality 3D assets for everyone. All models here are CC0. [![][zero]](https://polyhaven.com/license)
 - [Greeble Town](https://greebletown.com/) : Free premium quality sci-fi greebles hardsurface kitbash 3D assets.
 - [Quixel Megascans](https://quixel.com/megascans/library/) : World’s largest photogrammetry 2D and 3D asset library. Now it is free for the Epic Games accounts (only UE projects).
-- [Scan the World](https://www.myminifactory.com/scantheworld/full-collection) : is an ambitious community-built initiative whose mission is to share 3D printable sculpture and cultural artefacts using democratised 3D scanning technologies, producing an extensive ecosystem of free to download digital cultural heritage. [[mixed license]](https://www.myminifactory.com/scantheworld/faq/#licensing)
+- [Scan the World](https://www.myminifactory.com/scantheworld/full-collection) : Ambitious community-built initiative whose mission is to share 3D printable sculpture and cultural artefacts using democratised 3D scanning technologies, producing an extensive ecosystem of free to download digital cultural heritage. [[mixed license]](https://www.myminifactory.com/scantheworld/faq/#licensing)
 - [Artec 3D](https://www.artec3d.com/3d-models) : Download high resolution 3D scans for free. ![][by]
 - [Blender Boom](https://www.blenderboom.com/product-category/free/) : 3D model repository. Free models ready to use. [![][zero]](https://www.blenderboom.com/pages/licences/)
 - [Three D Scans](https://threedscans.com/) : Free 3D scans in .stl without copyright restrictions. [![][cc]](https://threedscans.com/info/)
 - [3D Digitization Smithsonian](https://3d.si.edu/explore) : CC0 Photoscan Library from Smithsonian. [(Collections)](https://3d.si.edu/collections) ![][zero]
 - [Chocofur/Free](https://store.chocofur.com/search/free) : Premium quality 3D models & scenes. [(blender addon)](https://store.chocofur.com/model-manager-blender-2-80-course/blender_model/) [![][zero]](https://chocofur.com/page/license-cc0)
-- [Free3D](https://free3d.com/) : is the go to place where you can share your free 3D assets and download instantly any you like. [![][cc]](https://free3d.com/terms-conditions)
+- [Free3D](https://free3d.com/) : Is the go to place where you can share your free 3D assets and download instantly any you like. [![][cc]](https://free3d.com/terms-conditions)
 - [TheBaseMesh.com](https://thebasemesh.com/model-library) : A public library of over 600+ base meshes. All assets are real world scale and come unwrapped. ![][zero]
 - [3DB3](https://3db3.com/) : Check out the best 3D models made by professional 3D artists.
 - [Rigmodels](http://rigmodels.com/) : Free rigged, animated and low poly models
-- [RockThe3D](http://www.rockthe3d.com/) : is a blog site to provide and sharing the best 3D related knowledge and resources around.
+- [RockThe3D](http://www.rockthe3d.com/) : Blog site to provide and sharing the best 3D related knowledge and resources around.
 - [CGTrader](https://www.cgtrader.com/free-3d-models) : Free 3D models from CGTrader.
 - [Sketchfab](https://sketchfab.com/search?features=downloadable&sort_by=-pertinence&type=models) : Free downloadable models from Sketchfab.
 - [TurboSquid/free](https://www.turbosquid.com/Search/3D-Models/free) : Free models from Turbosquid.
-- [Hum3D](https://hum3d.com/) : source of quality 3D models of vehicles in blend file format.
+- [Hum3D](https://hum3d.com/) : Source of quality 3D models of vehicles in blend file format.
 - [Clara.io](https://clara.io/library) : Free 3D Modeling, Rendering, Sharing and Models.
-- [FlyingArchitecture](https://flyingarchitecture.com/) : is both an architectural visualizations studio as well as an online store dedicated to 3D models, scenes, materials and tutorials.
+- [FlyingArchitecture](https://flyingarchitecture.com/) : Is both an architectural visualizations studio as well as an online store dedicated to 3D models, scenes, materials and tutorials.
 - [3D Warehouse](https://3dwarehouse.sketchup.com/search/) : Download sketchup models.
 - [Free3DBase](https://free3dbase.com/) : Download high quality free 3d models.
 - [RenderHub/free](https://www.renderhub.com/free-3d-models) : Daz Content, 3D models, textures and materials.
-- [KitBash3d](https://kitbash3d.com/) [$] : makes premium 3D assets for VFX, concept art and design. Their 3D model kits have immediately been adopted by the industry's top artists, studios. _Get [Mini Kit: Neo City](https://kitbash3d.com/collections/kits/products/mini-kit-neo-city)_ for free.
+- [KitBash3d](https://kitbash3d.com/) [$] : Makes premium 3D assets for VFX, concept art and design. Their 3D model kits have immediately been adopted by the industry's top artists, studios. _Get [Mini Kit: Neo City](https://kitbash3d.com/collections/kits/products/mini-kit-neo-city)_ for free.
 - [Awesome-3D-Meshes : List of famous 3D meshes.](https://github.com/jvm-graphics-labs/awesome-3d-meshes/)
 - [List of Common 3D Test Models.](https://en.wikipedia.org/wiki/List_of_common_3D_test_models)
 - Other Sites:
@@ -504,7 +510,7 @@
 - [ActorCore](https://actorcore.reallusion.com/free) : Motion-capture library from Reallusion.
 - [Carnegie-Mellon University Graphics Lab Motion Capture Database BVH conversions](https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture) : Contains 2500 free human motion captures.
 - [Rokoko Studio](https://www.rokoko.com/en/downloads) : Get 150 free mocap moves from Rokoko’s Motion Library.
-- [Bandai Namco Research Motiondataset](https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset) : the R&D division of game publisher and developer Bandai Namco, has released a massive library of free motion-capture data for research and personal use.
+- [Bandai Namco Research Motiondataset](https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset) : The R&D division of game publisher and developer Bandai Namco, has released a massive library of free motion-capture data for research and personal use.
 - [turbosquid/motion-capture](https://www.turbosquid.com/Search/Motion-Capture/free/), [Sketchfab/animated](https://sketchfab.com/3d-models?features=downloadable+animated&sort_by=-likeCount).
 
 ### 🌑 Textures
@@ -512,7 +518,7 @@
 - [Poly Haven/Textures](https://polyhaven.com/textures) : Poly Haven/Textures is a website where you can find high quality scanned textures for free. [![][zero]](https://polyhaven.com/license)
 - [ambientCG](https://ambientcg.com/) : Get hundreds of PBR materials and textures for free under the Public Domain license. [![][zero]](https://docs.ambientcg.com/license/)
 - [cgbookcase](https://cgbookcase.com/textures/) : Discover a library of high-quality PBR textures. Free for every purpose, forever. Some Blender tutorials here and there. [![][zero]](https://creativecommons.org/publicdomain/zero/1.0/)
-- [3DAssets.one](https://www.3dassets.one/) : is a search-engine which allows you to explore the largest free texture sites all at once.
+- [3DAssets.one](https://www.3dassets.one/) : Search-engine which allows you to explore the largest free texture sites all at once.
 - [3DTextures.me](https://3dtextures.me/) : Free seamless PBR textures. [![][zero]](https://3dtextures.me/about/)
 - [FreePBR.com](https://freepbr.com/) : Free PBR materials and texture files.
 - [twirl](https://twirl.tools/dashboard) : Free library of high quality PBR materials. Unlimited downloads with no signup.
@@ -525,7 +531,7 @@
 - [C4DCenter](https://c4dcenter.com/material-library/) : Free C4D Materials created with High Quality Texture Maps for instant download and no limits, Free for Personal and Commercial Use.
 - [IES Library](https://ieslibrary.com/en/browse) : Download free IES lighting files. IES files describe how light from a lamp is distributed in a room.
 - [WildTextures](https://www.wildtextures.com/) : Free high resolution textures and patterns for commercial or personal use.
-- [Textures.com](https://www.textures.com/) [$] : is a website that offers digital pictures of all sorts of materials. Sign up for free and download 15 free images every day!
+- [Textures.com](https://www.textures.com/) [$] : Website that offers digital pictures of all sorts of materials. Sign up for free and download 15 free images every day!
 - [Substance Share](https://share.substance3d.com/) : The free exchange platform for the Substance community.
 - [MaterialX Library](https://matlib.gpuopen.com/main/materials/all) : AMD launched a free MaterialX-based Material Library. It allows users to download the materials and encourages them to upload their own.
 - [Substance Source/freebies](https://source.substance3d.com/allassets?free=true) [$] : Hundreds of high quality PBR materials.
@@ -533,7 +539,6 @@
 - [Poliigon/freebies](https://www.poliigon.com/search?credit=0) [$] : A library of materials, and HDR's for artists including free textures that want photorealism.
 - [Texturing.xyz](https://texturing.xyz/) [$] : Our textures are used in the biggest and industry-leading VFX companies, and help them achieving their goals faster.
 - [LotPixel](https://www.lotpixel.com/texture-library?credit=free) : Free scan-based textures of interior and exterior materials at up to 8K resolution. For commercial use.
-- [Poly](https://withpoly.com/) : is a seamless texture generator & gallery (up to 8K) with PBR maps (up to 32-bit) for any types of materials with a simple text or image prompt.
 - Other Sites:
     - [EveryTexture.com](https://everytexture.com/latest), [3DJungle.net](https://3djungle.net/textures/), [Architecture Inspirations](https://www.archinspirations.com/materials), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [TextureKing](https://www.textureking.com/category/all-textures/), [TextureCan](https://www.texturecan.com/).
 - Others:
@@ -541,54 +546,55 @@
 
 ### 🌓 Blender Materials
 
-- [The Blendersauce Vault Materials](http://blendersauce.com/the-blendersauce-vault-2/the-material-vault-categories/) : Abstract, Bricks and Walls, Concrete, Fabric, Fluids, Food, Manmade, Metal, Metal painted Materials, Nature, Plaster, Rocks/Stones, Tiles, Wood.
-- [3d-wolf/materials](https://3d-wolf.com/products/materials.html) : PBR Materials is an addon with physically based materials. ![gpl]
-- [BlenderKit](https://www.blendkit.com/) : Allows you to download assets, materials, and alpha brushes to your blender client with the click of a button for free.
-- Sketch/Toon Shaders:
-    - [BNPR' Shaders](https://blendernpr.org/downloads/), [EEVEE Comics Shader v3.0](https://gumroad.com/l/JWdjJ), [Erisdraw3D's](https://twitter.com/Erisdraw3D/status/1216755574735503361), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [Komikaze[\$]](https://blendermarket.com/products/komikaze)(Free: [Aqua](https://drive.google.com/file/d/1jlYxqRfjnjnZSG2gxKqiXa5Fo0Y7N9Kn/edit), [Kismet](https://drive.google.com/file/d/1Mp808PE3Wjew6-hEv0vIJZLzPezRM-jV/view)), [Ultimate Clay Shader[\$]](https://blendermarket.com/products/claydoh), [Erito's Toon Shader for EEVEE](https://www.artstation.com/eritokaio/store/Wo3B/erito-s-toon-shader-for-blender-eevee), [Toonkit-Samples](https://github.com/vitorbalbio/Toonkit-Samples).
-- Nodevember Results:
-    - [Curtis Holt's Results](https://youtu.be/JhLVzcCl1ug), [Neoyume’s Nodeshaders](https://neoyume.com/en/neoyumes-nodevember-nodeshaders/), [Kyle Hamm](https://gumroad.com/l/kylenodevember2020), [erindale](https://gumroad.com/l/node2020).
-- Others:
-    - [gumroad/simonthommes](https://gumroad.com/simonthommes), [Meta's Massivest Materials](https://www.blendswap.com/blend/16480), [Abstract Materials](https://gumroad.com/l/CCIEF).
+- [The Blendersauce Vault Materials](http://blendersauce.com/the-blendersauce-vault-2/the-material-vault-categories/) : Free categorized Blender materials including bricks, concrete, fabric, fluids, metals, nature, plaster, stone, tiles, and wood.
+- [3d-wolf/materials](https://3d-wolf.com/products/materials.html) : Free add-on with physically based procedural materials. ![][gpl]
+- [Simon Thommes' Procedural Shaders](https://gumroad.com/simonthommes) : Production-grade procedural shader packs and node groups by Blender Studio shading artist Simon Thommes.
+- Sketch & Toon Shaders:
+    - [BNPR Shaders](https://blendernpr.org/downloads/), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [EEVEE Comics Shader v3.0](https://gumroad.com/l/JWdjJ), [Erito's Toon Shader for EEVEE](https://www.artstation.com/eritokaio/store/Wo3B/erito-s-toon-shader-for-blender-eevee), [Toonkit Samples](https://github.com/vitorbalbio/Toonkit-Samples), [Erisdraw3D's Setup](https://twitter.com/Erisdraw3D/status/1216755574735503361).
+    - Paid NPR Packs : [Komikaze](https://blendermarket.com/products/komikaze) [$] (Free samples: [Aqua](https://drive.google.com/file/d/1jlYxqRfjnjnZSG2gxKqiXa5Fo0Y7N9Kn/edit), [Kismet](https://drive.google.com/file/d/1Mp808PE3Wjew6-hEv0vIJZLzPezRM-jV/view)), [Ultimate Clay Shader](https://blendermarket.com/products/claydoh) [$].
+- Nodevember & Procedural Collections:
+    - [Erindale's Nodevember Pack](https://gumroad.com/l/node2020), [Neoyume’s Nodeshaders](https://neoyume.com/en/neoyumes-nodevember-nodeshaders/), [Kyle Hamm](https://gumroad.com/l/kylenodevember2020), [Curtis Holt's Results](https://youtu.be/JhLVzcCl1ug), [Meta's Massivest Materials](https://www.blendswap.com/blend/16480), [Abstract Materials](https://gumroad.com/l/CCIEF).
 
 ### 🌲 Blender Scenes/Files
 
-- [Blend Swap](https://www.blendswap.com/blends) : The one place for Open Source Blender files.
-- [Blender/demo-files](https://www.blender.org/download/demo-files/) : Demo Scenes from blender.
-- [BlenderNation.com/models](https://www.blendernation.com/category/art/free-blender-models/) : collects the best free Blender 3D model downloads from all across the Blender community.
-- [Mantissa/resources](https://mantissa.xyz/free.html) : Free Blender files, resources.
-- Gumroad Pages:
-    - [gumroad/bluefoxcreation](https://gumroad.com/bluefoxcreation), [gumroad/curtisjamesholt](https://gumroad.com/curtisjamesholt).
-- Rigged Models:
-    - [Rain v2](https://studio.blender.org/characters/rain/v2/), [Snow v2](https://studio.blender.org/characters/snow/v2/), [Red-Nelb](https://cgcookie.com/resource/red-nelb-rig-blender-2-8x), [Dancing Girl](https://gumroad.com/l/mZcjB), [Pharah(Overwatch)](https://pharah.gitlab.io/guide/), [Luchadora](https://www.artstation.com/marketplace/p/AWjx/luchadora-rig-blender), [Rocket Girl](https://gumroad.com/l/XGTxw), [Pikachu](https://www.blendswap.com/blend/23864), [MT-103 Droid](https://gumroad.com/l/zvlZV), [Baqir](https://www.youtube.com/watch?v=UIKuyOP68fA), [Ivan](https://gumroad.com/l/ivan-3d-model), [Cori](https://www.blendswap.com/blend/23381), [Judy Hopps](https://www.blendswap.com/blend/17309), [Scorbunny](https://gumroad.com/l/cvJbP), [Stretch](https://tribee.online/product/stretch-free-blender-rig-beta/).
-- Geometry Nodes:
-    - [Higgsas Blender](https://higgsas.gumroad.com/l/wrusot), [Mesh Tension Map](https://higgsas.gumroad.com/l/tnqal), [Droplet Generator](https://ibotpl.gumroad.com/l/alvgr), [BackdropGen](https://yamato3d.gumroad.com/l/BackdropGen).
+- [Blend Swap](https://www.blendswap.com/blends) : Community repository for open-source `.blend` files and assets.
+- [Blender Demo Files](https://www.blender.org/download/demo-files/) : Official benchmark, splash screen, Cycles, EEVEE, and simulation `.blend` demo scenes.
+- [BlenderNation Free Models](https://www.blendernation.com/category/art/free-blender-models/) : Curated highlights of free `.blend` models and scenes from the community.
+- [Mantissa Resources](https://mantissa.xyz/free.html) : Free procedural `.blend` scenes and environment resources.
+- Creator Gumroad Libraries : [Blue Fox Creation](https://gumroad.com/bluefoxcreation), [Curtis Holt](https://gumroad.com/curtisjamesholt).
+- Free Character Rigs:
+    - [Blender Studio Official Rigs](https://studio.blender.org/characters/) : [Rain v2](https://studio.blender.org/characters/rain/v2/), [Snow v2](https://studio.blender.org/characters/snow/v2/).
+    - Community Character Rigs : [Red-Nelb](https://cgcookie.com/resource/red-nelb-rig-blender-2-8x), [Dancing Girl](https://gumroad.com/l/mZcjB), [Pharah (Overwatch)](https://pharah.gitlab.io/guide/), [Luchadora](https://www.artstation.com/marketplace/p/AWjx/luchadora-rig-blender), [Rocket Girl](https://gumroad.com/l/XGTxw), [Pikachu](https://www.blendswap.com/blend/23864), [MT-103 Droid](https://gumroad.com/l/zvlZV), [Baqir](https://www.youtube.com/watch?v=UIKuyOP68fA), [Ivan](https://gumroad.com/l/ivan-3d-model), [Cori](https://www.blendswap.com/blend/23381), [Judy Hopps](https://www.blendswap.com/blend/17309), [Scorbunny](https://gumroad.com/l/cvJbP), [Stretch](https://tribee.online/product/stretch-free-blender-rig-beta/).
 
 ### ⛅ HDRIs
 
-- [Poly Haven/HDRIs](https://polyhaven.com/hdris), [Pixar/HDRI](https://renderman.pixar.com/category/111-hdri), [Hdrmaps/freebies](https://hdrmaps.com/freebies), [Hdri-hub/free](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [Hdri-skies](https://hdri-skies.com/), [locationtextures/panoramas](https://locationtextures.com/panoramas/?sort=p.price&order=ASC), [noahwitchell](http://www.noahwitchell.com/freebies), [bobgroothuis](https://www.bobgroothuis.com/collections/360-hdri), [vizpeople/free](https://www.viz-people.com/portfolio/free-hdri-maps/), [noemotionhdrs](http://noemotionhdrs.net/hdrevening.html), [iHDRI](https://www.ihdri.com/hdri-skies-outdoor/).
+- [Poly Haven/HDRIs](https://polyhaven.com/hdris) : Hundreds of free CC0 high-resolution HDRI skies, indoor studios, and environments up to 16K+. [![][zero]](https://polyhaven.com/license)
+- [Pixar/HDRI](https://renderman.pixar.com/category/111-hdri) : Free production-ready HDRI environments from Pixar RenderMan resources.
+- [HDRMaps/Freebies](https://hdrmaps.com/freebies) : Free high-dynamic-range panoramas and photogrammetry backgrounds.
+- [iHDRI](https://www.ihdri.com/hdri-skies-outdoor/) : Free outdoor and indoor HDRI maps up to 16K resolution.
+- More Free HDRI Libraries : [HDRI-Hub](https://www.hdri-hub.com/hdrishop/freesamples/freehdri), [HDRI-Skies](https://hdri-skies.com/), [Location Textures](https://locationtextures.com/panoramas/?sort=p.price&order=ASC), [Noah Witchell](http://www.noahwitchell.com/freebies), [Bob Groothuis](https://www.bobgroothuis.com/collections/360-hdri), [Viz-People](https://www.viz-people.com/portfolio/free-hdri-maps/), [NoEmotionHDRs](http://noemotionhdrs.net/hdrevening.html).
 
 ### 🖼️ Art/Reference
 
 - [Dezoomify](https://dezoomify.ophir.dev/) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/search/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats). \([Desktop App](https://github.com/lovasoa/dezoomify-rs)\) [![][repo]](https://github.com/lovasoa/dezoomify)
-- [Birmingham Museums Trust](https://dams.birminghammuseums.org.uk/asset-bank/action/viewDefaultHome?browseType=folders) : Thousands of our out-of-copyright images are now available for all to use under a Creative Commons Zero Licence. More images are regularly being added. \([Unsplash Profile](https://unsplash.com/@birminghammuseumstrust)\) ![zero]
-- [Wikimedia Commons/Art](https://commons.wikimedia.org/wiki/Category:Art) : A collection of freely usable media files to which anyone can contribute. ![cc]
-- [The Art Institute of Chicago](https://www.artic.edu/collection?is_public_domain=1) : Download public-domain artworks from Art Institute of Chicago online collection. [![zero]](https://www.artic.edu/image-licensing)
+- [Birmingham Museums Trust](https://dams.birminghammuseums.org.uk/asset-bank/action/viewDefaultHome?browseType=folders) : Thousands of our out-of-copyright images are now available for all to use under a Creative Commons Zero Licence. More images are regularly being added. \([Unsplash Profile](https://unsplash.com/@birminghammuseumstrust)\) ![][zero]
+- [Wikimedia Commons/Art](https://commons.wikimedia.org/wiki/Category:Art) : A collection of freely usable media files to which anyone can contribute. ![][cc]
+- [The Art Institute of Chicago](https://www.artic.edu/collection?is_public_domain=1) : Download public-domain artworks from Art Institute of Chicago online collection. [![][zero]](https://www.artic.edu/image-licensing)
 - [Paris Musées Collections](https://www.parismuseescollections.paris.fr/en/recherche/image-libre/true) : Paris Musées has released over 100,000 artworks into the public domain. They are all available for free high-resolution download online.
 - [The Metropolitan Museum of Art](https://www.metmuseum.org/art/collection/search#!?searchField=All&showOnly=openAccess&sortBy=Relevance&offset=0&pageSize=0) : Browse more than 406,000 hi-res images of public-domain works in The Met collection that can be downloaded, shared, and remixed without restriction.
-- [National Gallery of Art Images](https://www.nga.gov/open-access-images.html) : Download images from collections of the National Gallery of Art. More than 51,000 open access digital images are available free of charge for download and use. ![zero]
-- [Rijksmuseum ](https://www.rijksmuseum.nl/en/search) : one of the largest museums in Europe dedicated to arts and history, made 250,000 works from its huge collection available for free online viewing or download.
+- [National Gallery of Art Images](https://www.nga.gov/open-access-images.html) : Download images from collections of the National Gallery of Art. More than 51,000 open access digital images are available free of charge for download and use. ![][zero]
+- [Rijksmuseum ](https://www.rijksmuseum.nl/en/search) : One of the largest museums in Europe dedicated to arts and history, made 250,000 works from its huge collection available for free online viewing or download.
 - [National Gallery of Denmark](https://open.smk.dk/en/art?q=*&filters=public_domain%3Atrue) : You can explore our highlights and get free images in high resolution of those artworks that are in the Public Domain.
 - [Los Angeles County Museum of Art](https://collections.lacma.org/search/site/?f[1]=bm_field_has_unrestricted_image%3Atrue) : Download public-domain artworks from LACMA's collections.
 - [J. Paul Getty Museum](https://www.getty.edu/art/collection/) : The Getty makes available, without charge, all available digital images to which the Getty holds the rights or that are in the public domain to be used for any purpose. No permission is required.
 - [Indianapolis Museum of Art Collection](http://collection.imamuseum.org/) : Many images of public domain artworks are available for free download from the Indianapolis Museum of Art at Newfields' collection pages.
-- [Smithsonian Open Access](https://www.si.edu/openaccess) : Download, share, and reuse millions of the Smithsonian’s images right now, without asking. [![zero]](https://www.si.edu/termsofuse)
-- [Biodiversity Heritage Library](https://www.flickr.com/photos/biodivlibrary/) : 300,000+ Botanical and Animal Illustrations available for free download. ![zero]
+- [Smithsonian Open Access](https://www.si.edu/openaccess) : Download, share, and reuse millions of the Smithsonian’s images right now, without asking. [![][zero]](https://www.si.edu/termsofuse)
+- [Biodiversity Heritage Library](https://www.flickr.com/photos/biodivlibrary/) : 300,000+ Botanical and Animal Illustrations available for free download. ![][zero]
 - [Natural History Museum, Data Portal](https://data.nhm.ac.uk/) : Explore and download the Museum’s research and collections data. Collection information, images, sounds, videos, research results, 3D scans.
 - [British Museum](https://www.britishmuseum.org/collection) : The British Museum Just Made 1.9M Stunningly Detailed Images Free Online.
-- [Open Image Collections](https://blogs.ntu.edu.sg/openimagecollections/browse/#collections) : is a collection of digital image sources include museum digital collections, stock images, photo archives, design resources and image search engines.
+- [Open Image Collections](https://blogs.ntu.edu.sg/openimagecollections/browse/#collections) : Collection of digital image sources include museum digital collections, stock images, photo archives, design resources and image search engines.
 - [List of Museums & Libraries with Public-Domain Collection.](http://www.openculture.com/2016/05/1-8-million-free-works-of-art-from-world-class-museums-a-meta-list.html)
-- [Mindat, Mineral Database](https://www.mindat.org/) : is the world's largest open database of minerals, rocks, meteorites and the localities they come from.
+- [Mindat, Mineral Database](https://www.mindat.org/) : Is the world's largest open database of minerals, rocks, meteorites and the localities they come from.
 - [Anatomy 360, Free Reference](https://anatomy360.info/anatomy-scan-reference-dump/) : 3D scanned human reference images.
 - [Wildlife Reference Photos](https://wildlifereferencephotos.com/gallery.php?mode=newest-media&page=1) : Wildlife reference photos for artists.
 - [Flickr, Creative Commons](https://www.flickr.com/creativecommons/) : Many Flickr users have chosen to offer their work under a Creative Commons license.
@@ -597,9 +603,9 @@
 
 ### 🛰 Space
 
-- [Solar Textures](https://www.solarsystemscope.com/textures/) : These textures represent real planetary maps in equirectangular projection. Textures in this pack are based on NASA elevation and imagery data. ![by]
+- [Solar Textures](https://www.solarsystemscope.com/textures/) : These textures represent real planetary maps in equirectangular projection. Textures in this pack are based on NASA elevation and imagery data. ![][by]
 - [NASA-3D-Resources](https://nasa3d.arc.nasa.gov/) : Here you'll find a growing collection of 3D models, textures, and images from inside NASA. All of these resources are free to download and use. [![][repo]](https://github.com/nasa/NASA-3D-Resources)
-- [Celestia Motherlode](http://www.celestiamotherlode.net/) : is a repository for various addons like textures, models or celestial objects.
+- [Celestia Motherlode](http://www.celestiamotherlode.net/) : Repository for various addons like textures, models or celestial objects.
 - NASA : [James Webb Images](https://webbtelescope.org/resource-gallery/images) ([flickr](https://www.flickr.com/photos/nasawebbtelescope/)), [Hubble Image Gallery](https://hubblesite.org/resource-gallery/images?Collection=Hubble%20Favorites) ([flickr](https://www.flickr.com/photos/nasahubble/)), [Astronomy Picture of the Day](https://apod.nasa.gov/apod/archivepix.html).
 - [Earth View](https://earthview.withgoogle.com/) : Earth View is a collection of the most beautiful and striking landscapes found in Google Earth.
 - [Areo Browser](https://areobrowser.com/) : Easily explore all of the latest _martian_ terrain data and rover imagery, directly in your browser.
@@ -608,21 +614,21 @@
 
 ### 🎧 Sound/Music
 
-- [Freesound.org](https://freesound.org/browse/) : Collaborative database of creative-commons licensed sound for musicians and sound lovers. [![cc]](https://freesound.org/help/faq/#licenses)
+- [Freesound.org](https://freesound.org/browse/) : Collaborative database of creative-commons licensed sound for musicians and sound lovers. [![][cc]](https://freesound.org/help/faq/#licenses)
 - [GameAudioGDC](https://sonniss.com/gameaudiogdc): Each year we give away thousands of dollars worth of sound effects for free in celebration of the Game Developers Conference. This is our archive. Everything is royalty-free and commercially usable.
 - [GameSounds.xyz](https://gamesounds.xyz/) : Royalty free music and sounds for your games.
-- [SoundBible.com](http://soundbible.com/free-sound-effects-1.html) : Offers thousands of free sound effects, sound clips, and straight up sounds. These sounds can be used in a variety of sound projects. [![by]](https://soundbible.com/about.php)
-- [99Sounds.org](http://99sounds.org/free-sound-effects/) : is a website offering free downloads of royalty-free content generated by its own users.
+- [SoundBible.com](http://soundbible.com/free-sound-effects-1.html) : Offers thousands of free sound effects, sound clips, and straight up sounds. These sounds can be used in a variety of sound projects. [![][by]](https://soundbible.com/about.php)
+- [99Sounds.org](http://99sounds.org/free-sound-effects/) : Website offering free downloads of royalty-free content generated by its own users.
 - [Freesfx.co.uk](https://www.freesfx.co.uk/) : This web site provides free sound effects that you are able to use in any commercial production.
 - [OpenGameArt.org/Sound](https://opengameart.org/art-search-advanced?keys=&title=&field_art_tags_tid_op=or&field_art_tags_tid=&name=&field_art_type_tid%5B%5D=13&sort_by=created&sort_order=DESC&items_per_page=24&Collection=) : Sound Effects from OpenGameArt.
 - [Free Music Archive](https://freemusicarchive.org/static) : The iconic resource for free music, podcast safe and royalty free music for video.
 - [Bandcamp.com/cc](https://bandcamp.com/tag/creative-commons) : Creative-common music from Bandcamp.
-- [MusOpen.org](https://musopen.org/music/) : is an online classical music library of copyright free, public domain music. ![cc]
-- [ccMixter.org](http://dig.ccmixter.org/) : is a community remix site operated by ArtisTech Media, created by Creative Commons. [![cc]](http://dig.ccmixter.org/licenses)
+- [MusOpen.org](https://musopen.org/music/) : Online classical music library of copyright free, public domain music. ![][cc]
+- [ccMixter.org](http://dig.ccmixter.org/) : Community remix site operated by ArtisTech Media, created by Creative Commons. [![][cc]](http://dig.ccmixter.org/licenses)
 - [Netlabels](https://archive.org/details/netlabels) : This collection hosts complete, freely downloadable/streamable, often Creative Commons-licensed catalogs of virtual record labels.
 - [Mixkit](https://mixkit.co/free-stock-music/) : Download Free Stock Video Footage, Stock Music & Premiere Pro Templates for your next video editing project.
 - [Unminus](https://www.unminus.com/) : Curated Royalty Free Music. Let's create Unsplash for Music together.
-- [Adobe Audition Sound Effects](https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html) : includes thousands of uncompressed, royalty-free audio sound effects.
+- [Adobe Audition Sound Effects](https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html) : Includes thousands of uncompressed, royalty-free audio sound effects.
 - [Pixabay/music](https://pixabay.com/music/) : Royalty free music from Pixabay.
 - [Artlist](https://artlist.io/royalty-free-music) : Royalty-free music catalog for unlimited use in YouTube videos, social media & films created by inspiring indie artists worldwide.
 - [Bensound](https://www.bensound.com/free-music-for-videos) : Top royalty free music freshly composed by independent artists. Use our royalty free music for YouTube videos, social media, films
@@ -639,7 +645,7 @@
 
 ### 🌂 Useful
 
-- [Sheep it Render Farm](https://www.sheepit-renderfarm.com/) : is a free distributed renderfarm for Blender.
+- [Sheep it Render Farm](https://www.sheepit-renderfarm.com/) : Free distributed renderfarm for Blender.
 - [Blender-Colab](https://github.com/syn73/blender-colab) : Render on **_Google Colab_**, this is a Python script that allows you to render Blender scene using Google Colaboratory. Only Cycles.
 - Daily Blender Tips : [blender.daily](https://www.instagram.com/blender.daily/), [Blender Secrets](https://www.instagram.com/blendersecretsdotorg/).
 - [IOR List](https://pixelandpoly.com/ior.html) : Index of Refraction values list for use with 3D applications.
@@ -666,21 +672,21 @@
 - [aerialod](https://ephtracy.github.io/index.html?page=aerialod) : A free interactive path tracing renderer for height maps.
 - [Make Human](http://www.makehumancommunity.org/) : Open-source tool for making 3D characters. ([blender addon](https://github.com/makehumancommunity/makehuman-plugin-for-blender)) [![][repo]](https://github.com/makehumancommunity/makehuman)
 - [Clavicula](https://clavicula.link/) : Intuitive and free 3D modeling software for everyone.
-- [Dust3D](https://dust3d.org/) : is a cross-platform open-source modeling software. It helps you create a 3D watertight model in seconds.
-- [EmberGen](https://jangafx.com/software/embergen/) [$] : is a real-time volumetric fluid simulation tool that can instantly simulate, render, and export flipbooks, image sequences, and VDB volumes.
+- [Dust3D](https://dust3d.org/) : Cross-platform open-source modeling software. It helps you create a 3D watertight model in seconds.
+- [EmberGen](https://jangafx.com/software/embergen/) [$] : Real-time volumetric fluid simulation tool that can instantly simulate, render, and export flipbooks, image sequences, and VDB volumes.
 - [HDR Light Studio](https://www.lightmap.co.uk/) [$] : Lets you easily create and edit HDR lighting with your existing 3D software.
-- [Sweet Home 3D](https://www.sweethome3d.com/) : is a free interior design application that helps you draw the plan of your house, arrange furniture on it and visit the results in 3D. [![][repo]](https://sourceforge.net/projects/sweethome3d/files/)
-- [TreeIt](https://www.evolved-software.com/treeit/treeit) : is an easy to use real time 3D tree generator for the simple creation.
-- [Cascadeur](https://cascadeur.com/) : is a standalone software for creating keyframe animation of 3D characters, humanoid or otherwise. _Free for early adopters._
+- [Sweet Home 3D](https://www.sweethome3d.com/) : Free interior design application that helps you draw the plan of your house, arrange furniture on it and visit the results in 3D. [![][repo]](https://sourceforge.net/projects/sweethome3d/files/)
+- [TreeIt](https://www.evolved-software.com/treeit/treeit) : Easy to use real time 3D tree generator for the simple creation.
+- [Cascadeur](https://cascadeur.com/) : Standalone software for creating keyframe animation of 3D characters, humanoid or otherwise. _Free for early adopters._
 - [Sculptron](https://render.otoy.com/forum/viewtopic.php?f=7&t=73665) : GPU-based tool for sculpting animation caches and for converting mesh sequences to volumes. The software is currently available free during early development.
 - [CNDL](https://cndl.io/) : An IES lighting creation toolset. Improve your renders with custom IES lighting.
 - [Medium by Adobe](https://www.oculus.com/experiences/rift/3257686387611106/) : Medium is a dedicated VR sculpting and painting package for users of Oculus headsets, capable of exporting models to DCC applications in OBJ or FBX format.
 - [Spline](https://spline.design/) : Easily create and publish 3D web experiences. Build and iterate fast with production-ready results.
 - [Connecter](https://www.designconnected.com/connecter) : Free and visual creative assets management for 3d, AEC and design professionals.
-- [Phototiler](https://halfmaps.itch.io/phototiler) : is a lightweight photorealistic map renderer that allows quick rendering of 3D maps for creative cartography.
-- [VRoid Studio](https://vroid.com/en/studio) : a 3D character maker that specializes in Japanese anime-like expressions.
-- [AccuRIG](https://actorcore.reallusion.com/auto-rig) : is a free application designed for fast and easy character rigging.
-- [3D House Planner](https://www.3dhouseplanner.com/) : is a professional home design web application that allows users to design houses and apartments.
+- [Phototiler](https://halfmaps.itch.io/phototiler) : Lightweight photorealistic map renderer that allows quick rendering of 3D maps for creative cartography.
+- [VRoid Studio](https://vroid.com/en/studio) : A 3D character maker that specializes in Japanese anime-like expressions.
+- [AccuRIG](https://actorcore.reallusion.com/auto-rig) : Free application designed for fast and easy character rigging.
+- [3D House Planner](https://www.3dhouseplanner.com/) : Professional home design web application that allows users to design houses and apartments.
 
 ### Various Tools
 
@@ -689,20 +695,21 @@
 - [PureRef](https://www.pureref.com/) : Simple way to view and organize your reference images.
 - [DJV](https://grizzlypeak3d.github.io/DJV/) : Professional image sequence, media review software for VFX, animation, and film production. [![][repo]](https://github.com/grizzlypeak3d/DJV)
 - [Natron](https://natrongithub.github.io/) : Open Source Compositing Software For VFX and Motion Graphics. [![][repo]](https://github.com/NatronGitHub/Natron)
-- [Processing](https://processing.org/) : is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. [![][repo]](https://github.com/processing/processing)
-- [SHADERed](https://github.com/dfranx/SHADERed) : is a lightweight tool for creating and testing HLSL and GLSL shaders.
+- [Processing](https://processing.org/) : Flexible software sketchbook and a language for learning how to code within the context of the visual arts. [![][repo]](https://github.com/processing/processing)
+- [SHADERed](https://github.com/dfranx/SHADERed) : Lightweight tool for creating and testing HLSL and GLSL shaders.
 - [Light Tracer Render](https://lighttracer.org/) : Provides you with everything you need to create photorealistic renderings interactively, in both desktop Web browsers and Windows application.
 - [CineShader](https://cineshader.com/editor) : CineShader is a real-time 3D shader visualiser. It leverages the _Shadertoy_ API to bring thousands of existing shader artworks into a cinematic 3D environment.
-- [Possumwood](https://github.com/martin-pr/possumwood) : is a graph-based procedural sandbox, implementing concepts of graph-based visual programming in a simple interface.
+- [Possumwood](https://github.com/martin-pr/possumwood) : Graph-based procedural sandbox, implementing concepts of graph-based visual programming in a simple interface.
 - [Effekseer](https://effekseer.github.io/en/) : Open source particle effect creating tool.
 - [Particle Illusion](https://borisfx.com/products/particle-illusion/) : Free GPU-accelerated 2D particle generator.
-- [Exr-IO](https://www.exr-io.com/) : is a robust and exact solution for dealing with multi-layer EXR pictures. It supports Cryptomatte.
+- [Exr-IO](https://www.exr-io.com/) : Robust and exact solution for dealing with multi-layer EXR pictures. It supports Cryptomatte.
 - [PickPicPack](https://p4ymak.gumroad.com/l/pickpicpack) : Tiny yet powerful utility for packaging multiple images to new one with custom aspect ratio and size.
-- [GameTextureViewer](https://jangafx.com/software/gametextureviewer/) : is a fast, reliable, and simple tool for artists to preview textures and sprite sheet animations on the fly.
-- [Mandelbulb3D](http://www.andreas-maschke.com/?page_id=4607) : is a free software application created for 3D fractal imaging. [![][repo]](https://github.com/thargor6/mb3d)
+- [GameTextureViewer](https://jangafx.com/software/gametextureviewer/) : Fast, reliable, and simple tool for artists to preview textures and sprite sheet animations on the fly.
+- [Mandelbulb3D](http://www.andreas-maschke.com/?page_id=4607) : Free software application created for 3D fractal imaging. [![][repo]](https://github.com/thargor6/mb3d)
 - [F3D](http://f3d.app) : Fast and minimalist open source cross-platform 3D viewer. Support many fileformats and rendering style. [![][repo]](https://github.com/f3d-app/f3d)
 - [JWildfire](http://www.andreas-maschke.com/?page_id=42) : Stands out for its flame fractal generator. Wildfire is a java-based image processing software. [![][repo]](https://github.com/thargor6/JWildfire)
-- Blender Tools:
+- Blender Tools & Custom Builds:
+    - [Goo Engine](https://github.com/dillongoostudios/goo-engine) : Custom open-source build of Blender by DillonGoo Studios tailored for 3D anime and Non-Photorealistic Rendering (NPR). ![][gpl]
     - [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater) : Download and install nightly builds with one click.
     - [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : Command line version of BlenderUpdater.
     - [Blender Version Manager](https://github.com/DotBow/Blender-Version-Manager) : Minimalistic download manager for blender.
@@ -711,64 +718,63 @@
 
 ### Photogrammetry
 
-- [Meshroom](https://alicevision.org/#meshroom) : is a free, open-source 3D Photogrammetry Software. [![][repo]](https://github.com/alicevision/meshroom)
+- [Meshroom](https://alicevision.org/#meshroom) : Free, open-source 3D Photogrammetry Software. [![][repo]](https://github.com/alicevision/meshroom)
 - [COLMAP](https://colmap.github.io/) : Reconstruct 3D models from ordered or unordered image collections automatically. [![][repo]](https://github.com/colmap/colmap)
-- [3DF Zephyr Free](https://www.3dflow.net/3df-zephyr-free/) : is free version of 3DF Zephyr photogrammetry software for personal use. It comes with some limitations.
-- [MicMac](https://github.com/micmacIGN/micmac) : is a free open-source photogrammetric suite that can be used in a variety of 3D reconstruction scenarios.
+- [3DF Zephyr Free](https://www.3dflow.net/3df-zephyr-free/) : Is free version of 3DF Zephyr photogrammetry software for personal use. It comes with some limitations.
+- [MicMac](https://github.com/micmacIGN/micmac) : Free open-source photogrammetric suite that can be used in a variety of 3D reconstruction scenarios.
 - [RealityCapture](https://www.capturingreality.com/) [$] : Create virtual reality scenes, textured 3D meshes, orthographic projections, geo-referenced maps and much more from images and/or laser scans completely automatically.
-- [Agisoft Metashape](https://www.agisoft.com/) [$] : is a stand-alone software product that performs photogrammetric processing of digital images and generates 3D spatial data.
-- [RealityScan](https://www.capturingreality.com/introducing-realityscan) : a free 3D scanning app, developed in collaboration with Quixel, that turns smartphone photos into high-fidelity 3D models in the most accessible way possible.
+- [Agisoft Metashape](https://www.agisoft.com/) [$] : Stand-alone software product that performs photogrammetric processing of digital images and generates 3D spatial data.
+- [RealityScan](https://www.capturingreality.com/introducing-realityscan) : A free 3D scanning app, developed in collaboration with Quixel, that turns smartphone photos into high-fidelity 3D models in the most accessible way possible.
 
 ### Texture/Material
 
 - [ArmorPaint](https://armorpaint.org/) : Open-Source 3D PBR Texture Painting Software. [![][repo]](https://github.com/armory3d/armorpaint)
 - [Quixel Mixer](https://quixel.com/mixer) : Create photorealistic, tileable, materials in seconds with powerful mixing and painting.
 - [NVIDIA Texture Tools Exporter](https://developer.nvidia.com/nvidia-texture-tools-exporter) : Allows users to create highly compressed texture files (that stay small both on disk and in memory) directly from image sources using NVIDIA’s CUDA-accelerated Texture Tools compressor technology. [![][repo]](https://github.com/castano/nvidia-texture-tools/)
-- [Materialize](http://boundingboxsoftware.com/materialize/) : is a stand alone tool for creating materials from images. [![][repo]](https://github.com/BoundingBoxSoftware/Materialize)
-- [Material Maker](https://rodzilla.itch.io/material-maker) : is a simple procedural materials generation tool. [![][repo]](https://github.com/RodZill4/material-maker)
-- [TextureLab](https://njbrown.itch.io/texturelab) : is a tool designed to make procedural texture generation.
+- [Materialize](http://boundingboxsoftware.com/materialize/) : Stand alone tool for creating materials from images. [![][repo]](https://github.com/BoundingBoxSoftware/Materialize)
+- [Material Maker](https://rodzilla.itch.io/material-maker) : Simple procedural materials generation tool. [![][repo]](https://github.com/RodZill4/material-maker)
+- [TextureLab](https://njbrown.itch.io/texturelab) : Tool designed to make procedural texture generation.
 - [AwesomeBump](https://github.com/kmkolasinski/AwesomeBump) : Generate normal, height, specular or ambient occlusion textures from a single image.
-- [Agisoft De-Lighter](https://agisoft.freshdesk.com/support/solutions/articles/31000158376-agisoft-texture-de-lighter-general-workflow) : is a free stand-alone tool designed to remove shadows from model textures. [[download]](https://www.agisoft.com/downloads/installer/)
-- [Agama Materials](https://agama.itch.io/agama-materials) : is software for creating PBR materials and painting 3d models. You can create materials and use them for painting models, or you can use pre-made textures.
-- [Architextures - Create](https://architextures.org/create) : web app allows you to create seamless textures, bump maps and CAD hatches. Select any of the parameters to get started.
-- [Poly](https://withpoly.com/) : is a seamless texture generator & gallery (up to 8K) with PBR maps (up to 32-bit) for any types of materials with a simple text or image prompt.
+- [Agisoft De-Lighter](https://agisoft.freshdesk.com/support/solutions/articles/31000158376-agisoft-texture-de-lighter-general-workflow) : Free stand-alone tool designed to remove shadows from model textures. [[download]](https://www.agisoft.com/downloads/installer/)
+- [Agama Materials](https://agama.itch.io/agama-materials) : Is software for creating PBR materials and painting 3d models. You can create materials and use them for painting models, or you can use pre-made textures.
+- [Architextures - Create](https://architextures.org/create) : Web app allows you to create seamless textures, bump maps and CAD hatches. Select any of the parameters to get started.
 - [Normal Map Bench](https://normalmapbench.com/) : Free browser-based normal map generator from images with live strength, smoothing, edge and lighting controls; OpenGL/DirectX export.
 
 ### Terrain
 
-- [TerreSculptor](http://www.demenzunmedia.com/home/terresculptor/) : is a terrain creation and editing software. It is freeware.
+- [TerreSculptor](http://www.demenzunmedia.com/home/terresculptor/) : Terrain creation and editing software. It is freeware.
 - [World Machine](https://www.world-machine.com/) : Command powerful tools like erosion and advanced colormaps to create terrain heightmaps, meshes, and textures for your game or 3D scene. You can use the Basic Edition for free.
 - [Terragen](https://planetside.co.uk/free-downloads/) : Ray-tracing supported terrain generator. There is free version with some limitations.
-- [World Creator](https://www.world-creator.com/) [$] : is a real-time terrain generator and landscape generator.
+- [World Creator](https://www.world-creator.com/) [$] : Real-time terrain generator and landscape generator.
 - [Gaea](https://quadspinner.com/) : Sophisticated and modern terrain design software for apex results in moments. There is Community Free edition with some limitations.
 - [Instant Terra](https://www.wysilab.com/) : Real-time terrain generation tool. Create your terrain, world, and landscape for your game, movie, or simulation.
 
 ### Real-World Height Maps
 
-- [Tangram Heightmapper](https://tangrams.github.io/heightmapper/) : is an interactive grayscale heightmap browser, which can generate heightmaps for use in 3D applications.
+- [Tangram Heightmapper](https://tangrams.github.io/heightmapper/) : Interactive grayscale heightmap browser, which can generate heightmaps for use in 3D applications.
 - [OpenTopography/datasets](https://portal.opentopography.org/datasets) : Facilitates community access to high-resolution, Earth science-oriented, topography data, and related tools and resources. _Registration required_.
 - [Copernicus DEM - ESA](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM) : The Copernicus Digital Elevation Model is a Digital Surface Model (DSM) that represents the surface of the Earth including buildings, infrastructure and vegetation.
 
 ### Point Cloud/LiDAR Data
 
-- [OpenTopography](https://portal.opentopography.org/dataCatalog?formats=0) : is a collaborative data repository for LiDAR users.
+- [OpenTopography](https://portal.opentopography.org/dataCatalog?formats=0) : Collaborative data repository for LiDAR users.
 - [NOAA’s Data Access Viewer](https://coast.noaa.gov/dataviewer/#/lidar/search/) : This online tool allows a user to search for and download lidar, imagery, and land cover data.
-- [United States Interagency Elevation Inventory](https://coast.noaa.gov/inventory/) : is a collaborative effort of the USGS and NOAA with contributions from other federal agencies.
+- [United States Interagency Elevation Inventory](https://coast.noaa.gov/inventory/) : Collaborative effort of the USGS and NOAA with contributions from other federal agencies.
 - [USGS/TNM](https://apps.nationalmap.gov/downloader/) : U.S. Geological The National Map. You can also use the [Earth Explorer (USGS)](https://earthexplorer.usgs.gov/). [[info]](https://www.usgs.gov/faqs/what-lidar-data-and-where-can-i-download-it?qt-news_science_products=0#qt-news_science_products)
 - [USGS/Entwine](https://usgs.entwine.io/) : This website provides Potree and Plasio.js interfaces to the AWS USGS LiDAR Public Dataset. [![][repo]](https://github.com/hobu/usgs-lidar)
 - [Sketchfab/lidar](https://sketchfab.com/tags/lidar), [Sketchfab/point-cloud](https://sketchfab.com/tags/point-cloud).
 
 ### Generator
 
-- [JSplacement](https://archive.org/details/jsplacement-1.3.0-allplatforms_202108) : is a cross-platform pseudo-random 8K displacement map generator.
+- [JSplacement](https://archive.org/details/jsplacement-1.3.0-allplatforms_202108) : Cross-platform pseudo-random 8K displacement map generator.
 - [Procedural City Generator](https://probabletrain.itch.io/city-generator) : Create procedurally generated city maps in the style of American grid-based cities. [![][repo]](https://github.com/ProbableTrain/MapGenerator)
-- [Medieval Fantasy City Generator](https://watabou.itch.io/medieval-fantasy-city-generator) : This application generates a random medieval city layout of a requested size. [City Viewer](https://watabou.itch.io/city-viewer) : is a 3d-visualizer for MFCD. See other generators from [watabou.itch.io](https://watabou.itch.io/).
+- [Medieval Fantasy City Generator](https://watabou.itch.io/medieval-fantasy-city-generator) : This application generates a random medieval city layout of a requested size. [City Viewer](https://watabou.itch.io/city-viewer) : 3d-visualizer for MFCD. See other generators from [watabou.itch.io](https://watabou.itch.io/).
 - [city-roads](https://anvaka.github.io/city-roads/) : This website allows you to select a city and then draws every single road on a screen. [![][repo]](https://github.com/anvaka/city-roads)
 
 ### AI-Powered
 
-- [Gigapixel AI](https://topazlabs.com/gigapixel-ai/) [$] : is the only photo enlargement product available that can actually add detail back to your upscaled photo.
-- [Rokoko Video](https://www.rokoko.com/products/video) : motion capture using your webcam or video-upload and animate in minutes.
+- [Gigapixel AI](https://topazlabs.com/gigapixel-ai/) [$] : Is the only photo enlargement product available that can actually add detail back to your upscaled photo.
+- [Rokoko Video](https://www.rokoko.com/products/video) : Motion capture using your webcam or video-upload and animate in minutes.
 - [Skilly](https://tryskilly.app) : Voice-first AI tutor for Mac that watches your Blender screen and walks you through any modifier or workflow in real time. [![][repo]](https://github.com/tryskilly/skilly)
 
 ### Sound/Music
@@ -779,8 +785,8 @@
 
 ### Painting
 
-- [Krita](https://krita.org/en/) : is a professional free and open source painting program. It is made by artists that want to see affordable art tools for everyone. [![][repo]](https://github.com/KDE/krita)
-- [HEAVYPAINT](https://www.heavypaint.com/) : is a simple app designed for graphic painting. The UI is streamlined for fluid, happy painting with as little friction as possible.
+- [Krita](https://krita.org/en/) : Professional free and open source painting program. It is made by artists that want to see affordable art tools for everyone. [![][repo]](https://github.com/KDE/krita)
+- [HEAVYPAINT](https://www.heavypaint.com/) : Simple app designed for graphic painting. The UI is streamlined for fluid, happy painting with as little friction as possible.
 
 <p align="right"><sub><a href="#table">↑ Back to top</a></sub></p>
 
@@ -808,15 +814,15 @@
 
 ### Community
 
-- [👨🏽‍🚀Blender.Community](https://blender.community/c/) : is an independent community aggregator, by Blenderheads for Blenderheads.
+- [👨🏽‍🚀Blender.Community](https://blender.community/c/) : Independent community aggregator, by Blenderheads for Blenderheads.
     - [☕Blender.Today](https://blender.community/c/today/) : Community-driven Blender news, chat, and live streams! Stream [playlist](https://www.youtube.com/playlist?list=PLa1F2ddGya_87HJ72v_IgKUTNLIXSMfvB).
     - [🖱️Right-Click Select](https://blender.community/c/rightclickselect/) : Got an idea for a feature that you think Blender absolutely must have?
 - [👨‍🎨Blender Artists Community](http://www.blenderartists.org/) : Home of the Blender Community.
-- [📰BlenderNation](https://www.blendernation.com/) : daily news, art and tutorials for Blender, the open source 3D content creation suite.
-- [💬blender.chat](https://blender.chat/) : official chat server for artists and developers.
-- [🗨️discord/blender](https://discord.gg/blender) : community-managed Discord server.
+- [📰BlenderNation](https://www.blendernation.com/) : Daily news, art and tutorials for Blender, the open source 3D content creation suite.
+- [💬blender.chat](https://blender.chat/) : Official chat server for artists and developers.
+- [🗨️discord/blender](https://discord.gg/blender) : Community-managed Discord server.
 - [fb/blender](https://fb.com/groups/2207257375/) : Blender Facebook group.
-- [blender.stackexchange.com](https://blender.stackexchange.com/) : questions and answers.
+- [blender.stackexchange.com](https://blender.stackexchange.com/) : Questions and answers.
 
 <p align="right"><sub><a href="#table">↑ Back to top</a></sub></p>
 
@@ -839,7 +845,7 @@
 
 - ☰[Blender Fundamentals by Blender.](https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
 - ☰[Blender Basics by CG Cookie.](https://cgcookie.com/lesson/welcome-to-the-blender-basics)
-- ☰[🍩Blender 3.0 Beginner Donut Tutorial by Blender Guru.](https://www.youtube.com/playlist?list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U)
+- ☰[🍩Blender 4.0 Beginner Donut Tutorial by Blender Guru.](https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z)
 - 🧾[Blender Fundamentals by Dev Null Productions](https://docs.google.com/document/d/1oWYIJWIGyjYJeQ9ZXnwKgS2uFzZ6K8jfILafHJdvg7M)
 - ☰[🍦Blender Complete Beginner Tutorial Course by CG Geek.](https://www.youtube.com/playlist?list=PLrjIgEdKLivgpCMmFC0_sV60Y_Ftp-WLD)
 - ☰[🍏Blender Beginner Tutorial Series by CG Boost.](https://www.youtube.com/playlist?list=PL3UWN2F2M2C8-zUjbFlbgtWPQa0NXBsp0)
@@ -890,6 +896,7 @@
 ### 🌠 Animation
 
 - 🧾[Animation & Rigging Manual.](https://docs.blender.org/manual/en/latest/physics/index.html)
+- 🧾[Grease Pencil Manual.](https://docs.blender.org/manual/en/latest/grease_pencil/index.html)
 - ▷[Blender Animate Running In 2 Minutes!](https://www.youtube.com/watch?v=qxoo_bcUZos)
 - ▷[Rig any Character for Animation in 10 Minutes!](https://www.youtube.com/watch?v=SBYb1YmaOMY)
 - ▷[Blender Character Animation: Shape Keys.](https://www.youtube.com/watch?v=YDu6y_2jFg0)
@@ -963,8 +970,9 @@
 
 - 🧾Documentation:
     - [Blender Python API Documentation](https://docs.blender.org/api/current/) : Official Blender Python API Documentation.
+    - [Creating Extensions (Blender 4.2+)](https://docs.blender.org/manual/en/latest/advanced/extensions/getting_started.html) : Official manual on packaging add-ons and themes using `blender_manifest.toml` for the Blender Extensions Platform.
     - [Programming Add-ons for Blender 2.8](http://airplanes3d.net/pydev-000_e.xml) : It shows how to set up a professional IDE for writing Python programs for Blender, on the example of a simple plugin. It is an ebook, published freely on Creative Commons license.
-    - [blenderscripting](https://blenderscripting.blogspot.com/) : blender related python snippets to get you started.
+    - [blenderscripting](https://blenderscripting.blogspot.com/) : Blender related python snippets to get you started.
     - [Blender 3D: Noob to Pro/Python Scripting](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Advanced_Tutorials/Python_Scripting/Introduction) : Python Scripting from [Blender 3D: Noob to Pro](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro) book.
 - Video Tutorials:
     - ☰[Scripting for Artists by Blender.](https://www.youtube.com/playlist?list=PLa1F2ddGya_8acrgoQr1fTeIuQtkSd6BW)
@@ -975,21 +983,23 @@
 - Posts:
     - [Blender 2.8 Python Scripting Superpowers for Non-Programmers](https://cgcookie.com/articles/blender-2-8-python-scripting-superpowers-for-non-programmers) : If you’ve been using Blender or any other 3D app for a while, you’ve found yourself slogging through the same tasks over and over again and at some point thinking, “I really wish Blender just did this for me”. Through scripting, it can!
     - [Visualizing Complex Numbers in Blender](https://medium.com/@behreajj/visualizing-complex-numbers-in-blender-d60bd32f20b9) : This tutorial introduces how to make patterns with complex numbers in Blender.
-- Sources:
-    - [blender-scripting](https://github.com/njanakiev/blender-scripting) : Introduction to blender scripting. This is a collection of simple to more involved examples to scripting in Blender with Python.
-    - [The Code Editor](https://blenderartists.org/t/how-would-you-show-some-love-for-the-blender-text-editor/1163857) : This thread is for discussing how the Text Editor can be improved and sharing add-ons which will modernize, expand and ease coding in Blender.
-    - [fake-bpy-module](https://github.com/nutti/fake-bpy-module) : is the collections of the fake Blender Python API modules for the code completion in commonly used IDEs.
-    - [blender-debugger-for-vscode](https://github.com/AlansCodeLog/blender-debugger-for-vscode) : Blender addon for remote debugging Blender with VS Code (and Visual Studio).
-    - [Blender Development in VS Code](https://marketplace.visualstudio.com/items?itemName=JacquesLucke.blender-development) : Visual Studio Code extension for Blender development. [![][repo]](https://github.com/JacquesLucke/blender_vscode)
-    - [blender-cli-rendering](https://github.com/yuki-koyama/blender-cli-rendering) : Python scripts for rendering images using Blender from command-line interface.
-    - [render-useful](https://gitlab.com/ldo/render-useful) : Command-line tools for Blender renders.
-    - [blender-addon-tester](https://github.com/nangtani/blender-addon-tester) : The blender addon tester is a test harness to enable pytest hook to allow addons to be tested inside a defined version of blender.
-    - [EasyBPY](https://gumroad.com/l/easybpy) : This purpose of this module is to simplify the use of the Blender API (bpy) by creating an extra layer of abstraction that is more human-readable, memorable and reduces the user's exposure to complex code paths. [![][repo]](https://github.com/curtisjamesholt/EasyBPY)
-    - [Advanced Blender Add-on](https://github.com/eliemichel/AdvancedBlenderAddon) : This repository intends to give a starter kit as well as to illustrate and intensively comment design patterns commonly used in advanced Blender add-ons.
-    - [3DN BIP](https://github.com/3dninjas/3dn-bip) : A Python library for Blender. Blazingly fast preview loads in Blender. Images of arbitrary size. `bpy.utils.previews` drop-in replacement.
-    - [Geometry Script](https://github.com/carson-katri/geometry-script) : is a scripting API for Blender's Geometry Nodes. It makes complicated node trees more managable and easy to share.
-    - [Molecular Animation](https://github.com/AmadeusBio-ai/Molecular_Animation) : Python framework and command-line pipeline for scripted, headless molecular animation in Blender from PDB and AlphaFold structures.
-    - [BlenderAddonPackageTool](https://github.com/xzhuah/BlenderAddonPackageTool) : A framework integrated with handy tools for developing Blender add-ons and extensions, featuring hot-swap for testing, dependency-aware packaging, auto class loading, and add-on internationalization. ![][mit]
+- IDE, Debugging & Testing:
+    - [fake-bpy-module](https://github.com/nutti/fake-bpy-module) : Fake Blender Python API (`bpy`) modules for autocompletion and type checking in VS Code, PyCharm, and other IDEs.
+    - [Blender Development in VS Code](https://marketplace.visualstudio.com/items?itemName=JacquesLucke.blender-development) : Visual Studio Code extension for building, running, and hot-reloading Blender add-ons. [![][repo]](https://github.com/JacquesLucke/blender_vscode)
+    - [blender-debugger-for-vscode](https://github.com/AlansCodeLog/blender-debugger-for-vscode) : Add-on for remote debugging Blender Python scripts with VS Code.
+    - [blender-addon-tester](https://github.com/nangtani/blender-addon-tester) : Pytest test harness for running automated add-on tests against defined Blender versions.
+    - [The Code Editor](https://blenderartists.org/t/how-would-you-show-some-love-for-the-blender-text-editor/1163857) : Community thread curating tools and add-ons that modernize Blender's Text Editor.
+- Frameworks, Packaging & APIs:
+    - [BlenderAddonPackageTool](https://github.com/xzhuah/BlenderAddonPackageTool) : Framework for developing Blender add-ons and extensions with hot-swap testing, dependency packaging, auto class loading, and i18n. ![][mit]
+    - [Advanced Blender Add-on](https://github.com/eliemichel/AdvancedBlenderAddon) : Starter kit illustrating architecture and design patterns for complex Blender add-ons.
+    - [EasyBPY](https://gumroad.com/l/easybpy) : Human-readable abstraction layer that simplifies common `bpy` operations. [![][repo]](https://github.com/curtisjamesholt/EasyBPY)
+    - [Geometry Script](https://github.com/carson-katri/geometry-script) : Python scripting API for building and managing complex Geometry Nodes trees in code.
+    - [3DN BIP](https://github.com/3dninjas/3dn-bip) : Fast drop-in replacement for `bpy.utils.previews` supporting arbitrary image sizes.
+    - [blender-scripting](https://github.com/njanakiev/blender-scripting) : Collection of practical Python scripting examples for Blender.
+- Headless & CLI Pipelines:
+    - [blender-cli-rendering](https://github.com/yuki-koyama/blender-cli-rendering) : Python scripts for headless batch rendering with Blender from the command line.
+    - [render-useful](https://gitlab.com/ldo/render-useful) : Command-line utilities for managing Blender renders.
+    - [Molecular Animation](https://github.com/AmadeusBio-ai/Molecular_Animation) : Python framework and CLI pipeline for scripted, headless molecular animation in Blender from PDB and AlphaFold structures.
 - Support:
     - [devtalk/python](https://devtalk.blender.org/c/python/6) : Questions about using and developing the [Blender Python API](https://developer.blender.org/project/view/24/), both for Blender itself and add-ons.
     - [blenderartists/python-support](https://blenderartists.org/c/coding/python-support/19), [stackoverflow/tagged/bpy](https://stackoverflow.com/questions/tagged/bpy)
@@ -1038,7 +1048,7 @@
 ### 🔍 Explore Artworks
 
 <p>
-    <a href="https://www.reddit.com/r/blender/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/reddit/subscribers/r/blender.svg?variant=secondary&amp;size=xs&amp;mode=dark"><img alt="r/blender" src="https://www.shieldcn.dev/reddit/subscribers/r/blender.svg?variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
+    <a href="https://www.reddit.com/r/blender/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Reddit-r%2Fblender.svg?logo=reddit&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="r/blender" src="https://www.shieldcn.dev/badge/Reddit-r%2Fblender.svg?logo=reddit&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
     <a href="https://www.instagram.com/explore/tags/b3d/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Instagram-%23b3d.svg?logo=instagram&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="Instagram #b3d" src="https://www.shieldcn.dev/badge/Instagram-%23b3d.svg?logo=instagram&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
     <a href="https://twitter.com/hashtag/b3d"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/X-%23b3d.svg?logo=x&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="X #b3d" src="https://www.shieldcn.dev/badge/X-%23b3d.svg?logo=x&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
     <a href="https://www.artstation.com/search?sort_by=relevance&query=blender"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/ArtStation-blender.svg?logo=artstation&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="ArtStation blender" src="https://www.shieldcn.dev/badge/ArtStation-blender.svg?logo=artstation&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
@@ -1081,50 +1091,57 @@ _Some accounts where you can find different kinds of content related to blender.
 ### 📢 Youtube Channels
 
 - [IanHubert](https://www.youtube.com/user/mrdodobird/videos) : _Lazy tutorials_, modeling, animating, vfx, cinematic.
-- [Midge Sinnaeve](https://www.youtube.com/channel/UCChYCkbgArLsCl5DWlxuKhQ/videos) : modifiers, _weird sh!t_, art streams.
-- [CGMatter](https://www.youtube.com/channel/UCy1f4m64dwCwk8CBZ_vHfPg/videos) : short tutorials.
+- [Midge Sinnaeve](https://www.youtube.com/channel/UCChYCkbgArLsCl5DWlxuKhQ/videos) : Modifiers, _weird sh!t_, art streams.
+- [CGMatter](https://www.youtube.com/channel/UCy1f4m64dwCwk8CBZ_vHfPg/videos) : Short tutorials.
 - [Default Cube](https://www.youtube.com/channel/UCdpWKLNfbROyoGPV46-zaUQ/videos) : CGMatter's second channel used for longer tutorials and other kinds of videos.
-- [SouthernShotty](https://www.youtube.com/channel/UCOWrbryuVEPUMSSgayuLURg/videos) : stylized modeling, character creation, sculpting.
+- [SouthernShotty](https://www.youtube.com/channel/UCOWrbryuVEPUMSSgayuLURg/videos) : Stylized modeling, character creation, sculpting.
 - [Blender Guru ](https://www.youtube.com/user/AndrewPPrice/videos) : Most popular blender channel on youtube.
-- [CG Geek](https://www.youtube.com/user/Blenderfan93/videos) : second most popular blender channel on youtube.
-- [Gleb Alexandrov](https://www.youtube.com/user/GlebAlexandrov/videos) : one of the best-known blender channel on youtube.
-- [Ducky 3D](https://www.youtube.com/channel/UCuNhGhbemBkdflZ1FGJ0lUQ/videos) : abstract designs, modifiers.
+- [CG Geek](https://www.youtube.com/user/Blenderfan93/videos) : Second most popular blender channel on youtube.
+- [Gleb Alexandrov](https://www.youtube.com/user/GlebAlexandrov/videos) : One of the best-known blender channel on youtube.
+- [Ducky 3D](https://www.youtube.com/channel/UCuNhGhbemBkdflZ1FGJ0lUQ/videos) : Abstract designs, modifiers.
 - [Royal Skies LLC](https://www.youtube.com/channel/UC2U5mRfclG1Rrr1ztNkpGKA/videos) : _Speed tutorials_, texturing, mapping, nodes, animation.
-- [Grant Abbitt](https://www.youtube.com/user/mediagabbitt/videos) : modeling, animation, sculpting, low-poly, game assets.
-- [Chris Prenninger](https://www.youtube.com/user/chrisprenn/videos) : animation nodes, particle systems, shading.
+- [Grant Abbitt](https://www.youtube.com/user/mediagabbitt/videos) : Modeling, animation, sculpting, low-poly, game assets.
+- [Chris Prenninger](https://www.youtube.com/user/chrisprenn/videos) : Animation nodes, particle systems, shading.
 - [Jayanam](https://www.youtube.com/user/jayanamgames/videos) : Shading, coding, modeling.
-- [CG Boost](https://www.youtube.com/channel/UCWWybvw9jnpOdJq_6wTHryA/videos) : modeling, sculpting.
-- [CG Cookie](https://www.youtube.com/user/blendercookie/videos) : free tutorials from [CG Cookie](https://cgcookie.com/).
-- [FlippedNormals](https://www.youtube.com/user/FlippedNormalsTuts/videos) : sculpting, modeling.
-- [Curtis Holt](https://www.youtube.com/channel/UCzghqpGuEmk4YdVewxA79GA/videos) : modeling, modifiers, coding.
-- [Polygon Runway](https://www.youtube.com/channel/UCGSJevmBuDyxjLLOBNaYMGA/videos) : stylish low-poly modeling.
-- [Steven Scott](https://www.youtube.com/channel/UCiy-QcXrvu9hhe4arymNcfw/videos) : add-ons, feature reviews.
-- [Blender NPR](https://www.youtube.com/user/blendernpr/videos) : non-Photorealistic and expressive rendering.
-- [Martin Klekner](https://www.youtube.com/user/CamperCz/videos) : modeling, texturing.
-- [Danny Mac 3D](https://www.youtube.com/user/djmccabie/videos) : character modeling, posing, rigging, retopology, sculpting.
-- [Daniel Krafft - DSO](https://www.youtube.com/channel/UCojEXrCBzO-cP2N5YlRcrWw/videos) : blender tips, add-ons.
-- [Imphenzia](https://www.youtube.com/user/ImphenziaMusic/videos) : low poly modeling, rigging.
-- [Saqib Hussain](https://www.youtube.com/user/sh2708mf/videos) : modeling, modifiers, texturing, shading.
-- [CrossMind Studio](https://www.youtube.com/channel/UCHihootMqyGz175gqOPahtw/videos) : introduction, modeling, shading, lighting, modifiers.
-- [CBaileyFilm](https://www.youtube.com/channel/UCXguhzOm29mBTYDuxKjxn5A/videos) : blender animation projects.
-- [Josh Gambrell](https://www.youtube.com/c/JoshGambrell/videos) : hard surface modeling.
-- [CG Masters](https://www.youtube.com/user/blengine/videos) : modeling, texturing, shading.
-- [Peter France](https://www.youtube.com/c/PeterFrance/videos) : modeling, texturing, shading, vfx.
-- [Polyfjord](https://www.youtube.com/c/Polyfjord/videos) : animation.
-- [Cédric Lepiller](https://www.youtube.com/c/pitiwazou/videos) : hard surface modeling.
-- [FlyCat](https://www.youtube.com/channel/UCnXU0MjnApXHZkf3uGYbLSA/videos) : character modeling.
-- [Stylized Station](https://www.youtube.com/c/StylizedStation/videos) : game art.
-- [Iridesium](https://www.youtube.com/c/Iridesium/videos) : simulation, vfx.
-- [Lightning Boy Studio](https://www.youtube.com/channel/UCd9i2MKimSaKezat1xkn8-A/videos) : toon shader, npr.
-- [Giulia Marchetti](https://www.youtube.com/c/GiuliaMarchetti3d/videos) : sculpting, character modeling.
-- [CG Fast Track](https://www.youtube.com/c/CGFastTrack/videos) : modeling, animation.
-- [3DGreenhorn](https://www.youtube.com/c/3DGreenhorn/videos) : isometric modeling.
-- [Bad Normals](https://www.youtube.com/c/BadNormals/videos) : modeling, animation.
-- [Kevandram](https://www.youtube.com/user/kevandram/videos) : grease pencil.
-- [Noggi](https://www.youtube.com/c/Noggi_Video/videos) : sculpting.
-- [DerekElliott](https://www.youtube.com/c/DerekElliott/videos) : modeling, animation.
+- [CG Boost](https://www.youtube.com/channel/UCWWybvw9jnpOdJq_6wTHryA/videos) : Modeling, sculpting.
+- [CG Cookie](https://www.youtube.com/user/blendercookie/videos) : Free tutorials from [CG Cookie](https://cgcookie.com/).
+- [FlippedNormals](https://www.youtube.com/user/FlippedNormalsTuts/videos) : Sculpting, modeling.
+- [Curtis Holt](https://www.youtube.com/channel/UCzghqpGuEmk4YdVewxA79GA/videos) : Modeling, modifiers, coding.
+- [Polygon Runway](https://www.youtube.com/channel/UCGSJevmBuDyxjLLOBNaYMGA/videos) : Stylish low-poly modeling.
+- [Steven Scott](https://www.youtube.com/channel/UCiy-QcXrvu9hhe4arymNcfw/videos) : Add-ons, feature reviews.
+- [Blender NPR](https://www.youtube.com/user/blendernpr/videos) : Non-Photorealistic and expressive rendering.
+- [Martin Klekner](https://www.youtube.com/user/CamperCz/videos) : Modeling, texturing.
+- [Danny Mac 3D](https://www.youtube.com/user/djmccabie/videos) : Character modeling, posing, rigging, retopology, sculpting.
+- [Daniel Krafft - DSO](https://www.youtube.com/channel/UCojEXrCBzO-cP2N5YlRcrWw/videos) : Blender tips, add-ons.
+- [Imphenzia](https://www.youtube.com/user/ImphenziaMusic/videos) : Low poly modeling, rigging.
+- [Saqib Hussain](https://www.youtube.com/user/sh2708mf/videos) : Modeling, modifiers, texturing, shading.
+- [CrossMind Studio](https://www.youtube.com/channel/UCHihootMqyGz175gqOPahtw/videos) : Introduction, modeling, shading, lighting, modifiers.
+- [CBaileyFilm](https://www.youtube.com/channel/UCXguhzOm29mBTYDuxKjxn5A/videos) : Blender animation projects.
+- [Josh Gambrell](https://www.youtube.com/c/JoshGambrell/videos) : Hard surface modeling.
+- [CG Masters](https://www.youtube.com/user/blengine/videos) : Modeling, texturing, shading.
+- [Peter France](https://www.youtube.com/c/PeterFrance/videos) : Modeling, texturing, shading, vfx.
+- [Polyfjord](https://www.youtube.com/c/Polyfjord/videos) : Animation.
+- [Cédric Lepiller](https://www.youtube.com/c/pitiwazou/videos) : Hard surface modeling.
+- [FlyCat](https://www.youtube.com/channel/UCnXU0MjnApXHZkf3uGYbLSA/videos) : Character modeling.
+- [Stylized Station](https://www.youtube.com/c/StylizedStation/videos) : Game art.
+- [Iridesium](https://www.youtube.com/c/Iridesium/videos) : Simulation, vfx.
+- [Lightning Boy Studio](https://www.youtube.com/channel/UCd9i2MKimSaKezat1xkn8-A/videos) : Toon shader, npr.
+- [Giulia Marchetti](https://www.youtube.com/c/GiuliaMarchetti3d/videos) : Sculpting, character modeling.
+- [CG Fast Track](https://www.youtube.com/c/CGFastTrack/videos) : Modeling, animation.
+- [3DGreenhorn](https://www.youtube.com/c/3DGreenhorn/videos) : Isometric modeling.
+- [Bad Normals](https://www.youtube.com/c/BadNormals/videos) : Modeling, animation.
+- [Kevandram](https://www.youtube.com/user/kevandram/videos) : Grease pencil.
+- [Noggi](https://www.youtube.com/c/Noggi_Video/videos) : Sculpting.
+- [DerekElliott](https://www.youtube.com/c/DerekElliott/videos) : Modeling, animation.
 - [Samuel Sullins](https://www.youtube.com/@samuelsullins) : Geometry Nodes, vfx, lowpoly, general.
-- [CG Python](https://www.youtube.com/@CGPython) : blender Python scripting tips and tricks.
+- [CG Python](https://www.youtube.com/@CGPython) : Blender Python scripting tips and tricks.
+- [Erindale](https://www.youtube.com/@Erindale/videos) : Geometry Nodes, procedural shading, node-based workflows.
+- [Brady Johnston](https://www.youtube.com/@BradyJohnston/videos) : Geometry Nodes, scientific visualization, MolecularNodes.
+- [Cartesian Caramel](https://www.youtube.com/@CartesianCaramel/videos) : Procedural systems, Geometry Nodes simulations, technical art.
+- [Ryan King Art](https://www.youtube.com/@RyanKingArt/videos) : Beginner tutorials, procedural materials, daily Blender guides.
+- [Max Hay](https://www.youtube.com/@MaxHayArt/videos) : Photorealistic 3D environments, lighting, composition.
+- [Kaizen](https://www.youtube.com/@KaizenTutorials/videos) : Modeling, texturing, lighting, workflow tips.
+- [DillonGoo](https://www.youtube.com/@dillongoo/videos) : 3D anime animation, NPR rendering, Goo Engine.
 
 ### 💻 Blogs
 
@@ -1132,12 +1149,12 @@ _Some accounts where you can find different kinds of content related to blender.
 - [Blender Sushi](https://blendersushi.blogspot.com/) : Collection of 3D ideas, poetries and experiments blended in Blender 3D.
 - [Artisticrender](https://artisticrender.com/) : Tutorials, tips, resources about Blender and 3D.
 - [Creative Shrimp](https://www.creativeshrimp.com/) : High quality CG tutorials and Blender tutorials, digital art and lighting tutorials with Gleb and Aidy.
-- [Blender 3D Architect](https://www.blender3darchitect.com/) : is the place to find news, tutorials, resources and training related to architectural visualization using Blender.
-- [BlenderAddons.org](https://blender-addons.org/) : provides a list of free and paid Blender addons. Find the addon you need under categories or tags.
+- [Blender 3D Architect](https://www.blender3darchitect.com/) : Is the place to find news, tutorials, resources and training related to architectural visualization using Blender.
+- [BlenderAddons.org](https://blender-addons.org/) : Provides a list of free and paid Blender addons. Find the addon you need under categories or tags.
 - [Interplanety](https://b3d.interplanety.org/en/) : Blender tutorials, articles, tips, notes.
 - [Darkfall](https://darkfallblender.blogspot.com/) : Blender python tutorials, nodes.
 - [The CG Essentials](https://thecgessentials.com/) : 3D modeling, rendering, animation, particle simulation, and more, this is the place to be for Blender Tutorials.
-- [Blender Secrets](https://www.blendersecrets.org/secrets) : is home to hundreds of one-minute or less video tutorials that teach you specific topics.
+- [Blender Secrets](https://www.blendersecrets.org/secrets) : Is home to hundreds of one-minute or less video tutorials that teach you specific topics.
 
 ### 🎊 Challenges
 
@@ -1145,7 +1162,7 @@ _Some accounts where you can find different kinds of content related to blender.
     - See works: [tw/#nodevember](https://twitter.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?sort_by=relevance&query=nodevember)
 - [SculptJanuary](https://www.cgboost.com/challenges) : Challenge yourself over 31 days with a set of 31 topics. Sculpt every day and improve your sculpting skills.
     - See works: [tw/#sculptjanuary](https://twitter.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary)
-- [36 Days of Type](http://www.36daysoftype.com/) : is a yearly open call inviting designers, illustrators and visual artists to share their view on the letters and numbers from our alphabet.
+- [36 Days of Type](http://www.36daysoftype.com/) : Yearly open call inviting designers, illustrators and visual artists to share their view on the letters and numbers from our alphabet.
     - See works: [tw/#36daysoftype](https://twitter.com/hashtag/36daysoftype), [ig/#36daysoftype](https://www.instagram.com/explore/tags/36daysoftype/), [artstation/36daysoftype](https://www.artstation.com/search?sort_by=relevance&query=6daysoftype)
 - Competitions: [/r/blender: contest](https://www.reddit.com/r/blender/), [blenderartists.org/contest](https://blenderartists.org/c/contests).
 - [Render Challenge](https://renderchallenge.com/) : The most up-to-date database of 3D art challenges on the Internet! Get notified of new render challenges every Friday.
@@ -1182,7 +1199,7 @@ _Some accounts where you can find different kinds of content related to blender.
 Your contributions are always welcome! ^\_^ If you want to contribute to this list, send a _pull request_, open an _issue_ or _contact with me_ @agmmnn. Please read the _[contributing guidelines](https://github.com/agmmnn/awesome-blender/blob/master/CONTRIBUTING.md)_ first, some sections have their own guidelines as a comment line.
 
 <p>
-    <a href="https://github.com/agmmnn/awesome-blender/graphs/contributors"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;title=&amp;mode=dark"><img alt="agmmnn/awesome-blender contributors" src="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;title=&amp;mode=light"></picture></a>
+    <a href="https://github.com/agmmnn/awesome-blender/graphs/contributors"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;title=false&amp;mode=dark"><img alt="agmmnn/awesome-blender contributors" src="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;title=false&amp;mode=light"></picture></a>
 </p>
 
 <p>
