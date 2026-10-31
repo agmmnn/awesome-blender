@@ -523,6 +523,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 - [FreePBR.com](https://freepbr.com/) : Free PBR materials and texture files.
 - [ShareTextures](https://www.sharetextures.com/) : Free High Quality Material Archive for everybody. [![][zero]](https://www.sharetextures.com/p/license)
 - [Texture.Ninja](https://texture.ninja/) : Public domain photographic textures, reference images, cutouts. ![][zero]
+- [3DTexel](https://3dtexel.com/pbr-material/) : 1,000+ handmade seamless PBR materials in 4K (some up to 8K), including stylized/hand-painted ones. Free account required. [![][zero]](https://3dtexel.com/asset-license/)
 - [3DXO](https://www.3dxo.com) : Free 3D Models, seamless Textures, Backgrounds, Photos & Graphics.
 - [Texture Box](https://texturebox.com/) : We are making free textures for 3D Artists from all over the world. Also, we offer custome texture services.
 - [Texture Fun](https://texturefun.com/) : Free PBR texture sets of common architectural materials, including some nice tile textures.
