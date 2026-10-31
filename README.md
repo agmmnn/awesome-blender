@@ -785,6 +785,7 @@ English | [简体中文版 (Chinese)](README_ZH.md)
 - [DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender) : Agent toolkit that lets AI coding agents build models in Blender with a bpy knowledge base, an execution contract and a 3D-print production gate.
 - [Gigapixel AI](https://topazlabs.com/gigapixel-ai/) [$] : is the only photo enlargement product available that can actually add detail back to your upscaled photo.
 - [Rokoko Video](https://www.rokoko.com/products/video) : motion capture using your webcam or video-upload and animate in minutes.
+- [blender-kiln](https://github.com/elithril/blender-kiln) : a Claude Code plugin that drives Blender through an MCP server to build, texture, optimize and export game-ready assets from a text brief or a photo. ![][repo]
 
 ### Sound/Music [^](#table)
 
