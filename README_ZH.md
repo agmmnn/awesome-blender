@@ -1182,15 +1182,20 @@ _一些可以找到各种 Blender 相关内容的账号。_
 欢迎您的贡献！^\_^ 如果您想为这个列表做贡献，请提交 _pull request_（仅需编辑英文 `README.md`）、创建 _issue_ 或联系我 @agmmnn。请先阅读 _[贡献指南](https://github.com/agmmnn/awesome-blender/blob/master/CONTRIBUTING.md)_，部分章节也有注释形式的专属说明。
 
 <p>
-    <a href="https://github.com/agmmnn/awesome-blender/graphs/contributors"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;mode=dark"><img alt="agmmnn/awesome-blender contributors" src="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;mode=light"></picture></a>
+    <a href="https://github.com/agmmnn/awesome-blender/graphs/contributors"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;title=&amp;mode=dark"><img alt="agmmnn/awesome-blender contributors" src="https://www.shieldcn.dev/contributors/agmmnn/awesome-blender.svg?theme=orange&amp;size=40&amp;title=&amp;mode=light"></picture></a>
 </p>
 
-<div align="center">
+<p>
     <a href="https://github.com/agmmnn/awesome-blender/stargazers"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/chart/github/stars/agmmnn/awesome-blender.svg?theme=orange&amp;title=awesome-blender&amp;icon=blender&amp;logo=false&amp;mode=dark"><img alt="Star History Chart" src="https://www.shieldcn.dev/chart/github/stars/agmmnn/awesome-blender.svg?theme=orange&amp;title=awesome-blender&amp;icon=blender&amp;logo=false&amp;mode=light"></picture></a>
-    <br><br>
-    <p><i>感谢阅读！</i></p>
+</p>
+
+---
+
+#### _感谢阅读！_
+
+<p>
     <a href="https://fund.blender.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Fund-Blender%20Development-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=xs&amp;mode=dark"><img alt="资助 Blender 开发" src="https://www.shieldcn.dev/badge/Fund-Blender%20Development-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=xs&amp;mode=light"></picture></a>
-</div>
+</p>
 
 <!-- markdown references -->
 
