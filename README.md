@@ -727,6 +727,7 @@
 - [F3D](http://f3d.app) : Fast and minimalist open source cross-platform 3D viewer. Support many fileformats and rendering style. [![][repo]](https://github.com/f3d-app/f3d)
 - [JWildfire](http://www.andreas-maschke.com/?page_id=42) : Stands out for its flame fractal generator. Wildfire is a java-based image processing software. [![][repo]](https://github.com/thargor6/JWildfire)
 - Blender Tools & Custom Builds:
+    - [Mixar](https://www.mixar.app/) : AI-powered 3D suite built as a custom fork of Blender with an integrated chat agent (Mixie), layer-based texture painting, and generative 3D tools. [![][repo]](https://github.com/Mixar-AI/mixar-app) ![][gpl]
     - [Goo Engine](https://github.com/dillongoostudios/goo-engine) : Custom open-source build of Blender by DillonGoo Studios tailored for 3D anime and Non-Photorealistic Rendering (NPR). ![][gpl]
     - [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater) : Download and install nightly builds with one click.
     - [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : Command line version of BlenderUpdater.

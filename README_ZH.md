@@ -727,6 +727,7 @@
 - [F3D](http://f3d.app)：快速且简约的开源跨平台3D查看器。支持许多文件格式和渲染风格。 [![][repo]](https://github.com/f3d-app/f3d)
 - [JWildfire](http://www.andreas-maschke.com/?page_id=42)：以其火焰分形生成器脱颖而出。Wildfire是基于Java的图像处理软件。 [![][repo]](https://github.com/thargor6/JWildfire)
 - Blender 工具与定制构建：
+    - [Mixar](https://www.mixar.app/)：基于 Blender 定制开发的 AI 3D 创作套件，内置交互式聊天智能体 (Mixie)、图层化纹理绘制与生成式 3D 工具。[![][repo]](https://github.com/Mixar-AI/mixar-app) ![][gpl]
     - [Goo Engine](https://github.com/dillongoostudios/goo-engine)：DillonGoo Studios 打造的开源定制版 Blender，专为 3D 动漫与非真实感渲染（NPR）量身定制。![][gpl]
     - [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater)：一键下载和安装夜间构建。
     - [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI)：BlenderUpdater的命令行版本。
