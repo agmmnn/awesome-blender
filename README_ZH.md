@@ -159,6 +159,7 @@
 - 几何节点包与预设：
     - [Geometry Nodes Demo](https://www.blender.org/download/demo-files/#geometry-nodes)：Blender 官方几何节点示例文件，包括程序化建筑与六角网格地图。
     - [Higgsas Geometry Nodes](https://higgsas.gumroad.com/l/wrusot)：丰富的几何节点实用工具与变形器节点组集合，另含 [Mesh Tension Map](https://higgsas.gumroad.com/l/tnqal)。
+    - [b3dsdf](https://github.com/williamchange/b3dsdf)：为 Blender 着色器编辑器与几何节点提供超过 170 个有符号距离场 (SDF)、向量运算与程序化实用节点组。![][gpl]
     - [Blenderesse's Generators](https://blenderesse.gumroad.com)：免费几何节点生成器，包含 [Electric Power Line](https://blenderesse.gumroad.com/l/electriclinegenerator)、[Melt](https://blenderesse.gumroad.com/l/melt) 和 [Bird](https://blenderesse.gumroad.com/l/birdgenerator)。
     - [Curtis Holt's Generators](https://curtisjamesholt.gumroad.com)：免费几何节点生成器，包含 [Space Station](https://curtisjamesholt.gumroad.com/l/space_station_gen_free)、[Mech](https://curtisjamesholt.gumroad.com/l/mech_gen_free) 和 [Weapon](https://curtisjamesholt.gumroad.com/l/random_weapon_generator)。
     - [Flex's Generators](https://flexdigitalpottery.gumroad.com)：免费几何节点预设，包含 **_Crystal, Curtain, Engine, Lego Character, Pillow, Rope, Stair, Stingwire, Table, Tyre_**。
@@ -206,6 +207,8 @@
     - [Snapsplit](https://github.com/Betakontext/snapsplit)：为超出打印平台尺寸的复杂 3D 模型自动执行切割与连接结构生成工作流，生成无需胶水的精密卡扣连接件。
 - 重拓扑/重网格：
     - [retopoflow](https://blendermarket.com/products/retopoflow)：Blender的一套拓扑工具。 [![][repo]](https://github.com/CGCookie/retopoflow)
+    - [QRemeshify](https://github.com/ksami/QRemeshify)：生成高品质四边形拓扑的便捷 Blender 重网格扩展。![][gpl]
+    - [AutoRemesher Blender Bridge](https://github.com/adriflex/autoremesher-blender-bridge)：AutoRemesher 自动拓扑工具的 Blender 桥接插件。
     - [InstantMeshesRemesh](https://blenderartists.org/t/instant-meshes-remesh/1114982)：Blender的一套拓扑工具。 [![][repo]](https://github.com/knekke/blender_addons#instantmeshesremesh)
     - [SpeedRetopo](https://gumroad.com/l/speedretopo)：Blender的免费插件，使用Bsurface快速轻松地进行拓扑。
     - [Retopo MT](https://gumroad.com/l/cNGNb)：是一个拓扑工具，你将它与其他Blender插件或工具一起在编辑模式下使用。
@@ -314,6 +317,7 @@
 - [Texel Density Checker](https://gumroad.com/l/CEIOR)：计算、设置和复制像素密度的工具。 [![][repo]](https://github.com/mrven/Blender-Texel-Density-Checker)
 - [UcuPaint](https://github.com/ucupumar/ucupaint)：一个用于管理Eevee和Cycles渲染器的纹理层的插件。
 - [UV-Packer](https://www.uv-packer.com/blender/)：自动且免费的Blender UV-Packer插件。
+- [UVgami](https://github.com/danielboxer/UVgami)：低形变的 Blender 一键自动 UV 展开插件。![][gpl]
 - [UV Toolkit](https://gumroad.com/alexbel#NbMya)：Blender中UV编辑的工具集合。
 - [Vertex Oven](https://github.com/ForestKatsch/VertexOven)：在几秒钟内烘焙游戏就绪的环境光遮蔽，无需UV展开或缓慢的Cycles烘焙。
 
@@ -332,6 +336,9 @@
 - [Asset Creation Toolset](https://gumroad.com/l/hPXIh)：游戏资产创建的多种工具。
 - [Mixamo Converter](https://github.com/enziop/mixamo_converter)：是一个Blender插件，可以将Mixamo动画转换为在Unreal Engine 4中使用根运动的工作。
 - [WoT Tank Viewer](https://bitbucket.org/SkepticalFox/bigworld-blender-tools-wot-wowp-wows)：是一套Blender插件包，允许您查看《坦克世界》中的3D模型。
+- [SourceIO](https://github.com/REDxEYE/SourceIO)：用于在 Blender 4.0+ 中导入 Valve Source 与 Source 2 引擎纹理、模型与地图的插件。![][mit]
+- [CC/iClone Blender Tools](https://github.com/soupday/cc_blender_tools)：在 Blender 中导入并自动设置 Reallusion Character Creator 3/4 与 iClone 7/8 角色的插件。![][gpl]
+- [Anvil Level Design](https://github.com/alexjhetherington/anvil-level-design)：灵感来自 TrenchBroom 的 Blender 关卡设计工具集，支持自动材质分配与 UV 管理。![][gpl]
 - 游戏引擎：
     - [Armory3D](https://armory3d.org/)：一个具有完整Blender集成的开源3D游戏引擎。 [![][repo]](https://github.com/armory3d/armory)
     - [UPBGE](https://upbge.org/)：是从旧Blender游戏引擎分叉出来的开源3D游戏引擎，与Blender一起部署。 [![][repo]](https://github.com/UPBGE/upbge)
@@ -340,11 +347,16 @@
 
 - 智能体与 MCP：
     - [BlenderMCP](https://github.com/ahujasid/blender-mcp)：通过模型上下文协议 (MCP) 将 Blender 连接到 Claude AI 及其他 MCP 客户端，实现提示词辅助的 3D 建模、场景创建与操控。![][mit]
+    - [FastMCP for Blender](https://github.com/sandraschi/blender-mcp)：基于 FastMCP 的无头 Blender 自动化服务器，提供覆盖网格、VSE、蜡笔与 VRM 的 41 个工具。![][mit]
     - [blender-kiln](https://github.com/elithril/blender-kiln)：通过 MCP 服务器驱动 Blender 的 Claude Code 插件，可根据文本简述或照片构建、贴图、优化并导出游戏级资产。![][mit]
+    - [Blender Agent Skills](https://github.com/EL4CTEO/blender-skills)：面向 Claude Code、Cursor、Copilot 与 Gemini CLI 打包的专业 Blender 智能体技能集。![][mit]
     - [DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender)：让 AI 编程智能体借助 `bpy` 知识库、执行契约和 3D 打印生产门禁在 Blender 中构建模型的智能体工具包。
+    - [AnyScene](https://github.com/apekshik/anyscene)：通过多智能体协作从文本提示词生成完整、逼真的 Blender 3D 场景，涵盖道具生成、房间布局、环境氛围与电影级渲染。[[演示视频]](https://x.com/apekshik/status/2116638903923073290) ![][mit]
+    - [Scenario for Blender](https://github.com/scenario-labs/blender-plugin)：在视口内生成 AI 图像、视频、3D 和 PBR 材质，并为智能体提供本地 MCP 服务器。![][gpl]
     - [ComfyUI-Blender](https://github.com/alexisrolland/ComfyUI-Blender)：在 Blender 内部直接运行 ComfyUI 工作流的插件，用于 AI 贴图、图像和 3D 资产生成。
 - 生成式 3D、纹理与视频：
     - [Hunyuan3D-2](https://github.com/Tencent-Hunyuan/Hunyuan3D-2)：开源高分辨率 3D 资产生成系统（支持文本/图像转 3D 几何体与 PBR 纹理），内置官方 Blender 插件。
+    - [AssetFurnace](https://github.com/Bingeljell/image-to-3dlab)：完整的开源图像转 3D 流水线，通过 TRELLIS.2 与混元 3D 在本地生成带贴图、骨架绑定与动画的游戏角色。
     - [Dream Textures](https://github.com/carson-katri/dream-textures)：内置于 Blender 着色器编辑器、图像编辑器和合成器中的 Stable Diffusion 插件。![][gpl]
     - [AI Render](https://github.com/benrugg/AI-Render)：在 Blender 中使用 Stable Diffusion，根据文本提示词与当前场景渲染 AI 生成图像。
     - [Pallaidium](https://github.com/tin2tin/Pallaidium)：集成在 Blender 视频序列编辑器 (VSE) 中的生成式 AI 影视工作室，支持文本、图像、音频和视频生成。![][gpl]
@@ -352,6 +364,8 @@
     - [BlenderProc](https://github.com/DLR-RM/BlenderProc)：用于逼真训练图像生成的程序化 Blender 管线。![][gpl]
     - [BlenderSynth](https://github.com/OllieBoyne/BlenderSynth)：用于大规模生成合成数据集的 Blender 脚本工具。
     - [Kubric](https://github.com/google-research/kubric)：Google Research 推出的数据生成管线，结合 Blender 与 PyBullet 生成带丰富真值标注的半逼真多物体合成视频。
+- 基准测试与提示词：
+    - [Blender AI Arena](https://blenderai.org/)：社区驱动的 3D 生成式 AI 模型与智能体评测基准、提示词集与双盲 Glicko-2 排行榜。
 
 ### 🎬 灯光、相机与视频
 
@@ -411,6 +425,8 @@
     - 格式导出器：[USDZ](https://github.com/robmcrosby/BlenderUSDZ), [glTF MultiExport](https://github.com/MozillaReality/blender-gltf-multiexport-addon), [VTK](https://github.com/tkeskita/io_mesh_vtk), [Bezier2SVG](https://leomoon.com/downloads/plugins/leomoon-bezier2svg/), [Panda3D (`blend2bam`)](https://github.com/Moguri/blend2bam), [X-Ray Engine](https://github.com/PavelBlend/blender-xray)。
 - 摄影测量与高斯泼溅 (3DGS)：
     - [3DGS Render by KIRI Engine](https://github.com/Kiri-Innovation/3dgs-render-blender-addon)：开源插件，支持在 Blender 中直接导入、编辑、变形和渲染 3D 高斯泼溅（3DGS `.ply`）场景。![][gpl]
+    - [Gauss Cannon](https://github.com/warpgatelabs/gauss-cannon)：直接从 Blender 场景生成与管理 3D 高斯泼溅 (3DGS) 的工具套件。![][gpl]
+    - [Gaussian Splat to Nodes](https://github.com/gokayfem/gaussian-splat-to-blender-nodes)：将 3D 高斯泼溅重构为可编辑的几何节点网格与着色器设置的工具包。![][mit]
     - [Gaussian Splatting Blender Add-on](https://github.com/ReshotAI/gaussian-splatting-blender-addon)：轻量级工具，用于在 Blender 视口中导入和可视化 3D 高斯泼溅。![][mit]
     - [Photogrammetry Importer](https://github.com/SBCV/Blender-Addon-Photogrammetry-Importer)：将 COLMAP、Meshroom、OpenMVG 和 VisualSFM 等摄影测量重建结果导入 Blender。
     - [Point Cloud Visualizer](https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280)：在 Blender 中显示、编辑、过滤和渲染彩色 PLY 点云文件。
@@ -451,6 +467,7 @@
     - [Leviate for Blender](https://extensions.blender.org/add-ons/leviate/)：通过网络摄像头或手机用手势移动 3D 视图或所选物体，手部追踪直接在 Blender 内运行。[![][repo]](https://github.com/vladpereverzyev/leviate)
     - [IOR Reference](https://gitlab.com/diegogangl/IOR_reference)：在着色面板中提供可搜索的折射率 (IOR) 参考表。
 - 节点与文本编辑器：
+    - [Node Pie](https://github.com/strike-digital/node_pie)：用于在着色器和几何节点编辑器中快速搜索并添加节点的饼菜单插件。
     - [NodeToPython](https://github.com/BrendanParmer/NodeToPython)：将几何节点、着色器节点和合成节点转换为易读的 Python 脚本与插件。[![][mit]](https://github.com/BrendanParmer/NodeToPython/blob/main/LICENSE)
     - [NodeCustomBuilder](https://blenderartists.org/t/nodecustombuilder-2-8-free-addon/1152185)：面向着色器与几何节点的自定义节点预设构建器。
     - [Kaleidoscope](https://github.com/blenderskool/kaleidoscope)：为着色器编辑器添加光谱 (Spectrum) 与强度调色板节点。
@@ -1025,6 +1042,8 @@
 
 ### 相关Awesome列表
 
+- [3D Resources](https://github.com/devanshutak25/3d-resources)：面向 3D、VFX 和游戏开发的精选 CC0 参考中心，涵盖 3,400 多个工具、资产与教程。
+- [Awesome Astra Prompts](https://github.com/TripoGrowthLab/awesome-astra-prompts)：精选面向生成式 AI 模型、游戏与 Blender 场景的 3D 提示词与示例集合。
 - [awesome-3d-human](https://github.com/lijiaman/awesome-3d-human)：一个精选的论文和资源列表，与3D人类研究相关，包括面部、身体、手和动作建模。
 - [awesome-3d-printing](https://github.com/ad-si/awesome-3d-printing)：一个精选的3D打印资源列表。
 - [3D-Machine-Learning](https://github.com/timzhang642/3D-Machine-Learning)：一个3D机器学习的资源库。
@@ -1171,7 +1190,7 @@ _一些可以找到各种 Blender 相关内容的账号。_
 
 ### 🎉 活动
 
-- [Blender Conference](https://conference.blender.org/)：每年在阿姆斯特丹举行的 Blender 大会。（播放列表：[Bcon25](https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd), [Bcon24](https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x), [Bcon23](https://www.youtube.com/playlist?list=PLa1F2ddGya_84ye1JAvIGh0Yp7utEKZI_), [Bcon22](https://www.youtube.com/playlist?list=PLa1F2ddGya__2Ip2UB-xp6M54cQVvw1W-), [Bcon20](https://www.youtube.com/watch?v=uEjmbsiflMU), [Bcon19](https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S), [Bcon18](https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B), [Bcon17](https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO)).
+- [Blender Conference](https://conference.blender.org/)：每年在阿姆斯特丹举行的 Blender 大会。（播放列表：[Bcon26](https://www.youtube.com/playlist?list=PLa1F2ddGya_-I9y1nXALrBqrZNdlUE012), [Bcon25](https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd), [Bcon24](https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x), [Bcon23](https://www.youtube.com/playlist?list=PLa1F2ddGya_84ye1JAvIGh0Yp7utEKZI_), [Bcon22](https://www.youtube.com/playlist?list=PLa1F2ddGya__2Ip2UB-xp6M54cQVvw1W-), [Bcon20](https://www.youtube.com/watch?v=uEjmbsiflMU), [Bcon19](https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S), [Bcon18](https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B), [Bcon17](https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO)).
 
 <p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
 

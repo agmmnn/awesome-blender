@@ -159,6 +159,7 @@
 - Geometry Nodes Packs & Presets:
     - [Geometry Nodes Demo](https://www.blender.org/download/demo-files/#geometry-nodes) : Official Blender Geometry Nodes example files, including procedural buildings and hex grids.
     - [Higgsas Geometry Nodes](https://higgsas.gumroad.com/l/wrusot) : Extensive collection of utility and deformer node groups for Geometry Nodes, plus [Mesh Tension Map](https://higgsas.gumroad.com/l/tnqal).
+    - [b3dsdf](https://github.com/williamchange/b3dsdf) : Over 170 signed distance functions (SDF), vector operations, and procedural utility node groups for Shader Editor and Geometry Nodes in Blender. ![][gpl]
     - [Blenderesse's Generators](https://blenderesse.gumroad.com) : Free Geometry Nodes generators including [Electric Power Line](https://blenderesse.gumroad.com/l/electriclinegenerator), [Melt](https://blenderesse.gumroad.com/l/melt), and [Bird](https://blenderesse.gumroad.com/l/birdgenerator).
     - [Curtis Holt's Generators](https://curtisjamesholt.gumroad.com) : Free Geometry Nodes generators including [Space Station](https://curtisjamesholt.gumroad.com/l/space_station_gen_free), [Mech](https://curtisjamesholt.gumroad.com/l/mech_gen_free), and [Weapon](https://curtisjamesholt.gumroad.com/l/random_weapon_generator).
     - [Flex's Generators](https://flexdigitalpottery.gumroad.com) : Free Geometry Nodes presets including **_Crystal, Curtain, Engine, Lego Character, Pillow, Rope, Stair, Stingwire, Table, Tyre_**.
@@ -206,6 +207,8 @@
     - [Snapsplit](https://github.com/Betakontext/snapsplit) : Automates cut and connection building workflows for complex 3D models larger than your printing bed, generating precise glue-free snap-fit connectors.
 - Retopology/Remesh:
     - [retopoflow](https://blendermarket.com/products/retopoflow) : A suite of retopology tools for Blender. [![][repo]](https://github.com/CGCookie/retopoflow)
+    - [QRemeshify](https://github.com/ksami/QRemeshify) : Blender extension for an easy-to-use remesher that outputs high-quality quad topology. ![][gpl]
+    - [AutoRemesher Blender Bridge](https://github.com/adriflex/autoremesher-blender-bridge) : Blender bridge add-on for the AutoRemesher auto-retopology tool.
     - [InstantMeshesRemesh](https://blenderartists.org/t/instant-meshes-remesh/1114982) : A suite of retopology tools for Blender. [![][repo]](https://github.com/knekke/blender_addons#instantmeshesremesh)
     - [SpeedRetopo](https://gumroad.com/l/speedretopo) : Free add-on for Blender to make fast and easy retopology using Bsurface.
     - [Retopo MT](https://gumroad.com/l/cNGNb) : Tool for retopo, you use it in addition with other addons or tools in Blender, in Edit Mode.
@@ -314,6 +317,7 @@
 - [Texel Density Checker](https://gumroad.com/l/CEIOR) : Tools for calculate, set and copy texel density. [![][repo]](https://github.com/mrven/Blender-Texel-Density-Checker)
 - [UcuPaint](https://github.com/ucupumar/ucupaint) : A addon to manage texture layers for EEVEE and Cycles renderer.
 - [UV-Packer](https://www.uv-packer.com/blender/) : Automatic and free UV-Packer Add-on for Blender.
+- [UVgami](https://github.com/danielboxer/UVgami) : Automatic UV unwrapping add-on for Blender with minimal distortion. ![][gpl]
 - [UV Toolkit](https://gumroad.com/alexbel#NbMya) : Tools collection for UV editing in blender.
 - [Vertex Oven](https://github.com/ForestKatsch/VertexOven) : Bake game-ready ambient occlusion in seconds without UV unwrapping or agonizingly slow Cycles bakes.
 
@@ -332,6 +336,9 @@
 - [Asset Creation Toolset](https://gumroad.com/l/hPXIh) : Asset Creation Toolset is many tools for game asset creation.
 - [Mixamo Converter](https://github.com/enziop/mixamo_converter) : Blender Plugin that Converts Mixamo animations to work in Unreal Engine 4 with root motion.
 - [WoT Tank Viewer](https://bitbucket.org/SkepticalFox/bigworld-blender-tools-wot-wowp-wows) : Package of plugins for Blender, which allows you view 3D models from World of Tanks.
+- [SourceIO](https://github.com/REDxEYE/SourceIO) : Blender 4.0+ add-on for importing Valve Source and Source 2 engine textures, models, and maps. ![][mit]
+- [CC/iClone Blender Tools](https://github.com/soupday/cc_blender_tools) : Add-on for importing and auto-setting up Reallusion Character Creator 3/4 and iClone 7/8 characters in Blender. ![][gpl]
+- [Anvil Level Design](https://github.com/alexjhetherington/anvil-level-design) : TrenchBroom-inspired level design toolset for Blender with automated material assignment and UV management. ![][gpl]
 - Game Engine:
     - [Armory3D](https://armory3d.org/) : Open-source 3D game engine with full Blender integration. [![][repo]](https://github.com/armory3d/armory)
     - [UPBGE](https://upbge.org/) : Open-source 3D game engine forked from old Blender Game Engine, deployed with Blender itself. [![][repo]](https://github.com/UPBGE/upbge)
@@ -340,11 +347,16 @@
 
 - Agentic & MCP:
     - [BlenderMCP](https://github.com/ahujasid/blender-mcp) : Connects Blender to Claude AI and other MCP clients through the Model Context Protocol for prompt-assisted 3D modeling, scene creation, and manipulation. ![][mit]
+    - [FastMCP for Blender](https://github.com/sandraschi/blender-mcp) : Headless Blender automation server via FastMCP with 41 tools covering mesh, VSE, Grease Pencil, and VRM workflows. ![][mit]
     - [blender-kiln](https://github.com/elithril/blender-kiln) : A Claude Code plugin that drives Blender through an MCP server to build, texture, optimize, and export game-ready assets from a text brief or a photo. ![][mit]
+    - [Blender Agent Skills](https://github.com/EL4CTEO/blender-skills) : Professional Blender workflows packaged as Agent Skills for Claude Code, Cursor, Copilot, and Gemini CLI. ![][mit]
     - [DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender) : Agent toolkit that lets AI coding agents build models in Blender with a `bpy` knowledge base, an execution contract, and a 3D-print production gate.
+    - [AnyScene](https://github.com/apekshik/anyscene) : Multi-agent pipeline that generates complete, photorealistic 3D Blender scenes from a text prompt, handling prop generation, room layout, atmosphere, and cinematic rendering. [[video demo]](https://x.com/apekshik/status/2116638903923073290) ![][mit]
+    - [Scenario for Blender](https://github.com/scenario-labs/blender-plugin) : AI image, video, 3D, and PBR material generation in the viewport, plus a local MCP server for agents. ![][gpl]
     - [ComfyUI-Blender](https://github.com/alexisrolland/ComfyUI-Blender) : Blender add-on to run ComfyUI workflows directly inside Blender for AI texture, image, and 3D asset generation.
 - Generative 3D, Textures & Video:
     - [Hunyuan3D-2](https://github.com/Tencent-Hunyuan/Hunyuan3D-2) : High-resolution open-source 3D asset creation system (Text/Image-to-3D geometry and PBR textures) with an official Blender add-on.
+    - [AssetFurnace](https://github.com/Bingeljell/image-to-3dlab) : Complete open-source image-to-3D pipeline generating textured, rigged, and animated game characters locally via TRELLIS.2 and Hunyuan3D.
     - [Dream Textures](https://github.com/carson-katri/dream-textures) : Stable Diffusion built-in to the Blender shader editor, image editor, and compositor. ![][gpl]
     - [AI Render](https://github.com/benrugg/AI-Render) : Stable Diffusion in Blender. This add-on renders an AI generated image based on a text prompt and your scene.
     - [Pallaidium](https://github.com/tin2tin/Pallaidium) : Generative AI movie studio integrated into the Blender Video Sequence Editor (VSE) for text, image, audio, and video generation. ![][gpl]
@@ -352,6 +364,8 @@
     - [BlenderProc](https://github.com/DLR-RM/BlenderProc) : A procedural Blender pipeline for photorealistic training image generation. ![][gpl]
     - [BlenderSynth](https://github.com/OllieBoyne/BlenderSynth) : Blender scripting for generating synthetic datasets at scale.
     - [Kubric](https://github.com/google-research/kubric) : Data generation pipeline by Google Research for creating semi-realistic synthetic multi-object videos with rich ground-truth annotations using Blender and PyBullet.
+- Benchmarks & Prompts:
+    - [Blender AI Arena](https://blenderai.org/) : Community-driven benchmark, prompt sets, and blind Elo/Glicko-2 leaderboard comparing 3D generative AI models and agents in Blender.
 
 ### 🎬 Lighting, Camera & Video
 
@@ -411,6 +425,8 @@
     - Format Exporters : [USDZ](https://github.com/robmcrosby/BlenderUSDZ), [glTF MultiExport](https://github.com/MozillaReality/blender-gltf-multiexport-addon), [VTK](https://github.com/tkeskita/io_mesh_vtk), [Bezier2SVG](https://leomoon.com/downloads/plugins/leomoon-bezier2svg/), [Panda3D (`blend2bam`)](https://github.com/Moguri/blend2bam), [X-Ray Engine](https://github.com/PavelBlend/blender-xray).
 - Photogrammetry & Gaussian Splatting:
     - [3DGS Render by KIRI Engine](https://github.com/Kiri-Innovation/3dgs-render-blender-addon) : Open-source add-on for importing, editing, deforming, and rendering 3D Gaussian Splatting (`.ply`) scenes directly inside Blender. ![][gpl]
+    - [Gauss Cannon](https://github.com/warpgatelabs/gauss-cannon) : Utilities for generating and managing 3D Gaussian Splats directly from Blender scenes. ![][gpl]
+    - [Gaussian Splat to Nodes](https://github.com/gokayfem/gaussian-splat-to-blender-nodes) : Toolkit for reconstructing 3D Gaussian Splats as editable Geometry Nodes meshes and shader setups in Blender. ![][mit]
     - [Gaussian Splatting Blender Add-on](https://github.com/ReshotAI/gaussian-splatting-blender-addon) : Lightweight utility to import and visualize 3D Gaussian Splats inside the Blender viewport. ![][mit]
     - [Photogrammetry Importer](https://github.com/SBCV/Blender-Addon-Photogrammetry-Importer) : Imports reconstruction outputs from COLMAP, Meshroom, OpenMVG, and VisualSFM into Blender.
     - [Point Cloud Visualizer](https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280) : Displays, edits, filters, and renders colored PLY point clouds in Blender.
@@ -451,6 +467,7 @@
     - [Leviate for Blender](https://extensions.blender.org/add-ons/leviate/) : Navigate the 3D viewport or move objects using webcam/phone hand tracking inside Blender. [![][repo]](https://github.com/vladpereverzyev/leviate)
     - [IOR Reference](https://gitlab.com/diegogangl/IOR_reference) : Searchable Index of Refraction (IOR) reference list inside the shader panel.
 - Nodes & Text Editor:
+    - [Node Pie](https://github.com/strike-digital/node_pie) : Fast pie menu for searching and adding new nodes in the Shader and Geometry Node editors.
     - [NodeToPython](https://github.com/BrendanParmer/NodeToPython) : Converts Geometry, Shader, and Compositing node trees into clean, reusable Python scripts and add-ons. [![][mit]](https://github.com/BrendanParmer/NodeToPython/blob/main/LICENSE)
     - [NodeCustomBuilder](https://blenderartists.org/t/nodecustombuilder-2-8-free-addon/1152185) : Custom preset builder for shader and geometry node groups.
     - [Kaleidoscope](https://github.com/blenderskool/kaleidoscope) : Adds Spectrum and Intensity color palette nodes to the Shader Editor.
@@ -1025,6 +1042,8 @@
 
 ### Related Awesome Lists
 
+- [3D Resources](https://github.com/devanshutak25/3d-resources) : Curated CC0 reference hub for 3D, VFX, and game development covering 3,400+ tools, assets, and tutorials.
+- [Awesome Astra Prompts](https://github.com/TripoGrowthLab/awesome-astra-prompts) : Curated 3D prompt collection and examples for generative AI models, games, and Blender scenes.
 - [awesome-3d-human](https://github.com/lijiaman/awesome-3d-human) : A curated list of papers & resources linked to 3D Human research including face, body, hand and motion modeling.
 - [awesome-3d-printing](https://github.com/ad-si/awesome-3d-printing) : A curated list of awesome 3D printing resources.
 - [3D-Machine-Learning](https://github.com/timzhang642/3D-Machine-Learning) : A resource repository for 3D machine learning.
@@ -1171,7 +1190,7 @@ _Some accounts where you can find different kinds of content related to blender.
 
 ### 🎉 Events
 
-- [Blender Conference](https://conference.blender.org/) : The yearly Blender Conference in Amsterdam. (Playlists: [Bcon25](https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd), [Bcon24](https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x), [Bcon23](https://www.youtube.com/playlist?list=PLa1F2ddGya_84ye1JAvIGh0Yp7utEKZI_), [Bcon22](https://www.youtube.com/playlist?list=PLa1F2ddGya__2Ip2UB-xp6M54cQVvw1W-), [Bcon20](https://www.youtube.com/watch?v=uEjmbsiflMU), [Bcon19](https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S), [Bcon18](https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B), [Bcon17](https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO)).
+- [Blender Conference](https://conference.blender.org/) : The yearly Blender Conference in Amsterdam. (Playlists: [Bcon26](https://www.youtube.com/playlist?list=PLa1F2ddGya_-I9y1nXALrBqrZNdlUE012), [Bcon25](https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd), [Bcon24](https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x), [Bcon23](https://www.youtube.com/playlist?list=PLa1F2ddGya_84ye1JAvIGh0Yp7utEKZI_), [Bcon22](https://www.youtube.com/playlist?list=PLa1F2ddGya__2Ip2UB-xp6M54cQVvw1W-), [Bcon20](https://www.youtube.com/watch?v=uEjmbsiflMU), [Bcon19](https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S), [Bcon18](https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B), [Bcon17](https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO)).
 
 <p align="right"><sub><a href="#table">↑ Back to top</a></sub></p>
 
