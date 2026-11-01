@@ -1,39 +1,76 @@
-# About List
+# Contributing to Awesome Blender
 
-**Your contributions are always welcome!** If you want to contribute to this list, send a _pull request_ or _contact with me_ @agmmnn.
+Contributions are always welcome! Before opening a pull request, please review the guidelines below to keep **Awesome Blender** high-signal, well-organized, and easy to maintain.
 
-The purpose of this list is to bring together addons, tools, tutorials, and many useful resources for Blender users or those who want to use it. And other 3D software users can also benefit from many of these resources. The target audience of this list is professional or hobbyist 3D artists who want to produce works with blender, developers and researchers who want to develop with blender.
+---
 
-# Contribution Guidelines
+## 🎯 Scope & Quality Standards
 
-Before adding content please read the _contributing guidelines_, some sections have their own guidelines as a comment line.
+The purpose of this list is to curate the best add-ons, extensions, standalone tools, tutorials, and resources for **Blender** artists, hobbyists, developers, and researchers—with a strong focus on **open-source and free** tools.
 
-- Focused _mostly_ open source and free resources.
-- Please do not add for advertising purposes.
-- **English `README.md` only:** Only edit [`README.md`](README.md) in your pull request. Translations (such as [`README_ZH.md`](README_ZH.md)) are synced periodically by maintainers.
-- **Project maturity:** Brand-new or untested day-0 repositories should first gain some real-world testing, releases, community adoption, or an approved listing on the [Blender Extensions Platform](https://extensions.blender.org/) before submission.
+### ✅ What We Accept
 
-### Formats:
+- **Open-source and free resources** that are actively maintained and compatible with modern Blender releases (**Blender 3.6 LTS / 4.x+**).
+- **Official or community-verified extensions** listed on the [Blender Extensions Platform](https://extensions.blender.org/) or well-documented repositories with real releases and community adoption.
+- **Paid add-ons or tools (`[$]`)** _only_ if they are widely recognized across the Blender/3D community or solve a major workflow problem with no comparable open-source alternative in the list.
 
-- Use the following format: `[package](link) : Description.`
-- If the description starts with `is` start with lowercase letter, otherwise use capital letter.
-- Keep descriptions short and simple.
-    - Don't use blender _version number_ in description, if it doesn't specifically point to it.
-- Use `![][repo]` reference for repo link at the end of the line.
-- Use `[$]` for paid contents. Adding **paid** addons/contents to the list:
-    - To be accepted by a lot of people in the Blender/3D community.
-    - Functionally, there are no other instances in the list.
-- Use video, playlist, channel, doc [symbols](https://github.com/agmmnn/awesome-blender#symbols) for Tutorials.
-- Use 4-space indentation for nested lists (checked automatically with Prettier via `npx prettier . --check`).
+### 🚫 What We Do Not Accept
 
-### Need to help:
+1. **Day-0 or untested repositories:** Brand-new projects without releases, documentation, real-world testing, community adoption, or an approved [Blender Extensions](https://extensions.blender.org/) listing.
+2. **Promotional / SaaS / SEO spam:** Generic web services, AI wrappers without a dedicated Blender integration, affiliate/referral links, or paid services submitted primarily for backlinks.
+3. **Obsolete or abandoned tools:** Legacy Blender 2.79 / early 2.80 scripts that no longer work on modern Blender versions.
+4. **Trivial single-operator scripts:** Minor one-off scripts or paid micro-assets that do not offer broad utility.
 
-- Adding new contents.
-- Categorizing contents.
-- There may be grammatical or spelling mistakes in the list because english is not my native language. Please, correct it.
+---
 
-Thank you for your contribution.
+## 📐 Formatting & Style Rules
 
-## License
+### 1. General Entry Format
 
-**CC0**
+Every entry must be a single line starting with a capital letter in its description—**do not** start descriptions with filler phrases like `is a...`, `is an...`, or `this add-on...`, and avoid marketing buzzwords (`"revolutionary"`, `"ultimate"`, `"best"`):
+
+```markdown
+- [Tool Name](https://example.com) : Concise, neutral description starting with a capital letter.
+```
+
+### 2. Copy-Paste Templates (Badges & Symbols)
+
+Always use the exact reference badge syntax (`[![][repo]](url)`, `[![market]](url)`, `![][gpl]`, `![][mit]`, `![][zero]`) at the end of the line:
+
+```markdown
+# Open-source add-on (Website + GitHub Repo + License):
+- [Tool Name](https://example.com) : Concise description starting with a capital letter. [![][repo]](https://github.com/user/repo) ![][gpl]
+
+# Open-source add-on (Direct GitHub Repo + License):
+- [Tool Name](https://github.com/user/repo) : Concise description starting with a capital letter. ![][mit]
+
+# Paid add-on (with Superhive / Blender Market link):
+- [Tool Name](https://gumroad.com/l/example) [$] : Concise description starting with a capital letter. [![market]](https://superhivemarket.com/products/example)
+
+# Free CC0 resource:
+- [Resource Name](https://example.com) : Concise description starting with a capital letter. [![][zero]](https://example.com/license)
+```
+
+### 3. Tutorials Format
+
+Prefix tutorial links with the appropriate symbol (`▷` video, `☰` playlist, `☷` channel, `🧾` documentation) and avoid hardcoding Blender version numbers unless the tutorial is version-specific:
+
+```markdown
+- ▷[Tutorial Title by Creator.](https://www.youtube.com/watch?v=example)
+- ☰[Playlist Title by Creator.](https://www.youtube.com/playlist?list=example)
+```
+
+---
+
+## 🔄 Pull Request Checklist
+
+- **One resource per PR:** Submit a separate pull request for each resource so it can be reviewed independently.
+- **Edit `README.md` only:** Do **not** edit [`README_ZH.md`](README_ZH.md) in your pull request; translations are synchronized automatically by maintainers.
+- **4-space indentation:** Use 4 spaces for nested sub-lists.
+- **Verify links & formatting:** Every PR is automatically checked by **Prettier** (`npx prettier . --check`) and **Lychee** (broken-link checker). Ensure all URLs return `200 OK` without unnecessary tracking parameters.
+
+---
+
+## 📄 License
+
+By contributing to **Awesome Blender**, you agree that your contributions will be licensed under [**CC0 1.0 Universal**](LICENSE).
