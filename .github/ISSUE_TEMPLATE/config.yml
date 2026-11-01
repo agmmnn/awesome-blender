@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+    - name: 💬 Questions & General Discussion
+      url: https://github.com/agmmnn/awesome-blender/discussions
+      about: Ask questions, share ideas, or discuss Blender resources with the community.
+    - name: 📖 Contributing Guidelines
+      url: https://github.com/agmmnn/awesome-blender/blob/master/CONTRIBUTING.md
+      about: Read the quality standards and formatting rules before submitting a pull request.

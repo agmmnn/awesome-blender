@@ -1,0 +1,94 @@
+name: 💡 Suggest a Resource
+description: Suggest an add-on, extension, tool, tutorial, or resource to add to the list.
+title: "[Suggestion] "
+labels: ["suggestion"]
+body:
+    - type: markdown
+      attributes:
+          value: |
+              Before suggesting, please read the [Contributing Guidelines](https://github.com/agmmnn/awesome-blender/blob/master/CONTRIBUTING.md#-scope--quality-standards).
+              Day-0 repositories, promotional SaaS links, and tools incompatible with modern Blender will not be accepted.
+              Comfortable with Markdown? Opening a pull request directly is even faster!
+    - type: input
+      id: name
+      attributes:
+          label: Resource name
+          placeholder: e.g. CAD Sketcher
+      validations:
+          required: true
+    - type: input
+      id: url
+      attributes:
+          label: URL
+          description: Main website, Blender Extensions page, or repository.
+          placeholder: https://...
+      validations:
+          required: true
+    - type: input
+      id: repo
+      attributes:
+          label: Source repository (optional)
+          placeholder: https://github.com/user/repo
+    - type: dropdown
+      id: category
+      attributes:
+          label: Category
+          options:
+              - "Add-ons: Simulation/Physics"
+              - "Add-ons: Generator/Builder"
+              - "Add-ons: Modeling"
+              - "Add-ons: Animation"
+              - "Add-ons: Render Engine"
+              - "Add-ons: Texture/UV"
+              - "Add-ons: GameDev"
+              - "Add-ons: AI/MCP"
+              - "Add-ons: Lighting, Camera & Video"
+              - "Add-ons: Pipeline, I/O & 3D Scanning"
+              - "Add-ons: Workflow, UI & Utilities"
+              - "Resources (Models, Textures, HDRIs, References...)"
+              - "Standalone Tools"
+              - "Tutorials"
+              - "Development"
+              - "Social (Channels, Blogs, Challenges, Events)"
+              - "Other / Not sure"
+      validations:
+          required: true
+    - type: dropdown
+      id: license
+      attributes:
+          label: Pricing & license
+          options:
+              - Free & open source (GPL)
+              - Free & open source (MIT / Apache / other)
+              - Free (CC0 / public domain resource)
+              - Free (closed source)
+              - Paid [$]
+              - Freemium / partially free
+      validations:
+          required: true
+    - type: textarea
+      id: description
+      attributes:
+          label: Short description
+          description: One neutral sentence starting with a capital letter (no "is a..." or marketing buzzwords).
+          placeholder: Constraint-based parametric 2D/3D CAD sketcher for precise modeling workflows in Blender.
+      validations:
+          required: true
+    - type: textarea
+      id: why
+      attributes:
+          label: Why is it notable?
+          description: Releases, community adoption, Blender Extensions listing, unique functionality, etc.
+      validations:
+          required: true
+    - type: checkboxes
+      id: checks
+      attributes:
+          label: Checklist
+          options:
+              - label: The resource works with modern Blender (3.6 LTS / 4.x+).
+                required: true
+              - label: It is not a Day-0 / untested repository or a promotional SaaS link.
+                required: true
+              - label: I checked that it is not already in the list.
+                required: true

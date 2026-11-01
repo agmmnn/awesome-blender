@@ -39,15 +39,19 @@ Always use the exact reference badge syntax (`[![][repo]](url)`, `[![market]](ur
 
 ```markdown
 # Open-source add-on (Website + GitHub Repo + License):
+
 - [Tool Name](https://example.com) : Concise description starting with a capital letter. [![][repo]](https://github.com/user/repo) ![][gpl]
 
 # Open-source add-on (Direct GitHub Repo + License):
+
 - [Tool Name](https://github.com/user/repo) : Concise description starting with a capital letter. ![][mit]
 
 # Paid add-on (with Superhive / Blender Market link):
+
 - [Tool Name](https://gumroad.com/l/example) [$] : Concise description starting with a capital letter. [![market]](https://superhivemarket.com/products/example)
 
 # Free CC0 resource:
+
 - [Resource Name](https://example.com) : Concise description starting with a capital letter. [![][zero]](https://example.com/license)
 ```
 

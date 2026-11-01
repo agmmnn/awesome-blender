@@ -457,6 +457,7 @@
     - [Set Viewport Color](https://github.com/johnnygizmo/set_viewport_color)：根据材质节点树自动同步物体的视口显示颜色。
     - [Snippets Library](https://github.com/Pullusb/snippetsLibrary)：在 Blender 文本编辑器中管理和插入常用代码片段。
     - 文本编辑器增强套件：[Autocomplete/Intellisense](https://github.com/tin2tin/Intellisense_for_Blender_Text_Editor)、[Search Online References](https://github.com/tin2tin/Search-API-Reference)、[Run PEP8 Check](https://github.com/tin2tin/Python_Stylechecker_for_Blender) 与 [Text Markers](https://github.com/tin2tin/TextMarker-blender-addon)。
+
 <p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
 
 ---

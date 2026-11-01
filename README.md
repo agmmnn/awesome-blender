@@ -457,6 +457,7 @@
     - [Set Viewport Color](https://github.com/johnnygizmo/set_viewport_color) : Automatically syncs object viewport display color from its shader node tree.
     - [Snippets Library](https://github.com/Pullusb/snippetsLibrary) : Manage and insert reusable Python code snippets in Blender's Text Editor.
     - [Autocomplete/Intellisense](https://github.com/tin2tin/Intellisense_for_Blender_Text_Editor), [Search Online References](https://github.com/tin2tin/Search-API-Reference), [Run PEP8 Check](https://github.com/tin2tin/Python_Stylechecker_for_Blender), and [Text Markers](https://github.com/tin2tin/TextMarker-blender-addon) for Blender's built-in Text Editor.
+
 <p align="right"><sub><a href="#table">↑ Back to top</a></sub></p>
 
 ---

@@ -1,0 +1,47 @@
+name: 🔗 Report Broken / Outdated Link
+description: Report a dead link, a moved URL, or an archived / abandoned resource in the list.
+title: "[Broken] "
+labels: ["broken-link"]
+body:
+    - type: markdown
+      attributes:
+          value: |
+              Thanks for helping keep **Awesome Blender** up to date! If you already know the fix, feel free to open a pull request directly.
+    - type: input
+      id: name
+      attributes:
+          label: Resource name
+          description: The name of the entry as it appears in `README.md`.
+          placeholder: e.g. Animation Nodes
+      validations:
+          required: true
+    - type: input
+      id: current-url
+      attributes:
+          label: Current URL in the list
+          placeholder: https://...
+      validations:
+          required: true
+    - type: dropdown
+      id: problem
+      attributes:
+          label: Problem
+          options:
+              - Link is dead (404 / domain expired)
+              - Link moved (new URL available)
+              - Project is archived or abandoned
+              - Not compatible with modern Blender (3.6 LTS / 4.x+)
+              - Now paid / license changed
+              - Other
+      validations:
+          required: true
+    - type: input
+      id: new-url
+      attributes:
+          label: Suggested replacement URL (optional)
+          placeholder: https://...
+    - type: textarea
+      id: details
+      attributes:
+          label: Additional details (optional)
+          description: Any context that helps verify the issue (e.g. archive notice, last release date, successor project).
