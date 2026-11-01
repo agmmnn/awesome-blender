@@ -139,7 +139,6 @@
 - [Data-FX](https://github.com/LandonFerg/Data-FX)：从 `.csv` 文件加载并在 Blender 中可视化数据。
 - [Mesh Maze](https://github.com/elfnor/mesh_maze)：在任意网格表面生成程序化迷宫图案。
 - [Modular Tree](https://github.com/MaximeHerpin/modular_tree/tree/blender_28)：基于节点的程序化树木与植被生成插件。
-- [Real Sky](https://3d-wolf.com/products/sky/)：在 Blender 中生成程序化云层与大气天空。
 - [Sapling Tree Gen](https://github.com/meet-brad-ch/add_curve_sapling)：支持树叶、修剪、骨架绑定与风力动画的参数化 Weber-Penn 树木生成器。![][gpl]
 - [Snow Generator](https://blendermarket.com/products/free-snow)：面向 3D 表面的程序化积雪生成器。
 - [Spaceship Generator](https://github.com/a1studmuffin/SpaceshipGenerator)：在 Blender 中程序化生成 3D 宇宙飞船。
@@ -148,19 +147,17 @@
 - [Welder](https://blenderartists.org/t/welder/672478)：沿物体交界处生成逼真的焊接缝。
 - 环境：
     - [Infinigen](https://infinigen.org)：使用真实几何体生成无限逼真自然与室内 3D 世界的程序化生成器，针对计算机视觉研究与 3D 训练数据进行了优化。 [![][repo]](https://github.com/princeton-vl/infinigen)
-    - [Graswald](https://www.graswald3d.com/) [$]：面向 Blender 的高精度植被、苔藓与杂草资产系统。
+    - [Graswald Assets](https://store.gscatter.com/assets)：高品质逼真植被、杂草与自然 3D 资产库，现已完全免费向 Blender 社区开放。
     - [SceneCity](https://superhivemarket.com/products/scenecity) [$]：生成大型道路网络并批量布置数以万计的程序化与自定义建筑。
     - [The Grove 3D](https://www.thegrove3d.com/) [$]：模拟自然树木生长、分枝、修剪和季节变化，适用于建筑可视化与影视制作。
 - 散布：
     - [Geo-Scatter](https://blendermarket.com/products/scatter) [$]：Blender 专业级生物群落与实例化散布系统。
     - [BagaPie Modifier](https://app.gumroad.com/l/BbGVh)：集成布尔、散布、曲线阵列与建筑工具的修改器与几何节点预设工具包。 ![][gpl]
-    - [Gscatter](https://www.graswald3d.com/gscatter)：由 Graswald 团队打造的艺术家友好型免费散布插件。
     - [City Scatter](https://curtisjamesholt.gumroad.com/l/city_scatter_free)：由 Blender 集合系统驱动的城市景观概念生成工具。
 - 几何节点包与预设：
     - [Geometry Nodes Demo](https://www.blender.org/download/demo-files/#geometry-nodes)：Blender 官方几何节点示例文件，包括程序化建筑与六角网格地图。
     - [Higgsas Geometry Nodes](https://higgsas.gumroad.com/l/wrusot)：丰富的几何节点实用工具与变形器节点组集合，另含 [Mesh Tension Map](https://higgsas.gumroad.com/l/tnqal)。
     - [b3dsdf](https://github.com/williamchange/b3dsdf)：为 Blender 着色器编辑器与几何节点提供超过 170 个有符号距离场 (SDF)、向量运算与程序化实用节点组。![][gpl]
-    - [Blenderesse's Generators](https://blenderesse.gumroad.com)：免费几何节点生成器，包含 [Electric Power Line](https://blenderesse.gumroad.com/l/electriclinegenerator)、[Melt](https://blenderesse.gumroad.com/l/melt) 和 [Bird](https://blenderesse.gumroad.com/l/birdgenerator)。
     - [Curtis Holt's Generators](https://curtisjamesholt.gumroad.com)：免费几何节点生成器，包含 [Space Station](https://curtisjamesholt.gumroad.com/l/space_station_gen_free)、[Mech](https://curtisjamesholt.gumroad.com/l/mech_gen_free) 和 [Weapon](https://curtisjamesholt.gumroad.com/l/random_weapon_generator)。
     - [Flex's Generators](https://flexdigitalpottery.gumroad.com)：免费几何节点预设，包含 **_Crystal, Curtain, Engine, Lego Character, Pillow, Rope, Stair, Stingwire, Table, Tyre_**。
     - [Nino DefoQ's Generators](https://ninodefoq.gumroad.com)：免费几何节点预设，包含 [Hair](https://ninodefoq.gumroad.com/l/hairgeometrynodes)、[Braid](https://ninodefoq.gumroad.com/l/braidify)、[Cornrow](https://ninodefoq.gumroad.com/l/cornrows)、[Moss](https://ninodefoq.gumroad.com/l/mossify) 和 [Snow](https://ninodefoq.gumroad.com/l/Snowify)。
@@ -299,7 +296,6 @@
 - [Bake Wrangler](https://blenderartists.org/t/bake-wrangler-node-based-baking-tool-set-ver-b0-9-4-curvycavity/1187732)：是基于节点的扩展，替代内置的烘焙系统。
 - [Blender Addon PBR](https://github.com/DigiKrafting/blender_addon_pbr)：提供一个材质面板，使用Principled BSDF着色器创建金属/粗糙度或高光/光泽节点。
 - [Bystedts Blender Baker](https://3dbystedt.gumroad.com/l/JAqLT)：这个插件简化了Blender中的纹理烘焙过程。
-- [Car Paint Shader](https://blenderesse.gumroad.com/l/carpaintshader)：简单的着色器设置，让您轻松创建各种汽车漆面效果。
 - [DreamUV](https://github.com/leukbaars/DreamUV)：是一系列工具，允许您在3D视口中操作UV。
 - [EasyBake](https://github.com/leukbaars/EasyBake)：Blender的纹理烘焙UI，位于3D视口中。小而强大！快速一键烘焙和迭代。
 - [EZ Baker](https://blenderartists.org/t/ez-baker/1245869)：比Blender默认烘焙系统更简单的替代方案。 [![][repo]](https://gitlab.com/AquaticNightmare/ez_baker)
@@ -382,7 +378,6 @@
 - 相机：
     - [Photographer 2](https://gumroad.com/chafouin#FWQf)：提供物理相机曝光、白平衡与自动对焦控制（v2 版本完全免费）。
     - [Camera Shakify](https://github.com/EatTheFuture/camera_shakify)：为 Blender 相机轻松添加基于动作捕捉的真实镜头抖动。
-    - [Real Camera](https://3d-wolf.com/products/camera.html)：使用真实摄影参数控制 Blender 相机。
     - [Cameras-Lister](https://github.com/Ryxx/Cameras-Lister)：通过弹出式快捷键（`Alt+C`）快速切换与管理场景相机。
     - [Tilecam](https://github.com/stuffmatic/tilecam)：用于渲染无缝可平铺图像的相机辅助工具。
 - 渲染与批处理工具：
@@ -501,7 +496,6 @@
 - [Sketchfab](https://sketchfab.com/search?features=downloadable&sort_by=-pertinence&type=models)：来自sketchfab的免费可下载模型。
 - [TurboSquid/free](https://www.turbosquid.com/Search/3D-Models/free)：来自TurboSquid的免费模型。
 - [Hum3D](https://hum3d.com/)：车辆3D模型的高质量来源，以blend文件格式提供。
-- [Clara.io](https://clara.io/library)：免费3D建模、渲染、共享和模型。
 - [FlyingArchitecture](https://flyingarchitecture.com/)：既是一个建筑可视化工作室，也是一个专门提供3D模型、场景、材质和教程的在线商店。
 - [3D Warehouse](https://3dwarehouse.sketchup.com/search/)：下载sketchup模型。
 - [Free3DBase](https://free3dbase.com/)：下载高质量免费3d模型。
@@ -543,7 +537,6 @@
 - [ShareTextures](https://www.sharetextures.com/)：免费高质量材质档案，供大家使用。 [![][zero]](https://www.sharetextures.com/p/license)
 - [Texture.Ninja](https://texture.ninja/)：公共领域摄影纹理、参考图像、剪裁。 ![][zero]
 - [3DTexel](https://3dtexel.com/pbr-material/)：1,000+ 款手工制作的 4K（部分高达 8K）无缝 PBR 材质，包含风格化与手绘材质。需注册免费账号。[![][zero]](https://3dtexel.com/asset-license/)
-- [3DXO](https://www.3dxo.com)：免费3D模型、无缝纹理、背景、照片和图形。
 - [Texture Box](https://texturebox.com/)：我们为全世界的3D艺术家制作免费纹理。我们还提供定制纹理服务。
 - [Texture Fun](https://texturefun.com/)：免费PBR纹理集合，包括一些不错的瓷砖纹理。
 - [C4DCenter](https://c4dcenter.com/material-library/)：免费C4D材质，附带高质量纹理贴图，供即时下载，无限制，免费用于个人和商业用途。
@@ -558,14 +551,12 @@
 - [Texturing.xyz](https://texturing.xyz/) [$]：我们的纹理被一些最大和行业领先的VFX公司使用，帮助他们更快地实现目标。
 - [LotPixel](https://www.lotpixel.com/texture-library?credit=free)：免费扫描基础纹理的内部和外部材料，高达8K分辨率。商业使用。
 - 其他网站：
-    - [EveryTexture.com](https://everytexture.com/latest), [3DJungle.net](https://3djungle.net/textures/), [Architecture Inspirations](https://www.archinspirations.com/materials), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [TextureKing](https://www.textureking.com/category/all-textures/), [TextureCan](https://www.texturecan.com/).
+    - [EveryTexture.com](https://everytexture.com/latest), [3DJungle.net](https://3djungle.net/textures/), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [TextureKing](https://www.textureking.com/category/all-textures/), [TextureCan](https://www.texturecan.com/).
 - 其他：
-    - [gumroad/juliosillet](https://gumroad.com/juliosillet), [Pixar/CommunityResources](https://renderman.pixar.com/community_resources), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [Texture Hunt Collection](https://gumroad.com/l/texturehunt), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [treesDesigner PBR Leaf Textures](http://www.treesdesigner.com/materials-library/), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [CGTrader/textures](https://www.cgtrader.com/free-3d-models/textures), [CGIVault/Textures](https://cgivault.com/product-category/textures/), [artstation/alexbeddows](https://www.artstation.com/alexbeddows/store).
+    - [gumroad/juliosillet](https://gumroad.com/juliosillet), [Pixar/CommunityResources](https://renderman.pixar.com/community_resources), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [Texture Hunt Collection](https://gumroad.com/l/texturehunt), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [treesDesigner PBR Leaf Textures](http://www.treesdesigner.com/materials-library/), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [CGTrader/textures](https://www.cgtrader.com/free-3d-models/textures), [artstation/alexbeddows](https://www.artstation.com/alexbeddows/store).
 
 ### 🌓 Blender材质
 
-- [The Blendersauce Vault Materials](http://blendersauce.com/the-blendersauce-vault-2/the-material-vault-categories/)：免费分类 Blender 材质库，涵盖砖墙、混凝土、织物、流体、金属、自然、石膏、岩石、瓷砖与木材。
-- [3d-wolf/materials](https://3d-wolf.com/products/materials.html)：包含基于物理的程序化材质的免费插件。 ![][gpl]
 - [Simon Thommes' Procedural Shaders](https://gumroad.com/simonthommes)：Blender Studio 材质艺术家 Simon Thommes 出品的影视级程序化着色器与节点组。
 - 手绘与卡通着色器 (NPR)：
     - [BNPR Shaders](https://blendernpr.org/downloads/), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [EEVEE Comics Shader v3.0](https://gumroad.com/l/JWdjJ), [Erito's Toon Shader for EEVEE](https://www.artstation.com/eritokaio/store/Wo3B/erito-s-toon-shader-for-blender-eevee), [Toonkit Samples](https://github.com/vitorbalbio/Toonkit-Samples), [Erisdraw3D's Setup](https://twitter.com/Erisdraw3D/status/1216755574735503361)。
@@ -582,7 +573,7 @@
 - 创作者 Gumroad 资源主页：[Blue Fox Creation](https://gumroad.com/bluefoxcreation), [Curtis Holt](https://gumroad.com/curtisjamesholt)。
 - 免费绑定角色模型：
     - [Blender Studio 官方角色绑定](https://studio.blender.org/characters/)：[Rain v2](https://studio.blender.org/characters/rain/v2/), [Snow v2](https://studio.blender.org/characters/snow/v2/)。
-    - 社区绑定角色：[Red-Nelb](https://cgcookie.com/resource/red-nelb-rig-blender-2-8x), [Dancing Girl](https://gumroad.com/l/mZcjB), [Pharah (Overwatch)](https://pharah.gitlab.io/guide/), [Luchadora](https://www.artstation.com/marketplace/p/AWjx/luchadora-rig-blender), [Rocket Girl](https://gumroad.com/l/XGTxw), [Pikachu](https://www.blendswap.com/blend/23864), [MT-103 Droid](https://gumroad.com/l/zvlZV), [Baqir](https://www.youtube.com/watch?v=UIKuyOP68fA), [Ivan](https://gumroad.com/l/ivan-3d-model), [Cori](https://www.blendswap.com/blend/23381), [Judy Hopps](https://www.blendswap.com/blend/17309), [Scorbunny](https://gumroad.com/l/cvJbP), [Stretch](https://tribee.online/product/stretch-free-blender-rig-beta/)。
+    - 社区绑定角色：[Red-Nelb](https://cgcookie.com/resource/red-nelb-rig-blender-2-8x), [Dancing Girl](https://gumroad.com/l/mZcjB), [Pharah (Overwatch)](https://pharah.gitlab.io/guide/), [Luchadora](https://www.artstation.com/marketplace/p/AWjx/luchadora-rig-blender), [Rocket Girl](https://gumroad.com/l/XGTxw), [Pikachu](https://www.blendswap.com/blend/23864), [MT-103 Droid](https://gumroad.com/l/zvlZV), [Baqir](https://www.youtube.com/watch?v=UIKuyOP68fA), [Ivan](https://gumroad.com/l/ivan-3d-model), [Cori](https://www.blendswap.com/blend/23381), [Judy Hopps](https://www.blendswap.com/blend/17309), [Scorbunny](https://gumroad.com/l/cvJbP)。
 
 ### ⛅ HDRI
 
@@ -656,7 +647,7 @@
 ### 🏞 免费库存
 
 - 图像/矢量：[unsplash](https://unsplash.com/), [pexels](https://www.pexels.com/), [pixabay](https://pixabay.com/), [stocksnap](https://stocksnap.io/), [rawpixel](https://www.rawpixel.com/), [burst](https://burst.shopify.com/).
-- 视频/VFX/素材：[videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos), [actionvfx](https://www.actionvfx.com/blog/3-free-vfx-stock-collections-portals-bullet-tracers-camera-shake-presets), [productioncrate/free](https://vfx.productioncrate.com/search/#!/free), [benharker](https://benharker.net/store).
+- 视频/VFX/素材：[videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos), [actionvfx](https://www.actionvfx.com/blog/3-free-vfx-stock-collections-portals-bullet-tracers-camera-shake-presets), [productioncrate/free](https://vfx.productioncrate.com/search/#!/free).
 - 抠像素材：[MrCutout](https://www.mrcutout.com/), [nonscandinavia](http://www.nonscandinavia.com/), [vishopper/free](https://www.vishopper.com/cut-out-people/search/free).
 - 视觉循环：[Mantissa](https://mantissa.xyz/vjloops), [BEEPLE](https://www.beeple-crap.com/vjloops), [Vimeo/Catmac](https://vimeo.com/user2777466).
 - 字体：[fonts.google](https://fonts.google.com/), [theleagueofmoveabletype](https://www.theleagueofmoveabletype.com/), [beautifulwebtype](https://beautifulwebtype.com/).
@@ -723,9 +714,9 @@
 - [Exr-IO](https://www.exr-io.com/)：是处理多层EXR图片的健壮和精确的解决方案。它支持Cryptomatte。
 - [PickPicPack](https://p4ymak.gumroad.com/l/pickpicpack)：一个小巧而强大的实用程序，用于将多个图像打包到一个新的图像中，自定义长宽比和大小。
 - [GameTextureViewer](https://jangafx.com/software/gametextureviewer/)：一款快速、可靠且简洁的工具，供艺术家即时预览纹理与精灵表动画。
-- [Mandelbulb3D](http://www.andreas-maschke.com/?page_id=4607)：是一个免费软件应用程序，用于3D分形成像。 [![][repo]](https://github.com/thargor6/mb3d)
+- [Mandelbulb3D](https://github.com/thargor6/mb3d)：用于 3D 分形成像的开源免费软件。
 - [F3D](http://f3d.app)：快速且简约的开源跨平台3D查看器。支持许多文件格式和渲染风格。 [![][repo]](https://github.com/f3d-app/f3d)
-- [JWildfire](http://www.andreas-maschke.com/?page_id=42)：以其火焰分形生成器脱颖而出。Wildfire是基于Java的图像处理软件。 [![][repo]](https://github.com/thargor6/JWildfire)
+- [JWildfire](https://github.com/thargor6/JWildfire)：基于 Java 的开源火焰分形生成器与图像处理软件。
 - Blender 工具与定制构建：
     - [Mixar](https://www.mixar.app/)：基于 Blender 定制开发的 AI 3D 创作套件，内置交互式聊天智能体 (Mixie)、图层化纹理绘制与生成式 3D 工具。[![][repo]](https://github.com/Mixar-AI/mixar-app) ![][gpl]
     - [Goo Engine](https://github.com/dillongoostudios/goo-engine)：DillonGoo Studios 打造的开源定制版 Blender，专为 3D 动漫与非真实感渲染（NPR）量身定制。![][gpl]
@@ -833,9 +824,6 @@
 
 ### 社区
 
-- [👨🏽‍🚀Blender.Community](https://blender.community/c/)：由 Blender 爱好者为 Blender 爱好者打造的独立社区聚合平台。
-    - [☕Blender.Today](https://blender.community/c/today/)：社区驱动的Blender新闻、聊天和直播！流媒体[播放列表](https://www.youtube.com/playlist?list=PLa1F2ddGya_87HJ72v_IgKUTNLIXSMfvB).
-    - [🖱️Right-Click Select](https://blender.community/c/rightclickselect/)：认为Blender绝对必须拥有的功能建议？
 - [👨‍🎨Blender Artists Community](http://www.blenderartists.org/)：Blender社区的家。
 - [📰BlenderNation](https://www.blendernation.com/)：Blender的每日新闻、艺术和教程，Blender是一个开源的3D内容创作套件。
 - [💬blender.chat](https://blender.chat/)：官方艺术家和开发者聊天服务器。
@@ -973,7 +961,6 @@
 ### 📚 书籍
 
 - [Blender For Dummies by Jason van Gumster](https://www.amazon.com/Blender-Dummies-Computer-Tech/dp/1119616964)
-- [Blender Secrets by Jan van den Hemel](https://www.blendersecrets.org/book)
 - [Blender 3D Architect by Allan Brito](https://www.blender3darchitect.com/blender-books/)
 
 <p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
@@ -1175,7 +1162,6 @@ _一些可以找到各种 Blender 相关内容的账号。_
 - [Interplanety](https://b3d.interplanety.org/en/)：Blender教程、文章、技巧、笔记。
 - [Darkfall](https://darkfallblender.blogspot.com/)：Blender Python教程，节点。
 - [The CG Essentials](https://thecgessentials.com/)：3D建模、渲染、动画、粒子模拟等，这是Blender教程的地方。
-- [Blender Secrets](https://www.blendersecrets.org/secrets)：这里汇集了数百个一分钟或更短的视频教程，教授您特定的主题。
 
 ### 🎊 挑战
 

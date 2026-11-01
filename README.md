@@ -139,7 +139,6 @@
 - [Data-FX](https://github.com/LandonFerg/Data-FX) : Loads and visualizes data within Blender from `.csv` files.
 - [Mesh Maze](https://github.com/elfnor/mesh_maze) : Generates procedural maze patterns over any mesh surface.
 - [Modular Tree](https://github.com/MaximeHerpin/modular_tree/tree/blender_28) : Node-based procedural tree and vegetation generator for Blender.
-- [Real Sky](https://3d-wolf.com/products/sky/) : Generates procedural clouds and atmospheric skies in Blender.
 - [Sapling Tree Gen](https://github.com/meet-brad-ch/add_curve_sapling) : Parametric Weber-Penn trees with leaves, pruning, armature rigs, and wind animation. ![][gpl]
 - [Snow Generator](https://blendermarket.com/products/free-snow) : Procedural snow accumulation generator for 3D surfaces.
 - [Spaceship Generator](https://github.com/a1studmuffin/SpaceshipGenerator) : Procedurally generates 3D spaceships in Blender.
@@ -148,19 +147,17 @@
 - [Welder](https://blenderartists.org/t/welder/672478) : Generates realistic weld seams along object intersections.
 - Environment:
     - [Infinigen](https://infinigen.org) : Procedural generator of photorealistic 3D worlds, nature, and indoor scenes using real geometry, optimized for computer vision and 3D training data. [![][repo]](https://github.com/princeton-vl/infinigen)
-    - [Graswald](https://www.graswald3d.com/) [$] : High-detail vegetation, moss, and weed asset system for Blender.
+    - [Graswald Assets](https://store.gscatter.com/assets) : High-quality photorealistic vegetation, weed, and nature asset library, freely available for the Blender community.
     - [SceneCity](https://superhivemarket.com/products/scenecity) [$] : Generates large-scale road networks and places tens of thousands of procedural and custom buildings.
     - [The Grove 3D](https://www.thegrove3d.com/) [$] : Simulates natural tree growth, branching, pruning, and seasonal changes for visualization and film.
 - Scatter:
     - [Geo-Scatter](https://blendermarket.com/products/scatter) [$] : Professional biome and instancing scattering system for Blender.
     - [BagaPie Modifier](https://app.gumroad.com/l/BbGVh) : Modifier and Geometry Nodes preset toolkit including booleans, scattering, arrays, and architecture tools. ![][gpl]
-    - [Gscatter](https://www.graswald3d.com/gscatter) : Free artist-friendly scattering add-on by the developers of Graswald.
     - [City Scatter](https://curtisjamesholt.gumroad.com/l/city_scatter_free) : Generates cityscape concepts powered by Blender's collection system.
 - Geometry Nodes Packs & Presets:
     - [Geometry Nodes Demo](https://www.blender.org/download/demo-files/#geometry-nodes) : Official Blender Geometry Nodes example files, including procedural buildings and hex grids.
     - [Higgsas Geometry Nodes](https://higgsas.gumroad.com/l/wrusot) : Extensive collection of utility and deformer node groups for Geometry Nodes, plus [Mesh Tension Map](https://higgsas.gumroad.com/l/tnqal).
     - [b3dsdf](https://github.com/williamchange/b3dsdf) : Over 170 signed distance functions (SDF), vector operations, and procedural utility node groups for Shader Editor and Geometry Nodes in Blender. ![][gpl]
-    - [Blenderesse's Generators](https://blenderesse.gumroad.com) : Free Geometry Nodes generators including [Electric Power Line](https://blenderesse.gumroad.com/l/electriclinegenerator), [Melt](https://blenderesse.gumroad.com/l/melt), and [Bird](https://blenderesse.gumroad.com/l/birdgenerator).
     - [Curtis Holt's Generators](https://curtisjamesholt.gumroad.com) : Free Geometry Nodes generators including [Space Station](https://curtisjamesholt.gumroad.com/l/space_station_gen_free), [Mech](https://curtisjamesholt.gumroad.com/l/mech_gen_free), and [Weapon](https://curtisjamesholt.gumroad.com/l/random_weapon_generator).
     - [Flex's Generators](https://flexdigitalpottery.gumroad.com) : Free Geometry Nodes presets including **_Crystal, Curtain, Engine, Lego Character, Pillow, Rope, Stair, Stingwire, Table, Tyre_**.
     - [Nino DefoQ's Generators](https://ninodefoq.gumroad.com) : Free Geometry Nodes setups for [Hair](https://ninodefoq.gumroad.com/l/hairgeometrynodes), [Braid](https://ninodefoq.gumroad.com/l/braidify), [Cornrow](https://ninodefoq.gumroad.com/l/cornrows), [Moss](https://ninodefoq.gumroad.com/l/mossify), and [Snow](https://ninodefoq.gumroad.com/l/Snowify).
@@ -299,7 +296,6 @@
 - [Bake Wrangler](https://blenderartists.org/t/bake-wrangler-node-based-baking-tool-set-ver-b0-9-4-curvycavity/1187732) : Nodes based extension and replacement for the inbuilt baking system.
 - [Blender Addon PBR](https://github.com/DigiKrafting/blender_addon_pbr) : Provides a material panel that creates Metallic/Roughness or Specular/Gloss Nodes using the Principled BSDF shader.
 - [Bystedts Blender Baker](https://3dbystedt.gumroad.com/l/JAqLT) : This addon streamlines the texture baking process in Blender.
-- [Car Paint Shader](https://blenderesse.gumroad.com/l/carpaintshader) : Simple shader setup that lets you easily create variety of different car paint finishes.
 - [DreamUV](https://github.com/leukbaars/DreamUV) : Collection of tools that allow you to manipulate UVs in the 3D viewport.
 - [EasyBake](https://github.com/leukbaars/EasyBake) : Texture baking UI for Blender that lives in the 3D Viewport. Small but powerful! Fast one-click baking and iteration.
 - [EZ Baker](https://blenderartists.org/t/ez-baker/1245869) : An easier alternative to blender's default bake system. [![][repo]](https://gitlab.com/AquaticNightmare/ez_baker)
@@ -382,7 +378,6 @@
 - Camera:
     - [Photographer 2](https://gumroad.com/chafouin#FWQf) : Physical camera exposure, white balance, and autofocus controls (v2 available for free).
     - [Camera Shakify](https://github.com/EatTheFuture/camera_shakify) : Adds realistic, motion-captured camera shake to Blender cameras.
-    - [Real Camera](https://3d-wolf.com/products/camera.html) : Controls the Blender camera using real-world photographic parameters.
     - [Cameras-Lister](https://github.com/Ryxx/Cameras-Lister) : Quick popup menu (`Alt+C`) to switch and manage scene cameras.
     - [Tilecam](https://github.com/stuffmatic/tilecam) : Camera setup helper for rendering seamlessly repeatable tiles.
 - Render & Batch Utilities:
@@ -501,7 +496,6 @@
 - [Sketchfab](https://sketchfab.com/search?features=downloadable&sort_by=-pertinence&type=models) : Free downloadable models from Sketchfab.
 - [TurboSquid/free](https://www.turbosquid.com/Search/3D-Models/free) : Free models from Turbosquid.
 - [Hum3D](https://hum3d.com/) : Source of quality 3D models of vehicles in blend file format.
-- [Clara.io](https://clara.io/library) : Free 3D Modeling, Rendering, Sharing and Models.
 - [FlyingArchitecture](https://flyingarchitecture.com/) : Is both an architectural visualizations studio as well as an online store dedicated to 3D models, scenes, materials and tutorials.
 - [3D Warehouse](https://3dwarehouse.sketchup.com/search/) : Download sketchup models.
 - [Free3DBase](https://free3dbase.com/) : Download high quality free 3d models.
@@ -543,7 +537,6 @@
 - [ShareTextures](https://www.sharetextures.com/) : Free High Quality Material Archive for everybody. [![][zero]](https://www.sharetextures.com/p/license)
 - [Texture.Ninja](https://texture.ninja/) : Public domain photographic textures, reference images, cutouts. ![][zero]
 - [3DTexel](https://3dtexel.com/pbr-material/) : 1,000+ handmade seamless PBR materials in 4K (some up to 8K), including stylized/hand-painted ones. Free account required. [![][zero]](https://3dtexel.com/asset-license/)
-- [3DXO](https://www.3dxo.com) : Free 3D Models, seamless Textures, Backgrounds, Photos & Graphics.
 - [Texture Box](https://texturebox.com/) : We are making free textures for 3D Artists from all over the world. Also, we offer custome texture services.
 - [Texture Fun](https://texturefun.com/) : Free PBR texture sets of common architectural materials, including some nice tile textures.
 - [C4DCenter](https://c4dcenter.com/material-library/) : Free C4D Materials created with High Quality Texture Maps for instant download and no limits, Free for Personal and Commercial Use.
@@ -558,14 +551,12 @@
 - [Texturing.xyz](https://texturing.xyz/) [$] : Our textures are used in the biggest and industry-leading VFX companies, and help them achieving their goals faster.
 - [LotPixel](https://www.lotpixel.com/texture-library?credit=free) : Free scan-based textures of interior and exterior materials at up to 8K resolution. For commercial use.
 - Other Sites:
-    - [EveryTexture.com](https://everytexture.com/latest), [3DJungle.net](https://3djungle.net/textures/), [Architecture Inspirations](https://www.archinspirations.com/materials), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [TextureKing](https://www.textureking.com/category/all-textures/), [TextureCan](https://www.texturecan.com/).
+    - [EveryTexture.com](https://everytexture.com/latest), [3DJungle.net](https://3djungle.net/textures/), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [TextureKing](https://www.textureking.com/category/all-textures/), [TextureCan](https://www.texturecan.com/).
 - Others:
-    - [gumroad/juliosillet](https://gumroad.com/juliosillet), [Pixar/CommunityResources](https://renderman.pixar.com/community_resources), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [Texture Hunt Collection](https://gumroad.com/l/texturehunt), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [treesDesigner PBR Leaf Textures](http://www.treesdesigner.com/materials-library/), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [CGTrader/textures](https://www.cgtrader.com/free-3d-models/textures), [CGIVault/Textures](https://cgivault.com/product-category/textures/), [artstation/alexbeddows](https://www.artstation.com/alexbeddows/store).
+    - [gumroad/juliosillet](https://gumroad.com/juliosillet), [Pixar/CommunityResources](https://renderman.pixar.com/community_resources), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [Texture Hunt Collection](https://gumroad.com/l/texturehunt), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [treesDesigner PBR Leaf Textures](http://www.treesdesigner.com/materials-library/), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [CGTrader/textures](https://www.cgtrader.com/free-3d-models/textures), [artstation/alexbeddows](https://www.artstation.com/alexbeddows/store).
 
 ### 🌓 Blender Materials
 
-- [The Blendersauce Vault Materials](http://blendersauce.com/the-blendersauce-vault-2/the-material-vault-categories/) : Free categorized Blender materials including bricks, concrete, fabric, fluids, metals, nature, plaster, stone, tiles, and wood.
-- [3d-wolf/materials](https://3d-wolf.com/products/materials.html) : Free add-on with physically based procedural materials. ![][gpl]
 - [Simon Thommes' Procedural Shaders](https://gumroad.com/simonthommes) : Production-grade procedural shader packs and node groups by Blender Studio shading artist Simon Thommes.
 - Sketch & Toon Shaders:
     - [BNPR Shaders](https://blendernpr.org/downloads/), [EEVEEToon](https://github.com/kanzwataru/EEVEEToon), [EEVEE Comics Shader v3.0](https://gumroad.com/l/JWdjJ), [Erito's Toon Shader for EEVEE](https://www.artstation.com/eritokaio/store/Wo3B/erito-s-toon-shader-for-blender-eevee), [Toonkit Samples](https://github.com/vitorbalbio/Toonkit-Samples), [Erisdraw3D's Setup](https://twitter.com/Erisdraw3D/status/1216755574735503361).
@@ -582,7 +573,7 @@
 - Creator Gumroad Libraries : [Blue Fox Creation](https://gumroad.com/bluefoxcreation), [Curtis Holt](https://gumroad.com/curtisjamesholt).
 - Free Character Rigs:
     - [Blender Studio Official Rigs](https://studio.blender.org/characters/) : [Rain v2](https://studio.blender.org/characters/rain/v2/), [Snow v2](https://studio.blender.org/characters/snow/v2/).
-    - Community Character Rigs : [Red-Nelb](https://cgcookie.com/resource/red-nelb-rig-blender-2-8x), [Dancing Girl](https://gumroad.com/l/mZcjB), [Pharah (Overwatch)](https://pharah.gitlab.io/guide/), [Luchadora](https://www.artstation.com/marketplace/p/AWjx/luchadora-rig-blender), [Rocket Girl](https://gumroad.com/l/XGTxw), [Pikachu](https://www.blendswap.com/blend/23864), [MT-103 Droid](https://gumroad.com/l/zvlZV), [Baqir](https://www.youtube.com/watch?v=UIKuyOP68fA), [Ivan](https://gumroad.com/l/ivan-3d-model), [Cori](https://www.blendswap.com/blend/23381), [Judy Hopps](https://www.blendswap.com/blend/17309), [Scorbunny](https://gumroad.com/l/cvJbP), [Stretch](https://tribee.online/product/stretch-free-blender-rig-beta/).
+    - Community Character Rigs : [Red-Nelb](https://cgcookie.com/resource/red-nelb-rig-blender-2-8x), [Dancing Girl](https://gumroad.com/l/mZcjB), [Pharah (Overwatch)](https://pharah.gitlab.io/guide/), [Luchadora](https://www.artstation.com/marketplace/p/AWjx/luchadora-rig-blender), [Rocket Girl](https://gumroad.com/l/XGTxw), [Pikachu](https://www.blendswap.com/blend/23864), [MT-103 Droid](https://gumroad.com/l/zvlZV), [Baqir](https://www.youtube.com/watch?v=UIKuyOP68fA), [Ivan](https://gumroad.com/l/ivan-3d-model), [Cori](https://www.blendswap.com/blend/23381), [Judy Hopps](https://www.blendswap.com/blend/17309), [Scorbunny](https://gumroad.com/l/cvJbP).
 
 ### ⛅ HDRIs
 
@@ -656,7 +647,7 @@
 ### 🏞 Free Stocks
 
 - Image/Vector : [unsplash](https://unsplash.com/), [pexels](https://www.pexels.com/), [pixabay](https://pixabay.com/), [stocksnap](https://stocksnap.io/), [rawpixel](https://www.rawpixel.com/), [burst](https://burst.shopify.com/).
-- Video/VFX/Footage : [videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos), [actionvfx](https://www.actionvfx.com/blog/3-free-vfx-stock-collections-portals-bullet-tracers-camera-shake-presets), [productioncrate/free](https://vfx.productioncrate.com/search/#!/free), [benharker](https://benharker.net/store).
+- Video/VFX/Footage : [videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos), [actionvfx](https://www.actionvfx.com/blog/3-free-vfx-stock-collections-portals-bullet-tracers-camera-shake-presets), [productioncrate/free](https://vfx.productioncrate.com/search/#!/free).
 - Cutouts : [MrCutout](https://www.mrcutout.com/), [nonscandinavia](http://www.nonscandinavia.com/), [vishopper/free](https://www.vishopper.com/cut-out-people/search/free).
 - Visual Loops : [Mantissa](https://mantissa.xyz/vjloops), [BEEPLE](https://www.beeple-crap.com/vjloops), [Vimeo/Catmac](https://vimeo.com/user2777466).
 - Fonts : [fonts.google](https://fonts.google.com/), [theleagueofmoveabletype](https://www.theleagueofmoveabletype.com/), [beautifulwebtype](https://beautifulwebtype.com/).
@@ -723,9 +714,9 @@
 - [Exr-IO](https://www.exr-io.com/) : Robust and exact solution for dealing with multi-layer EXR pictures. It supports Cryptomatte.
 - [PickPicPack](https://p4ymak.gumroad.com/l/pickpicpack) : Tiny yet powerful utility for packaging multiple images to new one with custom aspect ratio and size.
 - [GameTextureViewer](https://jangafx.com/software/gametextureviewer/) : Fast, reliable, and simple tool for artists to preview textures and sprite sheet animations on the fly.
-- [Mandelbulb3D](http://www.andreas-maschke.com/?page_id=4607) : Free software application created for 3D fractal imaging. [![][repo]](https://github.com/thargor6/mb3d)
+- [Mandelbulb3D](https://github.com/thargor6/mb3d) : Free open-source software created for 3D fractal imaging.
 - [F3D](http://f3d.app) : Fast and minimalist open source cross-platform 3D viewer. Support many fileformats and rendering style. [![][repo]](https://github.com/f3d-app/f3d)
-- [JWildfire](http://www.andreas-maschke.com/?page_id=42) : Stands out for its flame fractal generator. Wildfire is a java-based image processing software. [![][repo]](https://github.com/thargor6/JWildfire)
+- [JWildfire](https://github.com/thargor6/JWildfire) : Open-source flame fractal generator and image processing software.
 - Blender Tools & Custom Builds:
     - [Mixar](https://www.mixar.app/) : AI-powered 3D suite built as a custom fork of Blender with an integrated chat agent (Mixie), layer-based texture painting, and generative 3D tools. [![][repo]](https://github.com/Mixar-AI/mixar-app) ![][gpl]
     - [Goo Engine](https://github.com/dillongoostudios/goo-engine) : Custom open-source build of Blender by DillonGoo Studios tailored for 3D anime and Non-Photorealistic Rendering (NPR). ![][gpl]
@@ -833,9 +824,6 @@
 
 ### Community
 
-- [👨🏽‍🚀Blender.Community](https://blender.community/c/) : Independent community aggregator, by Blenderheads for Blenderheads.
-    - [☕Blender.Today](https://blender.community/c/today/) : Community-driven Blender news, chat, and live streams! Stream [playlist](https://www.youtube.com/playlist?list=PLa1F2ddGya_87HJ72v_IgKUTNLIXSMfvB).
-    - [🖱️Right-Click Select](https://blender.community/c/rightclickselect/) : Got an idea for a feature that you think Blender absolutely must have?
 - [👨‍🎨Blender Artists Community](http://www.blenderartists.org/) : Home of the Blender Community.
 - [📰BlenderNation](https://www.blendernation.com/) : Daily news, art and tutorials for Blender, the open source 3D content creation suite.
 - [💬blender.chat](https://blender.chat/) : Official chat server for artists and developers.
@@ -973,7 +961,6 @@
 ### 📚 Books
 
 - [Blender For Dummies by Jason van Gumster](https://www.amazon.com/Blender-Dummies-Computer-Tech/dp/1119616964)
-- [Blender Secrets by Jan van den Hemel](https://www.blendersecrets.org/book)
 - [Blender 3D Architect by Allan Brito](https://www.blender3darchitect.com/blender-books/)
 
 <p align="right"><sub><a href="#table">↑ Back to top</a></sub></p>
@@ -1175,7 +1162,6 @@ _Some accounts where you can find different kinds of content related to blender.
 - [Interplanety](https://b3d.interplanety.org/en/) : Blender tutorials, articles, tips, notes.
 - [Darkfall](https://darkfallblender.blogspot.com/) : Blender python tutorials, nodes.
 - [The CG Essentials](https://thecgessentials.com/) : 3D modeling, rendering, animation, particle simulation, and more, this is the place to be for Blender Tutorials.
-- [Blender Secrets](https://www.blendersecrets.org/secrets) : Is home to hundreds of one-minute or less video tutorials that teach you specific topics.
 
 ### 🎊 Challenges
 

@@ -86,25 +86,8 @@ jobs:
                   failIfEmpty: false
                   jobSummary: true
                   args: >-
+                      --config lychee.toml
                       --no-progress
-                      --exclude shieldcn.dev
-                      --exclude randomrepoimg.fly.dev
-                      --exclude artstation.com
-                      --exclude twitter.com
-                      --exclude x.com
-                      --exclude pixabay.com
-                      --exclude reddit.com
-                      --exclude blendermarket.com
-                      --exclude superhivemarket.com
-                      --exclude free3d.com
-                      --exclude medium.com
-                      --exclude udemy.com
-                      --exclude skillshare.com
-                      --exclude turbosquid.com
-                      --exclude unrealengine.com
-                      --exclude videvo.net
-                      --exclude grabcad.com
-                      --exclude musopen.org
                       -- "${{ runner.temp }}/pr_added_links.md"
 
     scheduled-link-check:
@@ -118,32 +101,6 @@ jobs:
               with:
                   jobSummary: true
                   args: >-
+                      --config lychee.toml
                       --no-progress
-                      --exclude shieldcn.dev
-                      --exclude randomrepoimg.fly.dev
-                      --exclude artstation.com
-                      --exclude twitter.com
-                      --exclude x.com
-                      --exclude pixabay.com
-                      --exclude reddit.com
-                      --exclude blendermarket.com
-                      --exclude superhivemarket.com
-                      --exclude free3d.com
-                      --exclude medium.com
-                      --exclude udemy.com
-                      --exclude skillshare.com
-                      --exclude turbosquid.com
-                      --exclude unrealengine.com
-                      --exclude videvo.net
-                      --exclude grabcad.com
-                      --exclude musopen.org
-                      --exclude artic.edu
-                      --exclude britishmuseum.org
-                      --exclude nga.gov
-                      --exclude si.edu
-                      --exclude capturingreality.com
-                      --exclude phenome10k.org
-                      --exclude blenderboom.com
-                      --exclude discord.com
-                      --exclude discord.gg
                       -- '*.md' '**/*.md'

@@ -1,0 +1,113 @@
+# lychee.toml - Configuration for lychee link checker
+
+# Verbose program output
+verbose = "warn"
+
+# User agent to send with each request (prevents WAF / bot blocks on many sites)
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+# Maximum number of concurrent network requests (conservative limit to prevent 429 rate limiting)
+max_concurrency = 8
+
+# Maximum number of allowed retries before a link is declared dead
+max_retries = 3
+
+# Minimum wait time in seconds between retries
+retry_wait_time = 2
+
+# Website timeout from connect to response finished (in seconds)
+timeout = 15
+
+# Maximum number of allowed redirects
+max_redirects = 10
+
+# Accept certain status codes as successful (redirects and specific soft codes)
+accept = [
+    "200..=204",
+    "206",
+    "301",
+    "302",
+    "307",
+    "308",
+]
+
+# Exclude URLs matching substrings or regular expressions
+exclude = [
+    # Video & streaming platforms (YouTube actively drops Azure/GitHub Actions IP connections)
+    "youtube.com",
+    "youtu.be",
+
+    # Social networks with aggressive login walls / anti-bot verification
+    "twitter.com",
+    "x.com",
+    "reddit.com",
+    "discord.com",
+    "discord.gg",
+    "instagram.com",
+    "facebook.com",
+    "fb.com",
+    "meta.com",
+    "oculus.com",
+
+    # Digital marketplaces with aggressive rate limits / Cloudflare / anti-scraping
+    "blendermarket.com",
+    "superhivemarket.com",
+    "gumroad.com",
+    "turbosquid.com",
+    "free3d.com",
+    "kitbash3d.com",
+    "texturing.xyz",
+    "artstation.com",
+    "cgcookie.com",
+
+    # Sites behind Cloudflare / Akamai WAF that reject datacenter IPs with 401/403
+    "unsplash.com",
+    "behance.net",
+    "pexels.com",
+    "rawpixel.com",
+    "pixabay.com",
+    "artlist.io",
+    "poly.pizza",
+    "blendkit.com",
+    "medium.com",
+    "udemy.com",
+    "skillshare.com",
+    "stackoverflow.com",
+    "unrealengine.com",
+    "videvo.net",
+    "grabcad.com",
+    "musopen.org",
+    "adobe.com",
+    "neoyume.com",
+    "projects.blender.org",
+    "bnf.fr",
+    "nhm.ac.uk",
+    "lacma.org",
+    "mindat.org",
+    "models-resource.com",
+    "luxcorerender.org",
+    "metmuseum.org",
+    "sourceforge.net",
+    "shadedrelief.com",
+    "bobgroothuis.com",
+    "oldmapsonline.org",
+
+    # Museum and institutional archives with strict rate limits / geo-blocking
+    "artic.edu",
+    "britishmuseum.org",
+    "nga.gov",
+    "si.edu",
+    "phenome10k.org",
+    "parismuseescollections.paris.fr",
+
+    # Flakey HTTP/2 protocol servers or broken origin implementations
+    "blender-addons.org",
+    "solarsystemscope.com",
+
+    # Dynamically generated badges / cloud-function endpoints
+    "shieldcn.dev",
+    "randomrepoimg.fly.dev",
+    "capturingreality.com",
+    "blenderboom.com",
+    "stargazers",
+]
