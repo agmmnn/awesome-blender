@@ -488,6 +488,7 @@
 - [3D Digitization Smithsonian](https://3d.si.edu/explore) : CC0 Photoscan Library from Smithsonian. [(Collections)](https://3d.si.edu/collections) ![][zero]
 - [Chocofur/Free](https://store.chocofur.com/search/free) : Premium quality 3D models & scenes. [(blender addon)](https://store.chocofur.com/model-manager-blender-2-80-course/blender_model/) [![][zero]](https://chocofur.com/page/license-cc0)
 - [Free3D](https://free3d.com/) : Is the go to place where you can share your free 3D assets and download instantly any you like. [![][cc]](https://free3d.com/terms-conditions)
+- [FreeSTLFiles](https://freestlfiles.online/) : Free community 3D printable STL repository and pre-supported tabletop miniatures.
 - [TheBaseMesh.com](https://thebasemesh.com/model-library) : A public library of over 600+ base meshes. All assets are real world scale and come unwrapped. ![][zero]
 - [3DB3](https://3db3.com/) : Check out the best 3D models made by professional 3D artists.
 - [Rigmodels](http://rigmodels.com/) : Free rigged, animated and low poly models
