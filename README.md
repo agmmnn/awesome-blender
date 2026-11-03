@@ -947,6 +947,9 @@
 
 - [Blender Studio](https://studio.blender.org/welcome/)
 - [CG Cookie](https://cgcookie.com/courses), [CG Masters](https://cgmasters.com/category/blender-training-courses/), [CG Boost Academy](https://academy.cgboost.com/), [polygonrunway](https://polygonrunway.com/)
+- [PromptImage](https://promptimage.cloud) - Free AI image & video studio with a prompt library (signup credits, multi-model). Freemium
+- [TeslaWraps](https://teslawraps.design) - Browser Tesla Paint Shop wrap designer — core editing + PNG export free without account; optional AI credit…
+- [GrokVideo Studio](https://grokvideogenerator.dev) - Independent web app for text/image-to-video via Grok Imagine API (Free Trial, 20 credits). Not an official …
 - [gumroad/blender](https://gumroad.com/discover?query=blender%20tutorial):
     - [jamajurabaev](https://gumroad.com/jamajurabaev), [janurschel](https://gumroad.com/janurschel), [yansculpts](https://gumroad.com/yansculpts),
 - [udemy/blender](https://www.udemy.com/courses/search/?ref=home&src=ukw&q=blender):
