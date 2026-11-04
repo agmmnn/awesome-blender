@@ -139,7 +139,7 @@
 - [Data-FX](https://github.com/LandonFerg/Data-FX) : Loads and visualizes data within Blender from `.csv` files.
 - [Mesh Maze](https://github.com/elfnor/mesh_maze) : Generates procedural maze patterns over any mesh surface.
 - [Modular Tree](https://github.com/MaximeHerpin/modular_tree/tree/blender_28) : Node-based procedural tree and vegetation generator for Blender.
-- [Sapling Tree Gen](https://github.com/meet-brad-ch/add_curve_sapling) : Parametric Weber-Penn trees with leaves, pruning, armature rigs, and wind animation. ![][gpl]
+- [Sapling Tree Gen](https://extensions.blender.org/add-ons/sapling-tree-gen/) : Parametric Weber-Penn trees with leaves, pruning, armature rigs, and wind animation. ![][gpl]
 - [Snow Generator](https://blendermarket.com/products/free-snow) : Procedural snow accumulation generator for 3D surfaces.
 - [Spaceship Generator](https://github.com/a1studmuffin/SpaceshipGenerator) : Procedurally generates 3D spaceships in Blender.
 - [Sprytile](https://github.com/Sprytile/Sprytile) : Builds tile-based low-poly scenes in Blender with paint and map-editor tools. [[more info]](https://chemikhazi.itch.io/sprytile)
