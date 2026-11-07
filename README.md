@@ -786,6 +786,7 @@
 - [Gigapixel AI](https://topazlabs.com/gigapixel-ai/) [$] : Is the only photo enlargement product available that can actually add detail back to your upscaled photo.
 - [Rokoko Video](https://www.rokoko.com/products/video) : Motion capture using your webcam or video-upload and animate in minutes.
 - [Skilly](https://tryskilly.app) : Voice-first AI tutor for Mac that watches your Blender screen and walks you through any modifier or workflow in real time. [![][repo]](https://github.com/tryskilly/skilly)
+- [Trify3D](https://trify3d.com) : Browser-based AI 3D generator that runs Tripo3D, Meshy and Rodin side by side and exports GLB, glTF, OBJ and STL files that open directly in Blender.
 
 ### Sound/Music
 
