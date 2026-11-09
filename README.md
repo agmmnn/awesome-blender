@@ -784,6 +784,7 @@
 ### AI-Powered
 
 - [Gigapixel AI](https://topazlabs.com/gigapixel-ai/) [$] : Is the only photo enlargement product available that can actually add detail back to your upscaled photo.
+- [iGen3D](https://igen3d.com/) : AI 3D model and printable STL generator that converts 2D images and text prompts into 3D meshes. [![][repo]](https://github.com/0xa11y/igen3d-ai-3d-model-generator)
 - [Rokoko Video](https://www.rokoko.com/products/video) : Motion capture using your webcam or video-upload and animate in minutes.
 - [Skilly](https://tryskilly.app) : Voice-first AI tutor for Mac that watches your Blender screen and walks you through any modifier or workflow in real time. [![][repo]](https://github.com/tryskilly/skilly)
 
