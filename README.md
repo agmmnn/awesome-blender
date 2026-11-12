@@ -348,6 +348,7 @@
     - [Dream Textures](https://github.com/carson-katri/dream-textures) : Stable Diffusion built-in to the Blender shader editor, image editor, and compositor. ![][gpl]
     - [AI Render](https://github.com/benrugg/AI-Render) : Stable Diffusion in Blender. This add-on renders an AI generated image based on a text prompt and your scene.
     - [Pallaidium](https://github.com/tin2tin/Pallaidium) : Generative AI movie studio integrated into the Blender Video Sequence Editor (VSE) for text, image, audio, and video generation. ![][gpl]
+    - [Wiro AI 3D Generator](https://github.com/wiroai/Wiro-Blender) [$] : Text-to-3D, image-to-3D and texture generation in the 3D Viewport sidebar using hosted models such as TRELLIS.2 and Hunyuan3D-2.1; runs need a paid Wiro AI API key. ![][gpl]
 - Synthetic Data & Vision AI:
     - [BlenderProc](https://github.com/DLR-RM/BlenderProc) : A procedural Blender pipeline for photorealistic training image generation. ![][gpl]
     - [BlenderSynth](https://github.com/OllieBoyne/BlenderSynth) : Blender scripting for generating synthetic datasets at scale.
