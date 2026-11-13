@@ -38,7 +38,6 @@ exclude = [
     "youtu.be",
 
     # Social networks with aggressive login walls / anti-bot verification
-    "twitter.com",
     "x.com",
     "reddit.com",
     "discord.com",
@@ -50,7 +49,7 @@ exclude = [
     "oculus.com",
 
     # Digital marketplaces with aggressive rate limits / Cloudflare / anti-scraping
-    "blendermarket.com",
+    "3dmodels.org",
     "superhivemarket.com",
     "gumroad.com",
     "turbosquid.com",
@@ -103,6 +102,11 @@ exclude = [
     # Flakey HTTP/2 protocol servers or broken origin implementations
     "blender-addons.org",
     "solarsystemscope.com",
+    "www.blender.org/download",
+    "videezy.com",
+    "sketchfab.com",
+    "blogspot.com",
+    "artisticrender.com",
 
     # Dynamically generated badges / cloud-function endpoints
     "shieldcn.dev",
