@@ -4,9 +4,9 @@
 
 <div align="center">
     <p>
-        <a href="https://github.com/sindresorhus/awesome"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/awesome-blender-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=xs&amp;mode=dark"><img alt="Awesome Blender" src="https://www.shieldcn.dev/badge/awesome-blender-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=xs&amp;mode=light"></picture></a>
+        <a href="https://awesome-blender.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/awesome-blender-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=xs&amp;mode=dark"><img alt="Awesome Blender" src="https://www.shieldcn.dev/badge/awesome-blender-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=xs&amp;mode=light"></picture></a>
         <a href="https://github.com/agmmnn/awesome-blender/stargazers"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/stars/agmmnn/awesome-blender.svg?variant=secondary&amp;size=xs&amp;mode=dark"><img alt="GitHub Stars" src="https://www.shieldcn.dev/github/stars/agmmnn/awesome-blender.svg?variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
-        <a href="CONTRIBUTING.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/PRs-welcome.svg?logo=lu:GitPullRequest&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="PRs Welcome" src="https://www.shieldcn.dev/badge/PRs-welcome.svg?logo=lu:GitPullRequest&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
+        <a href="#贡献"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/PRs-welcome.svg?logo=lu:GitPullRequest&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="PRs Welcome" src="https://www.shieldcn.dev/badge/PRs-welcome.svg?logo=lu:GitPullRequest&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
         <a href="https://discord.com/invite/blender"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/discord/online-members/blender.svg?variant=branded&amp;size=xs&amp;mode=dark"><img alt="Blender Discord Online" src="https://www.shieldcn.dev/discord/online-members/blender.svg?variant=branded&amp;size=xs&amp;mode=light"></picture></a>
         <a href="LICENSE"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/license/agmmnn/awesome-blender.svg?variant=ghost&amp;size=xs&amp;mode=dark"><img alt="License" src="https://www.shieldcn.dev/github/license/agmmnn/awesome-blender.svg?variant=ghost&amp;size=xs&amp;mode=light"></picture></a>
     </p>
@@ -231,7 +231,7 @@
     - [Blign](https://jack-cooke.github.io/blign/)：是Blender的一个对齐和分布工具。它允许用户使用许多不同的选项对齐和分布形状。
 - 网格生成/风格化：
     - [Tissue](https://extensions.blender.org/add-ons/tissue/)：计算设计的插件。 [![][repo]](https://github.com/alessandro-zomparelli/tissue)
-    - [Mech/Fy](https://gumroad.com/l/KZllV) A procedural workflow that automates the process of hard surfaces modelling.
+    - [Mech/Fy](https://gumroad.com/l/KZllV)：自动生成硬表面建模细节的程序化工作流工具。
     - [RandoMesh](https://github.com/mantissa-/RandoMesh)：一个Blender插件，为任何网格添加随机几何形状。
     - [BY-GEN](https://gumroad.com/l/BY-GEN)：一个插件，旨在简化在Blender中创建非破坏性、生成性建模风格的过程。 [![][repo]](https://github.com/curtisjamesholt/BY-GEN-public)
     - [Fiber Mesh](https://blenderartists.org/t/fiber-mesh-resurrected-for-2-80/1141872)：生成纤维网格。
@@ -602,7 +602,7 @@
 
 - 音效资源：
     - [Freesound.org](https://freesound.org/browse/)：一个协作式数据库，提供创意共享许可的声音，供音乐家和声音爱好者使用。 [![][cc]](https://freesound.org/help/faq/#licenses)
-    - [GameAudioGDC](https://sonniss.com/gameaudiogdc/): Each year we give away thousands of dollars worth of sound effects for free in celebration of the Game Developers Conference. This is our archive. Everything is royalty-free and commercially usable.
+    - [GameAudioGDC](https://sonniss.com/gameaudiogdc/)：每年为庆祝游戏开发者大会 (GDC) 免费赠送的总价值数千美元的无版税、可商用游戏音效档案库。
     - [SoundBible.com](https://soundbible.com/free-sound-effects-1.html)：提供数千个免费的声音效果、声音剪辑和直接声音。这些声音可以用于各种声音项目。 [![][by]](https://soundbible.com/about.php)
     - [SFXMint](https://sfxmint.com/)：拥有 10,300+ 音效的 CC0 免费音效库，涵盖由 AI 生成或合成的游戏与视频音效。[![][zero]](https://sfxmint.com/license)
     - [99Sounds.org](https://99sounds.org/free-sound-effects/)：是一个网站，提供用户生成的无版税内容的免费下载。
@@ -1002,7 +1002,7 @@
 
 ### 学习计算机图形学
 
-- [Computer Graphics from scratch](https://gabrielgambetta.com/computer-graphics-from-scratch/00-introduction.html) This book will not teach you how to use OpenGL or DirectX; instead, it can teach you how OpenGL and DirectX work. [![][repo]](https://github.com/ggambetta/computer-graphics-from-scratch)
+- [Computer Graphics from scratch](https://gabrielgambetta.com/computer-graphics-from-scratch/00-introduction.html)：本书不教如何使用 OpenGL 或 DirectX，而是从零讲解计算机图形学与光线追踪/光栅化的底层原理。 [![][repo]](https://github.com/ggambetta/computer-graphics-from-scratch)
 - [tinyraytracer](https://github.com/ssloy/tinyraytracer/wiki)：易于理解的RayTracing，仅用256行裸C++代码。
 - [tinyrenderer](https://github.com/ssloy/tinyrenderer/wiki)：Tiny Renderer或OpenGL的工作原理：软件渲染在500行代码中。
 - [Awesome Computer Graphics](https://github.com/luisdnsantos/awesome-computer-graphics)：一个精选的计算机图形学资源列表。

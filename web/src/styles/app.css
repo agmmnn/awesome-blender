@@ -1,0 +1,303 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@property --fade-start {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+
+@property --fade-end {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+
+:root {
+  --radius: 0.625rem;
+
+  /* Emil Kowalski custom strong easing curves */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+
+  /* Raw shadcn/ui Zinc light & dark token pairs (lifted charcoal dark surface, high-contrast tuned) */
+  --background-light: oklch(0.99 0 0);
+  --background-dark: oklch(0.225 0.006 285.85);
+
+  --foreground-light: oklch(0.141 0.005 285.823);
+  --foreground-dark: oklch(0.985 0 0);
+
+  --card-light: oklch(1 0 0);
+  --card-dark: oklch(0.265 0.007 285.885);
+
+  --card-foreground-light: oklch(0.141 0.005 285.823);
+  --card-foreground-dark: oklch(0.985 0 0);
+
+  --popover-light: oklch(1 0 0);
+  --popover-dark: oklch(0.285 0.007 285.885);
+
+  --popover-foreground-light: oklch(0.141 0.005 285.823);
+  --popover-foreground-dark: oklch(0.985 0 0);
+
+  --primary-light: oklch(0.21 0.006 285.885);
+  --primary-dark: oklch(0.985 0 0);
+
+  --primary-foreground-light: oklch(0.985 0 0);
+  --primary-foreground-dark: oklch(0.21 0.006 285.885);
+
+  --secondary-light: oklch(0.945 0.004 286.375);
+  --secondary-dark: oklch(0.325 0.008 286.033);
+
+  --secondary-foreground-light: oklch(0.21 0.006 285.885);
+  --secondary-foreground-dark: oklch(0.96 0 0);
+
+  --muted-light: oklch(0.945 0.004 286.375);
+  --muted-dark: oklch(0.305 0.007 286.033);
+
+  --muted-foreground-light: oklch(0.42 0.014 285.938);
+  --muted-foreground-dark: oklch(0.82 0.012 286.067);
+
+  --accent-light: oklch(0.945 0.004 286.375);
+  --accent-dark: oklch(0.325 0.008 286.033);
+
+  --accent-foreground-light: oklch(0.21 0.006 285.885);
+  --accent-foreground-dark: oklch(0.985 0 0);
+
+  --destructive-light: oklch(0.577 0.245 27.325);
+  --destructive-dark: oklch(0.704 0.191 22.216);
+
+  --border-light: oklch(0.89 0.005 286.32);
+  --border-dark: oklch(0.365 0.008 286.033);
+
+  --input-light: oklch(0.89 0.005 286.32);
+  --input-dark: oklch(0.365 0.008 286.033);
+
+  --ring-light: oklch(0.705 0.015 286.067);
+  --ring-dark: oklch(0.62 0.016 285.938);
+
+  /* Fallback assignments for browsers without light-dark() */
+  --background: var(--background-light);
+  --foreground: var(--foreground-light);
+  --card: var(--card-light);
+  --card-foreground: var(--card-foreground-light);
+  --popover: var(--popover-light);
+  --popover-foreground: var(--popover-foreground-light);
+  --primary: var(--primary-light);
+  --primary-foreground: var(--primary-foreground-light);
+  --secondary: var(--secondary-light);
+  --secondary-foreground: var(--secondary-foreground-light);
+  --muted: var(--muted-light);
+  --muted-foreground: var(--muted-foreground-light);
+  --accent: var(--accent-light);
+  --accent-foreground: var(--accent-foreground-light);
+  --destructive: var(--destructive-light);
+  --border: var(--border-light);
+  --input: var(--input-light);
+  --ring: var(--ring-light);
+
+  /* MANDATORY: Fallback for browsers without light-dark support */
+  @media (prefers-color-scheme: dark) {
+    --background: var(--background-dark);
+    --foreground: var(--foreground-dark);
+    --card: var(--card-dark);
+    --card-foreground: var(--card-foreground-dark);
+    --popover: var(--popover-dark);
+    --popover-foreground: var(--popover-foreground-dark);
+    --primary: var(--primary-dark);
+    --primary-foreground: var(--primary-foreground-dark);
+    --secondary: var(--secondary-dark);
+    --secondary-foreground: var(--secondary-foreground-dark);
+    --muted: var(--muted-dark);
+    --muted-foreground: var(--muted-foreground-dark);
+    --accent: var(--accent-dark);
+    --accent-foreground: var(--accent-foreground-dark);
+    --destructive: var(--destructive-dark);
+    --border: var(--border-dark);
+    --input: var(--input-dark);
+    --ring: var(--ring-dark);
+  }
+
+  @supports (color: light-dark(white, black)) {
+    --background: light-dark(var(--background-light), var(--background-dark));
+    --foreground: light-dark(var(--foreground-light), var(--foreground-dark));
+    --card: light-dark(var(--card-light), var(--card-dark));
+    --card-foreground: light-dark(var(--card-foreground-light), var(--card-foreground-dark));
+    --popover: light-dark(var(--popover-light), var(--popover-dark));
+    --popover-foreground: light-dark(var(--popover-foreground-light), var(--popover-foreground-dark));
+    --primary: light-dark(var(--primary-light), var(--primary-dark));
+    --primary-foreground: light-dark(var(--primary-foreground-light), var(--primary-foreground-dark));
+    --secondary: light-dark(var(--secondary-light), var(--secondary-dark));
+    --secondary-foreground: light-dark(var(--secondary-foreground-light), var(--secondary-foreground-dark));
+    --muted: light-dark(var(--muted-light), var(--muted-dark));
+    --muted-foreground: light-dark(var(--muted-foreground-light), var(--muted-foreground-dark));
+    --accent: light-dark(var(--accent-light), var(--accent-dark));
+    --accent-foreground: light-dark(var(--accent-foreground-light), var(--accent-foreground-dark));
+    --destructive: light-dark(var(--destructive-light), var(--destructive-dark));
+    --border: light-dark(var(--border-light), var(--border-dark));
+    --input: light-dark(var(--input-light), var(--input-dark));
+    --ring: light-dark(var(--ring-light), var(--ring-dark));
+  }
+
+  /* MANDATORY: Apply color-scheme to :root for viewport-wide theming and reflect <meta> override */
+  color-scheme: light dark;
+
+  &:has(> head > meta[name="color-scheme"][content="dark"]) {
+    color-scheme: dark;
+  }
+  &:has(> head > meta[name="color-scheme"][content="light"]) {
+    color-scheme: light;
+  }
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-feature-settings: "rlig" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Hide scrollbars cleanly on horizontal chip strips while preserving scrollability */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide browser-native search cancel button so it does not duplicate custom clear button */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
+
+/* Pressable elements & cards: specific transition properties, touch-gated hover, and scale(0.97) on press */
+.pressable {
+  transition:
+    transform 160ms var(--ease-out),
+    background-color 150ms ease,
+    color 150ms ease,
+    border-color 150ms ease,
+    box-shadow 150ms ease;
+}
+.pressable:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+.directory-card {
+  transition:
+    transform 160ms var(--ease-out),
+    border-color 150ms ease,
+    background-color 150ms ease,
+    box-shadow 150ms ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  .directory-card:hover {
+    border-color: color-mix(in oklab, var(--foreground) 35%, transparent);
+    background-color: color-mix(in oklab, var(--accent) 25%, var(--card));
+  }
+}
+.directory-card:active {
+  transform: scale(0.99);
+}
+
+/* Origin-aware Radix Select & Tooltip animations (never scale from 0; use custom ease-out) */
+.origin-popover {
+  transform-origin: var(--radix-select-content-transform-origin, center);
+  transition:
+    opacity 160ms var(--ease-out),
+    transform 160ms var(--ease-out);
+  @starting-style {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+
+.origin-tooltip {
+  transform-origin: var(--radix-tooltip-content-transform-origin, center);
+  transition:
+    opacity 125ms var(--ease-out),
+    transform 125ms var(--ease-out);
+  @starting-style {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+}
+/* Skip animation on subsequent tooltips once one is already open */
+.origin-tooltip[data-state="instant-open"] {
+  transition-duration: 0ms;
+}
+
+/* MANDATORY (both rules): prevent page scroll under native modal dialog + animate entry from scale(0.96) */
+dialog:modal {
+  overscroll-behavior: contain;
+}
+dialog[open] {
+  opacity: 1;
+  transform: scale(1);
+  transform-origin: center;
+  transition:
+    opacity 200ms var(--ease-out),
+    transform 200ms var(--ease-out);
+
+  @starting-style {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+dialog::backdrop {
+  overflow: hidden;
+  overscroll-behavior: contain;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  opacity: 1;
+  transition: opacity 200ms var(--ease-out);
+
+  @starting-style {
+    opacity: 0;
+  }
+}
+
+/* Respect prefers-reduced-motion: keep subtle opacity/color transitions, remove transform motion */
+@media (prefers-reduced-motion: reduce) {
+  .pressable:active:not(:disabled),
+  .directory-card:active,
+  dialog[open],
+  .origin-popover,
+  .origin-tooltip {
+    transform: none !important;
+    transition-property: opacity, background-color, color, border-color !important;
+  }
+}

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /*?q=*
+Disallow: /*&q=*
+
+Sitemap: https://awesome-blender.vercel.app/sitemap.xml

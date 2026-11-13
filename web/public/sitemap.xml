@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://awesome-blender.vercel.app/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=add-ons</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=simulation-physics</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=simulation-physics" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=simulation-physics&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=simulation-physics" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=generator-builder</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=generator-builder" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=generator-builder&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=generator-builder" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=modeling</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=modeling" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=modeling&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=modeling" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=animation</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=animation" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=animation&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=animation" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=render-engine</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=render-engine" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=render-engine&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=render-engine" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=texture-uv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=texture-uv" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=texture-uv&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=texture-uv" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=gamedev</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=gamedev" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=gamedev&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=gamedev" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=ai-mcp</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=ai-mcp" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=ai-mcp&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=ai-mcp" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=lighting-camera-video</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=lighting-camera-video" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=lighting-camera-video&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=lighting-camera-video" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=pipeline-i-o-3d-scanning</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=pipeline-i-o-3d-scanning" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=pipeline-i-o-3d-scanning&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=pipeline-i-o-3d-scanning" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=workflow-ui-utilities</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=workflow-ui-utilities" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=workflow-ui-utilities&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=workflow-ui-utilities" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=resources</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=resources" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=resources&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=resources" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=resources&amp;category=3d-models</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=resources&amp;category=3d-models" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=resources&amp;category=3d-models&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=resources&amp;category=3d-models" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=resources&amp;category=mocap-animation</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=resources&amp;category=mocap-animation" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=resources&amp;category=mocap-animation&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=resources&amp;category=mocap-animation" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=resources&amp;category=textures</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=resources&amp;category=textures" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=resources&amp;category=textures&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=resources&amp;category=textures" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=resources&amp;category=blender-scenes-files</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=resources&amp;category=blender-scenes-files" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=resources&amp;category=blender-scenes-files&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=resources&amp;category=blender-scenes-files" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=resources&amp;category=hdris</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=resources&amp;category=hdris" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=resources&amp;category=hdris&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=resources&amp;category=hdris" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=resources&amp;category=space</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=resources&amp;category=space" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=resources&amp;category=space&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=resources&amp;category=space" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=resources&amp;category=sound-music</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=resources&amp;category=sound-music" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=resources&amp;category=sound-music&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=resources&amp;category=sound-music" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=standalone</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=standalone" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=standalone&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=standalone" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=standalone&amp;category=3d-tools</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=3d-tools" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=3d-tools&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=3d-tools" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=standalone&amp;category=various-tools</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=various-tools" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=various-tools&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=various-tools" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=standalone&amp;category=photogrammetry</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=photogrammetry" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=photogrammetry&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=photogrammetry" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=standalone&amp;category=texture-material</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=texture-material" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=texture-material&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=texture-material" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=standalone&amp;category=terrain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=terrain" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=terrain&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=terrain" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=standalone&amp;category=real-world-height-maps</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=real-world-height-maps" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=real-world-height-maps&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=real-world-height-maps" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=standalone&amp;category=point-cloud-lidar-data</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=point-cloud-lidar-data" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=point-cloud-lidar-data&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=point-cloud-lidar-data" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=standalone&amp;category=generator</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=generator" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=generator&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=generator" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=standalone&amp;category=sound-music</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=sound-music" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=sound-music&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=sound-music" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=standalone&amp;category=painting</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=painting" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=painting&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=painting" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

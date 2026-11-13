@@ -1,0 +1,16 @@
+{
+  "name": "Awesome Blender Directory",
+  "short_name": "Awesome Blender",
+  "description": "Curated directory of downloadable Blender add-ons, official extensions, 3D assets, HDRIs, and standalone tools.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#141518",
+  "theme_color": "#ea7600",
+  "icons": [
+    {
+      "src": "/imgs/blender.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
