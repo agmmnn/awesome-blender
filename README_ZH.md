@@ -394,6 +394,7 @@
     - [Daz to Blender Bridge](https://www.daz3d.com/daz-to-blender-bridge)：将 Daz Studio 中的 Genesis 角色与绑定直接传输至 Blender。
     - [MifthTools](https://github.com/mifth/mifthtools)：面向 3DCoat、Houdini 和 Modo 的网格交换工具集。
     - [LibSM64-Blender](https://github.com/libsm64/libsm64-blender)：将 `libsm64` 物理与《超级马里奥 64》角色工作流集成至 Blender。
+    - [Universal Scene Description (OpenUSD)](https://docs.blender.org/manual/en/latest/files/import_export/usd.html)：Blender 官方 OpenUSD 场景导入导出工作流手册（[OpenUSD](https://openusd.org/)）。 [![][repo]](https://github.com/PixarAnimationStudios/OpenUSD)
     - 格式导入器：[Daz Importer](https://bitbucket.org/Diffeomorphic/import_daz), [glTF-Blender-IO](https://github.com/KhronosGroup/glTF-Blender-IO), [Rhinoceros 3D (`.3dm`)](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [SVG 形态键](https://github.com/Shriinivas/shapekeyimport), [XPS/XNALara](https://github.com/johnzero7/XNALaraMesh), [GIF 动画 (Bligify)](https://github.com/doakey3/Bligify)。
 - 导出与格式转换：
     - [Export Paper Model from Blender](https://extensions.blender.org/add-ons/export-paper-model/)：将 3D 网格展开为可打印的 SVG/PDF 纸模图纸。[[文档]](https://addam.github.io/Export-Paper-Model-from-Blender/) [![][repo]](https://github.com/addam/Export-Paper-Model-from-Blender)
@@ -553,9 +554,10 @@
 ### ⛅ HDRI
 
 - [Poly Haven/HDRIs](https://polyhaven.com/hdris)：数百款免费 CC0 高分辨率 HDRI 天空、室内摄影棚与自然环境贴图（高达 16K+）。 [![][zero]](https://polyhaven.com/license)
+- [ambientCG/HDRIs](https://ambientcg.com/list?type=hdri)：免费 CC0 公有领域 HDRI 环境贴图，支持多种分辨率（高达 16K+）。 [![][zero]](https://docs.ambientcg.com/license/)
 - [Pixar/HDRI](https://renderman.pixar.com/category/111-hdri)：来自皮克斯 RenderMan 社区资源的免费生产级 HDRI 环境贴图。
 - [HDRMaps/Freebies](https://hdrmaps.com/freebies/)：免费高动态范围全景图与摄影测量背景。
-- 更多免费 HDRI 资源库：[HDRI-Hub](https://www.hdri-hub.com/shop/free-samples/free-hdri-downloads), [HDRI-Skies](https://hdri-skies.com/), [Location Textures](https://locationtextures.com/panoramas/?sort=p.price&order=ASC), [Noah Witchell](https://www.noahwitchell.com/freebies), [Bob Groothuis](https://www.bobgroothuis.com/collections/360-hdri), [Viz-People](https://www.viz-people.com/portfolio/free-hdri-maps/), [NoEmotionHDRs](http://noemotionhdrs.net/hdrevening.html)。
+- 更多免费 HDRI 资源库：[Openfootage](https://www.openfootage.net/hdri-panorama/), [HDRI-Hub](https://www.hdri-hub.com/shop/free-samples/free-hdri-downloads), [HDRI-Skies](https://hdri-skies.com/), [Location Textures](https://locationtextures.com/panoramas/?sort=p.price&order=ASC), [Noah Witchell](https://www.noahwitchell.com/freebies), [Bob Groothuis](https://www.bobgroothuis.com/collections/360-hdri), [Viz-People](https://www.viz-people.com/portfolio/free-hdri-maps/), [NoEmotionHDRs](http://noemotionhdrs.net/hdrevening.html)。
 
 ### 🖼 ️ 艺术/参考
 
@@ -708,6 +710,9 @@
 - [RealityCapture](https://www.capturingreality.com/) [$]：从图像和/或激光扫描中完全自动地创建虚拟现实场景、纹理3D网格、正射投影、地理参考地图等。
 - [Agisoft Metashape](https://www.agisoft.com/) [$]：是一个独立的软件产品，执行数字图像的摄影测量处理，并生成3D空间数据。
 - [RealityScan](https://www.capturingreality.com/introducing-realityscan)：一个免费的3D扫描应用，与Quixel合作开发，以最便捷的方式将智能手机照片转换为高保真3D模型。
+- [SuperSplat](https://superspl.at/editor)：免费基于浏览器的 3D 高斯泼溅（3DGS）编辑器，可用于查看、裁剪、清理与导出泼溅场景。 [![][repo]](https://github.com/playcanvas/supersplat) ![][mit]
+- [Brush](https://github.com/ArthurBrussee/brush)：跨平台 3D 重建与高斯泼溅训练引擎，支持实时渲染交互。
+- [gsplat](https://docs.gsplat.studio/main/)：开源 CUDA 加速光栅化库，用于训练和渲染 3D 高斯泼溅。 [![][repo]](https://github.com/nerfstudio-project/gsplat)
 
 ### 纹理/材质
 
@@ -854,9 +859,14 @@
 ### 🌌 几何节点
 
 - 🧾[Geometry Nodes Manual](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html)
+- 🧾[模拟节点手册](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/simulation/index.html) 与 [毛发节点手册](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/hair/index.html)。
+- ☰[Erindale 的几何节点与模拟节点播放列表](https://www.youtube.com/@Erindale/playlists)。
 - ☰[Chris Prenninger的几何节点](https://www.youtube.com/playlist?list=PLpJWHl1fB7BG5YiW1sV9smJLdzlxKLCw1).
 - ☰[Blue Fox的几何节点](https://www.youtube.com/playlist?list=PLlCNkx8wTCmeK6lCeIytjLJsse6xJwZg1).
 - ☰[初学者基础几何节点由Bradley Animation提供](https://www.youtube.com/playlist?list=PLhQ290f8z8FMzVZAZGyL8CnwOnitw2VdG).
+- ☷[Johnny Matthews 的几何节点与技术解析频道](https://www.youtube.com/@JohnnyMatthews)。
+- ▷[Erindale 的模拟节点入门教程](https://www.youtube.com/watch?v=gMOgB7Ds3ZI)。
+- ▷[Bad Normals 的 Blender 模拟节点新手教程](https://www.youtube.com/watch?v=HMpKmzTGwiE)。
 - 🧾[几何节点设计模式 - Dev Null Productions](https://docs.google.com/document/d/10c84Mg8OojWg2O7LiruQ_Cgb4kpMxSL4XRTPuQQPuDI).
 
 ### 🔘 着色节点
@@ -947,19 +957,15 @@
 ### 脚本/开发
 
 - 🧾文档：
-    - [Blender Python API Documentation](https://docs.blender.org/api/current/)：官方Blender Python API文档。
-    - [Creating Extensions (Blender 4.2+)](https://docs.blender.org/manual/en/latest/advanced/extensions/getting_started.html)：关于使用 `blender_manifest.toml` 为 Blender 扩展平台打包插件与主题的官方手册。
-    - [Programming Add-ons for Blender 2.8](https://airplanes3d.net/pydev-000_e.xml)：它展示了如何为Blender设置一个专业的IDE来编写Python程序，以一个简单的插件为例。它是一个电子书，基于Creative Commons许可免费发布。
+    - [Blender Python API Documentation](https://docs.blender.org/api/current/)：官方Blender Python API文档（[快速入门](https://docs.blender.org/api/current/info_quickstart.html)）。
+    - [Creating Extensions (Blender 4.2+)](https://docs.blender.org/manual/en/latest/advanced/extensions/getting_started.html)：关于使用 `blender_manifest.toml` 为 Blender 扩展平台打包插件与主题的官方手册（[CLI 参数](https://docs.blender.org/manual/en/latest/advanced/command_line/extension_arguments.html)）。
     - [blenderscripting](https://blenderscripting.blogspot.com/)：与Blender相关的Python代码片段，帮助你开始。
     - [Blender 3D: Noob to Pro/Python Scripting](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Advanced_Tutorials/Python_Scripting/Introduction)：来自[Blender 3D: Noob to Pro](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro)书籍的Python脚本教程。
 - 视频教程：
     - ☰[Scripting for Artists由Blender提供。](https://www.youtube.com/playlist?list=PLa1F2ddGya_8acrgoQr1fTeIuQtkSd6BW)
     - ☰[Blender编程教程由Olav3D提供。](https://www.youtube.com/playlist?list=PLunr0YiKm4r4OqzEfMrGSPYS1WuvaSRu5)
     - ☰[Blender脚本由Darkfall提供。](https://www.youtube.com/playlist?list=PLFtLHTf5bnym_wk4DcYIMq1DkjqB7kDb-)
-    - ▷[Blender 2.8插件开发教程，初学者由jayanam提供。](https://www.youtube.com/watch?v=uahfuypQQ04)
-    - ▷[Creating a Blender 2.8 Voxelize Python Script](https://www.youtube.com/watch?v=l9wSDtqThmQ), [[part2]](https://www.youtube.com/watch?v=Fr1HN0XgB58)
 - 文章：
-    - [Blender 2.8 Python Scripting Superpowers for Non-Programmers](https://cgcookie.com/articles/blender-2-8-python-scripting-superpowers-for-non-programmers)：如果你已经使用Blender或任何其他3D应用一段时间，你会发现自己在一遍又一遍地做着相同的任务，有时会想，“我真希望Blender能为我做这个”。通过脚本，它可以！
     - [Visualizing Complex Numbers in Blender](https://medium.com/@behreajj/visualizing-complex-numbers-in-blender-d60bd32f20b9)：本教程介绍了如何在Blender中使用复数制作图案。
 - IDE、调试与测试：
     - [fake-bpy-module](https://github.com/nutti/fake-bpy-module)：用于 VS Code、PyCharm 等主流 IDE 代码补全与类型检查的 Blender Python API (`bpy`) 存根模块集合。
@@ -968,6 +974,7 @@
     - [blender-addon-tester](https://github.com/nangtani/blender-addon-tester)：基于 pytest 的测试框架，可在指定版本的 Blender 中自动运行插件测试。
     - [The Code Editor](https://blenderartists.org/t/essential-text-editor-add-ons-for-coders/1163857)：汇集现代化 Blender 内置文本编辑器插件与改进方案的社区讨论帖。
 - 开发框架、打包与 API：
+    - [`bpy` on PyPI](https://pypi.org/project/bpy/)：官方将 Blender 作为 Python 模块发布的 PyPI 包，适用于无头与独立 Python 管线。
     - [BlenderAddonPackageTool](https://github.com/xzhuah/BlenderAddonPackageTool)：集成实用工具的 Blender 插件与扩展开发框架，支持热重载测试、依赖感知打包、自动类加载与插件国际化。![][mit]
     - [EasyBPY](https://gumroad.com/l/easybpy)：通过人性化抽象层简化常用 `bpy` API 调用的辅助模块。 [![][repo]](https://github.com/curtisjamesholt/EasyBPY)
     - [Geometry Script](https://github.com/carson-katri/geometry-script)：用于通过 Python 代码构建和管理复杂几何节点树的脚本 API。

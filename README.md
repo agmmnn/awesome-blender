@@ -394,6 +394,7 @@
     - [Daz to Blender Bridge](https://www.daz3d.com/daz-to-blender-bridge) : Transfers Genesis characters and rigs from Daz Studio directly into Blender.
     - [MifthTools](https://github.com/mifth/mifthtools) : Mesh exchange tools for 3DCoat, Houdini, and Modo.
     - [LibSM64-Blender](https://github.com/libsm64/libsm64-blender) : Integrates `libsm64` physics and Mario 64 character workflows into Blender.
+    - [Universal Scene Description (OpenUSD)](https://docs.blender.org/manual/en/latest/files/import_export/usd.html) : Official Blender manual for OpenUSD scene import/export workflows ([OpenUSD](https://openusd.org/)). [![][repo]](https://github.com/PixarAnimationStudios/OpenUSD)
     - Format Importers : [Daz Importer](https://bitbucket.org/Diffeomorphic/import_daz), [glTF-Blender-IO](https://github.com/KhronosGroup/glTF-Blender-IO), [Rhinoceros 3D (`.3dm`)](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [SVG Shape Keys](https://github.com/Shriinivas/shapekeyimport), [XPS/XNALara](https://github.com/johnzero7/XNALaraMesh), [Animated GIF (Bligify)](https://github.com/doakey3/Bligify).
 - Export & Format Converters:
     - [Export Paper Model from Blender](https://extensions.blender.org/add-ons/export-paper-model/) : Unfolds 3D meshes into printable SVG/PDF papercraft patterns. [[docs]](https://addam.github.io/Export-Paper-Model-from-Blender/) [![][repo]](https://github.com/addam/Export-Paper-Model-from-Blender)
@@ -553,9 +554,10 @@
 ### ⛅ HDRIs
 
 - [Poly Haven/HDRIs](https://polyhaven.com/hdris) : Hundreds of free CC0 high-resolution HDRI skies, indoor studios, and environments up to 16K+. [![][zero]](https://polyhaven.com/license)
+- [ambientCG/HDRIs](https://ambientcg.com/list?type=hdri) : Free CC0 public-domain HDRI environment maps in multiple resolutions up to 16K+. [![][zero]](https://docs.ambientcg.com/license/)
 - [Pixar/HDRI](https://renderman.pixar.com/category/111-hdri) : Free production-ready HDRI environments from Pixar RenderMan resources.
 - [HDRMaps/Freebies](https://hdrmaps.com/freebies/) : Free high-dynamic-range panoramas and photogrammetry backgrounds.
-- More Free HDRI Libraries : [HDRI-Hub](https://www.hdri-hub.com/shop/free-samples/free-hdri-downloads), [HDRI-Skies](https://hdri-skies.com/), [Location Textures](https://locationtextures.com/panoramas/?sort=p.price&order=ASC), [Noah Witchell](https://www.noahwitchell.com/freebies), [Bob Groothuis](https://www.bobgroothuis.com/collections/360-hdri), [Viz-People](https://www.viz-people.com/portfolio/free-hdri-maps/), [NoEmotionHDRs](http://noemotionhdrs.net/hdrevening.html).
+- More Free HDRI Libraries : [Openfootage](https://www.openfootage.net/hdri-panorama/), [HDRI-Hub](https://www.hdri-hub.com/shop/free-samples/free-hdri-downloads), [HDRI-Skies](https://hdri-skies.com/), [Location Textures](https://locationtextures.com/panoramas/?sort=p.price&order=ASC), [Noah Witchell](https://www.noahwitchell.com/freebies), [Bob Groothuis](https://www.bobgroothuis.com/collections/360-hdri), [Viz-People](https://www.viz-people.com/portfolio/free-hdri-maps/), [NoEmotionHDRs](http://noemotionhdrs.net/hdrevening.html).
 
 ### 🖼️ Art/Reference
 
@@ -708,6 +710,9 @@
 - [RealityCapture](https://www.capturingreality.com/) [$] : Create virtual reality scenes, textured 3D meshes, orthographic projections, geo-referenced maps and much more from images and/or laser scans completely automatically.
 - [Agisoft Metashape](https://www.agisoft.com/) [$] : Stand-alone software product that performs photogrammetric processing of digital images and generates 3D spatial data.
 - [RealityScan](https://www.capturingreality.com/introducing-realityscan) : A free 3D scanning app, developed in collaboration with Quixel, that turns smartphone photos into high-fidelity 3D models in the most accessible way possible.
+- [SuperSplat](https://superspl.at/editor) : Free browser-based 3D Gaussian Splat editor for inspecting, cropping, cleaning, and exporting splat scenes. [![][repo]](https://github.com/playcanvas/supersplat) ![][mit]
+- [Brush](https://github.com/ArthurBrussee/brush) : Cross-platform 3D reconstruction and Gaussian Splatting training engine supporting real-time rendering.
+- [gsplat](https://docs.gsplat.studio/main/) : Open-source CUDA-accelerated rasterization library for training and rendering 3D Gaussian Splats. [![][repo]](https://github.com/nerfstudio-project/gsplat)
 
 ### Texture/Material
 
@@ -854,9 +859,14 @@
 ### 🌌 Geometry Nodes
 
 - 🧾[Geometry Nodes Manual.](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html)
+- 🧾[Simulation Nodes Manual](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/simulation/index.html) & [Hair Nodes Manual](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/hair/index.html).
+- ☰[Geometry Nodes & Simulation Playlists by Erindale](https://www.youtube.com/@Erindale/playlists).
 - ☰[Geometry Nodes by Chris Prenninger](https://www.youtube.com/playlist?list=PLpJWHl1fB7BG5YiW1sV9smJLdzlxKLCw1).
 - ☰[Geometry Nodes by Blue Fox](https://www.youtube.com/playlist?list=PLlCNkx8wTCmeK6lCeIytjLJsse6xJwZg1).
 - ☰[Geometry Nodes Basics for Beginners by Bradley Animation](https://www.youtube.com/playlist?list=PLhQ290f8z8FMzVZAZGyL8CnwOnitw2VdG).
+- ☷[Geometry Nodes & Technical Breakdowns by Johnny Matthews](https://www.youtube.com/@JohnnyMatthews).
+- ▷[Intro to Simulation Nodes by Erindale](https://www.youtube.com/watch?v=gMOgB7Ds3ZI).
+- ▷[Blender Simulation Nodes Beginner Tutorial by Bad Normals](https://www.youtube.com/watch?v=HMpKmzTGwiE).
 - 🧾[Geometry Nodes Design Patterns by Dev Null Productions](https://docs.google.com/document/d/10c84Mg8OojWg2O7LiruQ_Cgb4kpMxSL4XRTPuQQPuDI).
 
 ### 🔘 Shader Nodes
@@ -947,19 +957,15 @@
 ### Scripting/Developing
 
 - 🧾Documentation:
-    - [Blender Python API Documentation](https://docs.blender.org/api/current/) : Official Blender Python API Documentation.
-    - [Creating Extensions (Blender 4.2+)](https://docs.blender.org/manual/en/latest/advanced/extensions/getting_started.html) : Official manual on packaging add-ons and themes using `blender_manifest.toml` for the Blender Extensions Platform.
-    - [Programming Add-ons for Blender 2.8](https://airplanes3d.net/pydev-000_e.xml) : It shows how to set up a professional IDE for writing Python programs for Blender, on the example of a simple plugin. It is an ebook, published freely on Creative Commons license.
+    - [Blender Python API Documentation](https://docs.blender.org/api/current/) : Official Blender Python API Documentation ([Quickstart](https://docs.blender.org/api/current/info_quickstart.html)).
+    - [Creating Extensions (Blender 4.2+)](https://docs.blender.org/manual/en/latest/advanced/extensions/getting_started.html) : Official manual on packaging add-ons and themes using `blender_manifest.toml` for the Blender Extensions Platform ([CLI Arguments](https://docs.blender.org/manual/en/latest/advanced/command_line/extension_arguments.html)).
     - [blenderscripting](https://blenderscripting.blogspot.com/) : Blender related python snippets to get you started.
     - [Blender 3D: Noob to Pro/Python Scripting](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Advanced_Tutorials/Python_Scripting/Introduction) : Python Scripting from [Blender 3D: Noob to Pro](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro) book.
 - Video Tutorials:
     - ☰[Scripting for Artists by Blender.](https://www.youtube.com/playlist?list=PLa1F2ddGya_8acrgoQr1fTeIuQtkSd6BW)
     - ☰[Blender Programming Tutorials by Olav3D.](https://www.youtube.com/playlist?list=PLunr0YiKm4r4OqzEfMrGSPYS1WuvaSRu5)
     - ☰[Blender Scripting by Darkfall](https://www.youtube.com/playlist?list=PLFtLHTf5bnym_wk4DcYIMq1DkjqB7kDb-)
-    - ▷[Blender 2.8 Addon Development Tutorial for Beginners by jayanam.](https://www.youtube.com/watch?v=uahfuypQQ04)
-    - ▷[Creating a Blender 2.8 Voxelize Python Script](https://www.youtube.com/watch?v=l9wSDtqThmQ), [[part2]](https://www.youtube.com/watch?v=Fr1HN0XgB58)
 - Posts:
-    - [Blender 2.8 Python Scripting Superpowers for Non-Programmers](https://cgcookie.com/articles/blender-2-8-python-scripting-superpowers-for-non-programmers) : If you’ve been using Blender or any other 3D app for a while, you’ve found yourself slogging through the same tasks over and over again and at some point thinking, “I really wish Blender just did this for me”. Through scripting, it can!
     - [Visualizing Complex Numbers in Blender](https://medium.com/@behreajj/visualizing-complex-numbers-in-blender-d60bd32f20b9) : This tutorial introduces how to make patterns with complex numbers in Blender.
 - IDE, Debugging & Testing:
     - [fake-bpy-module](https://github.com/nutti/fake-bpy-module) : Fake Blender Python API (`bpy`) modules for autocompletion and type checking in VS Code, PyCharm, and other IDEs.
@@ -968,6 +974,7 @@
     - [blender-addon-tester](https://github.com/nangtani/blender-addon-tester) : Pytest test harness for running automated add-on tests against defined Blender versions.
     - [The Code Editor](https://blenderartists.org/t/essential-text-editor-add-ons-for-coders/1163857) : Community thread curating tools and add-ons that modernize Blender's Text Editor.
 - Frameworks, Packaging & APIs:
+    - [`bpy` on PyPI](https://pypi.org/project/bpy/) : Official Blender-as-a-Python-module package for running headless Blender pipelines directly inside Python environments.
     - [BlenderAddonPackageTool](https://github.com/xzhuah/BlenderAddonPackageTool) : Framework for developing Blender add-ons and extensions with hot-swap testing, dependency packaging, auto class loading, and i18n. ![][mit]
     - [EasyBPY](https://gumroad.com/l/easybpy) : Human-readable abstraction layer that simplifies common `bpy` operations. [![][repo]](https://github.com/curtisjamesholt/EasyBPY)
     - [Geometry Script](https://github.com/carson-katri/geometry-script) : Python scripting API for building and managing complex Geometry Nodes trees in code.
