@@ -2,6 +2,7 @@ node_modules
 dist
 .output
 .tanstack
+.vercel
 .vinxi
 .nitro
 *.log
