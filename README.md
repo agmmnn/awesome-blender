@@ -98,7 +98,7 @@
     <li><a href="#-social">🖇 Social</a>
         <ul>
             <li><a href="#-explore-artworks">🔍 Explore Artworks</a></li>
-            <li><a href="#-twitter-accounts">🐦 Twitter Accounts</a></li>
+            <li><a href="#-x-accounts">𝕏 X Accounts</a></li>
             <li><a href="#-youtube-channels">📢 Youtube Channels</a></li>
             <li><a href="#-blogs">💻 Blogs</a></li>
             <li><a href="#-challenges">🎊 Challenges</a></li>
@@ -203,7 +203,7 @@
     - [3D Print Toolbox](https://extensions.blender.org/add-ons/print3d-toolbox/) : Must-have utilities to clean and prepare models for 3D printing in Blender. ![][gpl]
     - [Snapsplit](https://github.com/Betakontext/snapsplit) : Automates cut and connection building workflows for complex 3D models larger than your printing bed, generating precise glue-free snap-fit connectors.
 - Retopology/Remesh:
-    - [retopoflow](https://superhivemarket.com/products/retopoflow) : A suite of retopology tools for Blender. [![][repo]](https://github.com/CGCookie/retopoflow)
+    - [RetopoFlow](https://github.com/CGCookie/retopoflow) : A suite of retopology tools for Blender. [![market]](https://superhivemarket.com/products/retopoflow)
     - [QRemeshify](https://github.com/ksami/QRemeshify) : Blender extension for an easy-to-use remesher that outputs high-quality quad topology. ![][gpl]
     - [AutoRemesher Blender Bridge](https://github.com/adriflex/autoremesher-blender-bridge) : Blender bridge add-on for the AutoRemesher auto-retopology tool.
     - [InstantMeshesRemesh](https://blenderartists.org/t/instant-meshes-remesh/1114982) : A suite of retopology tools for Blender. [![][repo]](https://github.com/knekke/blender_addons#instantmeshesremesh)
@@ -249,7 +249,7 @@
 - [BlendyPose](https://github.com/zonkypop/BlendyPose) : Blender Motion Capture using your camera.
 - Rigging:
     - [CloudRig](https://projects.blender.org/extensions/cloudrig) : Blender Studio's official feature-film quality Rigify feature set and rig generator for Blender. ![][gpl]
-    - [BlenRig](https://superhivemarket.com/products/blenrig) : BlenRig is an Auto-rigging and skinning system. It provides the user with a Feature Film quality rig; including an advanced facial system. [![][repo]](https://github.com/jpbouza/BlenRig) ![][gpl]
+    - [BlenRig](https://github.com/jpbouza/BlenRig) : BlenRig is an Auto-rigging and skinning system. It provides the user with a Feature Film quality rig; including an advanced facial system. [![market]](https://superhivemarket.com/products/blenrig) ![][gpl]
     - [Rig on the Fly](https://gitlab.com/dypsloom/rigonthefly) : Rig on the Fly is a Blender dynamic rigging tool used to simplify and speed up animation workflow.
     - [Auto-Rig Pro](https://superhivemarket.com/products/auto-rig-pro) [$] : Auto-Rig Pro is an addon for Blender to rig characters, retarget animations, and provide Fbx export, with presets for Unity and Unreal Engine.
     - [Universal Human Rigged Base Mesh](https://gumroad.com/l/EqNTn) [$] : Rigged human base mesh.
@@ -792,7 +792,7 @@
 
 ### Development
 
-[🔌 Developer Portal](https://developer.blender.org/) | [💭 DevTalk](https://forum.blender.org/) | [💻 Developers Blog](https://code.blender.org/)
+[🔌 Developer Portal](https://developer.blender.org/) | [💭 Developer Forum](https://forum.blender.org/) | [💻 Developers Blog](https://code.blender.org/)
 
 ### Community
 
@@ -984,7 +984,7 @@
 ### Blender Source
 
 - 🧾[Developer Documentation](https://developer.blender.org/docs/) : Here you can find information about Blender's development process, design and architecture, as well as instructions for Building Blender.
-- [🔌 Developer Portal](https://developer.blender.org/) | [💭 DevTalk](https://forum.blender.org/) | [💻 Developers Blog](https://code.blender.org/)
+- [🔌 Developer Portal](https://developer.blender.org/) | [💭 Developer Forum](https://forum.blender.org/) | [💻 Developers Blog](https://code.blender.org/)
 
 ### Learn Python
 
@@ -1035,7 +1035,7 @@
     <a href="https://blenderartists.org/c/artwork/8"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Blender%20Artists-Artwork.svg?logo=blender&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="Blender Artists Artwork" src="https://www.shieldcn.dev/badge/Blender%20Artists-Artwork.svg?logo=blender&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
 </p>
 
-### 🐦 Twitter Accounts
+### 𝕏 X Accounts
 
 _Some accounts where you can find different kinds of content related to blender._
 
@@ -1062,7 +1062,7 @@ _Some accounts where you can find different kinds of content related to blender.
 [@zuggamasta](https://x.com/zuggamasta),
 [@andrewpprice](https://x.com/andrewpprice),
 [@brentpatterson](https://x.com/brentpatterson),
-[@FinEskimo](https://x.com/FinEskimo)
+[@FinEskimo](https://x.com/FinEskimo),
 [@VicDoval](https://x.com/VicDoval)
 
 <!-- Need to help for channel descriptions -->

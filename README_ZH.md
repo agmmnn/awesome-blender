@@ -98,7 +98,7 @@
     <li><a href="#-社交">🖇 社交</a>
         <ul>
             <li><a href="#-探索艺术作品">🔍 探索艺术作品</a></li>
-            <li><a href="#-twitter-账号">🐦 Twitter 账号</a></li>
+            <li><a href="#-x-账号">𝕏 X 账号</a></li>
             <li><a href="#-youtube频道">📢 YouTube频道</a></li>
             <li><a href="#-博客">💻 博客</a></li>
             <li><a href="#-挑战">🎊 挑战</a></li>
@@ -203,7 +203,7 @@
     - [3D Print Toolbox](https://extensions.blender.org/add-ons/print3d-toolbox/)：在 Blender 中清理并准备 3D 打印模型的必备工具集。![][gpl]
     - [Snapsplit](https://github.com/Betakontext/snapsplit)：为超出打印平台尺寸的复杂 3D 模型自动执行切割与连接结构生成工作流，生成无需胶水的精密卡扣连接件。
 - 重拓扑/重网格：
-    - [retopoflow](https://superhivemarket.com/products/retopoflow)：Blender的一套拓扑工具。 [![][repo]](https://github.com/CGCookie/retopoflow)
+    - [RetopoFlow](https://github.com/CGCookie/retopoflow)：Blender的一套拓扑工具。 [![market]](https://superhivemarket.com/products/retopoflow)
     - [QRemeshify](https://github.com/ksami/QRemeshify)：生成高品质四边形拓扑的便捷 Blender 重网格扩展。![][gpl]
     - [AutoRemesher Blender Bridge](https://github.com/adriflex/autoremesher-blender-bridge)：AutoRemesher 自动拓扑工具的 Blender 桥接插件。
     - [InstantMeshesRemesh](https://blenderartists.org/t/instant-meshes-remesh/1114982)：Blender的一套拓扑工具。 [![][repo]](https://github.com/knekke/blender_addons#instantmeshesremesh)
@@ -249,7 +249,7 @@
 - [BlendyPose](https://github.com/zonkypop/BlendyPose)：使用你的相机进行Blender动作捕捉。
 - 绑定：
     - [CloudRig](https://projects.blender.org/extensions/cloudrig)：Blender Studio 官方推出的电影级 Rigify 功能集与绑定生成器。![][gpl]
-    - [BlenRig](https://superhivemarket.com/products/blenrig)：BlenRig是一个自动绑定和蒙皮系统。它为用户提供了电影级别的绑定；包括高级面部系统。 [![][repo]](https://github.com/jpbouza/BlenRig) ![][gpl]
+    - [BlenRig](https://github.com/jpbouza/BlenRig)：BlenRig是一个自动绑定和蒙皮系统。它为用户提供了电影级别的绑定；包括高级面部系统。 [![market]](https://superhivemarket.com/products/blenrig) ![][gpl]
     - [Rig on the Fly](https://gitlab.com/dypsloom/rigonthefly)：Rig on the Fly是一个Blender动态绑定工具，用于简化和加快动画工作流程。
     - [Auto-Rig Pro](https://superhivemarket.com/products/auto-rig-pro) [$]：Auto-Rig Pro是一个Blender插件，用于绑定角色、重新定位动画，并提供Fbx导出，预设适用于Unity和Unreal Engine。
     - [Universal Human Rigged Base Mesh](https://gumroad.com/l/EqNTn) [$]：绑定的人类基础网格。
@@ -337,6 +337,7 @@
     - [AnyScene](https://github.com/apekshik/anyscene)：通过多智能体协作从文本提示词生成完整、逼真的 Blender 3D 场景，涵盖道具生成、房间布局、环境氛围与电影级渲染。[[演示视频]](https://x.com/apekshik/status/2116638903923073290) ![][mit]
     - [Scenario for Blender](https://github.com/scenario-labs/blender-plugin)：在视口内生成 AI 图像、视频、3D 和 PBR 材质，并为智能体提供本地 MCP 服务器。![][gpl]
     - [ComfyUI-Blender](https://github.com/alexisrolland/ComfyUI-Blender)：在 Blender 内部直接运行 ComfyUI 工作流的插件，用于 AI 贴图、图像和 3D 资产生成。
+    - [AI Art Engine](https://github.com/Justin-sky/ai-art-engine)：基于节点的游戏资产工作室，内置 Blender TCP 桥接与 24 个专用 MCP 工具，支持 3D 网格建模、骨骼绑定、PBR 烘焙以及面向 Unity、Godot 和 Cocos 的 glTF/FBX 导出。![][gpl]
 - 生成式 3D、纹理与视频：
     - [Hunyuan3D-2](https://github.com/Tencent-Hunyuan/Hunyuan3D-2)：开源高分辨率 3D 资产生成系统（支持文本/图像转 3D 几何体与 PBR 纹理），内置官方 Blender 插件。
     - [AssetFurnace](https://github.com/Bingeljell/image-to-3dlab)：完整的开源图像转 3D 流水线，通过 TRELLIS.2 与混元 3D 在本地生成带贴图、骨架绑定与动画的游戏角色。
@@ -600,6 +601,7 @@
 - [GameAudioGDC](https://sonniss.com/gameaudiogdc/): Each year we give away thousands of dollars worth of sound effects for free in celebration of the Game Developers Conference. This is our archive. Everything is royalty-free and commercially usable.
 - [GameSounds.xyz](https://gamesounds.xyz/)：为您的游戏提供免费的无版税音乐和声音。
 - [SoundBible.com](https://soundbible.com/free-sound-effects-1.html)：提供数千个免费的声音效果、声音剪辑和直接声音。这些声音可以用于各种声音项目。 [![][by]](https://soundbible.com/about.php)
+- [SFXMint](https://sfxmint.com/)：拥有 10,300+ 音效的 CC0 免费音效库，涵盖由 AI 生成或合成的游戏与视频音效。[![][zero]](https://sfxmint.com/license)
 - [99Sounds.org](https://99sounds.org/free-sound-effects/)：是一个网站，提供用户生成的无版税内容的免费下载。
 - [Freesfx.co.uk](https://www.freesfx.co.uk/)：这个网站提供了您可以在任何商业制作中使用的免费声音效果。
 - [OpenGameArt.org/Sound](https://opengameart.org/art-search-advanced?keys=&title=&field_art_tags_tid_op=or&field_art_tags_tid=&name=&field_art_type_tid%5B%5D=13&sort_by=created&sort_order=DESC&items_per_page=24&Collection=)：OpenGameArt中的声音效果。
@@ -790,7 +792,7 @@
 
 ### 开发
 
-[🔌 开发者门户](https://developer.blender.org/) | [💭 DevTalk](https://forum.blender.org/) | [💻 开发者博客](https://code.blender.org/)
+[🔌 开发者门户](https://developer.blender.org/) | [💭 开发者论坛](https://forum.blender.org/) | [💻 开发者博客](https://code.blender.org/)
 
 ### 社区
 
@@ -982,7 +984,7 @@
 ### Blender源代码
 
 - 🧾[Developer Documentation](https://developer.blender.org/docs/)：在这里您可以找到关于Blender的开发过程、设计和架构的信息，以及构建Blender的说明。
-- [🔌 Developer Portal](https://developer.blender.org/) | [💭 DevTalk](https://forum.blender.org/) | [💻 Developers Blog](https://code.blender.org/)
+- [🔌 Developer Portal](https://developer.blender.org/) | [💭 Developer Forum](https://forum.blender.org/) | [💻 Developers Blog](https://code.blender.org/)
 
 ### 学习Python
 
@@ -1033,7 +1035,7 @@
     <a href="https://blenderartists.org/c/artwork/8"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Blender%20Artists-Artwork.svg?logo=blender&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="Blender Artists Artwork" src="https://www.shieldcn.dev/badge/Blender%20Artists-Artwork.svg?logo=blender&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
 </p>
 
-### 🐦 Twitter 账号
+### 𝕏 X 账号
 
 _一些可以找到各种 Blender 相关内容的账号。_
 
@@ -1060,7 +1062,7 @@ _一些可以找到各种 Blender 相关内容的账号。_
 [@zuggamasta](https://x.com/zuggamasta),
 [@andrewpprice](https://x.com/andrewpprice),
 [@brentpatterson](https://x.com/brentpatterson),
-[@FinEskimo](https://x.com/FinEskimo)
+[@FinEskimo](https://x.com/FinEskimo),
 [@VicDoval](https://x.com/VicDoval)
 
 <!-- Need to help for channel descriptions -->
