@@ -120,14 +120,14 @@
 - [MolecularNodes](https://github.com/BradyAJohnston/MolecularNodes) : Import, animate, and simulate molecular biology and structural data inside Blender using Geometry Nodes. ![][gpl]
 - [Molecular+](https://github.com/u3dreal/molecular-plus) : Modernized continuation of the [Molecular Script](https://github.com/scorpion81/Blender-Molecular-Script) add-on for particle collisions, linking, and physics simulations in Blender 4.x. ![][gpl]
 - [Jet-Fluids](https://github.com/PavelBlend/blender-jet-fluids-addon) : [Jet fluid](https://github.com/doyubkim/fluid-engine-dev) simulator integration in blender.
-- [projectile](https://github.com/natecraddock/projectile) : An artist-friendly tool for throwing stuff around inside blender.
+- [projectile](https://github.com/develeon/projectile) : An artist-friendly tool for throwing stuff around inside blender.
 - [Phobos](https://github.com/dfki-ric/phobos) : An add-on for Blender allowing to create URDF, SDF and SMURF robot models.
 - [Blender Optics Simulator](https://github.com/emircbngl/blender-optics-simulator) : An add-on that turns Blender into a physics-checked optical bench: live beam tracing with polarization and Gaussian-beam propagation, real opto-mechanical mounts, and a headless Python API. ![][gpl]
 - [Stop-motion-OBJ](https://github.com/neverhood311/Stop-motion-OBJ) : Import sequences of `.obj`, `.ply`, or `.stl` mesh files (such as external fluid or particle simulations) as animated mesh sequences in Blender. ![][gpl]
 
 ### 🦑 Generator/Builder
 
-- [CharMorph](https://blenderartists.org/t/charmorph-character-creation-tool-mb-lab-based/1252543) : Open-source character creation tool for Blender, built as a modern rewrite of [MB-Lab](https://github.com/animate1978/MB-Lab). [![][repo]](https://github.com/Upliner/CharMorph)
+- [CharMorph](https://blenderartists.org/t/charmorph-character-creation-tool-mb-lab-based/1252543) : Open-source character creation tool for Blender, built as a modern rewrite of MB-Lab. [![][repo]](https://github.com/Upliner/CharMorph)
 - [MPFB](https://static.makehumancommunity.org/mpfb.html) : Open-source human generator for Blender and complete rewrite of MakeHuman as a native add-on. [![][repo]](https://github.com/makehumancommunity/mpfb2)
 - [FaceBuilder](https://keentools.io/download/facebuilder-for-blender) [$] : Creates photorealistic 3D models of human faces and heads from a few reference photographs. [[medium]](https://medium.com/keentools/facebuilder-for-blender-guide-cbb10c717f7c)
 - [Auto-Terrainer](https://unicornhunter.gumroad.com/l/AutoTerrainer) : Turns any low-poly mesh into realistic, customizable terrain such as mountains, valleys, islands, and deserts.
@@ -174,7 +174,7 @@
 - [QBlocker](https://qblockerdocs.readthedocs.io/) : Interactive object creation tool for Blender.
 - [fspy](https://fspy.io/) : Open-source camera matching app, extremely useful for modeling directly from a reference image. [(blender addon)](https://github.com/perarnia/fSpy-Blender)
 - [PolyQuilt](https://github.com/sakana3/PolyQuilt) : Provides a few functions in edit mode like creating faces, knife tool, fan, edge-loops, etc. It does this with only the left-mouse-button. So no menu’s, no shortcuts. [[more info]](https://www.youtube.com/watch?v=VKLPHh3CYCU)
-- [Modeling Cloth](https://github.com/the3dadvantage/Modeling-Cloth-2_8) : Create real-time cloth-like behavior in meshes in Blender.
+- [Modeling Cloth](https://github.com/the3dadvantage/Modeling-Cloth) : Create real-time cloth-like behavior in meshes in Blender.
 - [KeKit](https://ke-code.xyz/scripts/kekit) : Brings some much needed functionality to Blender, with a whole array of production tools.
 - [Array Tools](https://blenderartists.org/t/array-tools-all-in-one-for-translation-scale-and-rotation-array/1170295?u=peetie) : Addon for Blender to create translation, scale, rotation array with offset or global parameters in any direction and mix them. [![][repo]](https://github.com/Elreenys/array_tools)
 - [BezierUtility](https://github.com/Shriinivas/blenderbezierutils) : This add-on contains several tools for working with Bezier curves.
@@ -218,10 +218,8 @@
     - [EdgeFlow](https://github.com/BenjaminSauder/EdgeFlow/tree/blender_28) : This addon adds two operators to blender which both work on edgeloop selections.
     - [Engraver](https://gumroad.com/l/qOyVO) : Blender addon with set of few tools designed to help carving decals in 3D models.
     - [Offset Edges](https://blenderartists.org/t/offset-edges/584283/259) : This addon introduces a cad-like feature, which create edges that have consistent distance from original selected ones.
-    - [Mesh Utils](https://github.com/rpopovici/mesh-utils) : Overlapping vert/edge/face, interior faces, edges by trait, and other stuff.
     - [Poly Source](https://gumroad.com/l/polysource) : Is designed to simplify the control of the number of different types of polygons. You can see how many Gone, Quad and Tris are on the active object.
 - Sculpt:
-    - [Blender-Sculpt-Tools](https://github.com/anfeo/Blender-Zeta-Sphere) : Addon for help sculpting base mesh like Zbrush with Zsphere.
     - [Sculpt Alphas Manager](https://blenderartists.org/t/sculpt-alphas-manager/1200725) : This addon provides a simple solution to be able to quickly switch alpha textures for the sculpt brushes.
     - [Speedsculpt](https://gumroad.com/l/SpeedSculpt) [$] : The addon allows you to create very fast characters, to manage Dyntopo Sculpting with booleans, cut curves, skin modifier, decimate, mask etc.
     - [GoB](https://github.com/JoseConseco/GoB) : GoZ-alike tools for simple ZBrush-Blender interchange.
@@ -234,9 +232,6 @@
     - [Tissue](https://github.com/alessandro-zomparelli/tissue) : Add-on for computational design.
     - [Mech/Fy](https://gumroad.com/l/KZllV) : Procedural workflow that automates the process of hard surfaces modelling.
     - [RandoMesh](https://github.com/mantissa-/RandoMesh) : A blender addon to add randomized geometry to any mesh.
-    - [SliceMesh](https://github.com/mantissa-/SliceMesh) : Simple script for Blender to automate mesh slicing.
-    - [SuperPoke](https://github.com/mantissa-/SuperPoke) : Iterative poking tool for Blender.
-    - [MegaGrid](https://github.com/mantissa-/MegaGrid) : Simple Python script to randomly spam subdivisions.
     - [BY-GEN](https://gumroad.com/l/BY-GEN) : Addon designed to simplify the process of creating non-destructive, generative modeling styles in Blender. [![][repo]](https://github.com/curtisjamesholt/BY-GEN-public)
     - [Fiber Mesh](https://blenderartists.org/t/fiber-mesh-resurrected-for-2-80/1141872) : Generate fiber meshes.
     - [Laser Slicer](https://github.com/rgsouthall/laser_slicer) : Cuts up a Blender object and exports the slices to SVG files for cutting on a laser cutter or other post-processing.
@@ -246,7 +241,6 @@
 - [Animation Nodes](https://animation-nodes.com/) : A node based visual scripting system designed for motion graphics in Blender. [![][repo]](https://github.com/JacquesLucke/animation_nodes)
 - [Commotion](https://github.com/mrachinskiy/commotion) : Blender add-on for motion graphics.
 - [Animax](https://superhivemarket.com/products/animax---procedural-animation-system-) [$] : Procedural animation system for Blender. Useful for animating multiple objects.
-- [AutoMask](https://github.com/lukas-blecher/AutoMask) : A Blender Add-on for automatic rotoscoping with the help of Machine Learning.
 - [COA Tools](https://github.com/ndee85/coa_tools) : 2D Animation Suite for blender. It offers a 2D cutout animation workflow similar to programs like spine or spriter.
 - [reflow](https://gitlab.com/diegogangl/reflow) : Blender addon to change fps.
 - [Shape Keys+](https://blenderartists.org/t/shape-keys/680636) : Adds a panel with extra options for creating, sorting, viewing, and driving shape keys.
@@ -269,7 +263,6 @@
     - [WritingAnimation](https://github.com/Shriinivas/writinganimation) : This add-on generates writing animation for the selected Bezier curves in blender.
     - [Typewriter](https://github.com/doakey3/blender-typewriter-addon) : Typewriter text animation for font objects.
     - [TextCounter](https://github.com/leomoon-studios/leomoon-textcounter/) : LeoMoon TextCounter is an easy to use text animation plugin for Blender that can be used to make GUI simulations.
-    - [GreaseWriter](https://github.com/doakey3/GreaseWriter) : A Blender Add-on for auto-animating grease pencil strokes and emulating hand-drawn text.
 
 ### 🗜 Render Engine
 
@@ -292,9 +285,7 @@
 - [Layer Painter](https://joshuaknauber.gumroad.com/l/layerpainter) : Allows you to use a Layer-System for creating materials with painting and procedurals. The layers include masks, filters and much more. Even though the addon is designed with a PBR workflow in mind, you can also use it for stylized painting. [![][repo]](https://github.com/joshuaKnauber/layer_painter)
 - [TexTools](https://blenderartists.org/t/textools-for-blender/700811) : TexTools is a Free addon for Blender 3D with a set of professional UV and Texturing tools. [![][repo]](https://github.com/franMarz/TexTools-Blender)
 - [3D-Coat Applink](https://www.youtube.com/watch?v=2bo2XGUPwIU) : 3DCoat now has native support of Blender via built-in AppLink.
-- [Bake to Vertex Color](https://github.com/danielenger/Bake-to-Vertex-Color) : Transfer Image to selected Vertex Color in all selected Objects.
 - [Bake Wrangler](https://blenderartists.org/t/bake-wrangler-node-based-baking-tool-set/1187732) : Nodes based extension and replacement for the inbuilt baking system.
-- [Blender Addon PBR](https://github.com/DigiKrafting/blender_addon_pbr) : Provides a material panel that creates Metallic/Roughness or Specular/Gloss Nodes using the Principled BSDF shader.
 - [Bystedts Blender Baker](https://3dbystedt.gumroad.com/l/JAqLT) : This addon streamlines the texture baking process in Blender.
 - [DreamUV](https://github.com/leukbaars/DreamUV) : Collection of tools that allow you to manipulate UVs in the 3D viewport.
 - [EasyBake](https://github.com/leukbaars/EasyBake) : Texture baking UI for Blender that lives in the 3D Viewport. Small but powerful! Fast one-click baking and iteration.
@@ -304,8 +295,6 @@
 - [Grungit](https://abdoubouam.gumroad.com/l/grungit) : Grungit is an addon that automatically and effortlessly adds wear and tear to your models with a single click. The result is fully controllable and can deliver anything from imperfections and light wear to heavy damage. ![][gpl]
 - [Lily Surface Scrapper](https://github.com/eliemichel/LilySurfaceScraper) : Import shaders in Blender from a single URL.
 - [Magic UV](https://nutti.github.io/Magic-UV/) : This is a blender add-on Magic UV consisted of many UV manipulation features which Blender lack of. [![][repo]](https://github.com/nutti/Magic-UV)
-- [Parallax UV Mapping](https://neveselov.gumroad.com/l/btnpx) : This is Parallax Mapping material and node setup. Created in Blender 2.8 for EEVEE renderer, it works well in cycles too. [[more info]](https://www.youtube.com/watch?v=ZL695WnJvmU)
-- [PBR Texture Mapper](https://github.com/jayanam/pbr_texture_mapper) : Create PBR node setup with one click.
 - [Poliigon Blender Addon](https://help.poliigon.com/en/articles/6342599-poliigon-blender-addon) : Allows you to browse, purchase, download, and import Poliigon assets from inside Blender. It supports loading textures, models, and HDRs, and more recently supports generating blender files for use in the Blender Asset Browser.
 - [Principled-Baker](https://github.com/danielenger/Principled-Baker) : Bake PBR textures with a few clicks.
 - [Sanctus Library](https://superhivemarket.com/products/sanctus-library-addon---procedural-shaders-collection-for-blender/) [$] : The ever-growing procedural material library for Blender.
@@ -315,7 +304,6 @@
 - [UV-Packer](https://www.uv-packer.com/blender/) : Automatic and free UV-Packer Add-on for Blender.
 - [UVgami](https://github.com/danielboxer/UVgami) : Automatic UV unwrapping add-on for Blender with minimal distortion. ![][gpl]
 - [UV Toolkit](https://gumroad.com/alexbel#NbMya) : Tools collection for UV editing in blender.
-- [Vertex Oven](https://github.com/ForestKatsch/VertexOven) : Bake game-ready ambient occlusion in seconds without UV unwrapping or agonizingly slow Cycles bakes.
 
 ### 🎮 GameDev
 
@@ -328,7 +316,6 @@
 - [Godot Game Tools](https://viniguerrero.itch.io/godot-game-tools) : Made easy importing mixamo animations. tools to ease the creation/import process of assets into Godot Game Engine and others.
 - [Blender2Godot](https://www.zammedev.com/home/wip_projects/blender2godot) : Addon that exports a Blender scene to a Godot Engine project.
 - [Blenvy](https://github.com/kaosat-dev/Blenvy) : Blender-centric workflow and component editor for the Rust-based Bevy game engine. ![][mit]
-- [Embark Blender Tools](https://github.com/EmbarkStudios/blender-tools) : A Blender add-on containing workflow tools for game development. Includes tools for standardized import/export workflow, 3D modelling and new object types. [[medium]](https://medium.com/embarkstudios/a-love-letter-to-blender-e54167c22193)
 - [Asset Creation Toolset](https://gumroad.com/l/hPXIh) : Asset Creation Toolset is many tools for game asset creation.
 - [Mixamo Converter](https://github.com/enziop/mixamo_converter) : Blender Plugin that Converts Mixamo animations to work in Unreal Engine 4 with root motion.
 - [WoT Tank Viewer](https://bitbucket.org/SkepticalFox/bigworld-blender-tools-wot-wowp-wows) : Package of plugins for Blender, which allows you view 3D models from World of Tanks.
@@ -373,13 +360,10 @@
     - [LeoMoon LightStudio](https://leomoon.com/store/plugins/leomoon-lightstudio/) : Interactive studio lighting system for Blender. [![market]](https://superhivemarket.com/products/leomoon-lightstudio)
     - [Physical Starlight and Atmosphere](https://superhivemarket.com/products/physical-starlight-and-atmosphere) [$] : Full procedural sky, sunlight, and atmosphere simulator for visual consistency across scenes.
     - [Free Sky Environment Shading](https://gumroad.com/l/JUyxL) : Free custom procedural sky and environment shader node setup.
-    - [Lumiere](https://github.com/clarkx/Lumiere-V0.4) : Interactive raycast lighting add-on for Blender.
     - [Projectors](https://github.com/Ocupe/Projectors) : Physically plausible projector creation and modification in Cycles and EEVEE.
-    - [EEVEE Presets](https://github.com/danielenger/Eevee-Presets) : Save and load render presets for EEVEE.
 - Camera:
     - [Photographer 2](https://gumroad.com/chafouin#FWQf) : Physical camera exposure, white balance, and autofocus controls (v2 available for free).
     - [Camera Shakify](https://github.com/EatTheFuture/camera_shakify) : Adds realistic, motion-captured camera shake to Blender cameras.
-    - [Cameras-Lister](https://github.com/Ryxx/Cameras-Lister) : Quick popup menu (`Alt+C`) to switch and manage scene cameras.
     - [Tilecam](https://github.com/perarnia/tilecam) : Camera setup helper for rendering seamlessly repeatable tiles.
 - Render & Batch Utilities:
     - [Loom](https://github.com/p2or/blender-loom) : Simplifies rendering of specific frame ranges, batch rendering, and background encoding.
@@ -387,13 +371,11 @@
     - [Super Res Render](https://pidgeontools.gumroad.com/l/SuperResRender) : Splits renders into chunks to render ultra-high-resolution images without running out of VRAM.
     - [Super Fast Render](https://pidgeontools.gumroad.com/l/SuperFastRender) : Benchmarks and optimizes Cycles render settings for maximum speed at target quality.
     - [Super Image Denoiser](https://pidgeontools.gumroad.com/l/SuperImageDenoiser) : Multi-pass temporal and spatial denoiser node setup to reduce render artifacts.
-    - Batch & Notification Helpers : [BatchRender](https://github.com/VertStretch/RenderBurst), [Notify](https://github.com/Dziban-dev/Notify_Blender_Render), [AlarmShutdown](https://gumroad.com/l/PcDfw), [RenderButton](https://github.com/Mitsuma/Blender2.8-RenderButton).
+    - Batch & Notification Helpers : [BatchRender](https://github.com/VertStretch/RenderBurst), [AlarmShutdown](https://gumroad.com/l/PcDfw).
 - Video Sequence Editor (VSE) & Audio:
     - [Power Sequencer](https://github.com/GDQuest/blender-power-sequencer) : Free and open-source productivity tools for faster editing in Blender's Video Sequence Editor.
     - [VSEQF](https://github.com/snuq/VSEQF) : Quick Functions overhaul for Blender VSE focused on real-time feedback and mouse/keyboard editing.
-    - [Transform Tools](https://github.com/doakey3/VSE_Transform_Tools) : Interactive strip transform, crop, and fade controls in the VSE preview.
     - [Easy Proxy](https://github.com/cgvirus/blender-vse-easy-proxy) : Generates FFmpeg video proxies for smooth VSE playback.
-    - [Parallel_Render](https://github.com/elmopl/ktba/wiki/Addons) : Multi-threaded rendering for the Video Sequence Editor.
     - [Bangingcuts](https://github.com/OllyFunkster/bangingcuts) : Automatically cuts audio and video strips based on audio peaks to remove silences.
     - [Export EDL](https://github.com/tin2tin/Export_EDL) & [Import EDL](https://github.com/tin2tin/import_edl) : Exchange timelines with DaVinci Resolve, Premiere Pro, and Final Cut Pro via EDL.
     - [Scene Strip Tools](https://github.com/tin2tin/scene_strip_tools) : Preview and edit VSE Scene Strips directly in the 3D Viewport.
@@ -412,13 +394,13 @@
     - [Daz to Blender Bridge](https://www.daz3d.com/daz-to-blender-bridge) : Transfers Genesis characters and rigs from Daz Studio directly into Blender.
     - [MifthTools](https://github.com/mifth/mifthtools) : Mesh exchange tools for 3DCoat, Houdini, and Modo.
     - [LibSM64-Blender](https://github.com/libsm64/libsm64-blender) : Integrates `libsm64` physics and Mario 64 character workflows into Blender.
-    - Format Importers : [Daz Importer](https://bitbucket.org/Diffeomorphic/import_daz), [glTF-Blender-IO](https://github.com/KhronosGroup/glTF-Blender-IO), [Rhinoceros 3D (`.3dm`)](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [CityGML](https://github.com/zeffii/io_cityGML_basic), [SVG Shape Keys](https://github.com/Shriinivas/shapekeyimport), [XPS/XNALara](https://github.com/johnzero7/XNALaraMesh), [Animated GIF (Bligify)](https://github.com/doakey3/Bligify).
+    - Format Importers : [Daz Importer](https://bitbucket.org/Diffeomorphic/import_daz), [glTF-Blender-IO](https://github.com/KhronosGroup/glTF-Blender-IO), [Rhinoceros 3D (`.3dm`)](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [SVG Shape Keys](https://github.com/Shriinivas/shapekeyimport), [XPS/XNALara](https://github.com/johnzero7/XNALaraMesh), [Animated GIF (Bligify)](https://github.com/doakey3/Bligify).
 - Export & Format Converters:
     - [Export Paper Model from Blender](https://addam.github.io/Export-Paper-Model-from-Blender/) : Unfolds 3D meshes into printable SVG/PDF papercraft patterns. [![][repo]](https://github.com/addam/Export-Paper-Model-from-Blender)
     - [Batex](https://github.com/jayanam/batex) : Batch-exports selected objects as FBX compatible with Unity's coordinate and scaling system.
     - [Export Object Dimensions](https://github.com/rafaeloliveiraz/blender-dimexport) : Exports width, height, depth, and volume of selected objects to TXT, CSV, or JSON with unit conversion. ![][gpl]
     - [Fbx Format Converter](https://github.com/BobbyAnguelov/FbxFormatConverter) : Converts binary FBX files to ASCII and vice versa.
-    - Format Exporters : [USDZ](https://github.com/robmcrosby/BlenderUSDZ), [glTF MultiExport](https://github.com/MozillaReality/blender-gltf-multiexport-addon), [VTK](https://github.com/tkeskita/io_mesh_vtk), [Bezier2SVG](https://leomoon.com/store/plugins/leomoon-bezier2svg/), [Panda3D (`blend2bam`)](https://github.com/Moguri/blend2bam), [X-Ray Engine](https://github.com/PavelBlend/blender-xray).
+    - Format Exporters : [USDZ](https://github.com/robmcrosby/BlenderUSDZ), [Bezier2SVG](https://leomoon.com/store/plugins/leomoon-bezier2svg/), [Panda3D (`blend2bam`)](https://github.com/Moguri/blend2bam), [X-Ray Engine](https://github.com/PavelBlend/blender-xray).
 - Photogrammetry & Gaussian Splatting:
     - [3DGS Render by KIRI Engine](https://github.com/Kiri-Innovation/3dgs-render-blender-addon) : Open-source add-on for importing, editing, deforming, and rendering 3D Gaussian Splatting (`.ply`) scenes directly inside Blender. ![][gpl]
     - [Gauss Cannon](https://github.com/warpgatelabs/gauss-cannon) : Utilities for generating and managing 3D Gaussian Splats directly from Blender scenes. ![][gpl]
@@ -435,11 +417,8 @@
     - [Needle Engine](https://engine.needle.tools/docs/blender/) : Creates interactive, lightweight Three.js / WebXR web applications directly inside Blender.
     - [Verge3D](https://www.soft8soft.com/get-verge3d/) : Toolkit for creating interactive 3D web experiences and product configurators from Blender scenes.
     - [Multi-user](https://blenderartists.org/t/multi-user/1187118) : Enables real-time multi-user collaborative scene editing inside Blender. [![][repo]](https://gitlab.com/slumber/multi-user)
-    - [Mixer by Ubisoft](https://github.com/ubisoft/mixer) : Real-time collaborative 3D editing add-on developed at Ubisoft Animation Studio.
     - [Shot Manager by Ubisoft](https://github.com/ubisoft/shotmanager) : Introduces a production shot entity and previz workflow inside Blender scenes.
     - [A-Frame VR](https://github.com/silverslade/aframe_blender_exporter) : Exports Blender scenes to A-Frame WebVR projects with a single click.
-    - [blender-xr](https://github.com/MARUI-PlugIn/BlenderXR) : Virtual and mixed reality user interface for editing Blender scenes with VR headsets and controllers.
-    - [Blender-Metaverse-Addon](https://github.com/Menithal/Blender-Metaverse-Addon) : Toolset for authoring content for social VR and metaverse platforms.
 
 ### ⚡ Workflow, UI & Utilities
 
@@ -451,7 +430,6 @@
     - [Simple Renaming Panel](https://github.com/Weisl/simple_renaming) : Batch-rename objects, bones, materials, and data-blocks with prefix/suffix and regex rules.
     - [Lodify](https://forum.blender.org/t/level-of-detail-addon/12840) : Level of Detail (LOD) and proxy mesh management system for Blender. [![][repo]](https://github.com/DB3D/Lodify)
     - [PowerSave](https://gumroad.com/l/powersave) : Streamlined incremental saving and autosave management for Blender artists.
-    - [PresetterProfessional](https://github.com/dpdpforlife/PresetterProfessional) : Saves and restores viewport visibility, 3D cursor, and snapping presets.
 - Viewport & UI Enhancements:
     - [Modifier List](https://github.com/Symstract/modifier_list) : Enhanced compact UI layout, sidebar tab, and popup menu for managing modifier stacks.
     - [ProSidebar](https://github.com/CreativeDesigner3D/ProSidebar) : Adds quick-access transform, origin, and viewport operators to the 3D View Sidebar.
@@ -459,17 +437,16 @@
     - [Theme Switcher](https://blenderartists.org/t/theme-switcher/1211787) : Quickly switch active UI themes without leaving the 3D Viewport.
     - [Screencast-Keys](https://github.com/nutti/Screencast-Keys) : Displays keyboard and mouse inputs on-screen for tutorials and demos.
     - [Shortcut VUr](https://github.com/jayanam/shortcut_VUr) : Lightweight viewport overlay for displaying mouse and keyboard shortcuts.
-    - [ExtraInfo](https://gumroad.com/l/UznDL) & [AStats](https://github.com/YuriyAndropov/blenderPython/tree/master/AStats) : Custom viewport statistics and mesh count overlays.
+    - [ExtraInfo](https://gumroad.com/l/UznDL) : Custom viewport statistics and mesh count overlays.
     - [Leviate for Blender](https://extensions.blender.org/add-ons/leviate/) : Navigate the 3D viewport or move objects using webcam/phone hand tracking inside Blender. [![][repo]](https://github.com/vladpereverzyev/leviate)
     - [IOR Reference](https://gitlab.com/diegogangl/IOR_reference) : Searchable Index of Refraction (IOR) reference list inside the shader panel.
 - Nodes & Text Editor:
     - [Node Pie](https://github.com/strike-digital/node_pie) : Fast pie menu for searching and adding new nodes in the Shader and Geometry Node editors.
     - [NodeToPython](https://github.com/BrendanParmer/NodeToPython) : Converts Geometry, Shader, and Compositing node trees into clean, reusable Python scripts and add-ons. [![][mit]](https://github.com/BrendanParmer/NodeToPython/blob/main/LICENSE)
     - [NodeCustomBuilder](https://blenderartists.org/t/nodecustombuilder-2-8-free-addon/1152185) : Custom preset builder for shader and geometry node groups.
-    - [Kaleidoscope](https://github.com/blenderskool/kaleidoscope) : Adds Spectrum and Intensity color palette nodes to the Shader Editor.
     - [Set Viewport Color](https://github.com/johnnygizmo/set_viewport_color) : Automatically syncs object viewport display color from its shader node tree.
     - [Snippets Library](https://github.com/Pullusb/snippetsLibrary) : Manage and insert reusable Python code snippets in Blender's Text Editor.
-    - [Autocomplete/Intellisense](https://github.com/tin2tin/Intellisense_for_Blender_Text_Editor), [Search Online References](https://github.com/tin2tin/Search-API-Reference), [Run PEP8 Check](https://github.com/tin2tin/Python_Stylechecker_for_Blender), and [Text Markers](https://github.com/tin2tin/TextMarker-blender-addon) for Blender's built-in Text Editor.
+    - [Autocomplete/Intellisense](https://github.com/tin2tin/Intellisense_for_Blender_Text_Editor), [Search Online References](https://github.com/tin2tin/Search-API-Reference), and [Text Markers](https://github.com/tin2tin/TextMarker-blender-addon) for Blender's built-in Text Editor.
 
 <p align="right"><sub><a href="#table">↑ Back to top</a></sub></p>
 
@@ -582,7 +559,7 @@
 
 ### 🖼️ Art/Reference
 
-- [Dezoomify](https://dezoomify.ophir.dev/) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats). \([Desktop App](https://github.com/lovasoa/dezoomify-rs)\) [![][repo]](https://github.com/lovasoa/dezoomify)
+- [Dezoomify](https://dezoomify.ophir.dev/) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats). [![][repo]](https://github.com/lovasoa/dezoomify)
 - [Birmingham Museums Trust](https://dams.birminghammuseums.org.uk/asset-bank/action/viewDefaultHome?browseType=folders) : Thousands of our out-of-copyright images are now available for all to use under a Creative Commons Zero Licence. More images are regularly being added. \([Unsplash Profile](https://unsplash.com/@birminghammuseumstrust)\) ![][zero]
 - [Wikimedia Commons/Art](https://commons.wikimedia.org/wiki/Category:Art) : A collection of freely usable media files to which anyone can contribute. ![][cc]
 - [The Art Institute of Chicago](https://www.artic.edu/collection?is_public_domain=1) : Download public-domain artworks from Art Institute of Chicago online collection. [![][zero]](https://www.artic.edu/image-licensing)
@@ -719,8 +696,7 @@
     - [Goo Engine](https://github.com/dillongoostudios/goo-engine) : Custom open-source build of Blender by DillonGoo Studios tailored for 3D anime and Non-Photorealistic Rendering (NPR). ![][gpl]
     - [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater) : Download and install nightly builds with one click.
     - [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : Command line version of BlenderUpdater.
-    - [Blender Version Manager](https://github.com/DotBow/Blender-Version-Manager) : Minimalistic download manager for blender.
-    - [Blender Launcher](https://github.com/DotBow/Blender-Launcher) : Standalone client for managing official builds of blender.
+    - [Blender Launcher V2](https://github.com/Victor-IX/Blender-Launcher-V2) : Standalone client for managing official builds of Blender.
     - [Blender Manager](https://github.com/verlorengest/BlenderManager) : Auto-Update, Project Management and Time Tracking, Addon Control, Version Handling, Render Management, and More.
 
 ### Photogrammetry
@@ -736,7 +712,7 @@
 ### Texture/Material
 
 - [ArmorPaint](https://armorpaint.org/) : Open-Source 3D PBR Texture Painting Software. [![][repo]](https://github.com/armory3d/armorpaint)
-- [NVIDIA Texture Tools Exporter](https://developer.nvidia.com/texture-tools-exporter) : Allows users to create highly compressed texture files (that stay small both on disk and in memory) directly from image sources using NVIDIA’s CUDA-accelerated Texture Tools compressor technology. [![][repo]](https://github.com/castano/nvidia-texture-tools/)
+- [NVIDIA Texture Tools Exporter](https://developer.nvidia.com/texture-tools-exporter) : Allows users to create highly compressed texture files (that stay small both on disk and in memory) directly from image sources using NVIDIA’s CUDA-accelerated Texture Tools compressor technology.
 - [Materialize](https://boundingboxsoftware.com/materialize/) : Stand alone tool for creating materials from images. [![][repo]](https://github.com/BoundingBoxSoftware/Materialize)
 - [Material Maker](https://rodzilla.itch.io/material-maker) : Simple procedural materials generation tool. [![][repo]](https://github.com/RodZill4/material-maker)
 - [TextureLab](https://njbrown.itch.io/texturelab) : Tool designed to make procedural texture generation.
@@ -993,7 +969,6 @@
     - [The Code Editor](https://blenderartists.org/t/essential-text-editor-add-ons-for-coders/1163857) : Community thread curating tools and add-ons that modernize Blender's Text Editor.
 - Frameworks, Packaging & APIs:
     - [BlenderAddonPackageTool](https://github.com/xzhuah/BlenderAddonPackageTool) : Framework for developing Blender add-ons and extensions with hot-swap testing, dependency packaging, auto class loading, and i18n. ![][mit]
-    - [Advanced Blender Add-on](https://github.com/eliemichel/AdvancedBlenderAddon) : Starter kit illustrating architecture and design patterns for complex Blender add-ons.
     - [EasyBPY](https://gumroad.com/l/easybpy) : Human-readable abstraction layer that simplifies common `bpy` operations. [![][repo]](https://github.com/curtisjamesholt/EasyBPY)
     - [Geometry Script](https://github.com/carson-katri/geometry-script) : Python scripting API for building and managing complex Geometry Nodes trees in code.
     - [3DN BIP](https://github.com/bonjorno7/3dn-bip) : Fast drop-in replacement for `bpy.utils.previews` supporting arbitrary image sizes.
