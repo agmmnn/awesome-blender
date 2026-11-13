@@ -350,6 +350,7 @@
     - [AnyScene](https://github.com/apekshik/anyscene) : Multi-agent pipeline that generates complete, photorealistic 3D Blender scenes from a text prompt, handling prop generation, room layout, atmosphere, and cinematic rendering. [[video demo]](https://x.com/apekshik/status/2116638903923073290) ![][mit]
     - [Scenario for Blender](https://github.com/scenario-labs/blender-plugin) : AI image, video, 3D, and PBR material generation in the viewport, plus a local MCP server for agents. ![][gpl]
     - [ComfyUI-Blender](https://github.com/alexisrolland/ComfyUI-Blender) : Blender add-on to run ComfyUI workflows directly inside Blender for AI texture, image, and 3D asset generation.
+    - [AI Art Engine](https://github.com/Justin-sky/ai-art-engine) : Node-based game asset studio with a built-in Blender TCP bridge and 24 dedicated MCP tools for 3D mesh modeling, armature rigging, PBR baking, and glTF/FBX export to Unity, Godot, and Cocos. ![][gpl]
 - Generative 3D, Textures & Video:
     - [Hunyuan3D-2](https://github.com/Tencent-Hunyuan/Hunyuan3D-2) : High-resolution open-source 3D asset creation system (Text/Image-to-3D geometry and PBR textures) with an official Blender add-on.
     - [AssetFurnace](https://github.com/Bingeljell/image-to-3dlab) : Complete open-source image-to-3D pipeline generating textured, rigged, and animated game characters locally via TRELLIS.2 and Hunyuan3D.
