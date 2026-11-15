@@ -342,6 +342,7 @@
     - [Scenario for Blender](https://github.com/scenario-labs/blender-plugin) : AI image, video, 3D, and PBR material generation in the viewport, plus a local MCP server for agents. ![][gpl]
     - [ComfyUI-Blender](https://github.com/alexisrolland/ComfyUI-Blender) : Blender add-on to run ComfyUI workflows directly inside Blender for AI texture, image, and 3D asset generation.
     - [AI Art Engine](https://github.com/Justin-sky/ai-art-engine) : Node-based game asset studio with a built-in Blender TCP bridge and 24 dedicated MCP tools for 3D mesh modeling, armature rigging, PBR baking, and glTF/FBX export to Unity, Godot, and Cocos. ![][gpl]
+    - [Construct for Blender](https://github.com/rtmandreyev/construct/tree/main/hosts/blender) : Imports constructs written by AI agents (scene JSON, worlds or glTF) with their named parts, joints and assembly, with sidebar controls for build, opening, hologram to solid and finish, and keyframed reveals. [![][repo]](https://github.com/rtmandreyev/construct)
 - Generative 3D, Textures & Video:
     - [Hunyuan3D-2](https://github.com/Tencent-Hunyuan/Hunyuan3D-2) : High-resolution open-source 3D asset creation system (Text/Image-to-3D geometry and PBR textures) with an official Blender add-on.
     - [AssetFurnace](https://github.com/Bingeljell/image-to-3dlab) : Complete open-source image-to-3D pipeline generating textured, rigged, and animated game characters locally via TRELLIS.2 and Hunyuan3D.
