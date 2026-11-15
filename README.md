@@ -973,6 +973,7 @@
     - [fake-bpy-module](https://github.com/nutti/fake-bpy-module) : Fake Blender Python API (`bpy`) modules for autocompletion and type checking in VS Code, PyCharm, and other IDEs.
     - [Blender Development in VS Code](https://marketplace.visualstudio.com/items?itemName=JacquesLucke.blender-development) : Visual Studio Code extension for building, running, and hot-reloading Blender add-ons. [![][repo]](https://github.com/JacquesLucke/blender_vscode)
     - [blender-debugger-for-vscode](https://github.com/AlansCodeLog/blender-debugger-for-vscode) : Add-on for remote debugging Blender Python scripts with VS Code.
+    - [No Stairs Please](https://nostairsplease.com/) : Directory of 25,000+ live music venues with stage dimensions and room layouts useful for 3D stage pre-visualization.
     - [blender-addon-tester](https://github.com/nangtani/blender-addon-tester) : Pytest test harness for running automated add-on tests against defined Blender versions.
     - [The Code Editor](https://blenderartists.org/t/essential-text-editor-add-ons-for-coders/1163857) : Community thread curating tools and add-ons that modernize Blender's Text Editor.
 - Frameworks, Packaging & APIs:
