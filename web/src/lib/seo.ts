@@ -160,12 +160,12 @@ export function buildDirectorySeo(input: SeoFilterInput) {
       : "Awesome Blender Directory";
   let subtitle =
     lang === "zh"
-      ? `精选 ${DIRECTORY_DATA.totalCount} 个可下载的 Blender 插件、官方扩展、3D 资产、HDRI 与独立工具。`
-      : `A curated directory of ${DIRECTORY_DATA.totalCount} downloadable Blender add-ons, official extensions, 3D assets, HDRIs, and standalone tools.`;
+      ? `精选 ${DIRECTORY_DATA.totalCount} 个可下载的 Blender 插件、AI & MCP 工具、3D 资产、HDRI 与独立软件。`
+      : `A curated directory of ${DIRECTORY_DATA.totalCount} downloadable Blender add-ons, AI & MCP tools, 3D assets, HDRIs, and standalone software.`;
   let title =
     lang === "zh"
-      ? `${SITE_NAME} — ${DIRECTORY_DATA.totalCount} 个精选 Blender 插件、3D 资产与工具目录`
-      : `${SITE_NAME} — ${DIRECTORY_DATA.totalCount} Curated Blender Add-ons, 3D Assets & Tools`;
+      ? `${SITE_NAME} — ${DIRECTORY_DATA.totalCount} 个精选 Blender 插件、AI & MCP 与 3D 资产目录`
+      : `${SITE_NAME} — ${DIRECTORY_DATA.totalCount} Curated Blender Add-ons, AI & MCP & 3D Tools`;
   let description = subtitle;
 
   if (q) {
@@ -201,10 +201,17 @@ export function buildDirectorySeo(input: SeoFilterInput) {
     description = subtitle;
   } else if (sectionObj) {
     const secName = sectionObj.title[lang] || sectionObj.title.en;
-    heading =
-      lang === "zh" ? `Blender ${secName}` : `Blender ${secName}`;
-    subtitle =
-      lang === "zh"
+    const isAiSection = sectionObj.id === "ai-mcp";
+    heading = isAiSection
+      ? lang === "zh"
+        ? "Blender AI & MCP"
+        : "Blender AI & MCP"
+      : `Blender ${secName}`;
+    subtitle = isAiSection
+      ? lang === "zh"
+        ? `探索 ${count} 个精选 Blender AI、MCP 服务器、智能体、生成式 3D 与评测工具。`
+        : `Explore ${count} curated Blender AI, MCP server, agent, generative 3D, and benchmark tools.`
+      : lang === "zh"
         ? `探索 ${count} 个精选可下载的 Blender ${secName}。支持按协议、平台与价格筛选。`
         : `Explore ${count} curated downloadable Blender ${secName.toLowerCase()}. Filter by license, platform, and pricing.`;
     title =

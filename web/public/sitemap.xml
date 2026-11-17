@@ -73,14 +73,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=ai-mcp</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=ai-mcp" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=ai-mcp&amp;lang=zh" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=ai-mcp" />
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=lighting-camera-video</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=lighting-camera-video" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=lighting-camera-video&amp;lang=zh" />
@@ -101,6 +93,38 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=workflow-ui-utilities" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=workflow-ui-utilities&amp;lang=zh" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=workflow-ui-utilities" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=ai-mcp</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=ai-mcp" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=ai-mcp&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=ai-mcp" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=ai-mcp&amp;category=mcp-agents-skills</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=ai-mcp&amp;category=mcp-agents-skills" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=ai-mcp&amp;category=mcp-agents-skills&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=ai-mcp&amp;category=mcp-agents-skills" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=ai-mcp&amp;category=generative-3d-comfyui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=ai-mcp&amp;category=generative-3d-comfyui" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=ai-mcp&amp;category=generative-3d-comfyui&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=ai-mcp&amp;category=generative-3d-comfyui" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=ai-mcp&amp;category=synthetic-data-benchmarks</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=ai-mcp&amp;category=synthetic-data-benchmarks" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=ai-mcp&amp;category=synthetic-data-benchmarks&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=ai-mcp&amp;category=synthetic-data-benchmarks" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -29,7 +29,7 @@ README_ZH = ROOT_DIR / "README_ZH.md"
 OUTPUT_JSON = WEB_DIR / "src" / "data" / "catalog.json"
 OUTPUT_SITEMAP = WEB_DIR / "public" / "sitemap.xml"
 
-DIRECTORY_SECTION_IDS = {"add-ons", "resources", "standalone"}
+DIRECTORY_SECTION_IDS = {"add-ons", "ai-mcp", "resources", "standalone"}
 EXCLUDED_DIRECTORY_CATEGORIES = {
     "resources/art-reference",
     "resources/useful",

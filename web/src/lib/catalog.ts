@@ -12,10 +12,11 @@ import type {
 
 const rawCatalog = rawCatalogJson as unknown as CatalogData;
 
-export type DirectorySectionId = "add-ons" | "resources" | "standalone";
+export type DirectorySectionId = "add-ons" | "ai-mcp" | "resources" | "standalone";
 
 const ALLOWED_SECTIONS = new Set<string>([
   "add-ons",
+  "ai-mcp",
   "resources",
   "standalone",
 ]);

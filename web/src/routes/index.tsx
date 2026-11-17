@@ -58,6 +58,7 @@ export const Route = createFileRoute("/")({
   validateSearch: (search: Record<string, unknown>): DirectorySearchParams => {
     const section =
       search.section === "add-ons" ||
+      search.section === "ai-mcp" ||
       search.section === "resources" ||
       search.section === "standalone"
         ? search.section
@@ -377,7 +378,7 @@ function DirectoryPage() {
             </div>
 
             {/* Primary Section Tabs (Desktop) */}
-            <div className="hidden md:flex items-center">
+            <div className="hidden lg:flex items-center">
               <Tabs
                 value={activeSection}
                 onValueChange={(val) =>
@@ -515,7 +516,7 @@ function DirectoryPage() {
           </div>
 
           {/* Mobile Section Switcher */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <Tabs
               value={activeSection}
               onValueChange={(val) =>
@@ -526,12 +527,12 @@ function DirectoryPage() {
                 })
               }
             >
-              <TabsList className="w-full">
-                <TabsTrigger value="all">
+              <TabsList className="w-full max-w-full overflow-x-auto no-scrollbar justify-start sm:justify-center">
+                <TabsTrigger value="all" className="shrink-0">
                   {lang === "zh" ? "全部" : "All"}
                 </TabsTrigger>
                 {DIRECTORY_DATA.sections.map((sec) => (
-                  <TabsTrigger key={sec.id} value={sec.id}>
+                  <TabsTrigger key={sec.id} value={sec.id} className="shrink-0">
                     {sec.title[lang] || sec.title.en}
                   </TabsTrigger>
                 ))}
@@ -555,8 +556,8 @@ function DirectoryPage() {
                 }}
                 placeholder={
                   lang === "zh"
-                    ? "搜索插件、3D 资产、HDRI、独立工具或 GitHub 仓库..."
-                    : "Search add-ons, 3D assets, HDRIs, standalone tools, or GitHub repos..."
+                    ? "搜索插件、AI & MCP、3D 资产、独立工具或 GitHub 仓库..."
+                    : "Search add-ons, AI & MCP, 3D assets, standalone tools, or GitHub repos..."
                 }
                 className="pl-9 pr-14"
                 aria-label="Search directory"

@@ -1,24 +1,24 @@
 <a id="table"></a>
 
-[![Awesome Blender](https://randomrepoimg.fly.dev/agmmnn/awesome-blender/imgs "Awesome Blender, bg: @mantissa (randomrepoimg.fly.dev)")](#table)
+[![Awesome Blender](https://randomrepoimg.fly.dev/agmmnn/awesome-blender/imgs "Awesome Blender, bg: @mantissa (randomrepoimg.fly.dev)")](https://awesome-blender.vercel.app/)
 
 <div align="center">
     <p>
-        <a href="https://awesome-blender.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/awesome-blender-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=xs&amp;mode=dark"><img alt="Awesome Blender" src="https://www.shieldcn.dev/badge/awesome-blender-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=xs&amp;mode=light"></picture></a>
+        <a href="https://awesome-blender.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Web-Directory-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=xs&amp;mode=dark"><img alt="Web Directory" src="https://www.shieldcn.dev/badge/Web-Directory-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=xs&amp;mode=light"></picture></a>
+        <a href="https://www.blender.org/download/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Download-Blender.svg?logo=blender&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="Download Blender" src="https://www.shieldcn.dev/badge/Download-Blender.svg?logo=blender&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
         <a href="https://github.com/agmmnn/awesome-blender/stargazers"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/stars/agmmnn/awesome-blender.svg?variant=secondary&amp;size=xs&amp;mode=dark"><img alt="GitHub Stars" src="https://www.shieldcn.dev/github/stars/agmmnn/awesome-blender.svg?variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
+        <a href="https://discord.com/invite/blender"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/discord/online-members/blender.svg?variant=secondary&amp;size=xs&amp;mode=dark"><img alt="Blender Discord Online" src="https://www.shieldcn.dev/discord/online-members/blender.svg?variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
         <a href="#contributing"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/PRs-welcome.svg?logo=lu:GitPullRequest&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="PRs Welcome" src="https://www.shieldcn.dev/badge/PRs-welcome.svg?logo=lu:GitPullRequest&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
-        <a href="https://discord.com/invite/blender"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/discord/online-members/blender.svg?variant=branded&amp;size=xs&amp;mode=dark"><img alt="Blender Discord Online" src="https://www.shieldcn.dev/discord/online-members/blender.svg?variant=branded&amp;size=xs&amp;mode=light"></picture></a>
-        <a href="LICENSE"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/license/agmmnn/awesome-blender.svg?variant=ghost&amp;size=xs&amp;mode=dark"><img alt="License" src="https://www.shieldcn.dev/github/license/agmmnn/awesome-blender.svg?variant=ghost&amp;size=xs&amp;mode=light"></picture></a>
     </p>
-    <p>A curated list of awesome <b>Blender</b> add-ons, tools, tutorials, and resources for 3D Artists, Hobbyists, Developers, and Researchers — focused <i>mostly</i> on open-source and free resources.</p>
+    <p>A curated directory of <b>Blender</b> add-ons, AI &amp; MCP tools, 3D assets, tutorials, and resources — mostly open-source and free.</p>
     <p><b>English</b> &nbsp;·&nbsp; <a href="README_ZH.md">简体中文</a></p>
     <hr />
-    <p><a href="#-add-ons">🔮 Add-ons</a> &nbsp;·&nbsp; <a href="#-resources">🪐 Resources</a> &nbsp;·&nbsp; <a href="#-standalone">📥 Standalone</a> &nbsp;·&nbsp; <a href="#-explore-blender">🔍 Explore Blender</a> &nbsp;·&nbsp; <a href="#%E2%80%8D-tutorials">👩🏻‍🏫 Tutorials</a> &nbsp;·&nbsp; <a href="#%E2%80%8D-development">👩🏽‍💻 Development</a> &nbsp;·&nbsp; <a href="#-social">🖇 Social</a></p>
+    <p><a href="#-add-ons">🧩 Add-ons</a> &nbsp;·&nbsp; <a href="#-ai--mcp">🤖 AI & MCP</a> &nbsp;·&nbsp; <a href="#-resources">📦 Resources</a> &nbsp;·&nbsp; <a href="#%ef%b8%8f-standalone">🖥️ Standalone</a> &nbsp;·&nbsp; <a href="#-tutorials">🎓 Tutorials</a> &nbsp;·&nbsp; <a href="#-development">💻 Development</a> &nbsp;·&nbsp; <a href="#-social">🌐 Social</a></p>
 </div>
 
 <details><summary><b>📖 Browse Full Table of Contents</b></summary>
 <ul>
-    <li><a href="#-add-ons">🔮 Add-ons</a>
+    <li><a href="#-add-ons">🧩 Add-ons</a>
         <ul>
             <li><a href="#-simulationphysics">🌊 Simulation/Physics</a></li>
             <li><a href="#-generatorbuilder">🦑 Generator/Builder</a></li>
@@ -27,13 +27,19 @@
             <li><a href="#-render-engine">🗜 Render Engine</a></li>
             <li><a href="#%ef%b8%8f-textureuv">🗺️ Texture/UV</a></li>
             <li><a href="#-gamedev">🎮 GameDev</a></li>
-            <li><a href="#-aimcp">🤖 AI/MCP</a></li>
             <li><a href="#-lighting-camera--video">🎬 Lighting, Camera & Video</a></li>
             <li><a href="#-pipeline-io--3d-scanning">📦 Pipeline, I/O & 3D Scanning</a></li>
             <li><a href="#-workflow-ui--utilities">⚡ Workflow, UI & Utilities</a></li>
         </ul>
     </li>
-    <li><a href="#-resources">🪐 Resources</a>
+    <li><a href="#-ai--mcp">🤖 AI & MCP</a>
+        <ul>
+            <li><a href="#-mcp-agents--skills">🔌 MCP, Agents & Skills</a></li>
+            <li><a href="#-generative-3d--comfyui">🎨 Generative 3D & ComfyUI</a></li>
+            <li><a href="#-synthetic-data--benchmarks">🔬 Synthetic Data & Benchmarks</a></li>
+        </ul>
+    </li>
+    <li><a href="#-resources">📦 Resources</a>
         <ul>
             <li><a href="#-3d-models">🎠 3D Models</a></li>
             <li><a href="#%ef%b8%8f-mocapanimation">🤸🏾‍♀️ Mocap/Animation</a></li>
@@ -47,7 +53,7 @@
             <li><a href="#-useful">🌂 Useful</a></li>
         </ul>
     </li>
-    <li><a href="#-standalone">📥 Standalone</a>
+    <li><a href="#%ef%b8%8f-standalone">🖥️ Standalone</a>
         <ul>
             <li><a href="#3d-tools">3D Tools</a></li>
             <li><a href="#various-tools">Various Tools</a></li>
@@ -61,14 +67,7 @@
             <li><a href="#painting">Painting</a></li>
         </ul>
     </li>
-    <li><a href="#-explore-blender">🔍 Explore Blender</a>
-        <ul>
-            <li><a href="#documentation">Documentation</a></li>
-            <li><a href="#development">Development</a></li>
-            <li><a href="#community">Community</a></li>
-        </ul>
-    </li>
-    <li><a href="#%E2%80%8D-tutorials">👩🏻‍🏫 Tutorials</a>
+    <li><a href="#-tutorials">🎓 Tutorials</a>
         <ul>
             <li><a href="#-beginning">🍩 Beginning</a></li>
             <li><a href="#-modeling-1">🗿 Modeling</a></li>
@@ -84,7 +83,7 @@
             <li><a href="#-books">📚 Books</a></li>
         </ul>
     </li>
-    <li><a href="#%E2%80%8D-development">👩🏽‍💻 Development</a>
+    <li><a href="#-development">💻 Development</a>
         <ul>
             <li><a href="#scriptingdeveloping">Scripting/Developing</a></li>
             <li><a href="#blender-source">Blender Source</a></li>
@@ -93,14 +92,14 @@
             <li><a href="#related-awesome-lists">Related Awesome Lists</a></li>
         </ul>
     </li>
-    <li><a href="#-social">🖇 Social</a>
+    <li><a href="#-social">🌐 Social</a>
         <ul>
             <li><a href="#-explore-artworks">🔍 Explore Artworks</a></li>
-            <li><a href="#-x-accounts">𝕏 X Accounts</a></li>
+            <li><a href="#-communities">🌐 Communities</a></li>
+            <li><a href="#-accounts">𝕏 Accounts</a></li>
             <li><a href="#-youtube-channels">📢 Youtube Channels</a></li>
             <li><a href="#-blogs">💻 Blogs</a></li>
-            <li><a href="#-challenges">🎊 Challenges</a></li>
-            <li><a href="#-events">🎉 Events</a></li>
+            <li><a href="#-challenges--events">🏆 Challenges & Events</a></li>
         </ul>
     </li>
     <li><a href="#symbols">Symbols</a></li>
@@ -108,7 +107,7 @@
 </ul>
 </details>
 
-## 🔮 Add-ons
+## 🧩 Add-ons
 
 - Browse official and community-reviewed extensions on the **[Blender Extensions Platform](https://extensions.blender.org/)** (Blender 4.2+), or check the [built-in add-ons documentation](https://docs.blender.org/manual/en/latest/addons/index.html).
 
@@ -331,32 +330,6 @@
     - [Armory3D](https://armory3d.org/) : Open-source 3D game engine with full Blender integration. [![][repo]](https://github.com/armory3d/armory)
     - [UPBGE](https://upbge.org/) : Open-source 3D game engine forked from old Blender Game Engine, deployed with Blender itself. [![][repo]](https://github.com/UPBGE/upbge)
 
-### 🤖 AI/MCP
-
-- Agentic & MCP:
-    - [BlenderMCP](https://github.com/ahujasid/mcp-for-blender) : Connects Blender to Claude AI and other MCP clients through the Model Context Protocol for prompt-assisted 3D modeling, scene creation, and manipulation. ![][mit]
-    - [FastMCP for Blender](https://github.com/sandraschi/blender-mcp) : Headless Blender automation server via FastMCP with 41 tools covering mesh, VSE, Grease Pencil, and VRM workflows. ![][mit]
-    - [blender-kiln](https://github.com/elithril/blender-kiln) : A Claude Code plugin that drives Blender through an MCP server to build, texture, optimize, and export game-ready assets from a text brief or a photo. ![][mit]
-    - [Blender Agent Skills](https://github.com/EL4CTEO/blender-skills) : Professional Blender workflows packaged as Agent Skills for Claude Code, Cursor, Copilot, and Gemini CLI. ![][mit]
-    - [DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender) : Agent toolkit that lets AI coding agents build models in Blender with a `bpy` knowledge base, an execution contract, and a 3D-print production gate.
-    - [AnyScene](https://github.com/apekshik/anyscene) : Multi-agent pipeline that generates complete, photorealistic 3D Blender scenes from a text prompt, handling prop generation, room layout, atmosphere, and cinematic rendering. [[video demo]](https://x.com/apekshik/status/2116638903923073290) ![][mit]
-    - [Scenario for Blender](https://github.com/scenario-labs/blender-plugin) : AI image, video, 3D, and PBR material generation in the viewport, plus a local MCP server for agents. ![][gpl]
-    - [ComfyUI-Blender](https://github.com/alexisrolland/ComfyUI-Blender) : Blender add-on to run ComfyUI workflows directly inside Blender for AI texture, image, and 3D asset generation.
-    - [AI Art Engine](https://github.com/Justin-sky/ai-art-engine) : Node-based game asset studio with a built-in Blender TCP bridge and 24 dedicated MCP tools for 3D mesh modeling, armature rigging, PBR baking, and glTF/FBX export to Unity, Godot, and Cocos. ![][gpl]
-    - [Construct for Blender](https://github.com/rtmandreyev/construct/tree/main/hosts/blender) : Imports constructs written by AI agents (scene JSON, worlds or glTF) with their named parts, joints and assembly, with sidebar controls for build, opening, hologram to solid and finish, and keyframed reveals. [![][repo]](https://github.com/rtmandreyev/construct)
-- Generative 3D, Textures & Video:
-    - [Hunyuan3D-2](https://github.com/Tencent-Hunyuan/Hunyuan3D-2) : High-resolution open-source 3D asset creation system (Text/Image-to-3D geometry and PBR textures) with an official Blender add-on.
-    - [AssetFurnace](https://github.com/Bingeljell/image-to-3dlab) : Complete open-source image-to-3D pipeline generating textured, rigged, and animated game characters locally via TRELLIS.2 and Hunyuan3D.
-    - [Dream Textures](https://github.com/carson-katri/dream-textures) : Stable Diffusion built-in to the Blender shader editor, image editor, and compositor. ![][gpl]
-    - [AI Render](https://github.com/benrugg/AI-Render) : Stable Diffusion in Blender. This add-on renders an AI generated image based on a text prompt and your scene.
-    - [Pallaidium](https://github.com/tin2tin/Pallaidium) : Generative AI movie studio integrated into the Blender Video Sequence Editor (VSE) for text, image, audio, and video generation. ![][gpl]
-- Synthetic Data & Vision AI:
-    - [BlenderProc](https://github.com/DLR-RM/BlenderProc) : A procedural Blender pipeline for photorealistic training image generation. ![][gpl]
-    - [BlenderSynth](https://github.com/OllieBoyne/BlenderSynth) : Blender scripting for generating synthetic datasets at scale.
-    - [Kubric](https://github.com/google-research/kubric) : Data generation pipeline by Google Research for creating semi-realistic synthetic multi-object videos with rich ground-truth annotations using Blender and PyBullet.
-- Benchmarks & Prompts:
-    - [Blender AI Arena](https://blenderai.org/) : Community-driven benchmark, prompt sets, and blind Elo/Glicko-2 leaderboard comparing 3D generative AI models and agents in Blender.
-
 ### 🎬 Lighting, Camera & Video
 
 - Lighting & Environment:
@@ -459,7 +432,45 @@
 
 ---
 
-## 🪐 Resources
+## 🤖 AI & MCP
+
+### 🔌 MCP, Agents & Skills
+
+- [BlenderMCP](https://github.com/ahujasid/mcp-for-blender) : Connects Blender to Claude AI and other MCP clients through the Model Context Protocol for prompt-assisted 3D modeling, scene creation, and manipulation. ![][mit]
+- [FastMCP for Blender](https://github.com/sandraschi/blender-mcp) : Headless Blender automation server via FastMCP with 41 tools covering mesh, VSE, Grease Pencil, and VRM workflows. ![][mit]
+- [blender-kiln](https://github.com/elithril/blender-kiln) : A Claude Code plugin that drives Blender through an MCP server to build, texture, optimize, and export game-ready assets from a text brief or a photo. ![][mit]
+- [Blender Agent Skills](https://github.com/EL4CTEO/blender-skills) : Professional Blender workflows packaged as Agent Skills for Claude Code, Cursor, Copilot, and Gemini CLI. ![][mit]
+- [DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender) : Agent toolkit that lets AI coding agents build models in Blender with a `bpy` knowledge base, an execution contract, and a 3D-print production gate.
+- [AnyScene](https://github.com/apekshik/anyscene) : Multi-agent pipeline that generates complete, photorealistic 3D Blender scenes from a text prompt, handling prop generation, room layout, atmosphere, and cinematic rendering. [[video demo]](https://x.com/apekshik/status/2116638903923073290) ![][mit]
+- [AI Art Engine](https://github.com/Justin-sky/ai-art-engine) : Node-based game asset studio with a built-in Blender TCP bridge and 24 dedicated MCP tools for 3D mesh modeling, armature rigging, PBR baking, and glTF/FBX export to Unity, Godot, and Cocos. ![][gpl]
+- [Construct for Blender](https://github.com/rtmandreyev/construct/tree/main/hosts/blender) : Imports constructs written by AI agents (scene JSON, worlds or glTF) with their named parts, joints and assembly, with sidebar controls for build, opening, hologram to solid and finish, and keyframed reveals. [![][repo]](https://github.com/rtmandreyev/construct)
+- [Mixar](https://www.mixar.app/) : AI-powered 3D suite built as a custom fork of Blender with an integrated chat agent (Mixie), layer-based texture painting, and generative 3D tools. [![][repo]](https://github.com/Mixar-AI/mixar-app) ![][gpl]
+
+### 🎨 Generative 3D & ComfyUI
+
+- [ComfyUI-Blender](https://github.com/alexisrolland/ComfyUI-Blender) : Blender add-on to run ComfyUI workflows directly inside Blender for AI texture, image, and 3D asset generation.
+- [Scenario for Blender](https://github.com/scenario-labs/blender-plugin) : AI image, video, 3D, and PBR material generation in the viewport, plus a local MCP server for agents. ![][gpl]
+- [Hunyuan3D-2](https://github.com/Tencent-Hunyuan/Hunyuan3D-2) : High-resolution open-source 3D asset creation system (Text/Image-to-3D geometry and PBR textures) with an official Blender add-on.
+- [AssetFurnace](https://github.com/Bingeljell/image-to-3dlab) : Complete open-source image-to-3D pipeline generating textured, rigged, and animated game characters locally via TRELLIS.2 and Hunyuan3D.
+- [Dream Textures](https://github.com/carson-katri/dream-textures) : Stable Diffusion built-in to the Blender shader editor, image editor, and compositor. ![][gpl]
+- [AI Render](https://github.com/benrugg/AI-Render) : Stable Diffusion in Blender. This add-on renders an AI generated image based on a text prompt and your scene.
+- [Pallaidium](https://github.com/tin2tin/Pallaidium) : Generative AI movie studio integrated into the Blender Video Sequence Editor (VSE) for text, image, audio, and video generation. ![][gpl]
+
+### 🔬 Synthetic Data & Benchmarks
+
+- Synthetic Data & Vision AI:
+    - [BlenderProc](https://github.com/DLR-RM/BlenderProc) : A procedural Blender pipeline for photorealistic training image generation. ![][gpl]
+    - [BlenderSynth](https://github.com/OllieBoyne/BlenderSynth) : Blender scripting for generating synthetic datasets at scale.
+    - [Kubric](https://github.com/google-research/kubric) : Data generation pipeline by Google Research for creating semi-realistic synthetic multi-object videos with rich ground-truth annotations using Blender and PyBullet.
+- Benchmarks & Prompts:
+    - [Blender AI Arena](https://blenderai.org/) : Community-driven benchmark, prompt sets, and blind Elo/Glicko-2 leaderboard comparing 3D generative AI models and agents in Blender.
+    - [Awesome Astra Prompts](https://github.com/TripoGrowthLab/awesome-astra-prompts) : Curated 3D prompt collection and examples for generative AI models, games, and Blender scenes.
+
+<p align="right"><sub><a href="#table">↑ Back to top</a></sub></p>
+
+---
+
+## 📦 Resources
 
 ### 🎠 3D Models
 
@@ -482,7 +493,6 @@
     - [RenderHub/free](https://www.renderhub.com/free-3d-models) : Daz Content, 3D models, textures and materials.
     - [FlyingArchitecture](https://flyingarchitecture.com/) : Is both an architectural visualizations studio as well as an online store dedicated to 3D models, scenes, materials and tutorials.
     - [KitBash3d](https://kitbash3d.com/) [$] : Makes premium 3D assets for VFX, concept art and design. Their 3D model kits have immediately been adopted by the industry's top artists, studios. _Get [Mini Kit: Neo City](https://kitbash3d.com/collections/kits/products/mini-kit-neo-city)_ for free.
-    - [RockThe3D](http://www.rockthe3d.com/) : Blog site to provide and sharing the best 3D related knowledge and resources around.
 - Scanned Models:
     - [3D Digitization Smithsonian](https://3d.si.edu/explore) : CC0 Photoscan Library from Smithsonian. [(Collections)](https://3d.si.edu/collections) ![][zero]
     - [Three D Scans](https://threedscans.com/) : Free 3D scans in .stl without copyright restrictions. [![][cc]](https://threedscans.com/info/)
@@ -652,7 +662,7 @@
 <!-- Contributing Guidelines for Standalone:
 -->
 
-## 📥 Standalone
+## 🖥️ Standalone
 
 ### 3D Tools
 
@@ -668,7 +678,6 @@
     - [VRoid Studio](https://vroid.com/en/studio) : A 3D character maker that specializes in Japanese anime-like expressions.
     - [AccuRIG](https://actorcore.reallusion.com/auto-rig) : Free application designed for fast and easy character rigging.
     - [Cascadeur](https://cascadeur.com/) : Standalone software for creating keyframe animation of 3D characters, humanoid or otherwise. _Free for early adopters._
-    - [Sculptron](https://render.otoy.com/forum/viewtopic.php?f=7&t=73665) : GPU-based tool for sculpting animation caches and for converting mesh sequences to volumes. The software is currently available free during early development.
     - [Medium by Adobe](https://www.oculus.com/experiences/rift/3257686387611106/) : Medium is a dedicated VR sculpting and painting package for users of Oculus headsets, capable of exporting models to DCC applications in OBJ or FBX format.
 - Modeling, Architecture, Volumetrics & Scene Tools:
     - [Dust3D](https://dust3d.org/) : Cross-platform open-source modeling software. It helps you create a 3D watertight model in seconds.
@@ -705,7 +714,6 @@
     - [JWildfire](https://github.com/thargor6/JWildfire) : Open-source flame fractal generator and image processing software.
     - [Processing](https://processing.org/) : Flexible software sketchbook and a language for learning how to code within the context of the visual arts. [![][repo]](https://github.com/processing/processing)
 - Blender Tools & Custom Builds:
-    - [Mixar](https://www.mixar.app/) : AI-powered 3D suite built as a custom fork of Blender with an integrated chat agent (Mixie), layer-based texture painting, and generative 3D tools. [![][repo]](https://github.com/Mixar-AI/mixar-app) ![][gpl]
     - [Goo Engine](https://github.com/dillongoostudios/goo-engine) : Custom open-source build of Blender by DillonGoo Studios tailored for 3D anime and Non-Photorealistic Rendering (NPR). ![][gpl]
     - [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater) : Download and install nightly builds with one click.
     - [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : Command line version of BlenderUpdater.
@@ -787,36 +795,6 @@
 <!-- Contributing Guidelines for Explore Blender:
 -->
 
-## 🔍 Explore Blender
-
-<p>
-    <a href="https://www.blender.org/download/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Blender-Download-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=xs&amp;mode=dark"><img alt="Download Blender" src="https://www.shieldcn.dev/badge/Blender-Download-orange.svg?logo=blender&amp;theme=orange&amp;variant=default&amp;size=xs&amp;mode=light"></picture></a>
-    <a href="https://builder.blender.org/download/daily/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Daily-Builds.svg?logo=lu:FlaskConical&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="Daily Builds" src="https://www.shieldcn.dev/badge/Daily-Builds.svg?logo=lu:FlaskConical&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
-    <a href="https://extensions.blender.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Extensions-Platform.svg?logo=lu:Blocks&amp;variant=outline&amp;size=xs&amp;mode=dark"><img alt="Blender Extensions" src="https://www.shieldcn.dev/badge/Extensions-Platform.svg?logo=lu:Blocks&amp;variant=outline&amp;size=xs&amp;mode=light"></picture></a>
-    <a href="https://www.blender.org/download/releases/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Release-Notes.svg?logo=lu:FileText&amp;variant=outline&amp;size=xs&amp;mode=dark"><img alt="Release Notes" src="https://www.shieldcn.dev/badge/Release-Notes.svg?logo=lu:FileText&amp;variant=outline&amp;size=xs&amp;mode=light"></picture></a>
-</p>
-
-### [Documentation](https://docs.blender.org/)
-
-[📖 User Manual](https://docs.blender.org/manual/en/latest/) | [🔗 Python API](https://docs.blender.org/api/current/) | [⚙️ Developer Docs](https://developer.blender.org/docs/)
-
-### Development
-
-[🔌 Developer Portal](https://developer.blender.org/) | [💭 Developer Forum](https://forum.blender.org/) | [💻 Developers Blog](https://code.blender.org/)
-
-### Community
-
-- [👨‍🎨Blender Artists Community](https://blenderartists.org/) : Home of the Blender Community.
-- [📰BlenderNation](https://www.blendernation.com/) : Daily news, art and tutorials for Blender, the open source 3D content creation suite.
-- [💬blender.chat](https://blender.chat/) : Official chat server for artists and developers.
-- [🗨️discord/blender](https://discord.gg/blender) : Community-managed Discord server.
-- [fb/blender](https://fb.com/groups/2207257375/) : Blender Facebook group.
-- [blender.stackexchange.com](https://blender.stackexchange.com/) : Questions and answers.
-
-<p align="right"><sub><a href="#table">↑ Back to top</a></sub></p>
-
----
-
 <!-- Contributing Guidelines for Tutorials:
 - The added video must have information appropriate to the category.
 - Please do not add for advertising purposes.
@@ -826,12 +804,13 @@
     - Don't use symbols other than "-" and parentheses.
 -->
 
-## 👩🏻‍🏫 Tutorials
+## 🎓 Tutorials
 
 > _`▷` video, `☰` playlist, `☷` channel, `🧾` doc._
 
 ### 🍩 Beginning
 
+- 🧾[Blender User Manual.](https://docs.blender.org/manual/en/latest/)
 - ☰[Blender Fundamentals by Blender.](https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
 - ☰[Blender Basics by CG Cookie.](https://cgcookie.com/lesson/welcome-to-the-blender-basics)
 - ☰[🍩Blender 4.0 Beginner Donut Tutorial by Blender Guru.](https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z)
@@ -957,7 +936,7 @@
 <!-- Contributing Guidelines for Development:
 -->
 
-## 👩🏽‍💻 Development
+## 💻 Development
 
 ### Scripting/Developing
 
@@ -1014,7 +993,6 @@
 ### Related Awesome Lists
 
 - [3D Resources](https://github.com/devanshutak25/3d-resources) : Curated CC0 reference hub for 3D, VFX, and game development covering 3,400+ tools, assets, and tutorials.
-- [Awesome Astra Prompts](https://github.com/TripoGrowthLab/awesome-astra-prompts) : Curated 3D prompt collection and examples for generative AI models, games, and Blender scenes.
 - [awesome-3d-human](https://github.com/lijiaman/awesome-3d-human) : A curated list of papers & resources linked to 3D Human research including face, body, hand and motion modeling.
 - [awesome-3d-printing](https://github.com/ad-si/awesome-3d-printing) : A curated list of awesome 3D printing resources.
 - [3D-Machine-Learning](https://github.com/timzhang642/3D-Machine-Learning) : A resource repository for 3D machine learning.
@@ -1034,20 +1012,29 @@
 <!-- Contributing Guidelines for Social:
 -->
 
-## 🖇 Social
+## 🌐 Social
 
 ### 🔍 Explore Artworks
 
 <p>
     <a href="https://www.reddit.com/r/blender/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Reddit-r%2Fblender.svg?logo=reddit&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="r/blender" src="https://www.shieldcn.dev/badge/Reddit-r%2Fblender.svg?logo=reddit&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
-    <a href="https://www.instagram.com/explore/tags/b3d/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Instagram-%23b3d.svg?logo=instagram&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="Instagram #b3d" src="https://www.shieldcn.dev/badge/Instagram-%23b3d.svg?logo=instagram&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
-    <a href="https://x.com/hashtag/b3d"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/X-%23b3d.svg?logo=x&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="X #b3d" src="https://www.shieldcn.dev/badge/X-%23b3d.svg?logo=x&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
+    <a href="https://www.instagram.com/explore/tags/b3d/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Instagram%20%23b3d.svg?logo=instagram&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="Instagram #b3d" src="https://www.shieldcn.dev/badge/Instagram%20%23b3d.svg?logo=instagram&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
+    <a href="https://x.com/hashtag/b3d"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/%23b3d.svg?logo=x&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="X #b3d" src="https://www.shieldcn.dev/badge/%23b3d.svg?logo=x&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
     <a href="https://www.artstation.com/search?sort_by=relevance&query=blender"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/ArtStation-blender.svg?logo=artstation&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="ArtStation blender" src="https://www.shieldcn.dev/badge/ArtStation-blender.svg?logo=artstation&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
     <a href="https://www.behance.net/search?content=projects&user_tags=1012327"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Behance-blender.svg?logo=behance&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="Behance blender" src="https://www.shieldcn.dev/badge/Behance-blender.svg?logo=behance&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
     <a href="https://blenderartists.org/c/artwork/8"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Blender%20Artists-Artwork.svg?logo=blender&amp;variant=secondary&amp;size=xs&amp;mode=dark"><img alt="Blender Artists Artwork" src="https://www.shieldcn.dev/badge/Blender%20Artists-Artwork.svg?logo=blender&amp;variant=secondary&amp;size=xs&amp;mode=light"></picture></a>
 </p>
 
-### 𝕏 X Accounts
+### 🌐 Communities
+
+- [Blender Artists](https://blenderartists.org/) : Official home of the Blender community for artwork, WIPs, add-ons, and technical support.
+- [BlenderNation](https://www.blendernation.com/) : Daily Blender news, artwork showcases, add-on spotlights, and tutorials.
+- [Blender Chat](https://blender.chat/) : Official real-time chat server for Blender artists and developers.
+- [Blender Discord](https://discord.gg/blender) : Community-managed Discord server for help, feedback, and showcases.
+- [Blender Stack Exchange](https://blender.stackexchange.com/) : Q&A forum for Blender modeling, shading, rigging, and Python scripting.
+- [Blender Facebook Group](https://fb.com/groups/2207257375/) : Community Facebook group for sharing Blender renders and questions.
+
+### 𝕏 Accounts
 
 _Some accounts where you can find different kinds of content related to blender._
 
@@ -1136,31 +1123,28 @@ _Some accounts where you can find different kinds of content related to blender.
 
 ### 💻 Blogs
 
-- [The Blend](https://blend.beehiiv.com) : Weekly articles & lessons on Blender & 3D
-- [Blender Sushi](https://blendersushi.blogspot.com/) : Collection of 3D ideas, poetries and experiments blended in Blender 3D.
-- [Artisticrender](https://artisticrender.com/) : Tutorials, tips, resources about Blender and 3D.
-- [Creative Shrimp](https://www.creativeshrimp.com/) : High quality CG tutorials and Blender tutorials, digital art and lighting tutorials with Gleb and Aidy.
-- [Blender 3D Architect](https://www.blender3darchitect.com/) : Is the place to find news, tutorials, resources and training related to architectural visualization using Blender.
-- [BlenderAddons.org](https://blender-addons.org/) : Provides a list of free and paid Blender addons. Find the addon you need under categories or tags.
-- [Interplanety](https://b3d.interplanety.org/en/) : Blender tutorials, articles, tips, notes.
-- [Darkfall](https://darkfallblender.blogspot.com/) : Blender python tutorials, nodes.
-- [The CG Essentials](https://thecgessentials.com/) : 3D modeling, rendering, animation, particle simulation, and more, this is the place to be for Blender Tutorials.
+- [The Blend](https://blend.beehiiv.com) : Weekly newsletter covering Blender news, articles, and 3D lessons.
+- [Blender Sushi](https://blendersushi.blogspot.com/) : Archive of procedural 3D ideas, Geometry Nodes notes, and Blender experiments.
+- [Artisticrender](https://artisticrender.com/) : In-depth articles, tutorials, and practical guides on Blender workflows and rendering.
+- [Creative Shrimp](https://www.creativeshrimp.com/) : High-quality CG articles, digital art breakdowns, and lighting tutorials by Gleb Alexandrov and Aidy Burrows.
+- [Blender 3D Architect](https://www.blender3darchitect.com/) : News, tutorials, and training focused on architectural visualization in Blender.
+- [BlenderAddons.org](https://blender-addons.org/) : Curated blog and directory of free and paid Blender add-ons organized by category and tag.
+- [Interplanety](https://b3d.interplanety.org/en/) : Practical Blender tutorials, technical articles, and workflow notes.
+- [Darkfall](https://darkfallblender.blogspot.com/) : Articles and step-by-step guides on Blender Python scripting, VSE, and nodes.
+- [The CG Essentials](https://thecgessentials.com/) : Written tutorials and guides covering modeling, rendering, animation, and add-on reviews.
 
-### 🎊 Challenges
+### 🏆 Challenges & Events
 
-- [Nodevember](https://x.com/NodevemberIO) : The yearly event for everything procedural. Feel like doing a challenge? #nodevember is all about creating and promoting procedural awesomeness! A whole month to improve and show off your procedural skills.
-    - See works: [tw/#nodevember](https://x.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?sort_by=relevance&query=nodevember)
-- [SculptJanuary](https://community.cgboost.com/c/challenge/) : Challenge yourself over 31 days with a set of 31 topics. Sculpt every day and improve your sculpting skills.
-    - See works: [tw/#sculptjanuary](https://x.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary)
-- [36 Days of Type](https://www.36daysoftype.com/) : Yearly open call inviting designers, illustrators and visual artists to share their view on the letters and numbers from our alphabet.
-    - See works: [tw/#36daysoftype](https://x.com/hashtag/36daysoftype), [ig/#36daysoftype](https://www.instagram.com/explore/tags/36daysoftype/), [artstation/36daysoftype](https://www.artstation.com/search?sort_by=relevance&query=6daysoftype)
+- [Nodevember](https://x.com/NodevemberIO) : Annual month-long November challenge dedicated to creating and sharing procedural 3D art and node setups.
+    - See works: [x/#nodevember](https://x.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?sort_by=relevance&query=nodevember)
+- [SculptJanuary](https://community.cgboost.com/c/challenge/) : Annual 31-day January sculpting challenge with daily prompts to build speed and anatomy skills.
+    - See works: [x/#sculptjanuary](https://x.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary)
+- [36 Days of Type](https://www.36daysoftype.com/) : Annual open design call inviting artists and 3D creators to interpret letters and numbers across 36 days.
+    - See works: [x/#36daysoftype](https://x.com/hashtag/36daysoftype), [ig/#36daysoftype](https://www.instagram.com/explore/tags/36daysoftype/), [artstation/36daysoftype](https://www.artstation.com/search?sort_by=relevance&query=36daysoftype)
 - Competitions: [/r/blender: contest](https://www.reddit.com/r/blender/), [blenderartists.org/contest](https://blenderartists.org/c/contests/7).
-- [Render Challenge](https://renderchallenge.com/) : The most up-to-date database of 3D art challenges on the Internet! Get notified of new render challenges every Friday.
-- [pwnisher](https://www.youtube.com/c/pwnisher/videos) : Clinton Jones' Youtube channel regularly organizes 3D Challanges.
-
-### 🎉 Events
-
-- [Blender Conference](https://conference.blender.org/) : The yearly Blender Conference in Amsterdam. (Playlists: [Bcon26](https://www.youtube.com/playlist?list=PLa1F2ddGya_-I9y1nXALrBqrZNdlUE012), [Bcon25](https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd), [Bcon24](https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x), [Bcon23](https://www.youtube.com/playlist?list=PLa1F2ddGya_84ye1JAvIGh0Yp7utEKZI_), [Bcon22](https://www.youtube.com/playlist?list=PLa1F2ddGya__2Ip2UB-xp6M54cQVvw1W-), [Bcon20](https://www.youtube.com/watch?v=uEjmbsiflMU), [Bcon19](https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S), [Bcon18](https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B), [Bcon17](https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO)).
+- [Render Challenge](https://renderchallenge.com/) : Up-to-date aggregator of 3D art competitions and render challenges updated weekly.
+- [pwnisher](https://www.youtube.com/c/pwnisher/videos) : Clinton Jones' YouTube channel hosting large-scale community 3D render challenges.
+- [Blender Conference](https://conference.blender.org/) : Annual Blender Conference in Amsterdam. (Playlists: [Bcon26](https://www.youtube.com/playlist?list=PLa1F2ddGya_-I9y1nXALrBqrZNdlUE012), [Bcon25](https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd), [Bcon24](https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x), [Bcon23](https://www.youtube.com/playlist?list=PLa1F2ddGya_84ye1JAvIGh0Yp7utEKZI_), [Bcon22](https://www.youtube.com/playlist?list=PLa1F2ddGya__2Ip2UB-xp6M54cQVvw1W-), [Bcon20](https://www.youtube.com/watch?v=uEjmbsiflMU), [Bcon19](https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S), [Bcon18](https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B), [Bcon17](https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO)).
 
 <p align="right"><sub><a href="#table">↑ Back to top</a></sub></p>
 
