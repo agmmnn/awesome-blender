@@ -202,6 +202,7 @@
 - 3D Printing & Manufacturing/CAM:
     - [3D Print Toolbox](https://extensions.blender.org/add-ons/print3d-toolbox/) : Must-have utilities to clean and prepare models for 3D printing in Blender. ![][gpl]
     - [Snapsplit](https://extensions.blender.org/add-ons/snapsplit/) : Automates cut and connection building workflows for complex 3D models larger than your printing bed, generating precise glue-free snap-fit connectors. [![][repo]](https://github.com/Betakontext/snapsplit)
+    - [Click Joints](https://extensions.blender.org/add-ons/click-joints/) : Cuts printable ball-and-socket or pin joints into a mesh with clearance in mm and shows how far each ball joint bends before the parts collide. [![][repo]](https://github.com/thijsduinhouwer2002-coder/click-joints) ![][gpl]
     - [BlenderCAM](https://blendercam.com) : An Open Source solution for CAM with Blender 3D. [![][repo]](https://github.com/vilemduha/blendercam) ![][gpl]
 - Retopology/Remesh:
     - [RetopoFlow](https://github.com/CGCookie/retopoflow) : A suite of retopology tools for Blender. [![market]](https://superhivemarket.com/products/retopoflow)
