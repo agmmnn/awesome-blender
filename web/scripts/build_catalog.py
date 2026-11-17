@@ -32,8 +32,7 @@ OUTPUT_SITEMAP = WEB_DIR / "public" / "sitemap.xml"
 DIRECTORY_SECTION_IDS = {"add-ons", "ai-mcp", "resources", "standalone"}
 EXCLUDED_DIRECTORY_CATEGORIES = {
     "resources/art-reference",
-    "resources/useful",
-    "resources/free-stocks",
+    "resources/related-awesome-lists",
 }
 
 MEDIA_SYMBOLS = {

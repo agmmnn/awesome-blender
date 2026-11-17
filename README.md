@@ -13,7 +13,7 @@
     <p>A curated directory of <b>Blender</b> add-ons, AI &amp; MCP tools, 3D assets, tutorials, and resources — mostly open-source and free.</p>
     <p><b>English</b> &nbsp;·&nbsp; <a href="README_ZH.md">简体中文</a></p>
     <hr />
-    <p><a href="#-add-ons">🧩 Add-ons</a> &nbsp;·&nbsp; <a href="#-ai--mcp">🤖 AI & MCP</a> &nbsp;·&nbsp; <a href="#-resources">📦 Resources</a> &nbsp;·&nbsp; <a href="#%ef%b8%8f-standalone">🖥️ Standalone</a> &nbsp;·&nbsp; <a href="#-tutorials">🎓 Tutorials</a> &nbsp;·&nbsp; <a href="#-development">💻 Development</a> &nbsp;·&nbsp; <a href="#-social">🌐 Social</a></p>
+    <p><a href="#-add-ons">🧩 Add-ons</a> &nbsp;·&nbsp; <a href="#-ai--mcp">🤖 AI & MCP</a> &nbsp;·&nbsp; <a href="#-resources">📦 Resources</a> &nbsp;·&nbsp; <a href="#%ef%b8%8f-standalone">🖥️ Standalone</a> &nbsp;·&nbsp; <a href="#-tutorials">🎓 Tutorials</a> &nbsp;·&nbsp; <a href="#-social">🌐 Social</a></p>
 </div>
 
 <details><summary><b>📖 Browse Full Table of Contents</b></summary>
@@ -49,8 +49,7 @@
             <li><a href="#%ef%b8%8f-artreference">🖼️ Art/Reference</a></li>
             <li><a href="#-space">🛰 Space</a></li>
             <li><a href="#-soundmusic">🎧 Sound/Music</a></li>
-            <li><a href="#-free-stocks">🏞 Free Stocks</a></li>
-            <li><a href="#-useful">🌂 Useful</a></li>
+            <li><a href="#-related-awesome-lists">🔗 Related Awesome Lists</a></li>
         </ul>
     </li>
     <li><a href="#%ef%b8%8f-standalone">🖥️ Standalone</a>
@@ -78,18 +77,8 @@
             <li><a href="#-texture-painting">🔳 Texture Painting</a></li>
             <li><a href="#-compositing">📐 Compositing</a></li>
             <li><a href="#-motion-trackingcapture">🤺 Motion Tracking/Capture</a></li>
-            <li><a href="#premium-tutorials">Premium Tutorials</a></li>
-            <li><a href="#fundamentals">Fundamentals</a></li>
-            <li><a href="#-books">📚 Books</a></li>
-        </ul>
-    </li>
-    <li><a href="#-development">💻 Development</a>
-        <ul>
-            <li><a href="#scriptingdeveloping">Scripting/Developing</a></li>
-            <li><a href="#blender-source">Blender Source</a></li>
-            <li><a href="#learn-python">Learn Python</a></li>
-            <li><a href="#learn-computer-graphics">Learn Computer Graphics</a></li>
-            <li><a href="#related-awesome-lists">Related Awesome Lists</a></li>
+            <li><a href="#-fundamentals--cg">🧠 Fundamentals & CG</a></li>
+            <li><a href="#-scripting--extensions">💻 Scripting & Extensions</a></li>
         </ul>
     </li>
     <li><a href="#-social">🌐 Social</a>
@@ -97,7 +86,7 @@
             <li><a href="#-explore-artworks">🔍 Explore Artworks</a></li>
             <li><a href="#-communities">🌐 Communities</a></li>
             <li><a href="#-accounts">𝕏 Accounts</a></li>
-            <li><a href="#-youtube-channels">📢 Youtube Channels</a></li>
+            <li><a href="#-youtube-channels">📢 YouTube Channels</a></li>
             <li><a href="#-blogs">💻 Blogs</a></li>
             <li><a href="#-challenges--events">🏆 Challenges & Events</a></li>
         </ul>
@@ -537,6 +526,7 @@
     - [3DTexel](https://3dtexel.com/pbr-material/) : 1,000+ handmade seamless PBR materials in 4K (some up to 8K), including stylized/hand-painted ones. Free account required. [![][zero]](https://3dtexel.com/asset-license/)
     - [Texture Box](https://texturebox.com/) : We are making free textures for 3D Artists from all over the world. Also, we offer custome texture services.
     - [C4DCenter](https://c4dcenter.com/material-library/) : Free C4D Materials created with High Quality Texture Maps for instant download and no limits, Free for Personal and Commercial Use.
+    - [MatCaps](https://github.com/nidorx/matcaps) : Huge library of matcap PNG textures organized by color.
 - Freemium, Commercial & Specialized Libraries:
     - [Textures.com](https://www.textures.com/) [$] : Website that offers digital pictures of all sorts of materials. Sign up for free and download 15 free images every day!
     - [LotPixel](https://www.lotpixel.com/texture-library?credit=free) : Free scan-based textures of interior and exterior materials at up to 8K resolution. For commercial use.
@@ -637,23 +627,16 @@
     - [Unminus](https://www.unminus.com/) : Curated Royalty Free Music. Let's create Unsplash for Music together.
     - [Netlabels](https://archive.org/details/netlabels) : This collection hosts complete, freely downloadable/streamable, often Creative Commons-licensed catalogs of virtual record labels.
 
-### 🏞 Free Stocks
+### 🔗 Related Awesome Lists
 
-- Image/Vector : [unsplash](https://unsplash.com/), [pexels](https://www.pexels.com/), [pixabay](https://pixabay.com/), [stocksnap](https://stocksnap.io/), [rawpixel](https://www.rawpixel.com/), [burst](https://www.shopify.com/stock-photos).
-- Video/VFX/Footage : [videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos), [actionvfx](https://www.actionvfx.com/blog/3-free-vfx-stock-collections-portals-bullet-tracers-camera-shake-presets), [productioncrate/free](https://vfx.productioncrate.com/search/#!/free).
-- Cutouts : [MrCutout](https://www.mrcutout.com/), [nonscandinavia](https://www.nonscandinavia.com/), [vishopper/free](https://www.vishopper.com/cut-out-people/search/free).
-- Visual Loops : [Mantissa](https://mantissa.xyz/vj.html), [BEEPLE](https://beeple-crap.com/vjloops), [Vimeo/Catmac](https://vimeo.com/user2777466).
-- Fonts : [fonts.google](https://fonts.google.com/), [theleagueofmoveabletype](https://www.theleagueofmoveabletype.com/), [beautifulwebtype](https://www.beautifulwebtype.com/).
-
-### 🌂 Useful
-
-- [Sheep it Render Farm](https://www.sheepit-renderfarm.com/) : Free distributed renderfarm for Blender.
-- [Blender-Colab](https://github.com/ynshung/blender-colab) : Render on **_Google Colab_**, this is a Python script that allows you to render Blender scene using Google Colaboratory. Only Cycles.
-- Daily Blender Tips : [blender.daily](https://www.instagram.com/blender.daily/), [Blender Secrets](https://www.instagram.com/blendersecretsdotorg/).
-- [IOR List](https://pixelandpoly.com/ior.html) : Index of Refraction values list for use with 3D applications.
-- [MatCaps](https://github.com/nidorx/matcaps) : Huge library of matcap PNG textures organized by color.
-- [UE Sponsored Content](https://www.unrealengine.com/en-US/uesponsoredcontent) : Every month Epic Games gives away several assets from the Unreal Engine marketplace for free.
-- [Blender & ACES](https://www.toodee.de/panicpost/learning-to-use-aces/1-blender/4a-how-to-setup-blender-2-8-to-work-with-aces-1-1-using-opencolorio/) : Setup Blender to work with ACES using OpenColorIO.
+- [3D Resources](https://github.com/devanshutak25/3d-resources) : Curated CC0 reference hub for 3D, VFX, and game development covering 3,400+ tools, assets, and tutorials.
+- [awesome-3d-printing](https://github.com/ad-si/awesome-3d-printing) : Curated list of 3D printing tools, slicers, hardware, and resources.
+- [3D-Machine-Learning](https://github.com/timzhang642/3D-Machine-Learning) : Resource repository for 3D machine learning and neural 3D reconstruction.
+- [Photogrammetry Guide](https://github.com/mikeroyal/Photogrammetry-Guide) : Guide covering photogrammetry applications, libraries, and 3D capture workflows.
+- [Awesome Gamedev](https://github.com/Calinou/awesome-gamedev) : Curated list of game development tools, engines, and resources.
+- [GameDev Resources](https://github.com/Kavex/GameDev-Resources) : Curated collection of game development assets, engines, and learning links.
+- [Awesome Stock Resources](https://github.com/neutraltone/awesome-stock-resources) : Collection of free stock photography, video, audio, and illustration sites.
+- [Usage in Science, Academia, and Industry](https://github.com/ichlubna/blenderSurvey) : Curated survey of Blender usage in science, academia, and industry.
 
 <p align="right"><sub><a href="#table">↑ Back to top</a></sub></p>
 
@@ -719,6 +702,7 @@
     - [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : Command line version of BlenderUpdater.
     - [Blender Launcher V2](https://github.com/Victor-IX/Blender-Launcher-V2) : Standalone client for managing official builds of Blender.
     - [Blender Manager](https://github.com/verlorengest/BlenderManager) : Auto-Update, Project Management and Time Tracking, Addon Control, Version Handling, Render Management, and More.
+    - [Sheep it Render Farm](https://www.sheepit-renderfarm.com/) : Free distributed render farm for Blender.
 
 ### Photogrammetry
 
@@ -811,199 +795,121 @@
 ### 🍩 Beginning
 
 - 🧾[Blender User Manual.](https://docs.blender.org/manual/en/latest/)
-- ☰[Blender Fundamentals by Blender.](https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
-- ☰[Blender Basics by CG Cookie.](https://cgcookie.com/lesson/welcome-to-the-blender-basics)
-- ☰[🍩Blender 4.0 Beginner Donut Tutorial by Blender Guru.](https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z)
-- 🧾[Blender Fundamentals by Dev Null Productions](https://docs.google.com/document/d/1oWYIJWIGyjYJeQ9ZXnwKgS2uFzZ6K8jfILafHJdvg7M)
-- ☰[🍦Blender Complete Beginner Tutorial Course by CG Geek.](https://www.youtube.com/playlist?list=PLrjIgEdKLivgpCMmFC0_sV60Y_Ftp-WLD)
-- ☰[🍏Blender Beginner Tutorial Series by CG Boost.](https://www.youtube.com/playlist?list=PL3UWN2F2M2C8-zUjbFlbgtWPQa0NXBsp0)
-- ☰[⚔️3D Modeling a Sword for Complete Beginners by YanSculpts.](https://www.youtube.com/playlist?list=PLvPwLecDlWRD_VK_2INC1VQ18dZdpDwLi)
-- ☰🪑[Beginner Modelling Chair Tutorial by Blender Guru.](https://www.youtube.com/playlist?list=PLjEaoINr3zgEL9UjPTLWQhLFAK7wVaRMR)
+- ☰[Blender Donut Tutorial (2025) by Blender Guru.](https://www.youtube.com/playlist?list=PLjEaoINr3zgGUwGwXlj9kBe7TrVWNjkyv)
+- ☰[Learn Blender 5 by Grant Abbitt.](https://www.youtube.com/playlist?list=PLn3ukorJv4vv9_e-htADGsPX9TMaQpHV8)
+- ☰[Blender Concepts Explained (CORE 5.2 LTS) by CG Cookie.](https://www.youtube.com/playlist?list=PLNhTACKHnPh0)
+- ▷[The Right Way to Learn Blender in 2026 by Grant Abbitt.](https://www.youtube.com/watch?v=R1NuvJlzZuY)
+- ▷[5 Blender Mistakes I'd Never Make If I Started in 2026 by BlenderVitals.](https://www.youtube.com/watch?v=xkQG1ij2XRM)
+- 🧾[Blender Fundamentals by Dev Null Productions.](https://docs.google.com/document/d/1oWYIJWIGyjYJeQ9ZXnwKgS2uFzZ6K8jfILafHJdvg7M)
 
 ### 🗿 Modeling
 
 - 🧾[Modeling Manual.](https://docs.blender.org/manual/en/latest/modeling/index.html)
-- ▷[Blender Beginner 3D Modeling Tutorial.](https://www.youtube.com/watch?v=elUJCEC06r8)
-- ☰[Beginner Exercises - Low Poly Asset Modeling by Grant Abbitt.](https://www.youtube.com/playlist?list=PLn3ukorJv4vvv3ZpWJYvV5Tmvo7ISO-NN)
-- ▷[Recording Studio in Blender- 3D Isometric Modeling Process.](https://www.youtube.com/watch?v=QkCrhycrJi8)
-- ▷[All 50+ Modifiers in Blender Explained in 30 Minutes.](https://www.youtube.com/watch?v=8BQYAwDW6IE)
+- ☰[Blender Mesh Modeling Fundamentals by CG Cookie.](https://www.youtube.com/playlist?list=PL3GeP3YLZn5hcjK8AtK-oyqd0nYYb5ZDX)
+- ☰[Get Good @ Blender - Modeling Exercises by Grant Abbitt.](https://www.youtube.com/playlist?list=PLn3ukorJv4vvv3ZpWJYvV5Tmvo7ISO-NN)
+- ▷[All 50+ Modifiers in Blender Explained in 30 Minutes by Daniel Krafft.](https://www.youtube.com/watch?v=8BQYAwDW6IE)
 - Sculpting:
     - ☷[YanSculpts' Channel](https://www.youtube.com/channel/UCfjswDVU0XHyBN7UFG0Mi5Q/videos)
     - ☷[Julien Kaspar's Channel](https://www.youtube.com/@JulienKaspart/videos)
-    - ▷[Introduction to Sculpting in Blender - Sculpting Essentials.](https://www.youtube.com/watch?v=A-Wq8K8icpQ)
-    - ▷[The Speed Sculpting Guide - Learn from Limitation.](https://www.youtube.com/watch?v=qnYA9kbPeLs)
-    - ▷[Sculpting in Blender - Beginners Detailed Guide - Every Brush.](https://www.youtube.com/watch?v=L3XtAFUWNuk)
+    - ▷[Introduction to Sculpting in Blender - Sculpting Essentials by FlippedNormals.](https://www.youtube.com/watch?v=A-Wq8K8icpQ)
+    - ▷[The Speed Sculpting Guide - Learn from Limitation by Blender.](https://www.youtube.com/watch?v=qnYA9kbPeLs)
+    - ▷[Sculpting in Blender - Beginners Detailed Guide - Every Brush by Grant Abbitt.](https://www.youtube.com/watch?v=L3XtAFUWNuk)
 - Character Modeling:
     - ▷[Stylized Character Workflow with Blender.](https://www.youtube.com/watch?v=f-mx-Jfx9lA)
-    - ▷[Modeling a character BaseMesh in Blender.](https://www.youtube.com/watch?v=WlaMfIgS2ns)
+    - ▷[Modeling a Character BaseMesh in Blender.](https://www.youtube.com/watch?v=WlaMfIgS2ns)
 - Hard Surface:
     - ☰[Hard-surface Modeling in Blender by Gleb Alexandrov.](https://www.youtube.com/playlist?list=PL2aDImegRwZHQsA5_N4DpaOQmUXaIsBdN)
-    - ▷[Blender Hardsurface Sculpting Tips.](https://www.youtube.com/watch?v=qbC2iX4SATc)
 
 ### 🌌 Geometry Nodes
 
 - 🧾[Geometry Nodes Manual.](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html)
 - 🧾[Simulation Nodes Manual](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/simulation/index.html) & [Hair Nodes Manual](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/hair/index.html).
-- ☰[Geometry Nodes & Simulation Playlists by Erindale](https://www.youtube.com/@Erindale/playlists).
-- ☰[Geometry Nodes by Chris Prenninger](https://www.youtube.com/playlist?list=PLpJWHl1fB7BG5YiW1sV9smJLdzlxKLCw1).
-- ☰[Geometry Nodes by Blue Fox](https://www.youtube.com/playlist?list=PLlCNkx8wTCmeK6lCeIytjLJsse6xJwZg1).
-- ☰[Geometry Nodes Basics for Beginners by Bradley Animation](https://www.youtube.com/playlist?list=PLhQ290f8z8FMzVZAZGyL8CnwOnitw2VdG).
-- ☷[Geometry Nodes & Technical Breakdowns by Johnny Matthews](https://www.youtube.com/@JohnnyMatthews).
-- ▷[Intro to Simulation Nodes by Erindale](https://www.youtube.com/watch?v=gMOgB7Ds3ZI).
-- ▷[Blender Simulation Nodes Beginner Tutorial by Bad Normals](https://www.youtube.com/watch?v=HMpKmzTGwiE).
-- 🧾[Geometry Nodes Design Patterns by Dev Null Productions](https://docs.google.com/document/d/10c84Mg8OojWg2O7LiruQ_Cgb4kpMxSL4XRTPuQQPuDI).
+- ☰[Geometry Nodes & Simulation Playlists by Erindale.](https://www.youtube.com/@Erindale/playlists)
+- ▷[Geometry Nodes for Beginners (Complete Course) by Ryan King Art.](https://www.youtube.com/watch?v=188IeRY-ch0)
+- ▷[The ONLY Geometry Nodes Tutorial You'll Ever Need! by SharpWind.](https://www.youtube.com/watch?v=aTeLyeVO0Dc)
+- ▷[Poppin' Heads with Geometry Nodes (Blender 5.2) by Joey Carlino.](https://www.youtube.com/watch?v=ARKadD7yZWA)
+- ▷[Rigging With Nodes Changes Everything! (BCon 2025) by Blender.](https://www.youtube.com/watch?v=XS8gW_pBiBs)
+- ☷[Geometry Nodes & Technical Breakdowns by Johnny Matthews.](https://www.youtube.com/@JohnnyMatthews)
+- ▷[Intro to Simulation Nodes by Erindale.](https://www.youtube.com/watch?v=gMOgB7Ds3ZI)
+- ▷[Blender Simulation Nodes Beginner Tutorial by Bad Normals.](https://www.youtube.com/watch?v=HMpKmzTGwiE)
+- 🧾[Geometry Nodes Design Patterns by Dev Null Productions.](https://docs.google.com/document/d/10c84Mg8OojWg2O7LiruQ_Cgb4kpMxSL4XRTPuQQPuDI)
 
 ### 🔘 Shader Nodes
 
-- 🧾[Blender Material/Shader Design Patterns by Dev Null Productions](https://docs.google.com/document/d/1hSVjUuQOEvJCHDx8JDGbgf_4Buv7kzVuT6wKdEY7U_g)
 - 🧾[Shader Nodes List.](https://docs.blender.org/manual/en/latest/render/shader_nodes/index.html)
-- ▷[Shading Editor Basics by Blender.](https://www.youtube.com/watch?v=0zrd37k2tJM)
-- ▷[Blender - Everything About The Principled BSDF (In 3 Minutes).](https://www.youtube.com/watch?v=_IjSYLt9k2A)
-- ▷[Advanced Materials in Blender - Shader Editor Tutorial.](https://www.youtube.com/watch?v=iVjnS5Z77Ww)
+- 🧾[Blender Material/Shader Design Patterns by Dev Null Productions.](https://docs.google.com/document/d/1hSVjUuQOEvJCHDx8JDGbgf_4Buv7kzVuT6wKdEY7U_g)
+- ▷[Every Shader Node You NEED to Know in Blender by SouthernShotty.](https://www.youtube.com/watch?v=3-_zyiBk0JI)
+- ▷[How to Create PRO Materials in Blender by Kaizen.](https://www.youtube.com/watch?v=RfPro3hlOMg)
+- ☰[Real Time Motion Graphics (EEVEE & Shading) by Midge Sinnaeve.](https://www.youtube.com/playlist?list=PLw1DJ9P2rih_F1L6auhDbSkrBqHk1rn8V)
 - ☰[Blender Procedural Nodes Playlist by Default Cube.](https://www.youtube.com/playlist?list=PLFaEpHfMsQ2uvtFjBDGwFlTm_QrnOzslc)
 - ☰[Node School Playlist by Grant Abbitt.](https://www.youtube.com/playlist?list=PLn3ukorJv4vsmEcCMDX-dpBceuv_GJFcB)
-- ☰[Blender Principled BSDF (Speed Tutorials) by Royal Skies LLC.](https://www.youtube.com/playlist?list=PLZpDYt0cyiut8p1fyrNbzQRNkfKHtUy5e)
-- ☰[Blender Procedural Texturing (Speed Tutorials) by Royal Skies LLC.](https://www.youtube.com/playlist?list=PLZpDYt0cyiuv18KFBVniU2Yi-eI0Jrwo1)
-- ▷[All 80+ Blender material nodes explained in under 30 minutes.](https://www.youtube.com/watch?v=cQ0qtcSymDI)
+- ▷[All 80+ Blender Material Nodes Explained in Under 30 Minutes by Daniel Krafft.](https://www.youtube.com/watch?v=cQ0qtcSymDI)
 
 ### 🌠 Animation
 
-- 🧾[Animation & Rigging Manual.](https://docs.blender.org/manual/en/latest/physics/index.html)
+- 🧾[Animation & Rigging Manual.](https://docs.blender.org/manual/en/latest/animation/index.html)
 - 🧾[Grease Pencil Manual.](https://docs.blender.org/manual/en/latest/grease_pencil/index.html)
-- ▷[Blender Animate Running In 2 Minutes!](https://www.youtube.com/watch?v=qxoo_bcUZos)
-- ▷[Rig any Character for Animation in 10 Minutes!](https://www.youtube.com/watch?v=SBYb1YmaOMY)
-- ▷[Blender Character Animation: Shape Keys.](https://www.youtube.com/watch?v=YDu6y_2jFg0)
-- ▷[Create Loop Animations.](https://www.youtube.com/watch?v=Uq4OLSRgSQE)
-- ☰[Blender Animation (Speed Tutorials) by Royal Skies LLC.](https://www.youtube.com/playlist?list=PLZpDYt0cyiuu7XqpZ8_rXJG9x26JK7UCr)
-- ☰[Blender Rigging (Speed Tutorials) by Royal Skies LLC.](https://www.youtube.com/playlist?list=PLZpDYt0cyiuuc3QpFeHxGqNpVf5couDeI)
-- ▷[Quick Smooth Camera Movements.](https://www.youtube.com/watch?v=a7qyW1G350g)
+- ☰[Rigging isn't Scary (Complete Series) by CGDive.](https://www.youtube.com/playlist?list=PLdcL5aF8ZcJtHIzFLsCwF8pGdUbVHBOHa)
+- ▷[Blender 5.0: NEW Rigging and Animation Features by CGDive.](https://www.youtube.com/watch?v=s3kcPME65ic)
+- ▷[Blender 5.2: NEW Rigging and Animation Features by CGDive.](https://www.youtube.com/watch?v=cERh1l2RtfU)
+- ☰[Grease Pencil Beginners Guide (Blender 4.4+) by Grant Abbitt.](https://www.youtube.com/playlist?list=PLn3ukorJv4vvY5gjkFxhfAH0zSRQ32jUE)
+- ▷[2D Blender Grease Pencil Basics: Start Animating in 10 Minutes by Micah Buzan.](https://www.youtube.com/watch?v=ZkqZRe9IXQ8)
+- ▷[Blender Character Animation: Shape Keys by SouthernShotty.](https://www.youtube.com/watch?v=YDu6y_2jFg0)
+- ▷[Quick Smooth Camera Movements by Polyfjord.](https://www.youtube.com/watch?v=a7qyW1G350g)
 
 ### 🔲 UV Mapping
 
 - 🧾[UV Editor Manual.](https://docs.blender.org/manual/en/latest/editors/uv/index.html)
-- ▷[UV Unwrapping - Blender Fundamentals.](https://www.youtube.com/watch?v=Y7M-B6xnaEM)
-- ☰[Blender UV Mapping (Speed Tutorials) by Royal Skies LLC.](https://www.youtube.com/playlist?list=PLZpDYt0cyiuuwWbyUAWSllrhtZ9KfU3B_)
+- ▷[Blender 5 - UV Unwrapping Just Got WAY Easier by Grant Abbitt.](https://www.youtube.com/watch?v=DmuZTw3UZ-c)
+- ▷[How to UV Unwrap Anything in Blender by Ice Guy.](https://www.youtube.com/watch?v=wo-Ov--FtGk)
+- ▷[UV Unwrap and Add Product Labelling in Blender by Blender Express.](https://www.youtube.com/watch?v=yHOu6M-lCcQ)
 
 ### 🔳 Texture Painting
 
 - 🧾[Texture Paint Manual.](https://docs.blender.org/manual/en/latest/sculpt_paint/texture_paint/index.html)
-- ▷[Blender Beginner Texturing Painting Tutorial.](https://www.youtube.com/watch?v=vTYustK-XBk)
-- ▷[Blender Texture Painting- Quick Start.](https://www.youtube.com/watch?v=u9nE2Xg6Jgk)
-- ☰[Blender Texture Painting (Speed Tutorials) by Royal Skies LLC.](https://www.youtube.com/playlist?list=PLZpDYt0cyiuvyEDCMOIjWMsl8ASiZgeCg)
+- ▷[Texture Painting Quick Start Guide for Beginners by Ryan King Art.](https://www.youtube.com/watch?v=NIdfIIjNP5o)
+- ▷[How to Texture Anything in 5 Minutes by On Mars 3D.](https://www.youtube.com/watch?v=2QKFp-4TICY)
 
 ### 📐 Compositing
 
 - 🧾[Compositing Nodes List.](https://docs.blender.org/manual/en/latest/compositing/index.html#node-types)
-- ▷[How to composite renders in Blender.](https://www.youtube.com/watch?v=Eka75kHHBrA)
-- ▷[Blender Render Passes and Very Basic Compositing.](https://www.youtube.com/watch?v=Sdaj9Y_1mOY)
-- ▷[Render Passes in Blender - What are they and why even use them?](https://www.youtube.com/watch?v=9p_iwjU5_Bg)
-- ▷[How to use blender's compositor to improve a rendered frame sequence.](https://www.youtube.com/watch?v=T57tbazDZEA)
-- ▷[Blender Compositor for Post Processing.](https://www.youtube.com/watch?v=W5KqXPCKBuI)
+- ☰[Blender Compositing Tutorials by Ryan King Art.](https://www.youtube.com/playlist?list=PLQOoUHvRRAN8)
+- ▷[New Compositor and Effects Tab in Blender 5.3! by Ryan King Art.](https://www.youtube.com/watch?v=wprKPpSoz8s)
+- ▷[Start COMPOSITING in Blender 5.0 in 16 Minutes by Pau the Hueman.](https://www.youtube.com/watch?v=kAWfjBKcgFc)
+- ▷[Compositing for Complete Beginners in Blender by Kaizen.](https://www.youtube.com/watch?v=PYTXvo29AsY)
 
 ### 🤺 Motion Tracking/Capture
 
 - 🧾[Motion Tracking Manual.](https://docs.blender.org/manual/en/latest/movie_clip/tracking/introduction.html)
-- ☰[Blender Motion Tracking Series by CGmatter.](https://www.youtube.com/playlist?list=PL4EqKJjrgoVTCrjTOBHePGXHqFdqaPYyR)
-- ▷[Add CGI Characters to Live Footage by CG Geek.](https://www.youtube.com/watch?v=hymtATx1QXw)
-- ▷[Blender Facial motion capture tutorial.](https://www.youtube.com/watch?v=uNK8S19OSmA)
-- ▷[How to 3D Motion Capture Easy and Free with a Phone!](https://www.youtube.com/watch?v=fwc9vTCLYCc)
-- ▷[Add VFX to Cinematic RAW and LOG Footage](https://youtu.be/LssHxDCM7H4)
+- ▷[3D Tracking with COLMAP & Blender by Polyfjord.](https://www.youtube.com/watch?v=xx85eyN1Xc0)
+- ▷[How to Animate in Blender with Free AI Mocap Tools by ProductionCrate.](https://www.youtube.com/watch?v=mifGsXHitvs)
+- ☰[Blender Motion Tracking Series by CGMatter.](https://www.youtube.com/playlist?list=PL4EqKJjrgoVTCrjTOBHePGXHqFdqaPYyR)
+- ▷[Add VFX to Cinematic RAW and LOG Footage by InLightVFX.](https://youtu.be/LssHxDCM7H4)
 
-### Premium Tutorials
+### 🧠 Fundamentals & CG
 
-- [Blender Studio](https://studio.blender.org/welcome/)
-- [CG Cookie](https://cgcookie.com/courses), [CG Masters](https://cgmasters.com/category/blender-training-courses/), [CG Boost Academy](https://academy.cgboost.com/), [polygonrunway](https://polygonrunway.com/)
-- [gumroad/blender](https://gumroad.com/discover?query=blender%20tutorial):
-    - [jamajurabaev](https://gumroad.com/jamajurabaev), [janurschel](https://gumroad.com/janurschel), [yansculpts](https://gumroad.com/yansculpts),
-- [udemy/blender](https://www.udemy.com/courses/search/?ref=home&src=ukw&q=blender):
-    - [Creating 3D environments in Blender by Rob Tuytel](https://www.udemy.com/course/blender-environments/)
-- [superhivemarket/training](https://superhivemarket.com/categories/training), [linkedin/blender](https://www.linkedin.com/learning/topics/blender), [skillshare/blender](https://www.skillshare.com/browse/blender)
-
-### Fundamentals
-
-- 📦[Pixar in a Box](https://www.khanacademy.org/humanities/hass-storytelling/storytelling-pixar-in-a-box) : Pixar and Khan Academy have collaborated to create, develop, and promote a series of learning tutorials that demonstrate how traditional school subjects such as math, science, and the arts are a vital part of the everyday work put into Pixar's filmmaking process.
+- 📦[Pixar in a Box](https://www.khanacademy.org/humanities/hass-storytelling/storytelling-pixar-in-a-box) : Pixar and Khan Academy have collaborated to create a series of learning tutorials demonstrating how math, science, and the arts power Pixar's filmmaking process.
 - 🧾[Skilly Blender Fundamentals Curriculum](https://github.com/tryskilly/skilly/tree/main/skills/blender-fundamentals) : Open-source markdown curriculum sourced from the official Blender Manual covering Object vs Edit mode, viewport navigation, Properties Editor, core modifiers, materials, lighting, and rendering.
+- 🧾[Computer Graphics from scratch](https://gabrielgambetta.com/computer-graphics-from-scratch/00-introduction.html) : Teaches how raytracing and rasterization work from first principles without relying on OpenGL or DirectX. [![][repo]](https://github.com/ggambetta/computer-graphics-from-scratch)
+- [tinyraytracer](https://github.com/ssloy/tinyraytracer/wiki) : Understandable raytracing implementation in 256 lines of bare C++.
+- [tinyrenderer](https://github.com/ssloy/tinyrenderer/wiki) : How OpenGL works under the hood via software rendering in 500 lines of C++.
 
-### 📚 Books
+### 💻 Scripting & Extensions
 
-- [Blender For Dummies by Jason van Gumster](https://www.amazon.com/Blender-Dummies-Computer-Tech/dp/1119616964)
-- [Blender 3D Architect by Allan Brito](https://www.blender3darchitect.com/blender-books/)
-
-<p align="right"><sub><a href="#table">↑ Back to top</a></sub></p>
-
----
-
-<!-- Contributing Guidelines for Development:
--->
-
-## 💻 Development
-
-### Scripting/Developing
-
-- 🧾Documentation:
-    - [Blender Python API Documentation](https://docs.blender.org/api/current/) : Official Blender Python API Documentation ([Quickstart](https://docs.blender.org/api/current/info_quickstart.html)).
-    - [Creating Extensions (Blender 4.2+)](https://docs.blender.org/manual/en/latest/advanced/extensions/getting_started.html) : Official manual on packaging add-ons and themes using `blender_manifest.toml` for the Blender Extensions Platform ([CLI Arguments](https://docs.blender.org/manual/en/latest/advanced/command_line/extension_arguments.html)).
-    - [blenderscripting](https://blenderscripting.blogspot.com/) : Blender related python snippets to get you started.
-    - [Blender 3D: Noob to Pro/Python Scripting](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Advanced_Tutorials/Python_Scripting/Introduction) : Python Scripting from [Blender 3D: Noob to Pro](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro) book.
-- Video Tutorials:
-    - ☰[Scripting for Artists by Blender.](https://www.youtube.com/playlist?list=PLa1F2ddGya_8acrgoQr1fTeIuQtkSd6BW)
-    - ☰[Blender Programming Tutorials by Olav3D.](https://www.youtube.com/playlist?list=PLunr0YiKm4r4OqzEfMrGSPYS1WuvaSRu5)
-    - ☰[Blender Scripting by Darkfall](https://www.youtube.com/playlist?list=PLFtLHTf5bnym_wk4DcYIMq1DkjqB7kDb-)
-- Posts:
-    - [Visualizing Complex Numbers in Blender](https://medium.com/@behreajj/visualizing-complex-numbers-in-blender-d60bd32f20b9) : This tutorial introduces how to make patterns with complex numbers in Blender.
-- IDE, Debugging & Testing:
-    - [fake-bpy-module](https://github.com/nutti/fake-bpy-module) : Fake Blender Python API (`bpy`) modules for autocompletion and type checking in VS Code, PyCharm, and other IDEs.
-    - [Blender Development in VS Code](https://marketplace.visualstudio.com/items?itemName=JacquesLucke.blender-development) : Visual Studio Code extension for building, running, and hot-reloading Blender add-ons. [![][repo]](https://github.com/JacquesLucke/blender_vscode)
-    - [blender-debugger-for-vscode](https://github.com/AlansCodeLog/blender-debugger-for-vscode) : Add-on for remote debugging Blender Python scripts with VS Code.
-    - [blender-addon-tester](https://github.com/nangtani/blender-addon-tester) : Pytest test harness for running automated add-on tests against defined Blender versions.
-    - [The Code Editor](https://blenderartists.org/t/essential-text-editor-add-ons-for-coders/1163857) : Community thread curating tools and add-ons that modernize Blender's Text Editor.
-- Frameworks, Packaging & APIs:
-    - [`bpy` on PyPI](https://pypi.org/project/bpy/) : Official Blender-as-a-Python-module package for running headless Blender pipelines directly inside Python environments.
-    - [BlenderAddonPackageTool](https://github.com/xzhuah/BlenderAddonPackageTool) : Framework for developing Blender add-ons and extensions with hot-swap testing, dependency packaging, auto class loading, and i18n. ![][mit]
-    - [EasyBPY](https://gumroad.com/l/easybpy) : Human-readable abstraction layer that simplifies common `bpy` operations. [![][repo]](https://github.com/curtisjamesholt/EasyBPY)
-    - [Geometry Script](https://github.com/carson-katri/geometry-script) : Python scripting API for building and managing complex Geometry Nodes trees in code.
-    - [3DN BIP](https://github.com/bonjorno7/3dn-bip) : Fast drop-in replacement for `bpy.utils.previews` supporting arbitrary image sizes.
-    - [blender-scripting](https://github.com/njanakiev/blender-scripting) : Collection of practical Python scripting examples for Blender.
-- Headless & CLI Pipelines:
-    - [blender-cli-rendering](https://github.com/yuki-koyama/blender-cli-rendering) : Python scripts for headless batch rendering with Blender from the command line.
-    - [render-useful](https://gitlab.com/ldo/render-useful) : Command-line utilities for managing Blender renders.
-    - [Molecular Animation](https://github.com/AmadeusBio-ai/Molecular_Animation) : Python framework and CLI pipeline for scripted, headless molecular animation in Blender from PDB and AlphaFold structures.
-- Support:
-    - [forum/python](https://forum.blender.org/c/other-topics/python/6) : Questions about using and developing the [Blender Python API](https://docs.blender.org/api/current/), both for Blender itself and add-ons.
-    - [blenderartists/python-support](https://blenderartists.org/c/support/python-support/19), [stackoverflow/tagged/bpy](https://stackoverflow.com/questions/tagged/bpy)
-
-### Blender Source
-
-- 🧾[Developer Documentation](https://developer.blender.org/docs/) : Here you can find information about Blender's development process, design and architecture, as well as instructions for Building Blender.
-- [🔌 Developer Portal](https://developer.blender.org/) | [💭 Developer Forum](https://forum.blender.org/) | [💻 Developers Blog](https://code.blender.org/)
-
-### Learn Python
-
-- [Awesome Python](https://github.com/vinta/awesome-python) : A curated list of awesome Python frameworks, libraries, software and resources.
-- [All Algorithms implemented in Python](https://github.com/TheAlgorithms/Python).
-
-### Learn Computer Graphics
-
-- [Computer Graphics from scratch](https://gabrielgambetta.com/computer-graphics-from-scratch/00-introduction.html) : This book will not teach you how to use OpenGL or DirectX; instead, it can teach you how OpenGL and DirectX work. [![][repo]](https://github.com/ggambetta/computer-graphics-from-scratch)
-- [tinyraytracer](https://github.com/ssloy/tinyraytracer/wiki) : Understandable RayTracing in 256 lines of bare C++.
-- [tinyrenderer](https://github.com/ssloy/tinyrenderer/wiki) : Tiny Renderer or how OpenGL works: software rendering in 500 lines of code.
-- [Awesome Computer Graphics](https://github.com/luisdnsantos/awesome-computer-graphics) : A curated list of awesome stuff to learn computer graphics.
-- [awesome-graphics](https://github.com/ericjang/awesome-graphics) : Curated list of computer graphics tutorials and resources.
-
-### Related Awesome Lists
-
-- [3D Resources](https://github.com/devanshutak25/3d-resources) : Curated CC0 reference hub for 3D, VFX, and game development covering 3,400+ tools, assets, and tutorials.
-- [awesome-3d-human](https://github.com/lijiaman/awesome-3d-human) : A curated list of papers & resources linked to 3D Human research including face, body, hand and motion modeling.
-- [awesome-3d-printing](https://github.com/ad-si/awesome-3d-printing) : A curated list of awesome 3D printing resources.
-- [3D-Machine-Learning](https://github.com/timzhang642/3D-Machine-Learning) : A resource repository for 3D machine learning.
-- [Awesome Gamedev](https://github.com/Calinou/awesome-gamedev) : A curated list of good stuff related to the development of games.
-- [Awesome Design Tools](https://github.com/goabstract/Awesome-Design-Tools) : The best design tools and plugins for everything.
-- [Awesome Design](https://github.com/gztchan/awesome-design) : Curated design resources.
-- [Awesome Stock Resources](https://github.com/neutraltone/awesome-stock-resources) : A collection of links for free stock photography, video and Illustration websites.
-- [GameDev Resources](https://github.com/Kavex/GameDev-Resources) : A wonderful list of Game Development resources.
-- [VFX Good Night Reading](https://github.com/jtomori/vfx_good_night_reading) : Curated collection of good reading about VFX and CG.
-- [Photogrammetry Guide](https://github.com/mikeroyal/Photogrammetry-Guide) : A guide covering Photogrammetry including the applications, libraries and tools that will make you a better and more efficient Photogrammetry development.
-- [Usage in Science, Academia, and Industry](https://github.com/ichlubna/blenderSurvey) : Curated list of resources about the usage of Blender in Science, Academia, and Industry.
+- Documentation:
+    - 🧾[Blender Python API Documentation](https://docs.blender.org/api/current/) : Official Blender Python (`bpy`) API Reference ([Quickstart](https://docs.blender.org/api/current/info_quickstart.html)).
+    - 🧾[Creating Extensions (Blender 4.2+)](https://docs.blender.org/manual/en/latest/advanced/extensions/getting_started.html) : Official manual on packaging add-ons and themes using `blender_manifest.toml` for the Blender Extensions Platform ([CLI Arguments](https://docs.blender.org/manual/en/latest/advanced/command_line/extension_arguments.html)).
+- AI-Assisted & Extension Tutorials:
+    - ▷[Blender 4.2 Extensions vs Add-ons Explained by CG Python.](https://www.youtube.com/watch?v=QrDt1_Bn670)
+    - ▷[I Built a Blender Add-on Using a 100% FREE AI Agent by CG Python.](https://www.youtube.com/watch?v=NHv33D2g-yI)
+    - ▷[AI-Driven Blender Scripting by CG Python.](https://www.youtube.com/watch?v=OZY5Ck0IfQw)
+    - ▷[How to Setup Blender MCP with Claude, Codex & Gemini CLI by Building Aeon.](https://www.youtube.com/watch?v=YQBO5de575Y)
+    - See also the [AI & MCP section](#-ai--mcp) for MCP servers, coding agent skills (`DESIGN:OS`, `Blender Agent Skills`), and headless bridges.
+- Core Developer & Verification Tools:
+    - [fake-bpy-module](https://github.com/nutti/fake-bpy-module) : Type-checked Blender Python API (`bpy`) stub modules for autocompletion, static analysis, and AI coding agents in VS Code, PyCharm, and Cursor.
+    - [`bpy` on PyPI](https://pypi.org/project/bpy/) : Official Blender-as-a-Python-module package for headless pipelines and automated scripts inside Python environments.
+    - [Blender Development in VS Code](https://marketplace.visualstudio.com/items?itemName=JacquesLucke.blender-development) : VS Code extension for building, running, and hot-reloading Blender add-ons and extensions. [![][repo]](https://github.com/JacquesLucke/blender_vscode)
+    - [blender-addon-tester](https://github.com/nangtani/blender-addon-tester) : Pytest harness for running automated add-on and extension tests in CI against defined Blender versions.
 
 <p align="right"><sub><a href="#table">↑ Back to top</a></sub></p>
 
@@ -1033,6 +939,7 @@
 - [Blender Discord](https://discord.gg/blender) : Community-managed Discord server for help, feedback, and showcases.
 - [Blender Stack Exchange](https://blender.stackexchange.com/) : Q&A forum for Blender modeling, shading, rigging, and Python scripting.
 - [Blender Facebook Group](https://fb.com/groups/2207257375/) : Community Facebook group for sharing Blender renders and questions.
+- Blender Developers: [Developer Portal](https://developer.blender.org/), [Developer Docs](https://developer.blender.org/docs/), [Developer Forum](https://forum.blender.org/), [Developers Blog](https://code.blender.org/).
 
 ### 𝕏 Accounts
 
@@ -1066,60 +973,62 @@ _Some accounts where you can find different kinds of content related to blender.
 
 <!-- Need to help for channel descriptions -->
 
-### 📢 Youtube Channels
+### 📢 YouTube Channels
 
-- [IanHubert](https://www.youtube.com/user/mrdodobird/videos) : _Lazy tutorials_, modeling, animating, vfx, cinematic.
-- [Midge Sinnaeve](https://www.youtube.com/channel/UCChYCkbgArLsCl5DWlxuKhQ/videos) : Modifiers, _weird sh!t_, art streams.
-- [CGMatter](https://www.youtube.com/channel/UCy1f4m64dwCwk8CBZ_vHfPg/videos) : Short tutorials.
-- [Default Cube](https://www.youtube.com/channel/UCdpWKLNfbROyoGPV46-zaUQ/videos) : CGMatter's second channel used for longer tutorials and other kinds of videos.
-- [SouthernShotty](https://www.youtube.com/channel/UCOWrbryuVEPUMSSgayuLURg/videos) : Stylized modeling, character creation, sculpting.
-- [Blender Guru ](https://www.youtube.com/user/AndrewPPrice/videos) : Most popular blender channel on youtube.
-- [CG Geek](https://www.youtube.com/user/Blenderfan93/videos) : Second most popular blender channel on youtube.
-- [Gleb Alexandrov](https://www.youtube.com/user/GlebAlexandrov/videos) : One of the best-known blender channel on youtube.
-- [Ducky 3D](https://www.youtube.com/channel/UCuNhGhbemBkdflZ1FGJ0lUQ/videos) : Abstract designs, modifiers.
-- [Royal Skies LLC](https://www.youtube.com/channel/UC2U5mRfclG1Rrr1ztNkpGKA/videos) : _Speed tutorials_, texturing, mapping, nodes, animation.
-- [Grant Abbitt](https://www.youtube.com/user/mediagabbitt/videos) : Modeling, animation, sculpting, low-poly, game assets.
-- [Chris Prenninger](https://www.youtube.com/user/chrisprenn/videos) : Animation nodes, particle systems, shading.
-- [Jayanam](https://www.youtube.com/user/jayanamgames/videos) : Shading, coding, modeling.
-- [CG Boost](https://www.youtube.com/channel/UCWWybvw9jnpOdJq_6wTHryA/videos) : Modeling, sculpting.
-- [CG Cookie](https://www.youtube.com/user/blendercookie/videos) : Free tutorials from [CG Cookie](https://cgcookie.com/).
-- [FlippedNormals](https://www.youtube.com/user/FlippedNormalsTuts/videos) : Sculpting, modeling.
-- [Curtis Holt](https://www.youtube.com/channel/UCzghqpGuEmk4YdVewxA79GA/videos) : Modeling, modifiers, coding.
-- [Polygon Runway](https://www.youtube.com/channel/UCGSJevmBuDyxjLLOBNaYMGA/videos) : Stylish low-poly modeling.
-- [Steven Scott](https://www.youtube.com/channel/UCiy-QcXrvu9hhe4arymNcfw/videos) : Add-ons, feature reviews.
-- [Blender NPR](https://www.youtube.com/user/blendernpr/videos) : Non-Photorealistic and expressive rendering.
-- [Martin Klekner](https://www.youtube.com/user/CamperCz/videos) : Modeling, texturing.
-- [Danny Mac 3D](https://www.youtube.com/user/djmccabie/videos) : Character modeling, posing, rigging, retopology, sculpting.
-- [Daniel Krafft - DSO](https://www.youtube.com/channel/UCojEXrCBzO-cP2N5YlRcrWw/videos) : Blender tips, add-ons.
-- [Imphenzia](https://www.youtube.com/user/ImphenziaMusic/videos) : Low poly modeling, rigging.
-- [Saqib Hussain](https://www.youtube.com/user/sh2708mf/videos) : Modeling, modifiers, texturing, shading.
-- [CrossMind Studio](https://www.youtube.com/channel/UCHihootMqyGz175gqOPahtw/videos) : Introduction, modeling, shading, lighting, modifiers.
-- [CBaileyFilm](https://www.youtube.com/channel/UCXguhzOm29mBTYDuxKjxn5A/videos) : Blender animation projects.
-- [Josh Gambrell](https://www.youtube.com/c/JoshGambrell/videos) : Hard surface modeling.
-- [CG Masters](https://www.youtube.com/user/blengine/videos) : Modeling, texturing, shading.
-- [Peter France](https://www.youtube.com/c/PeterFrance/videos) : Modeling, texturing, shading, vfx.
-- [Polyfjord](https://www.youtube.com/c/Polyfjord/videos) : Animation.
-- [Cédric Lepiller](https://www.youtube.com/c/pitiwazou/videos) : Hard surface modeling.
-- [FlyCat](https://www.youtube.com/channel/UCnXU0MjnApXHZkf3uGYbLSA/videos) : Character modeling.
-- [Stylized Station](https://www.youtube.com/c/StylizedStation/videos) : Game art.
-- [Iridesium](https://www.youtube.com/c/Iridesium/videos) : Simulation, vfx.
-- [Lightning Boy Studio](https://www.youtube.com/channel/UCd9i2MKimSaKezat1xkn8-A/videos) : Toon shader, npr.
-- [Giulia Marchetti](https://www.youtube.com/c/GiuliaMarchetti3d/videos) : Sculpting, character modeling.
-- [CG Fast Track](https://www.youtube.com/c/CGFastTrack/videos) : Modeling, animation.
-- [3DGreenhorn](https://www.youtube.com/c/3DGreenhorn/videos) : Isometric modeling.
-- [Bad Normals](https://www.youtube.com/c/BadNormals/videos) : Modeling, animation.
-- [Kevandram](https://www.youtube.com/user/kevandram/videos) : Grease pencil.
-- [Noggi](https://www.youtube.com/c/Noggi_Video/videos) : Sculpting.
-- [DerekElliott](https://www.youtube.com/c/DerekElliott/videos) : Modeling, animation.
-- [Samuel Sullins](https://www.youtube.com/@samuelsullins) : Geometry Nodes, vfx, lowpoly, general.
-- [CG Python](https://www.youtube.com/@CGPython) : Blender Python scripting tips and tricks.
-- [Erindale](https://www.youtube.com/@Erindale/videos) : Geometry Nodes, procedural shading, node-based workflows.
-- [Brady Johnston](https://www.youtube.com/@BradyJohnston/videos) : Geometry Nodes, scientific visualization, MolecularNodes.
-- [Cartesian Caramel](https://www.youtube.com/@CartesianCaramel/videos) : Procedural systems, Geometry Nodes simulations, technical art.
-- [Ryan King Art](https://www.youtube.com/@RyanKingArt/videos) : Beginner tutorials, procedural materials, daily Blender guides.
-- [Max Hay](https://www.youtube.com/@MaxHayArt/videos) : Photorealistic 3D environments, lighting, composition.
-- [Kaizen](https://www.youtube.com/@KaizenTutorials/videos) : Modeling, texturing, lighting, workflow tips.
-- [DillonGoo](https://www.youtube.com/@dillongoo/videos) : 3D anime animation, NPR rendering, Goo Engine.
+- General, Official & Beginners:
+    - [Blender](https://www.youtube.com/@blenderofficial/videos) : Official Blender channel featuring release overviews, Blender Today livestreams, and conference talks.
+    - [Blender Guru](https://www.youtube.com/user/AndrewPPrice/videos) : Flagship beginner Donut series, photorealistic lighting, and environment tutorials.
+    - [CG Cookie](https://www.youtube.com/user/blendercookie/videos) : Structured fundamentals, mesh modeling, sculpting, and rigging courses from [CG Cookie](https://cgcookie.com/).
+    - [CG Boost](https://www.youtube.com/channel/UCWWybvw9jnpOdJq_6wTHryA/videos) : Beginner guides, 3D tips, environment workflows, and sculpting lessons.
+    - [Grant Abbitt](https://www.youtube.com/user/mediagabbitt/videos) : Beginner-friendly Blender 5 courses, Grease Pencil, sculpting, and low-poly game assets.
+    - [Ryan King Art](https://www.youtube.com/@RyanKingArt/videos) : Daily beginner tutorials, procedural materials, compositing, and Geometry Nodes guides.
+    - [BlenderVitals](https://www.youtube.com/@blendervitals/videos) : Concise workflow tips, modeling tricks, and beginner problem-solving in Blender.
+    - [CG Geek](https://www.youtube.com/user/Blenderfan93/videos) : Large-scale VFX scenes, nature environments, physics, and Blender feature overviews.
+    - [Kaizen](https://www.youtube.com/@KaizenTutorials/videos) : Modeling, shading, compositing, artist interviews, and workflow breakdowns.
+    - [CrossMind Studio](https://www.youtube.com/channel/UCHihootMqyGz175gqOPahtw/videos) : Comprehensive Blender fundamentals, procedural creation, lighting, and animation.
+    - [3DGreenhorn](https://www.youtube.com/c/3DGreenhorn/videos) : Beginner isometric rooms, stylized scenes, and step-by-step Blender 4/5 tutorials.
+    - [CG Fast Track](https://www.youtube.com/c/CGFastTrack/videos) : Structured beginner sword/environment series and foundational Blender training.
+    - [Steven Scott](https://www.youtube.com/channel/UCiy-QcXrvu9hhe4arymNcfw/videos) : Add-on spotlights, OctaneRender for Blender guides, and community resource reviews.
+- Modeling, Hard-Surface, Sculpting & 3D Printing:
+    - [Josh - Blender Bros](https://www.youtube.com/c/JoshGambrell/videos) : Hard-surface modeling, non-destructive Booleans, rendering, and clean topology workflows.
+    - [Polygon Runway](https://www.youtube.com/channel/UCGSJevmBuDyxjLLOBNaYMGA/videos) : Stylized low-poly modeling, isometric illustrations, and scene courses.
+    - [Gleb Alexandrov](https://www.youtube.com/user/GlebAlexandrov/videos) : Cinematic lighting, environment art, hard-surface modeling, and Creative Shrimp breakdowns.
+    - [FlippedNormals](https://www.youtube.com/user/FlippedNormalsTuts/videos) : Character sculpting, retopology, anatomy, and 3D industry commentary.
+    - [Noggi](https://www.youtube.com/c/Noggi_Video/videos) : Stylized head/character sculpting, NPR shaders, and art timelapses.
+    - [FlyCat](https://www.youtube.com/channel/UCnXU0MjnApXHZkf3uGYbLSA/videos) : Anime and stylized 3D character sculpting, hair modeling, and 3D print prep.
+    - [Danny Mac 3D](https://www.youtube.com/user/djmccabie/videos) : Stylized character sculpting, hair curves, retopology, and rigging tips.
+    - [Jayanam](https://www.youtube.com/user/jayanamgames/videos) : Hard-surface modeling pipelines, add-on development, and game asset creation.
+    - [Cédric Lepiller](https://www.youtube.com/c/pitiwazou/videos) : Hard-surface sculpting, decal workflows, and add-on creation.
+    - [CG Masters](https://www.youtube.com/user/blengine/videos) : Automotive modeling, precision hard-surface topology, and texturing courses.
+    - [DerekElliott](https://www.youtube.com/c/DerekElliott/videos) : Product visualization, industrial design modeling, and studio lighting setups.
+    - [Imphenzia](https://www.youtube.com/user/ImphenziaMusic/videos) : Rapid low-poly modeling, rigging, and indie game asset workflows.
+    - [Kevandram](https://www.youtube.com/user/kevandram/videos) : Stylized 3D props, miniatures, and multi-color 3D printing workflows from Blender.
+- Geometry Nodes, Shading & Technical Art:
+    - [Erindale](https://www.youtube.com/@Erindale/videos) : Advanced Geometry Nodes, Simulation Nodes, procedural shading, and Nodevember breakdowns.
+    - [Cartesian Caramel](https://www.youtube.com/@CartesianCaramel/videos) : Complex Geometry Nodes systems, procedural physics, and technical art experiments.
+    - [Joey Carlino](https://www.youtube.com/@joeycarlino/videos) : Stylized character rigs, Geometry Nodes setups, and practical modeling tutorials.
+    - [Default Cube](https://www.youtube.com/channel/UCdpWKLNfbROyoGPV46-zaUQ/videos) : Deep-dive procedural shading, Geometry Nodes tools, and custom node workflows.
+    - [Ducky 3D](https://www.youtube.com/channel/UCuNhGhbemBkdflZ1FGJ0lUQ/videos) : Real-time motion graphics, abstract loops, Geometry Nodes, and EEVEE shading.
+    - [Bad Normals](https://www.youtube.com/c/BadNormals/videos) : Procedural systems, Geometry Nodes experiments, cloth, and stylized rendering tricks.
+    - [SharpWind](https://www.youtube.com/@sharpwind/videos) : Geometry Nodes foundations, procedural materials, texture baking, and add-on reviews.
+    - [Curtis Holt](https://www.youtube.com/channel/UCzghqpGuEmk4YdVewxA79GA/videos) : Procedural particle systems, Blender add-on architecture, and creative coding.
+    - [Chris P](https://www.youtube.com/user/chrisprenn/videos) : Geometry Nodes, Simulation Nodes, and procedural animation systems.
+    - [CG Python](https://www.youtube.com/@CGPython) : Blender Python (`bpy`) scripting, Extension packaging, and AI-agent add-on workflows.
+    - [Brady Johnston](https://www.youtube.com/@BradyJohnston/videos) : MolecularNodes, scientific visualization, and Geometry Nodes data parsers.
+    - [Midge Sinnaeve](https://www.youtube.com/channel/UCChYCkbgArLsCl5DWlxuKhQ/videos) : Real-time EEVEE motion graphics (`RTMG`), modifiers, and experimental 3D art streams.
+- Animation, Rigging, VFX & Stylized:
+    - [CGDive](https://www.youtube.com/@cgdive/videos) : Rigging, Rigify modular workflows, constraints, and Blender 5.x animation updates.
+    - [The Blenderender](https://www.youtube.com/@theblenderender/videos) : Mechanical rigging, hard-surface constraints, and Pixar-style animation breakdowns.
+    - [Polyfjord](https://www.youtube.com/c/Polyfjord/videos) : Mechanical and character rigging, looping animations, and COLMAP 3D camera tracking.
+    - [DillonGoo](https://www.youtube.com/@dillongoo/videos) : 3D anime production, custom NPR rendering, and Goo Engine development.
+    - [SouthernShotty](https://www.youtube.com/channel/UCOWrbryuVEPUMSSgayuLURg/videos) : Stylized character art, Blender feature news (DLSS, Gaussian Splats), and motion graphics.
+    - [CGMatter](https://www.youtube.com/channel/UCy1f4m64dwCwk8CBZ_vHfPg/videos) : Camera tracking, VFX toolkits, Geometry Nodes tips, and fast breakdowns.
+    - [IanHubert](https://www.youtube.com/user/mrdodobird/videos) : Cyberpunk worldbuilding, photo-scanned lazy tutorials, VFX compositing, and _Dynamo Dream_.
+    - [Max Hay](https://www.youtube.com/@MaxHayArt/videos) : Photorealistic dark-fantasy 3D environments, lighting, and scene breakdowns.
+    - [Martin Klekner](https://www.youtube.com/user/CamperCz/videos) : Historical CGI environments, character/armor workflows, and VFX short films.
+    - [Peter France](https://www.youtube.com/c/PeterFrance/videos) : Photorealistic VFX short films, character animation, and behind-the-scenes breakdowns.
+    - [CBaileyFilm](https://www.youtube.com/channel/UCXguhzOm29mBTYDuxKjxn5A/videos) : Animation fundamentals, sci-fi VFX projects, and step-by-step beginner modeling series.
+    - [Royal Skies LLC](https://www.youtube.com/channel/UC2U5mRfclG1Rrr1ztNkpGKA/videos) : Legacy Blender speed tutorials alongside local ComfyUI and AI video workflows.
 
 ### 💻 Blogs
 

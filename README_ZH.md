@@ -13,7 +13,7 @@
     <p>精心策划的 <b>Blender</b> 插件、AI &amp; MCP 工具、3D 资产、教程与资源精选目录——主要聚焦开源与免费资源。</p>
     <p><a href="README.md">English</a> &nbsp;·&nbsp; <b>简体中文</b></p>
     <hr />
-    <p><a href="#-插件">🧩 插件</a> &nbsp;·&nbsp; <a href="#-ai--mcp">🤖 AI & MCP</a> &nbsp;·&nbsp; <a href="#-资源">📦 资源</a> &nbsp;·&nbsp; <a href="#%ef%b8%8f-独立">🖥️ 独立</a> &nbsp;·&nbsp; <a href="#-教程">🎓 教程</a> &nbsp;·&nbsp; <a href="#-开发">💻 开发</a> &nbsp;·&nbsp; <a href="#-社交">🌐 社交</a></p>
+    <p><a href="#-插件">🧩 插件</a> &nbsp;·&nbsp; <a href="#-ai--mcp">🤖 AI & MCP</a> &nbsp;·&nbsp; <a href="#-资源">📦 资源</a> &nbsp;·&nbsp; <a href="#%ef%b8%8f-独立">🖥️ 独立</a> &nbsp;·&nbsp; <a href="#-教程">🎓 教程</a> &nbsp;·&nbsp; <a href="#-社交">🌐 社交</a></p>
 </div>
 
 <details><summary><b>📖 展开完整目录</b></summary>
@@ -49,8 +49,7 @@
             <li><a href="#-%ef%b8%8f-艺术参考">🖼 ️ 艺术/参考</a></li>
             <li><a href="#-太空">🛰 太空</a></li>
             <li><a href="#-声音音乐">🎧 声音/音乐</a></li>
-            <li><a href="#-免费库存">🏞 免费库存</a></li>
-            <li><a href="#-实用">🌂 实用</a></li>
+            <li><a href="#-相关-awesome-列表">🔗 相关 Awesome 列表</a></li>
         </ul>
     </li>
     <li><a href="#%ef%b8%8f-独立">🖥️ 独立</a>
@@ -78,18 +77,8 @@
             <li><a href="#-纹理绘画">🔳 纹理绘画</a></li>
             <li><a href="#-合成">📐 合成</a></li>
             <li><a href="#-运动跟踪捕捉">🤺 运动跟踪/捕捉</a></li>
-            <li><a href="#高级教程">高级教程</a></li>
-            <li><a href="#基础">基础</a></li>
-            <li><a href="#-书籍">📚 书籍</a></li>
-        </ul>
-    </li>
-    <li><a href="#-开发">💻 开发</a>
-        <ul>
-            <li><a href="#脚本开发">脚本/开发</a></li>
-            <li><a href="#blender源代码">Blender源代码</a></li>
-            <li><a href="#学习python">学习Python</a></li>
-            <li><a href="#学习计算机图形学">学习计算机图形学</a></li>
-            <li><a href="#相关awesome列表">相关Awesome列表</a></li>
+            <li><a href="#-基础与计算机图形学">🧠 基础与计算机图形学</a></li>
+            <li><a href="#-脚本与扩展开发">💻 脚本与扩展开发</a></li>
         </ul>
     </li>
     <li><a href="#-社交">🌐 社交</a>
@@ -537,6 +526,7 @@
     - [3DTexel](https://3dtexel.com/pbr-material/)：1,000+ 款手工制作的 4K（部分高达 8K）无缝 PBR 材质，包含风格化与手绘材质。需注册免费账号。[![][zero]](https://3dtexel.com/asset-license/)
     - [Texture Box](https://texturebox.com/)：我们为全世界的3D艺术家制作免费纹理。我们还提供定制纹理服务。
     - [C4DCenter](https://c4dcenter.com/material-library/)：免费C4D材质，附带高质量纹理贴图，供即时下载，无限制，免费用于个人和商业用途。
+    - [MatCaps](https://github.com/nidorx/matcaps)：由颜色组织的大量matcap PNG纹理库。
 - 商业免费专区与专项贴图库：
     - [Textures.com](https://www.textures.com/) [$]：提供各种数字图片的网站。注册后，每天可以免费下载15张免费图片！
     - [LotPixel](https://www.lotpixel.com/texture-library?credit=free)：免费扫描基础纹理的内部和外部材料，高达8K分辨率。商业使用。
@@ -637,23 +627,16 @@
     - [Unminus](https://www.unminus.com/)：一起创造音乐的Unsplash
     - [Netlabels](https://archive.org/details/netlabels)：这个收藏托管了完整的、可自由下载/流式传输的虚拟唱片目录，通常带有创意共享许可。
 
-### 🏞 免费库存
+### 🔗 相关 Awesome 列表
 
-- 图像/矢量：[unsplash](https://unsplash.com/), [pexels](https://www.pexels.com/), [pixabay](https://pixabay.com/), [stocksnap](https://stocksnap.io/), [rawpixel](https://www.rawpixel.com/), [burst](https://www.shopify.com/stock-photos).
-- 视频/VFX/素材：[videvo](https://www.videvo.net/), [actionvfx/free-vfx](https://www.actionvfx.com/collections/free-vfx/category), [videezy](https://www.videezy.com/), [pixabay](https://pixabay.com/videos/search/), [freemotionbacks](https://www.youtube.com/user/freemotionbacks/videos), [actionvfx](https://www.actionvfx.com/blog/3-free-vfx-stock-collections-portals-bullet-tracers-camera-shake-presets), [productioncrate/free](https://vfx.productioncrate.com/search/#!/free).
-- 抠像素材：[MrCutout](https://www.mrcutout.com/), [nonscandinavia](https://www.nonscandinavia.com/), [vishopper/free](https://www.vishopper.com/cut-out-people/search/free).
-- 视觉循环：[Mantissa](https://mantissa.xyz/vj.html), [BEEPLE](https://beeple-crap.com/vjloops), [Vimeo/Catmac](https://vimeo.com/user2777466).
-- 字体：[fonts.google](https://fonts.google.com/), [theleagueofmoveabletype](https://www.theleagueofmoveabletype.com/), [beautifulwebtype](https://www.beautifulwebtype.com/).
-
-### 🌂 实用
-
-- [Sheep it Render Farm](https://www.sheepit-renderfarm.com/)：Blender的免费分布式渲染农场。
-- [Blender-Colab](https://github.com/ynshung/blender-colab)：在***Google Colab***上渲染，这是一个Python脚本，允许您使用Google Colaboratory渲染Blender场景。仅Cycles。
-- 每日 Blender 技巧：[blender.daily](https://www.instagram.com/blender.daily/), [Blender Secrets](https://www.instagram.com/blendersecretsdotorg/).
-- [IOR List](https://pixelandpoly.com/ior.html)：3D应用中使用的折射率值列表。
-- [MatCaps](https://github.com/nidorx/matcaps)：由颜色组织的大量matcap PNG纹理库。
-- [UE Sponsored Content](https://www.unrealengine.com/en-US/uesponsoredcontent)：每个月Epic Games都会免费赠送一些来自Unreal Engine市场的资产。
-- [Blender & ACES](https://www.toodee.de/panicpost/learning-to-use-aces/1-blender/4a-how-to-setup-blender-2-8-to-work-with-aces-1-1-using-opencolorio/)：设置Blender以使用ACES和OpenColorIO。
+- [3D Resources](https://github.com/devanshutak25/3d-resources)：面向 3D、VFX 和游戏开发的精选 CC0 参考中心，涵盖 3,400 多个工具、资产与教程。
+- [awesome-3d-printing](https://github.com/ad-si/awesome-3d-printing)：精选的 3D 打印工具、切片软件、硬件与相关资源列表。
+- [3D-Machine-Learning](https://github.com/timzhang642/3D-Machine-Learning)：3D 机器学习与神经 3D 重建资源索引库。
+- [Photogrammetry Guide](https://github.com/mikeroyal/Photogrammetry-Guide)：涵盖摄影测量应用、开源库与三维重建流程的指南。
+- [Awesome Gamedev](https://github.com/Calinou/awesome-gamedev)：精选游戏开发工具、引擎与相关技术资源列表。
+- [GameDev Resources](https://github.com/Kavex/GameDev-Resources)：面向游戏开发的精选资产、引擎与学习资源集合。
+- [Awesome Stock Resources](https://github.com/neutraltone/awesome-stock-resources)：免费图库、视频、音频与插画素材网站精选集。
+- [科研、学术与工业界应用综述](https://github.com/ichlubna/blenderSurvey)：关于 Blender 在科学、学术和工业界应用研究的精选资源列表。
 
 <p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
 
@@ -719,6 +702,7 @@
     - [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI)：BlenderUpdater的命令行版本。
     - [Blender Launcher V2](https://github.com/Victor-IX/Blender-Launcher-V2)：用于管理 Blender 官方构建版本的独立客户端。
     - [Blender Manager](https://github.com/verlorengest/BlenderManager)：支持自动更新、项目管理与时间追踪、插件控制、版本管理、渲染管理等功能。
+    - [Sheep it Render Farm](https://www.sheepit-renderfarm.com/)：Blender 的免费分布式渲染农场。
 
 ### 摄影测量
 
@@ -811,199 +795,121 @@
 ### 🍩 入门
 
 - 🧾[Blender 用户手册。](https://docs.blender.org/manual/en/latest/)
-- ☰[Blender基础由Blender提供。](https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
-- ☰[Blender基础由CG Cookie提供。](https://cgcookie.com/lesson/welcome-to-the-blender-basics)
-- ☰[🍩Blender 4.0 初学者甜甜圈教程由 Blender Guru 提供。](https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z)
-- 🧾[Blender 基础指南 - Dev Null Productions](https://docs.google.com/document/d/1oWYIJWIGyjYJeQ9ZXnwKgS2uFzZ6K8jfILafHJdvg7M)
-- ☰[🍦Blender完整初学者教程课程由CG Geek提供。](https://www.youtube.com/playlist?list=PLrjIgEdKLivgpCMmFC0_sV60Y_Ftp-WLD)
-- ☰[🍏Blender初学者教程系列由CG Boost提供。](https://www.youtube.com/playlist?list=PL3UWN2F2M2C8-zUjbFlbgtWPQa0NXBsp0)
-- ☰[⚔️3D建模剑为完全初学者由YanSculpts提供。](https://www.youtube.com/playlist?list=PLvPwLecDlWRD_VK_2INC1VQ18dZdpDwLi)
-- ☰🪑[初学者建模椅子教程 - Blender Guru](https://www.youtube.com/playlist?list=PLjEaoINr3zgEL9UjPTLWQhLFAK7wVaRMR)
+- ☰[Blender 甜甜圈新手教程 (2025) - Blender Guru。](https://www.youtube.com/playlist?list=PLjEaoINr3zgGUwGwXlj9kBe7TrVWNjkyv)
+- ☰[Learn Blender 5 完整新手教程 - Grant Abbitt。](https://www.youtube.com/playlist?list=PLn3ukorJv4vv9_e-htADGsPX9TMaQpHV8)
+- ☰[Blender 核心概念详解 (CORE 5.2 LTS) - CG Cookie。](https://www.youtube.com/playlist?list=PLNhTACKHnPh0)
+- ▷[2026 年正确学习 Blender 的方式 - Grant Abbitt。](https://www.youtube.com/watch?v=R1NuvJlzZuY)
+- ▷[2026 年学习 Blender 需避开的 5 个常见错误 - BlenderVitals。](https://www.youtube.com/watch?v=xkQG1ij2XRM)
+- 🧾[Blender 基础指南 - Dev Null Productions。](https://docs.google.com/document/d/1oWYIJWIGyjYJeQ9ZXnwKgS2uFzZ6K8jfILafHJdvg7M)
 
 ### 🗿 建模
 
 - 🧾[建模手册。](https://docs.blender.org/manual/en/latest/modeling/index.html)
-- ▷[Blender初学者3D建模教程。](https://www.youtube.com/watch?v=elUJCEC06r8)
-- ☰[初学者练习 - 低多边形资产建模由Grant Abbitt提供。](https://www.youtube.com/playlist?list=PLn3ukorJv4vvv3ZpWJYvV5Tmvo7ISO-NN)
-- ▷[Blender中的录音室 - 3D等距建模过程。](https://www.youtube.com/watch?v=QkCrhycrJi8)
-- ▷[Blender中所有50+个修改器在30分钟内解释。](https://www.youtube.com/watch?v=8BQYAwDW6IE)
+- ☰[Blender 网格建模基础完整课程 - CG Cookie。](https://www.youtube.com/playlist?list=PL3GeP3YLZn5hcjK8AtK-oyqd0nYYb5ZDX)
+- ☰[Get Good @ Blender - 建模实战练习 - Grant Abbitt。](https://www.youtube.com/playlist?list=PLn3ukorJv4vvv3ZpWJYvV5Tmvo7ISO-NN)
+- ▷[30 分钟讲完 Blender 50+ 个修改器 - Daniel Krafft。](https://www.youtube.com/watch?v=8BQYAwDW6IE)
 - 雕刻：
-    - ☷[YanSculpts频道](https://www.youtube.com/channel/UCfjswDVU0XHyBN7UFG0Mi5Q/videos)
+    - ☷[YanSculpts 频道](https://www.youtube.com/channel/UCfjswDVU0XHyBN7UFG0Mi5Q/videos)
     - ☷[Julien Kaspar 频道](https://www.youtube.com/@JulienKaspart/videos)
-    - ▷[Blender雕刻入门 - 雕刻基础。](https://www.youtube.com/watch?v=A-Wq8K8icpQ)
-    - ▷[快速雕刻指南 - 从限制中学习。](https://www.youtube.com/watch?v=qnYA9kbPeLs)
-    - ▷[Blender雕刻 - 初学者详细指南 - 每个刷子。](https://www.youtube.com/watch?v=L3XtAFUWNuk)
+    - ▷[Blender 雕刻入门基础 - FlippedNormals。](https://www.youtube.com/watch?v=A-Wq8K8icpQ)
+    - ▷[快速雕刻指南：在限制中学习 - Blender 官方。](https://www.youtube.com/watch?v=qnYA9kbPeLs)
+    - ▷[Blender 雕刻初学者全笔刷详解 - Grant Abbitt。](https://www.youtube.com/watch?v=L3XtAFUWNuk)
 - 角色建模：
-    - ▷[Blender风格化角色工作流程。](https://www.youtube.com/watch?v=f-mx-Jfx9lA)
-    - ▷[在Blender中建模角色基础网格。](https://www.youtube.com/watch?v=WlaMfIgS2ns)
+    - ▷[Blender 风格化角色制作工作流。](https://www.youtube.com/watch?v=f-mx-Jfx9lA)
+    - ▷[在 Blender 中建模角色基础网格。](https://www.youtube.com/watch?v=WlaMfIgS2ns)
 - 硬表面：
-    - ☰[Blender中硬表面建模由Gleb Alexandrov提供。](https://www.youtube.com/playlist?list=PL2aDImegRwZHQsA5_N4DpaOQmUXaIsBdN)
-    - ▷[Blender硬表面雕刻技巧。](https://www.youtube.com/watch?v=qbC2iX4SATc)
+    - ☰[Blender 硬表面建模系列 - Gleb Alexandrov。](https://www.youtube.com/playlist?list=PL2aDImegRwZHQsA5_N4DpaOQmUXaIsBdN)
 
 ### 🌌 几何节点
 
-- 🧾[Geometry Nodes Manual](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html)
+- 🧾[几何节点手册。](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html)
 - 🧾[模拟节点手册](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/simulation/index.html) 与 [毛发节点手册](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/hair/index.html)。
-- ☰[Erindale 的几何节点与模拟节点播放列表](https://www.youtube.com/@Erindale/playlists)。
-- ☰[Chris Prenninger的几何节点](https://www.youtube.com/playlist?list=PLpJWHl1fB7BG5YiW1sV9smJLdzlxKLCw1).
-- ☰[Blue Fox的几何节点](https://www.youtube.com/playlist?list=PLlCNkx8wTCmeK6lCeIytjLJsse6xJwZg1).
-- ☰[初学者基础几何节点由Bradley Animation提供](https://www.youtube.com/playlist?list=PLhQ290f8z8FMzVZAZGyL8CnwOnitw2VdG).
-- ☷[Johnny Matthews 的几何节点与技术解析频道](https://www.youtube.com/@JohnnyMatthews)。
-- ▷[Erindale 的模拟节点入门教程](https://www.youtube.com/watch?v=gMOgB7Ds3ZI)。
-- ▷[Bad Normals 的 Blender 模拟节点新手教程](https://www.youtube.com/watch?v=HMpKmzTGwiE)。
-- 🧾[几何节点设计模式 - Dev Null Productions](https://docs.google.com/document/d/10c84Mg8OojWg2O7LiruQ_Cgb4kpMxSL4XRTPuQQPuDI).
+- ☰[Erindale 的几何节点与模拟节点播放列表。](https://www.youtube.com/@Erindale/playlists)
+- ▷[Blender 几何节点零基础完整教程 - Ryan King Art。](https://www.youtube.com/watch?v=188IeRY-ch0)
+- ▷[几何节点核心思维全解析 - SharpWind。](https://www.youtube.com/watch?v=aTeLyeVO0Dc)
+- ▷[使用几何节点制作弹性角色头部 (Blender 5.2) - Joey Carlino。](https://www.youtube.com/watch?v=ARKadD7yZWA)
+- ▷[用节点实现角色绑定：BCon 2025 官方演讲 - Blender。](https://www.youtube.com/watch?v=XS8gW_pBiBs)
+- ☷[Johnny Matthews 的几何节点与技术解析频道。](https://www.youtube.com/@JohnnyMatthews)
+- ▷[模拟节点入门教程 - Erindale。](https://www.youtube.com/watch?v=gMOgB7Ds3ZI)
+- ▷[Blender 模拟节点新手教程 - Bad Normals。](https://www.youtube.com/watch?v=HMpKmzTGwiE)
+- 🧾[几何节点设计模式 - Dev Null Productions。](https://docs.google.com/document/d/10c84Mg8OojWg2O7LiruQ_Cgb4kpMxSL4XRTPuQQPuDI)
 
 ### 🔘 着色节点
 
-- 🧾[Blender 材质/着色器设计模式 - Dev Null Productions](https://docs.google.com/document/d/1hSVjUuQOEvJCHDx8JDGbgf_4Buv7kzVuT6wKdEY7U_g)
 - 🧾[着色节点列表。](https://docs.blender.org/manual/en/latest/render/shader_nodes/index.html)
-- ▷[Blender着色编辑器基础由Blender提供。](https://www.youtube.com/watch?v=0zrd37k2tJM)
-- ▷[Blender - 关于原则BSDF（3分钟内）。](https://www.youtube.com/watch?v=_IjSYLt9k2A)
-- ▷[Blender高级材质 - 着色器编辑器教程。](https://www.youtube.com/watch?v=iVjnS5Z77Ww)
-- ☰[Default Cube的Blender程序化节点播放列表](https://www.youtube.com/playlist?list=PLFaEpHfMsQ2uvtFjBDGwFlTm_QrnOzslc)
-- ☰[Grant Abbitt的Node School播放列表](https://www.youtube.com/playlist?list=PLn3ukorJv4vsmEcCMDX-dpBceuv_GJFcB)
-- ☰[Royal Skies LLC的Blender原则BSDF（快速教程）](https://www.youtube.com/playlist?list=PLZpDYt0cyiut8p1fyrNbzQRNkfKHtUy5e)
-- ☰[Royal Skies LLC的Blender程序化纹理（快速教程）](https://www.youtube.com/playlist?list=PLZpDYt0cyiuv18KFBVniU2Yi-eI0Jrwo1)
-- ▷[Blender所有80+个材质节点在30分钟内解释。](https://www.youtube.com/watch?v=cQ0qtcSymDI)
+- 🧾[Blender 材质/着色器设计模式 - Dev Null Productions。](https://docs.google.com/document/d/1hSVjUuQOEvJCHDx8JDGbgf_4Buv7kzVuT6wKdEY7U_g)
+- ▷[Blender 必备着色器节点全解析 - SouthernShotty。](https://www.youtube.com/watch?v=3-_zyiBk0JI)
+- ▷[如何在 Blender 中打造专业级材质 - Kaizen。](https://www.youtube.com/watch?v=RfPro3hlOMg)
+- ☰[实时动态图形完整课程 (EEVEE 与着色) - Midge Sinnaeve。](https://www.youtube.com/playlist?list=PLw1DJ9P2rih_F1L6auhDbSkrBqHk1rn8V)
+- ☰[Blender 程序化节点播放列表 - Default Cube。](https://www.youtube.com/playlist?list=PLFaEpHfMsQ2uvtFjBDGwFlTm_QrnOzslc)
+- ☰[Node School 节点教学播放列表 - Grant Abbitt。](https://www.youtube.com/playlist?list=PLn3ukorJv4vsmEcCMDX-dpBceuv_GJFcB)
+- ▷[30 分钟讲完 80+ 个 Blender 材质节点 - Daniel Krafft。](https://www.youtube.com/watch?v=cQ0qtcSymDI)
 
 ### 🌠 动画
 
-- 🧾[动画与绑定手册。](https://docs.blender.org/manual/en/latest/physics/index.html)
+- 🧾[动画与绑定手册。](https://docs.blender.org/manual/en/latest/animation/index.html)
 - 🧾[蜡笔 (Grease Pencil) 手册。](https://docs.blender.org/manual/en/latest/grease_pencil/index.html)
-- ▷[Blender动画跑步在2分钟内！](https://www.youtube.com/watch?v=qxoo_bcUZos)
-- ▷[为动画绑定任何角色在10分钟内！](https://www.youtube.com/watch?v=SBYb1YmaOMY)
-- ▷[Blender角色动画：形状键。](https://www.youtube.com/watch?v=YDu6y_2jFg0)
-- ▷[创建循环动画。](https://www.youtube.com/watch?v=Uq4OLSRgSQE)
-- ☰[Royal Skies LLC的Blender动画（快速教程）](https://www.youtube.com/playlist?list=PLZpDYt0cyiuu7XqpZ8_rXJG9x26JK7UCr)
-- ☰[Royal Skies LLC的Blender绑定（快速教程）](https://www.youtube.com/playlist?list=PLZpDYt0cyiuuc3QpFeHxGqNpVf5couDeI)
-- ▷[快速平滑相机移动。](https://www.youtube.com/watch?v=a7qyW1G350g)
+- ☰[Rigging isn't Scary 系统角色绑定课程 - CGDive。](https://www.youtube.com/playlist?list=PLdcL5aF8ZcJtHIzFLsCwF8pGdUbVHBOHa)
+- ▷[Blender 5.0 绑定与动画新特性详解 - CGDive。](https://www.youtube.com/watch?v=s3kcPME65ic)
+- ▷[Blender 5.2 绑定与动画新特性详解 - CGDive。](https://www.youtube.com/watch?v=cERh1l2RtfU)
+- ☰[蜡笔新手指南 (Blender 4.4+) - Grant Abbitt。](https://www.youtube.com/playlist?list=PLn3ukorJv4vvY5gjkFxhfAH0zSRQ32jUE)
+- ▷[10 分钟上手 2D 蜡笔动画基础 - Micah Buzan。](https://www.youtube.com/watch?v=ZkqZRe9IXQ8)
+- ▷[Blender 角色动画：形态键 (Shape Keys) - SouthernShotty。](https://www.youtube.com/watch?v=YDu6y_2jFg0)
+- ▷[快速平滑相机运镜技巧 - Polyfjord。](https://www.youtube.com/watch?v=a7qyW1G350g)
 
 ### 🔲 UV映射
 
-- 🧾[UV编辑器手册。](https://docs.blender.org/manual/en/latest/editors/uv/index.html)
-- ▷[UV展开 - Blender基础。](https://www.youtube.com/watch?v=Y7M-B6xnaEM)
-- ☰[Royal Skies LLC的Blender UV映射（快速教程）](https://www.youtube.com/playlist?list=PLZpDYt0cyiuuwWbyUAWSllrhtZ9KfU3B_)
+- 🧾[UV 编辑器手册。](https://docs.blender.org/manual/en/latest/editors/uv/index.html)
+- ▷[Blender 5 轻松掌握 UV 展开完整指南 - Grant Abbitt。](https://www.youtube.com/watch?v=DmuZTw3UZ-c)
+- ▷[Blender 万物 UV 展开实用技巧 - Ice Guy。](https://www.youtube.com/watch?v=wo-Ov--FtGk)
+- ▷[产品包装 UV 展开与贴图实战 - Blender Express。](https://www.youtube.com/watch?v=yHOu6M-lCcQ)
 
 ### 🔳 纹理绘画
 
 - 🧾[纹理绘制手册。](https://docs.blender.org/manual/en/latest/sculpt_paint/texture_paint/index.html)
-- ▷[Blender初学者纹理绘制教程。](https://www.youtube.com/watch?v=vTYustK-XBk)
-- ▷[Blender纹理绘制快速开始。](https://www.youtube.com/watch?v=u9nE2Xg6Jgk)
-- ☰[Royal Skies LLC的Blender纹理绘制（快速教程）](https://www.youtube.com/playlist?list=PLZpDYt0cyiuvyEDCMOIjWMsl8ASiZgeCg)
+- ▷[Blender 纹理绘制新手快速入门指南 - Ryan King Art。](https://www.youtube.com/watch?v=NIdfIIjNP5o)
+- ▷[5 分钟掌握任意模型的纹理绘制流程 - On Mars 3D。](https://www.youtube.com/watch?v=2QKFp-4TICY)
 
 ### 📐 合成
 
 - 🧾[合成节点列表。](https://docs.blender.org/manual/en/latest/compositing/index.html#node-types)
-- ▷[如何在Blender中合成渲染](https://www.youtube.com/watch?v=Eka75kHHBrA)
-- ▷[Blender渲染通道和非常基础的合成。](https://www.youtube.com/watch?v=Sdaj9Y_1mOY)
-- ▷[Blender渲染通道 - 它们是什么，为什么使用它们？](https://www.youtube.com/watch?v=9p_iwjU5_Bg)
-- ▷[如何使用Blender的合成器改进渲染帧序列。](https://www.youtube.com/watch?v=T57tbazDZEA)
-- ▷[Blender合成器用于后期处理。](https://www.youtube.com/watch?v=W5KqXPCKBuI)
+- ☰[Blender 合成器完整系列教程 - Ryan King Art。](https://www.youtube.com/playlist?list=PLQOoUHvRRAN8)
+- ▷[Blender 5.3 全新合成器与特效标签页详解 - Ryan King Art。](https://www.youtube.com/watch?v=wprKPpSoz8s)
+- ▷[16 分钟上手 Blender 5.0 合成器 - Pau the Hueman。](https://www.youtube.com/watch?v=kAWfjBKcgFc)
+- ▷[面向初学者的 Blender 合成基础教程 - Kaizen。](https://www.youtube.com/watch?v=PYTXvo29AsY)
 
 ### 🤺 运动跟踪/捕捉
 
 - 🧾[运动跟踪手册。](https://docs.blender.org/manual/en/latest/movie_clip/tracking/introduction.html)
-- ☰[CGmatter的Blender运动跟踪系列](https://www.youtube.com/playlist?list=PL4EqKJjrgoVTCrjTOBHePGXHqFdqaPYyR)
-- ▷[通过CG Geek将CG角色添加到实景镜头](https://www.youtube.com/watch?v=hymtATx1QXw)
-- ▷[Blender面部运动捕捉教程。](https://www.youtube.com/watch?v=uNK8S19OSmA)
-- ▷[如何使用手机轻松免费进行3D运动捕捉！](https://www.youtube.com/watch?v=fwc9vTCLYCc)
-- ▷[为电影RAW和LOG镜头添加VFX](https://youtu.be/LssHxDCM7H4)
+- ▷[COLMAP 与 Blender 3D 摄像机跟踪新工作流 - Polyfjord。](https://www.youtube.com/watch?v=xx85eyN1Xc0)
+- ▷[使用免费 AI 动捕工具在 Blender 中制作动画 - ProductionCrate。](https://www.youtube.com/watch?v=mifGsXHitvs)
+- ☰[Blender 运动跟踪系列教程 - CGMatter。](https://www.youtube.com/playlist?list=PL4EqKJjrgoVTCrjTOBHePGXHqFdqaPYyR)
+- ▷[为电影 RAW 与 LOG 素材添加 VFX 特效 - InLightVFX。](https://youtu.be/LssHxDCM7H4)
 
-### 高级教程
-
-- [Blender Studio](https://studio.blender.org/welcome/)
-- [CG Cookie](https://cgcookie.com/courses), [CG Masters](https://cgmasters.com/category/blender-training-courses/), [CG Boost Academy](https://academy.cgboost.com/), [polygonrunway](https://polygonrunway.com/)
-- [gumroad/blender](https://gumroad.com/discover?query=blender%20tutorial):
-    - [jamajurabaev](https://gumroad.com/jamajurabaev), [janurschel](https://gumroad.com/janurschel), [yansculpts](https://gumroad.com/yansculpts),
-- [udemy/blender](https://www.udemy.com/courses/search/?ref=home&src=ukw&q=blender):
-    - [在Blender中创建3D环境由Rob Tuytel提供](https://www.udemy.com/course/blender-environments/)
-- [superhivemarket/training](https://superhivemarket.com/categories/training), [linkedin/blender](https://www.linkedin.com/learning/topics/blender), [skillshare/blender](https://www.skillshare.com/browse/blender)
-
-### 基础
+### 🧠 基础与计算机图形学
 
 - 📦[Pixar in a Box](https://www.khanacademy.org/humanities/hass-storytelling/storytelling-pixar-in-a-box)：皮克斯与可汗学院合作创建的一系列学习教程，展示数学、科学和艺术等学科在皮克斯电影制作流程中的核心作用。
 - 🧾[Skilly Blender 基础课程](https://github.com/tryskilly/skilly/tree/main/skills/blender-fundamentals)：源自官方 Blender 手册的开源 Markdown 课程，涵盖物体/编辑模式、视口导航、属性编辑器、核心修改器、材质、灯光与渲染。
+- 🧾[Computer Graphics from scratch](https://gabrielgambetta.com/computer-graphics-from-scratch/00-introduction.html)：不依赖 OpenGL 或 DirectX，从零讲解光线追踪与光栅化的计算机图形学底层原理。[![][repo]](https://github.com/ggambetta/computer-graphics-from-scratch)
+- [tinyraytracer](https://github.com/ssloy/tinyraytracer/wiki)：仅用 256 行裸 C++ 实现的极简可理解光线追踪器。
+- [tinyrenderer](https://github.com/ssloy/tinyrenderer/wiki)：通过 500 行 C++ 软件渲染代码理解 OpenGL 底层工作原理。
 
-### 📚 书籍
+### 💻 脚本与扩展开发
 
-- [Blender For Dummies by Jason van Gumster](https://www.amazon.com/Blender-Dummies-Computer-Tech/dp/1119616964)
-- [Blender 3D Architect by Allan Brito](https://www.blender3darchitect.com/blender-books/)
-
-<p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
-
----
-
-<!-- Contributing Guidelines for Development:
--->
-
-## 💻 开发
-
-### 脚本/开发
-
-- 🧾文档：
-    - [Blender Python API Documentation](https://docs.blender.org/api/current/)：官方Blender Python API文档（[快速入门](https://docs.blender.org/api/current/info_quickstart.html)）。
-    - [Creating Extensions (Blender 4.2+)](https://docs.blender.org/manual/en/latest/advanced/extensions/getting_started.html)：关于使用 `blender_manifest.toml` 为 Blender 扩展平台打包插件与主题的官方手册（[CLI 参数](https://docs.blender.org/manual/en/latest/advanced/command_line/extension_arguments.html)）。
-    - [blenderscripting](https://blenderscripting.blogspot.com/)：与Blender相关的Python代码片段，帮助你开始。
-    - [Blender 3D: Noob to Pro/Python Scripting](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Advanced_Tutorials/Python_Scripting/Introduction)：来自[Blender 3D: Noob to Pro](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro)书籍的Python脚本教程。
-- 视频教程：
-    - ☰[Scripting for Artists由Blender提供。](https://www.youtube.com/playlist?list=PLa1F2ddGya_8acrgoQr1fTeIuQtkSd6BW)
-    - ☰[Blender编程教程由Olav3D提供。](https://www.youtube.com/playlist?list=PLunr0YiKm4r4OqzEfMrGSPYS1WuvaSRu5)
-    - ☰[Blender脚本由Darkfall提供。](https://www.youtube.com/playlist?list=PLFtLHTf5bnym_wk4DcYIMq1DkjqB7kDb-)
-- 文章：
-    - [Visualizing Complex Numbers in Blender](https://medium.com/@behreajj/visualizing-complex-numbers-in-blender-d60bd32f20b9)：本教程介绍了如何在Blender中使用复数制作图案。
-- IDE、调试与测试：
-    - [fake-bpy-module](https://github.com/nutti/fake-bpy-module)：用于 VS Code、PyCharm 等主流 IDE 代码补全与类型检查的 Blender Python API (`bpy`) 存根模块集合。
-    - [Blender Development in VS Code](https://marketplace.visualstudio.com/items?itemName=JacquesLucke.blender-development)：用于构建、运行与热重载 Blender 插件的 Visual Studio Code 扩展。 [![][repo]](https://github.com/JacquesLucke/blender_vscode)
-    - [blender-debugger-for-vscode](https://github.com/AlansCodeLog/blender-debugger-for-vscode)：通过 VS Code 远程调试 Blender Python 脚本的插件。
-    - [blender-addon-tester](https://github.com/nangtani/blender-addon-tester)：基于 pytest 的测试框架，可在指定版本的 Blender 中自动运行插件测试。
-    - [The Code Editor](https://blenderartists.org/t/essential-text-editor-add-ons-for-coders/1163857)：汇集现代化 Blender 内置文本编辑器插件与改进方案的社区讨论帖。
-- 开发框架、打包与 API：
-    - [`bpy` on PyPI](https://pypi.org/project/bpy/)：官方将 Blender 作为 Python 模块发布的 PyPI 包，适用于无头与独立 Python 管线。
-    - [BlenderAddonPackageTool](https://github.com/xzhuah/BlenderAddonPackageTool)：集成实用工具的 Blender 插件与扩展开发框架，支持热重载测试、依赖感知打包、自动类加载与插件国际化。![][mit]
-    - [EasyBPY](https://gumroad.com/l/easybpy)：通过人性化抽象层简化常用 `bpy` API 调用的辅助模块。 [![][repo]](https://github.com/curtisjamesholt/EasyBPY)
-    - [Geometry Script](https://github.com/carson-katri/geometry-script)：用于通过 Python 代码构建和管理复杂几何节点树的脚本 API。
-    - [3DN BIP](https://github.com/bonjorno7/3dn-bip)：支持任意图像尺寸的高速预览图加载库，可无缝替代 `bpy.utils.previews`。
-    - [blender-scripting](https://github.com/njanakiev/blender-scripting)：从基础到进阶的实用 Blender Python 脚本示例集合。
-- 无头渲染与命令行管线：
-    - [blender-cli-rendering](https://github.com/yuki-koyama/blender-cli-rendering)：使用命令行界面调用 Blender 进行无头批量渲染的 Python 脚本。
-    - [render-useful](https://gitlab.com/ldo/render-useful)：管理 Blender 命令行渲染的实用工具集。
-    - [Molecular Animation](https://github.com/AmadeusBio-ai/Molecular_Animation)：基于 PDB 和 AlphaFold 结构在 Blender 中进行脚本化无头分子动画渲染的 Python 框架与命令行管线。
-- 支持：
-    - [forum/python](https://forum.blender.org/c/other-topics/python/6)：关于使用和开发[Blender Python API](https://docs.blender.org/api/current/)的问题，无论是Blender本身还是插件。
-    - [blenderartists/python-support](https://blenderartists.org/c/support/python-support/19), [stackoverflow/tagged/bpy](https://stackoverflow.com/questions/tagged/bpy)
-
-### Blender源代码
-
-- 🧾[Developer Documentation](https://developer.blender.org/docs/)：在这里您可以找到关于Blender的开发过程、设计和架构的信息，以及构建Blender的说明。
-- [🔌 Developer Portal](https://developer.blender.org/) | [💭 Developer Forum](https://forum.blender.org/) | [💻 Developers Blog](https://code.blender.org/)
-
-### 学习Python
-
-- [Awesome Python](https://github.com/vinta/awesome-python)：一个精选的Python框架、库、软件和资源列表。
-- [所有算法用Python实现](https://github.com/TheAlgorithms/Python).
-
-### 学习计算机图形学
-
-- [Computer Graphics from scratch](https://gabrielgambetta.com/computer-graphics-from-scratch/00-introduction.html)：本书不教如何使用 OpenGL 或 DirectX，而是从零讲解计算机图形学与光线追踪/光栅化的底层原理。 [![][repo]](https://github.com/ggambetta/computer-graphics-from-scratch)
-- [tinyraytracer](https://github.com/ssloy/tinyraytracer/wiki)：易于理解的RayTracing，仅用256行裸C++代码。
-- [tinyrenderer](https://github.com/ssloy/tinyrenderer/wiki)：Tiny Renderer或OpenGL的工作原理：软件渲染在500行代码中。
-- [Awesome Computer Graphics](https://github.com/luisdnsantos/awesome-computer-graphics)：一个精选的计算机图形学资源列表。
-- [awesome-graphics](https://github.com/ericjang/awesome-graphics)：精选的计算机图形学教程和资源列表。
-
-### 相关Awesome列表
-
-- [3D Resources](https://github.com/devanshutak25/3d-resources)：面向 3D、VFX 和游戏开发的精选 CC0 参考中心，涵盖 3,400 多个工具、资产与教程。
-- [awesome-3d-human](https://github.com/lijiaman/awesome-3d-human)：一个精选的论文和资源列表，与3D人类研究相关，包括面部、身体、手和动作建模。
-- [awesome-3d-printing](https://github.com/ad-si/awesome-3d-printing)：一个精选的3D打印资源列表。
-- [3D-Machine-Learning](https://github.com/timzhang642/3D-Machine-Learning)：一个3D机器学习的资源库。
-- [Awesome Gamedev](https://github.com/Calinou/awesome-gamedev)：一个精选的游戏开发相关资源列表。
-- [Awesome Design Tools](https://github.com/goabstract/Awesome-Design-Tools)：最好的设计工具和插件，用于一切。
-- [Awesome Design](https://github.com/gztchan/awesome-design)：精选的设计资源。
-- [Awesome Stock Resources](https://github.com/neutraltone/awesome-stock-resources)：一个免费库存照片、视频和插画网站的集合。
-- [GameDev Resources](https://github.com/Kavex/GameDev-Resources)：一个精彩的游戏开发资源列表。
-- [VFX Good Night Reading](https://github.com/jtomori/vfx_good_night_reading)：一个精选的关于VFX和CG的阅读材料的集合。
-- [Photogrammetry Guide](https://github.com/mikeroyal/Photogrammetry-Guide)：一个涵盖摄影测量的指南，包括应用、库和工具，使您成为一个更好、更高效的摄影测量开发人员。
-- [科研、学术与工业界应用综述](https://github.com/ichlubna/blenderSurvey)：关于 Blender 在科学、学术和工业界应用研究的精选资源列表。
+- 官方文档：
+    - 🧾[Blender Python API Documentation](https://docs.blender.org/api/current/)：官方 Blender Python (`bpy`) API 参考文档（[快速入门](https://docs.blender.org/api/current/info_quickstart.html)）。
+    - 🧾[Creating Extensions (Blender 4.2+)](https://docs.blender.org/manual/en/latest/advanced/extensions/getting_started.html)：使用 `blender_manifest.toml` 为 Blender 扩展平台打包插件与主题的官方手册（[CLI 参数](https://docs.blender.org/manual/en/latest/advanced/command_line/extension_arguments.html)）。
+- AI 辅助与扩展开发教程：
+    - ▷[Blender 4.2 扩展与传统插件区别详解 - CG Python。](https://www.youtube.com/watch?v=QrDt1_Bn670)
+    - ▷[使用完全免费的 AI 智能体构建 Blender 插件 - CG Python。](https://www.youtube.com/watch?v=NHv33D2g-yI)
+    - ▷[AI 驱动的 Blender 脚本自动化开发 - CG Python。](https://www.youtube.com/watch?v=OZY5Ck0IfQw)
+    - ▷[在 Claude、Codex 与 Gemini CLI 中配置 Blender MCP - Building Aeon。](https://www.youtube.com/watch?v=YQBO5de575Y)
+    - 另请参阅 [AI & MCP 章节](#-ai--mcp) 获取 MCP 服务器、编程智能体技能集（`DESIGN:OS`、`Blender Agent Skills`）与无头桥接工具。
+- 核心开发与验证工具：
+    - [fake-bpy-module](https://github.com/nutti/fake-bpy-module)：用于 VS Code、PyCharm、Cursor 及 AI 编程智能体代码补全与静态类型检查的 `bpy` 存根模块。
+    - [`bpy` on PyPI](https://pypi.org/project/bpy/)：官方将 Blender 作为 Python 模块发布的 PyPI 包，适用于无头管线与自动化脚本。
+    - [Blender Development in VS Code](https://marketplace.visualstudio.com/items?itemName=JacquesLucke.blender-development)：用于构建、运行与热重载 Blender 插件及扩展的 VS Code 扩展。 [![][repo]](https://github.com/JacquesLucke/blender_vscode)
+    - [blender-addon-tester](https://github.com/nangtani/blender-addon-tester)：基于 pytest 的测试框架，可在 CI 中针对指定 Blender 版本自动运行插件与扩展测试。
 
 <p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
 
@@ -1033,6 +939,7 @@
 - [Blender Discord](https://discord.gg/blender)：由社区管理的 Discord 服务器，用于交流、反馈与作品展示。
 - [Blender Stack Exchange](https://blender.stackexchange.com/)：专注于 Blender 建模、着色、绑定与 Python 脚本的问答社区。
 - [Blender Facebook Group](https://fb.com/groups/2207257375/)：用于分享 Blender 渲染作品与日常问答的 Facebook 社区小组。
+- Blender 开发者官方资源：[开发者门户](https://developer.blender.org/)、[开发者文档](https://developer.blender.org/docs/)、[开发者论坛](https://forum.blender.org/)、[开发者博客](https://code.blender.org/)。
 
 ### 𝕏 账号
 
@@ -1068,58 +975,60 @@ _一些可以找到各种 Blender 相关内容的账号。_
 
 ### 📢 YouTube频道
 
-- [IanHubert](https://www.youtube.com/user/mrdodobird/videos)：《懒人教程》，建模，动画，视觉效果，电影。
-- [Midge Sinnaeve](https://www.youtube.com/channel/UCChYCkbgArLsCl5DWlxuKhQ/videos)：修改器，奇奇怪怪的东西，艺术直播。
-- [CGMatter](https://www.youtube.com/channel/UCy1f4m64dwCwk8CBZ_vHfPg/videos)：短视频教程。
-- [Default Cube](https://www.youtube.com/channel/UCdpWKLNfbROyoGPV46-zaUQ/videos)：CGMatter的第二个频道，用于更长的教程和其他类型的视频。
-- [SouthernShotty](https://www.youtube.com/channel/UCOWrbryuVEPUMSSgayuLURg/videos)：风格化建模，角色创作，雕刻。
-- [Blender Guru ](https://www.youtube.com/user/AndrewPPrice/videos)：YouTube上最受欢迎的Blender频道。
-- [CG Geek](https://www.youtube.com/user/Blenderfan93/videos)：YouTube上第二受欢迎的Blender频道。
-- [Gleb Alexandrov](https://www.youtube.com/user/GlebAlexandrov/videos)：YouTube上最知名的Blender频道之一。
-- [Ducky 3D](https://www.youtube.com/channel/UCuNhGhbemBkdflZ1FGJ0lUQ/videos)：抽象设计，修改器。
-- [Royal Skies LLC](https://www.youtube.com/channel/UC2U5mRfclG1Rrr1ztNkpGKA/videos)：《快速教程》，纹理，映射，节点，动画。
-- [Grant Abbitt](https://www.youtube.com/user/mediagabbitt/videos)：建模，动画，雕刻，低多边形，游戏资产。
-- [Chris Prenninger](https://www.youtube.com/user/chrisprenn/videos)：动画节点，粒子系统，着色。
-- [Jayanam](https://www.youtube.com/user/jayanamgames/videos)：着色，编码，建模。
-- [CG Boost](https://www.youtube.com/channel/UCWWybvw9jnpOdJq_6wTHryA/videos)：建模，雕刻。
-- [CG Cookie](https://www.youtube.com/user/blendercookie/videos)：来自[CG Cookie](https://cgcookie.com/)的免费教程。
-- [FlippedNormals](https://www.youtube.com/user/FlippedNormalsTuts/videos)：雕刻，建模。
-- [Curtis Holt](https://www.youtube.com/channel/UCzghqpGuEmk4YdVewxA79GA/videos)：建模，修改器，编码。
-- [Polygon Runway](https://www.youtube.com/channel/UCGSJevmBuDyxjLLOBNaYMGA/videos)：时尚低多边形建模。
-- [Steven Scott](https://www.youtube.com/channel/UCiy-QcXrvu9hhe4arymNcfw/videos)：插件，功能评测。
-- [Blender NPR](https://www.youtube.com/user/blendernpr/videos)：非真实感和富有表现力的渲染。
-- [Martin Klekner](https://www.youtube.com/user/CamperCz/videos)：建模，纹理。
-- [Danny Mac 3D](https://www.youtube.com/user/djmccabie/videos)：角色建模，姿势，绑定，重拓扑，雕刻。
-- [Daniel Krafft - DSO](https://www.youtube.com/channel/UCojEXrCBzO-cP2N5YlRcrWw/videos)：Blender技巧，插件。
-- [Imphenzia](https://www.youtube.com/user/ImphenziaMusic/videos)：低多边形建模，绑定。
-- [Saqib Hussain](https://www.youtube.com/user/sh2708mf/videos)：建模，修改器，纹理，着色。
-- [CrossMind Studio](https://www.youtube.com/channel/UCHihootMqyGz175gqOPahtw/videos)：介绍，建模，着色，照明，修改器。
-- [CBaileyFilm](https://www.youtube.com/channel/UCXguhzOm29mBTYDuxKjxn5A/videos)：Blender动画项目。
-- [Josh Gambrell](https://www.youtube.com/c/JoshGambrell/videos)：硬表面建模。
-- [CG Masters](https://www.youtube.com/user/blengine/videos)：建模，纹理，着色。
-- [Peter France](https://www.youtube.com/c/PeterFrance/videos)：建模，纹理，着色，视觉效果。
-- [Polyfjord](https://www.youtube.com/c/Polyfjord/videos)：动画。
-- [Cédric Lepiller](https://www.youtube.com/c/pitiwazou/videos)：硬表面建模。
-- [FlyCat](https://www.youtube.com/channel/UCnXU0MjnApXHZkf3uGYbLSA/videos)：角色建模。
-- [Stylized Station](https://www.youtube.com/c/StylizedStation/videos)：游戏艺术。
-- [Iridesium](https://www.youtube.com/c/Iridesium/videos)：模拟，视觉效果。
-- [Lightning Boy Studio](https://www.youtube.com/channel/UCd9i2MKimSaKezat1xkn8-A/videos)：卡通着色器，非真实感渲染。
-- [Giulia Marchetti](https://www.youtube.com/c/GiuliaMarchetti3d/videos)：雕刻，角色建模。
-- [CG Fast Track](https://www.youtube.com/c/CGFastTrack/videos)：建模，动画。
-- [3DGreenhorn](https://www.youtube.com/c/3DGreenhorn/videos)：等角建模。
-- [Bad Normals](https://www.youtube.com/c/BadNormals/videos)：建模，动画。
-- [Kevandram](https://www.youtube.com/user/kevandram/videos)：油画画笔。
-- [Noggi](https://www.youtube.com/c/Noggi_Video/videos)：雕刻。
-- [DerekElliott](https://www.youtube.com/c/DerekElliott/videos)：建模，动画。
-- [Samuel Sullins](https://www.youtube.com/@samuelsullins)：几何节点，视觉效果，低多边形，综合。
-- [CG Python](https://www.youtube.com/@CGPython)：Blender Python 脚本技巧和窍门。
-- [Erindale](https://www.youtube.com/@Erindale/videos)：几何节点，程序化着色，节点工作流。
-- [Brady Johnston](https://www.youtube.com/@BradyJohnston/videos)：几何节点，科学可视化，MolecularNodes。
-- [Cartesian Caramel](https://www.youtube.com/@CartesianCaramel/videos)：程序化系统，几何节点物理模拟，技术美术。
-- [Ryan King Art](https://www.youtube.com/@RyanKingArt/videos)：新手教程，程序化材质，每日 Blender 指南。
-- [Max Hay](https://www.youtube.com/@MaxHayArt/videos)：照片级 3D 环境艺术，灯光，构图。
-- [Kaizen](https://www.youtube.com/@KaizenTutorials/videos)：建模，纹理，布光，工作流技巧。
-- [DillonGoo](https://www.youtube.com/@dillongoo/videos)：3D 动漫制作，非真实感渲染 (NPR)，Goo Engine。
+- 综合、官方与入门：
+    - [Blender](https://www.youtube.com/@blenderofficial/videos)：Blender 官方频道，包含版本特性概览、Blender Today 直播与年度大会演讲。
+    - [Blender Guru](https://www.youtube.com/user/AndrewPPrice/videos)：标志性新手甜甜圈系列教程、照片级光照与环境艺术教学。
+    - [CG Cookie](https://www.youtube.com/user/blendercookie/videos)：来自 [CG Cookie](https://cgcookie.com/) 的系统化基础、网格建模、雕刻与绑定课程。
+    - [CG Boost](https://www.youtube.com/channel/UCWWybvw9jnpOdJq_6wTHryA/videos)：新手指南、3D 实用技巧、场景工作流与雕刻课程。
+    - [Grant Abbitt](https://www.youtube.com/user/mediagabbitt/videos)：面向新手的 Blender 5 课程、蜡笔绘画、雕刻与低多边形游戏资产教学。
+    - [Ryan King Art](https://www.youtube.com/@RyanKingArt/videos)：每日新手教程、程序化材质、合成器与几何节点指南。
+    - [BlenderVitals](https://www.youtube.com/@blendervitals/videos)：紧凑高效的 Blender 工作流技巧、建模窍门与常见问题解析。
+    - [CG Geek](https://www.youtube.com/user/Blenderfan93/videos)：大型 VFX 场景、自然环境构建、物理模拟与 Blender 新特性评测。
+    - [Kaizen](https://www.youtube.com/@KaizenTutorials/videos)：建模、着色、合成、创作者访谈与工作流深度解析。
+    - [CrossMind Studio](https://www.youtube.com/channel/UCHihootMqyGz175gqOPahtw/videos)：系统化 Blender 基础课程、程序化创作、灯光与动画教学。
+    - [3DGreenhorn](https://www.youtube.com/c/3DGreenhorn/videos)：等角房间建模、风格化场景与 Blender 4/5 新手分步教程。
+    - [CG Fast Track](https://www.youtube.com/c/CGFastTrack/videos)：结构化的新手宝剑与场景建模入门课程。
+    - [Steven Scott](https://www.youtube.com/channel/UCiy-QcXrvu9hhe4arymNcfw/videos)：插件评测、OctaneRender for Blender 指南与社区工具推荐。
+- 建模、硬表面、雕刻与 3D 打印：
+    - [Josh - Blender Bros](https://www.youtube.com/c/JoshGambrell/videos)：硬表面建模、非破坏性布尔流程、渲染与规范拓扑教学。
+    - [Polygon Runway](https://www.youtube.com/channel/UCGSJevmBuDyxjLLOBNaYMGA/videos)：风格化低多边形建模、等角插画与场景课程。
+    - [Gleb Alexandrov](https://www.youtube.com/user/GlebAlexandrov/videos)：电影级灯光、环境艺术、硬表面建模与 Creative Shrimp 解析。
+    - [FlippedNormals](https://www.youtube.com/user/FlippedNormalsTuts/videos)：角色雕刻、重拓扑、人体解剖与 3D 行业观察。
+    - [Noggi](https://www.youtube.com/c/Noggi_Video/videos)：风格化头部与角色雕刻、NPR 着色器与制作延时。
+    - [FlyCat](https://www.youtube.com/channel/UCnXU0MjnApXHZkf3uGYbLSA/videos)：动漫与风格化 3D 角色雕刻、毛发建模与 3D 打印模型准备。
+    - [Danny Mac 3D](https://www.youtube.com/user/djmccabie/videos)：风格化角色雕刻、曲线毛发、重拓扑与绑定技巧。
+    - [Jayanam](https://www.youtube.com/user/jayanamgames/videos)：硬表面建模流程、插件开发与游戏资产制作。
+    - [Cédric Lepiller](https://www.youtube.com/c/pitiwazou/videos)：硬表面雕刻、贴花 (Decal) 管线与 Blender 插件开发。
+    - [CG Masters](https://www.youtube.com/user/blengine/videos)：汽车建模、高精度硬表面拓扑与纹理课程。
+    - [DerekElliott](https://www.youtube.com/c/DerekElliott/videos)：产品可视化、工业设计建模、包装展示与物理模拟。
+    - [Imphenzia](https://www.youtube.com/user/ImphenziaMusic/videos)：快速低多边形建模、绑定与独立游戏资产制作流。
+    - [Kevandram](https://www.youtube.com/user/kevandram/videos)：风格化 3D 道具、微缩模型与基于 Blender 的多色 3D 打印流程。
+- 几何节点、着色与技术美术：
+    - [Erindale](https://www.youtube.com/@Erindale/videos)：高阶几何节点、模拟节点、程序化着色与 Nodevember 节点拆解。
+    - [Cartesian Caramel](https://www.youtube.com/@CartesianCaramel/videos)：复杂几何节点系统、程序化物理模拟与技术美术实验。
+    - [Joey Carlino](https://www.youtube.com/@joeycarlino/videos)：风格化角色绑定、几何节点工具搭建与实用建模教程。
+    - [Default Cube](https://www.youtube.com/channel/UCdpWKLNfbROyoGPV46-zaUQ/videos)：深入的程序化着色器、几何节点工具与自定义节点工作流。
+    - [Ducky 3D](https://www.youtube.com/channel/UCuNhGhbemBkdflZ1FGJ0lUQ/videos)：实时动态图形、抽象循环动画、几何节点与 EEVEE 渲染。
+    - [Bad Normals](https://www.youtube.com/c/BadNormals/videos)：程序化系统、几何节点实验、布料与风格化渲染技巧。
+    - [SharpWind](https://www.youtube.com/@sharpwind/videos)：几何节点基础、程序化材质、纹理烘焙与现代插件评测。
+    - [Curtis Holt](https://www.youtube.com/channel/UCzghqpGuEmk4YdVewxA79GA/videos)：程序化粒子系统、Blender 插件架构设计与创意编程。
+    - [Chris P](https://www.youtube.com/user/chrisprenn/videos)：几何节点、模拟节点与程序化动画系统教学。
+    - [CG Python](https://www.youtube.com/@CGPython)：Blender Python (`bpy`) 脚本开发、扩展打包与 AI 智能体插件工作流。
+    - [Brady Johnston](https://www.youtube.com/@BradyJohnston/videos)：MolecularNodes、科学蛋白质可视化与几何节点数据解析器。
+    - [Midge Sinnaeve](https://www.youtube.com/channel/UCChYCkbgArLsCl5DWlxuKhQ/videos)：实时 EEVEE 动态图形 (`RTMG`)、修改器与实验性 3D 艺术直播。
+- 动画、绑定、视觉特效与风格化：
+    - [CGDive](https://www.youtube.com/@cgdive/videos)：角色绑定、Rigify 模块化工作流、约束系统与 Blender 5.x 动画更新解析。
+    - [The Blenderender](https://www.youtube.com/@theblenderender/videos)：机械绑定、硬表面约束控制与皮克斯风格动画拆解。
+    - [Polyfjord](https://www.youtube.com/c/Polyfjord/videos)：机械与生物绑定、循环动画制作与 COLMAP 3D 摄像机跟踪。
+    - [DillonGoo](https://www.youtube.com/@dillongoo/videos)：3D 动漫制作、定制 NPR 非真实感渲染与 Goo Engine 开发。
+    - [SouthernShotty](https://www.youtube.com/channel/UCOWrbryuVEPUMSSgayuLURg/videos)：风格化角色创作、Blender 新特性资讯（DLSS、3DGS）与动态图形。
+    - [CGMatter](https://www.youtube.com/channel/UCy1f4m64dwCwk8CBZ_vHfPg/videos)：摄像机跟踪、VFX 特效工具箱、几何节点技巧与快速解析。
+    - [IanHubert](https://www.youtube.com/user/mrdodobird/videos)：赛博朋克世界观构建、照片扫描“懒人教程”、VFX 合成与 _Dynamo Dream_。
+    - [Max Hay](https://www.youtube.com/@MaxHayArt/videos)：照片级暗黑奇幻 3D 环境艺术、氛围灯光与场景构图解析。
+    - [Martin Klekner](https://www.youtube.com/user/CamperCz/videos)：史诗级历史 CGI 场景、角色/铠甲流程与 VFX 短片制作。
+    - [Peter France](https://www.youtube.com/c/PeterFrance/videos)：高精度 VFX 动画短片、写实角色动画与幕后制作解析。
+    - [CBaileyFilm](https://www.youtube.com/channel/UCXguhzOm29mBTYDuxKjxn5A/videos)：分步动画基础、科幻 VFX 项目与新手建模系列。
+    - [Royal Skies LLC](https://www.youtube.com/channel/UC2U5mRfclG1Rrr1ztNkpGKA/videos)：经典 Blender 快速入门系列，以及本地 ComfyUI 与 AI 视频生成工作流。
 
 ### 💻 博客
 

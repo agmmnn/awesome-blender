@@ -27,8 +27,7 @@ const ALLOWED_SECTIONS = new Set<string>([
  */
 const EXCLUDED_CATEGORY_IDS = new Set<string>([
   "resources/art-reference",
-  "resources/useful",
-  "resources/free-stocks",
+  "resources/related-awesome-lists",
 ]);
 
 export interface DirectoryItem extends CatalogEntry {
