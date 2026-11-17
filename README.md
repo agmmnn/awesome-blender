@@ -519,6 +519,7 @@
     - [cgbookcase](https://www.cgbookcase.com/textures) : Discover a library of high-quality PBR textures. Free for every purpose, forever. Some Blender tutorials here and there. [![][zero]](https://creativecommons.org/publicdomain/zero/1.0/)
     - [3DAssets.one](https://3dassets.one/) : Search-engine which allows you to explore the largest free texture sites all at once.
     - [3DTextures.me](https://3dtextures.me/) : Free seamless PBR textures. [![][zero]](https://3dtextures.me/about/)
+    - [CC0 Materials](https://cc0materials.com/) : Free PBR materials up to 4K with OpenGL and DirectX normal maps and a 3D preview. [![][zero]](https://cc0materials.com/license)
     - [FreePBR.com](https://freepbr.com/) : Free PBR materials and texture files.
     - [twirl](https://twirl.tools/dashboard) : Free library of high quality PBR materials. Unlimited downloads with no signup.
     - [ShareTextures](https://www.sharetextures.com/) : Free High Quality Material Archive for everybody. [![][zero]](https://www.sharetextures.com/p/license)
