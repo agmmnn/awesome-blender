@@ -1,6 +1,6 @@
 # Standalone
 
-> 86 curated entries across 8 categories. Index: https://awesome-blender.vercel.app/llms.txt
+> 88 curated entries across 8 categories. Index: https://awesome-blender.vercel.app/llms.txt
 
 ## 3D Tools
 
@@ -22,6 +22,8 @@
 
 ### Modeling, Architecture, Volumetrics & Scene Tools
 
+- [fSpy](https://fspy.io/): Open-source standalone still-image camera matching app for matching perspective and focal length before importing into Blender.
+- [UPBGE](https://upbge.org/): Open-source standalone 3D game engine forked from Blender and bundled as a custom Blender build. `[open-source]` ([Repository](https://github.com/UPBGE/upbge))
 - [Blockbench](https://www.blockbench.net/): Open-source low-poly and pixel-textured 3D model editor with native glTF/OBJ workflows for Blender and game engines. `[GPL]` ([Repository](https://github.com/JannisX11/blockbench))
 - [Plasticity](https://www.plasticity.xyz/): NURBS modeling CAD tool built for concept artists and hard-surface workflows alongside Blender. `[paid · open-source]` ([Repository](https://github.com/nkallen/plasticity))
 - [FreeCAD](https://www.freecad.org/): Open-source parametric 3D CAD modeler suitable for precision mechanical parts and 3D printing exported to Blender. `[open-source]` ([Repository](https://github.com/FreeCAD/FreeCAD))

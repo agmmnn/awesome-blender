@@ -1,6 +1,6 @@
 # AI & MCP
 
-> 38 curated entries across 3 categories. Index: https://awesome-blender.vercel.app/llms.txt
+> 39 curated entries across 3 categories. Index: https://awesome-blender.vercel.app/llms.txt
 
 ## MCP, Agents & Skills
 
@@ -25,6 +25,7 @@
 - [BlenderAIStudio](https://github.com/AIGODLIKE/BlenderAIStudio): Next-generation AI workflow studio add-on for Blender built on the Addon UI-Forge framework by AIGODLIKE. `[GPL]`
 - [ComfyUI-Blender](https://github.com/alexisrolland/ComfyUI-Blender): Blender add-on to run ComfyUI workflows directly inside Blender for AI texture, image, and 3D asset generation. `[open-source]`
 - [Scenario for Blender](https://github.com/scenario-labs/blender-plugin): AI image, video, 3D, and PBR material generation in the viewport, plus a local MCP server for agents. `[GPL]`
+- [fal.ai for Blender](https://github.com/fal-ai/fal-blender-extension): Official Blender 4.2+ extension from fal.ai integrating Text/Image-to-3D (Meshy, Hunyuan3D, Tripo, Rodin), PBR material synthesis, AI rendering, video, and audio workflows into the 3D Viewport and VSE (requires fal.ai API key). `[GPL]`
 - [UniRig](https://github.com/VAST-AI-Research/UniRig): Universal AI automatic skeletal rigging and skinning framework (SIGGRAPH 2025) by Tsinghua & VAST with Blender workflow and VRM add-on integration. `[MIT]`
 - [Tripo 3D for Blender](https://github.com/Tripo-Developer/tripo-3d-for-blender): Official open-source Blender extension for Tripo AI enabling Text/Image-to-3D generation and textured, rig-ready asset imports inside the viewport sidebar. `[MIT]`
 - [Meshy for Blender](https://docs.meshy.ai/en/webapp/plugins/blender/introduction): Official local bridge plugin from Meshy AI for sending static or rigged/animated 3D assets directly into Blender alongside mesh cleanup and 3D-print tools. `[paid]`

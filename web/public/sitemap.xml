@@ -17,10 +17,10 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=simulation-physics</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=simulation-physics" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=simulation-physics&amp;lang=zh" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=simulation-physics" />
+    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=modeling</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=modeling" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=modeling&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=modeling" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -33,18 +33,18 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=modeling</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=modeling" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=modeling&amp;lang=zh" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=modeling" />
+    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=texture-uv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=texture-uv" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=texture-uv&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=texture-uv" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=animation</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=animation" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=animation&amp;lang=zh" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=animation" />
+    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=lighting-camera-video</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=lighting-camera-video" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=lighting-camera-video&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=lighting-camera-video" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -57,10 +57,18 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=texture-uv</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=texture-uv" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=texture-uv&amp;lang=zh" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=texture-uv" />
+    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=animation</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=animation" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=animation&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=animation" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=simulation-physics</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=simulation-physics" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=simulation-physics&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=simulation-physics" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -69,14 +77,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=gamedev" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=gamedev&amp;lang=zh" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=gamedev" />
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://awesome-blender.vercel.app/?section=add-ons&amp;category=lighting-camera-video</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=lighting-camera-video" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=lighting-camera-video&amp;lang=zh" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=add-ons&amp;category=lighting-camera-video" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
