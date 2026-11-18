@@ -177,14 +177,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://awesome-blender.vercel.app/?section=resources&amp;category=space</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=resources&amp;category=space" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=resources&amp;category=space&amp;lang=zh" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=resources&amp;category=space" />
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://awesome-blender.vercel.app/?section=resources&amp;category=sound-music</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=resources&amp;category=sound-music" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=resources&amp;category=sound-music&amp;lang=zh" />
@@ -233,18 +225,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://awesome-blender.vercel.app/?section=standalone&amp;category=terrain</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=terrain" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=terrain&amp;lang=zh" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=terrain" />
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://awesome-blender.vercel.app/?section=standalone&amp;category=real-world-height-maps</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=real-world-height-maps" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=real-world-height-maps&amp;lang=zh" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=real-world-height-maps" />
+    <loc>https://awesome-blender.vercel.app/?section=standalone&amp;category=terrain-height-maps</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=terrain-height-maps" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=terrain-height-maps&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=terrain-height-maps" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -265,18 +249,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://awesome-blender.vercel.app/?section=standalone&amp;category=sound-music</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=sound-music" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=sound-music&amp;lang=zh" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=sound-music" />
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://awesome-blender.vercel.app/?section=standalone&amp;category=painting</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=painting" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=painting&amp;lang=zh" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=painting" />
+    <loc>https://awesome-blender.vercel.app/?section=standalone&amp;category=painting-audio-post-production</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=painting-audio-post-production" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=painting-audio-post-production&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=standalone&amp;category=painting-audio-post-production" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

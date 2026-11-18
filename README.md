@@ -47,23 +47,20 @@
             <li><a href="#-blender-scenesfiles">🌲 Blender Scenes/Files</a></li>
             <li><a href="#-hdris">⛅ HDRIs</a></li>
             <li><a href="#%ef%b8%8f-artreference">🖼️ Art/Reference</a></li>
-            <li><a href="#-space">🛰 Space</a></li>
             <li><a href="#-soundmusic">🎧 Sound/Music</a></li>
             <li><a href="#-related-awesome-lists">🔗 Related Awesome Lists</a></li>
         </ul>
     </li>
     <li><a href="#%ef%b8%8f-standalone">🖥️ Standalone</a>
         <ul>
-            <li><a href="#3d-tools">3D Tools</a></li>
-            <li><a href="#various-tools">Various Tools</a></li>
-            <li><a href="#photogrammetry">Photogrammetry</a></li>
-            <li><a href="#texturematerial">Texture/Material</a></li>
-            <li><a href="#terrain">Terrain</a></li>
-            <li><a href="#real-world-height-maps">Real-World Height Maps</a></li>
-            <li><a href="#point-cloudlidar-data">Point Cloud/LiDAR Data</a></li>
-            <li><a href="#generator">Generator</a></li>
-            <li><a href="#soundmusic">Sound/Music</a></li>
-            <li><a href="#painting">Painting</a></li>
+            <li><a href="#-3d-tools">🔧 3D Tools</a></li>
+            <li><a href="#-various-tools">🧰 Various Tools</a></li>
+            <li><a href="#-photogrammetry">📷 Photogrammetry</a></li>
+            <li><a href="#-texturematerial">🧱 Texture/Material</a></li>
+            <li><a href="#-terrain--height-maps">🗻 Terrain & Height Maps</a></li>
+            <li><a href="#-point-cloudlidar-data">📡 Point Cloud/LiDAR Data</a></li>
+            <li><a href="#-generator">🪄 Generator</a></li>
+            <li><a href="#-painting-audio--post-production">📹 Painting, Audio & Post-Production</a></li>
         </ul>
     </li>
     <li><a href="#-tutorials">🎓 Tutorials</a>
@@ -388,18 +385,19 @@
 - Free & CC0 3D Asset Libraries:
     - [Poly Haven/Models](https://polyhaven.com/models) : Resource of free high quality 3D assets for everyone. All models here are CC0. [![][zero]](https://polyhaven.com/license)
     - [TheBaseMesh.com](https://www.thebasemesh.com/model-library) : A public library of over 600+ base meshes. All assets are real world scale and come unwrapped. ![][zero]
+    - [Kenney 3D Assets](https://kenney.nl/assets/category:3D) : Hundreds of clean CC0 low-poly and game-ready 3D models ready for Blender and game engines. ![][zero]
     - [Blender Boom](https://www.blenderboom.com/product-category/free/) : 3D model repository. Free models ready to use. [![][zero]](https://www.blenderboom.com/pages/licences/)
     - [Chocofur/Free](https://store.chocofur.com/) : Premium quality 3D models & scenes. [![][zero]](https://academy.chocofur.com/p/chocofur-license-agreement)
     - [Greeble Town](https://greebletown.com/) : Free premium quality sci-fi greebles hardsurface kitbash 3D assets.
-    - [Quixel Megascans](https://quixel.com/megascans/library/) : World’s largest photogrammetry 2D and 3D asset library. Now it is free for the Epic Games accounts (only UE projects).
+    - [Poly Pizza](https://poly.pizza/) : Free CC0 and Creative Commons low-poly 3D models ready for Blender, games, and rapid prototyping.
     - [Rigmodels](https://rigmodels.com/) : Free rigged, animated and low poly models
-    - [Free3D](https://free3d.com/) : Is the go to place where you can share your free 3D assets and download instantly any you like. [![][cc]](https://free3d.com/terms-conditions)
-    - [Free3DBase](https://free3dbase.com/) : Download high quality free 3d models.
-    - [Hum3D](https://3dmodels.org/) : Source of quality 3D models of vehicles in blend file format.
+    - [NASA-3D-Resources](https://science.nasa.gov/3d-resources/) : Growing collection of free 3D models, spacecraft, terrain scans, and textures from NASA. [![][repo]](https://github.com/nasa/NASA-3D-Resources)
 - Marketplaces & Mixed-License Hubs:
+    - [Fab (Quixel Megascans)](https://www.fab.com/) : Epic Games' unified 3D marketplace featuring the entire permanently free Quixel Megascans library alongside free and commercial assets for Blender and other DCC tools.
     - [Sketchfab](https://sketchfab.com/search?features=downloadable&sort_by=-pertinence&type=models) : Free downloadable models from Sketchfab.
     - [CGTrader](https://www.cgtrader.com/free-3d-models) : Free 3D models from CGTrader.
     - [TurboSquid/free](https://www.turbosquid.com/Search/3D-Models/free) : Free models from Turbosquid.
+    - [Free3D](https://free3d.com/) : Community platform to browse and download free 3D assets in `.blend`, `.obj`, and `.fbx` formats. [![][cc]](https://free3d.com/terms-conditions)
     - [3D Warehouse](https://3dwarehouse.sketchup.com/search/) : Download sketchup models.
     - [RenderHub/free](https://www.renderhub.com/free-3d-models) : Daz Content, 3D models, textures and materials.
     - [FlyingArchitecture](https://flyingarchitecture.com/) : Is both an architectural visualizations studio as well as an online store dedicated to 3D models, scenes, materials and tutorials.
@@ -409,28 +407,40 @@
     - [Three D Scans](https://threedscans.com/) : Free 3D scans in .stl without copyright restrictions. [![][cc]](https://threedscans.com/info/)
     - [Scan the World](https://www.myminifactory.com/scantheworld/full-collection/) : Ambitious community-built initiative whose mission is to share 3D printable sculpture and cultural artefacts using democratised 3D scanning technologies, producing an extensive ecosystem of free to download digital cultural heritage. [[mixed license]](https://www.myminifactory.com/scantheworld/faq/#licensing)
     - [Artec 3D](https://www.artec3d.com/3d-models) : Download high resolution 3D scans for free. ![][by]
-    - [Scanned Female Head Model by EISKO](https://eisko.com/louise/), [Scanned 3D People from Renderpeople](https://renderpeople.com/free-3d-people/), [Scans from Louvre Museum](https://gumroad.com/l/xAQxj), [Free 3D Head Model](https://www.3dscanstore.com/blog/Free-3D-Head-Model), [Deep 3D Studio](https://www.artstation.com/marketplace/p/9BBA/free-download-australian-infantryman-character-from-world-war-2-39), [Public Domain 3D Cultural Heritage](https://sketchfab.com/nebulousflynn/collections/cc0-9e9b8c5442ab4b59ba16b6fa5e43b8da), [The Heretic: Digital Human by Unity](https://assetstore.unity.com/packages/3d/characters/the-heretic-digital-human-characters-2022-168620), [Phenome10K/Scans](https://phenome10k.org/scans/), [Renderbot/free](https://renderbot.com/3d/free/), [The Małopolska’s Virtual Museums](https://sketchfab.com/WirtualneMuzeaMalopolski).
+    - Featured Free Scan Collections : [Renderpeople Free 3D People](https://renderpeople.com/free-3d-people/), [3D Scan Store Free Head](https://www.3dscanstore.com/blog/Free-3D-Head-Model), [Public Domain 3D Cultural Heritage](https://sketchfab.com/nebulousflynn/collections/cc0-9e9b8c5442ab4b59ba16b6fa5e43b8da), [Phenome10K/Scans](https://phenome10k.org/scans/).
 - Various Models & Test Meshes:
-    - [Awesome-3D-Meshes : List of famous 3D meshes.](https://github.com/jvm-graphics-labs/awesome-3d-meshes/)
-    - [List of Common 3D Test Models.](https://en.wikipedia.org/wiki/List_of_common_3D_test_models)
-    - [Quaternius's Ultimate Low-Poly Models](https://quaternius.com/index.html), [The Art of 3D Insects by Natural History Museum](https://stock.adobe.com/collections/rTMsIExGHtyXsAv8NL8RfOxokqALHQhy), [First Animals by Oxford University](https://sketchfab.com/morethanadodo/collections/first-animals-f7736e90b06a49669e34356b65fb2659), [Stylized Characters Base Meshes/Blockouts](https://gumroad.com/georgezaky108), [Wire Wheels Club: Free Car Models](https://wirewheelsclub.com/models/).
+    - [Common 3D Test Models](https://en.wikipedia.org/wiki/List_of_common_3D_test_models) & [Awesome-3D-Meshes](https://github.com/jvm-graphics-labs/awesome-3d-meshes/) : Famous benchmark and research 3D meshes.
+    - [Quaternius's Ultimate Low-Poly Models](https://quaternius.com/index.html), [First Animals by Oxford University](https://sketchfab.com/morethanadodo/collections/first-animals-f7736e90b06a49669e34356b65fb2659), [Wire Wheels Club: Free Car Models](https://wirewheelsclub.com/models/).
 - Other Sites:
-    - [Poly Pizza](https://poly.pizza/), [Xfree3D](https://vwartclub.com/?section=xfree3d), [Gumroad/free-3d-model](https://gumroad.com/discover?maxPrice=0&query=3d%20model), [Artstation Marketplace/free](https://www.artstation.com/marketplace/game-dev/resources/3d-models?section=trending&price_to=0), [Cubebrush/freebies](https://cubebrush.co/marketplace?freebies=true), [Daz3D/freebies](https://www.daz3d.com/free-3d-models#black), [3dsky.org/free](https://3dsky.org/3dmodels?types=free&page=1), [C4DDownload.com](https://c4ddownload.com/), [CadNav](https://www.cadnav.com/), [Archive 3D](https://free3d.io/), [ThePixelLab/freebies](https://www.thepixellab.net/freebies), [Models-Resource.com](https://www.models-resource.com/).
+    - [Gumroad/free-3d-model](https://gumroad.com/discover?maxPrice=0&query=3d%20model), [Artstation Marketplace/free](https://www.artstation.com/marketplace/game-dev/resources/3d-models?section=trending&price_to=0), [Cubebrush/freebies](https://cubebrush.co/marketplace?freebies=true), [Daz3D/freebies](https://www.daz3d.com/free-3d-models#black), [3dsky.org/free](https://3dsky.org/3dmodels?types=free&page=1), [Models-Resource.com](https://www.models-resource.com/).
 - CAD Models:
     - [GrabCAD](https://grabcad.com/library), [McMaster-Carr](https://www.mcmaster.com/cad-models/).
 - Kitbash Models:
     - [Free Hard Surface KitBash Models](https://gumroad.com/olegushenok?sort=page_layout&tags=free), [Free sci-fi kitbash set](https://cubebrush.co/polyworkshop/products/audboa/free-sci-fi-kitbash-set-fusion-360-zbrush), [3D Kitbashing library](https://gumroad.com/adrianrutkowski), [Kitbash Sci-fi Buildings](https://www.artstation.com/art-mage/store/Vb1A/kitbash-sci-fi-buildings-vol-1-5).
 - VDB Models:
-    - [Free VDB Simulations Created With Embergen](https://jangafx.com/software/embergen/download/free-vdb-animations/), [OpenVDB Sample Models](https://www.openvdb.org/download/), [disneyanimation.com/clouds](https://disneyanimation.com/resources/clouds/), [Free Volume Cloud and Smoke](https://gumroad.com/l/PCJDF), [High Altitude Clouds](https://gumroad.com/l/RcgNe).
+    - [Free VDB Simulations by JangaFX](https://jangafx.com/software/embergen/download/free-vdb-animations/) : Free EmberGen VDB fire, smoke, and explosion sequences ready to import into Blender.
+    - [OpenVDB Sample Models](https://www.openvdb.org/download/) : Official OpenVDB reference volumetric meshes and simulation datasets.
+    - [Disney Animation Clouds](https://disneyanimation.com/resources/clouds/) : Production volumetric cloud VDB datasets released by Walt Disney Animation Studios.
+    - Community VDB Clouds : [Free Volume Cloud and Smoke](https://gumroad.com/l/PCJDF), [High Altitude Clouds](https://gumroad.com/l/RcgNe).
 
 ### 🤸🏾‍♀️ Mocap/Animation
 
-- [Mixamo](https://www.mixamo.com/) : Animate 3D characters for games, film, and more.
-- [ActorCore](https://actorcore.reallusion.com/free) : Motion-capture library from Reallusion.
-- [Carnegie-Mellon University Graphics Lab Motion Capture Database BVH conversions](https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture) : Contains 2500 free human motion captures.
-- [Rokoko Studio](https://www.rokoko.com/products/studio/download) : Get 150 free mocap moves from Rokoko’s Motion Library.
-- [Bandai Namco Research Motiondataset](https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset) : The R&D division of game publisher and developer Bandai Namco, has released a massive library of free motion-capture data for research and personal use.
-- [turbosquid/motion-capture](https://www.turbosquid.com/Search/Motion-Capture/free/), [Sketchfab/animated](https://sketchfab.com/3d-models?features=downloadable+animated&sort_by=-likeCount).
+- Free Mocap & Animation Libraries:
+    - [Mixamo](https://www.mixamo.com/) : Free auto-rigging and thousands of downloadable character animations for games, film, and Blender workflows.
+    - [Quaternius Universal Animation Library](https://quaternius.com/packs/universalanimationlibrary.html) : Free game-ready humanoid animation pack distributed in clean `FBX` and `GLB` formats. ![][zero]
+    - [CMU Motion Capture Database](https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture) : 2,500+ free human motion capture animations in `.bvh` format from Carnegie Mellon University.
+    - [ACCAD Open Motion Project](https://accad.osu.edu/research/motion-lab/mocap-system-and-data) : Open motion capture archive (`.bvh` / `.c3d`) from Ohio State University covering locomotion, martial arts, and everyday motions.
+    - [Bandai Namco Research Motiondataset](https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset) : Large stylized human motion-capture dataset released by Bandai Namco Research for personal and academic use.
+    - [AMASS](https://amass.is.tue.mpg.de/) : Large-scale archive unifying 15+ optical motion capture datasets (including CMU) into a standard SMPL human skeleton representation.
+    - [Rokoko Studio](https://www.rokoko.com/products/studio/download) : Includes 150+ free animations in Rokoko's Motion Library alongside Blender retargeting workflows.
+    - [ActorCore](https://actorcore.reallusion.com/free) : Motion-capture animation library from Reallusion featuring free starter packs and commercial assets.
+    - [turbosquid/motion-capture](https://www.turbosquid.com/Search/Motion-Capture/free/), [Sketchfab/animated](https://sketchfab.com/3d-models?features=downloadable+animated&sort_by=-likeCount).
+- AI Video-to-Mocap & Markerless Capture:
+    - [FreeMocap](https://freemocap.org/) : Free, open-source markerless 3D motion capture studio using standard cameras/webcams with built-in Blender scene and rig export. [![][repo]](https://github.com/freemocap/freemocap)
+    - [GVHMR](https://github.com/zju3dv/GVHMR) : Gravity-aware AI 3D human motion recovery from single-camera monocular video for animation and SMPL/Blender pipelines.
+    - [DeepMotion](https://www.deepmotion.com/) [$] : Cloud AI video-to-mocap tool capturing full-body, hand, and facial motion with `FBX`, `BVH`, and `GLB` exports for Blender.
+    - [Move.ai](https://www.move.ai/) [$] : Markerless single- and multi-camera AI motion capture with production `FBX` export.
+    - [Plask](https://plask.ai/en-US) [$] : Browser-based AI video-to-mocap and keyframe cleanup platform exporting `FBX` and `BVH` animations.
 
 ### 🌑 Textures
 
@@ -438,70 +448,66 @@
     - [Poly Haven/Textures](https://polyhaven.com/textures) : Poly Haven/Textures is a website where you can find high quality scanned textures for free. [![][zero]](https://polyhaven.com/license)
     - [ambientCG](https://ambientcg.com/) : Get hundreds of PBR materials and textures for free under the Public Domain license. [![][zero]](https://docs.ambientcg.com/license/)
     - [cgbookcase](https://www.cgbookcase.com/textures) : Discover a library of high-quality PBR textures. Free for every purpose, forever. Some Blender tutorials here and there. [![][zero]](https://creativecommons.org/publicdomain/zero/1.0/)
-    - [3DAssets.one](https://3dassets.one/) : Search-engine which allows you to explore the largest free texture sites all at once.
+    - [3DAssets.one](https://3dassets.one/) : Search-engine allowing you to explore the largest free CC0 PBR texture, model, and HDRI sites all at once.
     - [3DTextures.me](https://3dtextures.me/) : Free seamless PBR textures. [![][zero]](https://3dtextures.me/about/)
     - [CC0 Materials](https://cc0materials.com/) : Free PBR materials up to 4K with OpenGL and DirectX normal maps and a 3D preview. [![][zero]](https://cc0materials.com/license)
     - [FreePBR.com](https://freepbr.com/) : Free PBR materials and texture files.
     - [twirl](https://twirl.tools/dashboard) : Free library of high quality PBR materials. Unlimited downloads with no signup.
     - [ShareTextures](https://www.sharetextures.com/) : Free High Quality Material Archive for everybody. [![][zero]](https://www.sharetextures.com/p/license)
+    - [TextureCan](https://www.texturecan.com/) : Free CC0 PBR textures and material maps for 3D rendering and game development. ![][zero]
     - [Texture.Ninja](https://texture.ninja/) : Public domain photographic textures, reference images, cutouts. ![][zero]
     - [3DTexel](https://3dtexel.com/pbr-material/) : 1,000+ handmade seamless PBR materials in 4K (some up to 8K), including stylized/hand-painted ones. Free account required. [![][zero]](https://3dtexel.com/asset-license/)
     - [Texture Box](https://texturebox.com/) : We are making free textures for 3D Artists from all over the world. Also, we offer custome texture services.
-    - [C4DCenter](https://c4dcenter.com/material-library/) : Free C4D Materials created with High Quality Texture Maps for instant download and no limits, Free for Personal and Commercial Use.
     - [MatCaps](https://github.com/nidorx/matcaps) : Huge library of matcap PNG textures organized by color.
 - Freemium, Commercial & Specialized Libraries:
     - [Textures.com](https://www.textures.com/) [$] : Website that offers digital pictures of all sorts of materials. Sign up for free and download 15 free images every day!
     - [LotPixel](https://www.lotpixel.com/texture-library?credit=free) : Free scan-based textures of interior and exterior materials at up to 8K resolution. For commercial use.
     - [MaterialX Library](https://matlib.gpuopen.com/main/materials/all) : AMD launched a free MaterialX-based Material Library. It allows users to download the materials and encourages them to upload their own.
     - [IES Library](https://ieslibrary.com/browse) : Download free IES lighting files. IES files describe how light from a lamp is distributed in a room.
-    - [Substance Share](https://substance3d.adobe.com/community-assets/) : The free exchange platform for the Substance community.
-    - [Substance Source/freebies](https://substance3d.adobe.com/assets/) [$] : Hundreds of high quality PBR materials.
+    - [Adobe Substance 3D Assets](https://substance3d.adobe.com/assets/) [$] : Official PBR material library from Adobe Substance 3D, alongside free [Community Assets](https://substance3d.adobe.com/community-assets/).
     - [ScansLibrary](https://www.scanslibrary.com/library?credit=0) [$] : Digital marketplace with thousands of Real-World scans.
     - [Poliigon/freebies](https://www.poliigon.com/search?credit=0) [$] : A library of materials, and HDR's for artists including free textures that want photorealism.
     - [Texturing.xyz](https://texturing.xyz/) [$] : Our textures are used in the biggest and industry-leading VFX companies, and help them achieving their goals faster.
-- Other Sites:
-    - [EveryTexture.com](https://everytexture.com/latest/), [3DJungle.net](https://3djungle.net/textures/), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [TextureKing](https://www.textureking.com/category/all-textures/), [TextureCan](https://www.texturecan.com/).
-- Others:
-    - [gumroad/juliosillet](https://gumroad.com/juliosillet), [Pixar/CommunityResources](https://renderman.pixar.com/community_resources), [Nikola Damjanov's 100 PBR Texture Sets](https://www.artstation.com/artwork/0XEN4V), [Texture Hunt Collection](https://gumroad.com/l/texturehunt), [Photogrammetry Bark Textures](https://www.artstation.com/artwork/GJeVz), [treesDesigner PBR Leaf Textures](https://www.treesdesigner.com/materials-library/), [artstation/deepmind](https://www.artstation.com/deepmind/albums/89651), [CGTrader/textures](https://www.cgtrader.com/free-3d-models/textures), [artstation/alexbeddows](https://www.artstation.com/alexbeddows/store).
+    - [Solar Textures](https://www.solarsystemscope.com/textures/) : Real planetary maps in equirectangular projection based on NASA elevation and imagery data. ![][by]
+    - Planetary & Space Maps : [CGI Moon Kit](https://svs.gsfc.nasa.gov/4720/), [Moon 64k](https://gumroad.com/l/MOON_46K), [Earth 42k](https://gumroad.com/l/uHyhPT), [Planets Pack](https://gumroad.com/l/qMZOE).
+- Other Collections:
+    - [gumroad/juliosillet](https://gumroad.com/juliosillet), [Pixar/CommunityResources](https://renderman.pixar.com/community_resources), [Sketchup Texture Club](https://www.sketchuptextureclub.com/textures), [treesDesigner PBR Leaf Textures](https://www.treesdesigner.com/materials-library/).
 
 ### 🌲 Blender Scenes/Files
 
-- [Blend Swap](https://blendswap.com/3d) : Community repository for open-source `.blend` files and assets.
-- [Blender Demo Files](https://www.blender.org/download/demo-files/) : Official benchmark, splash screen, Cycles, EEVEE, and simulation `.blend` demo scenes.
-- [BlenderNation Free Models](https://www.blendernation.com/category/art/free-blender-models/) : Curated highlights of free `.blend` models and scenes from the community.
-- [Mantissa Resources](https://mantissa.xyz/free.html) : Free procedural `.blend` scenes and environment resources.
-- Creator Gumroad Libraries : [Blue Fox Creation](https://gumroad.com/bluefoxcreation), [Curtis Holt](https://gumroad.com/curtisjamesholt).
+- Official Scenes & Production Benchmarks:
+    - [Blender Demo Files](https://www.blender.org/download/demo-files/) : Official benchmark, splash screen, Cycles, EEVEE, and simulation `.blend` demo scenes.
+    - [Blender Studio Open Movies](https://studio.blender.org/films/) : Official production `.blend` files, rigs, and open-movie breakdown scenes from Blender Studio.
+    - [Blender Open Data](https://opendata.blender.org/) : Official Cycles and hardware performance benchmark `.blend` scenes and open test database.
+    - [NVIDIA ORCA](https://developer.nvidia.com/orca) : Open Research Content Archive hosting large-scale PBR and ray-tracing benchmark scenes such as Amazon Lumberyard Bistro.
+    - [Disney Moana Island Scene](https://www.disneyanimation.com/resources/moana-island-scene/) : Production OpenUSD Motunui Island dataset released by Walt Disney Animation Studios for large-scale instancing and lighting tests.
+- Community `.blend` Libraries:
+    - [BlenderNation Free Models](https://www.blendernation.com/category/art/free-blender-models/) : Curated highlights of free `.blend` models and scenes from the community.
+    - [Mantissa Resources](https://mantissa.xyz/free.html) : Free procedural `.blend` scenes and environment resources.
+    - Creator Gumroad Libraries : [Blue Fox Creation](https://gumroad.com/bluefoxcreation), [Curtis Holt](https://gumroad.com/curtisjamesholt).
 - Free Character Rigs:
     - [Blender Studio Official Rigs](https://studio.blender.org/characters/) : [Rain v2](https://studio.blender.org/characters/rain/v2/), [Snow v2](https://studio.blender.org/characters/snow/v2/).
-    - Community Character Rigs : [Red-Nelb](https://cgcookie.com/resource/red-nelb-rig-blender-2-8x), [Dancing Girl](https://gumroad.com/l/mZcjB), [Pharah (Overwatch)](https://pharah.gitlab.io/guide/), [Luchadora](https://www.artstation.com/marketplace/p/AWjx/luchadora-rig-blender), [Rocket Girl](https://gumroad.com/l/XGTxw), [Pikachu](https://blendswap.com/blend/23864), [MT-103 Droid](https://gumroad.com/l/zvlZV), [Baqir](https://www.youtube.com/watch?v=UIKuyOP68fA), [Ivan](https://gumroad.com/l/ivan-3d-model), [Cori](https://blendswap.com/blend/23381), [Judy Hopps](https://blendswap.com/blend/17309), [Scorbunny](https://gumroad.com/l/cvJbP).
+    - [Agora Community Assets](https://agora.community/assets) : Free studio-grade character rigs for Blender animation study (free account required).
+    - [P2Design Academy](https://www.p2design-academy.com/) : Free Blender character and body-mechanics practice rigs created by Pierrick Picaut (free account required).
 
 ### ⛅ HDRIs
 
-- [Poly Haven/HDRIs](https://polyhaven.com/hdris) : Hundreds of free CC0 high-resolution HDRI skies, indoor studios, and environments up to 16K+. [![][zero]](https://polyhaven.com/license)
-- [ambientCG/HDRIs](https://ambientcg.com/list?type=hdri) : Free CC0 public-domain HDRI environment maps in multiple resolutions up to 16K+. [![][zero]](https://docs.ambientcg.com/license/)
-- [Pixar/HDRI](https://renderman.pixar.com/category/111-hdri) : Free production-ready HDRI environments from Pixar RenderMan resources.
-- [HDRMaps/Freebies](https://hdrmaps.com/freebies/) : Free high-dynamic-range panoramas and photogrammetry backgrounds.
-- More Free HDRI Libraries : [Openfootage](https://www.openfootage.net/hdri-panorama/), [HDRI-Hub](https://www.hdri-hub.com/shop/free-samples/free-hdri-downloads), [HDRI-Skies](https://hdri-skies.com/), [Location Textures](https://locationtextures.com/panoramas/?sort=p.price&order=ASC), [Noah Witchell](https://www.noahwitchell.com/freebies), [Bob Groothuis](https://www.bobgroothuis.com/collections/360-hdri), [Viz-People](https://www.viz-people.com/portfolio/free-hdri-maps/), [NoEmotionHDRs](http://noemotionhdrs.net/hdrevening.html).
+- CC0 & Production HDRI Libraries:
+    - [Poly Haven/HDRIs](https://polyhaven.com/hdris) : Hundreds of free CC0 high-resolution HDRI skies, indoor studios, and environments up to 16K+. [![][zero]](https://polyhaven.com/license)
+    - [OpenHDRI](https://openhdri.org/) : Ad-free, account-free library of ultra-high-resolution CC0 HDRI environment maps up to 29K. ![][zero]
+    - [ambientCG/HDRIs](https://ambientcg.com/list?type=hdri) : Free CC0 public-domain HDRI environment maps in multiple resolutions up to 16K+. [![][zero]](https://docs.ambientcg.com/license/)
+    - [Pixar/HDRI](https://renderman.pixar.com/category/111-hdri) : Free production-ready HDRI environments from Pixar RenderMan resources.
+    - [HDRMaps/Freebies](https://hdrmaps.com/freebies/) : Free high-dynamic-range panoramas and photogrammetry backgrounds.
+- Other Free HDRI Libraries : [Openfootage](https://www.openfootage.net/hdri-panorama/), [HDRI-Skies](https://hdri-skies.com/free-hdris/), [HDRI-Hub](https://www.hdri-hub.com/shop/free-samples/free-hdri-downloads), [Viz-People](https://www.viz-people.com/portfolio/free-hdri-maps/), [Noah Witchell](https://www.noahwitchell.com/freebies).
 
 ### 🖼️ Art/Reference
 
 - Open-Access Museums & Art Archives:
     - [Dezoomify](https://dezoomify.ophir.dev/) : Download zoomable images from [Google Arts & Culture](https://artsandculture.google.com/), [The National Gallery](https://www.nationalgallery.org.uk/), [Gallica](https://gallica.bnf.fr/), [Van Gogh Museum](https://www.vangoghmuseum.nl/en/collection) and [more](https://github.com/lovasoa/dezoomify#supported-zoomable-image-formats). [![][repo]](https://github.com/lovasoa/dezoomify)
     - [The Metropolitan Museum of Art](https://www.metmuseum.org/art/collection/search#!?searchField=All&showOnly=openAccess&sortBy=Relevance&offset=0&pageSize=0) : Browse more than 406,000 hi-res images of public-domain works in The Met collection that can be downloaded, shared, and remixed without restriction.
-    - [Rijksmuseum ](https://www.rijksmuseum.nl/en/collection/search) : One of the largest museums in Europe dedicated to arts and history, made 250,000 works from its huge collection available for free online viewing or download.
-    - [The Art Institute of Chicago](https://www.artic.edu/collection?is_public_domain=1) : Download public-domain artworks from Art Institute of Chicago online collection. [![][zero]](https://www.artic.edu/image-licensing)
-    - [Paris Musées Collections](https://www.parismuseescollections.paris.fr/en/recherche/image-libre/true) : Paris Musées has released over 100,000 artworks into the public domain. They are all available for free high-resolution download online.
     - [Smithsonian Open Access](https://www.si.edu/openaccess) : Download, share, and reuse millions of the Smithsonian’s images right now, without asking. [![][zero]](https://www.si.edu/termsofuse)
-    - [National Gallery of Art Images](https://www.nga.gov/open-access-images.html) : Download images from collections of the National Gallery of Art. More than 51,000 open access digital images are available free of charge for download and use. ![][zero]
-    - [British Museum](https://www.britishmuseum.org/collection) : The British Museum Just Made 1.9M Stunningly Detailed Images Free Online.
-    - [J. Paul Getty Museum](https://www.getty.edu/art/collection/) : The Getty makes available, without charge, all available digital images to which the Getty holds the rights or that are in the public domain to be used for any purpose. No permission is required.
-    - [Los Angeles County Museum of Art](https://collections.lacma.org/search/site/?f[1]=bm_field_has_unrestricted_image%3Atrue) : Download public-domain artworks from LACMA's collections.
-    - [National Gallery of Denmark](https://open.smk.dk/en/art?q=*&filters=public_domain%3Atrue) : You can explore our highlights and get free images in high resolution of those artworks that are in the Public Domain.
-    - [Indianapolis Museum of Art Collection](https://collections.discovernewfields.org/) : Many images of public domain artworks are available for free download from the Indianapolis Museum of Art at Newfields' collection pages.
-    - [Birmingham Museums Trust](https://dams.birminghammuseums.org.uk/asset-bank/action/viewDefaultHome?browseType=folders) : Thousands of our out-of-copyright images are now available for all to use under a Creative Commons Zero Licence. More images are regularly being added. \([Unsplash Profile](https://unsplash.com/@birminghammuseumstrust)\) ![][zero]
+    - [Rijksmuseum](https://www.rijksmuseum.nl/en/collection/search) : One of the largest museums in Europe dedicated to arts and history, with hundreds of thousands of works available for free online viewing or download.
     - [Wikimedia Commons/Art](https://commons.wikimedia.org/wiki/Category:Art) : A collection of freely usable media files to which anyone can contribute. ![][cc]
-    - [Open Image Collections](https://blogs.ntu.edu.sg/openimagecollections/browse/#collections) : Collection of digital image sources include museum digital collections, stock images, photo archives, design resources and image search engines.
-    - [List of Museums & Libraries with Public-Domain Collection.](https://www.openculture.com/2016/05/1-8-million-free-works-of-art-from-world-class-museums-a-meta-list.html)
 - Anatomy, Nature, Historical & Concept References:
     - [Anatomy 360, Free Reference](https://anatomy360.info/anatomy-scan-reference-dump/) : 3D scanned human reference images.
     - [Wildlife Reference Photos](https://wildlifereferencephotos.com/gallery.php?mode=newest-media&page=1) : Wildlife reference photos for artists.
@@ -511,43 +517,32 @@
     - [The Empire University, Weapons Library](https://dinustyempire.notion.site/6-1-Weapons-library-0ab1d28137e749f0abfca738d93a9222) : Free reference resource for many types of weapons.
     - [Old Maps Online](https://www.oldmapsonline.org/) : Discovering the Cartography of the Past. Welcome to Old Maps Online, the easy-to-use gateway to historical maps in libraries around the world.
     - [Flickr, Creative Commons](https://www.flickr.com/creativecommons/) : Many Flickr users have chosen to offer their work under a Creative Commons license.
-
-### 🛰 Space
-
-- [Solar Textures](https://www.solarsystemscope.com/textures/) : These textures represent real planetary maps in equirectangular projection. Textures in this pack are based on NASA elevation and imagery data. ![][by]
-- [NASA-3D-Resources](https://science.nasa.gov/3d-resources/) : Here you'll find a growing collection of 3D models, textures, and images from inside NASA. All of these resources are free to download and use. [![][repo]](https://github.com/nasa/NASA-3D-Resources)
-- [Celestia Motherlode](http://www.celestiamotherlode.net/) : Repository for various addons like textures, models or celestial objects.
-- NASA : [James Webb Images](https://science.nasa.gov/mission/webb/multimedia/images/) ([flickr](https://www.flickr.com/photos/nasawebbtelescope/)), [Hubble Image Gallery](https://science.nasa.gov/mission/hubble/multimedia/hubble-images/) ([flickr](https://www.flickr.com/photos/nasahubble/)), [Astronomy Picture of the Day](https://science.nasa.gov/apod/archive/).
-- [Earth View](https://chromewebstore.google.com/detail/earth-view-from-google-ea/bhloflhklmhfpedakmangadcdofhnnoh) : Earth View is a collection of the most beautiful and striking landscapes found in Google Earth.
-- [Areo Browser](https://areobrowser.com/) : Easily explore all of the latest _martian_ terrain data and rover imagery, directly in your browser.
-- Others:
-    - [CGI Moon Kit](https://svs.gsfc.nasa.gov/4720), [Moon 64k](https://gumroad.com/l/MOON_46K), [Earth 42k](https://gumroad.com/l/uHyhPT), [Natural Earth III](http://www.shadedrelief.com/natural3/pages/textures.html), [Planets Pack](https://gumroad.com/l/qMZOE).
+    - NASA Space Imagery : [James Webb Images](https://science.nasa.gov/mission/webb/multimedia/images/), [Hubble Image Gallery](https://science.nasa.gov/mission/hubble/multimedia/hubble-images/), [Astronomy Picture of the Day](https://science.nasa.gov/apod/archive/).
 
 ### 🎧 Sound/Music
 
 - Sound Effects (SFX):
     - [Freesound.org](https://freesound.org/browse/) : Collaborative database of creative-commons licensed sound for musicians and sound lovers. [![][cc]](https://freesound.org/help/faq/#licenses)
     - [GameAudioGDC](https://sonniss.com/gameaudiogdc/) : Each year we give away thousands of dollars worth of sound effects for free in celebration of the Game Developers Conference. This is our archive. Everything is royalty-free and commercially usable.
-    - [SoundBible.com](https://soundbible.com/free-sound-effects-1.html) : Offers thousands of free sound effects, sound clips, and straight up sounds. These sounds can be used in a variety of sound projects. [![][by]](https://soundbible.com/about.php)
+    - [Kenney Audio](https://kenney.nl/assets/category:Audio) : Clean CC0 game, UI, and interface sound effect packs ready for games and animations. ![][zero]
+    - [Pixabay Sound Effects](https://pixabay.com/sound-effects/) : Royalty-free sound effects and ambient tracks ready for commercial projects without attribution.
     - [SFXMint](https://sfxmint.com/) : CC0 library of 10,300+ sound effects for games and videos; sounds are AI-generated or synthesized. [![][zero]](https://sfxmint.com/license)
     - [99Sounds.org](https://99sounds.org/free-sound-effects/) : Website offering free downloads of royalty-free content generated by its own users.
-    - [Freesfx.co.uk](https://www.freesfx.co.uk/) : This web site provides free sound effects that you are able to use in any commercial production.
     - [OpenGameArt.org/Sound](https://opengameart.org/art-search-advanced?keys=&title=&field_art_tags_tid_op=or&field_art_tags_tid=&name=&field_art_type_tid%5B%5D=13&sort_by=created&sort_order=DESC&items_per_page=24&Collection=) : Sound Effects from OpenGameArt.
-    - [Adobe Audition Sound Effects](https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html) : Includes thousands of uncompressed, royalty-free audio sound effects.
+    - [BBC Sound Effects](https://sound-effects.bbcrewind.co.uk/) : Archive of 33,000+ real-world sound effects (free for personal, educational, and research use under the RemArc license).
 - Royalty-Free & Creative Commons Music:
     - [Free Music Archive](https://freemusicarchive.org/home) : The iconic resource for free music, podcast safe and royalty free music for video.
-    - [YouTube/Audio Library](https://www.youtube.com/audiolibrary) : In the Audio Library in YouTube Studio, you can find royalty-free production music and sound effects to use in your videos.
+    - [Incompetech](https://incompetech.com/music/royalty-free/music.html) : Classic royalty-free music library by Kevin MacLeod widely used in short films, animations, and YouTube videos. [![][by]](https://creativecommons.org/licenses/by/4.0/)
     - [Pixabay/music](https://pixabay.com/music/) : Royalty free music from Pixabay.
-    - [Mixkit](https://mixkit.co/free-stock-music/) : Download Free Stock Video Footage, Stock Music & Premiere Pro Templates for your next video editing project.
-    - [Bensound](https://www.bensound.com/free-music-for-videos) : Top royalty free music freshly composed by independent artists. Use our royalty free music for YouTube videos, social media, films
-    - [Artlist](https://artlist.io/royalty-free-music) : Royalty-free music catalog for unlimited use in YouTube videos, social media & films created by inspiring indie artists worldwide.
+    - [Mixkit](https://mixkit.co/free-stock-music/) : Download free stock music, sound effects, and video footage without attribution.
     - [MusOpen.org](https://musopen.org/music/) : Online classical music library of copyright free, public domain music. ![][cc]
     - [ccMixter.org](https://dig.ccmixter.org/) : Community remix site operated by ArtisTech Media, created by Creative Commons. [![][cc]](https://dig.ccmixter.org/licenses)
-    - [Bandcamp.com/cc](https://bandcamp.com/discover/creative-commons) : Creative-common music from Bandcamp.
-    - [Soundcloud/cc](https://soundcloud.com/search/sounds?q=house&filter.license=to_use_commercially) : Search for licensed under a Creative Commons License.
-    - [GameSounds.xyz](https://gamesounds.xyz/) : Royalty free music and sounds for your games.
-    - [Unminus](https://www.unminus.com/) : Curated Royalty Free Music. Let's create Unsplash for Music together.
-    - [Netlabels](https://archive.org/details/netlabels) : This collection hosts complete, freely downloadable/streamable, often Creative Commons-licensed catalogs of virtual record labels.
+- AI Foley, Video-to-Audio & Synth Generators:
+    - [MMAudio](https://github.com/hkchengrex/MMAudio) : Open-source CVPR 2025 multimodal Video-to-Audio synthesis model that generates frame-synchronized foley and ambient sound from silent 3D renders and videos. ![][mit]
+    - [HunyuanVideo-Foley](https://github.com/Tencent-Hunyuan/HunyuanVideo-Foley) : Open-source Text-and-Video-to-Audio framework synthesizing 48kHz high-fidelity cinematic foley synchronized with video motion.
+    - [AudioCraft](https://github.com/facebookresearch/audiocraft) : Open-source deep learning audio suite by Meta including MusicGen and AudioGen for text-to-music and text-to-SFX generation. ![][mit]
+    - [jsfxr](https://sfxr.me/) : Open-source browser-based procedural sound effect synthesizer ideal for retro, UI, and game SFX. [![][repo]](https://github.com/chr15m/jsfxr)
+    - [ElevenLabs Sound Effects](https://elevenlabs.io/sound-effects) [$] : AI text-to-sound-effects generator for custom foley, ambiences, and impacts (free starter tier).
 
 ### 🔗 Related Awesome Lists
 
@@ -569,7 +564,7 @@
 
 ## 🖥️ Standalone
 
-### 3D Tools
+### 🔧 3D Tools
 
 - Mesh Processing, Retopology & Voxels:
     - [MeshLab](https://www.meshlab.net/) : Open source system for processing and editing 3D triangular meshes. [![][repo]](https://github.com/cnr-isti-vclab/meshlab)
@@ -579,16 +574,16 @@
     - [Goxel](https://github.com/guillaumechereau/goxel) : Create voxel graphics. Export to obj, pyl, png, magica voxel, qubicle.
     - [aerialod](https://ephtracy.github.io/index.html?page=aerialod) : A free interactive path tracing renderer for height maps.
 - Characters, Sculpting, Rigging & Animation:
-    - [Make Human](http://www.makehumancommunity.org/) : Open-source tool for making 3D characters. ([blender addon](https://github.com/makehumancommunity/makehuman-plugin-for-blender)) [![][repo]](https://github.com/makehumancommunity/makehuman)
     - [VRoid Studio](https://vroid.com/en/studio) : A 3D character maker that specializes in Japanese anime-like expressions.
     - [AccuRIG](https://actorcore.reallusion.com/auto-rig) : Free application designed for fast and easy character rigging.
     - [Cascadeur](https://cascadeur.com/) : Standalone software for creating keyframe animation of 3D characters, humanoid or otherwise. _Free for early adopters._
-    - [Medium by Adobe](https://www.oculus.com/experiences/rift/3257686387611106/) : Medium is a dedicated VR sculpting and painting package for users of Oculus headsets, capable of exporting models to DCC applications in OBJ or FBX format.
+    - [Nomad Sculpt](https://nomadsculpt.com/) [$] : Popular portable sculpting and vertex-painting application for iPad, Android, and desktop with clean exports to Blender.
 - Modeling, Architecture, Volumetrics & Scene Tools:
+    - [Blockbench](https://www.blockbench.net/) : Open-source low-poly and pixel-textured 3D model editor with native glTF/OBJ workflows for Blender and game engines. [![][repo]](https://github.com/JannisX11/blockbench) ![][gpl]
+    - [Plasticity](https://www.plasticity.xyz/) [$] : NURBS modeling CAD tool built for concept artists and hard-surface workflows alongside Blender. [![][repo]](https://github.com/nkallen/plasticity)
+    - [FreeCAD](https://www.freecad.org/) : Open-source parametric 3D CAD modeler suitable for precision mechanical parts and 3D printing exported to Blender. [![][repo]](https://github.com/FreeCAD/FreeCAD)
     - [Dust3D](https://dust3d.org/) : Cross-platform open-source modeling software. It helps you create a 3D watertight model in seconds.
-    - [Clavicula](https://clavicula.link/) : Intuitive and free 3D modeling software for everyone.
     - [Sweet Home 3D](https://www.sweethome3d.com/) : Free interior design application that helps you draw the plan of your house, arrange furniture on it and visit the results in 3D. [![][repo]](https://sourceforge.net/projects/sweethome3d/files/)
-    - [3D House Planner](https://www.3dhouseplanner.com/) : Professional home design web application that allows users to design houses and apartments.
     - [Spline](https://spline.design/) : Easily create and publish 3D web experiences. Build and iterate fast with production-ready results.
     - [TreeIt](https://www.evolved-software.com/treeit/treeit) : Easy to use real time 3D tree generator for the simple creation.
     - [EmberGen](https://jangafx.com/software/embergen/) [$] : Real-time volumetric fluid simulation tool that can instantly simulate, render, and export flipbooks, image sequences, and VDB volumes.
@@ -597,7 +592,7 @@
     - [Connecter](https://connecterapp.com/) : Free and visual creative assets management for 3d, AEC and design professionals.
     - [Phototiler](https://halfmaps.itch.io/phototiler) : Lightweight photorealistic map renderer that allows quick rendering of 3D maps for creative cartography.
 
-### Various Tools
+### 🧰 Various Tools
 
 - Reference Boards & Media Review:
     - [PureRef](https://www.pureref.com/) : Simple way to view and organize your reference images.
@@ -605,8 +600,7 @@
     - [DJV](https://grizzlypeak3d.github.io/DJV/) : Professional image sequence, media review software for VFX, animation, and film production. [![][repo]](https://github.com/grizzlypeak3d/DJV)
     - [Exr-IO](https://www.exr-io.com/) : Robust and exact solution for dealing with multi-layer EXR pictures. It supports Cryptomatte.
     - [GameTextureViewer](https://jangafx.com/software/gametextureviewer/) : Fast, reliable, and simple tool for artists to preview textures and sprite sheet animations on the fly.
-    - [PickPicPack](https://p4ymak.gumroad.com/l/pickpicpack) : Tiny yet powerful utility for packaging multiple images to new one with custom aspect ratio and size.
-- Compositing, Shaders, Particles & Fractals:
+- Compositing, Shaders & Particles:
     - [Natron](https://natrongithub.github.io/) : Open Source Compositing Software For VFX and Motion Graphics. [![][repo]](https://github.com/NatronGitHub/Natron)
     - [SHADERed](https://github.com/dfranx/SHADERed) : Lightweight tool for creating and testing HLSL and GLSL shaders.
     - [CineShader](https://cineshader.com/editor) : CineShader is a real-time 3D shader visualiser. It leverages the _Shadertoy_ API to bring thousands of existing shader artworks into a cinematic 3D environment.
@@ -614,60 +608,57 @@
     - [Effekseer](https://effekseer.github.io/en/) : Open source particle effect creating tool.
     - [Particle Illusion](https://borisfx.com/products/particle-illusion/) : Free GPU-accelerated 2D particle generator.
     - [F3D](https://f3d.app) : Fast and minimalist open source cross-platform 3D viewer. Support many fileformats and rendering style. [![][repo]](https://github.com/f3d-app/f3d)
-    - [Possumwood](https://github.com/martin-pr/possumwood) : Graph-based procedural sandbox, implementing concepts of graph-based visual programming in a simple interface.
-    - [Mandelbulb3D](https://github.com/thargor6/mb3d) : Free open-source software created for 3D fractal imaging.
-    - [JWildfire](https://github.com/thargor6/JWildfire) : Open-source flame fractal generator and image processing software.
     - [Processing](https://processing.org/) : Flexible software sketchbook and a language for learning how to code within the context of the visual arts. [![][repo]](https://github.com/processing/processing)
 - Blender Tools & Custom Builds:
     - [Goo Engine](https://github.com/dillongoostudios/goo-engine) : Custom open-source build of Blender by DillonGoo Studios tailored for 3D anime and Non-Photorealistic Rendering (NPR). ![][gpl]
+    - [Bforartists](https://www.bforartists.de/) : Open-source Blender fork focused on streamlined UI ergonomics, menus, and discoverable workflows. [![][repo]](https://github.com/Bforartists/Bforartists)
     - [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater) : Download and install nightly builds with one click.
     - [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI) : Command line version of BlenderUpdater.
     - [Blender Launcher V2](https://github.com/Victor-IX/Blender-Launcher-V2) : Standalone client for managing official builds of Blender.
     - [Blender Manager](https://github.com/verlorengest/BlenderManager) : Auto-Update, Project Management and Time Tracking, Addon Control, Version Handling, Render Management, and More.
     - [Sheep it Render Farm](https://www.sheepit-renderfarm.com/) : Free distributed render farm for Blender.
 
-### Photogrammetry
+### 📷 Photogrammetry
 
 - [Meshroom](https://alicevision.org/#meshroom) : Free, open-source 3D Photogrammetry Software. [![][repo]](https://github.com/alicevision/meshroom)
 - [COLMAP](https://colmap.github.io/) : Reconstruct 3D models from ordered or unordered image collections automatically. [![][repo]](https://github.com/colmap/colmap)
 - [3DF Zephyr Free](https://www.3dflow.net/3df-zephyr-free/) : Is free version of 3DF Zephyr photogrammetry software for personal use. It comes with some limitations.
 - [MicMac](https://github.com/micmacIGN/micmac) : Free open-source photogrammetric suite that can be used in a variety of 3D reconstruction scenarios.
-- [RealityCapture](https://www.capturingreality.com/) [$] : Create virtual reality scenes, textured 3D meshes, orthographic projections, geo-referenced maps and much more from images and/or laser scans completely automatically.
+- [RealityScan](https://www.realityscan.com/) : Unified desktop and mobile photogrammetry suite by Epic Games (formerly RealityCapture), free under indie/small-revenue thresholds.
 - [Agisoft Metashape](https://www.agisoft.com/) [$] : Stand-alone software product that performs photogrammetric processing of digital images and generates 3D spatial data.
-- [RealityScan](https://www.capturingreality.com/introducing-realityscan) : A free 3D scanning app, developed in collaboration with Quixel, that turns smartphone photos into high-fidelity 3D models in the most accessible way possible.
+- [Postshot](https://www.jawset.com/) : Standalone desktop application for training and editing 3D Gaussian Splatting (`.ply`) and radiance field scenes ready for Blender.
+- [Nerfstudio](https://github.com/nerfstudio-project/nerfstudio) : Open-source studio for training, editing, and exporting NeRF and 3D Gaussian Splatting scenes.
 - [SuperSplat](https://superspl.at/editor) : Free browser-based 3D Gaussian Splat editor for inspecting, cropping, cleaning, and exporting splat scenes. [![][repo]](https://github.com/playcanvas/supersplat) ![][mit]
 - [Brush](https://github.com/ArthurBrussee/brush) : Cross-platform 3D reconstruction and Gaussian Splatting training engine supporting real-time rendering.
 - [gsplat](https://docs.gsplat.studio/main/) : Open-source CUDA-accelerated rasterization library for training and rendering 3D Gaussian Splats. [![][repo]](https://github.com/nerfstudio-project/gsplat)
 
-### Texture/Material
+### 🧱 Texture/Material
 
 - [ArmorPaint](https://armorpaint.org/) : Open-Source 3D PBR Texture Painting Software. [![][repo]](https://github.com/armory3d/armorpaint)
 - [NVIDIA Texture Tools Exporter](https://developer.nvidia.com/texture-tools-exporter) : Allows users to create highly compressed texture files (that stay small both on disk and in memory) directly from image sources using NVIDIA’s CUDA-accelerated Texture Tools compressor technology.
 - [Materialize](https://boundingboxsoftware.com/materialize/) : Stand alone tool for creating materials from images. [![][repo]](https://github.com/BoundingBoxSoftware/Materialize)
 - [Material Maker](https://rodzilla.itch.io/material-maker) : Simple procedural materials generation tool. [![][repo]](https://github.com/RodZill4/material-maker)
 - [TextureLab](https://njbrown.itch.io/texturelab) : Tool designed to make procedural texture generation.
-- [AwesomeBump](https://github.com/kmkolasinski/AwesomeBump) : Generate normal, height, specular or ambient occlusion textures from a single image.
 - [Agisoft De-Lighter](https://agisoft.freshdesk.com/support/solutions/articles/31000158376-agisoft-texture-de-lighter-general-workflow) : Free stand-alone tool designed to remove shadows from model textures. [[download]](https://www.agisoft.com/downloads/installer/)
 - [Agama Materials](https://agama.itch.io/agama-materials) : Is software for creating PBR materials and painting 3d models. You can create materials and use them for painting models, or you can use pre-made textures.
 - [Architextures - Create](https://architextures.org/create) : Web app allows you to create seamless textures, bump maps and CAD hatches. Select any of the parameters to get started.
 - [Normal Map Bench](https://normalmapbench.com/) : Free browser-based normal map generator from images with live strength, smoothing, edge and lighting controls; OpenGL/DirectX export.
 
-### Terrain
+### 🗻 Terrain & Height Maps
 
-- [TerreSculptor](https://www.demenzunmedia.com/home/terresculptor/) : Terrain creation and editing software. It is freeware.
-- [World Machine](https://www.world-machine.com/) : Command powerful tools like erosion and advanced colormaps to create terrain heightmaps, meshes, and textures for your game or 3D scene. You can use the Basic Edition for free.
-- [Terragen](https://planetside.co.uk/free-downloads/) : Ray-tracing supported terrain generator. There is free version with some limitations.
-- [World Creator](https://www.bitethebytes.com/products/world-creator) [$] : Real-time terrain generator and landscape generator.
-- [Gaea](https://quadspinner.com/) : Sophisticated and modern terrain design software for apex results in moments. There is Community Free edition with some limitations.
-- [Instant Terra](https://www.wysilab.com/) : Real-time terrain generation tool. Create your terrain, world, and landscape for your game, movie, or simulation.
+- Terrain Generators:
+    - [TerreSculptor](https://www.demenzunmedia.com/home/terresculptor/) : Terrain creation and editing software. It is freeware.
+    - [World Machine](https://www.world-machine.com/) : Command powerful tools like erosion and advanced colormaps to create terrain heightmaps, meshes, and textures for your game or 3D scene. You can use the Basic Edition for free.
+    - [Terragen](https://planetside.co.uk/free-downloads/) : Ray-tracing supported terrain generator. There is free version with some limitations.
+    - [World Creator](https://www.bitethebytes.com/products/world-creator) [$] : Real-time terrain generator and landscape generator.
+    - [Gaea](https://quadspinner.com/) : Sophisticated and modern terrain design software for apex results in moments. There is Community Free edition with some limitations.
+    - [Instant Terra](https://www.wysilab.com/) : Real-time terrain generation tool. Create your terrain, world, and landscape for your game, movie, or simulation.
+- Real-World Height Maps:
+    - [Tangram Heightmapper](https://tangrams.github.io/heightmapper/) : Interactive grayscale heightmap browser, which can generate heightmaps for use in 3D applications.
+    - [OpenTopography/datasets](https://portal.opentopography.org/datasets) : Facilitates community access to high-resolution, Earth science-oriented, topography data, and related tools and resources. _Registration required_.
+    - [Copernicus DEM - ESA](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM) : The Copernicus Digital Elevation Model is a Digital Surface Model (DSM) that represents the surface of the Earth including buildings, infrastructure and vegetation.
 
-### Real-World Height Maps
-
-- [Tangram Heightmapper](https://tangrams.github.io/heightmapper/) : Interactive grayscale heightmap browser, which can generate heightmaps for use in 3D applications.
-- [OpenTopography/datasets](https://portal.opentopography.org/datasets) : Facilitates community access to high-resolution, Earth science-oriented, topography data, and related tools and resources. _Registration required_.
-- [Copernicus DEM - ESA](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM) : The Copernicus Digital Elevation Model is a Digital Surface Model (DSM) that represents the surface of the Earth including buildings, infrastructure and vegetation.
-
-### Point Cloud/LiDAR Data
+### 📡 Point Cloud/LiDAR Data
 
 - [OpenTopography](https://portal.opentopography.org/dataCatalog?formats=0) : Collaborative data repository for LiDAR users.
 - [NOAA’s Data Access Viewer](https://coast.noaa.gov/dataviewer/#/lidar/search/) : This online tool allows a user to search for and download lidar, imagery, and land cover data.
@@ -676,30 +667,24 @@
 - [USGS/Entwine](https://usgs.entwine.io/) : This website provides Potree and Plasio.js interfaces to the AWS USGS LiDAR Public Dataset. [![][repo]](https://github.com/hobuinc/usgs-lidar)
 - [Sketchfab/lidar](https://sketchfab.com/tags/lidar), [Sketchfab/point-cloud](https://sketchfab.com/tags/point-cloud).
 
-### Generator
+### 🪄 Generator
 
 - [JSplacement](https://archive.org/details/jsplacement-1.3.0-allplatforms_202108) : Cross-platform pseudo-random 8K displacement map generator.
 - [Procedural City Generator](https://probabletrain.itch.io/city-generator) : Create procedurally generated city maps in the style of American grid-based cities. [![][repo]](https://github.com/ProbableTrain/MapGenerator)
 - [Medieval Fantasy City Generator](https://watabou.itch.io/medieval-fantasy-city-generator) : This application generates a random medieval city layout of a requested size. [City Viewer](https://watabou.itch.io/city-viewer) : 3d-visualizer for MFCD. See other generators from [watabou.itch.io](https://watabou.itch.io/).
 - [city-roads](https://anvaka.github.io/city-roads/) : This website allows you to select a city and then draws every single road on a screen. [![][repo]](https://github.com/anvaka/city-roads)
 
-### Sound/Music
+### 📹 Painting, Audio & Post-Production
 
-- [Audacity](https://www.audacityteam.org/) : Free, open source, cross-platform audio software.
-- [AudioMass](https://audiomass.co/) : Open-source web based audio and waveform editing tool.
-- SFX Generators : [rFXGen](https://raylibtech.itch.io/rfxgen), [sfxia](https://rxi.itch.io/sfxia), [LabChirp](https://labbed.net/software/labchirp/), [Bfxr](https://iznaut.itch.io/bfxr).
-
-### Painting
-
+- [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) : Industry-standard NLE, color grading (ACES/AgX), and Fusion node compositing companion for Blender EXR sequences (free & Studio editions).
 - [Krita](https://krita.org/en/) : Professional free and open source painting program. It is made by artists that want to see affordable art tools for everyone. [![][repo]](https://github.com/KDE/krita)
 - [HEAVYPAINT](https://www.heavypaint.com/) : Simple app designed for graphic painting. The UI is streamlined for fluid, happy painting with as little friction as possible.
+- [Audacity](https://www.audacityteam.org/) : Free, open source, cross-platform audio software.
+- [AudioMass](https://audiomass.co/) : Open-source web based audio and waveform editing tool.
 
 <p align="right"><sub><a href="#table">↑ Back to top</a></sub></p>
 
 ---
-
-<!-- Contributing Guidelines for Explore Blender:
--->
 
 <!-- Contributing Guidelines for Tutorials:
 - The added video must have information appropriate to the category.
@@ -806,7 +791,7 @@
 - ▷[3D Tracking with COLMAP & Blender by Polyfjord.](https://www.youtube.com/watch?v=xx85eyN1Xc0)
 - ▷[How to Animate in Blender with Free AI Mocap Tools by ProductionCrate.](https://www.youtube.com/watch?v=mifGsXHitvs)
 - ☰[Blender Motion Tracking Series by CGMatter.](https://www.youtube.com/playlist?list=PL4EqKJjrgoVTCrjTOBHePGXHqFdqaPYyR)
-- ▷[Add VFX to Cinematic RAW and LOG Footage by InLightVFX.](https://youtu.be/LssHxDCM7H4)
+- ▷[Add VFX to Cinematic RAW and LOG Footage by InLightVFX.](https://www.youtube.com/watch?v=LssHxDCM7H4)
 
 ### 🧠 Fundamentals & CG
 
@@ -887,13 +872,10 @@ _Some accounts where you can find different kinds of content related to blender.
 [@bluefox_3d](https://x.com/bluefox_3d),
 [@LucaRood](https://x.com/LucaRood),
 [@janurschel](https://x.com/janurschel),
-[@zuggamasta](https://x.com/zuggamasta),
 [@andrewpprice](https://x.com/andrewpprice),
 [@brentpatterson](https://x.com/brentpatterson),
 [@FinEskimo](https://x.com/FinEskimo),
 [@VicDoval](https://x.com/VicDoval)
-
-<!-- Need to help for channel descriptions -->
 
 ### 📢 YouTube Channels
 
@@ -966,7 +948,7 @@ _Some accounts where you can find different kinds of content related to blender.
 
 ### 🏆 Challenges & Events
 
-- [Nodevember](https://x.com/NodevemberIO) : Annual month-long November challenge dedicated to creating and sharing procedural 3D art and node setups.
+- [Nodevember](https://x.com/hashtag/nodevember) : Annual month-long November challenge dedicated to creating and sharing procedural 3D art and node setups.
     - See works: [x/#nodevember](https://x.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?sort_by=relevance&query=nodevember)
 - [SculptJanuary](https://community.cgboost.com/c/challenge/) : Annual 31-day January sculpting challenge with daily prompts to build speed and anatomy skills.
     - See works: [x/#sculptjanuary](https://x.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary)
@@ -983,7 +965,7 @@ _Some accounts where you can find different kinds of content related to blender.
 
 ### Symbols
 
-> `[$]` paid ones, ![][repo] repo link, ![market] Superhive (Blender Market), `🧾` doc.
+> `[$]` paid ones, ![][repo] repo link, ![market] Superhive (Blender Market), `🧾` doc, `📦` course.
 
 #### Video Symbols:
 

@@ -868,6 +868,14 @@ function DirectoryPage() {
               >
                 Blender Extensions
               </a>
+              <a
+                href="/llms.txt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-foreground underline-offset-4 hover:underline"
+              >
+                llms.txt
+              </a>
             </div>
           </div>
         </footer>

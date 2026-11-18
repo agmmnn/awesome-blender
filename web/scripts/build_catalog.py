@@ -27,7 +27,11 @@ ROOT_DIR = WEB_DIR.parent
 README_EN = ROOT_DIR / "README.md"
 README_ZH = ROOT_DIR / "README_ZH.md"
 OUTPUT_JSON = WEB_DIR / "src" / "data" / "catalog.json"
+OUTPUT_PUBLIC_JSON = WEB_DIR / "public" / "catalog.json"
 OUTPUT_SITEMAP = WEB_DIR / "public" / "sitemap.xml"
+OUTPUT_LLMS_TXT = WEB_DIR / "public" / "llms.txt"
+OUTPUT_LLMS_FULL_TXT = WEB_DIR / "public" / "llms-full.txt"
+OUTPUT_LLMS_DIR = WEB_DIR / "public" / "llms"
 
 DIRECTORY_SECTION_IDS = {"add-ons", "ai-mcp", "resources", "standalone"}
 EXCLUDED_DIRECTORY_CATEGORIES = {
@@ -949,6 +953,255 @@ def build_sitemap_xml(catalog: dict[str, Any], site_url: str) -> str:
     return "\n".join(lines) + "\n"
 
 
+def _format_llms_entry(entry: dict[str, Any]) -> str:
+    """Format a non-social CatalogEntry as a concise Markdown bullet for LLMs."""
+    indent = "  " if entry.get("parentId") else ""
+    kind = entry.get("kind", "item")
+    title = entry["title"]["en"]
+    url = entry.get("url")
+    desc = (
+        entry.get("descriptionMd", {}).get("en")
+        or entry.get("description", {}).get("en")
+        or ""
+    ).strip()
+
+    tags: list[str] = []
+    if entry.get("isPaid"):
+        tags.append("paid")
+    if entry.get("mediaType"):
+        tags.append(entry["mediaType"])
+    for lic in entry.get("licenses", []):
+        tags.append(lic.upper())
+    if entry.get("blenderExtensionId"):
+        tags.append(f"ext:{entry['blenderExtensionId']}")
+    elif "open-source" in entry.get("platforms", []) and not any(
+        l in ("gpl", "mit", "zero") for l in entry.get("licenses", [])
+    ):
+        tags.append("open-source")
+
+    if kind == "collection":
+        links = [
+            f"[{sl['label']['en']}]({sl['url']})"
+            for sl in entry.get("secondaryLinks", [])
+            if sl.get("url")
+        ]
+        if links:
+            return f"{indent}- **{title}**: {', '.join(links)}"
+        return f"{indent}- **{title}**"
+
+    head = f"[{title}]({url})" if url else f"**{title}**"
+
+    extra_links: list[str] = []
+    for sl in entry.get("secondaryLinks", []):
+        s_url = sl.get("url")
+        if not s_url or s_url == url or sl.get("type") == "license":
+            continue
+        s_lbl = sl.get("label", {}).get("en") or sl.get("type") or "Link"
+        extra_links.append(f"[{s_lbl}]({s_url})")
+
+    parts = [head]
+    if desc:
+        parts.append(f": {desc}")
+    if tags:
+        parts.append(f" `[{' · '.join(tags)}]`")
+    if extra_links:
+        parts.append(f" ({', '.join(extra_links)})")
+    return f"{indent}- {''.join(parts)}"
+
+
+def build_llms_section_md(
+    sec: dict[str, Any], site_url: str, heading_level: int = 1
+) -> str:
+    """Render one top-level catalog section into clean LLM-friendly Markdown."""
+    base = site_url.rstrip("/")
+    h_sec = "#" * heading_level
+    h_cat = "#" * (heading_level + 1)
+    h_sub = "#" * (heading_level + 2)
+
+    total_entries = sum(len(cat["entries"]) for cat in sec["categories"])
+    lines: list[str] = [f"{h_sec} {sec['title']['en']}"]
+    if heading_level == 1:
+        lines.append("")
+        lines.append(
+            f"> {total_entries} curated entries across {len(sec['categories'])} categories. Index: {base}/llms.txt"
+        )
+
+    if sec.get("banners"):
+        lines.append("")
+    for banner in sec.get("banners", []):
+        b_title = banner.get("title", {}).get("en", "")
+        b_url = banner.get("url")
+        if b_url and b_title:
+            lines.append(f"- [{b_title}]({b_url})")
+        elif b_title:
+            lines.append(f"- {b_title}")
+
+    for cat in sec["categories"]:
+        lines.append("")
+        cat_heading = (
+            f"[{cat['title']['en']}]({cat['url']})" if cat.get("url") else cat["title"]["en"]
+        )
+        lines.append(f"{h_cat} {cat_heading}")
+        if cat.get("note") and cat["note"].get("en"):
+            lines.append("")
+            lines.append(f"> {cat['note']['en']}")
+
+        sg_map = {sg["id"]: sg for sg in cat.get("subgroups", [])}
+        current_sg: str | None = "__unset__"
+        social_handles: list[str] = []
+
+        def flush_handles() -> None:
+            if social_handles:
+                lines.append("")
+                lines.append(f"- Accounts: {', '.join(social_handles)}")
+                social_handles.clear()
+
+        for entry in cat["entries"]:
+            if entry.get("kind") == "social-handle":
+                social_handles.append(f"[{entry['title']['en']}]({entry['url']})")
+                continue
+
+            flush_handles()
+            sg_id = entry.get("subgroupId")
+            if sg_id != current_sg:
+                current_sg = sg_id
+                if sg_id and sg_id in sg_map:
+                    sg = sg_map[sg_id]
+                    sg_label = (
+                        f"[{sg['title']['en']}]({sg['url']})"
+                        if sg.get("url")
+                        else sg["title"]["en"]
+                    )
+                    lines.append("")
+                    lines.append(f"{h_sub} {sg_label}")
+                lines.append("")
+
+            if current_sg == "__unset__":
+                current_sg = None
+                lines.append("")
+
+            lines.append(_format_llms_entry(entry))
+
+        flush_handles()
+
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def build_llms_txt(catalog: dict[str, Any], site_url: str) -> str:
+    """Generate the `llmstxt.org`-compliant root index file."""
+    base = site_url.rstrip("/")
+    st = catalog["stats"]
+    lines: list[str] = [
+        "# Awesome Blender",
+        "",
+        (
+            f"> Curated bilingual (EN/ZH) directory of {st['totalEntries']} Blender add-ons, "
+            f"AI & MCP tools, 3D assets, HDRIs, standalone utilities, tutorials, and community resources — "
+            f"{st['freeEntries']} free entries, {st['uniqueGithubRepos']} GitHub repositories, "
+            f"and {st['uniqueBlenderExtensions']} official Blender Extensions."
+        ),
+        "",
+        (
+            "Use the section Markdown indexes or JSON catalog below to retrieve verified URLs, "
+            "licenses, and descriptions without hallucinating links. The web directory at "
+            f"`{base}/` supports query filters: `?section=`, `?category=`, `?subgroup=`, `?q=`, "
+            "`?price=free|paid`, `?platform=extensions|github|open-source|superhive|gumroad`, and "
+            "`?license=gpl|mit|zero|cc`."
+        ),
+        "",
+        "## Machine-Readable Catalog",
+        "",
+        (
+            f"- [Full Catalog (Markdown)]({base}/llms-full.txt): Complete plain-Markdown dump of all "
+            f"{st['totalSections']} sections, {st['totalCategories']} categories, and {st['totalEntries']} entries."
+        ),
+        (
+            f"- [Structured Catalog (JSON)]({base}/catalog.json): Lossless bilingual EN/ZH catalog JSON "
+            "(aggregate `stats` plus structured `sections -> categories -> entries`)."
+        ),
+        (
+            f"- [Interactive Web Directory]({base}/): Searchable directory of downloadable add-ons, "
+            "AI/MCP tools, 3D assets, and standalone apps."
+        ),
+        "",
+        "## Sections",
+        "",
+    ]
+
+    for sec in catalog["sections"]:
+        cnt = sum(len(cat["entries"]) for cat in sec["categories"])
+        preview_cats = ", ".join(cat["title"]["en"] for cat in sec["categories"][:5])
+        if len(sec["categories"]) > 5:
+            preview_cats += f" (+{len(sec['categories']) - 5} more)"
+        lines.append(
+            f"- [{sec['title']['en']}]({base}/llms/{sec['id']}.md): "
+            f"{cnt} entries across {len(sec['categories'])} categories ({preview_cats})."
+        )
+
+    lines.extend(["", "## Directory Categories", ""])
+    for sec in catalog["sections"]:
+        if sec["id"] not in DIRECTORY_SECTION_IDS:
+            continue
+        for cat in sec["categories"]:
+            if cat["id"] in EXCLUDED_DIRECTORY_CATEGORIES:
+                continue
+            valid_cnt = sum(
+                1 for e in cat["entries"] if e["kind"] == "item" and e.get("url")
+            )
+            if not valid_cnt:
+                continue
+            lines.append(
+                f"- [{sec['title']['en']} / {cat['title']['en']}]({base}/?section={sec['id']}&category={cat['slug']}): "
+                f"{valid_cnt} downloadable items."
+            )
+
+    lines.extend(
+        [
+            "",
+            "## Optional",
+            "",
+            "- [Canonical Markdown Source (English)](https://github.com/agmmnn/awesome-blender/blob/master/README.md): Upstream curated README list.",
+            "- [Canonical Markdown Source (Chinese)](https://github.com/agmmnn/awesome-blender/blob/master/README_ZH.md): Synchronized Simplified Chinese edition.",
+            "- [Contributing Guidelines](https://github.com/agmmnn/awesome-blender/blob/master/CONTRIBUTING.md): Submission rules and formatting standards.",
+            f"- [XML Sitemap]({base}/sitemap.xml): Bilingual `hreflang` sitemap for indexable directory views.",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def build_llms_full_txt(catalog: dict[str, Any], site_url: str) -> str:
+    """Generate the complete plain-Markdown catalog file (`llms-full.txt`)."""
+    base = site_url.rstrip("/")
+    st = catalog["stats"]
+    header = [
+        "# Awesome Blender — Full Catalog",
+        "",
+        (
+            f"> Complete plain-Markdown index of {st['totalEntries']} curated Blender add-ons, "
+            f"AI & MCP workflows, 3D assets, standalone tools, tutorials, and community links "
+            f"({st['freeEntries']} free, {st['paidEntries']} paid, {st['uniqueGithubRepos']} GitHub repos, "
+            f"{st['uniqueBlenderExtensions']} Blender Extensions). Index: {base}/llms.txt"
+        ),
+        "",
+    ]
+    body = [
+        build_llms_section_md(sec, site_url, heading_level=2).rstrip()
+        for sec in catalog["sections"]
+    ]
+    return "\n".join(header) + "\n\n".join(body) + "\n"
+
+
+def _verify_text_output(path: Path, expected: str) -> str | None:
+    """Return an error message if a generated file is missing or out of sync."""
+    if not path.exists() or path.read_text(encoding="utf-8") != expected:
+        return (
+            f"❌ {path.relative_to(ROOT_DIR)} is out of sync. "
+            "Run `python3 web/scripts/build_catalog.py`."
+        )
+    return None
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build data/catalog.json from READMEs.")
     parser.add_argument(
@@ -959,7 +1212,7 @@ def main() -> int:
     parser.add_argument(
         "--site-url",
         default=os.environ.get("SITE_URL", "https://awesome-blender.vercel.app"),
-        help="Base URL used in sitemap.xml",
+        help="Base URL used in sitemap.xml and llms.txt",
     )
     args = parser.parse_args()
 
@@ -970,40 +1223,60 @@ def main() -> int:
             print(f"  - {err}", file=sys.stderr)
         return 1
 
-    OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_SITEMAP.parent.mkdir(parents=True, exist_ok=True)
     rendered = json.dumps(catalog, ensure_ascii=False, indent=2) + "\n"
+    rendered_public_json = json.dumps(catalog, ensure_ascii=False, separators=(",", ":")) + "\n"
     rendered_sitemap = build_sitemap_xml(catalog, args.site_url)
+    rendered_llms = build_llms_txt(catalog, args.site_url)
+    rendered_llms_full = build_llms_full_txt(catalog, args.site_url)
+    section_outputs = {
+        OUTPUT_LLMS_DIR / f"{sec['id']}.md": build_llms_section_md(
+            sec, args.site_url, heading_level=1
+        )
+        for sec in catalog["sections"]
+    }
+
+    expected_files: list[tuple[Path, str]] = [
+        (OUTPUT_JSON, rendered),
+        (OUTPUT_PUBLIC_JSON, rendered_public_json),
+        (OUTPUT_SITEMAP, rendered_sitemap),
+        (OUTPUT_LLMS_TXT, rendered_llms),
+        (OUTPUT_LLMS_FULL_TXT, rendered_llms_full),
+        *section_outputs.items(),
+    ]
 
     if args.check:
-        if not OUTPUT_JSON.exists():
-            print(
-                f"❌ {OUTPUT_JSON.relative_to(ROOT_DIR)} does not exist. Run `python3 web/scripts/build_catalog.py`.",
-                file=sys.stderr,
-            )
-            return 1
-        current = OUTPUT_JSON.read_text(encoding="utf-8")
-        if current != rendered:
-            print(
-                f"❌ {OUTPUT_JSON.relative_to(ROOT_DIR)} is out of sync with README.md / README_ZH.md. Run `python3 web/scripts/build_catalog.py`.",
-                file=sys.stderr,
-            )
-            return 1
-        if not OUTPUT_SITEMAP.exists() or OUTPUT_SITEMAP.read_text(encoding="utf-8") != rendered_sitemap:
-            print(
-                f"❌ {OUTPUT_SITEMAP.relative_to(ROOT_DIR)} is out of sync. Run `python3 web/scripts/build_catalog.py`.",
-                file=sys.stderr,
-            )
-            return 1
-        print(f"✅ {OUTPUT_JSON.relative_to(ROOT_DIR)} and sitemap.xml are up-to-date and 100% lossless.")
+        for path, content in expected_files:
+            err = _verify_text_output(path, content)
+            if err:
+                print(err, file=sys.stderr)
+                return 1
+        if OUTPUT_LLMS_DIR.exists():
+            expected_names = {p.name for p in section_outputs}
+            stale = [p.name for p in OUTPUT_LLMS_DIR.glob("*.md") if p.name not in expected_names]
+            if stale:
+                print(
+                    f"❌ Stale section files in {OUTPUT_LLMS_DIR.relative_to(ROOT_DIR)}: {stale}",
+                    file=sys.stderr,
+                )
+                return 1
+        print(
+            f"✅ {OUTPUT_JSON.relative_to(ROOT_DIR)}, catalog.json, sitemap.xml, and llms.txt bundle are up-to-date and 100% lossless."
+        )
         return 0
 
-    OUTPUT_JSON.write_text(rendered, encoding="utf-8")
-    OUTPUT_SITEMAP.write_text(rendered_sitemap, encoding="utf-8")
+    OUTPUT_LLMS_DIR.mkdir(parents=True, exist_ok=True)
+    expected_names = {p.name for p in section_outputs}
+    for old_file in OUTPUT_LLMS_DIR.glob("*.md"):
+        if old_file.name not in expected_names:
+            old_file.unlink()
+
+    for path, content in expected_files:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(content, encoding="utf-8")
 
     st = catalog["stats"]
     print(
-        f"✅ Built {OUTPUT_JSON.relative_to(ROOT_DIR)} successfully:\n"
+        f"✅ Built {OUTPUT_JSON.relative_to(ROOT_DIR)}, public/catalog.json, sitemap.xml, and llms.txt bundle:\n"
         f"   Sections: {st['totalSections']} | Categories: {st['totalCategories']} | Subgroups: {st['totalSubgroups']}\n"
         f"   Entries:  {st['totalEntries']} {st['entryKinds']}\n"
         f"   URLs:     {st['totalContentUrls']} total ({st['uniqueContentUrls']} unique) — 100% lossless\n"
