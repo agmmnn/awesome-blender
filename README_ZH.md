@@ -910,7 +910,7 @@ _一些可以找到各种 Blender 相关内容的账号。_
 
 - [Blender Developers Blog](https://code.blender.org/)：Blender 官方核心工程博客，发布版本路线图、Geometry Nodes、EEVEE 与 Cycles 底层架构文章。
 - [Blender Studio Blog](https://studio.blender.org/blog/)：Blender Studio 官方团队的开源电影制作日志、幕后拆解与生产管线笔记。
-- [80 Level — Blender](https://80.lv/articles/tags/blender)：汇集游戏与视效行业 3D 艺术家的 Blender 场景、着色器与几何节点实战访谈拆解。
+- [80 Level — Blender](https://80.lv/articles/blender)：汇集游戏与视效行业 3D 艺术家的 Blender 场景、着色器与几何节点实战访谈拆解。
 - [Creative Shrimp](https://www.creativeshrimp.com/)：由 Gleb Alexandrov 与 Aidy Burrows 撰写的高质量 CG 文章、数字艺术解析与布光教程。
 - [Interplanety](https://b3d.interplanety.org/en/)：高频更新的 Blender 技术博客，涵盖 `bpy` Python 脚本开发、节点技巧与工作流笔记。
 - [Blender 3D Architect](https://www.blender3darchitect.com/)：专注于 Blender 建筑可视化与开源 AEC 工作流的新闻、教程与实战指南。

@@ -877,7 +877,7 @@
 
 - [Blender Developers Blog](https://code.blender.org/): Official engineering blog covering core Blender architecture, release roadmaps, Geometry Nodes, EEVEE, and Cycles development.
 - [Blender Studio Blog](https://studio.blender.org/blog/): Production logs, open-movie behind-the-scenes breakdowns, and pipeline notes from the Blender Studio team.
-- [80 Level — Blender](https://80.lv/articles/tags/blender): Industry interviews and step-by-step environment, shader, and Geometry Nodes breakdowns by 3D artists using Blender.
+- [80 Level — Blender](https://80.lv/articles/blender): Industry interviews and step-by-step environment, shader, and Geometry Nodes breakdowns by 3D artists using Blender.
 - [Creative Shrimp](https://www.creativeshrimp.com/): High-quality CG articles, digital art breakdowns, and lighting tutorials by Gleb Alexandrov and Aidy Burrows.
 - [Interplanety](https://b3d.interplanety.org/en/): Frequently updated technical articles, `bpy` Python scripting notes, and node workflow guides.
 - [Blender 3D Architect](https://www.blender3darchitect.com/): News, tutorials, and training focused on architectural visualization and open-source AEC tools in Blender.

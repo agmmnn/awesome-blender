@@ -24370,7 +24370,7 @@
                 "en": "80 Level — Blender",
                 "zh": "80 Level — Blender"
               },
-              "url": "https://80.lv/articles/tags/blender",
+              "url": "https://80.lv/articles/blender",
               "description": {
                 "en": "Industry interviews and step-by-step environment, shader, and Geometry Nodes breakdowns by 3D artists using Blender.",
                 "zh": "汇集游戏与视效行业 3D 艺术家的 Blender 场景、着色器与几何节点实战访谈拆解。"
@@ -24381,7 +24381,7 @@
               },
               "secondaryLinks": [],
               "allUrls": [
-                "https://80.lv/articles/tags/blender"
+                "https://80.lv/articles/blender"
               ],
               "isPaid": false,
               "isFree": true,
