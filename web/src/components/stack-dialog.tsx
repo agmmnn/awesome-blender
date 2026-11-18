@@ -21,6 +21,14 @@ export function StackDialog({
 }: StackDialogProps) {
   const [copied, setCopied] = React.useState(false);
 
+  // Auto-open modal upon initial lazy mount
+  React.useEffect(() => {
+    const dialog = dialogRef.current;
+    if (dialog && !dialog.open) {
+      dialog.showModal();
+    }
+  }, [dialogRef]);
+
   // Fallback for browsers without native <dialog closedby="any"> support
   React.useEffect(() => {
     const dialog = dialogRef.current;

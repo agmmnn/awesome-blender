@@ -84,6 +84,15 @@ export function ItemDetailDialog({
     setCopied(false);
   }, [item?.id]);
 
+  // Open modal automatically when item is set (works on initial lazy mount & hash load)
+  React.useEffect(() => {
+    const dialog = dialogRef.current;
+    if (item && dialog && !dialog.open) {
+      dialog.showModal();
+      dialog.focus();
+    }
+  }, [dialogRef, item]);
+
   // Keyboard ArrowLeft / ArrowRight navigation while dialog is open
   React.useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
