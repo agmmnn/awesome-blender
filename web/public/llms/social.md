@@ -1,6 +1,6 @@
 # Social
 
-> 106 curated entries across 6 categories. Index: https://awesome-blender.vercel.app/llms.txt
+> 104 curated entries across 6 categories. Index: https://awesome-blender.vercel.app/llms.txt
 
 ## Explore Artworks
 
@@ -19,7 +19,7 @@
 - [Blender Discord](https://discord.gg/blender): Community-managed Discord server for help, feedback, and showcases.
 - [Blender Stack Exchange](https://blender.stackexchange.com/): Q&A forum for Blender modeling, shading, rigging, and Python scripting.
 - [Blender Facebook Group](https://fb.com/groups/2207257375/): Community Facebook group for sharing Blender renders and questions.
-- **Blender Developers**: [Developer Portal](https://developer.blender.org/), [Developer Docs](https://developer.blender.org/docs/), [Developer Forum](https://forum.blender.org/), [Developers Blog](https://code.blender.org/)
+- **Blender Developers**: [Developer Portal](https://developer.blender.org/), [Developer Docs](https://developer.blender.org/docs/), [Developer Forum](https://forum.blender.org/)
 
 ## Accounts
 
@@ -93,15 +93,13 @@
 
 ## Blogs
 
-- [The Blend](https://blend.beehiiv.com): Weekly newsletter covering Blender news, articles, and 3D lessons.
-- [Blender Sushi](https://blendersushi.blogspot.com/): Archive of procedural 3D ideas, Geometry Nodes notes, and Blender experiments.
-- [Artisticrender](https://artisticrender.com/): In-depth articles, tutorials, and practical guides on Blender workflows and rendering.
+- [Blender Developers Blog](https://code.blender.org/): Official engineering blog covering core Blender architecture, release roadmaps, Geometry Nodes, EEVEE, and Cycles development.
+- [Blender Studio Blog](https://studio.blender.org/blog/): Production logs, open-movie behind-the-scenes breakdowns, and pipeline notes from the Blender Studio team.
+- [80 Level — Blender](https://80.lv/articles/tags/blender): Industry interviews and step-by-step environment, shader, and Geometry Nodes breakdowns by 3D artists using Blender.
 - [Creative Shrimp](https://www.creativeshrimp.com/): High-quality CG articles, digital art breakdowns, and lighting tutorials by Gleb Alexandrov and Aidy Burrows.
-- [Blender 3D Architect](https://www.blender3darchitect.com/): News, tutorials, and training focused on architectural visualization in Blender.
+- [Interplanety](https://b3d.interplanety.org/en/): Frequently updated technical articles, `bpy` Python scripting notes, and node workflow guides.
+- [Blender 3D Architect](https://www.blender3darchitect.com/): News, tutorials, and training focused on architectural visualization and open-source AEC tools in Blender.
 - [BlenderAddons.org](https://blender-addons.org/): Curated blog and directory of free and paid Blender add-ons organized by category and tag.
-- [Interplanety](https://b3d.interplanety.org/en/): Practical Blender tutorials, technical articles, and workflow notes.
-- [Darkfall](https://darkfallblender.blogspot.com/): Articles and step-by-step guides on Blender Python scripting, VSE, and nodes.
-- [The CG Essentials](https://thecgessentials.com/): Written tutorials and guides covering modeling, rendering, animation, and add-on reviews.
 
 ## Challenges & Events
 

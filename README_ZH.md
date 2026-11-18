@@ -57,9 +57,7 @@
             <li><a href="#-各种工具">🧰 各种工具</a></li>
             <li><a href="#-摄影测量">📷 摄影测量</a></li>
             <li><a href="#-纹理材质">🧱 纹理/材质</a></li>
-            <li><a href="#-地形与高度图">🗻 地形与高度图</a></li>
-            <li><a href="#-点云lidar数据">📡 点云/LiDAR数据</a></li>
-            <li><a href="#-生成器">🪄 生成器</a></li>
+            <li><a href="#-地形gis-与-lidar">🗻 地形、GIS 与 LiDAR</a></li>
             <li><a href="#-绘画音频与后期">📹 绘画、音频与后期</a></li>
         </ul>
     </li>
@@ -555,44 +553,39 @@
 
 ### 🔧 3D工具
 
-- 网格处理、重拓扑与体素：
-    - [MeshLab](https://www.meshlab.net/)：开源系统，用于处理和编辑3D三角网格。 [![][repo]](https://github.com/cnr-isti-vclab/meshlab)
-    - [AutoRemesher](https://github.com/huxingyi/autoremesher)：开源自动拓扑工具，旨在将源网格转换为干净、适合动画的全四边形几何体。
-    - [Instant Meshes](https://github.com/wjakob/instant-meshes)：交互式场对齐网格生成器。
-    - [Magica Voxel](https://ephtracy.github.io/index.html?page=mv_main)：一个免费的轻量级8位体素艺术编辑器和基于GPU的交互式路径追踪渲染器。
-    - [Goxel](https://github.com/guillaumechereau/goxel)：创建体素图形。导出到obj, pyl, png, magica voxel, qubicle。
-    - [aerialod](https://ephtracy.github.io/index.html?page=aerialod)：一个免费的交互式路径追踪渲染器，用于高度图。
-- 角色制作、雕刻、绑定与动画：
-    - [VRoid Studio](https://vroid.com/en/studio)：是一款3D角色制作器，专门制作具有日本动漫风格表情的角色。
-    - [AccuRIG](https://actorcore.reallusion.com/auto-rig)：是一款免费应用程序，旨在快速轻松地进行角色绑定。
-    - [Cascadeur](https://cascadeur.com/)：是一款独立的软件，用于创建3D角色（包括人形或其他）的关键帧动画。《早期采用者免费》。
-    - [Nomad Sculpt](https://nomadsculpt.com/) [$]：热门的跨平台便携数字雕刻与顶点绘制应用（支持 iPad、Android 与桌面端），可顺畅导出网格至 Blender。
-- 建模、建筑、体积模拟与场景工具：
-    - [fSpy](https://fspy.io/)：开源跨平台静态图片相机透视反求工具，用于在导入 Blender 建模前标定焦距与相机视角。
-    - [UPBGE](https://upbge.org/)：基于原 Blender 游戏引擎分叉的开源独立 3D 游戏引擎定制版 Blender 构建。[![][repo]](https://github.com/UPBGE/upbge)
-    - [Blockbench](https://www.blockbench.net/)：免费开源的低多边形与像素贴图 3D 建模编辑器，原生支持 glTF/OBJ 导出至 Blender 与游戏引擎。[![][repo]](https://github.com/JannisX11/blockbench) ![][gpl]
+- CAD、建模与关卡白模 (Blockout)：
     - [Plasticity](https://www.plasticity.xyz/) [$]：专为概念设计师与硬表面艺术打造的现代 NURBS 曲面建模 CAD 工具，常与 Blender 配合使用。[![][repo]](https://github.com/nkallen/plasticity)
     - [FreeCAD](https://www.freecad.org/)：免费开源的参数化 3D CAD 建模软件，适合高精度机械零件与 3D 打印资产导入 Blender。[![][repo]](https://github.com/FreeCAD/FreeCAD)
-    - [Dust3D](https://dust3d.org/)：是一个跨平台的开源建模软件。它帮助您在几秒钟内创建一个3D水密模型。
-    - [Sweet Home 3D](https://www.sweethome3d.com/)：是一款免费的室内设计应用程序，帮助您绘制房屋平面图，安排家具，并以3D方式查看结果。 [![][repo]](https://sourceforge.net/projects/sweethome3d/files/)
-    - [Spline](https://spline.design/)：轻松创建和发布3D网络体验。快速构建和迭代，获得生产就绪的结果。
-    - [TreeIt](https://www.evolved-software.com/treeit/treeit)：是一款易于使用的实时3D树木生成器，用于简单创建。
-    - [EmberGen](https://jangafx.com/software/embergen/) [$]：是一款实时体积流体模拟工具，可以即时模拟、渲染和导出翻页动画、图像序列和VDB体积。
-    - [HDR Light Studio](https://www.lightmap.co.uk/) [$]：允许您使用现有的3D软件轻松创建和编辑HDR照明。
-    - [CNDL](https://cndl.io/)：是一套IES照明创建工具集。用自定义IES照明提升您的渲染效果。
-    - [Connecter](https://connecterapp.com/)：为3D、AEC和设计专业人士提供免费且直观的创意资产管理层。
-    - [Phototiler](https://halfmaps.itch.io/phototiler)：是一款轻量级的照片真实感地图渲染器，允许快速渲染3D地图，用于创意制图。
+    - [Blockbench](https://blockbench.net/)：免费开源的低多边形与像素贴图 3D 建模编辑器，原生支持 glTF/OBJ 导出至 Blender 与游戏引擎。[![][repo]](https://github.com/JannisX11/blockbench) ![][gpl]
+    - [TrenchBroom](https://trenchbroom.github.io/)：开源笔刷式（Brush-based）3D 关卡编辑器，广泛用于快速建筑白模搭建与独立游戏场景设计并导出至 Blender。[![][repo]](https://github.com/TrenchBroom/TrenchBroom) ![][gpl]
+    - [Sweet Home 3D](https://www.sweethome3d.com/)：免费的室内设计应用程序，支持绘制户型图、布置家具并导出 3D 室内空间模型。[![][repo]](https://sourceforge.net/projects/sweethome3d/files/)
+- 网格处理、重拓扑与体素：
+    - [MeshLab](https://www.meshlab.net/)：用于处理、清理和转换 3D 三角网格的开源系统。[![][repo]](https://github.com/cnr-isti-vclab/meshlab)
+    - [CloudCompare](https://www.cloudcompare.org/)：开源 3D 点云与三角网格处理套件，广泛用于扫描对齐、比对检测与网格简化。[![][repo]](https://github.com/CloudCompare/CloudCompare) ![][gpl]
+    - [Instant Meshes](https://github.com/wjakob/instant-meshes)：交互式场对齐四边面/三角面重拓扑工具。
+    - [MagicaVoxel](https://ephtracy.github.io/index.html?page=mv_main)：免费轻量级 8 位体素艺术编辑器与基于 GPU 的交互式路径追踪渲染器。
+    - [Goxel](https://github.com/guillaumechereau/goxel)：开源 3D 体素编辑器，支持导出 `.obj`、`.ply`、`.gltf` 与 MagicaVoxel 格式。![][gpl]
+- 角色制作、雕刻、绑定与动画：
+    - [Nomad Sculpt](https://nomadsculpt.com/) [$]：热门的跨平台便携数字雕刻与顶点绘制应用（支持 iPad、Android 与桌面端），可顺畅导出网格至 Blender。
+    - [Cascadeur](https://cascadeur.com/)：物理辅助的独立 3D 角色与生物关键帧动画制作软件（提供免费非商业版与付费专业版）。
+    - [VRoid Studio](https://vroid.com/en/studio)：专注于日式动漫风格虚拟形象创作的免费 3D 角色制作软件，支持直接导出 `.vrm` 至 Blender。
+    - [AccuRIG](https://actorcore.reallusion.com/auto-rig)：免费独立人形角色自动绑定应用，内置面向 FBX 与 Blender 的导出预设。
+- 模拟、相机、灯光与 Web 3D：
+    - [EmberGen](https://jangafx.com/software/embergen) [$]：实时体积火焰、烟雾与爆炸模拟工具，可即时导出供 Blender 使用的 `.vdb` 体积与序列帧（同系列实时流体模拟工具：[LiquiGen](https://jangafx.com/software/liquigen)）。
+    - [fSpy](https://fspy.io/)：开源跨平台静态图片相机透视反求工具，用于在导入 Blender 建模前标定焦距与相机视角。[![][repo]](https://github.com/stuffmatic/fSpy) ![][gpl]
+    - [HDR Light Studio](https://www.lightmap.co.uk/) [$]：交互式 HDRI 与面光源布光设计软件，支持与 Blender 实时桥接联动。
+    - [Spline](https://spline.design/)：基于浏览器的实时 3D 设计与交互式网页体验发布工具。
 
 ### 🧰 各种工具
 
 - 参考图管理与媒体审阅：
     - [PureRef](https://www.pureref.com/)：简单的方式查看和组织您的参考图像。
     - [Allusion](https://allusion-app.github.io/)：您的整个参考收藏、灵感和其他类型的图像的组织者。 [![][repo]](https://github.com/allusion-app/Allusion)
+    - [Connecter](https://connecterapp.com/)：面向 3D 模型、材质与建筑可视化资产库的免费可视化桌面数字资产管理 (DAM) 软件。
     - [DJV](https://grizzlypeak3d.github.io/DJV/)：面向视效、动画和影视制作的专业图像序列与媒体审阅软件。[![][repo]](https://github.com/grizzlypeak3d/DJV)
     - [Exr-IO](https://www.exr-io.com/)：是处理多层EXR图片的健壮和精确的解决方案。它支持Cryptomatte。
     - [GameTextureViewer](https://jangafx.com/software/gametextureviewer/)：一款快速、可靠且简洁的工具，供艺术家即时预览纹理与精灵表动画。
-- 合成、着色器与粒子工具：
-    - [Natron](https://natrongithub.github.io/)：开源合成软件，用于视觉效果和动态图形。 [![][repo]](https://github.com/NatronGitHub/Natron)
+- 着色器、粒子与 3D 查看器：
     - [SHADERed](https://github.com/dfranx/SHADERed)：是一个轻量级工具，用于创建和测试HLSL和GLSL着色器。
     - [CineShader](https://cineshader.com/editor)：CineShader是一个实时3D着色器可视化工具。它利用Shadertoy API将数千个现有的着色器艺术作品带入电影3D环境。
     - [Light Tracer Render](https://lighttracer.org/)：提供您需要的一切，以交互式方式创建逼真的渲染，无论是在桌面Web浏览器还是Windows应用程序中。
@@ -602,6 +595,7 @@
     - [Processing](https://processing.org/)：一个灵活的软件素描本和一个在视觉艺术背景下学习如何编码的语言。 [![][repo]](https://github.com/processing/processing)
 - Blender 工具与定制构建：
     - [Goo Engine](https://github.com/dillongoostudios/goo-engine)：DillonGoo Studios 打造的开源定制版 Blender，专为 3D 动漫与非真实感渲染（NPR）量身定制。![][gpl]
+    - [UPBGE](https://upbge.org/)：基于原 Blender 游戏引擎分叉的开源独立 3D 游戏引擎定制版 Blender 构建。[![][repo]](https://github.com/UPBGE/upbge)
     - [Bforartists](https://www.bforartists.de/)：注重优化界面人体工学与菜单易用性的开源 Blender 分支版本。[![][repo]](https://github.com/Bforartists/Bforartists)
     - [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater)：一键下载和安装夜间构建。
     - [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI)：BlenderUpdater的命令行版本。
@@ -635,43 +629,30 @@
 - [Architextures - Create](https://architextures.org/create)：Web应用程序允许您创建无缝纹理、凹凸贴图和CAD图案。选择任何参数开始。
 - [Normal Map Bench](https://normalmapbench.com/)：免费的基于浏览器的图像转法线贴图生成器，支持实时强度、平滑、边缘与光照控制，可导出 OpenGL/DirectX 格式。
 
-### 🗻 地形与高度图
+### 🗻 地形、GIS 与 LiDAR
 
 - 地形生成器：
-    - [TerreSculptor](https://www.demenzunmedia.com/home/terresculptor/)：是地形创建和编辑软件。它是免费软件。
-    - [World Machine](https://www.world-machine.com/)：指挥强大的工具，如侵蚀和高级颜色图，为您的游戏或3D场景创建地形高度图、网格和纹理。您可以免费使用基本版。
-    - [Terragen](https://planetside.co.uk/free-downloads/)：支持光线追踪的地形生成器。有免费版本，有一些限制。
-    - [World Creator](https://www.bitethebytes.com/products/world-creator) [$]：是一个实时地形生成器和景观生成器。
-    - [Gaea](https://quadspinner.com/)：是一个复杂而现代的地形设计软件，用于瞬间获得顶级结果。社区免费版有一些限制。
-    - [Instant Terra](https://www.wysilab.com/)：实时地形生成工具。为您的游戏、电影或模拟创建地形、世界和景观。
-- 真实世界高度图：
-    - [Tangram Heightmapper](https://tangrams.github.io/heightmapper/)：是一个交互式灰度高度图浏览器，可以为3D应用生成高度图。
-    - [OpenTopography/datasets](https://portal.opentopography.org/datasets)：促进社区访问高分辨率、面向地球科学的地形数据和相关工具及资源。需要注册。
-    - [Copernicus DEM - ESA](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM)：哥白尼数字高程模型是数字表面模型（DSM），代表包括建筑物、基础设施和植被在内的地球表面。
-
-### 📡 点云/LiDAR数据
-
-- [OpenTopography](https://portal.opentopography.org/dataCatalog?formats=0)：是一个LiDAR用户的协作数据存储库。
-- [NOAA’s Data Access Viewer](https://coast.noaa.gov/dataviewer/#/lidar/search/)：这个在线工具允许用户搜索和下载LiDAR、图像和土地覆盖数据。
-- [United States Interagency Elevation Inventory](https://coast.noaa.gov/inventory/)：是美国地质调查局和国家海洋和大气管理局与其他联邦机构合作的努力。
-- [USGS/TNM](https://apps.nationalmap.gov/downloader/)：美国地质调查局国家地图。您也可以使用[Earth Explorer (USGS)](https://earthexplorer.usgs.gov/)。[信息](https://www.usgs.gov/faqs/what-lidar-data-and-where-can-i-download-it?qt-news_science_products=0#qt-news_science_products)
-- [USGS/Entwine](https://usgs.entwine.io/)：这个网站提供了Potree和Plasio.js界面到AWS USGS LiDAR公共数据集。 [![][repo]](https://github.com/hobuinc/usgs-lidar)
-- [Sketchfab/lidar](https://sketchfab.com/tags/lidar), [Sketchfab/point-cloud](https://sketchfab.com/tags/point-cloud).
-
-### 🪄 生成器
-
-- [JSplacement](https://archive.org/details/jsplacement-1.3.0-allplatforms_202108)：是一个跨平台的伪随机8K位移图生成器。
-- [Procedural City Generator](https://probabletrain.itch.io/city-generator)：创建程序化生成的城市地图，风格类似于美国基于网格的城市。 [![][repo]](https://github.com/ProbableTrain/MapGenerator)
-- [Medieval Fantasy City Generator](https://watabou.itch.io/medieval-fantasy-city-generator)：这个应用程序可以生成一个随机的中世纪城市布局，大小可请求。[City Viewer](https://watabou.itch.io/city-viewer)：是MFCD的3D可视化工具。查看[watabou.itch.io](https://watabou.itch.io/)上的其他生成器。
-- [city-roads](https://anvaka.github.io/city-roads/)：这个网站允许您选择一个城市，然后在屏幕上绘制每一条道路。 [![][repo]](https://github.com/anvaka/city-roads)
+    - [TerreSculptor](https://www.demenzunmedia.com/home/terresculptor/)：免费的地形创建、高度图编辑与侵蚀处理软件。
+    - [World Machine](https://www.world-machine.com/)：面向游戏与 3D 场景的程序化地形、侵蚀、高度图与网格生成软件（提供免费基础版）。
+    - [Terragen](https://planetside.co.uk/free-downloads/)：支持光线追踪的地形与大气环境生成软件（提供免费非商业版）。
+    - [World Creator](https://www.bitethebytes.com/products/world-creator) [$]：实时 GPU 加速的地形与地貌景观生成器。
+    - [Gaea](https://quadspinner.com/)：面向影视视效与游戏开发的节点式地形与自然环境设计套件（提供免费社区版）。
+    - [Instant Terra](https://www.wysilab.com/)：面向大型开放世界、游戏与仿真的实时节点式地形生成工具。
+- 真实世界 DEM 与 LiDAR 数据：
+    - [Tangram Heightmapper](https://tangrams.github.io/heightmapper/)：交互式全球灰度高度图浏览器，可直接导出供 3D 软件使用的高程图。
+    - [OpenTopography](https://portal.opentopography.org/datasets)：面向地球科学的开放协作数据门户，提供高分辨率 LiDAR 点云与 DEM 地形数据集。
+    - [Copernicus DEM - ESA](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM)：欧洲航天局（ESA）发布的全球数字表面模型（DSM），涵盖地表地形、建筑与植被。
+    - [NOAA Data Access Viewer](https://coast.noaa.gov/dataviewer/#/lidar/search/)：支持按区域检索并下载海岸带 LiDAR 点云、航拍影像与土地覆盖数据。
+    - [USGS National Map & LiDAR](https://apps.nationalmap.gov/downloader/)：美国地质调查局高程与 LiDAR 数据下载门户，另可配合 [Earth Explorer](https://earthexplorer.usgs.gov/) 与网页端 [USGS Entwine 点云查看器](https://usgs.entwine.io/) 使用。[![][repo]](https://github.com/hobuinc/usgs-lidar)
 
 ### 📹 绘画、音频与后期
 
+- [ArtCraft](https://getartcraft.com/)：基于纯 Rust 构建的 17 款原生开源创意软件套装，对标 Adobe Creative Cloud 与 Substance 生态提供免费开源替代方案（含 `PhotoCraft`、`VectorCraft`、`FilmCraft`、`EffectCraft`、`TextureCraft`、`MaterialCraft`、`SoundCraft`、`CADCraft` 等）。[![][repo]](https://github.com/storytold/craft-launcher) ![][mit]
 - [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve)：业界标准的剪辑、调色 (ACES/AgX) 与 Fusion 节点合成软件，是 Blender EXR 序列后期的首选搭档（含免费版与 Studio 版）。
-- [Krita](https://krita.org/en/)：是一个专业的免费开源绘画程序。它是由希望每个人都能负担得起艺术工具的艺术家制作的。 [![][repo]](https://github.com/KDE/krita)
-- [HEAVYPAINT](https://www.heavypaint.com/)：是一个简单的应用程序，专为图形绘画设计。用户界面流线型，以最小的摩擦为绘画提供流畅、愉快的体验。
-- [Audacity](https://www.audacityteam.org/)：免费开源跨平台音频软件。
-- [AudioMass](https://audiomass.co/)：开源基于Web的音频和波形编辑工具。
+- [Natron](https://natrongithub.github.io/)：面向视觉特效与动态图形多通道渲染合成的开源节点式合成软件。[![][repo]](https://github.com/NatronGitHub/Natron) ![][gpl]
+- [Krita](https://krita.org/en/)：专业的免费开源数字绘画与纹理贴图绘制软件。[![][repo]](https://github.com/KDE/krita) ![][gpl]
+- [Inkscape](https://inkscape.org/)：主流开源矢量图形编辑器，非常适合为 Blender 准备 `.svg` 截面轮廓、曲线、贴花（Decals）与装饰贴图。[![][repo]](https://gitlab.com/inkscape/inkscape) ![][gpl]
+- [Audacity](https://www.audacityteam.org/)：免费开源的跨平台多轨音频编辑与录音软件。[![][repo]](https://github.com/audacity/audacity) ![][gpl]
 
 <p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
 
@@ -837,7 +818,7 @@
 - [Blender Discord](https://discord.gg/blender)：由社区管理的 Discord 服务器，用于交流、反馈与作品展示。
 - [Blender Stack Exchange](https://blender.stackexchange.com/)：专注于 Blender 建模、着色、绑定与 Python 脚本的问答社区。
 - [Blender Facebook Group](https://fb.com/groups/2207257375/)：用于分享 Blender 渲染作品与日常问答的 Facebook 社区小组。
-- Blender 开发者官方资源：[开发者门户](https://developer.blender.org/)、[开发者文档](https://developer.blender.org/docs/)、[开发者论坛](https://forum.blender.org/)、[开发者博客](https://code.blender.org/)。
+- Blender 开发者官方资源：[开发者门户](https://developer.blender.org/)、[开发者文档](https://developer.blender.org/docs/)、[开发者论坛](https://forum.blender.org/)。
 
 ### 𝕏 账号
 
@@ -927,15 +908,13 @@ _一些可以找到各种 Blender 相关内容的账号。_
 
 ### 💻 博客
 
-- [The Blend](https://blend.beehiiv.com)：每周推送 Blender 资讯、深度文章与 3D 课程。
-- [Blender Sushi](https://blendersushi.blogspot.com/)：汇集程序化 3D 创意、几何节点笔记与 Blender 实验项目。
-- [Artisticrender](https://artisticrender.com/)：深入分享 Blender 工作流、渲染技巧与实用指南的博客。
+- [Blender Developers Blog](https://code.blender.org/)：Blender 官方核心工程博客，发布版本路线图、Geometry Nodes、EEVEE 与 Cycles 底层架构文章。
+- [Blender Studio Blog](https://studio.blender.org/blog/)：Blender Studio 官方团队的开源电影制作日志、幕后拆解与生产管线笔记。
+- [80 Level — Blender](https://80.lv/articles/tags/blender)：汇集游戏与视效行业 3D 艺术家的 Blender 场景、着色器与几何节点实战访谈拆解。
 - [Creative Shrimp](https://www.creativeshrimp.com/)：由 Gleb Alexandrov 与 Aidy Burrows 撰写的高质量 CG 文章、数字艺术解析与布光教程。
-- [Blender 3D Architect](https://www.blender3darchitect.com/)：专注于 Blender 建筑可视化新闻、教程与实战训练的网站。
+- [Interplanety](https://b3d.interplanety.org/en/)：高频更新的 Blender 技术博客，涵盖 `bpy` Python 脚本开发、节点技巧与工作流笔记。
+- [Blender 3D Architect](https://www.blender3darchitect.com/)：专注于 Blender 建筑可视化与开源 AEC 工作流的新闻、教程与实战指南。
 - [BlenderAddons.org](https://blender-addons.org/)：按分类与标签整理的免费及付费 Blender 插件博客与目录。
-- [Interplanety](https://b3d.interplanety.org/en/)：实用的 Blender 教程、技术文章与工作流笔记。
-- [Darkfall](https://darkfallblender.blogspot.com/)：聚焦 Blender Python 脚本编写、VSE 剪辑与节点的分步图文指南。
-- [The CG Essentials](https://thecgessentials.com/)：涵盖建模、渲染、动画与插件评测的 Blender 图文教程站。
 
 ### 🏆 挑战与活动
 

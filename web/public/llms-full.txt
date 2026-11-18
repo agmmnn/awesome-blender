@@ -1,6 +1,6 @@
 # Awesome Blender — Full Catalog
 
-> Complete plain-Markdown index of 592 curated Blender add-ons, AI & MCP workflows, 3D assets, standalone tools, tutorials, and community links (561 free, 31 paid, 195 GitHub repos, 52 Blender Extensions). Index: https://awesome-blender.vercel.app/llms.txt
+> Complete plain-Markdown index of 578 curated Blender add-ons, AI & MCP workflows, 3D assets, standalone tools, tutorials, and community links (547 free, 31 paid, 197 GitHub repos, 52 Blender Extensions). Index: https://awesome-blender.vercel.app/llms.txt
 ## Add-ons
 
 - [Blender Extensions Platform](https://extensions.blender.org/)
@@ -532,38 +532,35 @@
 
 ### 3D Tools
 
+#### CAD, Modeling & Blockout
+
+- [Plasticity](https://www.plasticity.xyz/): NURBS modeling CAD tool built for concept artists and hard-surface workflows alongside Blender. `[paid · open-source]` ([Repository](https://github.com/nkallen/plasticity))
+- [FreeCAD](https://www.freecad.org/): Open-source parametric 3D CAD modeler suitable for precision mechanical parts and 3D printing exported to Blender. `[open-source]` ([Repository](https://github.com/FreeCAD/FreeCAD))
+- [Blockbench](https://blockbench.net/): Open-source low-poly and pixel-textured 3D model editor with native glTF/OBJ workflows for Blender and game engines. `[GPL]` ([Repository](https://github.com/JannisX11/blockbench))
+- [TrenchBroom](https://trenchbroom.github.io/): Open-source brush-based 3D level editor widely used for fast architectural blockouts and indie game environments exported to Blender. `[GPL]` ([Repository](https://github.com/TrenchBroom/TrenchBroom))
+- [Sweet Home 3D](https://www.sweethome3d.com/): Free interior design application for drawing floor plans, arranging furniture, and exporting 3D room layouts. `[open-source]` ([Repository](https://sourceforge.net/projects/sweethome3d/files/))
+
 #### Mesh Processing, Retopology & Voxels
 
-- [MeshLab](https://www.meshlab.net/): Open source system for processing and editing 3D triangular meshes. `[open-source]` ([Repository](https://github.com/cnr-isti-vclab/meshlab))
-- [AutoRemesher](https://github.com/huxingyi/autoremesher): Open-source auto-retopology tool intended to convert source meshes into clean, animation-friendly all-quad geometry. `[open-source]`
-- [Instant Meshes](https://github.com/wjakob/instant-meshes): Interactive field-aligned mesh generator. `[open-source]`
-- [Magica Voxel](https://ephtracy.github.io/index.html?page=mv_main): A free lightweight 8-bit voxel art editor and GPU based interactive path tracing renderer.
-- [Goxel](https://github.com/guillaumechereau/goxel): Create voxel graphics. Export to obj, pyl, png, magica voxel, qubicle. `[open-source]`
-- [aerialod](https://ephtracy.github.io/index.html?page=aerialod): A free interactive path tracing renderer for height maps.
+- [MeshLab](https://www.meshlab.net/): Open-source system for processing, cleaning, and converting 3D triangular meshes. `[open-source]` ([Repository](https://github.com/cnr-isti-vclab/meshlab))
+- [CloudCompare](https://www.cloudcompare.org/): Open-source 3D point-cloud and triangular mesh processing suite for scan alignment, inspection, and decimation. `[GPL]` ([Repository](https://github.com/CloudCompare/CloudCompare))
+- [Instant Meshes](https://github.com/wjakob/instant-meshes): Interactive field-aligned quad/triangle remeshing tool. `[open-source]`
+- [MagicaVoxel](https://ephtracy.github.io/index.html?page=mv_main): Free lightweight 8-bit voxel art editor and GPU-based interactive path-tracing renderer.
+- [Goxel](https://github.com/guillaumechereau/goxel): Open-source 3D voxel editor with `.obj`, `.ply`, `.gltf`, and MagicaVoxel export support. `[GPL]`
 
 #### Characters, Sculpting, Rigging & Animation
 
-- [VRoid Studio](https://vroid.com/en/studio): A 3D character maker that specializes in Japanese anime-like expressions.
-- [AccuRIG](https://actorcore.reallusion.com/auto-rig): Free application designed for fast and easy character rigging.
-- [Cascadeur](https://cascadeur.com/): Standalone software for creating keyframe animation of 3D characters, humanoid or otherwise. _Free for early adopters._
 - [Nomad Sculpt](https://nomadsculpt.com/): Popular portable sculpting and vertex-painting application for iPad, Android, and desktop with clean exports to Blender. `[paid]`
+- [Cascadeur](https://cascadeur.com/): Physics-assisted standalone 3D keyframe animation software for humanoid and creature characters (free non-commercial tier and paid Pro plans).
+- [VRoid Studio](https://vroid.com/en/studio): Free 3D character creator specializing in anime-style avatars with direct `.vrm` export to Blender.
+- [AccuRIG](https://actorcore.reallusion.com/auto-rig): Free standalone auto-rigging application for humanoid characters with FBX/Blender export presets.
 
-#### Modeling, Architecture, Volumetrics & Scene Tools
+#### Simulation, Camera, Lighting & Web 3D
 
-- [fSpy](https://fspy.io/): Open-source standalone still-image camera matching app for matching perspective and focal length before importing into Blender.
-- [UPBGE](https://upbge.org/): Open-source standalone 3D game engine forked from Blender and bundled as a custom Blender build. `[open-source]` ([Repository](https://github.com/UPBGE/upbge))
-- [Blockbench](https://www.blockbench.net/): Open-source low-poly and pixel-textured 3D model editor with native glTF/OBJ workflows for Blender and game engines. `[GPL]` ([Repository](https://github.com/JannisX11/blockbench))
-- [Plasticity](https://www.plasticity.xyz/): NURBS modeling CAD tool built for concept artists and hard-surface workflows alongside Blender. `[paid · open-source]` ([Repository](https://github.com/nkallen/plasticity))
-- [FreeCAD](https://www.freecad.org/): Open-source parametric 3D CAD modeler suitable for precision mechanical parts and 3D printing exported to Blender. `[open-source]` ([Repository](https://github.com/FreeCAD/FreeCAD))
-- [Dust3D](https://dust3d.org/): Cross-platform open-source modeling software. It helps you create a 3D watertight model in seconds.
-- [Sweet Home 3D](https://www.sweethome3d.com/): Free interior design application that helps you draw the plan of your house, arrange furniture on it and visit the results in 3D. `[open-source]` ([Repository](https://sourceforge.net/projects/sweethome3d/files/))
-- [Spline](https://spline.design/): Easily create and publish 3D web experiences. Build and iterate fast with production-ready results.
-- [TreeIt](https://www.evolved-software.com/treeit/treeit): Easy to use real time 3D tree generator for the simple creation.
-- [EmberGen](https://jangafx.com/software/embergen/): Real-time volumetric fluid simulation tool that can instantly simulate, render, and export flipbooks, image sequences, and VDB volumes. `[paid]`
-- [HDR Light Studio](https://www.lightmap.co.uk/): Lets you easily create and edit HDR lighting with your existing 3D software. `[paid]`
-- [CNDL](https://cndl.io/): An IES lighting creation toolset. Improve your renders with custom IES lighting.
-- [Connecter](https://connecterapp.com/): Free and visual creative assets management for 3d, AEC and design professionals.
-- [Phototiler](https://halfmaps.itch.io/phototiler): Lightweight photorealistic map renderer that allows quick rendering of 3D maps for creative cartography.
+- [EmberGen](https://jangafx.com/software/embergen): Real-time volumetric fire, smoke, and explosion simulator exporting `.vdb` volumes and flipbooks for Blender (companion real-time liquid simulator: [LiquiGen](https://jangafx.com/software/liquigen)). `[paid]` ([LiquiGen](https://jangafx.com/software/liquigen))
+- [fSpy](https://fspy.io/): Open-source standalone still-image camera matching app for calibrating perspective and focal length before importing into Blender. `[GPL]` ([Repository](https://github.com/stuffmatic/fSpy))
+- [HDR Light Studio](https://www.lightmap.co.uk/): Interactive HDRI and area-light design software with live connection support for Blender. `[paid]`
+- [Spline](https://spline.design/): Browser-based 3D design and interactive web experience tool.
 
 ### Various Tools
 
@@ -571,13 +568,13 @@
 
 - [PureRef](https://www.pureref.com/): Simple way to view and organize your reference images.
 - [Allusion](https://allusion-app.github.io/): Organizer for your entire collection of references, inspiration and any other kinds of images. `[open-source]` ([Repository](https://github.com/allusion-app/Allusion))
+- [Connecter](https://connecterapp.com/): Free visual digital asset management (DAM) desktop application for 3D models, materials, and AEC libraries.
 - [DJV](https://grizzlypeak3d.github.io/DJV/): Professional image sequence, media review software for VFX, animation, and film production. `[open-source]` ([Repository](https://github.com/grizzlypeak3d/DJV))
 - [Exr-IO](https://www.exr-io.com/): Robust and exact solution for dealing with multi-layer EXR pictures. It supports Cryptomatte.
 - [GameTextureViewer](https://jangafx.com/software/gametextureviewer/): Fast, reliable, and simple tool for artists to preview textures and sprite sheet animations on the fly.
 
-#### Compositing, Shaders & Particles
+#### Shaders, Particles & 3D Viewers
 
-- [Natron](https://natrongithub.github.io/): Open Source Compositing Software For VFX and Motion Graphics. `[open-source]` ([Repository](https://github.com/NatronGitHub/Natron))
 - [SHADERed](https://github.com/dfranx/SHADERed): Lightweight tool for creating and testing HLSL and GLSL shaders. `[open-source]`
 - [CineShader](https://cineshader.com/editor): CineShader is a real-time 3D shader visualiser. It leverages the _Shadertoy_ API to bring thousands of existing shader artworks into a cinematic 3D environment.
 - [Light Tracer Render](https://lighttracer.org/): Provides you with everything you need to create photorealistic renderings interactively, in both desktop Web browsers and Windows application.
@@ -589,6 +586,7 @@
 #### Blender Tools & Custom Builds
 
 - [Goo Engine](https://github.com/dillongoostudios/goo-engine): Custom open-source build of Blender by DillonGoo Studios tailored for 3D anime and Non-Photorealistic Rendering (NPR). `[GPL]`
+- [UPBGE](https://upbge.org/): Open-source standalone 3D game engine forked from Blender and distributed as a custom Blender build. `[open-source]` ([Repository](https://github.com/UPBGE/upbge))
 - [Bforartists](https://www.bforartists.de/): Open-source Blender fork focused on streamlined UI ergonomics, menus, and discoverable workflows. `[open-source]` ([Repository](https://github.com/Bforartists/Bforartists))
 - [BlenderUpdater](https://github.com/overmindstudios/BlenderUpdater): Download and install nightly builds with one click. `[open-source]`
 - [BlenderUpdaterCLI](https://github.com/overmindstudios/BlenderUpdaterCLI): Command line version of BlenderUpdater. `[open-source]`
@@ -622,46 +620,33 @@
 - [Architextures - Create](https://architextures.org/create): Web app allows you to create seamless textures, bump maps and CAD hatches. Select any of the parameters to get started.
 - [Normal Map Bench](https://normalmapbench.com/): Free browser-based normal map generator from images with live strength, smoothing, edge and lighting controls; OpenGL/DirectX export.
 
-### Terrain & Height Maps
+### Terrain, GIS & LiDAR
 
 #### Terrain Generators
 
-- [TerreSculptor](https://www.demenzunmedia.com/home/terresculptor/): Terrain creation and editing software. It is freeware.
-- [World Machine](https://www.world-machine.com/): Command powerful tools like erosion and advanced colormaps to create terrain heightmaps, meshes, and textures for your game or 3D scene. You can use the Basic Edition for free.
-- [Terragen](https://planetside.co.uk/free-downloads/): Ray-tracing supported terrain generator. There is free version with some limitations.
-- [World Creator](https://www.bitethebytes.com/products/world-creator): Real-time terrain generator and landscape generator. `[paid]`
-- [Gaea](https://quadspinner.com/): Sophisticated and modern terrain design software for apex results in moments. There is Community Free edition with some limitations.
-- [Instant Terra](https://www.wysilab.com/): Real-time terrain generation tool. Create your terrain, world, and landscape for your game, movie, or simulation.
+- [TerreSculptor](https://www.demenzunmedia.com/home/terresculptor/): Freeware terrain creation, heightmap editing, and erosion processing software.
+- [World Machine](https://www.world-machine.com/): Procedural terrain, erosion, heightmap, and mesh generator for games and 3D scenes (free Basic Edition available).
+- [Terragen](https://planetside.co.uk/free-downloads/): Ray-tracing terrain and atmosphere generator (free non-commercial edition available).
+- [World Creator](https://www.bitethebytes.com/products/world-creator): Real-time GPU-accelerated terrain and landscape generator. `[paid]`
+- [Gaea](https://quadspinner.com/): Node-based terrain and environment design suite for VFX and games (free Community Edition available).
+- [Instant Terra](https://www.wysilab.com/): Real-time node-based terrain generation tool for large worlds, games, and simulations.
 
-#### Real-World Height Maps
+#### Real-World DEM & LiDAR Data
 
-- [Tangram Heightmapper](https://tangrams.github.io/heightmapper/): Interactive grayscale heightmap browser, which can generate heightmaps for use in 3D applications.
-- [OpenTopography/datasets](https://portal.opentopography.org/datasets): Facilitates community access to high-resolution, Earth science-oriented, topography data, and related tools and resources. _Registration required_.
-- [Copernicus DEM - ESA](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM): The Copernicus Digital Elevation Model is a Digital Surface Model (DSM) that represents the surface of the Earth including buildings, infrastructure and vegetation.
-
-### Point Cloud/LiDAR Data
-
-- [OpenTopography](https://portal.opentopography.org/dataCatalog?formats=0): Collaborative data repository for LiDAR users.
-- [NOAA’s Data Access Viewer](https://coast.noaa.gov/dataviewer/#/lidar/search/): This online tool allows a user to search for and download lidar, imagery, and land cover data.
-- [United States Interagency Elevation Inventory](https://coast.noaa.gov/inventory/): Collaborative effort of the USGS and NOAA with contributions from other federal agencies.
-- [USGS/TNM](https://apps.nationalmap.gov/downloader/): U.S. Geological The National Map. You can also use the [Earth Explorer (USGS)](https://earthexplorer.usgs.gov/). [[info]](https://www.usgs.gov/faqs/what-lidar-data-and-where-can-i-download-it?qt-news_science_products=0#qt-news_science_products) ([Earth Explorer (USGS)](https://earthexplorer.usgs.gov/))
-- [USGS/Entwine](https://usgs.entwine.io/): This website provides Potree and Plasio.js interfaces to the AWS USGS LiDAR Public Dataset. `[open-source]` ([Repository](https://github.com/hobuinc/usgs-lidar))
-- **Sketchfab/lidar / Sketchfab/point-cloud**: [Sketchfab/lidar](https://sketchfab.com/tags/lidar), [Sketchfab/point-cloud](https://sketchfab.com/tags/point-cloud)
-
-### Generator
-
-- [JSplacement](https://archive.org/details/jsplacement-1.3.0-allplatforms_202108): Cross-platform pseudo-random 8K displacement map generator.
-- [Procedural City Generator](https://probabletrain.itch.io/city-generator): Create procedurally generated city maps in the style of American grid-based cities. `[open-source]` ([Repository](https://github.com/ProbableTrain/MapGenerator))
-- [Medieval Fantasy City Generator](https://watabou.itch.io/medieval-fantasy-city-generator): This application generates a random medieval city layout of a requested size. [City Viewer](https://watabou.itch.io/city-viewer) : 3d-visualizer for MFCD. See other generators from [watabou.itch.io](https://watabou.itch.io/). ([City Viewer](https://watabou.itch.io/city-viewer), [watabou.itch.io](https://watabou.itch.io/))
-- [city-roads](https://anvaka.github.io/city-roads/): This website allows you to select a city and then draws every single road on a screen. `[open-source]` ([Repository](https://github.com/anvaka/city-roads))
+- [Tangram Heightmapper](https://tangrams.github.io/heightmapper/): Interactive global grayscale heightmap browser for exporting elevation maps into 3D applications.
+- [OpenTopography](https://portal.opentopography.org/datasets): Collaborative Earth-science portal providing high-resolution LiDAR point clouds and DEM topography datasets.
+- [Copernicus DEM - ESA](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM): Global Digital Surface Model (DSM) from the European Space Agency covering terrain, buildings, and vegetation.
+- [NOAA Data Access Viewer](https://coast.noaa.gov/dataviewer/#/lidar/search/): Search and download coastal LiDAR, aerial imagery, and land-cover datasets.
+- [USGS National Map & LiDAR](https://apps.nationalmap.gov/downloader/): U.S. Geological Survey elevation and LiDAR downloader, alongside [Earth Explorer](https://earthexplorer.usgs.gov/) and the browser-based [USGS Entwine Point Cloud Viewer](https://usgs.entwine.io/). `[open-source]` ([Earth Explorer](https://earthexplorer.usgs.gov/), [USGS Entwine Point Cloud Viewer](https://usgs.entwine.io/), [Repository](https://github.com/hobuinc/usgs-lidar))
 
 ### Painting, Audio & Post-Production
 
+- [ArtCraft](https://getartcraft.com/): Open-source, Rust-built suite of 17 native creative apps serving as free alternatives to Adobe Creative Cloud and Substance (`PhotoCraft`, `VectorCraft`, `FilmCraft`, `EffectCraft`, `TextureCraft`, `MaterialCraft`, `SoundCraft`, `CADCraft`). `[MIT]` ([Repository](https://github.com/storytold/craft-launcher))
 - [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve): Industry-standard NLE, color grading (ACES/AgX), and Fusion node compositing companion for Blender EXR sequences (free & Studio editions).
-- [Krita](https://krita.org/en/): Professional free and open source painting program. It is made by artists that want to see affordable art tools for everyone. `[open-source]` ([Repository](https://github.com/KDE/krita))
-- [HEAVYPAINT](https://www.heavypaint.com/): Simple app designed for graphic painting. The UI is streamlined for fluid, happy painting with as little friction as possible.
-- [Audacity](https://www.audacityteam.org/): Free, open source, cross-platform audio software.
-- [AudioMass](https://audiomass.co/): Open-source web based audio and waveform editing tool.
+- [Natron](https://natrongithub.github.io/): Open-source node-based compositing software for VFX and motion-graphics multi-pass rendering workflows. `[GPL]` ([Repository](https://github.com/NatronGitHub/Natron))
+- [Krita](https://krita.org/en/): Professional free and open-source digital painting and texture editing application. `[GPL]` ([Repository](https://github.com/KDE/krita))
+- [Inkscape](https://inkscape.org/): Open-source vector graphics editor ideal for preparing `.svg` profiles, curves, decals, and trim sheets for Blender. `[GPL]` ([Repository](https://gitlab.com/inkscape/inkscape))
+- [Audacity](https://www.audacityteam.org/): Free, open-source, cross-platform multi-track audio editor and recorder. `[GPL]` ([Repository](https://github.com/audacity/audacity))
 
 ## Tutorials
 
@@ -816,7 +801,7 @@
 - [Blender Discord](https://discord.gg/blender): Community-managed Discord server for help, feedback, and showcases.
 - [Blender Stack Exchange](https://blender.stackexchange.com/): Q&A forum for Blender modeling, shading, rigging, and Python scripting.
 - [Blender Facebook Group](https://fb.com/groups/2207257375/): Community Facebook group for sharing Blender renders and questions.
-- **Blender Developers**: [Developer Portal](https://developer.blender.org/), [Developer Docs](https://developer.blender.org/docs/), [Developer Forum](https://forum.blender.org/), [Developers Blog](https://code.blender.org/)
+- **Blender Developers**: [Developer Portal](https://developer.blender.org/), [Developer Docs](https://developer.blender.org/docs/), [Developer Forum](https://forum.blender.org/)
 
 ### Accounts
 
@@ -890,15 +875,13 @@
 
 ### Blogs
 
-- [The Blend](https://blend.beehiiv.com): Weekly newsletter covering Blender news, articles, and 3D lessons.
-- [Blender Sushi](https://blendersushi.blogspot.com/): Archive of procedural 3D ideas, Geometry Nodes notes, and Blender experiments.
-- [Artisticrender](https://artisticrender.com/): In-depth articles, tutorials, and practical guides on Blender workflows and rendering.
+- [Blender Developers Blog](https://code.blender.org/): Official engineering blog covering core Blender architecture, release roadmaps, Geometry Nodes, EEVEE, and Cycles development.
+- [Blender Studio Blog](https://studio.blender.org/blog/): Production logs, open-movie behind-the-scenes breakdowns, and pipeline notes from the Blender Studio team.
+- [80 Level — Blender](https://80.lv/articles/tags/blender): Industry interviews and step-by-step environment, shader, and Geometry Nodes breakdowns by 3D artists using Blender.
 - [Creative Shrimp](https://www.creativeshrimp.com/): High-quality CG articles, digital art breakdowns, and lighting tutorials by Gleb Alexandrov and Aidy Burrows.
-- [Blender 3D Architect](https://www.blender3darchitect.com/): News, tutorials, and training focused on architectural visualization in Blender.
+- [Interplanety](https://b3d.interplanety.org/en/): Frequently updated technical articles, `bpy` Python scripting notes, and node workflow guides.
+- [Blender 3D Architect](https://www.blender3darchitect.com/): News, tutorials, and training focused on architectural visualization and open-source AEC tools in Blender.
 - [BlenderAddons.org](https://blender-addons.org/): Curated blog and directory of free and paid Blender add-ons organized by category and tag.
-- [Interplanety](https://b3d.interplanety.org/en/): Practical Blender tutorials, technical articles, and workflow notes.
-- [Darkfall](https://darkfallblender.blogspot.com/): Articles and step-by-step guides on Blender Python scripting, VSE, and nodes.
-- [The CG Essentials](https://thecgessentials.com/): Written tutorials and guides covering modeling, rendering, animation, and add-on reviews.
 
 ### Challenges & Events
 
