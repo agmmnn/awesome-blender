@@ -619,15 +619,15 @@
 
 ### 🧱 Texture/Material
 
-- [ArmorPaint](https://armorpaint.org/) : Open-Source 3D PBR Texture Painting Software. [![][repo]](https://github.com/armory3d/armorpaint)
-- [NVIDIA Texture Tools Exporter](https://developer.nvidia.com/texture-tools-exporter) : Allows users to create highly compressed texture files (that stay small both on disk and in memory) directly from image sources using NVIDIA’s CUDA-accelerated Texture Tools compressor technology.
-- [Materialize](https://boundingboxsoftware.com/materialize/) : Stand alone tool for creating materials from images. [![][repo]](https://github.com/BoundingBoxSoftware/Materialize)
-- [Material Maker](https://rodzilla.itch.io/material-maker) : Simple procedural materials generation tool. [![][repo]](https://github.com/RodZill4/material-maker)
-- [TextureLab](https://njbrown.itch.io/texturelab) : Tool designed to make procedural texture generation.
-- [Agisoft De-Lighter](https://agisoft.freshdesk.com/support/solutions/articles/31000158376-agisoft-texture-de-lighter-general-workflow) : Free stand-alone tool designed to remove shadows from model textures. [[download]](https://www.agisoft.com/downloads/installer/)
-- [Agama Materials](https://agama.itch.io/agama-materials) : Is software for creating PBR materials and painting 3d models. You can create materials and use them for painting models, or you can use pre-made textures.
-- [Architextures - Create](https://architextures.org/create) : Web app allows you to create seamless textures, bump maps and CAD hatches. Select any of the parameters to get started.
+- [Material Maker](https://www.materialmaker.org/) : Open-source node-based procedural PBR material authoring and 3D model texture painting application built with Godot. [![][repo]](https://github.com/RodZill4/material-maker) ![][mit]
+- [ArmorPaint](https://armorpaint.org/) : Open-source 3D PBR texture painting application with node-based brushes and GPU map baking. [![][repo]](https://github.com/armory3d/armorpaint)
+- [InstaMAT](https://www.instamaterial.com/) : Node-based material authoring, layered 3D texturing, and GPU mesh baking suite (free Pioneer license for individuals/indies under $100k revenue).
+- [Materialize](https://boundingboxsoftware.com/materialize/) : Open-source tool for generating tileable diffuse, height, normal, AO, and metallic PBR texture maps from a single image. [![][repo]](https://github.com/BoundingBoxSoftware/Materialize) ![][gpl]
 - [Normal Map Bench](https://normalmapbench.com/) : Free browser-based normal map generator from images with live strength, smoothing, edge and lighting controls; OpenGL/DirectX export.
+- [Agisoft De-Lighter](https://agisoft.freshdesk.com/support/solutions/articles/31000158376-agisoft-texture-de-lighter-general-workflow) : Free standalone utility for removing baked shadows and ambient lighting from photogrammetry textures. [[download]](https://www.agisoft.com/downloads/installer/)
+- [Architextures](https://architextures.org/create) : Browser-based generator for seamless architectural textures, bump maps, and CAD hatch patterns.
+- [NVIDIA Texture Tools Exporter](https://developer.nvidia.com/texture-tools-exporter) : CUDA-accelerated standalone compressor and mipmap generator exporting `.dds` and `.ktx2` textures.
+- [Agama Materials](https://agama.itch.io/agama-materials) : Freeware desktop tool for creating procedural PBR materials and painting directly on 3D models.
 
 ### 🗻 Terrain, GIS & LiDAR
 
@@ -918,16 +918,15 @@ _Some accounts where you can find different kinds of content related to blender.
 
 ### 🏆 Challenges & Events
 
+- [Blender Conference](https://conference.blender.org/) : Annual Blender Conference in Amsterdam featuring talks, workshops, and community meetups ([Bcon26](https://www.youtube.com/playlist?list=PLa1F2ddGya_-I9y1nXALrBqrZNdlUE012), [Bcon25](https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd), [Bcon24](https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x), [All Playlists](https://www.youtube.com/@blenderofficial/playlists)).
+- [Blender Artists Contests](https://blenderartists.org/c/contests/7) : Ongoing community-run Weekend Challenges and themed Blender competitions on Blender Artists.
+- [CG Boost Challenges](https://community.cgboost.com/c/challenge/) : Regular themed 3D art challenges and prizes hosted by CG Boost for Blender artists.
+- [pwnisher](https://www.youtube.com/@pwnisher/videos) : Clinton Jones' YouTube channel hosting large-scale community 3D render challenges.
+- [Render Challenge](https://renderchallenge.com/) : Weekly curated aggregator of active 3D art competitions and render challenges.
+- [The Rookies Contests](https://www.therookies.co/contests) : Global 3D, VFX, and game art contests for emerging and student artists.
+- [ArtStation Challenges](https://www.artstation.com/challenges) : Large-scale themed production challenges for environment, character, and prop artists.
 - [Nodevember](https://x.com/hashtag/nodevember) : Annual month-long November challenge dedicated to creating and sharing procedural 3D art and node setups.
-    - See works: [x/#nodevember](https://x.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?sort_by=relevance&query=nodevember)
-- [SculptJanuary](https://community.cgboost.com/c/challenge/) : Annual 31-day January sculpting challenge with daily prompts to build speed and anatomy skills.
-    - See works: [x/#sculptjanuary](https://x.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary)
-- [36 Days of Type](https://www.36daysoftype.com/) : Annual open design call inviting artists and 3D creators to interpret letters and numbers across 36 days.
-    - See works: [x/#36daysoftype](https://x.com/hashtag/36daysoftype), [ig/#36daysoftype](https://www.instagram.com/explore/tags/36daysoftype/), [artstation/36daysoftype](https://www.artstation.com/search?sort_by=relevance&query=36daysoftype)
-- Competitions: [/r/blender: contest](https://www.reddit.com/r/blender/), [blenderartists.org/contest](https://blenderartists.org/c/contests/7).
-- [Render Challenge](https://renderchallenge.com/) : Up-to-date aggregator of 3D art competitions and render challenges updated weekly.
-- [pwnisher](https://www.youtube.com/c/pwnisher/videos) : Clinton Jones' YouTube channel hosting large-scale community 3D render challenges.
-- [Blender Conference](https://conference.blender.org/) : Annual Blender Conference in Amsterdam. (Playlists: [Bcon26](https://www.youtube.com/playlist?list=PLa1F2ddGya_-I9y1nXALrBqrZNdlUE012), [Bcon25](https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd), [Bcon24](https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x), [Bcon23](https://www.youtube.com/playlist?list=PLa1F2ddGya_84ye1JAvIGh0Yp7utEKZI_), [Bcon22](https://www.youtube.com/playlist?list=PLa1F2ddGya__2Ip2UB-xp6M54cQVvw1W-), [Bcon20](https://www.youtube.com/watch?v=uEjmbsiflMU), [Bcon19](https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S), [Bcon18](https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B), [Bcon17](https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO)).
+- [SculptJanuary](https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary) : Annual 31-day January sculpting challenge with daily prompts to build speed and anatomy skills.
 
 <p align="right"><sub><a href="#table">↑ Back to top</a></sub></p>
 

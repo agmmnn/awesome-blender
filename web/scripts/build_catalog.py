@@ -27,13 +27,21 @@ ROOT_DIR = WEB_DIR.parent
 README_EN = ROOT_DIR / "README.md"
 README_ZH = ROOT_DIR / "README_ZH.md"
 OUTPUT_JSON = WEB_DIR / "src" / "data" / "catalog.json"
+OUTPUT_LITE_JSON = WEB_DIR / "src" / "data" / "directory_lite.json"
 OUTPUT_PUBLIC_JSON = WEB_DIR / "public" / "catalog.json"
 OUTPUT_SITEMAP = WEB_DIR / "public" / "sitemap.xml"
 OUTPUT_LLMS_TXT = WEB_DIR / "public" / "llms.txt"
 OUTPUT_LLMS_FULL_TXT = WEB_DIR / "public" / "llms-full.txt"
 OUTPUT_LLMS_DIR = WEB_DIR / "public" / "llms"
 
-DIRECTORY_SECTION_IDS = {"add-ons", "ai-mcp", "resources", "standalone"}
+DIRECTORY_SECTION_IDS = {
+    "add-ons",
+    "ai-mcp",
+    "resources",
+    "standalone",
+    "tutorials",
+    "social",
+}
 EXCLUDED_DIRECTORY_CATEGORIES = {
     "resources/art-reference",
     "resources/related-awesome-lists",
@@ -1192,6 +1200,74 @@ def build_llms_full_txt(catalog: dict[str, Any], site_url: str) -> str:
     return "\n".join(header) + "\n\n".join(body) + "\n"
 
 
+def build_directory_lite(catalog: dict[str, Any]) -> dict[str, Any]:
+    """Build a minimal, minified subset of catalog.json for fast web UI bundling."""
+    entry_fields = (
+        "id",
+        "line",
+        "sectionId",
+        "categoryId",
+        "subgroupId",
+        "subgroup",
+        "title",
+        "url",
+        "description",
+        "secondaryLinks",
+        "isPaid",
+        "isFree",
+        "licenses",
+        "mediaType",
+        "platforms",
+        "githubRepo",
+        "blenderExtensionId",
+    )
+    lite_sections = []
+    for sec in catalog["sections"]:
+        if sec["id"] not in DIRECTORY_SECTION_IDS:
+            continue
+        lite_categories = []
+        for cat in sec["categories"]:
+            if cat["id"] in EXCLUDED_DIRECTORY_CATEGORIES:
+                continue
+            valid_entries = [
+                {k: e[k] for k in entry_fields if k in e}
+                for e in cat["entries"]
+                if e.get("kind") == "item" and e.get("url")
+            ]
+            if not valid_entries:
+                continue
+            active_sg_ids = {
+                e["subgroupId"] for e in valid_entries if e.get("subgroupId")
+            }
+            valid_subgroups = [
+                {"id": sg["id"], "line": sg["line"], "title": sg["title"], "url": sg.get("url"), "mediaType": sg.get("mediaType")}
+                for sg in cat["subgroups"]
+                if sg["id"] in active_sg_ids
+            ]
+            lite_categories.append(
+                {
+                    "id": cat["id"],
+                    "slug": cat["slug"],
+                    "sectionId": cat["sectionId"],
+                    "line": cat["line"],
+                    "emoji": cat["emoji"],
+                    "title": cat["title"],
+                    "subgroups": valid_subgroups,
+                    "entries": valid_entries,
+                }
+            )
+        lite_sections.append(
+            {
+                "id": sec["id"],
+                "line": sec["line"],
+                "emoji": sec["emoji"],
+                "title": sec["title"],
+                "categories": lite_categories,
+            }
+        )
+    return {"sections": lite_sections}
+
+
 def _verify_text_output(path: Path, expected: str) -> str | None:
     """Return an error message if a generated file is missing or out of sync."""
     if not path.exists() or path.read_text(encoding="utf-8") != expected:
@@ -1224,6 +1300,12 @@ def main() -> int:
         return 1
 
     rendered = json.dumps(catalog, ensure_ascii=False, indent=2) + "\n"
+    rendered_lite = (
+        json.dumps(
+            build_directory_lite(catalog), ensure_ascii=False, separators=(",", ":")
+        )
+        + "\n"
+    )
     rendered_public_json = json.dumps(catalog, ensure_ascii=False, separators=(",", ":")) + "\n"
     rendered_sitemap = build_sitemap_xml(catalog, args.site_url)
     rendered_llms = build_llms_txt(catalog, args.site_url)
@@ -1237,6 +1319,7 @@ def main() -> int:
 
     expected_files: list[tuple[Path, str]] = [
         (OUTPUT_JSON, rendered),
+        (OUTPUT_LITE_JSON, rendered_lite),
         (OUTPUT_PUBLIC_JSON, rendered_public_json),
         (OUTPUT_SITEMAP, rendered_sitemap),
         (OUTPUT_LLMS_TXT, rendered_llms),

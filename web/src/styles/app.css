@@ -217,6 +217,8 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 .directory-card {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 240px;
   transition:
     transform 160ms var(--ease-out),
     border-color 150ms ease,

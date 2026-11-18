@@ -82,15 +82,15 @@
 
 ## Texture/Material
 
-- [ArmorPaint](https://armorpaint.org/): Open-Source 3D PBR Texture Painting Software. `[open-source]` ([Repository](https://github.com/armory3d/armorpaint))
-- [NVIDIA Texture Tools Exporter](https://developer.nvidia.com/texture-tools-exporter): Allows users to create highly compressed texture files (that stay small both on disk and in memory) directly from image sources using NVIDIA’s CUDA-accelerated Texture Tools compressor technology.
-- [Materialize](https://boundingboxsoftware.com/materialize/): Stand alone tool for creating materials from images. `[open-source]` ([Repository](https://github.com/BoundingBoxSoftware/Materialize))
-- [Material Maker](https://rodzilla.itch.io/material-maker): Simple procedural materials generation tool. `[open-source]` ([Repository](https://github.com/RodZill4/material-maker))
-- [TextureLab](https://njbrown.itch.io/texturelab): Tool designed to make procedural texture generation.
-- [Agisoft De-Lighter](https://agisoft.freshdesk.com/support/solutions/articles/31000158376-agisoft-texture-de-lighter-general-workflow): Free stand-alone tool designed to remove shadows from model textures. [[download]](https://www.agisoft.com/downloads/installer/)
-- [Agama Materials](https://agama.itch.io/agama-materials): Is software for creating PBR materials and painting 3d models. You can create materials and use them for painting models, or you can use pre-made textures.
-- [Architextures - Create](https://architextures.org/create): Web app allows you to create seamless textures, bump maps and CAD hatches. Select any of the parameters to get started.
+- [Material Maker](https://www.materialmaker.org/): Open-source node-based procedural PBR material authoring and 3D model texture painting application built with Godot. `[MIT]` ([Repository](https://github.com/RodZill4/material-maker))
+- [ArmorPaint](https://armorpaint.org/): Open-source 3D PBR texture painting application with node-based brushes and GPU map baking. `[open-source]` ([Repository](https://github.com/armory3d/armorpaint))
+- [InstaMAT](https://www.instamaterial.com/): Node-based material authoring, layered 3D texturing, and GPU mesh baking suite (free Pioneer license for individuals/indies under $100k revenue).
+- [Materialize](https://boundingboxsoftware.com/materialize/): Open-source tool for generating tileable diffuse, height, normal, AO, and metallic PBR texture maps from a single image. `[GPL]` ([Repository](https://github.com/BoundingBoxSoftware/Materialize))
 - [Normal Map Bench](https://normalmapbench.com/): Free browser-based normal map generator from images with live strength, smoothing, edge and lighting controls; OpenGL/DirectX export.
+- [Agisoft De-Lighter](https://agisoft.freshdesk.com/support/solutions/articles/31000158376-agisoft-texture-de-lighter-general-workflow): Free standalone utility for removing baked shadows and ambient lighting from photogrammetry textures. [[download]](https://www.agisoft.com/downloads/installer/)
+- [Architextures](https://architextures.org/create): Browser-based generator for seamless architectural textures, bump maps, and CAD hatch patterns.
+- [NVIDIA Texture Tools Exporter](https://developer.nvidia.com/texture-tools-exporter): CUDA-accelerated standalone compressor and mipmap generator exporting `.dds` and `.ktx2` textures.
+- [Agama Materials](https://agama.itch.io/agama-materials): Freeware desktop tool for creating procedural PBR materials and painting directly on 3D models.
 
 ## Terrain, GIS & LiDAR
 

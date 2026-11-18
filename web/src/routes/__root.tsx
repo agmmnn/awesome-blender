@@ -52,6 +52,9 @@ export const Route = createRootRoute({
     ],
     links: [
       { rel: "stylesheet", href: appCss },
+      { rel: "preconnect", href: "https://avatars.githubusercontent.com" },
+      { rel: "preconnect", href: "https://github.com" },
+      { rel: "preconnect", href: "https://www.google.com" },
       { rel: "icon", href: "/imgs/blender.svg", type: "image/svg+xml" },
       { rel: "apple-touch-icon", href: "/logo.png" },
       { rel: "manifest", href: "/manifest.webmanifest" },

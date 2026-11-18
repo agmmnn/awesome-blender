@@ -4,22 +4,22 @@
     "totalSections": 6,
     "totalCategories": 44,
     "totalSubgroups": 69,
-    "totalEntries": 578,
+    "totalEntries": 577,
     "entryKinds": {
-      "item": 529,
-      "collection": 19,
+      "item": 532,
+      "collection": 15,
       "quick-link": 6,
       "social-handle": 24
     },
-    "totalContentUrls": 807,
-    "uniqueContentUrls": 803,
+    "totalContentUrls": 794,
+    "uniqueContentUrls": 791,
     "paidEntries": 31,
-    "freeEntries": 547,
+    "freeEntries": 546,
     "uniqueGithubRepos": 197,
     "uniqueBlenderExtensions": 52,
     "licenseCounts": {
-      "gpl": 62,
-      "mit": 23,
+      "gpl": 63,
+      "mit": 24,
       "zero": 23,
       "cc": 6,
       "by": 3
@@ -16737,8 +16737,56 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L622-armorpaint",
+              "id": "L622-material-maker",
               "line": 622,
+              "kind": "item",
+              "sectionId": "standalone",
+              "categoryId": "standalone/texture-material",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "Material Maker",
+                "zh": "Material Maker"
+              },
+              "url": "https://www.materialmaker.org/",
+              "description": {
+                "en": "Open-source node-based procedural PBR material authoring and 3D model texture painting application built with Godot.",
+                "zh": "基于 Godot 引擎打造的开源节点式程序化 PBR 材质创作与 3D 模型纹理绘制软件。"
+              },
+              "descriptionMd": {
+                "en": "Open-source node-based procedural PBR material authoring and 3D model texture painting application built with Godot.",
+                "zh": "基于 Godot 引擎打造的开源节点式程序化 PBR 材质创作与 3D 模型纹理绘制软件。"
+              },
+              "secondaryLinks": [
+                {
+                  "label": {
+                    "en": "Repository",
+                    "zh": "源码仓库"
+                  },
+                  "url": "https://github.com/RodZill4/material-maker",
+                  "type": "repo"
+                }
+              ],
+              "allUrls": [
+                "https://www.materialmaker.org/",
+                "https://github.com/RodZill4/material-maker"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [
+                "mit"
+              ],
+              "mediaType": null,
+              "platforms": [
+                "github",
+                "open-source"
+              ],
+              "githubRepo": "RodZill4/material-maker",
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L623-armorpaint",
+              "line": 623,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -16750,12 +16798,12 @@
               },
               "url": "https://armorpaint.org/",
               "description": {
-                "en": "Open-Source 3D PBR Texture Painting Software.",
-                "zh": "开源3D PBR纹理绘制软件。"
+                "en": "Open-source 3D PBR texture painting application with node-based brushes and GPU map baking.",
+                "zh": "开源 3D PBR 纹理绘制软件，支持节点式笔刷与 GPU 贴图烘焙工作流。"
               },
               "descriptionMd": {
-                "en": "Open-Source 3D PBR Texture Painting Software.",
-                "zh": "开源3D PBR纹理绘制软件。"
+                "en": "Open-source 3D PBR texture painting application with node-based brushes and GPU map baking.",
+                "zh": "开源 3D PBR 纹理绘制软件，支持节点式笔刷与 GPU 贴图烘焙工作流。"
               },
               "secondaryLinks": [
                 {
@@ -16783,29 +16831,29 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L623-nvidia-texture-tools-exporter",
-              "line": 623,
+              "id": "L624-instamat",
+              "line": 624,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
               "subgroupId": null,
               "subgroup": null,
               "title": {
-                "en": "NVIDIA Texture Tools Exporter",
-                "zh": "NVIDIA Texture Tools Exporter"
+                "en": "InstaMAT",
+                "zh": "InstaMAT"
               },
-              "url": "https://developer.nvidia.com/texture-tools-exporter",
+              "url": "https://www.instamaterial.com/",
               "description": {
-                "en": "Allows users to create highly compressed texture files (that stay small both on disk and in memory) directly from image sources using NVIDIA’s CUDA-accelerated Texture Tools compressor technology.",
-                "zh": "使用NVIDIA的CUDA加速纹理工具压缩技术，允许用户直接从图像源创建高度压缩的纹理文件（在磁盘和内存中都保持小巧）。"
+                "en": "Node-based material authoring, layered 3D texturing, and GPU mesh baking suite (free Pioneer license for individuals/indies under $100k revenue).",
+                "zh": "集节点式材质创作、多层 3D 纹理绘制与 GPU 网格烘焙于一体的套件（年收入 10 万美元以下个人与独立创作者可免费使用 Pioneer 授权）。"
               },
               "descriptionMd": {
-                "en": "Allows users to create highly compressed texture files (that stay small both on disk and in memory) directly from image sources using NVIDIA’s CUDA-accelerated Texture Tools compressor technology.",
-                "zh": "使用NVIDIA的CUDA加速纹理工具压缩技术，允许用户直接从图像源创建高度压缩的纹理文件（在磁盘和内存中都保持小巧）。"
+                "en": "Node-based material authoring, layered 3D texturing, and GPU mesh baking suite (free Pioneer license for individuals/indies under $100k revenue).",
+                "zh": "集节点式材质创作、多层 3D 纹理绘制与 GPU 网格烘焙于一体的套件（年收入 10 万美元以下个人与独立创作者可免费使用 Pioneer 授权）。"
               },
               "secondaryLinks": [],
               "allUrls": [
-                "https://developer.nvidia.com/texture-tools-exporter"
+                "https://www.instamaterial.com/"
               ],
               "isPaid": false,
               "isFree": true,
@@ -16816,8 +16864,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L624-materialize",
-              "line": 624,
+              "id": "L625-materialize",
+              "line": 625,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -16829,12 +16877,12 @@
               },
               "url": "https://boundingboxsoftware.com/materialize/",
               "description": {
-                "en": "Stand alone tool for creating materials from images.",
-                "zh": "是一个独立的工具，用于从图像创建材料。"
+                "en": "Open-source tool for generating tileable diffuse, height, normal, AO, and metallic PBR texture maps from a single image.",
+                "zh": "从单张图片生成可无缝平铺的漫反射、高度、法线、AO 与金属度全套 PBR 贴图的开源工具。"
               },
               "descriptionMd": {
-                "en": "Stand alone tool for creating materials from images.",
-                "zh": "是一个独立的工具，用于从图像创建材料。"
+                "en": "Open-source tool for generating tileable diffuse, height, normal, AO, and metallic PBR texture maps from a single image.",
+                "zh": "从单张图片生成可无缝平铺的漫反射、高度、法线、AO 与金属度全套 PBR 贴图的开源工具。"
               },
               "secondaryLinks": [
                 {
@@ -16852,7 +16900,9 @@
               ],
               "isPaid": false,
               "isFree": true,
-              "licenses": [],
+              "licenses": [
+                "gpl"
+              ],
               "mediaType": null,
               "platforms": [
                 "github",
@@ -16862,53 +16912,7 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L625-material-maker",
-              "line": 625,
-              "kind": "item",
-              "sectionId": "standalone",
-              "categoryId": "standalone/texture-material",
-              "subgroupId": null,
-              "subgroup": null,
-              "title": {
-                "en": "Material Maker",
-                "zh": "Material Maker"
-              },
-              "url": "https://rodzilla.itch.io/material-maker",
-              "description": {
-                "en": "Simple procedural materials generation tool.",
-                "zh": "是一个简单的程序化材料生成工具。"
-              },
-              "descriptionMd": {
-                "en": "Simple procedural materials generation tool.",
-                "zh": "是一个简单的程序化材料生成工具。"
-              },
-              "secondaryLinks": [
-                {
-                  "label": {
-                    "en": "Repository",
-                    "zh": "源码仓库"
-                  },
-                  "url": "https://github.com/RodZill4/material-maker",
-                  "type": "repo"
-                }
-              ],
-              "allUrls": [
-                "https://rodzilla.itch.io/material-maker",
-                "https://github.com/RodZill4/material-maker"
-              ],
-              "isPaid": false,
-              "isFree": true,
-              "licenses": [],
-              "mediaType": null,
-              "platforms": [
-                "github",
-                "open-source"
-              ],
-              "githubRepo": "RodZill4/material-maker",
-              "blenderExtensionId": null
-            },
-            {
-              "id": "L626-texturelab",
+              "id": "L626-normal-map-bench",
               "line": 626,
               "kind": "item",
               "sectionId": "standalone",
@@ -16916,21 +16920,21 @@
               "subgroupId": null,
               "subgroup": null,
               "title": {
-                "en": "TextureLab",
-                "zh": "TextureLab"
+                "en": "Normal Map Bench",
+                "zh": "Normal Map Bench"
               },
-              "url": "https://njbrown.itch.io/texturelab",
+              "url": "https://normalmapbench.com/",
               "description": {
-                "en": "Tool designed to make procedural texture generation.",
-                "zh": "是为程序化纹理生成而设计的工具。"
+                "en": "Free browser-based normal map generator from images with live strength, smoothing, edge and lighting controls; OpenGL/DirectX export.",
+                "zh": "免费的基于浏览器的图像转法线贴图生成器，支持实时强度、平滑、边缘与光照控制，可导出 OpenGL/DirectX 格式。"
               },
               "descriptionMd": {
-                "en": "Tool designed to make procedural texture generation.",
-                "zh": "是为程序化纹理生成而设计的工具。"
+                "en": "Free browser-based normal map generator from images with live strength, smoothing, edge and lighting controls; OpenGL/DirectX export.",
+                "zh": "免费的基于浏览器的图像转法线贴图生成器，支持实时强度、平滑、边缘与光照控制，可导出 OpenGL/DirectX 格式。"
               },
               "secondaryLinks": [],
               "allUrls": [
-                "https://njbrown.itch.io/texturelab"
+                "https://normalmapbench.com/"
               ],
               "isPaid": false,
               "isFree": true,
@@ -16954,12 +16958,12 @@
               },
               "url": "https://agisoft.freshdesk.com/support/solutions/articles/31000158376-agisoft-texture-de-lighter-general-workflow",
               "description": {
-                "en": "Free stand-alone tool designed to remove shadows from model textures. (download)",
-                "zh": "是一个免费的独立工具，旨在从模型纹理中去除阴影。(下载)"
+                "en": "Free standalone utility for removing baked shadows and ambient lighting from photogrammetry textures. (download)",
+                "zh": "用于去除摄影测量扫描模型贴图中自带阴影与环境光的免费独立工具。(下载)"
               },
               "descriptionMd": {
-                "en": "Free stand-alone tool designed to remove shadows from model textures. [[download]](https://www.agisoft.com/downloads/installer/)",
-                "zh": "是一个免费的独立工具，旨在从模型纹理中去除阴影。[[下载]](https://www.agisoft.com/downloads/installer/)"
+                "en": "Free standalone utility for removing baked shadows and ambient lighting from photogrammetry textures. [[download]](https://www.agisoft.com/downloads/installer/)",
+                "zh": "用于去除摄影测量扫描模型贴图中自带阴影与环境光的免费独立工具。[[下载]](https://www.agisoft.com/downloads/installer/)"
               },
               "secondaryLinks": [],
               "allUrls": [
@@ -16975,7 +16979,7 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L628-agama-materials",
+              "id": "L628-architextures",
               "line": 628,
               "kind": "item",
               "sectionId": "standalone",
@@ -16983,50 +16987,17 @@
               "subgroupId": null,
               "subgroup": null,
               "title": {
-                "en": "Agama Materials",
-                "zh": "Agama Materials"
-              },
-              "url": "https://agama.itch.io/agama-materials",
-              "description": {
-                "en": "Is software for creating PBR materials and painting 3d models. You can create materials and use them for painting models, or you can use pre-made textures.",
-                "zh": "是用于创建PBR材料和绘制3D模型的软件。您可以创建材料并用于绘制模型，或者使用预制的纹理。"
-              },
-              "descriptionMd": {
-                "en": "Is software for creating PBR materials and painting 3d models. You can create materials and use them for painting models, or you can use pre-made textures.",
-                "zh": "是用于创建PBR材料和绘制3D模型的软件。您可以创建材料并用于绘制模型，或者使用预制的纹理。"
-              },
-              "secondaryLinks": [],
-              "allUrls": [
-                "https://agama.itch.io/agama-materials"
-              ],
-              "isPaid": false,
-              "isFree": true,
-              "licenses": [],
-              "mediaType": null,
-              "platforms": [],
-              "githubRepo": null,
-              "blenderExtensionId": null
-            },
-            {
-              "id": "L629-architextures-create",
-              "line": 629,
-              "kind": "item",
-              "sectionId": "standalone",
-              "categoryId": "standalone/texture-material",
-              "subgroupId": null,
-              "subgroup": null,
-              "title": {
-                "en": "Architextures - Create",
-                "zh": "Architextures - Create"
+                "en": "Architextures",
+                "zh": "Architextures"
               },
               "url": "https://architextures.org/create",
               "description": {
-                "en": "Web app allows you to create seamless textures, bump maps and CAD hatches. Select any of the parameters to get started.",
-                "zh": "Web应用程序允许您创建无缝纹理、凹凸贴图和CAD图案。选择任何参数开始。"
+                "en": "Browser-based generator for seamless architectural textures, bump maps, and CAD hatch patterns.",
+                "zh": "基于浏览器的无缝建筑纹理、凹凸贴图与 CAD 填充图案生成器。"
               },
               "descriptionMd": {
-                "en": "Web app allows you to create seamless textures, bump maps and CAD hatches. Select any of the parameters to get started.",
-                "zh": "Web应用程序允许您创建无缝纹理、凹凸贴图和CAD图案。选择任何参数开始。"
+                "en": "Browser-based generator for seamless architectural textures, bump maps, and CAD hatch patterns.",
+                "zh": "基于浏览器的无缝建筑纹理、凹凸贴图与 CAD 填充图案生成器。"
               },
               "secondaryLinks": [],
               "allUrls": [
@@ -17041,7 +17012,40 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L630-normal-map-bench",
+              "id": "L629-nvidia-texture-tools-exporter",
+              "line": 629,
+              "kind": "item",
+              "sectionId": "standalone",
+              "categoryId": "standalone/texture-material",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "NVIDIA Texture Tools Exporter",
+                "zh": "NVIDIA Texture Tools Exporter"
+              },
+              "url": "https://developer.nvidia.com/texture-tools-exporter",
+              "description": {
+                "en": "CUDA-accelerated standalone compressor and mipmap generator exporting .dds and .ktx2 textures.",
+                "zh": "利用 CUDA 加速导出高压缩比 .dds 与 .ktx2 纹理及 Mipmap 的独立工具。"
+              },
+              "descriptionMd": {
+                "en": "CUDA-accelerated standalone compressor and mipmap generator exporting `.dds` and `.ktx2` textures.",
+                "zh": "利用 CUDA 加速导出高压缩比 `.dds` 与 `.ktx2` 纹理及 Mipmap 的独立工具。"
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://developer.nvidia.com/texture-tools-exporter"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [],
+              "githubRepo": null,
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L630-agama-materials",
               "line": 630,
               "kind": "item",
               "sectionId": "standalone",
@@ -17049,21 +17053,21 @@
               "subgroupId": null,
               "subgroup": null,
               "title": {
-                "en": "Normal Map Bench",
-                "zh": "Normal Map Bench"
+                "en": "Agama Materials",
+                "zh": "Agama Materials"
               },
-              "url": "https://normalmapbench.com/",
+              "url": "https://agama.itch.io/agama-materials",
               "description": {
-                "en": "Free browser-based normal map generator from images with live strength, smoothing, edge and lighting controls; OpenGL/DirectX export.",
-                "zh": "免费的基于浏览器的图像转法线贴图生成器，支持实时强度、平滑、边缘与光照控制，可导出 OpenGL/DirectX 格式。"
+                "en": "Freeware desktop tool for creating procedural PBR materials and painting directly on 3D models.",
+                "zh": "免费的桌面端程序化 PBR 材质制作与 3D 模型直接绘制工具。"
               },
               "descriptionMd": {
-                "en": "Free browser-based normal map generator from images with live strength, smoothing, edge and lighting controls; OpenGL/DirectX export.",
-                "zh": "免费的基于浏览器的图像转法线贴图生成器，支持实时强度、平滑、边缘与光照控制，可导出 OpenGL/DirectX 格式。"
+                "en": "Freeware desktop tool for creating procedural PBR materials and painting directly on 3D models.",
+                "zh": "免费的桌面端程序化 PBR 材质制作与 3D 模型直接绘制工具。"
               },
               "secondaryLinks": [],
               "allUrls": [
-                "https://normalmapbench.com/"
+                "https://agama.itch.io/agama-materials"
               ],
               "isPaid": false,
               "isFree": true,
@@ -24540,8 +24544,280 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L921-nodevember",
+              "id": "L921-blender-conference",
               "line": 921,
+              "kind": "item",
+              "sectionId": "social",
+              "categoryId": "social/challenges-events",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "Blender Conference",
+                "zh": "Blender Conference"
+              },
+              "url": "https://conference.blender.org/",
+              "description": {
+                "en": "Annual Blender Conference in Amsterdam featuring talks, workshops, and community meetups (Bcon26, Bcon25, Bcon24, All Playlists).",
+                "zh": "每年在阿姆斯特丹举办的 Blender 年度官方大会，涵盖技术演讲、工作坊与社区交流（Bcon26、Bcon25、Bcon24、全部播放列表）。"
+              },
+              "descriptionMd": {
+                "en": "Annual Blender Conference in Amsterdam featuring talks, workshops, and community meetups ([Bcon26](https://www.youtube.com/playlist?list=PLa1F2ddGya_-I9y1nXALrBqrZNdlUE012), [Bcon25](https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd), [Bcon24](https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x), [All Playlists](https://www.youtube.com/@blenderofficial/playlists)).",
+                "zh": "每年在阿姆斯特丹举办的 Blender 年度官方大会，涵盖技术演讲、工作坊与社区交流（[Bcon26](https://www.youtube.com/playlist?list=PLa1F2ddGya_-I9y1nXALrBqrZNdlUE012)、[Bcon25](https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd)、[Bcon24](https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x)、[全部播放列表](https://www.youtube.com/@blenderofficial/playlists)）。"
+              },
+              "secondaryLinks": [
+                {
+                  "label": {
+                    "en": "Bcon26",
+                    "zh": "Bcon26"
+                  },
+                  "url": "https://www.youtube.com/playlist?list=PLa1F2ddGya_-I9y1nXALrBqrZNdlUE012",
+                  "type": "other"
+                },
+                {
+                  "label": {
+                    "en": "Bcon25",
+                    "zh": "Bcon25"
+                  },
+                  "url": "https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd",
+                  "type": "other"
+                },
+                {
+                  "label": {
+                    "en": "Bcon24",
+                    "zh": "Bcon24"
+                  },
+                  "url": "https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x",
+                  "type": "other"
+                },
+                {
+                  "label": {
+                    "en": "All Playlists",
+                    "zh": "全部播放列表"
+                  },
+                  "url": "https://www.youtube.com/@blenderofficial/playlists",
+                  "type": "other"
+                }
+              ],
+              "allUrls": [
+                "https://conference.blender.org/",
+                "https://www.youtube.com/playlist?list=PLa1F2ddGya_-I9y1nXALrBqrZNdlUE012",
+                "https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd",
+                "https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x",
+                "https://www.youtube.com/@blenderofficial/playlists"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [
+                "youtube"
+              ],
+              "githubRepo": null,
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L922-blender-artists-contests",
+              "line": 922,
+              "kind": "item",
+              "sectionId": "social",
+              "categoryId": "social/challenges-events",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "Blender Artists Contests",
+                "zh": "Blender Artists 竞赛板块"
+              },
+              "url": "https://blenderartists.org/c/contests/7",
+              "description": {
+                "en": "Ongoing community-run Weekend Challenges and themed Blender competitions on Blender Artists.",
+                "zh": "Blender Artists 社区持续举办的周末挑战赛（Weekend Challenge）及主题创作竞赛。"
+              },
+              "descriptionMd": {
+                "en": "Ongoing community-run Weekend Challenges and themed Blender competitions on Blender Artists.",
+                "zh": "Blender Artists 社区持续举办的周末挑战赛（Weekend Challenge）及主题创作竞赛。"
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://blenderartists.org/c/contests/7"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [],
+              "githubRepo": null,
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L923-cg-boost-challenges",
+              "line": 923,
+              "kind": "item",
+              "sectionId": "social",
+              "categoryId": "social/challenges-events",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "CG Boost Challenges",
+                "zh": "CG Boost Challenges"
+              },
+              "url": "https://community.cgboost.com/c/challenge/",
+              "description": {
+                "en": "Regular themed 3D art challenges and prizes hosted by CG Boost for Blender artists.",
+                "zh": "CG Boost 定期举办的 Blender 主题 3D 艺术挑战赛与获奖作品展示。"
+              },
+              "descriptionMd": {
+                "en": "Regular themed 3D art challenges and prizes hosted by CG Boost for Blender artists.",
+                "zh": "CG Boost 定期举办的 Blender 主题 3D 艺术挑战赛与获奖作品展示。"
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://community.cgboost.com/c/challenge/"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [],
+              "githubRepo": null,
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L924-pwnisher",
+              "line": 924,
+              "kind": "item",
+              "sectionId": "social",
+              "categoryId": "social/challenges-events",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "pwnisher",
+                "zh": "pwnisher"
+              },
+              "url": "https://www.youtube.com/@pwnisher/videos",
+              "description": {
+                "en": "Clinton Jones' YouTube channel hosting large-scale community 3D render challenges.",
+                "zh": "Clinton Jones 的 YouTube 频道，定期举办全球大型社区 3D 渲染挑战赛。"
+              },
+              "descriptionMd": {
+                "en": "Clinton Jones' YouTube channel hosting large-scale community 3D render challenges.",
+                "zh": "Clinton Jones 的 YouTube 频道，定期举办全球大型社区 3D 渲染挑战赛。"
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://www.youtube.com/@pwnisher/videos"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [
+                "youtube"
+              ],
+              "githubRepo": null,
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L925-render-challenge",
+              "line": 925,
+              "kind": "item",
+              "sectionId": "social",
+              "categoryId": "social/challenges-events",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "Render Challenge",
+                "zh": "Render Challenge"
+              },
+              "url": "https://renderchallenge.com/",
+              "description": {
+                "en": "Weekly curated aggregator of active 3D art competitions and render challenges.",
+                "zh": "每周更新的全球 3D 艺术竞赛与渲染挑战汇总平台。"
+              },
+              "descriptionMd": {
+                "en": "Weekly curated aggregator of active 3D art competitions and render challenges.",
+                "zh": "每周更新的全球 3D 艺术竞赛与渲染挑战汇总平台。"
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://renderchallenge.com/"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [],
+              "githubRepo": null,
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L926-the-rookies-contests",
+              "line": 926,
+              "kind": "item",
+              "sectionId": "social",
+              "categoryId": "social/challenges-events",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "The Rookies Contests",
+                "zh": "The Rookies Contests"
+              },
+              "url": "https://www.therookies.co/contests",
+              "description": {
+                "en": "Global 3D, VFX, and game art contests for emerging and student artists.",
+                "zh": "面向学生与新生代艺术家的全球大型 3D、视效与游戏美术竞赛平台。"
+              },
+              "descriptionMd": {
+                "en": "Global 3D, VFX, and game art contests for emerging and student artists.",
+                "zh": "面向学生与新生代艺术家的全球大型 3D、视效与游戏美术竞赛平台。"
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://www.therookies.co/contests"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [],
+              "githubRepo": null,
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L927-artstation-challenges",
+              "line": 927,
+              "kind": "item",
+              "sectionId": "social",
+              "categoryId": "social/challenges-events",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "ArtStation Challenges",
+                "zh": "ArtStation Challenges"
+              },
+              "url": "https://www.artstation.com/challenges",
+              "description": {
+                "en": "Large-scale themed production challenges for environment, character, and prop artists.",
+                "zh": "围绕场景、角色与道具制作的大型主题专业创作挑战赛。"
+              },
+              "descriptionMd": {
+                "en": "Large-scale themed production challenges for environment, character, and prop artists.",
+                "zh": "围绕场景、角色与道具制作的大型主题专业创作挑战赛。"
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://www.artstation.com/challenges"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [],
+              "githubRepo": null,
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L928-nodevember",
+              "line": 928,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -24573,69 +24849,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L922-see-works",
-              "line": 922,
-              "kind": "collection",
-              "sectionId": "social",
-              "categoryId": "social/challenges-events",
-              "subgroupId": null,
-              "subgroup": null,
-              "title": {
-                "en": "See works",
-                "zh": "查看作品"
-              },
-              "url": null,
-              "description": {
-                "en": "x/#nodevember, ig/#nodevember, artstation/nodevember",
-                "zh": "x/#nodevember, ig/#nodevember, artstation/nodevember"
-              },
-              "descriptionMd": {
-                "en": "[x/#nodevember](https://x.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?sort_by=relevance&query=nodevember)",
-                "zh": "[x/#nodevember](https://x.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?sort_by=relevance&query=nodevember)"
-              },
-              "secondaryLinks": [
-                {
-                  "label": {
-                    "en": "x/#nodevember",
-                    "zh": "x/#nodevember"
-                  },
-                  "url": "https://x.com/search?q=%23nodevember",
-                  "type": "collection-item"
-                },
-                {
-                  "label": {
-                    "en": "ig/#nodevember",
-                    "zh": "ig/#nodevember"
-                  },
-                  "url": "https://www.instagram.com/explore/tags/nodevember/",
-                  "type": "collection-item"
-                },
-                {
-                  "label": {
-                    "en": "artstation/nodevember",
-                    "zh": "artstation/nodevember"
-                  },
-                  "url": "https://www.artstation.com/search?sort_by=relevance&query=nodevember",
-                  "type": "collection-item"
-                }
-              ],
-              "allUrls": [
-                "https://x.com/search?q=%23nodevember",
-                "https://www.instagram.com/explore/tags/nodevember/",
-                "https://www.artstation.com/search?sort_by=relevance&query=nodevember"
-              ],
-              "isPaid": false,
-              "isFree": true,
-              "licenses": [],
-              "mediaType": null,
-              "platforms": [],
-              "githubRepo": null,
-              "blenderExtensionId": null,
-              "parentId": "L921-nodevember"
-            },
-            {
-              "id": "L923-sculptjanuary",
-              "line": 923,
+              "id": "L929-sculptjanuary",
+              "line": 929,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -24645,7 +24860,7 @@
                 "en": "SculptJanuary",
                 "zh": "SculptJanuary"
               },
-              "url": "https://community.cgboost.com/c/challenge/",
+              "url": "https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary",
               "description": {
                 "en": "Annual 31-day January sculpting challenge with daily prompts to build speed and anatomy skills.",
                 "zh": "每年一月为期 31 天的每日主题雕刻挑战，适合提升速度与人体结构塑造能力。"
@@ -24656,66 +24871,6 @@
               },
               "secondaryLinks": [],
               "allUrls": [
-                "https://community.cgboost.com/c/challenge/"
-              ],
-              "isPaid": false,
-              "isFree": true,
-              "licenses": [],
-              "mediaType": null,
-              "platforms": [],
-              "githubRepo": null,
-              "blenderExtensionId": null
-            },
-            {
-              "id": "L924-see-works",
-              "line": 924,
-              "kind": "collection",
-              "sectionId": "social",
-              "categoryId": "social/challenges-events",
-              "subgroupId": null,
-              "subgroup": null,
-              "title": {
-                "en": "See works",
-                "zh": "查看作品"
-              },
-              "url": null,
-              "description": {
-                "en": "x/#sculptjanuary, ig/#sculptjanuary, artstation/sculptjanuary",
-                "zh": "x/#sculptjanuary, ig/#sculptjanuary, artstation/sculptjanuary"
-              },
-              "descriptionMd": {
-                "en": "[x/#sculptjanuary](https://x.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary)",
-                "zh": "[x/#sculptjanuary](https://x.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary)"
-              },
-              "secondaryLinks": [
-                {
-                  "label": {
-                    "en": "x/#sculptjanuary",
-                    "zh": "x/#sculptjanuary"
-                  },
-                  "url": "https://x.com/search?q=%23sculptjanuary",
-                  "type": "collection-item"
-                },
-                {
-                  "label": {
-                    "en": "ig/#sculptjanuary",
-                    "zh": "ig/#sculptjanuary"
-                  },
-                  "url": "https://www.instagram.com/explore/tags/sculptjanuary/",
-                  "type": "collection-item"
-                },
-                {
-                  "label": {
-                    "en": "artstation/sculptjanuary",
-                    "zh": "artstation/sculptjanuary"
-                  },
-                  "url": "https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary",
-                  "type": "collection-item"
-                }
-              ],
-              "allUrls": [
-                "https://x.com/search?q=%23sculptjanuary",
-                "https://www.instagram.com/explore/tags/sculptjanuary/",
                 "https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary"
               ],
               "isPaid": false,
@@ -24723,337 +24878,6 @@
               "licenses": [],
               "mediaType": null,
               "platforms": [],
-              "githubRepo": null,
-              "blenderExtensionId": null,
-              "parentId": "L923-sculptjanuary"
-            },
-            {
-              "id": "L925-36-days-of-type",
-              "line": 925,
-              "kind": "item",
-              "sectionId": "social",
-              "categoryId": "social/challenges-events",
-              "subgroupId": null,
-              "subgroup": null,
-              "title": {
-                "en": "36 Days of Type",
-                "zh": "36 Days of Type"
-              },
-              "url": "https://www.36daysoftype.com/",
-              "description": {
-                "en": "Annual open design call inviting artists and 3D creators to interpret letters and numbers across 36 days.",
-                "zh": "年度公开创作邀请，鼓励设计师与 3D 创作者在 36 天内演绎字母与数字。"
-              },
-              "descriptionMd": {
-                "en": "Annual open design call inviting artists and 3D creators to interpret letters and numbers across 36 days.",
-                "zh": "年度公开创作邀请，鼓励设计师与 3D 创作者在 36 天内演绎字母与数字。"
-              },
-              "secondaryLinks": [],
-              "allUrls": [
-                "https://www.36daysoftype.com/"
-              ],
-              "isPaid": false,
-              "isFree": true,
-              "licenses": [],
-              "mediaType": null,
-              "platforms": [],
-              "githubRepo": null,
-              "blenderExtensionId": null
-            },
-            {
-              "id": "L926-see-works",
-              "line": 926,
-              "kind": "collection",
-              "sectionId": "social",
-              "categoryId": "social/challenges-events",
-              "subgroupId": null,
-              "subgroup": null,
-              "title": {
-                "en": "See works",
-                "zh": "查看作品"
-              },
-              "url": null,
-              "description": {
-                "en": "x/#36daysoftype, ig/#36daysoftype, artstation/36daysoftype",
-                "zh": "x/#36daysoftype, ig/#36daysoftype, artstation/36daysoftype"
-              },
-              "descriptionMd": {
-                "en": "[x/#36daysoftype](https://x.com/hashtag/36daysoftype), [ig/#36daysoftype](https://www.instagram.com/explore/tags/36daysoftype/), [artstation/36daysoftype](https://www.artstation.com/search?sort_by=relevance&query=36daysoftype)",
-                "zh": "[x/#36daysoftype](https://x.com/hashtag/36daysoftype), [ig/#36daysoftype](https://www.instagram.com/explore/tags/36daysoftype/), [artstation/36daysoftype](https://www.artstation.com/search?sort_by=relevance&query=36daysoftype)"
-              },
-              "secondaryLinks": [
-                {
-                  "label": {
-                    "en": "x/#36daysoftype",
-                    "zh": "x/#36daysoftype"
-                  },
-                  "url": "https://x.com/hashtag/36daysoftype",
-                  "type": "collection-item"
-                },
-                {
-                  "label": {
-                    "en": "ig/#36daysoftype",
-                    "zh": "ig/#36daysoftype"
-                  },
-                  "url": "https://www.instagram.com/explore/tags/36daysoftype/",
-                  "type": "collection-item"
-                },
-                {
-                  "label": {
-                    "en": "artstation/36daysoftype",
-                    "zh": "artstation/36daysoftype"
-                  },
-                  "url": "https://www.artstation.com/search?sort_by=relevance&query=36daysoftype",
-                  "type": "collection-item"
-                }
-              ],
-              "allUrls": [
-                "https://x.com/hashtag/36daysoftype",
-                "https://www.instagram.com/explore/tags/36daysoftype/",
-                "https://www.artstation.com/search?sort_by=relevance&query=36daysoftype"
-              ],
-              "isPaid": false,
-              "isFree": true,
-              "licenses": [],
-              "mediaType": null,
-              "platforms": [],
-              "githubRepo": null,
-              "blenderExtensionId": null,
-              "parentId": "L925-36-days-of-type"
-            },
-            {
-              "id": "L927-competitions",
-              "line": 927,
-              "kind": "collection",
-              "sectionId": "social",
-              "categoryId": "social/challenges-events",
-              "subgroupId": null,
-              "subgroup": null,
-              "title": {
-                "en": "Competitions",
-                "zh": "竞赛"
-              },
-              "url": null,
-              "description": {
-                "en": "/r/blender: contest, blenderartists.org/contest.",
-                "zh": "/r/blender: contest, blenderartists.org/contest."
-              },
-              "descriptionMd": {
-                "en": "[/r/blender: contest](https://www.reddit.com/r/blender/), [blenderartists.org/contest](https://blenderartists.org/c/contests/7).",
-                "zh": "[/r/blender: contest](https://www.reddit.com/r/blender/), [blenderartists.org/contest](https://blenderartists.org/c/contests/7)."
-              },
-              "secondaryLinks": [
-                {
-                  "label": {
-                    "en": "/r/blender: contest",
-                    "zh": "/r/blender: contest"
-                  },
-                  "url": "https://www.reddit.com/r/blender/",
-                  "type": "collection-item"
-                },
-                {
-                  "label": {
-                    "en": "blenderartists.org/contest",
-                    "zh": "blenderartists.org/contest"
-                  },
-                  "url": "https://blenderartists.org/c/contests/7",
-                  "type": "collection-item"
-                }
-              ],
-              "allUrls": [
-                "https://www.reddit.com/r/blender/",
-                "https://blenderartists.org/c/contests/7"
-              ],
-              "isPaid": false,
-              "isFree": true,
-              "licenses": [],
-              "mediaType": null,
-              "platforms": [],
-              "githubRepo": null,
-              "blenderExtensionId": null
-            },
-            {
-              "id": "L928-render-challenge",
-              "line": 928,
-              "kind": "item",
-              "sectionId": "social",
-              "categoryId": "social/challenges-events",
-              "subgroupId": null,
-              "subgroup": null,
-              "title": {
-                "en": "Render Challenge",
-                "zh": "Render Challenge"
-              },
-              "url": "https://renderchallenge.com/",
-              "description": {
-                "en": "Up-to-date aggregator of 3D art competitions and render challenges updated weekly.",
-                "zh": "每周五更新的 3D 艺术竞赛与渲染挑战汇总平台。"
-              },
-              "descriptionMd": {
-                "en": "Up-to-date aggregator of 3D art competitions and render challenges updated weekly.",
-                "zh": "每周五更新的 3D 艺术竞赛与渲染挑战汇总平台。"
-              },
-              "secondaryLinks": [],
-              "allUrls": [
-                "https://renderchallenge.com/"
-              ],
-              "isPaid": false,
-              "isFree": true,
-              "licenses": [],
-              "mediaType": null,
-              "platforms": [],
-              "githubRepo": null,
-              "blenderExtensionId": null
-            },
-            {
-              "id": "L929-pwnisher",
-              "line": 929,
-              "kind": "item",
-              "sectionId": "social",
-              "categoryId": "social/challenges-events",
-              "subgroupId": null,
-              "subgroup": null,
-              "title": {
-                "en": "pwnisher",
-                "zh": "pwnisher"
-              },
-              "url": "https://www.youtube.com/c/pwnisher/videos",
-              "description": {
-                "en": "Clinton Jones' YouTube channel hosting large-scale community 3D render challenges.",
-                "zh": "Clinton Jones 的 YouTube 频道，定期举办大型社区 3D 渲染挑战赛。"
-              },
-              "descriptionMd": {
-                "en": "Clinton Jones' YouTube channel hosting large-scale community 3D render challenges.",
-                "zh": "Clinton Jones 的 YouTube 频道，定期举办大型社区 3D 渲染挑战赛。"
-              },
-              "secondaryLinks": [],
-              "allUrls": [
-                "https://www.youtube.com/c/pwnisher/videos"
-              ],
-              "isPaid": false,
-              "isFree": true,
-              "licenses": [],
-              "mediaType": null,
-              "platforms": [
-                "youtube"
-              ],
-              "githubRepo": null,
-              "blenderExtensionId": null
-            },
-            {
-              "id": "L930-blender-conference",
-              "line": 930,
-              "kind": "item",
-              "sectionId": "social",
-              "categoryId": "social/challenges-events",
-              "subgroupId": null,
-              "subgroup": null,
-              "title": {
-                "en": "Blender Conference",
-                "zh": "Blender Conference"
-              },
-              "url": "https://conference.blender.org/",
-              "description": {
-                "en": "Annual Blender Conference in Amsterdam. (Playlists: Bcon26, Bcon25, Bcon24, Bcon23, Bcon22, Bcon20, Bcon19, Bcon18, Bcon17).",
-                "zh": "每年在阿姆斯特丹举行的 Blender 年度大会。（播放列表：Bcon26, Bcon25, Bcon24, Bcon23, Bcon22, Bcon20, Bcon19, Bcon18, Bcon17)."
-              },
-              "descriptionMd": {
-                "en": "Annual Blender Conference in Amsterdam. (Playlists: [Bcon26](https://www.youtube.com/playlist?list=PLa1F2ddGya_-I9y1nXALrBqrZNdlUE012), [Bcon25](https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd), [Bcon24](https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x), [Bcon23](https://www.youtube.com/playlist?list=PLa1F2ddGya_84ye1JAvIGh0Yp7utEKZI_), [Bcon22](https://www.youtube.com/playlist?list=PLa1F2ddGya__2Ip2UB-xp6M54cQVvw1W-), [Bcon20](https://www.youtube.com/watch?v=uEjmbsiflMU), [Bcon19](https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S), [Bcon18](https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B), [Bcon17](https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO)).",
-                "zh": "每年在阿姆斯特丹举行的 Blender 年度大会。（播放列表：[Bcon26](https://www.youtube.com/playlist?list=PLa1F2ddGya_-I9y1nXALrBqrZNdlUE012), [Bcon25](https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd), [Bcon24](https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x), [Bcon23](https://www.youtube.com/playlist?list=PLa1F2ddGya_84ye1JAvIGh0Yp7utEKZI_), [Bcon22](https://www.youtube.com/playlist?list=PLa1F2ddGya__2Ip2UB-xp6M54cQVvw1W-), [Bcon20](https://www.youtube.com/watch?v=uEjmbsiflMU), [Bcon19](https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S), [Bcon18](https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B), [Bcon17](https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO))."
-              },
-              "secondaryLinks": [
-                {
-                  "label": {
-                    "en": "Bcon26",
-                    "zh": "Bcon26"
-                  },
-                  "url": "https://www.youtube.com/playlist?list=PLa1F2ddGya_-I9y1nXALrBqrZNdlUE012",
-                  "type": "other"
-                },
-                {
-                  "label": {
-                    "en": "Bcon25",
-                    "zh": "Bcon25"
-                  },
-                  "url": "https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd",
-                  "type": "other"
-                },
-                {
-                  "label": {
-                    "en": "Bcon24",
-                    "zh": "Bcon24"
-                  },
-                  "url": "https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x",
-                  "type": "other"
-                },
-                {
-                  "label": {
-                    "en": "Bcon23",
-                    "zh": "Bcon23"
-                  },
-                  "url": "https://www.youtube.com/playlist?list=PLa1F2ddGya_84ye1JAvIGh0Yp7utEKZI_",
-                  "type": "other"
-                },
-                {
-                  "label": {
-                    "en": "Bcon22",
-                    "zh": "Bcon22"
-                  },
-                  "url": "https://www.youtube.com/playlist?list=PLa1F2ddGya__2Ip2UB-xp6M54cQVvw1W-",
-                  "type": "other"
-                },
-                {
-                  "label": {
-                    "en": "Bcon20",
-                    "zh": "Bcon20"
-                  },
-                  "url": "https://www.youtube.com/watch?v=uEjmbsiflMU",
-                  "type": "other"
-                },
-                {
-                  "label": {
-                    "en": "Bcon19",
-                    "zh": "Bcon19"
-                  },
-                  "url": "https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S",
-                  "type": "other"
-                },
-                {
-                  "label": {
-                    "en": "Bcon18",
-                    "zh": "Bcon18"
-                  },
-                  "url": "https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B",
-                  "type": "other"
-                },
-                {
-                  "label": {
-                    "en": "Bcon17",
-                    "zh": "Bcon17"
-                  },
-                  "url": "https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO",
-                  "type": "other"
-                }
-              ],
-              "allUrls": [
-                "https://conference.blender.org/",
-                "https://www.youtube.com/playlist?list=PLa1F2ddGya_-I9y1nXALrBqrZNdlUE012",
-                "https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd",
-                "https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x",
-                "https://www.youtube.com/playlist?list=PLa1F2ddGya_84ye1JAvIGh0Yp7utEKZI_",
-                "https://www.youtube.com/playlist?list=PLa1F2ddGya__2Ip2UB-xp6M54cQVvw1W-",
-                "https://www.youtube.com/watch?v=uEjmbsiflMU",
-                "https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S",
-                "https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B",
-                "https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO"
-              ],
-              "isPaid": false,
-              "isFree": true,
-              "licenses": [],
-              "mediaType": null,
-              "platforms": [
-                "youtube"
-              ],
               "githubRepo": null,
               "blenderExtensionId": null
             }

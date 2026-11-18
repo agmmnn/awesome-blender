@@ -1,4 +1,5 @@
-import rawCatalogJson from "@/data/catalog.json";
+import rawCatalogJson from "@/data/directory_lite.json";
+import rawGithubMetaJson from "@/data/github_meta.json";
 import type {
   CatalogCategory,
   CatalogData,
@@ -10,15 +11,46 @@ import type {
   PlatformTag,
 } from "@/data/schema";
 
-const rawCatalog = rawCatalogJson as unknown as CatalogData;
+interface GithubRepoMeta {
+  stars: number;
+  pushedAt: string | null;
+  customOgImage: string | null;
+  isArchived?: boolean;
+}
 
-export type DirectorySectionId = "add-ons" | "ai-mcp" | "resources" | "standalone";
+type LiteCatalogEntry = Omit<CatalogEntry, "kind" | "descriptionMd" | "allUrls"> & {
+  kind?: CatalogEntry["kind"];
+};
+
+const rawCatalog = rawCatalogJson as unknown as CatalogData;
+const githubMetaMap = rawGithubMetaJson as unknown as Record<
+  string,
+  GithubRepoMeta
+>;
+
+export type DirectorySectionId =
+  | "add-ons"
+  | "ai-mcp"
+  | "resources"
+  | "standalone"
+  | "tutorials"
+  | "social";
+
+export type DirectorySortId =
+  | "curated"
+  | "stars"
+  | "updated"
+  | "extensions"
+  | "free"
+  | "name";
 
 const ALLOWED_SECTIONS = new Set<string>([
   "add-ons",
   "ai-mcp",
   "resources",
   "standalone",
+  "tutorials",
+  "social",
 ]);
 
 /**
@@ -30,18 +62,82 @@ const EXCLUDED_CATEGORY_IDS = new Set<string>([
   "resources/related-awesome-lists",
 ]);
 
-export interface DirectoryItem extends CatalogEntry {
+export interface DirectoryItem extends LiteCatalogEntry {
+  slug: string;
   sectionId: DirectorySectionId;
   sectionTitle: LocalizedText;
   categoryTitle: LocalizedText;
   categorySlug: string;
+  categoryEmoji: string | null;
+  githubStars: number | null;
+  githubPushedAt: string | null;
+  avatarUrl: string | null;
+  previewImageUrl: string | null;
+  domainLabel: string | null;
   searchText: string;
+}
+
+function extractYoutubeVideoId(url: string | null): string | null {
+  if (!url) return null;
+  try {
+    const parsed = new URL(url);
+    const host = parsed.hostname.replace(/^www\./, "");
+    if (host === "youtu.be") {
+      const id = parsed.pathname.slice(1).split("/")[0];
+      return id || null;
+    }
+    if (host === "youtube.com" || host === "m.youtube.com") {
+      return parsed.searchParams.get("v");
+    }
+  } catch {}
+  return null;
+}
+
+function deriveVisualMeta(entry: CatalogEntry) {
+  const ghMeta = entry.githubRepo
+    ? githubMetaMap[entry.githubRepo] ?? null
+    : null;
+  const githubOwner = entry.githubRepo
+    ? entry.githubRepo.split("/")[0] || null
+    : null;
+
+  let hostname: string | null = null;
+  if (entry.url) {
+    try {
+      hostname = new URL(entry.url).hostname.replace(/^www\./, "");
+    } catch {}
+  }
+
+  const avatarUrl = githubOwner
+    ? `https://github.com/${githubOwner}.png?size=72`
+    : hostname
+      ? `https://www.google.com/s2/favicons?domain=${hostname}&sz=64`
+      : null;
+
+  const ytId = extractYoutubeVideoId(entry.url);
+  const previewImageUrl = ytId
+    ? `https://i.ytimg.com/vi/${ytId}/hqdefault.jpg`
+    : ghMeta?.customOgImage ?? null;
+
+  const domainLabel =
+    hostname === "github.com" && entry.githubRepo
+      ? entry.githubRepo
+      : hostname;
+
+  return {
+    githubStars: ghMeta?.stars ?? null,
+    githubPushedAt: ghMeta?.pushedAt ?? null,
+    avatarUrl,
+    previewImageUrl,
+    domainLabel,
+  };
 }
 
 export interface DirectoryCategory {
   id: string;
   slug: string;
   sectionId: DirectorySectionId;
+  emoji: string | null;
   title: LocalizedText;
   subgroups: CatalogSubgroup[];
   itemCount: number;
@@ -49,6 +145,7 @@ export interface DirectoryCategory {
 
 export interface DirectorySection {
   id: DirectorySectionId;
+  emoji: string | null;
   title: LocalizedText;
   categories: DirectoryCategory[];
   itemCount: number;
@@ -58,6 +155,7 @@ function buildDirectoryData() {
   const sections: DirectorySection[] = [];
   const categories: DirectoryCategory[] = [];
   const items: DirectoryItem[] = [];
+  const usedSlugs = new Set<string>();
 
   for (const sec of rawCatalog.sections) {
     if (!ALLOWED_SECTIONS.has(sec.id)) continue;
@@ -69,7 +167,7 @@ function buildDirectoryData() {
       if (EXCLUDED_CATEGORY_IDS.has(cat.id)) continue;
 
       const validEntries = cat.entries.filter(
-        (e) => e.kind === "item" && Boolean(e.url)
+        (e) => (!e.kind || e.kind === "item") && Boolean(e.url)
       );
       if (validEntries.length === 0) continue;
 
@@ -84,6 +182,7 @@ function buildDirectoryData() {
         id: cat.id,
         slug: cat.slug,
         sectionId,
+        emoji: cat.emoji,
         title: cat.title,
         subgroups: validSubgroups,
         itemCount: validEntries.length,
@@ -94,6 +193,16 @@ function buildDirectoryData() {
       secItemCount += validEntries.length;
 
       for (const entry of validEntries) {
+        const baseSlug = entry.id.replace(/^L\d+-/, "") || entry.id;
+        let slug = baseSlug;
+        if (usedSlugs.has(slug)) {
+          slug = `${baseSlug}-${cat.slug}`;
+        }
+        if (usedSlugs.has(slug)) {
+          slug = entry.id.toLowerCase();
+        }
+        usedSlugs.add(slug);
+
         const searchText = [
           entry.title.en,
           entry.title.zh,
@@ -111,10 +220,13 @@ function buildDirectoryData() {
 
         items.push({
           ...entry,
+          ...deriveVisualMeta(entry),
+          slug,
           sectionId,
           sectionTitle: sec.title,
           categoryTitle: cat.title,
           categorySlug: cat.slug,
+          categoryEmoji: cat.emoji,
           searchText,
         });
       }
@@ -122,6 +234,7 @@ function buildDirectoryData() {
 
     sections.push({
       id: sectionId,
+      emoji: sec.emoji,
       title: sec.title,
       categories: secCategories,
       itemCount: secItemCount,
@@ -143,6 +256,7 @@ function buildDirectoryData() {
         i.licenses.includes("gpl") ||
         i.licenses.includes("mit")
     ).length,
+    freeCount: items.filter((i) => i.isFree).length,
   };
 }
 

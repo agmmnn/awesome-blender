@@ -240,4 +240,140 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=tutorials</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=tutorials" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=tutorials&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=tutorials" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=tutorials&amp;category=beginning</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=beginning" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=beginning&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=beginning" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=tutorials&amp;category=modeling</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=modeling" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=modeling&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=modeling" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=tutorials&amp;category=geometry-nodes</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=geometry-nodes" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=geometry-nodes&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=geometry-nodes" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=tutorials&amp;category=shader-nodes</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=shader-nodes" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=shader-nodes&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=shader-nodes" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=tutorials&amp;category=animation</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=animation" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=animation&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=animation" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=tutorials&amp;category=uv-mapping</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=uv-mapping" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=uv-mapping&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=uv-mapping" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=tutorials&amp;category=texture-painting</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=texture-painting" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=texture-painting&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=texture-painting" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=tutorials&amp;category=compositing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=compositing" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=compositing&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=compositing" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=tutorials&amp;category=motion-tracking-capture</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=motion-tracking-capture" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=motion-tracking-capture&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=motion-tracking-capture" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=tutorials&amp;category=fundamentals-cg</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=fundamentals-cg" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=fundamentals-cg&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=fundamentals-cg" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=tutorials&amp;category=scripting-extensions</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=scripting-extensions" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=scripting-extensions&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=tutorials&amp;category=scripting-extensions" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=social</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=social" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=social&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=social" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=social&amp;category=communities</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=social&amp;category=communities" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=social&amp;category=communities&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=social&amp;category=communities" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=social&amp;category=youtube-channels</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=social&amp;category=youtube-channels" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=social&amp;category=youtube-channels&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=social&amp;category=youtube-channels" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=social&amp;category=blogs</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=social&amp;category=blogs" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=social&amp;category=blogs&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=social&amp;category=blogs" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://awesome-blender.vercel.app/?section=social&amp;category=challenges-events</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://awesome-blender.vercel.app/?section=social&amp;category=challenges-events" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://awesome-blender.vercel.app/?section=social&amp;category=challenges-events&amp;lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://awesome-blender.vercel.app/?section=social&amp;category=challenges-events" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

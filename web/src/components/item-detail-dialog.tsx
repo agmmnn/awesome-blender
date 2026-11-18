@@ -3,11 +3,18 @@ import {
   ArrowUpRight,
   Blocks,
   Bookmark,
+  Calendar,
+  Check,
+  ChevronLeft,
+  ChevronRight,
   ExternalLink,
   FolderOpen,
+  Link2,
   Scale,
+  Star,
   X,
 } from "lucide-react";
+import { formatUpdatedInfo } from "@/components/directory-card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import type { DirectoryItem, Locale } from "@/lib/catalog";
@@ -45,6 +52,11 @@ interface ItemDetailDialogProps {
   item: DirectoryItem | null;
   lang: Locale;
   isStarred: boolean;
+  currentIndex?: number;
+  totalCount?: number;
+  onPrev?: () => void;
+  onNext?: () => void;
+  onClose?: () => void;
   onToggleStar: (id: string) => void;
   onSelectCategory: (
     sectionId: DirectoryItem["sectionId"],
@@ -58,9 +70,49 @@ export function ItemDetailDialog({
   item,
   lang,
   isStarred,
+  currentIndex,
+  totalCount,
+  onPrev,
+  onNext,
+  onClose,
   onToggleStar,
   onSelectCategory,
 }: ItemDetailDialogProps) {
+  const [copied, setCopied] = React.useState(false);
+
+  React.useEffect(() => {
+    setCopied(false);
+  }, [item?.id]);
+
+  // Keyboard ArrowLeft / ArrowRight navigation while dialog is open
+  React.useEffect(() => {
+    const onKeyDown = (e: KeyboardEvent) => {
+      const dialog = dialogRef.current;
+      if (!dialog || !dialog.open) return;
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      if (e.key === "ArrowLeft" && onPrev) {
+        e.preventDefault();
+        dialog.focus();
+        onPrev();
+      } else if (e.key === "ArrowRight" && onNext) {
+        e.preventDefault();
+        dialog.focus();
+        onNext();
+      }
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [dialogRef, onPrev, onNext]);
+
+  const handleCopyLink = React.useCallback(() => {
+    if (!item || typeof window === "undefined") return;
+    const shareUrl = `${window.location.origin}${window.location.pathname}${window.location.search}#${item.slug}`;
+    navigator.clipboard?.writeText(shareUrl).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
+  }, [item]);
+
   // Fallback for browsers without native <dialog closedby="any"> support
   React.useEffect(() => {
     const dialog = dialogRef.current;
@@ -115,13 +167,25 @@ export function ItemDetailDialog({
       )?.url ??
       (item.url?.includes("extensions.blender.org") ? item.url : null)
     : null;
+  const updatedInfo = item
+    ? formatUpdatedInfo(item.githubPushedAt, lang)
+    : null;
+  const hasPrev =
+    typeof currentIndex === "number" && currentIndex > 0 && Boolean(onPrev);
+  const hasNext =
+    typeof currentIndex === "number" &&
+    typeof totalCount === "number" &&
+    currentIndex < totalCount - 1 &&
+    Boolean(onNext);
 
   return (
     <dialog
       ref={dialogRef}
+      tabIndex={-1}
       closedby="any"
+      onClose={onClose}
       aria-labelledby="item-detail-title"
-      className="m-auto w-[min(580px,92vw)] max-h-[85vh] rounded-xl border border-border bg-card text-card-foreground p-0 shadow-2xl open:flex open:flex-col"
+      className="m-auto w-[min(600px,92vw)] max-h-[85vh] rounded-xl border border-border bg-card text-card-foreground p-0 shadow-2xl outline-none open:flex open:flex-col"
     >
       {item && (
         <>
@@ -129,6 +193,11 @@ export function ItemDetailDialog({
           <div className="flex items-start justify-between gap-3 border-b border-border px-5 py-4">
             <div className="min-w-0 flex-1 space-y-1">
               <div className="flex items-center gap-2 flex-wrap">
+                {item.categoryEmoji && (
+                  <span className="text-lg leading-none select-none">
+                    {item.categoryEmoji}
+                  </span>
+                )}
                 <h2
                   id="item-detail-title"
                   className="text-lg font-semibold tracking-tight text-foreground"
@@ -136,8 +205,13 @@ export function ItemDetailDialog({
                   {title}
                 </h2>
                 <Badge
-                  variant={item.isPaid ? "outline" : "secondary"}
-                  className="text-[11px]"
+                  variant="outline"
+                  className={cn(
+                    "text-[11px]",
+                    item.isPaid
+                      ? "border-amber-500/35 bg-amber-500/10 text-amber-600 dark:text-amber-400"
+                      : "text-foreground/75"
+                  )}
                 >
                   {item.isPaid
                     ? lang === "zh"
@@ -147,6 +221,31 @@ export function ItemDetailDialog({
                       ? "免费 (Free)"
                       : "Free"}
                 </Badge>
+                {item.githubStars !== null && (
+                  <Badge
+                    variant="outline"
+                    className="text-[11px] gap-1 font-normal"
+                  >
+                    <Star className="size-3 fill-amber-400 text-amber-400" />
+                    <span>{item.githubStars.toLocaleString()}</span>
+                  </Badge>
+                )}
+                {updatedInfo && (
+                  <Badge
+                    variant="outline"
+                    className={cn(
+                      "text-[11px] gap-1 font-normal text-muted-foreground",
+                      updatedInfo.isStale && "opacity-55"
+                    )}
+                  >
+                    <Calendar className="size-3" />
+                    <span>
+                      {lang === "zh"
+                        ? `${updatedInfo.monthYear} (${updatedInfo.relativeLabel})`
+                        : `Updated ${updatedInfo.monthYear} (${updatedInfo.relativeLabel})`}
+                    </span>
+                  </Badge>
+                )}
               </div>
 
               <div className="flex items-center gap-1.5 text-xs text-muted-foreground flex-wrap">
@@ -159,7 +258,7 @@ export function ItemDetailDialog({
                     onSelectCategory(item.sectionId, item.categorySlug, null);
                     dialogRef.current?.close();
                   }}
-                  className="hover:text-foreground hover:underline underline-offset-4 cursor-pointer"
+                  className="hover:text-foreground hover:underline underline-offset-4 cursor-pointer outline-none focus-visible:underline"
                 >
                   {categoryName}
                 </button>
@@ -176,7 +275,7 @@ export function ItemDetailDialog({
                         );
                         dialogRef.current?.close();
                       }}
-                      className="hover:text-foreground hover:underline underline-offset-4 cursor-pointer"
+                      className="hover:text-foreground hover:underline underline-offset-4 cursor-pointer outline-none focus-visible:underline"
                     >
                       {subgroupName}
                     </button>
@@ -186,12 +285,74 @@ export function ItemDetailDialog({
             </div>
 
             <div className="flex items-center gap-1 shrink-0">
+              {/* Prev / Next Card Navigation */}
+              {(onPrev || onNext) && (
+                <div className="inline-flex items-center rounded-md border border-input bg-background mr-1">
+                  <Button
+                    type="button"
+                    variant="ghost"
+                    size="icon-sm"
+                    disabled={!hasPrev}
+                    onClick={onPrev}
+                    title={
+                      lang === "zh" ? "上一个项目 (←)" : "Previous item (←)"
+                    }
+                    aria-label="Previous item"
+                    className="size-7 rounded-r-none"
+                  >
+                    <ChevronLeft className="size-3.5" />
+                  </Button>
+                  {typeof currentIndex === "number" &&
+                    typeof totalCount === "number" && (
+                      <span className="px-1.5 text-[11px] text-muted-foreground tabular-nums select-none">
+                        {currentIndex + 1}/{totalCount}
+                      </span>
+                    )}
+                  <Button
+                    type="button"
+                    variant="ghost"
+                    size="icon-sm"
+                    disabled={!hasNext}
+                    onClick={onNext}
+                    title={lang === "zh" ? "下一个项目 (→)" : "Next item (→)"}
+                    aria-label="Next item"
+                    className="size-7 rounded-l-none"
+                  >
+                    <ChevronRight className="size-3.5" />
+                  </Button>
+                </div>
+              )}
+
+              <Button
+                type="button"
+                variant="outline"
+                size="icon-sm"
+                onClick={handleCopyLink}
+                title={
+                  copied
+                    ? lang === "zh"
+                      ? "链接已复制！"
+                      : "Link copied!"
+                    : lang === "zh"
+                      ? `复制分享链接 (#${item.slug})`
+                      : `Copy shareable link (#${item.slug})`
+                }
+                aria-label="Copy shareable link"
+              >
+                {copied ? (
+                  <Check className="size-3.5 text-emerald-500" />
+                ) : (
+                  <Link2 className="size-3.5" />
+                )}
+              </Button>
+
               <Button
                 type="button"
                 variant="outline"
                 size="icon-sm"
                 onClick={() => onToggleStar(item.id)}
                 aria-pressed={isStarred}
+                title={isStarred ? "Remove from Saved" : "Save to Stack"}
                 aria-label={isStarred ? "Remove from Saved" : "Save to Stack"}
               >
                 <Bookmark
@@ -215,6 +376,17 @@ export function ItemDetailDialog({
 
           {/* Body */}
           <div className="flex-1 overflow-y-auto px-5 py-4 space-y-4">
+            {item.previewImageUrl && (
+              <div className="overflow-hidden rounded-lg border border-border/70 bg-muted/35">
+                <img
+                  src={item.previewImageUrl}
+                  alt={title}
+                  loading="lazy"
+                  className="max-h-52 w-full object-cover"
+                />
+              </div>
+            )}
+
             {/* Full Un-truncated Description */}
             <div className="space-y-1.5">
               <h3 className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
@@ -320,13 +492,34 @@ export function ItemDetailDialog({
             )}
           </div>
 
-          {/* Footer with Primary External Link Button */}
-          <div className="flex items-center justify-between gap-3 border-t border-border bg-muted/30 px-5 py-3.5">
-            <form method="dialog">
-              <Button type="submit" variant="outline" size="sm">
-                {lang === "zh" ? "关闭" : "Close"}
+          {/* Footer with Copy Link & Primary External Link Button */}
+          <div className="flex items-center justify-between gap-2 border-t border-border bg-muted/30 px-5 py-3.5 flex-wrap">
+            <div className="flex items-center gap-2">
+              <form method="dialog">
+                <Button type="submit" variant="outline" size="sm">
+                  {lang === "zh" ? "关闭" : "Close"}
+                </Button>
+              </form>
+
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={handleCopyLink}
+              >
+                {copied ? (
+                  <>
+                    <Check className="size-3.5 text-emerald-500" />
+                    <span>{lang === "zh" ? "链接已复制" : "Copied!"}</span>
+                  </>
+                ) : (
+                  <>
+                    <Link2 className="size-3.5" />
+                    <span>{lang === "zh" ? "复制链接" : "Copy Link"}</span>
+                  </>
+                )}
               </Button>
-            </form>
+            </div>
 
             {item.url && (
               <Button asChild size="sm">
@@ -336,7 +529,7 @@ export function ItemDetailDialog({
                   rel="noopener noreferrer"
                 >
                   <span>
-                    {lang === "zh" ? "访问官方网站 / 下载" : "Open Website / Download"}
+                    {lang === "zh" ? "访问网站" : "Open Website"}
                   </span>
                   <ArrowUpRight className="size-4" />
                 </a>

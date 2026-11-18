@@ -619,15 +619,15 @@
 
 ### 🧱 纹理/材质
 
-- [ArmorPaint](https://armorpaint.org/)：开源3D PBR纹理绘制软件。 [![][repo]](https://github.com/armory3d/armorpaint)
-- [NVIDIA Texture Tools Exporter](https://developer.nvidia.com/texture-tools-exporter)：使用NVIDIA的CUDA加速纹理工具压缩技术，允许用户直接从图像源创建高度压缩的纹理文件（在磁盘和内存中都保持小巧）。
-- [Materialize](https://boundingboxsoftware.com/materialize/)：是一个独立的工具，用于从图像创建材料。 [![][repo]](https://github.com/BoundingBoxSoftware/Materialize)
-- [Material Maker](https://rodzilla.itch.io/material-maker)：是一个简单的程序化材料生成工具。 [![][repo]](https://github.com/RodZill4/material-maker)
-- [TextureLab](https://njbrown.itch.io/texturelab)：是为程序化纹理生成而设计的工具。
-- [Agisoft De-Lighter](https://agisoft.freshdesk.com/support/solutions/articles/31000158376-agisoft-texture-de-lighter-general-workflow)：是一个免费的独立工具，旨在从模型纹理中去除阴影。[[下载]](https://www.agisoft.com/downloads/installer/)
-- [Agama Materials](https://agama.itch.io/agama-materials)：是用于创建PBR材料和绘制3D模型的软件。您可以创建材料并用于绘制模型，或者使用预制的纹理。
-- [Architextures - Create](https://architextures.org/create)：Web应用程序允许您创建无缝纹理、凹凸贴图和CAD图案。选择任何参数开始。
+- [Material Maker](https://www.materialmaker.org/)：基于 Godot 引擎打造的开源节点式程序化 PBR 材质创作与 3D 模型纹理绘制软件。[![][repo]](https://github.com/RodZill4/material-maker) ![][mit]
+- [ArmorPaint](https://armorpaint.org/)：开源 3D PBR 纹理绘制软件，支持节点式笔刷与 GPU 贴图烘焙工作流。[![][repo]](https://github.com/armory3d/armorpaint)
+- [InstaMAT](https://www.instamaterial.com/)：集节点式材质创作、多层 3D 纹理绘制与 GPU 网格烘焙于一体的套件（年收入 10 万美元以下个人与独立创作者可免费使用 Pioneer 授权）。
+- [Materialize](https://boundingboxsoftware.com/materialize/)：从单张图片生成可无缝平铺的漫反射、高度、法线、AO 与金属度全套 PBR 贴图的开源工具。[![][repo]](https://github.com/BoundingBoxSoftware/Materialize) ![][gpl]
 - [Normal Map Bench](https://normalmapbench.com/)：免费的基于浏览器的图像转法线贴图生成器，支持实时强度、平滑、边缘与光照控制，可导出 OpenGL/DirectX 格式。
+- [Agisoft De-Lighter](https://agisoft.freshdesk.com/support/solutions/articles/31000158376-agisoft-texture-de-lighter-general-workflow)：用于去除摄影测量扫描模型贴图中自带阴影与环境光的免费独立工具。[[下载]](https://www.agisoft.com/downloads/installer/)
+- [Architextures](https://architextures.org/create)：基于浏览器的无缝建筑纹理、凹凸贴图与 CAD 填充图案生成器。
+- [NVIDIA Texture Tools Exporter](https://developer.nvidia.com/texture-tools-exporter)：利用 CUDA 加速导出高压缩比 `.dds` 与 `.ktx2` 纹理及 Mipmap 的独立工具。
+- [Agama Materials](https://agama.itch.io/agama-materials)：免费的桌面端程序化 PBR 材质制作与 3D 模型直接绘制工具。
 
 ### 🗻 地形、GIS 与 LiDAR
 
@@ -918,16 +918,15 @@ _一些可以找到各种 Blender 相关内容的账号。_
 
 ### 🏆 挑战与活动
 
+- [Blender Conference](https://conference.blender.org/)：每年在阿姆斯特丹举办的 Blender 年度官方大会，涵盖技术演讲、工作坊与社区交流（[Bcon26](https://www.youtube.com/playlist?list=PLa1F2ddGya_-I9y1nXALrBqrZNdlUE012)、[Bcon25](https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd)、[Bcon24](https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x)、[全部播放列表](https://www.youtube.com/@blenderofficial/playlists)）。
+- [Blender Artists 竞赛板块](https://blenderartists.org/c/contests/7)：Blender Artists 社区持续举办的周末挑战赛（Weekend Challenge）及主题创作竞赛。
+- [CG Boost Challenges](https://community.cgboost.com/c/challenge/)：CG Boost 定期举办的 Blender 主题 3D 艺术挑战赛与获奖作品展示。
+- [pwnisher](https://www.youtube.com/@pwnisher/videos)：Clinton Jones 的 YouTube 频道，定期举办全球大型社区 3D 渲染挑战赛。
+- [Render Challenge](https://renderchallenge.com/)：每周更新的全球 3D 艺术竞赛与渲染挑战汇总平台。
+- [The Rookies Contests](https://www.therookies.co/contests)：面向学生与新生代艺术家的全球大型 3D、视效与游戏美术竞赛平台。
+- [ArtStation Challenges](https://www.artstation.com/challenges)：围绕场景、角色与道具制作的大型主题专业创作挑战赛。
 - [Nodevember](https://x.com/hashtag/nodevember)：一年一度的十一月程序化 3D 艺术挑战，围绕节点创作与分享灵感。
-    - 查看作品：[x/#nodevember](https://x.com/search?q=%23nodevember), [ig/#nodevember](https://www.instagram.com/explore/tags/nodevember/), [artstation/nodevember](https://www.artstation.com/search?sort_by=relevance&query=nodevember)
-- [SculptJanuary](https://community.cgboost.com/c/challenge/)：每年一月为期 31 天的每日主题雕刻挑战，适合提升速度与人体结构塑造能力。
-    - 查看作品：[x/#sculptjanuary](https://x.com/search?q=%23sculptjanuary), [ig/#sculptjanuary](https://www.instagram.com/explore/tags/sculptjanuary/), [artstation/sculptjanuary](https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary)
-- [36 Days of Type](https://www.36daysoftype.com/)：年度公开创作邀请，鼓励设计师与 3D 创作者在 36 天内演绎字母与数字。
-    - 查看作品：[x/#36daysoftype](https://x.com/hashtag/36daysoftype), [ig/#36daysoftype](https://www.instagram.com/explore/tags/36daysoftype/), [artstation/36daysoftype](https://www.artstation.com/search?sort_by=relevance&query=36daysoftype)
-- 竞赛：[/r/blender: contest](https://www.reddit.com/r/blender/), [blenderartists.org/contest](https://blenderartists.org/c/contests/7).
-- [Render Challenge](https://renderchallenge.com/)：每周五更新的 3D 艺术竞赛与渲染挑战汇总平台。
-- [pwnisher](https://www.youtube.com/c/pwnisher/videos)：Clinton Jones 的 YouTube 频道，定期举办大型社区 3D 渲染挑战赛。
-- [Blender Conference](https://conference.blender.org/)：每年在阿姆斯特丹举行的 Blender 年度大会。（播放列表：[Bcon26](https://www.youtube.com/playlist?list=PLa1F2ddGya_-I9y1nXALrBqrZNdlUE012), [Bcon25](https://www.youtube.com/playlist?list=PLa1F2ddGya_8u-HEvmfCVuS_OImW8HaLd), [Bcon24](https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x), [Bcon23](https://www.youtube.com/playlist?list=PLa1F2ddGya_84ye1JAvIGh0Yp7utEKZI_), [Bcon22](https://www.youtube.com/playlist?list=PLa1F2ddGya__2Ip2UB-xp6M54cQVvw1W-), [Bcon20](https://www.youtube.com/watch?v=uEjmbsiflMU), [Bcon19](https://www.youtube.com/playlist?list=PLa1F2ddGya_8Wzpajwu1EtiS8E1Exm82S), [Bcon18](https://www.youtube.com/playlist?list=PLa1F2ddGya_-4M5OysmwCKz78bh1HfQ5B), [Bcon17](https://www.youtube.com/playlist?list=PLa1F2ddGya_9XER0wnFS6Mgnp3T-hgSZO)).
+- [SculptJanuary](https://www.artstation.com/search?sort_by=relevance&query=sculptjanuary)：每年一月为期 31 天的每日主题雕刻挑战，适合提升速度与人体结构塑造能力。
 
 <p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
 

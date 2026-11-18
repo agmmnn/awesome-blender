@@ -1,6 +1,8 @@
 import * as React from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import {
+  ArrowUpDown,
+  Blocks,
   Bookmark,
   RotateCcw,
   Search,
@@ -11,14 +13,27 @@ import {
   DIRECTORY_DATA,
   type DirectoryItem,
   type DirectorySectionId,
+  type DirectorySortId,
   type Locale,
 } from "@/lib/catalog";
 import { buildDirectorySeo, filterDirectoryItems } from "@/lib/seo";
 import { DirectoryCard } from "@/components/directory-card";
-import { ItemDetailDialog } from "@/components/item-detail-dialog";
 import { ScrollablePillBar } from "@/components/scrollable-pill-bar";
-import { StackDialog } from "@/components/stack-dialog";
 import { ThemeToggle } from "@/components/theme-toggle";
+
+const ItemDetailDialog = React.lazy(() =>
+  import("@/components/item-detail-dialog").then((m) => ({
+    default: m.ItemDetailDialog,
+  }))
+);
+const StackDialog = React.lazy(() =>
+  import("@/components/stack-dialog").then((m) => ({
+    default: m.StackDialog,
+  }))
+);
+
+const INITIAL_VISIBLE_COUNT = 36;
+const VISIBLE_INCREMENT = 36;
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -51,6 +66,7 @@ export interface DirectorySearchParams {
     | "superhive"
     | "gumroad";
   license?: "all" | "gpl" | "mit" | "zero" | "cc";
+  sort?: DirectorySortId;
   lang?: Locale;
 }
 
@@ -60,7 +76,9 @@ export const Route = createFileRoute("/")({
       search.section === "add-ons" ||
       search.section === "ai-mcp" ||
       search.section === "resources" ||
-      search.section === "standalone"
+      search.section === "standalone" ||
+      search.section === "tutorials" ||
+      search.section === "social"
         ? search.section
         : undefined;
     const category =
@@ -94,6 +112,14 @@ export const Route = createFileRoute("/")({
       search.license === "cc"
         ? search.license
         : undefined;
+    const sort =
+      search.sort === "stars" ||
+      search.sort === "updated" ||
+      search.sort === "name" ||
+      search.sort === "free" ||
+      search.sort === "extensions"
+        ? search.sort
+        : undefined;
     const lang = search.lang === "zh" ? "zh" : undefined;
 
     return {
@@ -104,6 +130,7 @@ export const Route = createFileRoute("/")({
       price,
       platform,
       license,
+      sort,
       lang,
     };
   },
@@ -146,21 +173,37 @@ function DirectoryPage() {
   const activePrice = search.price ?? "all";
   const activePlatform = search.platform ?? "all";
   const activeLicense = search.license ?? "all";
+  const activeSort: DirectorySortId = search.sort ?? "curated";
   const lang: Locale = search.lang ?? "en";
   const query = search.q ?? "";
 
   const [searchInput, setSearchInput] = React.useState(query);
+  const deferredSearchInput = React.useDeferredValue(searchInput);
+  const [visibleCount, setVisibleCount] = React.useState(INITIAL_VISIBLE_COUNT);
   const [detailItem, setDetailItem] = React.useState<DirectoryItem | null>(
     null
   );
+  const [stackMounted, setStackMounted] = React.useState(false);
 
   const searchInputRef = React.useRef<HTMLInputElement | null>(null);
+  const searchDebounceRef = React.useRef<ReturnType<typeof setTimeout> | null>(
+    null
+  );
   const stackDialogRef = React.useRef<HTMLDialogElement | null>(null);
   const detailDialogRef = React.useRef<HTMLDialogElement | null>(null);
+  const loadMoreSentinelRef = React.useRef<HTMLDivElement | null>(null);
 
   React.useEffect(() => {
     setSearchInput(query);
   }, [query]);
+
+  React.useEffect(() => {
+    return () => {
+      if (searchDebounceRef.current) {
+        clearTimeout(searchDebounceRef.current);
+      }
+    };
+  }, []);
 
   // Saved / bookmarked items in localStorage
   const [starredIds, setStarredIds] = React.useState<string[]>([]);
@@ -200,12 +243,91 @@ function DirectoryPage() {
     [starredSet]
   );
 
-  const handleOpenDetail = React.useCallback((item: DirectoryItem) => {
-    setDetailItem(item);
+  const openDetailModalIfReady = React.useCallback(() => {
     requestAnimationFrame(() => {
-      detailDialogRef.current?.showModal();
+      if (detailDialogRef.current && !detailDialogRef.current.open) {
+        detailDialogRef.current.showModal();
+        detailDialogRef.current.focus();
+      }
     });
   }, []);
+
+  // Ensure lazy-loaded ItemDetailDialog opens once mounted
+  React.useEffect(() => {
+    if (detailItem) {
+      openDetailModalIfReady();
+    }
+  }, [detailItem, openDetailModalIfReady]);
+
+  const handleOpenStack = React.useCallback(() => {
+    setStackMounted(true);
+    requestAnimationFrame(() => {
+      if (stackDialogRef.current && !stackDialogRef.current.open) {
+        stackDialogRef.current.showModal();
+      }
+    });
+  }, []);
+
+  React.useEffect(() => {
+    if (stackMounted && stackDialogRef.current && !stackDialogRef.current.open) {
+      stackDialogRef.current.showModal();
+    }
+  }, [stackMounted]);
+
+  const handleOpenDetail = React.useCallback(
+    (item: DirectoryItem) => {
+      setDetailItem(item);
+      if (typeof window !== "undefined") {
+        window.history.replaceState(
+          null,
+          "",
+          `${window.location.pathname}${window.location.search}#${item.slug}`
+        );
+      }
+      openDetailModalIfReady();
+    },
+    [openDetailModalIfReady]
+  );
+
+  const handleCloseDetail = React.useCallback(() => {
+    setDetailItem(null);
+    if (typeof window !== "undefined" && window.location.hash) {
+      window.history.replaceState(
+        null,
+        "",
+        `${window.location.pathname}${window.location.search}`
+      );
+    }
+  }, []);
+
+  // Open detail dialog automatically when URL has a matching #slug hash
+  React.useEffect(() => {
+    const syncFromHash = () => {
+      const rawHash = decodeURIComponent(
+        window.location.hash.replace(/^#/, "")
+      )
+        .trim()
+        .toLowerCase();
+      if (!rawHash) {
+        if (detailDialogRef.current?.open) {
+          detailDialogRef.current.close();
+        }
+        return;
+      }
+      const matched = DIRECTORY_DATA.items.find(
+        (i) =>
+          i.slug.toLowerCase() === rawHash || i.id.toLowerCase() === rawHash
+      );
+      if (matched) {
+        setDetailItem(matched);
+        openDetailModalIfReady();
+      }
+    };
+
+    syncFromHash();
+    window.addEventListener("hashchange", syncFromHash);
+    return () => window.removeEventListener("hashchange", syncFromHash);
+  }, [openDetailModalIfReady]);
 
   // Keyboard shortcut `/` or `Cmd/Ctrl + K` to focus search
   React.useEffect(() => {
@@ -250,6 +372,8 @@ function DirectoryPage() {
                 : undefined,
             license:
               next.license && next.license !== "all" ? next.license : undefined,
+            sort:
+              next.sort && next.sort !== "curated" ? next.sort : undefined,
             lang: next.lang === "zh" ? "zh" : undefined,
           };
         },
@@ -257,6 +381,21 @@ function DirectoryPage() {
       });
     },
     [navigate]
+  );
+
+  const handleSelectCardCategory = React.useCallback(
+    (
+      secId: DirectoryItem["sectionId"],
+      catSlug: string,
+      subId?: string | null
+    ) => {
+      updateSearch({
+        section: secId,
+        category: catSlug,
+        subgroup: subId ?? undefined,
+      });
+    },
+    [updateSearch]
   );
 
   const visibleCategories = React.useMemo(() => {
@@ -285,10 +424,11 @@ function DirectoryPage() {
           price: activePrice,
           platform: activePlatform,
           license: activeLicense,
-          q: searchInput,
+          sort: activeSort,
+          q: deferredSearchInput,
           lang,
         },
-        searchInput
+        deferredSearchInput
       ),
     [
       activeSection,
@@ -297,10 +437,66 @@ function DirectoryPage() {
       activePrice,
       activePlatform,
       activeLicense,
-      searchInput,
+      activeSort,
+      deferredSearchInput,
       lang,
     ]
   );
+
+  // Reset rendered card batch when filters/search/sort change
+  React.useEffect(() => {
+    setVisibleCount(INITIAL_VISIBLE_COUNT);
+  }, [
+    activeSection,
+    activeCategory,
+    activeSubgroup,
+    activePrice,
+    activePlatform,
+    activeLicense,
+    activeSort,
+    deferredSearchInput,
+  ]);
+
+  const visibleItems = React.useMemo(
+    () => filteredItems.slice(0, visibleCount),
+    [filteredItems, visibleCount]
+  );
+  const hasMoreItems = visibleCount < filteredItems.length;
+
+  // Progressively load next batch of cards as user scrolls near bottom
+  React.useEffect(() => {
+    const sentinel = loadMoreSentinelRef.current;
+    if (!sentinel || !hasMoreItems) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          setVisibleCount((prev) =>
+            Math.min(prev + VISIBLE_INCREMENT, filteredItems.length)
+          );
+        }
+      },
+      { rootMargin: "450px 0px" }
+    );
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [hasMoreItems, filteredItems.length]);
+
+  const detailIndex = React.useMemo(() => {
+    if (!detailItem) return -1;
+    return filteredItems.findIndex((i) => i.id === detailItem.id);
+  }, [detailItem, filteredItems]);
+
+  const handlePrevDetail = React.useCallback(() => {
+    if (detailIndex > 0) {
+      handleOpenDetail(filteredItems[detailIndex - 1]);
+    }
+  }, [detailIndex, filteredItems, handleOpenDetail]);
+
+  const handleNextDetail = React.useCallback(() => {
+    if (detailIndex >= 0 && detailIndex < filteredItems.length - 1) {
+      handleOpenDetail(filteredItems[detailIndex + 1]);
+    }
+  }, [detailIndex, filteredItems, handleOpenDetail]);
 
   const seo = React.useMemo(
     () =>
@@ -311,7 +507,8 @@ function DirectoryPage() {
         price: activePrice,
         platform: activePlatform,
         license: activeLicense,
-        q: searchInput,
+        sort: activeSort,
+        q: deferredSearchInput,
         lang,
       }),
     [
@@ -321,7 +518,8 @@ function DirectoryPage() {
       activePrice,
       activePlatform,
       activeLicense,
-      searchInput,
+      activeSort,
+      deferredSearchInput,
       lang,
     ]
   );
@@ -333,9 +531,14 @@ function DirectoryPage() {
     activePrice !== "all" ||
     activePlatform !== "all" ||
     activeLicense !== "all" ||
+    activeSort !== "curated" ||
     searchInput.trim() !== "";
 
   const handleResetFilters = () => {
+    if (searchDebounceRef.current) {
+      clearTimeout(searchDebounceRef.current);
+      searchDebounceRef.current = null;
+    }
     setSearchInput("");
     updateSearch({
       section: undefined,
@@ -345,11 +548,12 @@ function DirectoryPage() {
       price: undefined,
       platform: undefined,
       license: undefined,
+      sort: undefined,
     });
   };
 
   return (
-    <TooltipProvider delayDuration={150}>
+    <TooltipProvider delayDuration={0}>
       <div className="min-h-screen w-full flex flex-col items-center overflow-x-clip">
         {/* Sticky Minimal Navbar (Centered) */}
         <header className="sticky top-0 z-30 w-full border-b border-border bg-background/90 backdrop-blur-md">
@@ -363,18 +567,15 @@ function DirectoryPage() {
                 className="pressable flex items-center text-left cursor-pointer shrink-0"
               >
                 <img
-                  src="/logo.png"
+                  src="/logo.webp"
                   alt="Awesome Blender"
+                  width={127}
+                  height={36}
+                  fetchPriority="high"
+                  decoding="async"
                   className="h-8 sm:h-9 w-auto object-contain shrink-0 drop-shadow-[0_1px_1.5px_rgba(0,0,0,0.28)]"
                 />
               </button>
-              <Badge
-                variant="secondary"
-                className="hidden sm:inline-flex text-xs px-2.5 py-0.5 font-medium text-foreground/80"
-              >
-                {DIRECTORY_DATA.totalCount}{" "}
-                {lang === "zh" ? "精选项目" : "curated items"}
-              </Badge>
             </div>
 
             {/* Primary Section Tabs (Desktop) */}
@@ -447,7 +648,7 @@ function DirectoryPage() {
                     type="button"
                     variant="outline"
                     size="sm"
-                    onClick={() => stackDialogRef.current?.showModal()}
+                    onClick={handleOpenStack}
                     className="gap-1.5"
                   >
                     <Bookmark className="size-3.5" />
@@ -552,7 +753,12 @@ function DirectoryPage() {
                 onChange={(e) => {
                   const val = e.target.value;
                   setSearchInput(val);
-                  updateSearch({ q: val || undefined });
+                  if (searchDebounceRef.current) {
+                    clearTimeout(searchDebounceRef.current);
+                  }
+                  searchDebounceRef.current = setTimeout(() => {
+                    updateSearch({ q: val || undefined });
+                  }, 200);
                 }}
                 placeholder={
                   lang === "zh"
@@ -566,6 +772,10 @@ function DirectoryPage() {
                 <button
                   type="button"
                   onClick={() => {
+                    if (searchDebounceRef.current) {
+                      clearTimeout(searchDebounceRef.current);
+                      searchDebounceRef.current = null;
+                    }
                     setSearchInput("");
                     updateSearch({ q: undefined });
                     searchInputRef.current?.focus();
@@ -582,8 +792,66 @@ function DirectoryPage() {
               )}
             </div>
 
-            {/* Facet Selects */}
+            {/* Quick Presets & Facet Selects */}
             <div className="flex flex-wrap items-center gap-2">
+              {/* Quick One-Click Preset Toggles */}
+              <Button
+                type="button"
+                variant={activePlatform === "extensions" ? "default" : "outline"}
+                size="xs"
+                onClick={() =>
+                  updateSearch({
+                    platform:
+                      activePlatform === "extensions"
+                        ? undefined
+                        : "extensions",
+                  })
+                }
+                className="rounded-full h-8 px-2.5 text-xs gap-1.5"
+              >
+                <Blocks className="size-3.5 text-orange-500" />
+                <span>
+                  {lang === "zh" ? "官方扩展" : "Extensions"}
+                </span>
+              </Button>
+
+              <Button
+                type="button"
+                variant={
+                  activePlatform === "open-source" ? "default" : "outline"
+                }
+                size="xs"
+                onClick={() =>
+                  updateSearch({
+                    platform:
+                      activePlatform === "open-source"
+                        ? undefined
+                        : "open-source",
+                  })
+                }
+                className="rounded-full h-8 px-2.5 text-xs"
+              >
+                <span>
+                  🔓 {lang === "zh" ? "开源" : "Open Source"}
+                </span>
+              </Button>
+
+              <Button
+                type="button"
+                variant={activePrice === "free" ? "default" : "outline"}
+                size="xs"
+                onClick={() =>
+                  updateSearch({
+                    price: activePrice === "free" ? undefined : "free",
+                  })
+                }
+                className="rounded-full h-8 px-2.5 text-xs"
+              >
+                <span>
+                  🆓 {lang === "zh" ? "仅限免费" : "Free Only"}
+                </span>
+              </Button>
+
               <Select
                 value={activePrice}
                 onValueChange={(val) =>
@@ -704,7 +972,10 @@ function DirectoryPage() {
                     }
                     className="rounded-full shrink-0"
                   >
-                    <span>{cat.title[lang] || cat.title.en}</span>
+                    <span>
+                      {cat.emoji ? `${cat.emoji} ` : ""}
+                      {cat.title[lang] || cat.title.en}
+                    </span>
                     <span
                       className={`text-[11px] font-semibold ${
                         isSelected
@@ -724,6 +995,9 @@ function DirectoryPage() {
               <ScrollablePillBar ariaLabel="Subcategories" className="pt-0.5">
                 <span className="inline-flex items-center gap-1 text-xs font-medium text-foreground/80 pr-1 shrink-0">
                   <SlidersHorizontal className="size-3" />
+                  {selectedCategoryObj.emoji
+                    ? `${selectedCategoryObj.emoji} `
+                    : ""}
                   {selectedCategoryObj.title[lang] ||
                     selectedCategoryObj.title.en}
                   :
@@ -762,60 +1036,244 @@ function DirectoryPage() {
             )}
           </div>
 
-          {/* High-Contrast Status Line */}
-          <div className="flex items-center justify-between text-xs text-foreground/80">
-            <span>
-              {lang === "zh" ? (
-                <>
-                  显示{" "}
-                  <strong className="font-semibold text-foreground">
-                    {filteredItems.length}
-                  </strong>{" "}
-                  个可下载工具与资源（点击卡片查看详情，点击 ↗ 直接访问）
-                </>
-              ) : (
-                <>
-                  Showing{" "}
-                  <strong className="font-semibold text-foreground">
-                    {filteredItems.length}
-                  </strong>{" "}
-                  downloadable tools &amp; resources{" "}
-                  <span className="hidden sm:inline text-muted-foreground">
-                    · Click any card for details or ↗ to open site
-                  </span>
-                </>
-              )}
-            </span>
-
-            {selectedCategoryObj && (
-              <span className="font-medium text-foreground truncate">
-                {selectedCategoryObj.title[lang] ||
-                  selectedCategoryObj.title.en}
+          {/* High-Contrast Status Line with Removable Active Filter Chips & Sort Control */}
+          <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-foreground/80">
+            <div className="flex flex-wrap items-center gap-1.5 min-w-0">
+              <span>
+                {lang === "zh" ? (
+                  <>
+                    显示{" "}
+                    <strong className="font-semibold text-foreground">
+                      {filteredItems.length}
+                    </strong>{" "}
+                    个项目
+                  </>
+                ) : (
+                  <>
+                    Showing{" "}
+                    <strong className="font-semibold text-foreground">
+                      {filteredItems.length}
+                    </strong>{" "}
+                    {filteredItems.length === 1 ? "item" : "items"}
+                  </>
+                )}
               </span>
-            )}
+
+              {/* Active Filter Removable Chips */}
+              {selectedCategoryObj && (
+                <Badge
+                  asChild
+                  variant="secondary"
+                  className="gap-1 px-2 py-0.5 text-[11px] font-medium cursor-pointer hover:bg-accent"
+                >
+                  <button
+                    type="button"
+                    onClick={() =>
+                      updateSearch({
+                        category: undefined,
+                        subgroup: undefined,
+                      })
+                    }
+                  >
+                    <span>
+                      {selectedCategoryObj.emoji
+                        ? `${selectedCategoryObj.emoji} `
+                        : ""}
+                      {selectedCategoryObj.title[lang] ||
+                        selectedCategoryObj.title.en}
+                    </span>
+                    <X className="size-3" />
+                  </button>
+                </Badge>
+              )}
+
+              {selectedCategoryObj &&
+                activeSubgroup !== "all" &&
+                (() => {
+                  const sg = selectedCategoryObj.subgroups.find(
+                    (s) => s.id === activeSubgroup
+                  );
+                  if (!sg) return null;
+                  return (
+                    <Badge
+                      asChild
+                      variant="secondary"
+                      className="gap-1 px-2 py-0.5 text-[11px] font-medium cursor-pointer hover:bg-accent"
+                    >
+                      <button
+                        type="button"
+                        onClick={() => updateSearch({ subgroup: undefined })}
+                      >
+                        <span>{sg.title[lang] || sg.title.en}</span>
+                        <X className="size-3" />
+                      </button>
+                    </Badge>
+                  );
+                })()}
+
+              {activePrice !== "all" && (
+                <Badge
+                  asChild
+                  variant="secondary"
+                  className="gap-1 px-2 py-0.5 text-[11px] font-medium cursor-pointer hover:bg-accent"
+                >
+                  <button
+                    type="button"
+                    onClick={() => updateSearch({ price: undefined })}
+                  >
+                    <span>
+                      {activePrice === "free"
+                        ? lang === "zh"
+                          ? "免费"
+                          : "Free Only"
+                        : lang === "zh"
+                          ? "付费"
+                          : "Paid"}
+                    </span>
+                    <X className="size-3" />
+                  </button>
+                </Badge>
+              )}
+
+              {activePlatform !== "all" && (
+                <Badge
+                  asChild
+                  variant="secondary"
+                  className="gap-1 px-2 py-0.5 text-[11px] font-medium cursor-pointer hover:bg-accent"
+                >
+                  <button
+                    type="button"
+                    onClick={() => updateSearch({ platform: undefined })}
+                  >
+                    <span>{activePlatform}</span>
+                    <X className="size-3" />
+                  </button>
+                </Badge>
+              )}
+
+              {activeLicense !== "all" && (
+                <Badge
+                  asChild
+                  variant="secondary"
+                  className="gap-1 px-2 py-0.5 text-[11px] font-medium cursor-pointer hover:bg-accent"
+                >
+                  <button
+                    type="button"
+                    onClick={() => updateSearch({ license: undefined })}
+                  >
+                    <span>{activeLicense.toUpperCase()}</span>
+                    <X className="size-3" />
+                  </button>
+                </Badge>
+              )}
+
+              {searchInput.trim() && (
+                <Badge
+                  asChild
+                  variant="secondary"
+                  className="gap-1 px-2 py-0.5 text-[11px] font-medium cursor-pointer hover:bg-accent"
+                >
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setSearchInput("");
+                      updateSearch({ q: undefined });
+                    }}
+                  >
+                    <span>“{searchInput.trim()}”</span>
+                    <X className="size-3" />
+                  </button>
+                </Badge>
+              )}
+            </div>
+
+            {/* Sort Control */}
+            <div className="flex items-center gap-1.5 ml-auto">
+              <ArrowUpDown className="size-3.5 text-muted-foreground" />
+              <Select
+                value={activeSort}
+                onValueChange={(val) =>
+                  updateSearch({
+                    sort: val as DirectorySearchParams["sort"],
+                  })
+                }
+              >
+                <SelectTrigger
+                  aria-label="Sort items"
+                  className="h-7 text-xs px-2.5 gap-1.5 border-border/70 bg-transparent"
+                >
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent align="end">
+                  <SelectItem value="curated">
+                    {lang === "zh" ? "精选推荐排序" : "Sort: Curated"}
+                  </SelectItem>
+                  <SelectItem value="stars">
+                    {lang === "zh"
+                      ? "GitHub 星标最多 (★)"
+                      : "Sort: Most Stars (★)"}
+                  </SelectItem>
+                  <SelectItem value="updated">
+                    {lang === "zh" ? "最近更新优先" : "Sort: Recently Updated"}
+                  </SelectItem>
+                  <SelectItem value="extensions">
+                    {lang === "zh"
+                      ? "官方扩展优先"
+                      : "Sort: Extensions First"}
+                  </SelectItem>
+                  <SelectItem value="free">
+                    {lang === "zh"
+                      ? "开源 / 免费优先"
+                      : "Sort: Open Source & Free"}
+                  </SelectItem>
+                  <SelectItem value="name">
+                    {lang === "zh" ? "名称 (A–Z)" : "Sort: Name (A–Z)"}
+                  </SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
           </div>
 
-          {/* Uniform Responsive Card Grid */}
+          {/* Uniform Responsive 3-Column Card Grid (Progressive Render) */}
           {filteredItems.length > 0 ? (
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-              {filteredItems.map((item) => (
-                <DirectoryCard
-                  key={item.id}
-                  item={item}
-                  lang={lang}
-                  isStarred={starredSet.has(item.id)}
-                  onToggleStar={toggleStar}
-                  onOpenDetail={handleOpenDetail}
-                  onSelectCategory={(secId, catSlug, subId) =>
-                    updateSearch({
-                      section: secId,
-                      category: catSlug,
-                      subgroup: subId ?? undefined,
-                    })
-                  }
-                />
-              ))}
-            </div>
+            <>
+              <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+                {visibleItems.map((item) => (
+                  <DirectoryCard
+                    key={item.id}
+                    item={item}
+                    lang={lang}
+                    isStarred={starredSet.has(item.id)}
+                    activeCategory={activeCategory}
+                    onToggleStar={toggleStar}
+                    onOpenDetail={handleOpenDetail}
+                    onSelectCategory={handleSelectCardCategory}
+                  />
+                ))}
+              </div>
+
+              {hasMoreItems && (
+                <div
+                  ref={loadMoreSentinelRef}
+                  className="flex flex-col items-center justify-center gap-2 pt-2"
+                >
+                  <Button
+                    type="button"
+                    variant="outline"
+                    size="sm"
+                    onClick={() =>
+                      setVisibleCount((prev) =>
+                        Math.min(prev + VISIBLE_INCREMENT, filteredItems.length)
+                      )
+                    }
+                  >
+                    {lang === "zh"
+                      ? `加载更多 (${filteredItems.length - visibleItems.length} 项剩余)`
+                      : `Show more (${filteredItems.length - visibleItems.length} remaining)`}
+                  </Button>
+                </div>
+              )}
+            </>
           ) : (
             <div className="flex flex-col items-center justify-center rounded-xl border border-dashed border-border py-20 text-center">
               <p className="text-sm font-medium text-foreground">
@@ -880,30 +1338,37 @@ function DirectoryPage() {
           </div>
         </footer>
 
-        {/* Native Modal Dialog for Saved Stack */}
-        <StackDialog
-          dialogRef={stackDialogRef}
-          items={starredItems}
-          lang={lang}
-          onRemoveItem={toggleStar}
-          onClearAll={clearStars}
-        />
+        {/* Lazy Modal Dialog for Saved Stack */}
+        {stackMounted && (
+          <React.Suspense fallback={null}>
+            <StackDialog
+              dialogRef={stackDialogRef}
+              items={starredItems}
+              lang={lang}
+              onRemoveItem={toggleStar}
+              onClearAll={clearStars}
+            />
+          </React.Suspense>
+        )}
 
-        {/* Native Modal Dialog for Card Item Detail */}
-        <ItemDetailDialog
-          dialogRef={detailDialogRef}
-          item={detailItem}
-          lang={lang}
-          isStarred={detailItem ? starredSet.has(detailItem.id) : false}
-          onToggleStar={toggleStar}
-          onSelectCategory={(secId, catSlug, subId) =>
-            updateSearch({
-              section: secId,
-              category: catSlug,
-              subgroup: subId ?? undefined,
-            })
-          }
-        />
+        {/* Lazy Modal Dialog for Card Item Detail */}
+        {detailItem && (
+          <React.Suspense fallback={null}>
+            <ItemDetailDialog
+              dialogRef={detailDialogRef}
+              item={detailItem}
+              lang={lang}
+              isStarred={starredSet.has(detailItem.id)}
+              currentIndex={detailIndex >= 0 ? detailIndex : undefined}
+              totalCount={detailIndex >= 0 ? filteredItems.length : undefined}
+              onPrev={handlePrevDetail}
+              onNext={handleNextDetail}
+              onClose={handleCloseDetail}
+              onToggleStar={toggleStar}
+              onSelectCategory={handleSelectCardCategory}
+            />
+          </React.Suspense>
+        )}
       </div>
     </TooltipProvider>
   );

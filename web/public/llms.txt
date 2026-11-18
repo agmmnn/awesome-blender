@@ -1,12 +1,12 @@
 # Awesome Blender
 
-> Curated bilingual (EN/ZH) directory of 578 Blender add-ons, AI & MCP tools, 3D assets, HDRIs, standalone utilities, tutorials, and community resources — 547 free entries, 197 GitHub repositories, and 52 official Blender Extensions.
+> Curated bilingual (EN/ZH) directory of 577 Blender add-ons, AI & MCP tools, 3D assets, HDRIs, standalone utilities, tutorials, and community resources — 546 free entries, 197 GitHub repositories, and 52 official Blender Extensions.
 
 Use the section Markdown indexes or JSON catalog below to retrieve verified URLs, licenses, and descriptions without hallucinating links. The web directory at `https://awesome-blender.vercel.app/` supports query filters: `?section=`, `?category=`, `?subgroup=`, `?q=`, `?price=free|paid`, `?platform=extensions|github|open-source|superhive|gumroad`, and `?license=gpl|mit|zero|cc`.
 
 ## Machine-Readable Catalog
 
-- [Full Catalog (Markdown)](https://awesome-blender.vercel.app/llms-full.txt): Complete plain-Markdown dump of all 6 sections, 44 categories, and 578 entries.
+- [Full Catalog (Markdown)](https://awesome-blender.vercel.app/llms-full.txt): Complete plain-Markdown dump of all 6 sections, 44 categories, and 577 entries.
 - [Structured Catalog (JSON)](https://awesome-blender.vercel.app/catalog.json): Lossless bilingual EN/ZH catalog JSON (aggregate `stats` plus structured `sections -> categories -> entries`).
 - [Interactive Web Directory](https://awesome-blender.vercel.app/): Searchable directory of downloadable add-ons, AI/MCP tools, 3D assets, and standalone apps.
 
@@ -17,7 +17,7 @@ Use the section Markdown indexes or JSON catalog below to retrieve verified URLs
 - [Resources](https://awesome-blender.vercel.app/llms/resources.md): 129 entries across 8 categories (3D Models, Mocap/Animation, Textures, Blender Scenes/Files, HDRIs (+3 more)).
 - [Standalone](https://awesome-blender.vercel.app/llms/standalone.md): 76 entries across 6 categories (3D Tools, Various Tools, Photogrammetry, Texture/Material, Terrain, GIS & LiDAR (+1 more)).
 - [Tutorials](https://awesome-blender.vercel.app/llms/tutorials.md): 80 entries across 11 categories (Beginning, Modeling, Geometry Nodes, Shader Nodes, Animation (+6 more)).
-- [Social](https://awesome-blender.vercel.app/llms/social.md): 104 entries across 6 categories (Explore Artworks, Communities, Accounts, YouTube Channels, Blogs (+1 more)).
+- [Social](https://awesome-blender.vercel.app/llms/social.md): 103 entries across 6 categories (Explore Artworks, Communities, Accounts, YouTube Channels, Blogs (+1 more)).
 
 ## Directory Categories
 
@@ -46,6 +46,21 @@ Use the section Markdown indexes or JSON catalog below to retrieve verified URLs
 - [Standalone / Texture/Material](https://awesome-blender.vercel.app/?section=standalone&category=texture-material): 9 downloadable items.
 - [Standalone / Terrain, GIS & LiDAR](https://awesome-blender.vercel.app/?section=standalone&category=terrain-gis-lidar): 11 downloadable items.
 - [Standalone / Painting, Audio & Post-Production](https://awesome-blender.vercel.app/?section=standalone&category=painting-audio-post-production): 6 downloadable items.
+- [Tutorials / Beginning](https://awesome-blender.vercel.app/?section=tutorials&category=beginning): 7 downloadable items.
+- [Tutorials / Modeling](https://awesome-blender.vercel.app/?section=tutorials&category=modeling): 12 downloadable items.
+- [Tutorials / Geometry Nodes](https://awesome-blender.vercel.app/?section=tutorials&category=geometry-nodes): 11 downloadable items.
+- [Tutorials / Shader Nodes](https://awesome-blender.vercel.app/?section=tutorials&category=shader-nodes): 8 downloadable items.
+- [Tutorials / Animation](https://awesome-blender.vercel.app/?section=tutorials&category=animation): 9 downloadable items.
+- [Tutorials / UV Mapping](https://awesome-blender.vercel.app/?section=tutorials&category=uv-mapping): 4 downloadable items.
+- [Tutorials / Texture Painting](https://awesome-blender.vercel.app/?section=tutorials&category=texture-painting): 3 downloadable items.
+- [Tutorials / Compositing](https://awesome-blender.vercel.app/?section=tutorials&category=compositing): 5 downloadable items.
+- [Tutorials / Motion Tracking/Capture](https://awesome-blender.vercel.app/?section=tutorials&category=motion-tracking-capture): 5 downloadable items.
+- [Tutorials / Fundamentals & CG](https://awesome-blender.vercel.app/?section=tutorials&category=fundamentals-cg): 5 downloadable items.
+- [Tutorials / Scripting & Extensions](https://awesome-blender.vercel.app/?section=tutorials&category=scripting-extensions): 10 downloadable items.
+- [Social / Communities](https://awesome-blender.vercel.app/?section=social&category=communities): 6 downloadable items.
+- [Social / YouTube Channels](https://awesome-blender.vercel.app/?section=social&category=youtube-channels): 50 downloadable items.
+- [Social / Blogs](https://awesome-blender.vercel.app/?section=social&category=blogs): 7 downloadable items.
+- [Social / Challenges & Events](https://awesome-blender.vercel.app/?section=social&category=challenges-events): 9 downloadable items.
 
 ## Optional
 
