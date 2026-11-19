@@ -1498,22 +1498,16 @@ def build_readme_recent_block(
     lang: str = "en",
     limit: int = README_RECENT_LIMIT,
 ) -> str:
-    """Build the compact auto-updated Recently Added callout block for README.md / README_ZH.md."""
-    base = site_url.rstrip("/")
+    """Build the compact auto-updated Recently Added section for README.md / README_ZH.md."""
     recent = _collect_recent_items(catalog, limit=limit)
-    if lang == "zh":
-        header = (
-            f"> **✨ 最近新增** · [查看全部 {RECENT_MD_LIMIT} 条更新 →](RECENT.md) · "
-            f"[网页版目录]({base}/?sort=added&lang=zh)"
-        )
-    else:
-        header = (
-            f"> **✨ Recently Added** · [View all {RECENT_MD_LIMIT} updates →](RECENT.md) · "
-            f"[Browse on Web]({base}/?sort=added)"
-        )
+    header = (
+        "### [✨ 最近新增](RECENT.md)"
+        if lang == "zh"
+        else "### [✨ Recently Added](RECENT.md)"
+    )
 
     anchors = _extract_toc_anchors(README_ZH if lang == "zh" else README_EN)
-    lines = [RECENT_START_MARKER, "", header, ">"]
+    lines = [RECENT_START_MARKER, "", header, ""]
     for item in recent:
         title = item["titleZh"] if lang == "zh" else item["title"]
         sec_title = item["sectionTitleZh"] if lang == "zh" else item["sectionTitle"]
@@ -1524,10 +1518,13 @@ def build_readme_recent_block(
             or _fallback_github_anchor(cat_title)
         )
         desc_raw = item["descriptionZh"] if lang == "zh" else item["description"]
-        desc = _truncate_text(desc_raw, 48 if lang == "zh" else 98)
+        # Budget description length so each bullet stays cleanly on a single line
+        used_len = len(title) + len(cat_title)
+        max_desc = max(24, (44 if lang == "zh" else 92) - used_len)
+        desc = _truncate_text(desc_raw, max_desc)
         desc_part = f" — {desc}" if desc else ""
         lines.append(
-            f"> - **[{title}]({item['url']})** [`{cat_title}`]({anchor}){desc_part}"
+            f"- **[{title}]({item['url']})** [`{cat_title}`]({anchor}){desc_part}"
         )
     lines.extend(["", RECENT_END_MARKER])
     return "\n".join(lines)
