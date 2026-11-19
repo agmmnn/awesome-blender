@@ -1,6 +1,6 @@
 # AI & MCP
 
-> 39 curated entries across 3 categories. Index: https://awesome-blender.vercel.app/llms.txt
+> 42 curated entries across 3 categories. Index: https://awesome-blender.vercel.app/llms.txt
 
 ## MCP, Agents & Skills
 
@@ -34,6 +34,9 @@
 - [ComfyUI-Hunyuan3d-2-1](https://github.com/visualbruno/ComfyUI-Hunyuan3d-2-1): ComfyUI wrapper for [Hunyuan3D-2.1](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1) bringing fully open-source PBR texture synthesis workflows to Blender + ComfyUI pipelines. `[open-source]` ([Hunyuan3D-2.1](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1))
 - [ComfyUI-LATO2](https://github.com/sakalond/ComfyUI-LATO2): ComfyUI low-poly remeshing node designed to convert dense AI-generated meshes (`TRELLIS.2`, `Hunyuan3D`, 3D scans) into clean quad/low-poly topology. `[GPL]`
 - [AssetFurnace](https://github.com/Bingeljell/image-to-3dlab): Complete open-source image-to-3D pipeline generating textured, rigged, and animated game characters locally via TRELLIS.2 and Hunyuan3D. `[open-source]`
+- [anymove](https://github.com/patch-gg/anymove): AI motion capture pipeline for any rigged creature (wings, tails, multi-leg rigs) using dual-view AI video, DINOv2 joint tracking, and Blender 5.x to fit the rig frame-by-frame and export GLB. `[open-source]`
+- [trompe](https://github.com/patch-gg/trompe): Textures entire UV-mapped `.glb` game levels from a gray blockout by planning walkable cameras, painting views with image models, projecting back onto geometry, and baking albedo maps. `[open-source]`
+- [Potemkin 3D](https://github.com/wrong-nebula/potemkin3D): Extends [trompe](https://github.com/patch-gg/trompe) with automatic `xatlas` UV unwrapping, SAM/MoGe seam and geometry checks, surface relief, KTX2 GLB export, an MCP server, and Blender `dcc-sync`. `[open-source]` ([trompe](https://github.com/patch-gg/trompe))
 - [Dream Textures](https://github.com/carson-katri/dream-textures): Stable Diffusion built-in to the Blender shader editor, image editor, and compositor. `[GPL]`
 - [AI Render](https://github.com/benrugg/AI-Render): Stable Diffusion in Blender. This add-on renders an AI generated image based on a text prompt and your scene. `[open-source]`
 - [Pallaidium](https://github.com/tin2tin/Pallaidium): Generative AI movie studio integrated into the Blender Video Sequence Editor (VSE) for text, image, audio, and video generation. `[GPL]`

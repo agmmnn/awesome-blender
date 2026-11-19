@@ -343,6 +343,9 @@
 - [ComfyUI-Hunyuan3d-2-1](https://github.com/visualbruno/ComfyUI-Hunyuan3d-2-1) : ComfyUI wrapper for [Hunyuan3D-2.1](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1) bringing fully open-source PBR texture synthesis workflows to Blender + ComfyUI pipelines.
 - [ComfyUI-LATO2](https://github.com/sakalond/ComfyUI-LATO2) : ComfyUI low-poly remeshing node designed to convert dense AI-generated meshes (`TRELLIS.2`, `Hunyuan3D`, 3D scans) into clean quad/low-poly topology. ![][gpl]
 - [AssetFurnace](https://github.com/Bingeljell/image-to-3dlab) : Complete open-source image-to-3D pipeline generating textured, rigged, and animated game characters locally via TRELLIS.2 and Hunyuan3D.
+- [anymove](https://github.com/patch-gg/anymove) : AI motion capture pipeline for any rigged creature (wings, tails, multi-leg rigs) using dual-view AI video, DINOv2 joint tracking, and Blender 5.x to fit the rig frame-by-frame and export GLB.
+- [trompe](https://github.com/patch-gg/trompe) : Textures entire UV-mapped `.glb` game levels from a gray blockout by planning walkable cameras, painting views with image models, projecting back onto geometry, and baking albedo maps.
+- [Potemkin 3D](https://github.com/wrong-nebula/potemkin3D) : Extends [trompe](https://github.com/patch-gg/trompe) with automatic `xatlas` UV unwrapping, SAM/MoGe seam and geometry checks, surface relief, KTX2 GLB export, an MCP server, and Blender `dcc-sync`.
 - [Dream Textures](https://github.com/carson-katri/dream-textures) : Stable Diffusion built-in to the Blender shader editor, image editor, and compositor. ![][gpl]
 - [AI Render](https://github.com/benrugg/AI-Render) : Stable Diffusion in Blender. This add-on renders an AI generated image based on a text prompt and your scene.
 - [Pallaidium](https://github.com/tin2tin/Pallaidium) : Generative AI movie studio integrated into the Blender Video Sequence Editor (VSE) for text, image, audio, and video generation. ![][gpl]
@@ -379,6 +382,7 @@
     - [Poly Pizza](https://poly.pizza/) : Free CC0 and Creative Commons low-poly 3D models ready for Blender, games, and rapid prototyping.
     - [Rigmodels](https://rigmodels.com/) : Free rigged, animated and low poly models
     - [NASA-3D-Resources](https://science.nasa.gov/3d-resources/) : Growing collection of free 3D models, spacecraft, terrain scans, and textures from NASA. [![][repo]](https://github.com/nasa/NASA-3D-Resources)
+    - [Patch Toolbox](https://patch.gg/create/toolbox/assets) : Searchable library of 50,000+ free, open-source game-ready 3D models, textures, and rigged characters accessible via web, CLI, and MCP.
 - Marketplaces & Mixed-License Hubs:
     - [Fab (Quixel Megascans)](https://www.fab.com/) : Epic Games' unified 3D marketplace featuring the entire permanently free Quixel Megascans library alongside free and commercial assets for Blender and other DCC tools.
     - [Sketchfab](https://sketchfab.com/search?features=downloadable&sort_by=-pertinence&type=models) : Free downloadable models from Sketchfab.
@@ -847,7 +851,16 @@ _Some accounts where you can find different kinds of content related to blender.
 [@andrewpprice](https://x.com/andrewpprice),
 [@brentpatterson](https://x.com/brentpatterson),
 [@FinEskimo](https://x.com/FinEskimo),
-[@VicDoval](https://x.com/VicDoval)
+[@VicDoval](https://x.com/VicDoval),
+[@KatDoes3D](https://x.com/KatDoes3D),
+[@jiehananana](https://x.com/jiehananana),
+[@Topolazy](https://x.com/Topolazy),
+[@YorshCP](https://x.com/YorshCP),
+[@MiladKambari](https://x.com/MiladKambari),
+[@Khamurai3D](https://x.com/Khamurai3D),
+[@chiu_hans](https://x.com/chiu_hans),
+[@reijowrites](https://x.com/reijowrites),
+[@IboTpl](https://x.com/IboTpl)
 
 ### 📢 YouTube Channels
 

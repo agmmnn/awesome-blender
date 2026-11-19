@@ -1,6 +1,6 @@
 # Resources
 
-> 129 curated entries across 8 categories. Index: https://awesome-blender.vercel.app/llms.txt
+> 130 curated entries across 8 categories. Index: https://awesome-blender.vercel.app/llms.txt
 
 ## 3D Models
 
@@ -15,6 +15,7 @@
 - [Poly Pizza](https://poly.pizza/): Free CC0 and Creative Commons low-poly 3D models ready for Blender, games, and rapid prototyping.
 - [Rigmodels](https://rigmodels.com/): Free rigged, animated and low poly models
 - [NASA-3D-Resources](https://science.nasa.gov/3d-resources/): Growing collection of free 3D models, spacecraft, terrain scans, and textures from NASA. `[open-source]` ([Repository](https://github.com/nasa/NASA-3D-Resources))
+- [Patch Toolbox](https://patch.gg/create/toolbox/assets): Searchable library of 50,000+ free, open-source game-ready 3D models, textures, and rigged characters accessible via web, CLI, and MCP.
 
 ### Marketplaces & Mixed-License Hubs
 

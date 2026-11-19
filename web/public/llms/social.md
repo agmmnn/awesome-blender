@@ -1,6 +1,6 @@
 # Social
 
-> 103 curated entries across 6 categories. Index: https://awesome-blender.vercel.app/llms.txt
+> 112 curated entries across 6 categories. Index: https://awesome-blender.vercel.app/llms.txt
 
 ## Explore Artworks
 
@@ -25,7 +25,7 @@
 
 > Some accounts where you can find different kinds of content related to blender.
 
-- Accounts: [@pablodp606](https://x.com/pablodp606), [@3DBystedt](https://x.com/3DBystedt), [@ppaawweeuu](https://x.com/ppaawweeuu), [@mxeon1001](https://x.com/mxeon1001), [@Mrdodobird](https://x.com/Mrdodobird), [@ArtFromRachel](https://x.com/ArtFromRachel), [@wanoco4D](https://x.com/wanoco4D), [@dedouze_](https://x.com/dedouze_), [@AFX_LAB](https://x.com/AFX_LAB), [@Yokohara_h](https://x.com/Yokohara_h), [@Karl_poyzer](https://x.com/Karl_poyzer), [@Kazlyan](https://x.com/Kazlyan), [@arc4g](https://x.com/arc4g), [@FlipFluids](https://x.com/FlipFluids), [@CGGeeks](https://x.com/CGGeeks), [@PabloVazquez_](https://x.com/PabloVazquez_), [@IMilk_ManI](https://x.com/IMilk_ManI), [@bluefox_3d](https://x.com/bluefox_3d), [@LucaRood](https://x.com/LucaRood), [@janurschel](https://x.com/janurschel), [@andrewpprice](https://x.com/andrewpprice), [@brentpatterson](https://x.com/brentpatterson), [@FinEskimo](https://x.com/FinEskimo), [@VicDoval](https://x.com/VicDoval)
+- Accounts: [@pablodp606](https://x.com/pablodp606), [@3DBystedt](https://x.com/3DBystedt), [@ppaawweeuu](https://x.com/ppaawweeuu), [@mxeon1001](https://x.com/mxeon1001), [@Mrdodobird](https://x.com/Mrdodobird), [@ArtFromRachel](https://x.com/ArtFromRachel), [@wanoco4D](https://x.com/wanoco4D), [@dedouze_](https://x.com/dedouze_), [@AFX_LAB](https://x.com/AFX_LAB), [@Yokohara_h](https://x.com/Yokohara_h), [@Karl_poyzer](https://x.com/Karl_poyzer), [@Kazlyan](https://x.com/Kazlyan), [@arc4g](https://x.com/arc4g), [@FlipFluids](https://x.com/FlipFluids), [@CGGeeks](https://x.com/CGGeeks), [@PabloVazquez_](https://x.com/PabloVazquez_), [@IMilk_ManI](https://x.com/IMilk_ManI), [@bluefox_3d](https://x.com/bluefox_3d), [@LucaRood](https://x.com/LucaRood), [@janurschel](https://x.com/janurschel), [@andrewpprice](https://x.com/andrewpprice), [@brentpatterson](https://x.com/brentpatterson), [@FinEskimo](https://x.com/FinEskimo), [@VicDoval](https://x.com/VicDoval), [@KatDoes3D](https://x.com/KatDoes3D), [@jiehananana](https://x.com/jiehananana), [@Topolazy](https://x.com/Topolazy), [@YorshCP](https://x.com/YorshCP), [@MiladKambari](https://x.com/MiladKambari), [@Khamurai3D](https://x.com/Khamurai3D), [@chiu_hans](https://x.com/chiu_hans), [@reijowrites](https://x.com/reijowrites), [@IboTpl](https://x.com/IboTpl)
 
 ## YouTube Channels
 

@@ -4,18 +4,18 @@
     "totalSections": 6,
     "totalCategories": 44,
     "totalSubgroups": 69,
-    "totalEntries": 577,
+    "totalEntries": 590,
     "entryKinds": {
-      "item": 532,
+      "item": 536,
       "collection": 15,
       "quick-link": 6,
-      "social-handle": 24
+      "social-handle": 33
     },
-    "totalContentUrls": 794,
-    "uniqueContentUrls": 791,
+    "totalContentUrls": 808,
+    "uniqueContentUrls": 804,
     "paidEntries": 31,
-    "freeEntries": 546,
-    "uniqueGithubRepos": 197,
+    "freeEntries": 559,
+    "uniqueGithubRepos": 200,
     "uniqueBlenderExtensions": 52,
     "licenseCounts": {
       "gpl": 63,
@@ -27,8 +27,8 @@
     "platformCounts": {
       "gumroad": 18,
       "superhive": 18,
-      "github": 197,
-      "open-source": 216,
+      "github": 200,
+      "open-source": 219,
       "extensions": 52,
       "youtube": 107,
       "gitlab": 3,
@@ -8206,8 +8206,126 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L346-dream-textures",
+              "id": "L346-anymove",
               "line": 346,
+              "kind": "item",
+              "sectionId": "ai-mcp",
+              "categoryId": "ai-mcp/generative-3d-comfyui",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "anymove",
+                "zh": "anymove"
+              },
+              "url": "https://github.com/patch-gg/anymove",
+              "description": {
+                "en": "AI motion capture pipeline for any rigged creature (wings, tails, multi-leg rigs) using dual-view AI video, DINOv2 joint tracking, and Blender 5.x to fit the rig frame-by-frame and export GLB.",
+                "zh": "面向任意绑定生物（支持翅膀、尾巴与多足骨骼）的 AI 动作捕捉管线，结合双视角 AI 视频、DINOv2 关节点追踪与 Blender 5.x 逐帧拟合骨骼并导出 GLB。"
+              },
+              "descriptionMd": {
+                "en": "AI motion capture pipeline for any rigged creature (wings, tails, multi-leg rigs) using dual-view AI video, DINOv2 joint tracking, and Blender 5.x to fit the rig frame-by-frame and export GLB.",
+                "zh": "面向任意绑定生物（支持翅膀、尾巴与多足骨骼）的 AI 动作捕捉管线，结合双视角 AI 视频、DINOv2 关节点追踪与 Blender 5.x 逐帧拟合骨骼并导出 GLB。"
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://github.com/patch-gg/anymove"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [
+                "github",
+                "open-source"
+              ],
+              "githubRepo": "patch-gg/anymove",
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L347-trompe",
+              "line": 347,
+              "kind": "item",
+              "sectionId": "ai-mcp",
+              "categoryId": "ai-mcp/generative-3d-comfyui",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "trompe",
+                "zh": "trompe"
+              },
+              "url": "https://github.com/patch-gg/trompe",
+              "description": {
+                "en": "Textures entire UV-mapped .glb game levels from a gray blockout by planning walkable cameras, painting views with image models, projecting back onto geometry, and baking albedo maps.",
+                "zh": "为带 UV 的灰模 .glb 游戏关卡自动生成完整贴图的开源工具，通过规划可行走视角、图像模型绘制、几何回投并烘焙反照率贴图输出 glTF。"
+              },
+              "descriptionMd": {
+                "en": "Textures entire UV-mapped `.glb` game levels from a gray blockout by planning walkable cameras, painting views with image models, projecting back onto geometry, and baking albedo maps.",
+                "zh": "为带 UV 的灰模 `.glb` 游戏关卡自动生成完整贴图的开源工具，通过规划可行走视角、图像模型绘制、几何回投并烘焙反照率贴图输出 glTF。"
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://github.com/patch-gg/trompe"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [
+                "github",
+                "open-source"
+              ],
+              "githubRepo": "patch-gg/trompe",
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L348-potemkin-3d",
+              "line": 348,
+              "kind": "item",
+              "sectionId": "ai-mcp",
+              "categoryId": "ai-mcp/generative-3d-comfyui",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "Potemkin 3D",
+                "zh": "Potemkin 3D"
+              },
+              "url": "https://github.com/wrong-nebula/potemkin3D",
+              "description": {
+                "en": "Extends trompe with automatic xatlas UV unwrapping, SAM/MoGe seam and geometry checks, surface relief, KTX2 GLB export, an MCP server, and Blender dcc-sync.",
+                "zh": "基于 trompe 的增强扩展，新增 xatlas 自动展 UV、SAM/MoGe 接缝与几何校验、表面浮雕、KTX2 GLB 导出、MCP 服务器及 Blender dcc-sync 同步。"
+              },
+              "descriptionMd": {
+                "en": "Extends [trompe](https://github.com/patch-gg/trompe) with automatic `xatlas` UV unwrapping, SAM/MoGe seam and geometry checks, surface relief, KTX2 GLB export, an MCP server, and Blender `dcc-sync`.",
+                "zh": "基于 [trompe](https://github.com/patch-gg/trompe) 的增强扩展，新增 `xatlas` 自动展 UV、SAM/MoGe 接缝与几何校验、表面浮雕、KTX2 GLB 导出、MCP 服务器及 Blender `dcc-sync` 同步。"
+              },
+              "secondaryLinks": [
+                {
+                  "label": {
+                    "en": "trompe",
+                    "zh": "trompe"
+                  },
+                  "url": "https://github.com/patch-gg/trompe",
+                  "type": "other"
+                }
+              ],
+              "allUrls": [
+                "https://github.com/wrong-nebula/potemkin3D",
+                "https://github.com/patch-gg/trompe"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [
+                "github",
+                "open-source"
+              ],
+              "githubRepo": "wrong-nebula/potemkin3D",
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L349-dream-textures",
+              "line": 349,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8244,8 +8362,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L347-ai-render",
-              "line": 347,
+              "id": "L350-ai-render",
+              "line": 350,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8280,8 +8398,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L348-pallaidium",
-              "line": 348,
+              "id": "L351-pallaidium",
+              "line": 351,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8323,7 +8441,7 @@
           "id": "ai-mcp/synthetic-data-benchmarks",
           "slug": "synthetic-data-benchmarks",
           "sectionId": "ai-mcp",
-          "line": 350,
+          "line": 353,
           "emoji": "🔬",
           "title": {
             "en": "Synthetic Data & Benchmarks",
@@ -8334,7 +8452,7 @@
           "subgroups": [
             {
               "id": "synthetic-data-vision-ai",
-              "line": 352,
+              "line": 355,
               "title": {
                 "en": "Synthetic Data & Vision AI",
                 "zh": "合成数据与视觉 AI"
@@ -8344,7 +8462,7 @@
             },
             {
               "id": "benchmarks-prompts",
-              "line": 357,
+              "line": 360,
               "title": {
                 "en": "Benchmarks & Prompts",
                 "zh": "基准测试与提示词"
@@ -8355,8 +8473,8 @@
           ],
           "entries": [
             {
-              "id": "L353-blenderproc",
-              "line": 353,
+              "id": "L356-blenderproc",
+              "line": 356,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -8396,8 +8514,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L354-blendersynth",
-              "line": 354,
+              "id": "L357-blendersynth",
+              "line": 357,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -8435,8 +8553,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L355-kubric",
-              "line": 355,
+              "id": "L358-kubric",
+              "line": 358,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -8474,8 +8592,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L356-sceneweaver",
-              "line": 356,
+              "id": "L359-sceneweaver",
+              "line": 359,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -8513,8 +8631,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L358-blenderworld",
-              "line": 358,
+              "id": "L361-blenderworld",
+              "line": 361,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -8554,8 +8672,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L359-blendergym",
-              "line": 359,
+              "id": "L362-blendergym",
+              "line": 362,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -8593,8 +8711,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L360-blenderalchemy",
-              "line": 360,
+              "id": "L363-blenderalchemy",
+              "line": 363,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -8632,8 +8750,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L361-blender-ai-arena",
-              "line": 361,
+              "id": "L364-blender-ai-arena",
+              "line": 364,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -8668,8 +8786,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L362-awesome-astra-prompts",
-              "line": 362,
+              "id": "L365-awesome-astra-prompts",
+              "line": 365,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -8712,7 +8830,7 @@
     },
     {
       "id": "resources",
-      "line": 368,
+      "line": 371,
       "emoji": "📦",
       "title": {
         "en": "Resources",
@@ -8724,7 +8842,7 @@
           "id": "resources/3d-models",
           "slug": "3d-models",
           "sectionId": "resources",
-          "line": 370,
+          "line": 373,
           "emoji": "🎠",
           "title": {
             "en": "3D Models",
@@ -8735,7 +8853,7 @@
           "subgroups": [
             {
               "id": "free-cc0-3d-asset-libraries",
-              "line": 372,
+              "line": 375,
               "title": {
                 "en": "Free & CC0 3D Asset Libraries",
                 "zh": "免费与 CC0 3D 资产库"
@@ -8745,7 +8863,7 @@
             },
             {
               "id": "marketplaces-mixed-license-hubs",
-              "line": 382,
+              "line": 386,
               "title": {
                 "en": "Marketplaces & Mixed-License Hubs",
                 "zh": "资产市场与综合模型库"
@@ -8755,7 +8873,7 @@
             },
             {
               "id": "scanned-models",
-              "line": 392,
+              "line": 396,
               "title": {
                 "en": "Scanned Models",
                 "zh": "扫描模型"
@@ -8765,7 +8883,7 @@
             },
             {
               "id": "various-models-test-meshes",
-              "line": 398,
+              "line": 402,
               "title": {
                 "en": "Various Models & Test Meshes",
                 "zh": "各类模型与测试网格"
@@ -8775,7 +8893,7 @@
             },
             {
               "id": "other-sites",
-              "line": 401,
+              "line": 405,
               "title": {
                 "en": "Other Sites",
                 "zh": "其他网站"
@@ -8785,7 +8903,7 @@
             },
             {
               "id": "cad-models",
-              "line": 403,
+              "line": 407,
               "title": {
                 "en": "CAD Models",
                 "zh": "CAD 模型"
@@ -8795,7 +8913,7 @@
             },
             {
               "id": "kitbash-models",
-              "line": 405,
+              "line": 409,
               "title": {
                 "en": "Kitbash Models",
                 "zh": "Kitbash 模型"
@@ -8805,7 +8923,7 @@
             },
             {
               "id": "vdb-models",
-              "line": 407,
+              "line": 411,
               "title": {
                 "en": "VDB Models",
                 "zh": "VDB 模型"
@@ -8816,8 +8934,8 @@
           ],
           "entries": [
             {
-              "id": "L373-poly-haven-models",
-              "line": 373,
+              "id": "L376-poly-haven-models",
+              "line": 376,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -8864,8 +8982,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L374-thebasemeshcom",
-              "line": 374,
+              "id": "L377-thebasemeshcom",
+              "line": 377,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -8902,8 +9020,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L375-kenney-3d-assets",
-              "line": 375,
+              "id": "L378-kenney-3d-assets",
+              "line": 378,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -8940,8 +9058,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L376-blender-boom",
-              "line": 376,
+              "id": "L379-blender-boom",
+              "line": 379,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -8988,8 +9106,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L377-chocofur-free",
-              "line": 377,
+              "id": "L380-chocofur-free",
+              "line": 380,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9036,8 +9154,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L378-greeble-town",
-              "line": 378,
+              "id": "L381-greeble-town",
+              "line": 381,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9072,8 +9190,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L379-poly-pizza",
-              "line": 379,
+              "id": "L382-poly-pizza",
+              "line": 382,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9108,8 +9226,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L380-rigmodels",
-              "line": 380,
+              "id": "L383-rigmodels",
+              "line": 383,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9144,8 +9262,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L381-nasa-3d-resources",
-              "line": 381,
+              "id": "L384-nasa-3d-resources",
+              "line": 384,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9193,8 +9311,44 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L383-fab-quixel-megascans",
-              "line": 383,
+              "id": "L385-patch-toolbox",
+              "line": 385,
+              "kind": "item",
+              "sectionId": "resources",
+              "categoryId": "resources/3d-models",
+              "subgroupId": "free-cc0-3d-asset-libraries",
+              "subgroup": {
+                "en": "Free & CC0 3D Asset Libraries",
+                "zh": "免费与 CC0 3D 资产库"
+              },
+              "title": {
+                "en": "Patch Toolbox",
+                "zh": "Patch Toolbox"
+              },
+              "url": "https://patch.gg/create/toolbox/assets",
+              "description": {
+                "en": "Searchable library of 50,000+ free, open-source game-ready 3D models, textures, and rigged characters accessible via web, CLI, and MCP.",
+                "zh": "聚合 50,000+ 免费开源游戏级 3D 模型、贴图与带骨骼角色的可检索资产库，支持网页、CLI 与 MCP 访问。"
+              },
+              "descriptionMd": {
+                "en": "Searchable library of 50,000+ free, open-source game-ready 3D models, textures, and rigged characters accessible via web, CLI, and MCP.",
+                "zh": "聚合 50,000+ 免费开源游戏级 3D 模型、贴图与带骨骼角色的可检索资产库，支持网页、CLI 与 MCP 访问。"
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://patch.gg/create/toolbox/assets"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [],
+              "githubRepo": null,
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L387-fab-quixel-megascans",
+              "line": 387,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9229,8 +9383,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L384-sketchfab",
-              "line": 384,
+              "id": "L388-sketchfab",
+              "line": 388,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9265,8 +9419,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L385-cgtrader",
-              "line": 385,
+              "id": "L389-cgtrader",
+              "line": 389,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9301,8 +9455,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L386-turbosquid-free",
-              "line": 386,
+              "id": "L390-turbosquid-free",
+              "line": 390,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9337,8 +9491,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L387-free3d",
-              "line": 387,
+              "id": "L391-free3d",
+              "line": 391,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9385,8 +9539,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L388-3d-warehouse",
-              "line": 388,
+              "id": "L392-3d-warehouse",
+              "line": 392,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9421,8 +9575,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L389-renderhub-free",
-              "line": 389,
+              "id": "L393-renderhub-free",
+              "line": 393,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9457,8 +9611,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L390-flyingarchitecture",
-              "line": 390,
+              "id": "L394-flyingarchitecture",
+              "line": 394,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9493,8 +9647,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L391-kitbash3d",
-              "line": 391,
+              "id": "L395-kitbash3d",
+              "line": 395,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9539,8 +9693,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L393-3d-digitization-smithsonian",
-              "line": 393,
+              "id": "L397-3d-digitization-smithsonian",
+              "line": 397,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9587,8 +9741,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L394-three-d-scans",
-              "line": 394,
+              "id": "L398-three-d-scans",
+              "line": 398,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9635,8 +9789,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L395-scan-the-world",
-              "line": 395,
+              "id": "L399-scan-the-world",
+              "line": 399,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9672,8 +9826,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L396-artec-3d",
-              "line": 396,
+              "id": "L400-artec-3d",
+              "line": 400,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9710,8 +9864,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L397-featured-free-scan-collections",
-              "line": 397,
+              "id": "L401-featured-free-scan-collections",
+              "line": 401,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9782,8 +9936,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L399-common-3d-test-models",
-              "line": 399,
+              "id": "L403-common-3d-test-models",
+              "line": 403,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9831,8 +9985,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L400-quaterniuss-ultimate-low-poly-models-first-anima",
-              "line": 400,
+              "id": "L404-quaterniuss-ultimate-low-poly-models-first-anima",
+              "line": 404,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9894,8 +10048,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L402-other-sites",
-              "line": 402,
+              "id": "L406-other-sites",
+              "line": 406,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9986,8 +10140,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L404-grabcad-mcmaster-carr",
-              "line": 404,
+              "id": "L408-grabcad-mcmaster-carr",
+              "line": 408,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10040,8 +10194,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L406-kitbash-models",
-              "line": 406,
+              "id": "L410-kitbash-models",
+              "line": 410,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10114,8 +10268,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L408-free-vdb-simulations-by-jangafx",
-              "line": 408,
+              "id": "L412-free-vdb-simulations-by-jangafx",
+              "line": 412,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10150,8 +10304,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L409-openvdb-sample-models",
-              "line": 409,
+              "id": "L413-openvdb-sample-models",
+              "line": 413,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10186,8 +10340,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L410-disney-animation-clouds",
-              "line": 410,
+              "id": "L414-disney-animation-clouds",
+              "line": 414,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10222,8 +10376,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L411-community-vdb-clouds",
-              "line": 411,
+              "id": "L415-community-vdb-clouds",
+              "line": 415,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10283,7 +10437,7 @@
           "id": "resources/mocap-animation",
           "slug": "mocap-animation",
           "sectionId": "resources",
-          "line": 413,
+          "line": 417,
           "emoji": "🤸🏾‍♀️",
           "title": {
             "en": "Mocap/Animation",
@@ -10294,7 +10448,7 @@
           "subgroups": [
             {
               "id": "free-mocap-animation-libraries",
-              "line": 415,
+              "line": 419,
               "title": {
                 "en": "Free Mocap & Animation Libraries",
                 "zh": "免费动作捕捉与动画库"
@@ -10304,7 +10458,7 @@
             },
             {
               "id": "ai-video-to-mocap-markerless-capture",
-              "line": 425,
+              "line": 429,
               "title": {
                 "en": "AI Video-to-Mocap & Markerless Capture",
                 "zh": "AI 视频转动作捕捉与无标记采集"
@@ -10315,8 +10469,8 @@
           ],
           "entries": [
             {
-              "id": "L416-mixamo",
-              "line": 416,
+              "id": "L420-mixamo",
+              "line": 420,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10351,8 +10505,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L417-quaternius-universal-animation-library",
-              "line": 417,
+              "id": "L421-quaternius-universal-animation-library",
+              "line": 421,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10389,8 +10543,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L418-cmu-motion-capture-database",
-              "line": 418,
+              "id": "L422-cmu-motion-capture-database",
+              "line": 422,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10425,8 +10579,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L419-accad-open-motion-project",
-              "line": 419,
+              "id": "L423-accad-open-motion-project",
+              "line": 423,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10461,8 +10615,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L420-bandai-namco-research-motiondataset",
-              "line": 420,
+              "id": "L424-bandai-namco-research-motiondataset",
+              "line": 424,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10500,8 +10654,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L421-amass",
-              "line": 421,
+              "id": "L425-amass",
+              "line": 425,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10536,8 +10690,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L422-rokoko-studio",
-              "line": 422,
+              "id": "L426-rokoko-studio",
+              "line": 426,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10572,8 +10726,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L423-actorcore",
-              "line": 423,
+              "id": "L427-actorcore",
+              "line": 427,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10608,8 +10762,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L424-turbosquid-motion-capture-sketchfab-animated",
-              "line": 424,
+              "id": "L428-turbosquid-motion-capture-sketchfab-animated",
+              "line": 428,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10662,8 +10816,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L426-freemocap",
-              "line": 426,
+              "id": "L430-freemocap",
+              "line": 430,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10711,8 +10865,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L427-gvhmr",
-              "line": 427,
+              "id": "L431-gvhmr",
+              "line": 431,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10750,8 +10904,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L428-deepmotion",
-              "line": 428,
+              "id": "L432-deepmotion",
+              "line": 432,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10786,8 +10940,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L429-moveai",
-              "line": 429,
+              "id": "L433-moveai",
+              "line": 433,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10822,8 +10976,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L430-plask",
-              "line": 430,
+              "id": "L434-plask",
+              "line": 434,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10863,7 +11017,7 @@
           "id": "resources/textures",
           "slug": "textures",
           "sectionId": "resources",
-          "line": 432,
+          "line": 436,
           "emoji": "🌑",
           "title": {
             "en": "Textures",
@@ -10874,7 +11028,7 @@
           "subgroups": [
             {
               "id": "cc0-open-pbr-texture-libraries",
-              "line": 434,
+              "line": 438,
               "title": {
                 "en": "CC0 & Open PBR Texture Libraries",
                 "zh": "CC0 与免费 PBR 纹理库"
@@ -10884,7 +11038,7 @@
             },
             {
               "id": "freemium-commercial-specialized-libraries",
-              "line": 449,
+              "line": 453,
               "title": {
                 "en": "Freemium, Commercial & Specialized Libraries",
                 "zh": "商业免费专区与专项贴图库"
@@ -10894,7 +11048,7 @@
             },
             {
               "id": "other-collections",
-              "line": 460,
+              "line": 464,
               "title": {
                 "en": "Other Collections",
                 "zh": "其他纹理合集"
@@ -10905,8 +11059,8 @@
           ],
           "entries": [
             {
-              "id": "L435-poly-haven-textures",
-              "line": 435,
+              "id": "L439-poly-haven-textures",
+              "line": 439,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -10953,8 +11107,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L436-ambientcg",
-              "line": 436,
+              "id": "L440-ambientcg",
+              "line": 440,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11001,8 +11155,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L437-cgbookcase",
-              "line": 437,
+              "id": "L441-cgbookcase",
+              "line": 441,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11049,8 +11203,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L438-3dassetsone",
-              "line": 438,
+              "id": "L442-3dassetsone",
+              "line": 442,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11085,8 +11239,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L439-3dtexturesme",
-              "line": 439,
+              "id": "L443-3dtexturesme",
+              "line": 443,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11133,8 +11287,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L440-cc0-materials",
-              "line": 440,
+              "id": "L444-cc0-materials",
+              "line": 444,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11181,8 +11335,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L441-freepbrcom",
-              "line": 441,
+              "id": "L445-freepbrcom",
+              "line": 445,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11217,8 +11371,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L442-twirl",
-              "line": 442,
+              "id": "L446-twirl",
+              "line": 446,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11253,8 +11407,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L443-sharetextures",
-              "line": 443,
+              "id": "L447-sharetextures",
+              "line": 447,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11301,8 +11455,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L444-texturecan",
-              "line": 444,
+              "id": "L448-texturecan",
+              "line": 448,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11339,8 +11493,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L445-textureninja",
-              "line": 445,
+              "id": "L449-textureninja",
+              "line": 449,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11377,8 +11531,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L446-3dtexel",
-              "line": 446,
+              "id": "L450-3dtexel",
+              "line": 450,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11425,8 +11579,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L447-texture-box",
-              "line": 447,
+              "id": "L451-texture-box",
+              "line": 451,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11461,8 +11615,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L448-matcaps",
-              "line": 448,
+              "id": "L452-matcaps",
+              "line": 452,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11500,8 +11654,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L450-texturescom",
-              "line": 450,
+              "id": "L454-texturescom",
+              "line": 454,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11536,8 +11690,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L451-lotpixel",
-              "line": 451,
+              "id": "L455-lotpixel",
+              "line": 455,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11572,8 +11726,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L452-materialx-library",
-              "line": 452,
+              "id": "L456-materialx-library",
+              "line": 456,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11608,8 +11762,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L453-ies-library",
-              "line": 453,
+              "id": "L457-ies-library",
+              "line": 457,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11644,8 +11798,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L454-adobe-substance-3d-assets",
-              "line": 454,
+              "id": "L458-adobe-substance-3d-assets",
+              "line": 458,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11690,8 +11844,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L455-scanslibrary",
-              "line": 455,
+              "id": "L459-scanslibrary",
+              "line": 459,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11726,8 +11880,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L456-poliigon-freebies",
-              "line": 456,
+              "id": "L460-poliigon-freebies",
+              "line": 460,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11762,8 +11916,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L457-texturingxyz",
-              "line": 457,
+              "id": "L461-texturingxyz",
+              "line": 461,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11798,8 +11952,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L458-solar-textures",
-              "line": 458,
+              "id": "L462-solar-textures",
+              "line": 462,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11836,8 +11990,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L459-planetary-space-maps",
-              "line": 459,
+              "id": "L463-planetary-space-maps",
+              "line": 463,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11910,8 +12064,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L461-other-collections",
-              "line": 461,
+              "id": "L465-other-collections",
+              "line": 465,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11989,7 +12143,7 @@
           "id": "resources/blender-scenes-files",
           "slug": "blender-scenes-files",
           "sectionId": "resources",
-          "line": 463,
+          "line": 467,
           "emoji": "🌲",
           "title": {
             "en": "Blender Scenes/Files",
@@ -12000,7 +12154,7 @@
           "subgroups": [
             {
               "id": "official-scenes-production-benchmarks",
-              "line": 465,
+              "line": 469,
               "title": {
                 "en": "Official Scenes & Production Benchmarks",
                 "zh": "官方演示场景与生产级基准文件"
@@ -12010,7 +12164,7 @@
             },
             {
               "id": "community-blend-libraries",
-              "line": 471,
+              "line": 475,
               "title": {
                 "en": "Community .blend Libraries",
                 "zh": "社区 .blend 资源库"
@@ -12020,7 +12174,7 @@
             },
             {
               "id": "free-character-rigs",
-              "line": 475,
+              "line": 479,
               "title": {
                 "en": "Free Character Rigs",
                 "zh": "免费绑定角色模型"
@@ -12031,8 +12185,8 @@
           ],
           "entries": [
             {
-              "id": "L466-blender-demo-files",
-              "line": 466,
+              "id": "L470-blender-demo-files",
+              "line": 470,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12067,8 +12221,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L467-blender-studio-open-movies",
-              "line": 467,
+              "id": "L471-blender-studio-open-movies",
+              "line": 471,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12103,8 +12257,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L468-blender-open-data",
-              "line": 468,
+              "id": "L472-blender-open-data",
+              "line": 472,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12139,8 +12293,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L469-nvidia-orca",
-              "line": 469,
+              "id": "L473-nvidia-orca",
+              "line": 473,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12175,8 +12329,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L470-disney-moana-island-scene",
-              "line": 470,
+              "id": "L474-disney-moana-island-scene",
+              "line": 474,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12211,8 +12365,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L472-blendernation-free-models",
-              "line": 472,
+              "id": "L476-blendernation-free-models",
+              "line": 476,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12247,8 +12401,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L473-mantissa-resources",
-              "line": 473,
+              "id": "L477-mantissa-resources",
+              "line": 477,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12283,8 +12437,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L474-creator-gumroad-libraries",
-              "line": 474,
+              "id": "L478-creator-gumroad-libraries",
+              "line": 478,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12339,8 +12493,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L476-blender-studio-official-rigs",
-              "line": 476,
+              "id": "L480-blender-studio-official-rigs",
+              "line": 480,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12394,8 +12548,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L477-agora-community-assets",
-              "line": 477,
+              "id": "L481-agora-community-assets",
+              "line": 481,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12430,8 +12584,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L478-p2design-academy",
-              "line": 478,
+              "id": "L482-p2design-academy",
+              "line": 482,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12471,7 +12625,7 @@
           "id": "resources/hdris",
           "slug": "hdris",
           "sectionId": "resources",
-          "line": 480,
+          "line": 484,
           "emoji": "⛅",
           "title": {
             "en": "HDRIs",
@@ -12482,7 +12636,7 @@
           "subgroups": [
             {
               "id": "cc0-production-hdri-libraries",
-              "line": 482,
+              "line": 486,
               "title": {
                 "en": "CC0 & Production HDRI Libraries",
                 "zh": "CC0 与生产级 HDRI 库"
@@ -12493,8 +12647,8 @@
           ],
           "entries": [
             {
-              "id": "L483-poly-haven-hdris",
-              "line": 483,
+              "id": "L487-poly-haven-hdris",
+              "line": 487,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/hdris",
@@ -12541,8 +12695,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L484-openhdri",
-              "line": 484,
+              "id": "L488-openhdri",
+              "line": 488,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/hdris",
@@ -12579,8 +12733,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L485-ambientcg-hdris",
-              "line": 485,
+              "id": "L489-ambientcg-hdris",
+              "line": 489,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/hdris",
@@ -12627,8 +12781,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L486-pixar-hdri",
-              "line": 486,
+              "id": "L490-pixar-hdri",
+              "line": 490,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/hdris",
@@ -12663,8 +12817,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L487-hdrmaps-freebies",
-              "line": 487,
+              "id": "L491-hdrmaps-freebies",
+              "line": 491,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/hdris",
@@ -12699,8 +12853,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L488-other-free-hdri-libraries",
-              "line": 488,
+              "id": "L492-other-free-hdri-libraries",
+              "line": 492,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/hdris",
@@ -12782,7 +12936,7 @@
           "id": "resources/art-reference",
           "slug": "art-reference",
           "sectionId": "resources",
-          "line": 490,
+          "line": 494,
           "emoji": "🖼️",
           "title": {
             "en": "Art/Reference",
@@ -12793,7 +12947,7 @@
           "subgroups": [
             {
               "id": "open-access-museums-art-archives",
-              "line": 492,
+              "line": 496,
               "title": {
                 "en": "Open-Access Museums & Art Archives",
                 "zh": "开放获取博物馆与艺术档案"
@@ -12803,7 +12957,7 @@
             },
             {
               "id": "anatomy-nature-historical-concept-references",
-              "line": 498,
+              "line": 502,
               "title": {
                 "en": "Anatomy, Nature, Historical & Concept References",
                 "zh": "解剖、自然、历史与概念参考"
@@ -12814,8 +12968,8 @@
           ],
           "entries": [
             {
-              "id": "L493-dezoomify",
-              "line": 493,
+              "id": "L497-dezoomify",
+              "line": 497,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -12908,8 +13062,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L494-the-metropolitan-museum-of-art",
-              "line": 494,
+              "id": "L498-the-metropolitan-museum-of-art",
+              "line": 498,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -12944,8 +13098,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L495-smithsonian-open-access",
-              "line": 495,
+              "id": "L499-smithsonian-open-access",
+              "line": 499,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -12992,8 +13146,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L496-rijksmuseum",
-              "line": 496,
+              "id": "L500-rijksmuseum",
+              "line": 500,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13028,8 +13182,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L497-wikimedia-commons-art",
-              "line": 497,
+              "id": "L501-wikimedia-commons-art",
+              "line": 501,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13066,8 +13220,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L499-anatomy-360-free-reference",
-              "line": 499,
+              "id": "L503-anatomy-360-free-reference",
+              "line": 503,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13102,8 +13256,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L500-wildlife-reference-photos",
-              "line": 500,
+              "id": "L504-wildlife-reference-photos",
+              "line": 504,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13138,8 +13292,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L501-biodiversity-heritage-library",
-              "line": 501,
+              "id": "L505-biodiversity-heritage-library",
+              "line": 505,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13176,8 +13330,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L502-natural-history-museum-data-portal",
-              "line": 502,
+              "id": "L506-natural-history-museum-data-portal",
+              "line": 506,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13212,8 +13366,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L503-mindat-mineral-database",
-              "line": 503,
+              "id": "L507-mindat-mineral-database",
+              "line": 507,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13248,8 +13402,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L504-the-empire-university-weapons-library",
-              "line": 504,
+              "id": "L508-the-empire-university-weapons-library",
+              "line": 508,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13284,8 +13438,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L505-old-maps-online",
-              "line": 505,
+              "id": "L509-old-maps-online",
+              "line": 509,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13320,8 +13474,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L506-flickr-creative-commons",
-              "line": 506,
+              "id": "L510-flickr-creative-commons",
+              "line": 510,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13356,8 +13510,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L507-nasa-space-imagery",
-              "line": 507,
+              "id": "L511-nasa-space-imagery",
+              "line": 511,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13424,7 +13578,7 @@
           "id": "resources/sound-music",
           "slug": "sound-music",
           "sectionId": "resources",
-          "line": 509,
+          "line": 513,
           "emoji": "🎧",
           "title": {
             "en": "Sound/Music",
@@ -13435,7 +13589,7 @@
           "subgroups": [
             {
               "id": "sound-effects-sfx",
-              "line": 511,
+              "line": 515,
               "title": {
                 "en": "Sound Effects (SFX)",
                 "zh": "音效资源"
@@ -13445,7 +13599,7 @@
             },
             {
               "id": "royalty-free-creative-commons-music",
-              "line": 520,
+              "line": 524,
               "title": {
                 "en": "Royalty-Free & Creative Commons Music",
                 "zh": "免版税与创意共享音乐"
@@ -13455,7 +13609,7 @@
             },
             {
               "id": "ai-foley-video-to-audio-synth-generators",
-              "line": 527,
+              "line": 531,
               "title": {
                 "en": "AI Foley, Video-to-Audio & Synth Generators",
                 "zh": "AI 拟音、视频转音频与合成生成器"
@@ -13466,8 +13620,8 @@
           ],
           "entries": [
             {
-              "id": "L512-freesoundorg",
-              "line": 512,
+              "id": "L516-freesoundorg",
+              "line": 516,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -13514,8 +13668,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L513-gameaudiogdc",
-              "line": 513,
+              "id": "L517-gameaudiogdc",
+              "line": 517,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -13550,8 +13704,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L514-kenney-audio",
-              "line": 514,
+              "id": "L518-kenney-audio",
+              "line": 518,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -13588,8 +13742,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L515-pixabay-sound-effects",
-              "line": 515,
+              "id": "L519-pixabay-sound-effects",
+              "line": 519,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -13624,8 +13778,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L516-sfxmint",
-              "line": 516,
+              "id": "L520-sfxmint",
+              "line": 520,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -13672,8 +13826,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L517-99soundsorg",
-              "line": 517,
+              "id": "L521-99soundsorg",
+              "line": 521,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -13708,8 +13862,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L518-opengameartorg-sound",
-              "line": 518,
+              "id": "L522-opengameartorg-sound",
+              "line": 522,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -13744,8 +13898,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L519-bbc-sound-effects",
-              "line": 519,
+              "id": "L523-bbc-sound-effects",
+              "line": 523,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -13780,8 +13934,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L521-free-music-archive",
-              "line": 521,
+              "id": "L525-free-music-archive",
+              "line": 525,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -13816,8 +13970,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L522-incompetech",
-              "line": 522,
+              "id": "L526-incompetech",
+              "line": 526,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -13864,8 +14018,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L523-pixabay-music",
-              "line": 523,
+              "id": "L527-pixabay-music",
+              "line": 527,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -13900,8 +14054,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L524-mixkit",
-              "line": 524,
+              "id": "L528-mixkit",
+              "line": 528,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -13936,8 +14090,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L525-musopenorg",
-              "line": 525,
+              "id": "L529-musopenorg",
+              "line": 529,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -13974,8 +14128,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L526-ccmixterorg",
-              "line": 526,
+              "id": "L530-ccmixterorg",
+              "line": 530,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14022,8 +14176,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L528-mmaudio",
-              "line": 528,
+              "id": "L532-mmaudio",
+              "line": 532,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14063,8 +14217,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L529-hunyuanvideo-foley",
-              "line": 529,
+              "id": "L533-hunyuanvideo-foley",
+              "line": 533,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14102,8 +14256,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L530-audiocraft",
-              "line": 530,
+              "id": "L534-audiocraft",
+              "line": 534,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14143,8 +14297,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L531-jsfxr",
-              "line": 531,
+              "id": "L535-jsfxr",
+              "line": 535,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14192,8 +14346,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L532-elevenlabs-sound-effects",
-              "line": 532,
+              "id": "L536-elevenlabs-sound-effects",
+              "line": 536,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14233,7 +14387,7 @@
           "id": "resources/related-awesome-lists",
           "slug": "related-awesome-lists",
           "sectionId": "resources",
-          "line": 534,
+          "line": 538,
           "emoji": "🔗",
           "title": {
             "en": "Related Awesome Lists",
@@ -14244,8 +14398,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L536-3d-resources",
-              "line": 536,
+              "id": "L540-3d-resources",
+              "line": 540,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/related-awesome-lists",
@@ -14280,8 +14434,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L537-awesome-3d-printing",
-              "line": 537,
+              "id": "L541-awesome-3d-printing",
+              "line": 541,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/related-awesome-lists",
@@ -14316,8 +14470,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L538-3d-machine-learning",
-              "line": 538,
+              "id": "L542-3d-machine-learning",
+              "line": 542,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/related-awesome-lists",
@@ -14352,8 +14506,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L539-photogrammetry-guide",
-              "line": 539,
+              "id": "L543-photogrammetry-guide",
+              "line": 543,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/related-awesome-lists",
@@ -14388,8 +14542,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L540-awesome-gamedev",
-              "line": 540,
+              "id": "L544-awesome-gamedev",
+              "line": 544,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/related-awesome-lists",
@@ -14424,8 +14578,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L541-gamedev-resources",
-              "line": 541,
+              "id": "L545-gamedev-resources",
+              "line": 545,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/related-awesome-lists",
@@ -14460,8 +14614,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L542-awesome-stock-resources",
-              "line": 542,
+              "id": "L546-awesome-stock-resources",
+              "line": 546,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/related-awesome-lists",
@@ -14496,8 +14650,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L543-usage-in-science-academia-and-industry",
-              "line": 543,
+              "id": "L547-usage-in-science-academia-and-industry",
+              "line": 547,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/related-awesome-lists",
@@ -14537,7 +14691,7 @@
     },
     {
       "id": "standalone",
-      "line": 552,
+      "line": 556,
       "emoji": "🖥️",
       "title": {
         "en": "Standalone",
@@ -14549,7 +14703,7 @@
           "id": "standalone/3d-tools",
           "slug": "3d-tools",
           "sectionId": "standalone",
-          "line": 554,
+          "line": 558,
           "emoji": "🔧",
           "title": {
             "en": "3D Tools",
@@ -14560,7 +14714,7 @@
           "subgroups": [
             {
               "id": "cad-modeling-blockout",
-              "line": 556,
+              "line": 560,
               "title": {
                 "en": "CAD, Modeling & Blockout",
                 "zh": "CAD、建模与关卡白模 (Blockout)"
@@ -14570,7 +14724,7 @@
             },
             {
               "id": "mesh-processing-retopology-voxels",
-              "line": 562,
+              "line": 566,
               "title": {
                 "en": "Mesh Processing, Retopology & Voxels",
                 "zh": "网格处理、重拓扑与体素"
@@ -14580,7 +14734,7 @@
             },
             {
               "id": "characters-sculpting-rigging-animation",
-              "line": 568,
+              "line": 572,
               "title": {
                 "en": "Characters, Sculpting, Rigging & Animation",
                 "zh": "角色制作、雕刻、绑定与动画"
@@ -14590,7 +14744,7 @@
             },
             {
               "id": "simulation-camera-lighting-web-3d",
-              "line": 573,
+              "line": 577,
               "title": {
                 "en": "Simulation, Camera, Lighting & Web 3D",
                 "zh": "模拟、相机、灯光与 Web 3D"
@@ -14601,8 +14755,8 @@
           ],
           "entries": [
             {
-              "id": "L557-plasticity",
-              "line": 557,
+              "id": "L561-plasticity",
+              "line": 561,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -14650,8 +14804,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L558-freecad",
-              "line": 558,
+              "id": "L562-freecad",
+              "line": 562,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -14699,8 +14853,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L559-blockbench",
-              "line": 559,
+              "id": "L563-blockbench",
+              "line": 563,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -14750,8 +14904,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L560-trenchbroom",
-              "line": 560,
+              "id": "L564-trenchbroom",
+              "line": 564,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -14801,8 +14955,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L561-sweet-home-3d",
-              "line": 561,
+              "id": "L565-sweet-home-3d",
+              "line": 565,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -14849,8 +15003,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L563-meshlab",
-              "line": 563,
+              "id": "L567-meshlab",
+              "line": 567,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -14898,8 +15052,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L564-cloudcompare",
-              "line": 564,
+              "id": "L568-cloudcompare",
+              "line": 568,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -14949,8 +15103,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L565-instant-meshes",
-              "line": 565,
+              "id": "L569-instant-meshes",
+              "line": 569,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -14988,8 +15142,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L566-magicavoxel",
-              "line": 566,
+              "id": "L570-magicavoxel",
+              "line": 570,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15024,8 +15178,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L567-goxel",
-              "line": 567,
+              "id": "L571-goxel",
+              "line": 571,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15065,8 +15219,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L569-nomad-sculpt",
-              "line": 569,
+              "id": "L573-nomad-sculpt",
+              "line": 573,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15101,8 +15255,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L570-cascadeur",
-              "line": 570,
+              "id": "L574-cascadeur",
+              "line": 574,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15137,8 +15291,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L571-vroid-studio",
-              "line": 571,
+              "id": "L575-vroid-studio",
+              "line": 575,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15173,8 +15327,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L572-accurig",
-              "line": 572,
+              "id": "L576-accurig",
+              "line": 576,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15209,8 +15363,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L574-embergen",
-              "line": 574,
+              "id": "L578-embergen",
+              "line": 578,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15255,8 +15409,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L575-fspy",
-              "line": 575,
+              "id": "L579-fspy",
+              "line": 579,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15306,8 +15460,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L576-hdr-light-studio",
-              "line": 576,
+              "id": "L580-hdr-light-studio",
+              "line": 580,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15342,8 +15496,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L577-spline",
-              "line": 577,
+              "id": "L581-spline",
+              "line": 581,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15383,7 +15537,7 @@
           "id": "standalone/various-tools",
           "slug": "various-tools",
           "sectionId": "standalone",
-          "line": 579,
+          "line": 583,
           "emoji": "🧰",
           "title": {
             "en": "Various Tools",
@@ -15394,7 +15548,7 @@
           "subgroups": [
             {
               "id": "reference-boards-media-review",
-              "line": 581,
+              "line": 585,
               "title": {
                 "en": "Reference Boards & Media Review",
                 "zh": "参考图管理与媒体审阅"
@@ -15404,7 +15558,7 @@
             },
             {
               "id": "shaders-particles-3d-viewers",
-              "line": 588,
+              "line": 592,
               "title": {
                 "en": "Shaders, Particles & 3D Viewers",
                 "zh": "着色器、粒子与 3D 查看器"
@@ -15414,7 +15568,7 @@
             },
             {
               "id": "blender-tools-custom-builds",
-              "line": 596,
+              "line": 600,
               "title": {
                 "en": "Blender Tools & Custom Builds",
                 "zh": "Blender 工具与定制构建"
@@ -15425,8 +15579,8 @@
           ],
           "entries": [
             {
-              "id": "L582-pureref",
-              "line": 582,
+              "id": "L586-pureref",
+              "line": 586,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -15461,8 +15615,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L583-allusion",
-              "line": 583,
+              "id": "L587-allusion",
+              "line": 587,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -15510,8 +15664,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L584-connecter",
-              "line": 584,
+              "id": "L588-connecter",
+              "line": 588,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -15546,8 +15700,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L585-djv",
-              "line": 585,
+              "id": "L589-djv",
+              "line": 589,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -15595,8 +15749,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L586-exr-io",
-              "line": 586,
+              "id": "L590-exr-io",
+              "line": 590,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -15631,8 +15785,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L587-gametextureviewer",
-              "line": 587,
+              "id": "L591-gametextureviewer",
+              "line": 591,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -15667,8 +15821,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L589-shadered",
-              "line": 589,
+              "id": "L593-shadered",
+              "line": 593,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -15706,8 +15860,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L590-cineshader",
-              "line": 590,
+              "id": "L594-cineshader",
+              "line": 594,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -15742,8 +15896,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L591-light-tracer-render",
-              "line": 591,
+              "id": "L595-light-tracer-render",
+              "line": 595,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -15778,8 +15932,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L592-effekseer",
-              "line": 592,
+              "id": "L596-effekseer",
+              "line": 596,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -15814,8 +15968,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L593-particle-illusion",
-              "line": 593,
+              "id": "L597-particle-illusion",
+              "line": 597,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -15850,8 +16004,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L594-f3d",
-              "line": 594,
+              "id": "L598-f3d",
+              "line": 598,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -15899,8 +16053,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L595-processing",
-              "line": 595,
+              "id": "L599-processing",
+              "line": 599,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -15948,8 +16102,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L597-goo-engine",
-              "line": 597,
+              "id": "L601-goo-engine",
+              "line": 601,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -15989,8 +16143,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L598-upbge",
-              "line": 598,
+              "id": "L602-upbge",
+              "line": 602,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16038,8 +16192,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L599-bforartists",
-              "line": 599,
+              "id": "L603-bforartists",
+              "line": 603,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16087,8 +16241,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L600-blenderupdater",
-              "line": 600,
+              "id": "L604-blenderupdater",
+              "line": 604,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16126,8 +16280,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L601-blenderupdatercli",
-              "line": 601,
+              "id": "L605-blenderupdatercli",
+              "line": 605,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16165,8 +16319,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L602-blender-launcher-v2",
-              "line": 602,
+              "id": "L606-blender-launcher-v2",
+              "line": 606,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16204,8 +16358,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L603-blender-manager",
-              "line": 603,
+              "id": "L607-blender-manager",
+              "line": 607,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16243,8 +16397,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L604-sheep-it-render-farm",
-              "line": 604,
+              "id": "L608-sheep-it-render-farm",
+              "line": 608,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16284,7 +16438,7 @@
           "id": "standalone/photogrammetry",
           "slug": "photogrammetry",
           "sectionId": "standalone",
-          "line": 606,
+          "line": 610,
           "emoji": "📷",
           "title": {
             "en": "Photogrammetry",
@@ -16295,8 +16449,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L608-meshroom",
-              "line": 608,
+              "id": "L612-meshroom",
+              "line": 612,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -16341,8 +16495,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L609-colmap",
-              "line": 609,
+              "id": "L613-colmap",
+              "line": 613,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -16387,8 +16541,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L610-3df-zephyr-free",
-              "line": 610,
+              "id": "L614-3df-zephyr-free",
+              "line": 614,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -16420,8 +16574,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L611-micmac",
-              "line": 611,
+              "id": "L615-micmac",
+              "line": 615,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -16456,8 +16610,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L612-realityscan",
-              "line": 612,
+              "id": "L616-realityscan",
+              "line": 616,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -16489,8 +16643,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L613-agisoft-metashape",
-              "line": 613,
+              "id": "L617-agisoft-metashape",
+              "line": 617,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -16522,8 +16676,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L614-postshot",
-              "line": 614,
+              "id": "L618-postshot",
+              "line": 618,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -16555,8 +16709,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L615-nerfstudio",
-              "line": 615,
+              "id": "L619-nerfstudio",
+              "line": 619,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -16591,8 +16745,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L616-supersplat",
-              "line": 616,
+              "id": "L620-supersplat",
+              "line": 620,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -16639,8 +16793,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L617-brush",
-              "line": 617,
+              "id": "L621-brush",
+              "line": 621,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -16675,8 +16829,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L618-gsplat",
-              "line": 618,
+              "id": "L622-gsplat",
+              "line": 622,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -16726,7 +16880,7 @@
           "id": "standalone/texture-material",
           "slug": "texture-material",
           "sectionId": "standalone",
-          "line": 620,
+          "line": 624,
           "emoji": "🧱",
           "title": {
             "en": "Texture/Material",
@@ -16737,8 +16891,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L622-material-maker",
-              "line": 622,
+              "id": "L626-material-maker",
+              "line": 626,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -16785,8 +16939,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L623-armorpaint",
-              "line": 623,
+              "id": "L627-armorpaint",
+              "line": 627,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -16831,8 +16985,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L624-instamat",
-              "line": 624,
+              "id": "L628-instamat",
+              "line": 628,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -16864,8 +17018,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L625-materialize",
-              "line": 625,
+              "id": "L629-materialize",
+              "line": 629,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -16912,8 +17066,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L626-normal-map-bench",
-              "line": 626,
+              "id": "L630-normal-map-bench",
+              "line": 630,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -16945,8 +17099,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L627-agisoft-de-lighter",
-              "line": 627,
+              "id": "L631-agisoft-de-lighter",
+              "line": 631,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -16979,8 +17133,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L628-architextures",
-              "line": 628,
+              "id": "L632-architextures",
+              "line": 632,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -17012,8 +17166,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L629-nvidia-texture-tools-exporter",
-              "line": 629,
+              "id": "L633-nvidia-texture-tools-exporter",
+              "line": 633,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -17045,8 +17199,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L630-agama-materials",
-              "line": 630,
+              "id": "L634-agama-materials",
+              "line": 634,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -17083,7 +17237,7 @@
           "id": "standalone/terrain-gis-lidar",
           "slug": "terrain-gis-lidar",
           "sectionId": "standalone",
-          "line": 632,
+          "line": 636,
           "emoji": "🗻",
           "title": {
             "en": "Terrain, GIS & LiDAR",
@@ -17094,7 +17248,7 @@
           "subgroups": [
             {
               "id": "terrain-generators",
-              "line": 634,
+              "line": 638,
               "title": {
                 "en": "Terrain Generators",
                 "zh": "地形生成器"
@@ -17104,7 +17258,7 @@
             },
             {
               "id": "real-world-dem-lidar-data",
-              "line": 641,
+              "line": 645,
               "title": {
                 "en": "Real-World DEM & LiDAR Data",
                 "zh": "真实世界 DEM 与 LiDAR 数据"
@@ -17115,8 +17269,8 @@
           ],
           "entries": [
             {
-              "id": "L635-terresculptor",
-              "line": 635,
+              "id": "L639-terresculptor",
+              "line": 639,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -17151,8 +17305,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L636-world-machine",
-              "line": 636,
+              "id": "L640-world-machine",
+              "line": 640,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -17187,8 +17341,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L637-terragen",
-              "line": 637,
+              "id": "L641-terragen",
+              "line": 641,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -17223,8 +17377,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L638-world-creator",
-              "line": 638,
+              "id": "L642-world-creator",
+              "line": 642,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -17259,8 +17413,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L639-gaea",
-              "line": 639,
+              "id": "L643-gaea",
+              "line": 643,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -17295,8 +17449,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L640-instant-terra",
-              "line": 640,
+              "id": "L644-instant-terra",
+              "line": 644,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -17331,8 +17485,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L642-tangram-heightmapper",
-              "line": 642,
+              "id": "L646-tangram-heightmapper",
+              "line": 646,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -17367,8 +17521,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L643-opentopography",
-              "line": 643,
+              "id": "L647-opentopography",
+              "line": 647,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -17403,8 +17557,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L644-copernicus-dem-esa",
-              "line": 644,
+              "id": "L648-copernicus-dem-esa",
+              "line": 648,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -17439,8 +17593,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L645-noaa-data-access-viewer",
-              "line": 645,
+              "id": "L649-noaa-data-access-viewer",
+              "line": 649,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -17475,8 +17629,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L646-usgs-national-map-lidar",
-              "line": 646,
+              "id": "L650-usgs-national-map-lidar",
+              "line": 650,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -17547,7 +17701,7 @@
           "id": "standalone/painting-audio-post-production",
           "slug": "painting-audio-post-production",
           "sectionId": "standalone",
-          "line": 648,
+          "line": 652,
           "emoji": "📹",
           "title": {
             "en": "Painting, Audio & Post-Production",
@@ -17558,8 +17712,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L650-artcraft",
-              "line": 650,
+              "id": "L654-artcraft",
+              "line": 654,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/painting-audio-post-production",
@@ -17606,8 +17760,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L651-davinci-resolve",
-              "line": 651,
+              "id": "L655-davinci-resolve",
+              "line": 655,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/painting-audio-post-production",
@@ -17639,8 +17793,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L652-natron",
-              "line": 652,
+              "id": "L656-natron",
+              "line": 656,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/painting-audio-post-production",
@@ -17687,8 +17841,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L653-krita",
-              "line": 653,
+              "id": "L657-krita",
+              "line": 657,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/painting-audio-post-production",
@@ -17735,8 +17889,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L654-inkscape",
-              "line": 654,
+              "id": "L658-inkscape",
+              "line": 658,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/painting-audio-post-production",
@@ -17783,8 +17937,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L655-audacity",
-              "line": 655,
+              "id": "L659-audacity",
+              "line": 659,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/painting-audio-post-production",
@@ -17836,7 +17990,7 @@
     },
     {
       "id": "tutorials",
-      "line": 670,
+      "line": 674,
       "emoji": "🎓",
       "title": {
         "en": "Tutorials",
@@ -17844,7 +17998,7 @@
       },
       "banners": [
         {
-          "line": 672,
+          "line": 676,
           "title": {
             "en": "▷ video, ☰ playlist, ☷ channel, 🧾 doc.",
             "zh": "▷ 视频，☰ 播放列表，☷ 频道，🧾 文档。"
@@ -17858,7 +18012,7 @@
           "id": "tutorials/beginning",
           "slug": "beginning",
           "sectionId": "tutorials",
-          "line": 674,
+          "line": 678,
           "emoji": "🍩",
           "title": {
             "en": "Beginning",
@@ -17869,8 +18023,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L676-blender-user-manual",
-              "line": 676,
+              "id": "L680-blender-user-manual",
+              "line": 680,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/beginning",
@@ -17904,8 +18058,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L677-blender-donut-tutorial-2025-by-blender-guru",
-              "line": 677,
+              "id": "L681-blender-donut-tutorial-2025-by-blender-guru",
+              "line": 681,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/beginning",
@@ -17939,8 +18093,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L678-learn-blender-5-by-grant-abbitt",
-              "line": 678,
+              "id": "L682-learn-blender-5-by-grant-abbitt",
+              "line": 682,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/beginning",
@@ -17974,8 +18128,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L679-blender-concepts-explained-core-52-lts-by-cg-coo",
-              "line": 679,
+              "id": "L683-blender-concepts-explained-core-52-lts-by-cg-coo",
+              "line": 683,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/beginning",
@@ -18009,8 +18163,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L680-the-right-way-to-learn-blender-in-2026-by-grant-",
-              "line": 680,
+              "id": "L684-the-right-way-to-learn-blender-in-2026-by-grant-",
+              "line": 684,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/beginning",
@@ -18044,8 +18198,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L681-5-blender-mistakes-id-never-make-if-i-started-in",
-              "line": 681,
+              "id": "L685-5-blender-mistakes-id-never-make-if-i-started-in",
+              "line": 685,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/beginning",
@@ -18079,8 +18233,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L682-blender-fundamentals-by-dev-null-productions",
-              "line": 682,
+              "id": "L686-blender-fundamentals-by-dev-null-productions",
+              "line": 686,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/beginning",
@@ -18117,7 +18271,7 @@
           "id": "tutorials/modeling",
           "slug": "modeling",
           "sectionId": "tutorials",
-          "line": 684,
+          "line": 688,
           "emoji": "🗿",
           "title": {
             "en": "Modeling",
@@ -18128,7 +18282,7 @@
           "subgroups": [
             {
               "id": "sculpting",
-              "line": 690,
+              "line": 694,
               "title": {
                 "en": "Sculpting",
                 "zh": "雕刻"
@@ -18138,7 +18292,7 @@
             },
             {
               "id": "character-modeling",
-              "line": 696,
+              "line": 700,
               "title": {
                 "en": "Character Modeling",
                 "zh": "角色建模"
@@ -18148,7 +18302,7 @@
             },
             {
               "id": "hard-surface",
-              "line": 699,
+              "line": 703,
               "title": {
                 "en": "Hard Surface",
                 "zh": "硬表面"
@@ -18159,8 +18313,8 @@
           ],
           "entries": [
             {
-              "id": "L686-modeling-manual",
-              "line": 686,
+              "id": "L690-modeling-manual",
+              "line": 690,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -18194,8 +18348,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L687-blender-mesh-modeling-fundamentals-by-cg-cookie",
-              "line": 687,
+              "id": "L691-blender-mesh-modeling-fundamentals-by-cg-cookie",
+              "line": 691,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -18229,8 +18383,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L688-get-good-blender-modeling-exercises-by-grant-abb",
-              "line": 688,
+              "id": "L692-get-good-blender-modeling-exercises-by-grant-abb",
+              "line": 692,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -18264,8 +18418,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L689-all-50-modifiers-in-blender-explained-in-30-minu",
-              "line": 689,
+              "id": "L693-all-50-modifiers-in-blender-explained-in-30-minu",
+              "line": 693,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -18299,8 +18453,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L691-yansculpts-channel",
-              "line": 691,
+              "id": "L695-yansculpts-channel",
+              "line": 695,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -18337,8 +18491,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L692-julien-kaspars-channel",
-              "line": 692,
+              "id": "L696-julien-kaspars-channel",
+              "line": 696,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -18375,8 +18529,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L693-introduction-to-sculpting-in-blender-sculpting-e",
-              "line": 693,
+              "id": "L697-introduction-to-sculpting-in-blender-sculpting-e",
+              "line": 697,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -18413,8 +18567,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L694-the-speed-sculpting-guide-learn-from-limitation-",
-              "line": 694,
+              "id": "L698-the-speed-sculpting-guide-learn-from-limitation-",
+              "line": 698,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -18451,8 +18605,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L695-sculpting-in-blender-beginners-detailed-guide-ev",
-              "line": 695,
+              "id": "L699-sculpting-in-blender-beginners-detailed-guide-ev",
+              "line": 699,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -18489,8 +18643,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L697-stylized-character-workflow-with-blender",
-              "line": 697,
+              "id": "L701-stylized-character-workflow-with-blender",
+              "line": 701,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -18527,8 +18681,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L698-modeling-a-character-basemesh-in-blender",
-              "line": 698,
+              "id": "L702-modeling-a-character-basemesh-in-blender",
+              "line": 702,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -18565,8 +18719,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L700-hard-surface-modeling-in-blender-by-gleb-alexand",
-              "line": 700,
+              "id": "L704-hard-surface-modeling-in-blender-by-gleb-alexand",
+              "line": 704,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -18608,7 +18762,7 @@
           "id": "tutorials/geometry-nodes",
           "slug": "geometry-nodes",
           "sectionId": "tutorials",
-          "line": 702,
+          "line": 706,
           "emoji": "🌌",
           "title": {
             "en": "Geometry Nodes",
@@ -18619,8 +18773,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L704-geometry-nodes-manual",
-              "line": 704,
+              "id": "L708-geometry-nodes-manual",
+              "line": 708,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -18654,8 +18808,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L705-simulation-nodes-manual",
-              "line": 705,
+              "id": "L709-simulation-nodes-manual",
+              "line": 709,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -18699,8 +18853,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L706-geometry-nodes-simulation-playlists-by-erindale",
-              "line": 706,
+              "id": "L710-geometry-nodes-simulation-playlists-by-erindale",
+              "line": 710,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -18734,8 +18888,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L707-geometry-nodes-for-beginners-complete-course-by-",
-              "line": 707,
+              "id": "L711-geometry-nodes-for-beginners-complete-course-by-",
+              "line": 711,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -18769,8 +18923,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L708-the-only-geometry-nodes-tutorial-youll-ever-need",
-              "line": 708,
+              "id": "L712-the-only-geometry-nodes-tutorial-youll-ever-need",
+              "line": 712,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -18804,8 +18958,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L709-poppin-heads-with-geometry-nodes-blender-52-by-j",
-              "line": 709,
+              "id": "L713-poppin-heads-with-geometry-nodes-blender-52-by-j",
+              "line": 713,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -18839,8 +18993,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L710-rigging-with-nodes-changes-everything-bcon-2025-",
-              "line": 710,
+              "id": "L714-rigging-with-nodes-changes-everything-bcon-2025-",
+              "line": 714,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -18874,8 +19028,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L711-geometry-nodes-technical-breakdowns-by-johnny-ma",
-              "line": 711,
+              "id": "L715-geometry-nodes-technical-breakdowns-by-johnny-ma",
+              "line": 715,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -18909,8 +19063,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L712-intro-to-simulation-nodes-by-erindale",
-              "line": 712,
+              "id": "L716-intro-to-simulation-nodes-by-erindale",
+              "line": 716,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -18944,8 +19098,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L713-blender-simulation-nodes-beginner-tutorial-by-ba",
-              "line": 713,
+              "id": "L717-blender-simulation-nodes-beginner-tutorial-by-ba",
+              "line": 717,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -18979,8 +19133,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L714-geometry-nodes-design-patterns-by-dev-null-produ",
-              "line": 714,
+              "id": "L718-geometry-nodes-design-patterns-by-dev-null-produ",
+              "line": 718,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -19017,7 +19171,7 @@
           "id": "tutorials/shader-nodes",
           "slug": "shader-nodes",
           "sectionId": "tutorials",
-          "line": 716,
+          "line": 720,
           "emoji": "🔘",
           "title": {
             "en": "Shader Nodes",
@@ -19028,8 +19182,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L718-shader-nodes-list",
-              "line": 718,
+              "id": "L722-shader-nodes-list",
+              "line": 722,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/shader-nodes",
@@ -19063,8 +19217,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L719-blender-material-shader-design-patterns-by-dev-n",
-              "line": 719,
+              "id": "L723-blender-material-shader-design-patterns-by-dev-n",
+              "line": 723,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/shader-nodes",
@@ -19096,8 +19250,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L720-every-shader-node-you-need-to-know-in-blender-by",
-              "line": 720,
+              "id": "L724-every-shader-node-you-need-to-know-in-blender-by",
+              "line": 724,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/shader-nodes",
@@ -19131,8 +19285,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L721-how-to-create-pro-materials-in-blender-by-kaizen",
-              "line": 721,
+              "id": "L725-how-to-create-pro-materials-in-blender-by-kaizen",
+              "line": 725,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/shader-nodes",
@@ -19166,8 +19320,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L722-real-time-motion-graphics-eevee-shading-by-midge",
-              "line": 722,
+              "id": "L726-real-time-motion-graphics-eevee-shading-by-midge",
+              "line": 726,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/shader-nodes",
@@ -19201,8 +19355,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L723-blender-procedural-nodes-playlist-by-default-cub",
-              "line": 723,
+              "id": "L727-blender-procedural-nodes-playlist-by-default-cub",
+              "line": 727,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/shader-nodes",
@@ -19236,8 +19390,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L724-node-school-playlist-by-grant-abbitt",
-              "line": 724,
+              "id": "L728-node-school-playlist-by-grant-abbitt",
+              "line": 728,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/shader-nodes",
@@ -19271,8 +19425,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L725-all-80-blender-material-nodes-explained-in-under",
-              "line": 725,
+              "id": "L729-all-80-blender-material-nodes-explained-in-under",
+              "line": 729,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/shader-nodes",
@@ -19311,7 +19465,7 @@
           "id": "tutorials/animation",
           "slug": "animation",
           "sectionId": "tutorials",
-          "line": 727,
+          "line": 731,
           "emoji": "🌠",
           "title": {
             "en": "Animation",
@@ -19322,8 +19476,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L729-animation-rigging-manual",
-              "line": 729,
+              "id": "L733-animation-rigging-manual",
+              "line": 733,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -19357,8 +19511,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L730-grease-pencil-manual",
-              "line": 730,
+              "id": "L734-grease-pencil-manual",
+              "line": 734,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -19392,8 +19546,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L731-rigging-isnt-scary-complete-series-by-cgdive",
-              "line": 731,
+              "id": "L735-rigging-isnt-scary-complete-series-by-cgdive",
+              "line": 735,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -19427,8 +19581,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L732-blender-50-new-rigging-and-animation-features-by",
-              "line": 732,
+              "id": "L736-blender-50-new-rigging-and-animation-features-by",
+              "line": 736,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -19462,8 +19616,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L733-blender-52-new-rigging-and-animation-features-by",
-              "line": 733,
+              "id": "L737-blender-52-new-rigging-and-animation-features-by",
+              "line": 737,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -19497,8 +19651,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L734-grease-pencil-beginners-guide-blender-44-by-gran",
-              "line": 734,
+              "id": "L738-grease-pencil-beginners-guide-blender-44-by-gran",
+              "line": 738,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -19532,8 +19686,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L735-2d-blender-grease-pencil-basics-start-animating-",
-              "line": 735,
+              "id": "L739-2d-blender-grease-pencil-basics-start-animating-",
+              "line": 739,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -19567,8 +19721,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L736-blender-character-animation-shape-keys-by-southe",
-              "line": 736,
+              "id": "L740-blender-character-animation-shape-keys-by-southe",
+              "line": 740,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -19602,8 +19756,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L737-quick-smooth-camera-movements-by-polyfjord",
-              "line": 737,
+              "id": "L741-quick-smooth-camera-movements-by-polyfjord",
+              "line": 741,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -19642,7 +19796,7 @@
           "id": "tutorials/uv-mapping",
           "slug": "uv-mapping",
           "sectionId": "tutorials",
-          "line": 739,
+          "line": 743,
           "emoji": "🔲",
           "title": {
             "en": "UV Mapping",
@@ -19653,8 +19807,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L741-uv-editor-manual",
-              "line": 741,
+              "id": "L745-uv-editor-manual",
+              "line": 745,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/uv-mapping",
@@ -19688,8 +19842,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L742-blender-5-uv-unwrapping-just-got-way-easier-by-g",
-              "line": 742,
+              "id": "L746-blender-5-uv-unwrapping-just-got-way-easier-by-g",
+              "line": 746,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/uv-mapping",
@@ -19723,8 +19877,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L743-how-to-uv-unwrap-anything-in-blender-by-ice-guy",
-              "line": 743,
+              "id": "L747-how-to-uv-unwrap-anything-in-blender-by-ice-guy",
+              "line": 747,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/uv-mapping",
@@ -19758,8 +19912,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L744-uv-unwrap-and-add-product-labelling-in-blender-b",
-              "line": 744,
+              "id": "L748-uv-unwrap-and-add-product-labelling-in-blender-b",
+              "line": 748,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/uv-mapping",
@@ -19798,7 +19952,7 @@
           "id": "tutorials/texture-painting",
           "slug": "texture-painting",
           "sectionId": "tutorials",
-          "line": 746,
+          "line": 750,
           "emoji": "🔳",
           "title": {
             "en": "Texture Painting",
@@ -19809,8 +19963,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L748-texture-paint-manual",
-              "line": 748,
+              "id": "L752-texture-paint-manual",
+              "line": 752,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/texture-painting",
@@ -19844,8 +19998,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L749-texture-painting-quick-start-guide-for-beginners",
-              "line": 749,
+              "id": "L753-texture-painting-quick-start-guide-for-beginners",
+              "line": 753,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/texture-painting",
@@ -19879,8 +20033,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L750-how-to-texture-anything-in-5-minutes-by-on-mars-",
-              "line": 750,
+              "id": "L754-how-to-texture-anything-in-5-minutes-by-on-mars-",
+              "line": 754,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/texture-painting",
@@ -19919,7 +20073,7 @@
           "id": "tutorials/compositing",
           "slug": "compositing",
           "sectionId": "tutorials",
-          "line": 752,
+          "line": 756,
           "emoji": "📐",
           "title": {
             "en": "Compositing",
@@ -19930,8 +20084,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L754-compositing-nodes-list",
-              "line": 754,
+              "id": "L758-compositing-nodes-list",
+              "line": 758,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/compositing",
@@ -19965,8 +20119,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L755-blender-compositing-tutorials-by-ryan-king-art",
-              "line": 755,
+              "id": "L759-blender-compositing-tutorials-by-ryan-king-art",
+              "line": 759,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/compositing",
@@ -20000,8 +20154,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L756-new-compositor-and-effects-tab-in-blender-53-by-",
-              "line": 756,
+              "id": "L760-new-compositor-and-effects-tab-in-blender-53-by-",
+              "line": 760,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/compositing",
@@ -20035,8 +20189,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L757-start-compositing-in-blender-50-in-16-minutes-by",
-              "line": 757,
+              "id": "L761-start-compositing-in-blender-50-in-16-minutes-by",
+              "line": 761,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/compositing",
@@ -20070,8 +20224,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L758-compositing-for-complete-beginners-in-blender-by",
-              "line": 758,
+              "id": "L762-compositing-for-complete-beginners-in-blender-by",
+              "line": 762,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/compositing",
@@ -20110,7 +20264,7 @@
           "id": "tutorials/motion-tracking-capture",
           "slug": "motion-tracking-capture",
           "sectionId": "tutorials",
-          "line": 760,
+          "line": 764,
           "emoji": "🤺",
           "title": {
             "en": "Motion Tracking/Capture",
@@ -20121,8 +20275,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L762-motion-tracking-manual",
-              "line": 762,
+              "id": "L766-motion-tracking-manual",
+              "line": 766,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/motion-tracking-capture",
@@ -20156,8 +20310,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L763-3d-tracking-with-colmap-blender-by-polyfjord",
-              "line": 763,
+              "id": "L767-3d-tracking-with-colmap-blender-by-polyfjord",
+              "line": 767,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/motion-tracking-capture",
@@ -20191,8 +20345,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L764-how-to-animate-in-blender-with-free-ai-mocap-too",
-              "line": 764,
+              "id": "L768-how-to-animate-in-blender-with-free-ai-mocap-too",
+              "line": 768,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/motion-tracking-capture",
@@ -20226,8 +20380,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L765-blender-motion-tracking-series-by-cgmatter",
-              "line": 765,
+              "id": "L769-blender-motion-tracking-series-by-cgmatter",
+              "line": 769,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/motion-tracking-capture",
@@ -20261,8 +20415,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L766-add-vfx-to-cinematic-raw-and-log-footage-by-inli",
-              "line": 766,
+              "id": "L770-add-vfx-to-cinematic-raw-and-log-footage-by-inli",
+              "line": 770,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/motion-tracking-capture",
@@ -20301,7 +20455,7 @@
           "id": "tutorials/fundamentals-cg",
           "slug": "fundamentals-cg",
           "sectionId": "tutorials",
-          "line": 768,
+          "line": 772,
           "emoji": "🧠",
           "title": {
             "en": "Fundamentals & CG",
@@ -20312,8 +20466,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L770-pixar-in-a-box",
-              "line": 770,
+              "id": "L774-pixar-in-a-box",
+              "line": 774,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/fundamentals-cg",
@@ -20345,8 +20499,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L771-skilly-blender-fundamentals-curriculum",
-              "line": 771,
+              "id": "L775-skilly-blender-fundamentals-curriculum",
+              "line": 775,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/fundamentals-cg",
@@ -20381,8 +20535,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L772-computer-graphics-from-scratch",
-              "line": 772,
+              "id": "L776-computer-graphics-from-scratch",
+              "line": 776,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/fundamentals-cg",
@@ -20427,8 +20581,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L773-tinyraytracer",
-              "line": 773,
+              "id": "L777-tinyraytracer",
+              "line": 777,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/fundamentals-cg",
@@ -20463,8 +20617,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L774-tinyrenderer",
-              "line": 774,
+              "id": "L778-tinyrenderer",
+              "line": 778,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/fundamentals-cg",
@@ -20504,7 +20658,7 @@
           "id": "tutorials/scripting-extensions",
           "slug": "scripting-extensions",
           "sectionId": "tutorials",
-          "line": 776,
+          "line": 780,
           "emoji": "💻",
           "title": {
             "en": "Scripting & Extensions",
@@ -20515,7 +20669,7 @@
           "subgroups": [
             {
               "id": "documentation",
-              "line": 778,
+              "line": 782,
               "title": {
                 "en": "Documentation",
                 "zh": "官方文档"
@@ -20525,7 +20679,7 @@
             },
             {
               "id": "ai-assisted-extension-tutorials",
-              "line": 781,
+              "line": 785,
               "title": {
                 "en": "AI-Assisted & Extension Tutorials",
                 "zh": "AI 辅助与扩展开发教程"
@@ -20535,7 +20689,7 @@
             },
             {
               "id": "core-developer-verification-tools",
-              "line": 787,
+              "line": 791,
               "title": {
                 "en": "Core Developer & Verification Tools",
                 "zh": "核心开发与验证工具"
@@ -20546,8 +20700,8 @@
           ],
           "entries": [
             {
-              "id": "L779-blender-python-api-documentation",
-              "line": 779,
+              "id": "L783-blender-python-api-documentation",
+              "line": 783,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -20594,8 +20748,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L780-creating-extensions-blender-42",
-              "line": 780,
+              "id": "L784-creating-extensions-blender-42",
+              "line": 784,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -20642,8 +20796,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L782-blender-42-extensions-vs-add-ons-explained-by-cg",
-              "line": 782,
+              "id": "L786-blender-42-extensions-vs-add-ons-explained-by-cg",
+              "line": 786,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -20680,8 +20834,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L783-i-built-a-blender-add-on-using-a-100-free-ai-age",
-              "line": 783,
+              "id": "L787-i-built-a-blender-add-on-using-a-100-free-ai-age",
+              "line": 787,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -20718,8 +20872,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L784-ai-driven-blender-scripting-by-cg-python",
-              "line": 784,
+              "id": "L788-ai-driven-blender-scripting-by-cg-python",
+              "line": 788,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -20756,8 +20910,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L785-how-to-setup-blender-mcp-with-claude-codex-gemin",
-              "line": 785,
+              "id": "L789-how-to-setup-blender-mcp-with-claude-codex-gemin",
+              "line": 789,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -20794,8 +20948,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L786-item",
-              "line": 786,
+              "id": "L790-item",
+              "line": 790,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -20828,8 +20982,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L788-fake-bpy-module",
-              "line": 788,
+              "id": "L792-fake-bpy-module",
+              "line": 792,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -20867,8 +21021,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L789-bpy-on-pypi",
-              "line": 789,
+              "id": "L793-bpy-on-pypi",
+              "line": 793,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -20903,8 +21057,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L790-blender-development-in-vs-code",
-              "line": 790,
+              "id": "L794-blender-development-in-vs-code",
+              "line": 794,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -20952,8 +21106,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L791-blender-addon-tester",
-              "line": 791,
+              "id": "L795-blender-addon-tester",
+              "line": 795,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -20996,7 +21150,7 @@
     },
     {
       "id": "social",
-      "line": 800,
+      "line": 804,
       "emoji": "🌐",
       "title": {
         "en": "Social",
@@ -21008,7 +21162,7 @@
           "id": "social/explore-artworks",
           "slug": "explore-artworks",
           "sectionId": "social",
-          "line": 802,
+          "line": 806,
           "emoji": "🔍",
           "title": {
             "en": "Explore Artworks",
@@ -21019,8 +21173,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L805-r-blender",
-              "line": 805,
+              "id": "L809-r-blender",
+              "line": 809,
               "kind": "quick-link",
               "sectionId": "social",
               "categoryId": "social/explore-artworks",
@@ -21054,8 +21208,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L806-instagram-b3d",
-              "line": 806,
+              "id": "L810-instagram-b3d",
+              "line": 810,
               "kind": "quick-link",
               "sectionId": "social",
               "categoryId": "social/explore-artworks",
@@ -21089,8 +21243,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L807-x-b3d",
-              "line": 807,
+              "id": "L811-x-b3d",
+              "line": 811,
               "kind": "quick-link",
               "sectionId": "social",
               "categoryId": "social/explore-artworks",
@@ -21124,8 +21278,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L808-artstation-blender",
-              "line": 808,
+              "id": "L812-artstation-blender",
+              "line": 812,
               "kind": "quick-link",
               "sectionId": "social",
               "categoryId": "social/explore-artworks",
@@ -21159,8 +21313,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L809-behance-blender",
-              "line": 809,
+              "id": "L813-behance-blender",
+              "line": 813,
               "kind": "quick-link",
               "sectionId": "social",
               "categoryId": "social/explore-artworks",
@@ -21194,8 +21348,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L810-blender-artists-artwork",
-              "line": 810,
+              "id": "L814-blender-artists-artwork",
+              "line": 814,
               "kind": "quick-link",
               "sectionId": "social",
               "categoryId": "social/explore-artworks",
@@ -21234,7 +21388,7 @@
           "id": "social/communities",
           "slug": "communities",
           "sectionId": "social",
-          "line": 813,
+          "line": 817,
           "emoji": "🌐",
           "title": {
             "en": "Communities",
@@ -21245,8 +21399,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L815-blender-artists",
-              "line": 815,
+              "id": "L819-blender-artists",
+              "line": 819,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/communities",
@@ -21278,8 +21432,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L816-blendernation",
-              "line": 816,
+              "id": "L820-blendernation",
+              "line": 820,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/communities",
@@ -21311,8 +21465,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L817-blender-chat",
-              "line": 817,
+              "id": "L821-blender-chat",
+              "line": 821,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/communities",
@@ -21344,8 +21498,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L818-blender-discord",
-              "line": 818,
+              "id": "L822-blender-discord",
+              "line": 822,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/communities",
@@ -21377,8 +21531,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L819-blender-stack-exchange",
-              "line": 819,
+              "id": "L823-blender-stack-exchange",
+              "line": 823,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/communities",
@@ -21410,8 +21564,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L820-blender-facebook-group",
-              "line": 820,
+              "id": "L824-blender-facebook-group",
+              "line": 824,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/communities",
@@ -21443,8 +21597,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L821-blender-developers",
-              "line": 821,
+              "id": "L825-blender-developers",
+              "line": 825,
               "kind": "collection",
               "sectionId": "social",
               "categoryId": "social/communities",
@@ -21508,7 +21662,7 @@
           "id": "social/accounts",
           "slug": "accounts",
           "sectionId": "social",
-          "line": 823,
+          "line": 827,
           "emoji": "𝕏",
           "title": {
             "en": "Accounts",
@@ -21522,8 +21676,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L827-pablodp606",
-              "line": 827,
+              "id": "L831-pablodp606",
+              "line": 831,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -21555,8 +21709,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L828-3dbystedt",
-              "line": 828,
+              "id": "L832-3dbystedt",
+              "line": 832,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -21588,8 +21742,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L829-ppaawweeuu",
-              "line": 829,
+              "id": "L833-ppaawweeuu",
+              "line": 833,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -21621,8 +21775,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L830-mxeon1001",
-              "line": 830,
+              "id": "L834-mxeon1001",
+              "line": 834,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -21654,8 +21808,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L831-mrdodobird",
-              "line": 831,
+              "id": "L835-mrdodobird",
+              "line": 835,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -21687,8 +21841,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L832-artfromrachel",
-              "line": 832,
+              "id": "L836-artfromrachel",
+              "line": 836,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -21720,8 +21874,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L833-wanoco4d",
-              "line": 833,
+              "id": "L837-wanoco4d",
+              "line": 837,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -21753,8 +21907,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L834-dedouze",
-              "line": 834,
+              "id": "L838-dedouze",
+              "line": 838,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -21786,8 +21940,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L835-afx-lab",
-              "line": 835,
+              "id": "L839-afx-lab",
+              "line": 839,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -21819,8 +21973,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L836-yokohara-h",
-              "line": 836,
+              "id": "L840-yokohara-h",
+              "line": 840,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -21852,8 +22006,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L837-karl-poyzer",
-              "line": 837,
+              "id": "L841-karl-poyzer",
+              "line": 841,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -21885,8 +22039,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L838-kazlyan",
-              "line": 838,
+              "id": "L842-kazlyan",
+              "line": 842,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -21918,8 +22072,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L839-arc4g",
-              "line": 839,
+              "id": "L843-arc4g",
+              "line": 843,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -21951,8 +22105,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L840-flipfluids",
-              "line": 840,
+              "id": "L844-flipfluids",
+              "line": 844,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -21984,8 +22138,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L841-cggeeks",
-              "line": 841,
+              "id": "L845-cggeeks",
+              "line": 845,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22017,8 +22171,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L842-pablovazquez",
-              "line": 842,
+              "id": "L846-pablovazquez",
+              "line": 846,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22050,8 +22204,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L843-imilk-mani",
-              "line": 843,
+              "id": "L847-imilk-mani",
+              "line": 847,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22083,8 +22237,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L844-bluefox-3d",
-              "line": 844,
+              "id": "L848-bluefox-3d",
+              "line": 848,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22116,8 +22270,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L845-lucarood",
-              "line": 845,
+              "id": "L849-lucarood",
+              "line": 849,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22149,8 +22303,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L846-janurschel",
-              "line": 846,
+              "id": "L850-janurschel",
+              "line": 850,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22182,8 +22336,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L847-andrewpprice",
-              "line": 847,
+              "id": "L851-andrewpprice",
+              "line": 851,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22215,8 +22369,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L848-brentpatterson",
-              "line": 848,
+              "id": "L852-brentpatterson",
+              "line": 852,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22248,8 +22402,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L849-fineskimo",
-              "line": 849,
+              "id": "L853-fineskimo",
+              "line": 853,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22281,8 +22435,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L850-vicdoval",
-              "line": 850,
+              "id": "L854-vicdoval",
+              "line": 854,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22312,6 +22466,303 @@
               "platforms": [],
               "githubRepo": null,
               "blenderExtensionId": null
+            },
+            {
+              "id": "L855-katdoes3d",
+              "line": 855,
+              "kind": "social-handle",
+              "sectionId": "social",
+              "categoryId": "social/accounts",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "@KatDoes3D",
+                "zh": "@KatDoes3D"
+              },
+              "url": "https://x.com/KatDoes3D",
+              "description": {
+                "en": "",
+                "zh": ""
+              },
+              "descriptionMd": {
+                "en": "",
+                "zh": ""
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://x.com/KatDoes3D"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [],
+              "githubRepo": null,
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L856-jiehananana",
+              "line": 856,
+              "kind": "social-handle",
+              "sectionId": "social",
+              "categoryId": "social/accounts",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "@jiehananana",
+                "zh": "@jiehananana"
+              },
+              "url": "https://x.com/jiehananana",
+              "description": {
+                "en": "",
+                "zh": ""
+              },
+              "descriptionMd": {
+                "en": "",
+                "zh": ""
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://x.com/jiehananana"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [],
+              "githubRepo": null,
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L857-topolazy",
+              "line": 857,
+              "kind": "social-handle",
+              "sectionId": "social",
+              "categoryId": "social/accounts",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "@Topolazy",
+                "zh": "@Topolazy"
+              },
+              "url": "https://x.com/Topolazy",
+              "description": {
+                "en": "",
+                "zh": ""
+              },
+              "descriptionMd": {
+                "en": "",
+                "zh": ""
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://x.com/Topolazy"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [],
+              "githubRepo": null,
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L858-yorshcp",
+              "line": 858,
+              "kind": "social-handle",
+              "sectionId": "social",
+              "categoryId": "social/accounts",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "@YorshCP",
+                "zh": "@YorshCP"
+              },
+              "url": "https://x.com/YorshCP",
+              "description": {
+                "en": "",
+                "zh": ""
+              },
+              "descriptionMd": {
+                "en": "",
+                "zh": ""
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://x.com/YorshCP"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [],
+              "githubRepo": null,
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L859-miladkambari",
+              "line": 859,
+              "kind": "social-handle",
+              "sectionId": "social",
+              "categoryId": "social/accounts",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "@MiladKambari",
+                "zh": "@MiladKambari"
+              },
+              "url": "https://x.com/MiladKambari",
+              "description": {
+                "en": "",
+                "zh": ""
+              },
+              "descriptionMd": {
+                "en": "",
+                "zh": ""
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://x.com/MiladKambari"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [],
+              "githubRepo": null,
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L860-khamurai3d",
+              "line": 860,
+              "kind": "social-handle",
+              "sectionId": "social",
+              "categoryId": "social/accounts",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "@Khamurai3D",
+                "zh": "@Khamurai3D"
+              },
+              "url": "https://x.com/Khamurai3D",
+              "description": {
+                "en": "",
+                "zh": ""
+              },
+              "descriptionMd": {
+                "en": "",
+                "zh": ""
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://x.com/Khamurai3D"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [],
+              "githubRepo": null,
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L861-chiu-hans",
+              "line": 861,
+              "kind": "social-handle",
+              "sectionId": "social",
+              "categoryId": "social/accounts",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "@chiu_hans",
+                "zh": "@chiu_hans"
+              },
+              "url": "https://x.com/chiu_hans",
+              "description": {
+                "en": "",
+                "zh": ""
+              },
+              "descriptionMd": {
+                "en": "",
+                "zh": ""
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://x.com/chiu_hans"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [],
+              "githubRepo": null,
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L862-reijowrites",
+              "line": 862,
+              "kind": "social-handle",
+              "sectionId": "social",
+              "categoryId": "social/accounts",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "@reijowrites",
+                "zh": "@reijowrites"
+              },
+              "url": "https://x.com/reijowrites",
+              "description": {
+                "en": "",
+                "zh": ""
+              },
+              "descriptionMd": {
+                "en": "",
+                "zh": ""
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://x.com/reijowrites"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [],
+              "githubRepo": null,
+              "blenderExtensionId": null
+            },
+            {
+              "id": "L863-ibotpl",
+              "line": 863,
+              "kind": "social-handle",
+              "sectionId": "social",
+              "categoryId": "social/accounts",
+              "subgroupId": null,
+              "subgroup": null,
+              "title": {
+                "en": "@IboTpl",
+                "zh": "@IboTpl"
+              },
+              "url": "https://x.com/IboTpl",
+              "description": {
+                "en": "",
+                "zh": ""
+              },
+              "descriptionMd": {
+                "en": "",
+                "zh": ""
+              },
+              "secondaryLinks": [],
+              "allUrls": [
+                "https://x.com/IboTpl"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [],
+              "mediaType": null,
+              "platforms": [],
+              "githubRepo": null,
+              "blenderExtensionId": null
             }
           ]
         },
@@ -22319,7 +22770,7 @@
           "id": "social/youtube-channels",
           "slug": "youtube-channels",
           "sectionId": "social",
-          "line": 852,
+          "line": 865,
           "emoji": "📢",
           "title": {
             "en": "YouTube Channels",
@@ -22330,7 +22781,7 @@
           "subgroups": [
             {
               "id": "general-official-beginners",
-              "line": 854,
+              "line": 867,
               "title": {
                 "en": "General, Official & Beginners",
                 "zh": "综合、官方与入门"
@@ -22340,7 +22791,7 @@
             },
             {
               "id": "modeling-hard-surface-sculpting-3d-printing",
-              "line": 868,
+              "line": 881,
               "title": {
                 "en": "Modeling, Hard-Surface, Sculpting & 3D Printing",
                 "zh": "建模、硬表面、雕刻与 3D 打印"
@@ -22350,7 +22801,7 @@
             },
             {
               "id": "geometry-nodes-shading-technical-art",
-              "line": 882,
+              "line": 895,
               "title": {
                 "en": "Geometry Nodes, Shading & Technical Art",
                 "zh": "几何节点、着色与技术美术"
@@ -22360,7 +22811,7 @@
             },
             {
               "id": "animation-rigging-vfx-stylized",
-              "line": 895,
+              "line": 908,
               "title": {
                 "en": "Animation, Rigging, VFX & Stylized",
                 "zh": "动画、绑定、视觉特效与风格化"
@@ -22371,8 +22822,8 @@
           ],
           "entries": [
             {
-              "id": "L855-blender",
-              "line": 855,
+              "id": "L868-blender",
+              "line": 868,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -22409,8 +22860,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L856-blender-guru",
-              "line": 856,
+              "id": "L869-blender-guru",
+              "line": 869,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -22447,8 +22898,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L857-cg-cookie",
-              "line": 857,
+              "id": "L870-cg-cookie",
+              "line": 870,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -22495,8 +22946,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L858-cg-boost",
-              "line": 858,
+              "id": "L871-cg-boost",
+              "line": 871,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -22533,8 +22984,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L859-grant-abbitt",
-              "line": 859,
+              "id": "L872-grant-abbitt",
+              "line": 872,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -22571,8 +23022,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L860-ryan-king-art",
-              "line": 860,
+              "id": "L873-ryan-king-art",
+              "line": 873,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -22609,8 +23060,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L861-blendervitals",
-              "line": 861,
+              "id": "L874-blendervitals",
+              "line": 874,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -22647,8 +23098,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L862-cg-geek",
-              "line": 862,
+              "id": "L875-cg-geek",
+              "line": 875,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -22685,8 +23136,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L863-kaizen",
-              "line": 863,
+              "id": "L876-kaizen",
+              "line": 876,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -22723,8 +23174,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L864-crossmind-studio",
-              "line": 864,
+              "id": "L877-crossmind-studio",
+              "line": 877,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -22761,8 +23212,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L865-3dgreenhorn",
-              "line": 865,
+              "id": "L878-3dgreenhorn",
+              "line": 878,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -22799,8 +23250,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L866-cg-fast-track",
-              "line": 866,
+              "id": "L879-cg-fast-track",
+              "line": 879,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -22837,8 +23288,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L867-steven-scott",
-              "line": 867,
+              "id": "L880-steven-scott",
+              "line": 880,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -22875,8 +23326,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L869-josh-blender-bros",
-              "line": 869,
+              "id": "L882-josh-blender-bros",
+              "line": 882,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -22913,8 +23364,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L870-polygon-runway",
-              "line": 870,
+              "id": "L883-polygon-runway",
+              "line": 883,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -22951,8 +23402,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L871-gleb-alexandrov",
-              "line": 871,
+              "id": "L884-gleb-alexandrov",
+              "line": 884,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -22989,8 +23440,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L872-flippednormals",
-              "line": 872,
+              "id": "L885-flippednormals",
+              "line": 885,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23027,8 +23478,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L873-noggi",
-              "line": 873,
+              "id": "L886-noggi",
+              "line": 886,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23065,8 +23516,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L874-flycat",
-              "line": 874,
+              "id": "L887-flycat",
+              "line": 887,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23103,8 +23554,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L875-danny-mac-3d",
-              "line": 875,
+              "id": "L888-danny-mac-3d",
+              "line": 888,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23141,8 +23592,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L876-jayanam",
-              "line": 876,
+              "id": "L889-jayanam",
+              "line": 889,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23179,8 +23630,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L877-cdric-lepiller",
-              "line": 877,
+              "id": "L890-cdric-lepiller",
+              "line": 890,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23217,8 +23668,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L878-cg-masters",
-              "line": 878,
+              "id": "L891-cg-masters",
+              "line": 891,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23255,8 +23706,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L879-derekelliott",
-              "line": 879,
+              "id": "L892-derekelliott",
+              "line": 892,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23293,8 +23744,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L880-imphenzia",
-              "line": 880,
+              "id": "L893-imphenzia",
+              "line": 893,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23331,8 +23782,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L881-kevandram",
-              "line": 881,
+              "id": "L894-kevandram",
+              "line": 894,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23369,8 +23820,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L883-erindale",
-              "line": 883,
+              "id": "L896-erindale",
+              "line": 896,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23407,8 +23858,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L884-cartesian-caramel",
-              "line": 884,
+              "id": "L897-cartesian-caramel",
+              "line": 897,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23445,8 +23896,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L885-joey-carlino",
-              "line": 885,
+              "id": "L898-joey-carlino",
+              "line": 898,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23483,8 +23934,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L886-default-cube",
-              "line": 886,
+              "id": "L899-default-cube",
+              "line": 899,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23521,8 +23972,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L887-ducky-3d",
-              "line": 887,
+              "id": "L900-ducky-3d",
+              "line": 900,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23559,8 +24010,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L888-bad-normals",
-              "line": 888,
+              "id": "L901-bad-normals",
+              "line": 901,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23597,8 +24048,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L889-sharpwind",
-              "line": 889,
+              "id": "L902-sharpwind",
+              "line": 902,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23635,8 +24086,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L890-curtis-holt",
-              "line": 890,
+              "id": "L903-curtis-holt",
+              "line": 903,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23673,8 +24124,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L891-chris-p",
-              "line": 891,
+              "id": "L904-chris-p",
+              "line": 904,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23711,8 +24162,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L892-cg-python",
-              "line": 892,
+              "id": "L905-cg-python",
+              "line": 905,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23749,8 +24200,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L893-brady-johnston",
-              "line": 893,
+              "id": "L906-brady-johnston",
+              "line": 906,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23787,8 +24238,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L894-midge-sinnaeve",
-              "line": 894,
+              "id": "L907-midge-sinnaeve",
+              "line": 907,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23825,8 +24276,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L896-cgdive",
-              "line": 896,
+              "id": "L909-cgdive",
+              "line": 909,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23863,8 +24314,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L897-the-blenderender",
-              "line": 897,
+              "id": "L910-the-blenderender",
+              "line": 910,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23901,8 +24352,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L898-polyfjord",
-              "line": 898,
+              "id": "L911-polyfjord",
+              "line": 911,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23939,8 +24390,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L899-dillongoo",
-              "line": 899,
+              "id": "L912-dillongoo",
+              "line": 912,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23977,8 +24428,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L900-southernshotty",
-              "line": 900,
+              "id": "L913-southernshotty",
+              "line": 913,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24015,8 +24466,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L901-cgmatter",
-              "line": 901,
+              "id": "L914-cgmatter",
+              "line": 914,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24053,8 +24504,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L902-ianhubert",
-              "line": 902,
+              "id": "L915-ianhubert",
+              "line": 915,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24091,8 +24542,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L903-max-hay",
-              "line": 903,
+              "id": "L916-max-hay",
+              "line": 916,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24129,8 +24580,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L904-martin-klekner",
-              "line": 904,
+              "id": "L917-martin-klekner",
+              "line": 917,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24167,8 +24618,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L905-peter-france",
-              "line": 905,
+              "id": "L918-peter-france",
+              "line": 918,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24205,8 +24656,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L906-cbaileyfilm",
-              "line": 906,
+              "id": "L919-cbaileyfilm",
+              "line": 919,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24243,8 +24694,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L907-royal-skies-llc",
-              "line": 907,
+              "id": "L920-royal-skies-llc",
+              "line": 920,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24286,7 +24737,7 @@
           "id": "social/blogs",
           "slug": "blogs",
           "sectionId": "social",
-          "line": 909,
+          "line": 922,
           "emoji": "💻",
           "title": {
             "en": "Blogs",
@@ -24297,8 +24748,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L911-blender-developers-blog",
-              "line": 911,
+              "id": "L924-blender-developers-blog",
+              "line": 924,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/blogs",
@@ -24330,8 +24781,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L912-blender-studio-blog",
-              "line": 912,
+              "id": "L925-blender-studio-blog",
+              "line": 925,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/blogs",
@@ -24363,8 +24814,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L913-80-level-blender",
-              "line": 913,
+              "id": "L926-80-level-blender",
+              "line": 926,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/blogs",
@@ -24396,8 +24847,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L914-creative-shrimp",
-              "line": 914,
+              "id": "L927-creative-shrimp",
+              "line": 927,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/blogs",
@@ -24429,8 +24880,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L915-interplanety",
-              "line": 915,
+              "id": "L928-interplanety",
+              "line": 928,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/blogs",
@@ -24462,8 +24913,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L916-blender-3d-architect",
-              "line": 916,
+              "id": "L929-blender-3d-architect",
+              "line": 929,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/blogs",
@@ -24495,8 +24946,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L917-blenderaddonsorg",
-              "line": 917,
+              "id": "L930-blenderaddonsorg",
+              "line": 930,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/blogs",
@@ -24533,7 +24984,7 @@
           "id": "social/challenges-events",
           "slug": "challenges-events",
           "sectionId": "social",
-          "line": 919,
+          "line": 932,
           "emoji": "🏆",
           "title": {
             "en": "Challenges & Events",
@@ -24544,8 +24995,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L921-blender-conference",
-              "line": 921,
+              "id": "L934-blender-conference",
+              "line": 934,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -24616,8 +25067,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L922-blender-artists-contests",
-              "line": 922,
+              "id": "L935-blender-artists-contests",
+              "line": 935,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -24649,8 +25100,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L923-cg-boost-challenges",
-              "line": 923,
+              "id": "L936-cg-boost-challenges",
+              "line": 936,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -24682,8 +25133,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L924-pwnisher",
-              "line": 924,
+              "id": "L937-pwnisher",
+              "line": 937,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -24717,8 +25168,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L925-render-challenge",
-              "line": 925,
+              "id": "L938-render-challenge",
+              "line": 938,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -24750,8 +25201,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L926-the-rookies-contests",
-              "line": 926,
+              "id": "L939-the-rookies-contests",
+              "line": 939,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -24783,8 +25234,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L927-artstation-challenges",
-              "line": 927,
+              "id": "L940-artstation-challenges",
+              "line": 940,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -24816,8 +25267,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L928-nodevember",
-              "line": 928,
+              "id": "L941-nodevember",
+              "line": 941,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -24849,8 +25300,8 @@
               "blenderExtensionId": null
             },
             {
-              "id": "L929-sculptjanuary",
-              "line": 929,
+              "id": "L942-sculptjanuary",
+              "line": 942,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",

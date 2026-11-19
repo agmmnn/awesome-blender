@@ -343,6 +343,9 @@
 - [ComfyUI-Hunyuan3d-2-1](https://github.com/visualbruno/ComfyUI-Hunyuan3d-2-1)：[Hunyuan3D-2.1](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1) 的 ComfyUI 封装节点，将完全开源的 PBR 材质合成工作流引入 Blender + ComfyUI 管线。
 - [ComfyUI-LATO2](https://github.com/sakalond/ComfyUI-LATO2)：面向 ComfyUI 的低多边形重拓扑节点，可将 `TRELLIS.2`、`Hunyuan3D` 及扫描产生的密集网格转换为干净的四边面低模拓扑。![][gpl]
 - [AssetFurnace](https://github.com/Bingeljell/image-to-3dlab)：完整的开源图像转 3D 流水线，通过 TRELLIS.2 与混元 3D 在本地生成带贴图、骨架绑定与动画的游戏角色。
+- [anymove](https://github.com/patch-gg/anymove)：面向任意绑定生物（支持翅膀、尾巴与多足骨骼）的 AI 动作捕捉管线，结合双视角 AI 视频、DINOv2 关节点追踪与 Blender 5.x 逐帧拟合骨骼并导出 GLB。
+- [trompe](https://github.com/patch-gg/trompe)：为带 UV 的灰模 `.glb` 游戏关卡自动生成完整贴图的开源工具，通过规划可行走视角、图像模型绘制、几何回投并烘焙反照率贴图输出 glTF。
+- [Potemkin 3D](https://github.com/wrong-nebula/potemkin3D)：基于 [trompe](https://github.com/patch-gg/trompe) 的增强扩展，新增 `xatlas` 自动展 UV、SAM/MoGe 接缝与几何校验、表面浮雕、KTX2 GLB 导出、MCP 服务器及 Blender `dcc-sync` 同步。
 - [Dream Textures](https://github.com/carson-katri/dream-textures)：内置于 Blender 着色器编辑器、图像编辑器和合成器中的 Stable Diffusion 插件。![][gpl]
 - [AI Render](https://github.com/benrugg/AI-Render)：在 Blender 中使用 Stable Diffusion，根据文本提示词与当前场景渲染 AI 生成图像。
 - [Pallaidium](https://github.com/tin2tin/Pallaidium)：集成在 Blender 视频序列编辑器 (VSE) 中的生成式 AI 影视工作室，支持文本、图像、音频和视频生成。![][gpl]
@@ -379,6 +382,7 @@
     - [Poly Pizza](https://poly.pizza/)：免费的 CC0 与知识共享（Creative Commons）低多边形 3D 模型库，适用于 Blender、游戏开发与快速原型设计。
     - [Rigmodels](https://rigmodels.com/)：免费绑定、动画和低多边形模型
     - [NASA-3D-Resources](https://science.nasa.gov/3d-resources/)：NASA 官方开源与免费 3D 模型、航天器、地形扫描与纹理合集。[![][repo]](https://github.com/nasa/NASA-3D-Resources)
+    - [Patch Toolbox](https://patch.gg/create/toolbox/assets)：聚合 50,000+ 免费开源游戏级 3D 模型、贴图与带骨骼角色的可检索资产库，支持网页、CLI 与 MCP 访问。
 - 资产市场与综合模型库：
     - [Fab (Quixel Megascans)](https://www.fab.com/)：Epic Games 旗下统一 3D 资产市场，提供完整的永久免费 Quixel Megascans 扫描库及各类免费与商用 Blender 资产。
     - [Sketchfab](https://sketchfab.com/search?features=downloadable&sort_by=-pertinence&type=models)：来自sketchfab的免费可下载模型。
@@ -847,7 +851,16 @@ _一些可以找到各种 Blender 相关内容的账号。_
 [@andrewpprice](https://x.com/andrewpprice),
 [@brentpatterson](https://x.com/brentpatterson),
 [@FinEskimo](https://x.com/FinEskimo),
-[@VicDoval](https://x.com/VicDoval)
+[@VicDoval](https://x.com/VicDoval),
+[@KatDoes3D](https://x.com/KatDoes3D),
+[@jiehananana](https://x.com/jiehananana),
+[@Topolazy](https://x.com/Topolazy),
+[@YorshCP](https://x.com/YorshCP),
+[@MiladKambari](https://x.com/MiladKambari),
+[@Khamurai3D](https://x.com/Khamurai3D),
+[@chiu_hans](https://x.com/chiu_hans),
+[@reijowrites](https://x.com/reijowrites),
+[@IboTpl](https://x.com/IboTpl)
 
 ### 📢 YouTube频道
 
