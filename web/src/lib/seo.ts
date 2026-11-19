@@ -26,6 +26,7 @@ export interface SeoFilterInput {
     | "superhive"
     | "gumroad";
   license?: "all" | "gpl" | "mit" | "zero" | "cc";
+  recent?: boolean;
   sort?: DirectorySortId;
   lang?: Locale;
 }
@@ -40,11 +41,13 @@ export function filterDirectoryItems(
   const activePrice = input.price ?? "all";
   const activePlatform = input.platform ?? "all";
   const activeLicense = input.license ?? "all";
+  const activeRecent = Boolean(input.recent);
   const activeSort = input.sort ?? "curated";
   const lang: Locale = input.lang === "zh" ? "zh" : "en";
   const qLower = (searchOverride ?? input.q ?? "").trim().toLowerCase();
 
   const filtered = DIRECTORY_DATA.items.filter((item) => {
+    if (activeRecent && !item.isNew) return false;
     if (activeSection !== "all" && item.sectionId !== activeSection) {
       return false;
     }
@@ -83,6 +86,12 @@ export function filterDirectoryItems(
   }
 
   return [...filtered].sort((a, b) => {
+    if (activeSort === "added") {
+      const aAdded = a.addedAt ?? "";
+      const bAdded = b.addedAt ?? "";
+      if (bAdded !== aAdded) return bAdded.localeCompare(aAdded);
+      return a.line - b.line;
+    }
     if (activeSort === "stars") {
       const aStars = a.githubStars ?? -1;
       const bStars = b.githubStars ?? -1;
@@ -178,6 +187,7 @@ export function buildDirectorySeo(input: SeoFilterInput) {
   const hasFacetNoise =
     Boolean(q) ||
     Boolean(input.subgroup) ||
+    Boolean(input.recent) ||
     (input.price && input.price !== "all") ||
     (input.platform && input.platform !== "all") ||
     (input.license && input.license !== "all");

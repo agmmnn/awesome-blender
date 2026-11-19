@@ -96,6 +96,20 @@ export function formatUpdatedInfo(
   };
 }
 
+export function formatAddedDate(
+  isoDate: string | null,
+  lang: Locale
+): string | null {
+  if (!isoDate) return null;
+  const parts = isoDate.split("-").map(Number);
+  if (parts.length < 3 || parts.some(Number.isNaN)) return isoDate;
+  const [year, month, day] = parts;
+  const monthName = EN_MONTHS[month - 1] ?? String(month);
+  return lang === "zh"
+    ? `${year}年${month}月${day}日`
+    : `${monthName} ${day}, ${year}`;
+}
+
 const LICENSE_INFO: Record<
   string,
   { label: string; tooltipEn: string; tooltipZh: string }
@@ -467,6 +481,22 @@ export const DirectoryCard = React.memo(function DirectoryCard({
         {/* Row 2: Metadata & Trust Badges */}
         <div className="flex items-center justify-between gap-1.5 flex-wrap w-full">
           <div className="flex items-center gap-1.5 flex-wrap">
+            {item.isNew && (
+              <Badge
+                variant="outline"
+                title={
+                  item.addedAt
+                    ? lang === "zh"
+                      ? `收录于 ${formatAddedDate(item.addedAt, lang)}`
+                      : `Added to directory on ${formatAddedDate(item.addedAt, lang)}`
+                    : undefined
+                }
+                className="text-[11px] px-1.5 py-0 font-medium border-violet-500/35 bg-violet-500/10 text-violet-600 dark:text-violet-400 cursor-help"
+              >
+                {lang === "zh" ? "✨ 新增" : "✨ New"}
+              </Badge>
+            )}
+
             {mediaInfo && (
               <Badge
                 variant="outline"

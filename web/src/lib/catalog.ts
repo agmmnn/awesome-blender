@@ -38,6 +38,7 @@ export type DirectorySectionId =
 
 export type DirectorySortId =
   | "curated"
+  | "added"
   | "stars"
   | "updated"
   | "extensions"
@@ -69,6 +70,8 @@ export interface DirectoryItem extends LiteCatalogEntry {
   categoryTitle: LocalizedText;
   categorySlug: string;
   categoryEmoji: string | null;
+  addedAt: string | null;
+  isNew: boolean;
   githubStars: number | null;
   githubPushedAt: string | null;
   avatarUrl: string | null;
@@ -227,6 +230,8 @@ function buildDirectoryData() {
           categoryTitle: cat.title,
           categorySlug: cat.slug,
           categoryEmoji: cat.emoji,
+          addedAt: entry.addedAt ?? null,
+          isNew: false,
           searchText,
         });
       }
@@ -241,11 +246,33 @@ function buildDirectoryData() {
     });
   }
 
+  // Deterministic "New" window (14 days from latest catalog addition) to avoid SSR hydration mismatches
+  let latestAddedDate: string | null = null;
+  for (const item of items) {
+    if (item.addedAt && (!latestAddedDate || item.addedAt > latestAddedDate)) {
+      latestAddedDate = item.addedAt;
+    }
+  }
+  const latestMs = latestAddedDate ? Date.parse(`${latestAddedDate}T00:00:00Z`) : 0;
+  const NEW_WINDOW_MS = 14 * 86_400_000;
+  if (latestMs > 0) {
+    for (const item of items) {
+      if (item.addedAt) {
+        const itemMs = Date.parse(`${item.addedAt}T00:00:00Z`);
+        if (!Number.isNaN(itemMs) && latestMs - itemMs <= NEW_WINDOW_MS) {
+          item.isNew = true;
+        }
+      }
+    }
+  }
+
   return {
     sections,
     categories,
     items,
     totalCount: items.length,
+    latestAddedDate,
+    newCount: items.filter((i) => i.isNew).length,
     extensionsCount: items.filter(
       (i) => i.platforms.includes("extensions") || Boolean(i.blenderExtensionId)
     ).length,

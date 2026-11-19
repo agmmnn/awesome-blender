@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Awesome Blender — Recently Added</title>
+    <link>https://awesome-blender.vercel.app/?sort=added</link>
+    <atom:link href="https://awesome-blender.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Latest curated Blender add-ons, AI &amp; MCP tools, 3D assets, standalone software, tutorials, and community links.</description>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <item>
+      <title>anymove</title>
+      <link>https://github.com/patch-gg/anymove</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#anymove</guid>
+      <category>AI &amp; MCP / Generative 3D &amp; ComfyUI</category>
+      <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+      <description>AI motion capture pipeline for any rigged creature (wings, tails, multi-leg rigs) using dual-view AI video, DINOv2 joint tracking, and Blender 5.x to fit the rig frame-by-frame and export GLB. — https://github.com/patch-gg/anymove</description>
+    </item>
+    <item>
+      <title>trompe</title>
+      <link>https://github.com/patch-gg/trompe</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#trompe</guid>
+      <category>AI &amp; MCP / Generative 3D &amp; ComfyUI</category>
+      <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Textures entire UV-mapped .glb game levels from a gray blockout by planning walkable cameras, painting views with image models, projecting back onto geometry, and baking albedo maps. — https://github.com/patch-gg/trompe</description>
+    </item>
+    <item>
+      <title>Potemkin 3D</title>
+      <link>https://github.com/wrong-nebula/potemkin3D</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#potemkin-3d</guid>
+      <category>AI &amp; MCP / Generative 3D &amp; ComfyUI</category>
+      <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Extends trompe with automatic xatlas UV unwrapping, SAM/MoGe seam and geometry checks, surface relief, KTX2 GLB export, an MCP server, and Blender dcc-sync. — https://github.com/wrong-nebula/potemkin3D</description>
+    </item>
+    <item>
+      <title>Patch Toolbox</title>
+      <link>https://patch.gg/create/toolbox/assets</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#patch-toolbox</guid>
+      <category>Resources / 3D Models</category>
+      <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Searchable library of 50,000+ free, open-source game-ready 3D models, textures, and rigged characters accessible via web, CLI, and MCP. — https://patch.gg/create/toolbox/assets</description>
+    </item>
+    <item>
+      <title>LoopTools</title>
+      <link>https://extensions.blender.org/add-ons/looptools/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#looptools</guid>
+      <category>Add-ons / Modeling</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Essential Edit Mode mesh utilities including bridge, loft, circle, flatten, relax, and space tools. — https://extensions.blender.org/add-ons/looptools/</description>
+    </item>
+    <item>
+      <title>F2</title>
+      <link>https://extensions.blender.org/add-ons/f2/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#f2</guid>
+      <category>Add-ons / Modeling</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Extends single-vertex and edge face creation in Edit Mode for faster quad retopology and modeling. — https://extensions.blender.org/add-ons/f2/</description>
+    </item>
+    <item>
+      <title>tinyCAD Mesh tools</title>
+      <link>https://extensions.blender.org/add-ons/tinycad-mesh-tools/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#tinycad-mesh-tools</guid>
+      <category>Add-ons / Modeling</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>CAD-style edge intersection, bisector, XALL, and circle-from-points utilities for Edit Mode. — https://extensions.blender.org/add-ons/tinycad-mesh-tools/</description>
+    </item>
+    <item>
+      <title>Bool Tool</title>
+      <link>https://extensions.blender.org/add-ons/bool-tool/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#bool-tool</guid>
+      <category>Add-ons / Modeling</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Streamlines non-destructive and destructive Boolean workflows with viewport shortcuts. — https://extensions.blender.org/add-ons/bool-tool/</description>
+    </item>
+    <item>
+      <title>IvyGen</title>
+      <link>https://extensions.blender.org/add-ons/ivygen/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#ivygen</guid>
+      <category>Add-ons / Generator/Builder</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Procedurally grows realistic ivy and climbing vegetation across mesh surfaces in Blender. — https://extensions.blender.org/add-ons/ivygen/</description>
+    </item>
+    <item>
+      <title>Archimesh</title>
+      <link>https://extensions.blender.org/add-ons/archimesh/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#archimesh</guid>
+      <category>Add-ons / Generator/Builder</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Generates parametric architectural elements including rooms, doors, windows, stairs, and roofs. — https://extensions.blender.org/add-ons/archimesh/</description>
+    </item>
+    <item>
+      <title>Sun Position</title>
+      <link>https://extensions.blender.org/add-ons/sun-position/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#sun-position</guid>
+      <category>Add-ons / Lighting, Camera &amp; Video</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Positions the sun lamp and Sky texture accurately by geographic coordinates, date, and time. — https://extensions.blender.org/add-ons/sun-position/</description>
+    </item>
+    <item>
+      <title>Cell Fracture</title>
+      <link>https://extensions.blender.org/add-ons/cell-fracture/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#cell-fracture</guid>
+      <category>Add-ons / Simulation/Physics</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Shatters meshes into Voronoi-based rigid-body fragments for destruction simulations in Blender. — https://extensions.blender.org/add-ons/cell-fracture/</description>
+    </item>
+    <item>
+      <title>Copy Attributes Menu</title>
+      <link>https://extensions.blender.org/add-ons/copy-attributes-menu/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#copy-attributes-menu</guid>
+      <category>Add-ons / Workflow, UI &amp; Utilities</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Adds a Ctrl+C popup menu to copy transforms, modifiers, constraints, and properties between objects. — https://extensions.blender.org/add-ons/copy-attributes-menu/</description>
+    </item>
+    <item>
+      <title>Amaranth</title>
+      <link>https://extensions.blender.org/add-ons/amaranth/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#amaranth</guid>
+      <category>Add-ons / Workflow, UI &amp; Utilities</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Studio productivity tweaks, render helpers, and UI shortcuts maintained by Blender Studio. — https://extensions.blender.org/add-ons/amaranth/</description>
+    </item>
+    <item>
+      <title>Blender Agent Studio</title>
+      <link>https://github.com/ifBars/blender-agent-studio</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#blender-agent-studio</guid>
+      <category>AI &amp; MCP / MCP, Agents &amp; Skills</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Open-source Blender AI plugin and skill suite for Claude Code and Codex that produces editable .blend scenes, Python scripts, and visually reviewed renders locally. — https://github.com/ifBars/blender-agent-studio</description>
+    </item>
+    <item>
+      <title>blender-mcp-bridge</title>
+      <link>https://github.com/seehiong/blender-mcp-bridge</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#blender-mcp-bridge</guid>
+      <category>AI &amp; MCP / MCP, Agents &amp; Skills</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>MCP bridge with 93 tools for Blender modeling, sculpting, architecture/MEP, materials, and 3D-print prep, plus a visual record/replay session editor. — https://github.com/seehiong/blender-mcp-bridge</description>
+    </item>
+    <item>
+      <title>bpy-dev/blender-mcp</title>
+      <link>https://github.com/bpy-dev/blender-mcp</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#bpy-dev-blender-mcp</guid>
+      <category>AI &amp; MCP / MCP, Agents &amp; Skills</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Enhanced Blender MCP distribution offering standalone bpy execution, runtime API documentation lookup, and benchmark tooling. — https://github.com/bpy-dev/blender-mcp</description>
+    </item>
+    <item>
+      <title>Blender Assembly Skill</title>
+      <link>https://github.com/ProfRino/Blender-MCP-Assembly-Skill</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#blender-assembly-skill</guid>
+      <category>AI &amp; MCP / MCP, Agents &amp; Skills</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Geometry-planning agent skill for Blender MCP workflows that verifies connections, primitive scaling, rotations, and object overlaps to prevent common AI modeling errors. — https://github.com/ProfRino/Blender-MCP-Assembly-Skill</description>
+    </item>
+    <item>
+      <title>dcc-mcp-blender</title>
+      <link>https://github.com/dcc-mcp/dcc-mcp-blender</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#dcc-mcp-blender</guid>
+      <category>AI &amp; MCP / MCP, Agents &amp; Skills</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Typed Blender MCP add-on in the multi-DCC dcc-mcp ecosystem enabling AI agents to model, edit UVs, rig, build materials, and render scenes. — https://github.com/dcc-mcp/dcc-mcp-blender</description>
+    </item>
+    <item>
+      <title>ComfyUI-BlenderAI-node</title>
+      <link>https://github.com/AIGODLIKE/ComfyUI-BlenderAI-node</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#comfyui-blenderai-node</guid>
+      <category>AI &amp; MCP / Generative 3D &amp; ComfyUI</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Popular node-based ComfyUI integration inside Blender for AI model generation, texture enhancement, and AI-assisted rendering. — https://github.com/AIGODLIKE/ComfyUI-BlenderAI-node</description>
+    </item>
+    <item>
+      <title>BlenderAIStudio</title>
+      <link>https://github.com/AIGODLIKE/BlenderAIStudio</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#blenderaistudio</guid>
+      <category>AI &amp; MCP / Generative 3D &amp; ComfyUI</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Next-generation AI workflow studio add-on for Blender built on the Addon UI-Forge framework by AIGODLIKE. — https://github.com/AIGODLIKE/BlenderAIStudio</description>
+    </item>
+    <item>
+      <title>fal.ai for Blender</title>
+      <link>https://github.com/fal-ai/fal-blender-extension</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#falai-for-blender</guid>
+      <category>AI &amp; MCP / Generative 3D &amp; ComfyUI</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Official Blender 4.2+ extension from fal.ai integrating Text/Image-to-3D (Meshy, Hunyuan3D, Tripo, Rodin), PBR material synthesis, AI rendering, video, and audio workflows into the 3D Viewport and VSE (requires fal.ai API key). — https://github.com/fal-ai/fal-blender-extension</description>
+    </item>
+    <item>
+      <title>UniRig</title>
+      <link>https://github.com/VAST-AI-Research/UniRig</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#unirig</guid>
+      <category>AI &amp; MCP / Generative 3D &amp; ComfyUI</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Universal AI automatic skeletal rigging and skinning framework (SIGGRAPH 2025) by Tsinghua &amp; VAST with Blender workflow and VRM add-on integration. — https://github.com/VAST-AI-Research/UniRig</description>
+    </item>
+    <item>
+      <title>Tripo 3D for Blender</title>
+      <link>https://github.com/Tripo-Developer/tripo-3d-for-blender</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#tripo-3d-for-blender</guid>
+      <category>AI &amp; MCP / Generative 3D &amp; ComfyUI</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Official open-source Blender extension for Tripo AI enabling Text/Image-to-3D generation and textured, rig-ready asset imports inside the viewport sidebar. — https://github.com/Tripo-Developer/tripo-3d-for-blender</description>
+    </item>
+    <item>
+      <title>Meshy for Blender</title>
+      <link>https://docs.meshy.ai/en/webapp/plugins/blender/introduction</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#meshy-for-blender</guid>
+      <category>AI &amp; MCP / Generative 3D &amp; ComfyUI</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Official local bridge plugin from Meshy AI for sending static or rigged/animated 3D assets directly into Blender alongside mesh cleanup and 3D-print tools. — https://docs.meshy.ai/en/webapp/plugins/blender/introduction</description>
+    </item>
+    <item>
+      <title>trellisblender</title>
+      <link>https://github.com/FishWoWater/trellis_blender</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#trellisblender</guid>
+      <category>AI &amp; MCP / Generative 3D &amp; ComfyUI</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Blender sidebar integration for Microsoft&#x27;s TRELLIS and TRELLIS.2 models supporting local Text-to-3D and Image-to-3D generation. — https://github.com/FishWoWater/trellis_blender</description>
+    </item>
+    <item>
+      <title>ComfyUI-Hunyuan3d-2-1</title>
+      <link>https://github.com/visualbruno/ComfyUI-Hunyuan3d-2-1</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#comfyui-hunyuan3d-2-1</guid>
+      <category>AI &amp; MCP / Generative 3D &amp; ComfyUI</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>ComfyUI wrapper for Hunyuan3D-2.1 bringing fully open-source PBR texture synthesis workflows to Blender + ComfyUI pipelines. — https://github.com/visualbruno/ComfyUI-Hunyuan3d-2-1</description>
+    </item>
+    <item>
+      <title>ComfyUI-LATO2</title>
+      <link>https://github.com/sakalond/ComfyUI-LATO2</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#comfyui-lato2</guid>
+      <category>AI &amp; MCP / Generative 3D &amp; ComfyUI</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>ComfyUI low-poly remeshing node designed to convert dense AI-generated meshes (TRELLIS.2, Hunyuan3D, 3D scans) into clean quad/low-poly topology. — https://github.com/sakalond/ComfyUI-LATO2</description>
+    </item>
+    <item>
+      <title>SceneWeaver</title>
+      <link>https://github.com/Scene-Weaver/SceneWeaver</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#sceneweaver</guid>
+      <category>AI &amp; MCP / Synthetic Data &amp; Benchmarks</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>NeurIPS 2025 extensible, self-reflective agent framework for all-in-one 3D scene synthesis built on Infinigen and Blender. — https://github.com/Scene-Weaver/SceneWeaver</description>
+    </item>
+    <item>
+      <title>BlenderWorld</title>
+      <link>https://github.com/QwenLM/BlenderWorld</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#blenderworld</guid>
+      <category>AI &amp; MCP / Synthetic Data &amp; Benchmarks</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Visual agent benchmark by QwenLM containing 223 tasks and 2,651 criteria evaluating editable 3D Blender scene creation from real-world references. — https://github.com/QwenLM/BlenderWorld</description>
+    </item>
+    <item>
+      <title>BlenderGym</title>
+      <link>https://github.com/richard-guyunqi/BlenderGym-Open</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#blendergym</guid>
+      <category>AI &amp; MCP / Synthetic Data &amp; Benchmarks</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>CVPR VLM benchmark evaluating code-based 3D graphics editing in Blender across 245 scenes (procedural geometry, lighting, materials, blend shapes, and placement). — https://github.com/richard-guyunqi/BlenderGym-Open</description>
+    </item>
+    <item>
+      <title>BlenderAlchemy</title>
+      <link>https://github.com/ianhuang0630/BlenderAlchemyOfficial</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#blenderalchemy</guid>
+      <category>AI &amp; MCP / Synthetic Data &amp; Benchmarks</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>ECCV 2024 Stanford research framework treating VLM-driven 3D Blender scene edits as iterative visual programs. — https://github.com/ianhuang0630/BlenderAlchemyOfficial</description>
+    </item>
+    <item>
+      <title>Kenney 3D Assets</title>
+      <link>https://kenney.nl/assets/category:3D</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#kenney-3d-assets</guid>
+      <category>Resources / 3D Models</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Hundreds of clean CC0 low-poly and game-ready 3D models ready for Blender and game engines. — https://kenney.nl/assets/category:3D</description>
+    </item>
+    <item>
+      <title>Fab (Quixel Megascans)</title>
+      <link>https://www.fab.com/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#fab-quixel-megascans</guid>
+      <category>Resources / 3D Models</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Epic Games&#x27; unified 3D marketplace featuring the entire permanently free Quixel Megascans library alongside free and commercial assets for Blender and other DCC tools. — https://www.fab.com/</description>
+    </item>
+    <item>
+      <title>Quaternius Universal Animation Library</title>
+      <link>https://quaternius.com/packs/universalanimationlibrary.html</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#quaternius-universal-animation-library</guid>
+      <category>Resources / Mocap/Animation</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Free game-ready humanoid animation pack distributed in clean FBX and GLB formats. — https://quaternius.com/packs/universalanimationlibrary.html</description>
+    </item>
+    <item>
+      <title>ACCAD Open Motion Project</title>
+      <link>https://accad.osu.edu/research/motion-lab/mocap-system-and-data</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#accad-open-motion-project</guid>
+      <category>Resources / Mocap/Animation</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Open motion capture archive (.bvh / .c3d) from Ohio State University covering locomotion, martial arts, and everyday motions. — https://accad.osu.edu/research/motion-lab/mocap-system-and-data</description>
+    </item>
+    <item>
+      <title>AMASS</title>
+      <link>https://amass.is.tue.mpg.de/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#amass</guid>
+      <category>Resources / Mocap/Animation</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Large-scale archive unifying 15+ optical motion capture datasets (including CMU) into a standard SMPL human skeleton representation. — https://amass.is.tue.mpg.de/</description>
+    </item>
+    <item>
+      <title>FreeMocap</title>
+      <link>https://freemocap.org/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#freemocap</guid>
+      <category>Resources / Mocap/Animation</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Free, open-source markerless 3D motion capture studio using standard cameras/webcams with built-in Blender scene and rig export. — https://freemocap.org/</description>
+    </item>
+    <item>
+      <title>GVHMR</title>
+      <link>https://github.com/zju3dv/GVHMR</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#gvhmr</guid>
+      <category>Resources / Mocap/Animation</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Gravity-aware AI 3D human motion recovery from single-camera monocular video for animation and SMPL/Blender pipelines. — https://github.com/zju3dv/GVHMR</description>
+    </item>
+    <item>
+      <title>DeepMotion</title>
+      <link>https://www.deepmotion.com/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#deepmotion</guid>
+      <category>Resources / Mocap/Animation</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Cloud AI video-to-mocap tool capturing full-body, hand, and facial motion with FBX, BVH, and GLB exports for Blender. — https://www.deepmotion.com/</description>
+    </item>
+    <item>
+      <title>Move.ai</title>
+      <link>https://www.move.ai/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#moveai</guid>
+      <category>Resources / Mocap/Animation</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Markerless single- and multi-camera AI motion capture with production FBX export. — https://www.move.ai/</description>
+    </item>
+    <item>
+      <title>Plask</title>
+      <link>https://plask.ai/en-US</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#plask</guid>
+      <category>Resources / Mocap/Animation</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Browser-based AI video-to-mocap and keyframe cleanup platform exporting FBX and BVH animations. — https://plask.ai/en-US</description>
+    </item>
+    <item>
+      <title>Blender Studio Open Movies</title>
+      <link>https://studio.blender.org/films/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#blender-studio-open-movies</guid>
+      <category>Resources / Blender Scenes/Files</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Official production .blend files, rigs, and open-movie breakdown scenes from Blender Studio. — https://studio.blender.org/films/</description>
+    </item>
+    <item>
+      <title>Blender Open Data</title>
+      <link>https://opendata.blender.org/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#blender-open-data</guid>
+      <category>Resources / Blender Scenes/Files</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Official Cycles and hardware performance benchmark .blend scenes and open test database. — https://opendata.blender.org/</description>
+    </item>
+    <item>
+      <title>NVIDIA ORCA</title>
+      <link>https://developer.nvidia.com/orca</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#nvidia-orca</guid>
+      <category>Resources / Blender Scenes/Files</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Open Research Content Archive hosting large-scale PBR and ray-tracing benchmark scenes such as Amazon Lumberyard Bistro. — https://developer.nvidia.com/orca</description>
+    </item>
+    <item>
+      <title>Disney Moana Island Scene</title>
+      <link>https://www.disneyanimation.com/resources/moana-island-scene/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#disney-moana-island-scene</guid>
+      <category>Resources / Blender Scenes/Files</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Production OpenUSD Motunui Island dataset released by Walt Disney Animation Studios for large-scale instancing and lighting tests. — https://www.disneyanimation.com/resources/moana-island-scene/</description>
+    </item>
+    <item>
+      <title>Agora Community Assets</title>
+      <link>https://agora.community/assets</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#agora-community-assets</guid>
+      <category>Resources / Blender Scenes/Files</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Free studio-grade character rigs for Blender animation study (free account required). — https://agora.community/assets</description>
+    </item>
+    <item>
+      <title>P2Design Academy</title>
+      <link>https://www.p2design-academy.com/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#p2design-academy</guid>
+      <category>Resources / Blender Scenes/Files</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Free Blender character and body-mechanics practice rigs created by Pierrick Picaut (free account required). — https://www.p2design-academy.com/</description>
+    </item>
+    <item>
+      <title>OpenHDRI</title>
+      <link>https://openhdri.org/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#openhdri</guid>
+      <category>Resources / HDRIs</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Ad-free, account-free library of ultra-high-resolution CC0 HDRI environment maps up to 29K. — https://openhdri.org/</description>
+    </item>
+    <item>
+      <title>Kenney Audio</title>
+      <link>https://kenney.nl/assets/category:Audio</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#kenney-audio</guid>
+      <category>Resources / Sound/Music</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Clean CC0 game, UI, and interface sound effect packs ready for games and animations. — https://kenney.nl/assets/category:Audio</description>
+    </item>
+  </channel>
+</rss>

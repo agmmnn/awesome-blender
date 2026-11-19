@@ -14,7 +14,10 @@ import {
   Star,
   X,
 } from "lucide-react";
-import { formatUpdatedInfo } from "@/components/directory-card";
+import {
+  formatAddedDate,
+  formatUpdatedInfo,
+} from "@/components/directory-card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import type { DirectoryItem, Locale } from "@/lib/catalog";
@@ -253,6 +256,21 @@ export function ItemDetailDialog({
                         ? `${updatedInfo.monthYear} (${updatedInfo.relativeLabel})`
                         : `Updated ${updatedInfo.monthYear} (${updatedInfo.relativeLabel})`}
                     </span>
+                  </Badge>
+                )}
+                {item.addedAt && (
+                  <Badge
+                    variant="outline"
+                    className={cn(
+                      "text-[11px] font-normal",
+                      item.isNew
+                        ? "border-violet-500/35 bg-violet-500/10 text-violet-600 dark:text-violet-400"
+                        : "text-muted-foreground"
+                    )}
+                  >
+                    {lang === "zh"
+                      ? `收录于 ${formatAddedDate(item.addedAt, lang)}`
+                      : `Added ${formatAddedDate(item.addedAt, lang)}`}
                   </Badge>
                 )}
               </div>

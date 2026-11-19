@@ -1,0 +1,64 @@
+name: Sync Catalog & Recent Additions
+
+on:
+    push:
+        branches: [master, main]
+        paths:
+            - "README.md"
+            - "README_ZH.md"
+            - "web/scripts/build_catalog.py"
+    schedule:
+        - cron: "0 2 * * 0" # Refresh GitHub stars & dates every Sunday at 02:00 UTC
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+concurrency:
+    group: sync-catalog-${{ github.ref }}
+    cancel-in-progress: false
+
+jobs:
+    sync:
+        if: github.actor != 'github-actions[bot]'
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Set up Python
+              uses: actions/setup-python@v5
+              with:
+                  python-version: "3.12"
+
+            - name: Align README_ZH.md and sync catalog, RECENT.md, and RSS feed
+              run: |
+                  python3 web/scripts/build_catalog.py --align-zh
+                  python3 web/scripts/build_catalog.py --align-zh
+                  python3 web/scripts/build_catalog.py --check
+
+            - name: Refresh GitHub stars and last-updated metadata
+              env:
+                  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              run: python3 web/scripts/fetch_github_meta.py
+
+            - name: Format generated Markdown files with Prettier
+              run: npx --yes prettier@3 --write README.md README_ZH.md RECENT.md
+
+            - name: Verify catalog sync and formatting
+              run: |
+                  python3 web/scripts/build_catalog.py --check
+                  npx --yes prettier@3 . --check
+
+            - name: Commit and push updated catalog files
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "41898982+github-actions[bot]@users.noreply.github.com"
+                  git add README.md README_ZH.md RECENT.md web/src/data/ web/public/
+                  if git diff --cached --quiet; then
+                      echo "No catalog changes to commit."
+                      exit 0
+                  fi
+                  git commit -m "chore: sync catalog, RECENT.md, RSS feed, and GitHub metadata"
+                  git push

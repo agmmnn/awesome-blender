@@ -12,7 +12,7 @@ The purpose of this list is to curate the best add-ons, extensions, standalone t
 
 - **Open-source and free resources** that are actively maintained and compatible with modern Blender releases (**Blender 3.6 LTS / 4.x+**).
 - **Official or community-verified extensions** listed on the [Blender Extensions Platform](https://extensions.blender.org/) or well-documented repositories with real releases and community adoption.
-- **Paid add-ons or tools (`[$]`)** _only_ if they are widely recognized across the Blender/3D community or solve a major workflow problem with no comparable open-source alternative in the list.
+- **Paid add-ons or tools (`💰`)** _only_ if they are widely recognized across the Blender/3D community or solve a major workflow problem with no comparable open-source alternative in the list.
 
 ### 🚫 What We Do Not Accept
 
@@ -48,7 +48,7 @@ Always use the exact reference badge syntax (`[![][repo]](url)`, `[![market]](ur
 
 # Paid add-on (with Superhive / Blender Market link):
 
-- [Tool Name](https://gumroad.com/l/example) [$] : Concise description starting with a capital letter. [![market]](https://superhivemarket.com/products/example)
+- [Tool Name](https://gumroad.com/l/example) 💰 : Concise description starting with a capital letter. [![market]](https://superhivemarket.com/products/example)
 
 # Free CC0 resource:
 
@@ -69,7 +69,7 @@ Prefix tutorial links with the appropriate symbol (`▷` video, `☰` playlist, 
 ## 🔄 Pull Request Checklist
 
 - **One resource per PR:** Submit a separate pull request for each resource so it can be reviewed independently.
-- **Edit `README.md` only:** Do **not** edit [`README_ZH.md`](README_ZH.md) in your pull request; translations are synchronized automatically by maintainers.
+- **Edit `README.md` only (do not edit generated files):** Add your entry under the appropriate category in [`README.md`](README.md) only. Do **not** edit [`README_ZH.md`](README_ZH.md), [`RECENT.md`](RECENT.md), the auto-generated `Recently Added` block at the top of `README.md`, or files under `web/` — all of these are synced automatically after merge.
 - **4-space indentation:** Use 4 spaces for nested sub-lists.
 - **Verify links & formatting:** Every PR is automatically checked by **Prettier** (`npx prettier . --check`) and **Lychee** (broken-link checker). Ensure all URLs return `200 OK` without unnecessary tracking parameters.
 

@@ -67,6 +67,7 @@ export interface CatalogEntry {
     platforms: PlatformTag[];
     githubRepo: string | null;
     blenderExtensionId: string | null;
+    addedAt?: string | null;
 }
 
 export interface CatalogSubgroup {

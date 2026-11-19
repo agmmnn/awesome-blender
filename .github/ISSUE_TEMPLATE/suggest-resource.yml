@@ -62,7 +62,7 @@ body:
               - Free & open source (MIT / Apache / other)
               - Free (CC0 / public domain resource)
               - Free (closed source)
-              - Paid [$]
+              - Paid 💰
               - Freemium / partially free
       validations:
           required: true

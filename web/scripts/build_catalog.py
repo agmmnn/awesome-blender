@@ -19,6 +19,8 @@ import os
 import re
 import sys
 from collections import Counter
+from datetime import date, datetime, timezone
+from email.utils import format_datetime
 from pathlib import Path
 from typing import Any
 
@@ -28,11 +30,19 @@ README_EN = ROOT_DIR / "README.md"
 README_ZH = ROOT_DIR / "README_ZH.md"
 OUTPUT_JSON = WEB_DIR / "src" / "data" / "catalog.json"
 OUTPUT_LITE_JSON = WEB_DIR / "src" / "data" / "directory_lite.json"
+OUTPUT_ADDED_DATES_JSON = WEB_DIR / "src" / "data" / "added_dates.json"
 OUTPUT_PUBLIC_JSON = WEB_DIR / "public" / "catalog.json"
 OUTPUT_SITEMAP = WEB_DIR / "public" / "sitemap.xml"
+OUTPUT_FEED_XML = WEB_DIR / "public" / "feed.xml"
 OUTPUT_LLMS_TXT = WEB_DIR / "public" / "llms.txt"
 OUTPUT_LLMS_FULL_TXT = WEB_DIR / "public" / "llms-full.txt"
 OUTPUT_LLMS_DIR = WEB_DIR / "public" / "llms"
+OUTPUT_RECENT_MD = ROOT_DIR / "RECENT.md"
+RECENT_MD_LIMIT = 100
+README_RECENT_LIMIT = 5
+FEED_LIMIT = 50
+RECENT_START_MARKER = "<!-- RECENT:START -->"
+RECENT_END_MARKER = "<!-- RECENT:END -->"
 
 DIRECTORY_SECTION_IDS = {
     "add-ons",
@@ -116,14 +126,14 @@ def strip_markdown_to_text(md: str) -> str:
 
 def extract_badges_and_clean(text: str) -> tuple[str, dict[str, Any]]:
     """
-    Extract `[$]`, `repo`, `market`, and license badges (`gpl`, `mit`, `zero`, `cc`, `by`, `nc`)
+    Extract `💰` (or legacy `[$]`), `repo`, `market`, and license badges (`gpl`, `mit`, `zero`, `cc`, `by`, `nc`)
     from a markdown string, returning the cleaned markdown and badge metadata.
     """
     s = text
     is_paid = False
-    if "[$]" in s:
+    if "💰" in s or "[$]" in s:
         is_paid = True
-        s = re.sub(r"\s*\[\$\]\s*", " ", s)
+        s = re.sub(r"\s*(?:\[\$\]|💰)\s*", " ", s)
 
     repo_url: str | None = None
     for m in re.finditer(r"\[!\[\]\[repo\]\]\((https?://[^\)]+)\)", s):
@@ -1200,6 +1210,211 @@ def build_llms_full_txt(catalog: dict[str, Any], site_url: str) -> str:
     return "\n".join(header) + "\n\n".join(body) + "\n"
 
 
+def sync_added_dates(catalog: dict[str, Any]) -> dict[str, str]:
+    """Attach `addedAt` dates to catalog items from added_dates.json, auto-stamping new URLs."""
+    existing: dict[str, str] = {}
+    if OUTPUT_ADDED_DATES_JSON.exists():
+        try:
+            existing = json.loads(OUTPUT_ADDED_DATES_JSON.read_text(encoding="utf-8"))
+        except Exception:
+            existing = {}
+
+    today = date.today().isoformat()
+    updated: dict[str, str] = {}
+
+    for sec in catalog["sections"]:
+        for cat in sec["categories"]:
+            for entry in cat["entries"]:
+                url = entry.get("url")
+                if entry.get("kind") == "item" and url:
+                    dt = existing.get(url) or today
+                    updated[url] = dt
+                    entry["addedAt"] = dt
+                else:
+                    entry["addedAt"] = None
+
+    return {k: updated[k] for k in sorted(updated.keys(), key=str.lower)}
+
+
+def _collect_recent_items(
+    catalog: dict[str, Any], limit: int = RECENT_MD_LIMIT
+) -> list[dict[str, Any]]:
+    """Collect the latest `limit` directory items ordered by addedAt desc, then README line asc."""
+    used_slugs: set[str] = set()
+    items: list[dict[str, Any]] = []
+
+    for sec in catalog["sections"]:
+        if sec["id"] not in DIRECTORY_SECTION_IDS:
+            continue
+        for cat in sec["categories"]:
+            if cat["id"] in EXCLUDED_DIRECTORY_CATEGORIES:
+                continue
+            for entry in cat["entries"]:
+                if entry.get("kind") != "item" or not entry.get("url"):
+                    continue
+                base_slug = re.sub(r"^L\d+-", "", entry["id"]) or entry["id"]
+                slug = base_slug
+                if slug in used_slugs:
+                    slug = f"{base_slug}-{cat['slug']}"
+                if slug in used_slugs:
+                    slug = entry["id"].lower()
+                used_slugs.add(slug)
+                items.append(
+                    {
+                        "slug": slug,
+                        "title": entry["title"]["en"],
+                        "titleZh": entry["title"]["zh"],
+                        "url": entry["url"],
+                        "description": entry["description"]["en"],
+                        "descriptionZh": entry["description"]["zh"],
+                        "sectionEmoji": sec.get("emoji") or "",
+                        "sectionTitle": sec["title"]["en"],
+                        "sectionTitleZh": sec["title"]["zh"],
+                        "categoryTitle": cat["title"]["en"],
+                        "categoryTitleZh": cat["title"]["zh"],
+                        "addedAt": entry.get("addedAt") or "",
+                        "line": entry["line"],
+                    }
+                )
+
+    items.sort(key=lambda x: (x["addedAt"], -x["line"]), reverse=True)
+    return items[:limit]
+
+
+def _extract_toc_anchors(path: Path) -> dict[str, str]:
+    """Read exact GitHub heading anchor hrefs from the README Table of Contents (section-scoped)."""
+    text = path.read_text(encoding="utf-8")
+    anchors: dict[str, str] = {}
+    cur_sec = ""
+    for line in text.splitlines():
+        if "</details>" in line:
+            break
+        m = re.search(r'<a href="(#[^"]+)">([^<]+)</a>', line)
+        if not m:
+            continue
+        href, label = m.group(1), html.unescape(m.group(2)).strip()
+        _, title, _ = split_heading_emoji(label)
+        key_title = (title or label).lower()
+        indent = len(line) - len(line.lstrip())
+        if indent <= 4:
+            cur_sec = key_title
+            anchors.setdefault(key_title, href)
+        else:
+            anchors[f"{cur_sec}|{key_title}"] = href
+            anchors.setdefault(key_title, href)
+    return anchors
+
+
+def _fallback_github_anchor(title: str) -> str:
+    slug = re.sub(r"[^\w\s-]", "", title.lower()).strip().replace(" ", "-")
+    return f"#-{slug}"
+
+
+def build_recent_md(
+    catalog: dict[str, Any], site_url: str, limit: int = RECENT_MD_LIMIT
+) -> str:
+    """Generate RECENT.md showing the latest `limit` curated additions grouped by date."""
+    base = site_url.rstrip("/")
+    recent = _collect_recent_items(catalog, limit=limit)
+    en_anchors = _extract_toc_anchors(README_EN)
+    lines = [
+        "# ✨ Recently Added to Awesome Blender",
+        "",
+        (
+            f"> Latest {len(recent)} curated additions to [Awesome Blender](README.md) "
+            f"(auto-generated, capped at {limit} entries). "
+            f"Browse interactively at [Web Directory]({base}/?sort=added) · "
+            f"[RSS Feed]({base}/feed.xml)"
+        ),
+        "",
+    ]
+
+    grouped: list[tuple[str, list[dict[str, Any]]]] = []
+    for item in recent:
+        dt = item["addedAt"] or "Unknown"
+        if not grouped or grouped[-1][0] != dt:
+            grouped.append((dt, [item]))
+        else:
+            grouped[-1][1].append(item)
+
+    for dt, group_items in grouped:
+        lines.append(f"## {dt} · {len(group_items)} new")
+        lines.append("")
+        for item in group_items:
+            sec_prefix = f"{item['sectionEmoji']} " if item["sectionEmoji"] else ""
+            sec_title = item["sectionTitle"]
+            cat_title = item["categoryTitle"]
+            cat_label = f"{sec_prefix}{sec_title} · {cat_title}"
+            anchor = (
+                en_anchors.get(f"{sec_title.lower()}|{cat_title.lower()}")
+                or en_anchors.get(cat_title.lower())
+                or _fallback_github_anchor(cat_title)
+            )
+            desc = item["description"].strip()
+            desc_clean = re.sub(r"\s+", " ", desc)
+            detail_url = f"{base}/#{item['slug']}"
+            bullet = f"- **[{item['title']}]({item['url']})** ([`{cat_label}`](README.md{anchor}))"
+            if desc_clean:
+                bullet += f" — {desc_clean}"
+            bullet += f" · [Details]({detail_url})"
+            lines.append(bullet)
+        lines.append("")
+
+    return "\n".join(lines)
+
+
+def build_feed_xml(
+    catalog: dict[str, Any], site_url: str, limit: int = FEED_LIMIT
+) -> str:
+    """Generate an RSS 2.0 feed (`public/feed.xml`) of the latest `limit` additions."""
+    base = site_url.rstrip("/")
+    feed_url = f"{base}/feed.xml"
+    recent = _collect_recent_items(catalog, limit=limit)
+
+    def to_rfc2822(iso_date: str) -> str:
+        try:
+            y, m, d = (int(p) for p in iso_date.split("-")[:3])
+            dt = datetime(y, m, d, 12, 0, 0, tzinfo=timezone.utc)
+        except Exception:
+            dt = datetime(2026, 1, 1, 12, 0, 0, tzinfo=timezone.utc)
+        return format_datetime(dt, usegmt=True)
+
+    latest_pub = to_rfc2822(recent[0]["addedAt"]) if recent else to_rfc2822("")
+
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+        "  <channel>",
+        "    <title>Awesome Blender — Recently Added</title>",
+        f"    <link>{html.escape(base + '/?sort=added', quote=True)}</link>",
+        f'    <atom:link href="{html.escape(feed_url, quote=True)}" rel="self" type="application/rss+xml" />',
+        "    <description>Latest curated Blender add-ons, AI &amp; MCP tools, 3D assets, standalone software, tutorials, and community links.</description>",
+        "    <language>en</language>",
+        f"    <lastBuildDate>{latest_pub}</lastBuildDate>",
+    ]
+
+    for item in recent:
+        item_link = f"{base}/#{item['slug']}"
+        category = f"{item['sectionTitle']} / {item['categoryTitle']}"
+        desc_text = item["description"].strip() or f"{item['title']} ({category})"
+        desc_full = f"{desc_text} — {item['url']}"
+        lines.extend(
+            [
+                "    <item>",
+                f"      <title>{html.escape(item['title'])}</title>",
+                f"      <link>{html.escape(item['url'], quote=True)}</link>",
+                f'      <guid isPermaLink="true">{html.escape(item_link, quote=True)}</guid>',
+                f"      <category>{html.escape(category)}</category>",
+                f"      <pubDate>{to_rfc2822(item['addedAt'])}</pubDate>",
+                f"      <description>{html.escape(desc_full)}</description>",
+                "    </item>",
+            ]
+        )
+
+    lines.extend(["  </channel>", "</rss>"])
+    return "\n".join(lines) + "\n"
+
+
 def build_directory_lite(catalog: dict[str, Any]) -> dict[str, Any]:
     """Build a minimal, minified subset of catalog.json for fast web UI bundling."""
     entry_fields = (
@@ -1220,6 +1435,7 @@ def build_directory_lite(catalog: dict[str, Any]) -> dict[str, Any]:
         "platforms",
         "githubRepo",
         "blenderExtensionId",
+        "addedAt",
     )
     lite_sections = []
     for sec in catalog["sections"]:
@@ -1268,6 +1484,229 @@ def build_directory_lite(catalog: dict[str, Any]) -> dict[str, Any]:
     return {"sections": lite_sections}
 
 
+def _truncate_text(text: str, max_len: int) -> str:
+    clean = re.sub(r"\s+", " ", text).strip()
+    if len(clean) <= max_len:
+        return clean
+    cut = clean[: max_len - 1].rsplit(" ", 1)[0].rstrip(" ,;:-")
+    return f"{cut}…"
+
+
+def build_readme_recent_block(
+    catalog: dict[str, Any],
+    site_url: str,
+    lang: str = "en",
+    limit: int = README_RECENT_LIMIT,
+) -> str:
+    """Build the compact auto-updated Recently Added callout block for README.md / README_ZH.md."""
+    base = site_url.rstrip("/")
+    recent = _collect_recent_items(catalog, limit=limit)
+    if lang == "zh":
+        header = (
+            f"> **✨ 最近新增** · [查看全部 {RECENT_MD_LIMIT} 条更新 →](RECENT.md) · "
+            f"[网页版目录]({base}/?sort=added&lang=zh)"
+        )
+    else:
+        header = (
+            f"> **✨ Recently Added** · [View all {RECENT_MD_LIMIT} updates →](RECENT.md) · "
+            f"[Browse on Web]({base}/?sort=added)"
+        )
+
+    anchors = _extract_toc_anchors(README_ZH if lang == "zh" else README_EN)
+    lines = [RECENT_START_MARKER, "", header, ">"]
+    for item in recent:
+        title = item["titleZh"] if lang == "zh" else item["title"]
+        sec_title = item["sectionTitleZh"] if lang == "zh" else item["sectionTitle"]
+        cat_title = item["categoryTitleZh"] if lang == "zh" else item["categoryTitle"]
+        anchor = (
+            anchors.get(f"{sec_title.lower()}|{cat_title.lower()}")
+            or anchors.get(cat_title.lower())
+            or _fallback_github_anchor(cat_title)
+        )
+        desc_raw = item["descriptionZh"] if lang == "zh" else item["description"]
+        desc = _truncate_text(desc_raw, 48 if lang == "zh" else 98)
+        desc_part = f" — {desc}" if desc else ""
+        lines.append(
+            f"> - **[{title}]({item['url']})** [`{cat_title}`]({anchor}){desc_part}"
+        )
+    lines.extend(["", RECENT_END_MARKER])
+    return "\n".join(lines)
+
+
+def align_readme_zh() -> tuple[bool, int]:
+    """
+    Align README_ZH.md line-by-line with README.md when contributors edit only README.md.
+    Preserves all existing Chinese translations matched by URL, heading emoji, or subgroup
+    order within each category, and falls back to the English line for newly added items.
+    Returns (changed, fallback_count).
+    """
+    en_lines = README_EN.read_text(encoding="utf-8").splitlines()
+    zh_lines = README_ZH.read_text(encoding="utf-8").splitlines()
+
+    def split_zones(lines: list[str], sym_prefixes: tuple[str, ...]):
+        start = next((i for i, l in enumerate(lines) if l.startswith("## ")), len(lines))
+        end = next(
+            (i for i in range(start, len(lines)) if any(lines[i].startswith(p) for p in sym_prefixes)),
+            len(lines),
+        )
+        return lines[:start], lines[start:end], lines[end:]
+
+    en_pre, en_body, en_post = split_zones(en_lines, ("### Symbols",))
+    zh_pre, zh_body, zh_post = split_zones(zh_lines, ("### 符号", "### Symbols"))
+
+    # Quick check: already aligned in count and URL parity?
+    if len(en_lines) == len(zh_lines):
+        mismatch = False
+        for e_l, z_l in zip(en_body, zh_body):
+            if URL_RE.findall(e_l) != URL_RE.findall(z_l):
+                mismatch = True
+                break
+        if not mismatch:
+            return False, 0
+
+    # Index existing Chinese body lines
+    zh_by_urls: dict[tuple[str, ...], str] = {}
+    zh_h2_by_emoji: dict[str, str] = {}
+    zh_h3_by_emoji: dict[str, str] = {}
+    zh_h2_seq: list[str] = []
+    zh_h3_by_sec: dict[str, list[str]] = {}
+    zh_subgroups_by_cat: dict[str, list[str]] = {}
+    zh_notes_by_cat: dict[str, str] = {}
+
+    cur_sec_key = ""
+    cur_cat_key = ""
+    for line in zh_body:
+        stripped = line.rstrip()
+        urls = tuple(URL_RE.findall(stripped))
+        if urls and stripped not in ("", "---") and 'href="#table"' not in stripped:
+            zh_by_urls.setdefault(urls, stripped)
+
+        if stripped.startswith("## "):
+            em, _, _ = split_heading_emoji(stripped[3:])
+            cur_sec_key = em or stripped
+            zh_h2_seq.append(stripped)
+            if em:
+                zh_h2_by_emoji[em] = stripped
+            cur_cat_key = ""
+        elif stripped.startswith("### "):
+            em, _, _ = split_heading_emoji(stripped[4:])
+            cur_cat_key = f"{cur_sec_key}|{em or stripped}"
+            zh_h3_by_sec.setdefault(cur_sec_key, []).append(stripped)
+            if em:
+                zh_h3_by_emoji[f"{cur_sec_key}|{em}"] = stripped
+        elif (
+            stripped.startswith("- ")
+            and (stripped.endswith("：") or stripped.endswith(":"))
+            and "](" not in stripped
+        ):
+            zh_subgroups_by_cat.setdefault(cur_cat_key, []).append(stripped)
+        elif stripped.startswith("_") and stripped.endswith("_") and "](" not in stripped:
+            zh_notes_by_cat[cur_cat_key] = stripped
+
+    aligned_body: list[str] = []
+    fallback_count = 0
+    sec_idx = 0
+    cat_idx_in_sec: dict[str, int] = {}
+    sg_idx_in_cat: dict[str, int] = {}
+    cur_en_sec_key = ""
+    cur_en_cat_key = ""
+
+    for line in en_body:
+        s = line.rstrip()
+        if not s:
+            aligned_body.append("")
+            continue
+        if s == "---":
+            aligned_body.append("---")
+            continue
+        if 'href="#table"' in s:
+            aligned_body.append('<p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>')
+            continue
+
+        urls = tuple(URL_RE.findall(s))
+        if urls and s in zh_by_urls.values():
+            aligned_body.append(s)
+            continue
+        if urls and urls in zh_by_urls:
+            aligned_body.append(zh_by_urls[urls])
+            continue
+
+        if s.startswith("## "):
+            em, _, _ = split_heading_emoji(s[3:])
+            cur_en_sec_key = em or s
+            matched = zh_h2_by_emoji.get(em or "") or (
+                zh_h2_seq[sec_idx] if sec_idx < len(zh_h2_seq) else None
+            )
+            sec_idx += 1
+            cur_en_cat_key = ""
+            if matched:
+                aligned_body.append(matched)
+            else:
+                aligned_body.append(s)
+                fallback_count += 1
+            continue
+
+        if s.startswith("### "):
+            em, _, _ = split_heading_emoji(s[4:])
+            cur_en_cat_key = f"{cur_en_sec_key}|{em or s}"
+            c_idx = cat_idx_in_sec.get(cur_en_sec_key, 0)
+            cat_idx_in_sec[cur_en_sec_key] = c_idx + 1
+            sec_h3s = zh_h3_by_sec.get(cur_en_sec_key, [])
+            matched = zh_h3_by_emoji.get(f"{cur_en_sec_key}|{em}") or (
+                sec_h3s[c_idx] if c_idx < len(sec_h3s) else None
+            )
+            if matched:
+                aligned_body.append(matched)
+            else:
+                aligned_body.append(s)
+                fallback_count += 1
+            continue
+
+        if s.startswith("- ") and s.endswith(":") and "](" not in s:
+            sg_list = zh_subgroups_by_cat.get(cur_en_cat_key, [])
+            sg_i = sg_idx_in_cat.get(cur_en_cat_key, 0)
+            sg_idx_in_cat[cur_en_cat_key] = sg_i + 1
+            if sg_i < len(sg_list):
+                aligned_body.append(sg_list[sg_i])
+            else:
+                aligned_body.append(s)
+                fallback_count += 1
+            continue
+
+        if s.startswith("_") and s.endswith("_") and "](" not in s:
+            if cur_en_cat_key in zh_notes_by_cat:
+                aligned_body.append(zh_notes_by_cat[cur_en_cat_key])
+            else:
+                aligned_body.append(s)
+                fallback_count += 1
+            continue
+
+        # HTML structural lines, comments, or newly added English items without ZH translation yet
+        aligned_body.append(s)
+        if urls:
+            fallback_count += 1
+
+    new_zh_lines = zh_pre + aligned_body + zh_post
+    new_zh_text = "\n".join(new_zh_lines) + "\n"
+    if new_zh_text == README_ZH.read_text(encoding="utf-8"):
+        return False, fallback_count
+
+    README_ZH.write_text(new_zh_text, encoding="utf-8")
+    return True, fallback_count
+
+
+def apply_readme_recent_block(path: Path, block: str) -> str:
+    """Replace the <!-- RECENT:START --> ... <!-- RECENT:END --> block inside a README file."""
+    content = path.read_text(encoding="utf-8")
+    pattern = re.compile(
+        rf"{re.escape(RECENT_START_MARKER)}.*?{re.escape(RECENT_END_MARKER)}",
+        re.DOTALL,
+    )
+    if not pattern.search(content):
+        return content
+    return pattern.sub(lambda _: block, content, count=1)
+
+
 def _verify_text_output(path: Path, expected: str) -> str | None:
     """Return an error message if a generated file is missing or out of sync."""
     if not path.exists() or path.read_text(encoding="utf-8") != expected:
@@ -1286,11 +1725,23 @@ def main() -> int:
         help="Validate lossless parsing and parity without writing or if out-of-date.",
     )
     parser.add_argument(
+        "--align-zh",
+        action="store_true",
+        help="Auto-align README_ZH.md to README.md (English fallback for new lines) before building.",
+    )
+    parser.add_argument(
         "--site-url",
         default=os.environ.get("SITE_URL", "https://awesome-blender.vercel.app"),
         help="Base URL used in sitemap.xml and llms.txt",
     )
     args = parser.parse_args()
+
+    if args.align_zh and not args.check:
+        changed, fallback_count = align_readme_zh()
+        if changed:
+            print(
+                f"🔄 Auto-aligned README_ZH.md with README.md ({fallback_count} English fallback line(s))."
+            )
 
     catalog, errors = build_catalog()
     if errors:
@@ -1299,6 +1750,8 @@ def main() -> int:
             print(f"  - {err}", file=sys.stderr)
         return 1
 
+    added_dates = sync_added_dates(catalog)
+    rendered_added_dates = json.dumps(added_dates, ensure_ascii=False, indent=2) + "\n"
     rendered = json.dumps(catalog, ensure_ascii=False, indent=2) + "\n"
     rendered_lite = (
         json.dumps(
@@ -1308,6 +1761,14 @@ def main() -> int:
     )
     rendered_public_json = json.dumps(catalog, ensure_ascii=False, separators=(",", ":")) + "\n"
     rendered_sitemap = build_sitemap_xml(catalog, args.site_url)
+    rendered_feed = build_feed_xml(catalog, args.site_url)
+    rendered_recent_md = build_recent_md(catalog, args.site_url)
+    rendered_readme_en = apply_readme_recent_block(
+        README_EN, build_readme_recent_block(catalog, args.site_url, lang="en")
+    )
+    rendered_readme_zh = apply_readme_recent_block(
+        README_ZH, build_readme_recent_block(catalog, args.site_url, lang="zh")
+    )
     rendered_llms = build_llms_txt(catalog, args.site_url)
     rendered_llms_full = build_llms_full_txt(catalog, args.site_url)
     section_outputs = {
@@ -1318,10 +1779,15 @@ def main() -> int:
     }
 
     expected_files: list[tuple[Path, str]] = [
+        (README_EN, rendered_readme_en),
+        (README_ZH, rendered_readme_zh),
+        (OUTPUT_ADDED_DATES_JSON, rendered_added_dates),
         (OUTPUT_JSON, rendered),
         (OUTPUT_LITE_JSON, rendered_lite),
         (OUTPUT_PUBLIC_JSON, rendered_public_json),
         (OUTPUT_SITEMAP, rendered_sitemap),
+        (OUTPUT_FEED_XML, rendered_feed),
+        (OUTPUT_RECENT_MD, rendered_recent_md),
         (OUTPUT_LLMS_TXT, rendered_llms),
         (OUTPUT_LLMS_FULL_TXT, rendered_llms_full),
         *section_outputs.items(),

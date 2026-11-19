@@ -2,9 +2,9 @@ import * as React from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import {
   ArrowUpDown,
-  Blocks,
   Bookmark,
   RotateCcw,
+  Rss,
   Search,
   SlidersHorizontal,
   X,
@@ -66,6 +66,7 @@ export interface DirectorySearchParams {
     | "superhive"
     | "gumroad";
   license?: "all" | "gpl" | "mit" | "zero" | "cc";
+  recent?: boolean;
   sort?: DirectorySortId;
   lang?: Locale;
 }
@@ -112,7 +113,14 @@ export const Route = createFileRoute("/")({
       search.license === "cc"
         ? search.license
         : undefined;
+    const recent =
+      search.recent === true ||
+      search.recent === "1" ||
+      search.recent === "true"
+        ? true
+        : undefined;
     const sort =
+      search.sort === "added" ||
       search.sort === "stars" ||
       search.sort === "updated" ||
       search.sort === "name" ||
@@ -130,6 +138,7 @@ export const Route = createFileRoute("/")({
       price,
       platform,
       license,
+      recent,
       sort,
       lang,
     };
@@ -173,6 +182,7 @@ function DirectoryPage() {
   const activePrice = search.price ?? "all";
   const activePlatform = search.platform ?? "all";
   const activeLicense = search.license ?? "all";
+  const activeRecent = Boolean(search.recent);
   const activeSort: DirectorySortId = search.sort ?? "curated";
   const lang: Locale = search.lang ?? "en";
   const query = search.q ?? "";
@@ -372,6 +382,7 @@ function DirectoryPage() {
                 : undefined,
             license:
               next.license && next.license !== "all" ? next.license : undefined,
+            recent: next.recent ? true : undefined,
             sort:
               next.sort && next.sort !== "curated" ? next.sort : undefined,
             lang: next.lang === "zh" ? "zh" : undefined,
@@ -424,6 +435,7 @@ function DirectoryPage() {
           price: activePrice,
           platform: activePlatform,
           license: activeLicense,
+          recent: activeRecent,
           sort: activeSort,
           q: deferredSearchInput,
           lang,
@@ -437,6 +449,7 @@ function DirectoryPage() {
       activePrice,
       activePlatform,
       activeLicense,
+      activeRecent,
       activeSort,
       deferredSearchInput,
       lang,
@@ -453,6 +466,7 @@ function DirectoryPage() {
     activePrice,
     activePlatform,
     activeLicense,
+    activeRecent,
     activeSort,
     deferredSearchInput,
   ]);
@@ -507,6 +521,7 @@ function DirectoryPage() {
         price: activePrice,
         platform: activePlatform,
         license: activeLicense,
+        recent: activeRecent,
         sort: activeSort,
         q: deferredSearchInput,
         lang,
@@ -518,6 +533,7 @@ function DirectoryPage() {
       activePrice,
       activePlatform,
       activeLicense,
+      activeRecent,
       activeSort,
       deferredSearchInput,
       lang,
@@ -531,6 +547,7 @@ function DirectoryPage() {
     activePrice !== "all" ||
     activePlatform !== "all" ||
     activeLicense !== "all" ||
+    activeRecent ||
     activeSort !== "curated" ||
     searchInput.trim() !== "";
 
@@ -548,6 +565,7 @@ function DirectoryPage() {
       price: undefined,
       platform: undefined,
       license: undefined,
+      recent: undefined,
       sort: undefined,
     });
   };
@@ -667,6 +685,27 @@ function DirectoryPage() {
                   {lang === "zh"
                     ? "查看并导出已收藏的插件与资源"
                     : "View and export your bookmarked items"}
+                </TooltipContent>
+              </Tooltip>
+
+              {/* RSS Feed Link */}
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <Button asChild variant="outline" size="icon">
+                    <a
+                      href="/feed.xml"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="RSS Feed"
+                    >
+                      <Rss className="size-4" />
+                    </a>
+                  </Button>
+                </TooltipTrigger>
+                <TooltipContent>
+                  {lang === "zh"
+                    ? "RSS 订阅（最新收录资源）"
+                    : "RSS Feed — Subscribe to new additions"}
                 </TooltipContent>
               </Tooltip>
 
@@ -797,21 +836,22 @@ function DirectoryPage() {
               {/* Quick One-Click Preset Toggles */}
               <Button
                 type="button"
-                variant={activePlatform === "extensions" ? "default" : "outline"}
+                variant={activeRecent ? "default" : "outline"}
                 size="xs"
                 onClick={() =>
                   updateSearch({
-                    platform:
-                      activePlatform === "extensions"
+                    recent: activeRecent ? undefined : true,
+                    sort: activeRecent
+                      ? activeSort === "added"
                         ? undefined
-                        : "extensions",
+                        : activeSort
+                      : "added",
                   })
                 }
-                className="rounded-full h-8 px-2.5 text-xs gap-1.5"
+                className="rounded-full h-8 px-2.5 text-xs"
               >
-                <Blocks className="size-3.5 text-orange-500" />
                 <span>
-                  {lang === "zh" ? "官方扩展" : "Extensions"}
+                  ✨ {lang === "zh" ? "最近新增" : "New"}
                 </span>
               </Button>
 
@@ -1151,6 +1191,22 @@ function DirectoryPage() {
                 </Badge>
               )}
 
+              {activeRecent && (
+                <Badge
+                  asChild
+                  variant="secondary"
+                  className="gap-1 px-2 py-0.5 text-[11px] font-medium cursor-pointer hover:bg-accent"
+                >
+                  <button
+                    type="button"
+                    onClick={() => updateSearch({ recent: undefined })}
+                  >
+                    <span>✨ {lang === "zh" ? "最近新增" : "New"}</span>
+                    <X className="size-3" />
+                  </button>
+                </Badge>
+              )}
+
               {activeLicense !== "all" && (
                 <Badge
                   asChild
@@ -1207,6 +1263,11 @@ function DirectoryPage() {
                 <SelectContent align="end">
                   <SelectItem value="curated">
                     {lang === "zh" ? "精选推荐排序" : "Sort: Curated"}
+                  </SelectItem>
+                  <SelectItem value="added">
+                    {lang === "zh"
+                      ? "最近新增优先 (✨)"
+                      : "Sort: Recently Added (✨)"}
                   </SelectItem>
                   <SelectItem value="stars">
                     {lang === "zh"
@@ -1325,6 +1386,22 @@ function DirectoryPage() {
                 className="hover:text-foreground underline-offset-4 hover:underline"
               >
                 Blender Extensions
+              </a>
+              <a
+                href="https://github.com/agmmnn/awesome-blender/blob/master/RECENT.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-foreground underline-offset-4 hover:underline"
+              >
+                {lang === "zh" ? "最近新增" : "Recent"}
+              </a>
+              <a
+                href="/feed.xml"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-foreground underline-offset-4 hover:underline"
+              >
+                RSS
               </a>
               <a
                 href="/llms.txt"

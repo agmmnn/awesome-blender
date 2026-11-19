@@ -4,7 +4,7 @@
 
 ## Checklist
 
-- [ ] **Single item & `README.md` only:** This PR adds/updates a single resource and edits [`README.md`](../README.md) only ([`README_ZH.md`](../README_ZH.md) is synced by maintainers).
+- [ ] **Single item & `README.md` only:** This PR adds/updates a single resource in [`README.md`](../README.md) only (do **not** edit [`README_ZH.md`](../README_ZH.md), [`RECENT.md`](../RECENT.md), the top `Recently Added` block, or `web/` — they are synced automatically after merge).
 - [ ] **Format & style:** Follows [`CONTRIBUTING.md`](../CONTRIBUTING.md) (`- [Name](https://...) : Capitalized, neutral description without "is a..." or marketing fluff.`, 4-space indentation for nested lists, and valid reference badges like `[![][repo]](url)` / `![][gpl]`).
 - [ ] **Quality & maturity:** Compatible with modern Blender (3.6 LTS / 4.x+), has real releases/documentation or a [Blender Extensions](https://extensions.blender.org/) listing, and is **not** a Day-0 repo or promotional SaaS backlink.
-- [ ] **License / Paid tag:** Marked with `[$]` if paid (and meets the paid criteria in [`CONTRIBUTING.md`](../CONTRIBUTING.md)), or includes the appropriate open-source license badge (`![][gpl]`, `![][mit]`, `![][zero]`).
+- [ ] **License / Paid tag:** Marked with `💰` if paid (and meets the paid criteria in [`CONTRIBUTING.md`](../CONTRIBUTING.md)), or includes the appropriate open-source license badge (`![][gpl]`, `![][mit]`, `![][zero]`).
