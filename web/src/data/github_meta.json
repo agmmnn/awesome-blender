@@ -12,7 +12,7 @@
     "isArchived": false
   },
   "ahujasid/mcp-for-blender": {
-    "stars": 35298,
+    "stars": 35321,
     "pushedAt": "2026-11-18",
     "customOgImage": null,
     "isArchived": false
@@ -60,7 +60,7 @@
     "isArchived": false
   },
   "allusion-app/Allusion": {
-    "stars": 909,
+    "stars": 908,
     "pushedAt": "2024-04-23",
     "customOgImage": null,
     "isArchived": false
@@ -71,8 +71,14 @@
     "customOgImage": null,
     "isArchived": false
   },
+  "apekshik/anymachine": {
+    "stars": 1035,
+    "pushedAt": "2026-11-17",
+    "customOgImage": null,
+    "isArchived": false
+  },
   "apekshik/anyscene": {
-    "stars": 447,
+    "stars": 448,
     "pushedAt": "2026-11-04",
     "customOgImage": null,
     "isArchived": false
@@ -102,8 +108,8 @@
     "isArchived": false
   },
   "audacity/audacity": {
-    "stars": 19135,
-    "pushedAt": "2026-11-20",
+    "stars": 19140,
+    "pushedAt": "2026-11-22",
     "customOgImage": null,
     "isArchived": false
   },
@@ -138,7 +144,7 @@
     "isArchived": false
   },
   "Bingeljell/image-to-3dlab": {
-    "stars": 1244,
+    "stars": 1246,
     "pushedAt": "2026-11-20",
     "customOgImage": "https://repository-images.githubusercontent.com/1320384572/0b642558-002b-43bf-a0b4-32c1b159c905",
     "isArchived": false
@@ -192,7 +198,7 @@
     "isArchived": false
   },
   "CGCookie/retopoflow": {
-    "stars": 3359,
+    "stars": 3360,
     "pushedAt": "2026-11-09",
     "customOgImage": null,
     "isArchived": false
@@ -216,7 +222,7 @@
     "isArchived": false
   },
   "colmap/colmap": {
-    "stars": 13273,
+    "stars": 13274,
     "pushedAt": "2026-11-22",
     "customOgImage": null,
     "isArchived": false
@@ -258,7 +264,7 @@
     "isArchived": false
   },
   "devanshutak25/3d-resources": {
-    "stars": 1033,
+    "stars": 1034,
     "pushedAt": "2026-11-19",
     "customOgImage": null,
     "isArchived": false
@@ -312,7 +318,7 @@
     "isArchived": false
   },
   "EL4CTEO/blender-skills": {
-    "stars": 2648,
+    "stars": 2668,
     "pushedAt": "2026-11-21",
     "customOgImage": null,
     "isArchived": false
@@ -378,19 +384,19 @@
     "isArchived": false
   },
   "FreeCAD/FreeCAD": {
-    "stars": 35678,
+    "stars": 35683,
     "pushedAt": "2026-11-22",
     "customOgImage": "https://repository-images.githubusercontent.com/5736080/982c5fba-1a6f-4547-a430-96fbb275e6d0",
     "isArchived": false
   },
   "freemocap/freemocap": {
-    "stars": 10872,
+    "stars": 10873,
     "pushedAt": "2026-11-14",
     "customOgImage": null,
     "isArchived": false
   },
   "GDQuest/blender-power-sequencer": {
-    "stars": 731,
+    "stars": 732,
     "pushedAt": "2026-01-16",
     "customOgImage": "https://repository-images.githubusercontent.com/95702882/5e2f6500-4cd9-11ea-8709-389ef0f9dc48",
     "isArchived": false
@@ -432,7 +438,7 @@
     "isArchived": false
   },
   "grizzlypeak3d/DJV": {
-    "stars": 1174,
+    "stars": 1176,
     "pushedAt": "2026-11-22",
     "customOgImage": null,
     "isArchived": false
@@ -510,7 +516,7 @@
     "isArchived": false
   },
   "JannisX11/blockbench": {
-    "stars": 6232,
+    "stars": 6234,
     "pushedAt": "2026-11-21",
     "customOgImage": "https://repository-images.githubusercontent.com/93747383/44c9efb5-4899-4048-851a-eb19aace86f0",
     "isArchived": false
@@ -576,7 +582,7 @@
     "isArchived": true
   },
   "KDE/krita": {
-    "stars": 10783,
+    "stars": 10785,
     "pushedAt": "2026-11-22",
     "customOgImage": null,
     "isArchived": false
@@ -624,7 +630,7 @@
     "isArchived": false
   },
   "makehumancommunity/mpfb2": {
-    "stars": 723,
+    "stars": 724,
     "pushedAt": "2026-11-12",
     "customOgImage": null,
     "isArchived": false
@@ -648,7 +654,7 @@
     "isArchived": false
   },
   "mitsuba-renderer/mitsuba3": {
-    "stars": 2990,
+    "stars": 2991,
     "pushedAt": "2026-11-18",
     "customOgImage": null,
     "isArchived": false
@@ -702,8 +708,8 @@
     "isArchived": false
   },
   "NatronGitHub/Natron": {
-    "stars": 5758,
-    "pushedAt": "2026-11-21",
+    "stars": 5757,
+    "pushedAt": "2026-11-22",
     "customOgImage": null,
     "isArchived": false
   },
@@ -720,7 +726,7 @@
     "isArchived": false
   },
   "nerfstudio-project/nerfstudio": {
-    "stars": 12237,
+    "stars": 12238,
     "pushedAt": "2025-07-29",
     "customOgImage": "https://repository-images.githubusercontent.com/498449014/8e81d571-8f06-4801-9a95-244294990473",
     "isArchived": false
@@ -822,7 +828,7 @@
     "isArchived": false
   },
   "playcanvas/supersplat": {
-    "stars": 10704,
+    "stars": 10705,
     "pushedAt": "2026-11-19",
     "customOgImage": "https://repository-images.githubusercontent.com/707265118/f42dba0a-ced5-43fb-8579-a8e8c6c39b19",
     "isArchived": false
@@ -864,7 +870,7 @@
     "isArchived": false
   },
   "ranjian0/building_tools": {
-    "stars": 1536,
+    "stars": 1537,
     "pushedAt": "2026-09-24",
     "customOgImage": null,
     "isArchived": false
@@ -894,7 +900,7 @@
     "isArchived": false
   },
   "RodZill4/material-maker": {
-    "stars": 6289,
+    "stars": 6290,
     "pushedAt": "2026-11-11",
     "customOgImage": "https://repository-images.githubusercontent.com/141905920/177bc2b6-b69a-451a-81b3-bc9e1c5f46f8",
     "isArchived": false
@@ -942,7 +948,7 @@
     "isArchived": false
   },
   "scenario-labs/blender-plugin": {
-    "stars": 1064,
+    "stars": 1065,
     "pushedAt": "2026-11-20",
     "customOgImage": "https://repository-images.githubusercontent.com/1351289337/cb81a0f3-8e6b-49f3-b500-b5d06f2ac10a",
     "isArchived": false
@@ -966,7 +972,7 @@
     "isArchived": false
   },
   "shteeve3d/blender-wiggle-2": {
-    "stars": 1036,
+    "stars": 1037,
     "pushedAt": "2024-04-18",
     "customOgImage": null,
     "isArchived": false
@@ -996,19 +1002,19 @@
     "isArchived": false
   },
   "ssloy/tinyraytracer": {
-    "stars": 5395,
+    "stars": 5396,
     "pushedAt": "2023-07-07",
     "customOgImage": null,
     "isArchived": false
   },
   "ssloy/tinyrenderer": {
-    "stars": 24566,
+    "stars": 24567,
     "pushedAt": "2026-07-29",
     "customOgImage": null,
     "isArchived": false
   },
   "storytold/craft-launcher": {
-    "stars": 5567,
+    "stars": 5570,
     "pushedAt": "2026-11-22",
     "customOgImage": null,
     "isArchived": false
@@ -1032,7 +1038,7 @@
     "isArchived": false
   },
   "Tencent-Hunyuan/Hunyuan3D-2": {
-    "stars": 15516,
+    "stars": 15518,
     "pushedAt": "2025-10-28",
     "customOgImage": null,
     "isArchived": false
@@ -1074,7 +1080,7 @@
     "isArchived": false
   },
   "Tripo-Developer/tripo-3d-for-blender": {
-    "stars": 85,
+    "stars": 86,
     "pushedAt": "2025-11-06",
     "customOgImage": null,
     "isArchived": false
@@ -1110,7 +1116,7 @@
     "isArchived": false
   },
   "UPBGE/upbge": {
-    "stars": 1877,
+    "stars": 1878,
     "pushedAt": "2026-11-22",
     "customOgImage": null,
     "isArchived": false
@@ -1152,7 +1158,7 @@
     "isArchived": false
   },
   "warpgatelabs/gauss-cannon": {
-    "stars": 121,
+    "stars": 122,
     "pushedAt": "2026-10-14",
     "customOgImage": "https://repository-images.githubusercontent.com/1006259606/82d3da61-2cde-4955-982e-54b8c8b5a205",
     "isArchived": false

@@ -95,11 +95,11 @@
 
 ### [✨ 最近新增](RECENT.md)
 
-- **[anymove](https://github.com/patch-gg/anymove)** [`生成式 3D 与 ComfyUI`](#-%E7%94%9F%E6%88%90%E5%BC%8F-3d-%E4%B8%8E-comfyui) — 面向任意绑定生物（支持翅膀、尾巴与多足骨骼）的…
-- **[trompe](https://github.com/patch-gg/trompe)** [`生成式 3D 与 ComfyUI`](#-%E7%94%9F%E6%88%90%E5%BC%8F-3d-%E4%B8%8E-comfyui) — 为带 UV 的灰模 .glb…
-- **[Potemkin 3D](https://github.com/wrong-nebula/potemkin3D)** [`生成式 3D 与 ComfyUI`](#-%E7%94%9F%E6%88%90%E5%BC%8F-3d-%E4%B8%8E-comfyui) — 基于 trompe 的增强扩展，新增…
-- **[Patch Toolbox](https://patch.gg/create/toolbox/assets)** [`3D模型`](#-3d模型) — 聚合 50,000+ 免费开源游戏级 3D…
-- **[LoopTools](https://extensions.blender.org/add-ons/looptools/)** [`建模`](#-建模) — 必备的编辑模式网格工具集，包含桥接、放样、圆化、拍平、松弛与均分…
+- **[AnyMachine](https://github.com/apekshik/anymachine)** [`MCP、智能体与技能`](#-mcp智能体与技能) — 基于智能体的 Blender… _(11月22日)_
+- **[anymove](https://github.com/patch-gg/anymove)** [`生成式 3D 与 ComfyUI`](#-%E7%94%9F%E6%88%90%E5%BC%8F-3d-%E4%B8%8E-comfyui) — 面向任意绑定生物（支持翅膀、尾巴与多足… _(11月19日)_
+- **[trompe](https://github.com/patch-gg/trompe)** [`生成式 3D 与 ComfyUI`](#-%E7%94%9F%E6%88%90%E5%BC%8F-3d-%E4%B8%8E-comfyui) — 为带 UV 的灰模 .glb… _(11月19日)_
+- **[Potemkin 3D](https://github.com/wrong-nebula/potemkin3D)** [`生成式 3D 与 ComfyUI`](#-%E7%94%9F%E6%88%90%E5%BC%8F-3d-%E4%B8%8E-comfyui) — 基于 trompe 的增强扩展，新增… _(11月19日)_
+- **[Patch Toolbox](https://patch.gg/create/toolbox/assets)** [`3D模型`](#-3d模型) — 聚合 50,000+ 免费开源游戏级… _(11月19日)_
 
 <!-- RECENT:END -->
 
@@ -351,6 +351,7 @@
 - [Blender Agent Skills](https://github.com/EL4CTEO/blender-skills)：面向 Claude Code、Cursor、Copilot 与 Gemini CLI 打包的专业 Blender 智能体技能集。![][mit]
 - [DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender)：让 AI 编程智能体借助 `bpy` 知识库、执行契约和 3D 打印生产门禁在 Blender 中构建模型的智能体工具包。
 - [AnyScene](https://github.com/apekshik/anyscene)：通过多智能体协作从文本提示词生成完整、逼真的 Blender 3D 场景，涵盖道具生成、房间布局、环境氛围与电影级渲染。[[演示视频]](https://x.com/apekshik/status/2116638903923073290) ![][mit]
+- [AnyMachine](https://github.com/apekshik/anymachine)：基于智能体的 Blender 管线，从参考图逐部件构建可动机械绑定（铰链、液压、多足与硬表面装配体），提供 0–1 参数化控制与 GLB 导出。![][mit]
 - [AI Art Engine](https://github.com/Justin-sky/ai-art-engine)：基于节点的游戏资产工作室，内置 Blender TCP 桥接与 24 个专用 MCP 工具，支持 3D 网格建模、骨骼绑定、PBR 烘焙以及面向 Unity、Godot 和 Cocos 的 glTF/FBX 导出。![][gpl]
 - [Construct for Blender](https://github.com/rtmandreyev/construct/tree/main/hosts/blender)：导入由 AI 智能体编写的构建体（场景 JSON、世界或 glTF）及其命名部件、关节与装配结构，并提供侧边栏控件以实现构建、展开、全息到实体完成切换及关键帧展示。[![][repo]](https://github.com/rtmandreyev/construct)
 - [Mixar](https://www.mixar.app/)：基于 Blender 定制开发的 AI 3D 创作套件，内置交互式聊天智能体 (Mixie)、图层化纹理绘制与生成式 3D 工具。[![][repo]](https://github.com/Mixar-AI/mixar-app) ![][gpl]

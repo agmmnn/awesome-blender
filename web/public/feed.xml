@@ -6,7 +6,15 @@
     <atom:link href="https://awesome-blender.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>Latest curated Blender add-ons, AI &amp; MCP tools, 3D assets, standalone software, tutorials, and community links.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <item>
+      <title>AnyMachine</title>
+      <link>https://github.com/apekshik/anymachine</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#anymachine</guid>
+      <category>AI &amp; MCP / MCP, Agents &amp; Skills</category>
+      <pubDate>Sun, 22 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Agent-driven Blender pipeline that builds articulated, working mechanical rigs (hinges, hydraulics, legs, and multi-part hard-surface assemblies) from references with normalized 0–1 controls and GLB export. — https://github.com/apekshik/anymachine</description>
+    </item>
     <item>
       <title>anymove</title>
       <link>https://github.com/patch-gg/anymove</link>
@@ -398,14 +406,6 @@
       <category>Resources / HDRIs</category>
       <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
       <description>Ad-free, account-free library of ultra-high-resolution CC0 HDRI environment maps up to 29K. — https://openhdri.org/</description>
-    </item>
-    <item>
-      <title>Kenney Audio</title>
-      <link>https://kenney.nl/assets/category:Audio</link>
-      <guid isPermaLink="true">https://awesome-blender.vercel.app/#kenney-audio</guid>
-      <category>Resources / Sound/Music</category>
-      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
-      <description>Clean CC0 game, UI, and interface sound effect packs ready for games and animations. — https://kenney.nl/assets/category:Audio</description>
     </item>
   </channel>
 </rss>

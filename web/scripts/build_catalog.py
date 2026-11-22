@@ -1492,6 +1492,38 @@ def _truncate_text(text: str, max_len: int) -> str:
     return f"{cut}…"
 
 
+_SHORT_MONTHS = (
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+)
+
+
+def _format_short_month_day(iso_date: str, lang: str = "en") -> str:
+    parts = iso_date.split("-")
+    if len(parts) < 3:
+        return iso_date
+    try:
+        month = int(parts[1])
+        day = int(parts[2])
+    except ValueError:
+        return iso_date
+    if not (1 <= month <= 12):
+        return iso_date
+    if lang == "zh":
+        return f"{month}月{day}日"
+    return f"{_SHORT_MONTHS[month - 1]} {day}"
+
+
 def build_readme_recent_block(
     catalog: dict[str, Any],
     site_url: str,
@@ -1518,13 +1550,15 @@ def build_readme_recent_block(
             or _fallback_github_anchor(cat_title)
         )
         desc_raw = item["descriptionZh"] if lang == "zh" else item["description"]
-        # Budget description length so each bullet stays cleanly on a single line
-        used_len = len(title) + len(cat_title)
-        max_desc = max(24, (44 if lang == "zh" else 92) - used_len)
+        dt_short = _format_short_month_day(item["addedAt"], lang) if item["addedAt"] else ""
+        date_suffix = f" _({dt_short})_" if dt_short else ""
+        # Budget description length so each bullet (including date) stays cleanly on a single line
+        used_len = len(title) + len(cat_title) + (len(dt_short) + 3 if dt_short else 0)
+        max_desc = max(20, (44 if lang == "zh" else 92) - used_len)
         desc = _truncate_text(desc_raw, max_desc)
         desc_part = f" — {desc}" if desc else ""
         lines.append(
-            f"- **[{title}]({item['url']})** [`{cat_title}`]({anchor}){desc_part}"
+            f"- **[{title}]({item['url']})** [`{cat_title}`]({anchor}){desc_part}{date_suffix}"
         )
     lines.extend(["", RECENT_END_MARKER])
     return "\n".join(lines)

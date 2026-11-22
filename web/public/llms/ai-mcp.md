@@ -1,6 +1,6 @@
 # AI & MCP
 
-> 42 curated entries across 3 categories. Index: https://awesome-blender.vercel.app/llms.txt
+> 43 curated entries across 3 categories. Index: https://awesome-blender.vercel.app/llms.txt
 
 ## MCP, Agents & Skills
 
@@ -10,6 +10,7 @@
 - [Blender Agent Skills](https://github.com/EL4CTEO/blender-skills): Professional Blender workflows packaged as Agent Skills for Claude Code, Cursor, Copilot, and Gemini CLI. `[MIT]`
 - [DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender): Agent toolkit that lets AI coding agents build models in Blender with a `bpy` knowledge base, an execution contract, and a 3D-print production gate. `[open-source]`
 - [AnyScene](https://github.com/apekshik/anyscene): Multi-agent pipeline that generates complete, photorealistic 3D Blender scenes from a text prompt, handling prop generation, room layout, atmosphere, and cinematic rendering. [[video demo]](https://x.com/apekshik/status/2116638903923073290) `[MIT]`
+- [AnyMachine](https://github.com/apekshik/anymachine): Agent-driven Blender pipeline that builds articulated, working mechanical rigs (hinges, hydraulics, legs, and multi-part hard-surface assemblies) from references with normalized 0–1 controls and GLB export. `[MIT]`
 - [AI Art Engine](https://github.com/Justin-sky/ai-art-engine): Node-based game asset studio with a built-in Blender TCP bridge and 24 dedicated MCP tools for 3D mesh modeling, armature rigging, PBR baking, and glTF/FBX export to Unity, Godot, and Cocos. `[GPL]`
 - [Construct for Blender](https://github.com/rtmandreyev/construct/tree/main/hosts/blender): Imports constructs written by AI agents (scene JSON, worlds or glTF) with their named parts, joints and assembly, with sidebar controls for build, opening, hologram to solid and finish, and keyframed reveals. `[open-source]` ([Repository](https://github.com/rtmandreyev/construct))
 - [Mixar](https://www.mixar.app/): AI-powered 3D suite built as a custom fork of Blender with an integrated chat agent (Mixie), layer-based texture painting, and generative 3D tools. `[GPL]` ([Repository](https://github.com/Mixar-AI/mixar-app))
