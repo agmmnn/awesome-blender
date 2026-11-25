@@ -418,6 +418,7 @@
     - [Greeble Town](https://greebletown.com/) : Free premium quality sci-fi greebles hardsurface kitbash 3D assets.
     - [Poly Pizza](https://poly.pizza/) : Free CC0 and Creative Commons low-poly 3D models ready for Blender, games, and rapid prototyping.
     - [Rigmodels](https://rigmodels.com/) : Free rigged, animated and low poly models
+    - [Robotz](https://www.threedee.design/products/3d-models/cartoon-robot/) : Free modular robot rig for Blender with swappable parts, 20 poses, and five animations.
     - [NASA-3D-Resources](https://science.nasa.gov/3d-resources/) : Growing collection of free 3D models, spacecraft, terrain scans, and textures from NASA. [![][repo]](https://github.com/nasa/NASA-3D-Resources)
     - [Patch Toolbox](https://patch.gg/create/toolbox/assets) : Searchable library of 50,000+ free, open-source game-ready 3D models, textures, and rigged characters accessible via web, CLI, and MCP.
 - Marketplaces & Mixed-License Hubs:
