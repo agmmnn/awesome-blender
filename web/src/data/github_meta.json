@@ -1,7 +1,7 @@
 {
   "ad-si/awesome-3d-printing": {
-    "stars": 2111,
-    "pushedAt": "2026-11-02",
+    "stars": 2117,
+    "pushedAt": "2026-11-25",
     "customOgImage": null,
     "isArchived": false
   },
@@ -12,7 +12,7 @@
     "isArchived": false
   },
   "ahujasid/mcp-for-blender": {
-    "stars": 35322,
+    "stars": 35866,
     "pushedAt": "2026-11-18",
     "customOgImage": null,
     "isArchived": false
@@ -24,7 +24,7 @@
     "isArchived": false
   },
   "AIGODLIKE/ComfyUI-BlenderAI-node": {
-    "stars": 1599,
+    "stars": 1602,
     "pushedAt": "2025-11-28",
     "customOgImage": null,
     "isArchived": false
@@ -36,7 +36,7 @@
     "isArchived": false
   },
   "alessandro-zomparelli/tissue": {
-    "stars": 1088,
+    "stars": 1089,
     "pushedAt": "2026-10-31",
     "customOgImage": null,
     "isArchived": false
@@ -48,14 +48,14 @@
     "isArchived": false
   },
   "alexjhetherington/anvil-level-design": {
-    "stars": 690,
+    "stars": 691,
     "pushedAt": "2026-10-24",
     "customOgImage": null,
     "isArchived": false
   },
   "alicevision/meshroom": {
-    "stars": 13106,
-    "pushedAt": "2026-11-21",
+    "stars": 13116,
+    "pushedAt": "2026-11-26",
     "customOgImage": "https://repository-images.githubusercontent.com/34405381/7260dde2-2359-4753-8ce0-204f7e37cbbc",
     "isArchived": false
   },
@@ -72,104 +72,104 @@
     "isArchived": false
   },
   "apekshik/anymachine": {
-    "stars": 1035,
-    "pushedAt": "2026-11-17",
+    "stars": 1232,
+    "pushedAt": "2026-11-23",
     "customOgImage": null,
     "isArchived": false
   },
   "apekshik/anyscene": {
-    "stars": 448,
+    "stars": 492,
     "pushedAt": "2026-11-04",
     "customOgImage": null,
     "isArchived": false
   },
   "armory3d/armorpaint": {
-    "stars": 5524,
-    "pushedAt": "2026-11-20",
+    "stars": 5534,
+    "pushedAt": "2026-11-24",
     "customOgImage": null,
     "isArchived": false
   },
   "armory3d/armory": {
-    "stars": 3373,
+    "stars": 3374,
     "pushedAt": "2026-11-08",
     "customOgImage": null,
     "isArchived": false
   },
   "artellblender/springbones": {
-    "stars": 815,
+    "stars": 816,
     "pushedAt": "2026-03-29",
     "customOgImage": null,
     "isArchived": false
   },
   "ArthurBrussee/brush": {
-    "stars": 5328,
-    "pushedAt": "2026-11-21",
+    "stars": 5392,
+    "pushedAt": "2026-11-23",
     "customOgImage": null,
     "isArchived": false
   },
   "audacity/audacity": {
-    "stars": 19140,
-    "pushedAt": "2026-11-22",
+    "stars": 19187,
+    "pushedAt": "2026-11-26",
     "customOgImage": null,
     "isArchived": false
   },
   "BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset": {
-    "stars": 3398,
+    "stars": 3406,
     "pushedAt": "2023-07-04",
     "customOgImage": null,
     "isArchived": false
   },
   "BenjaminSauder/EdgeFlow": {
-    "stars": 1585,
+    "stars": 1583,
     "pushedAt": "2025-05-11",
     "customOgImage": null,
     "isArchived": false
   },
   "benrugg/AI-Render": {
-    "stars": 1235,
+    "stars": 1237,
     "pushedAt": "2025-12-28",
     "customOgImage": null,
     "isArchived": false
   },
   "Betakontext/snapsplit": {
-    "stars": 33,
+    "stars": 34,
     "pushedAt": "2026-11-19",
     "customOgImage": null,
     "isArchived": false
   },
   "Bforartists/Bforartists": {
-    "stars": 819,
-    "pushedAt": "2026-11-21",
+    "stars": 824,
+    "pushedAt": "2026-11-26",
     "customOgImage": null,
     "isArchived": false
   },
   "Bingeljell/image-to-3dlab": {
-    "stars": 1246,
-    "pushedAt": "2026-11-20",
+    "stars": 1283,
+    "pushedAt": "2026-11-25",
     "customOgImage": "https://repository-images.githubusercontent.com/1320384572/0b642558-002b-43bf-a0b4-32c1b159c905",
     "isArchived": false
   },
   "bnpr/Malt": {
-    "stars": 1157,
+    "stars": 1158,
     "pushedAt": "2026-11-16",
     "customOgImage": null,
     "isArchived": false
   },
   "BoundingBoxSoftware/Materialize": {
-    "stars": 1837,
+    "stars": 1841,
     "pushedAt": "2024-06-24",
     "customOgImage": null,
     "isArchived": false
   },
   "bpy-dev/blender-mcp": {
-    "stars": 99,
+    "stars": 100,
     "pushedAt": "2026-11-18",
     "customOgImage": null,
     "isArchived": false
   },
   "BradyAJohnston/MolecularNodes": {
-    "stars": 1418,
-    "pushedAt": "2026-11-20",
+    "stars": 1425,
+    "pushedAt": "2026-11-24",
     "customOgImage": "https://repository-images.githubusercontent.com/485261976/c9da7ac7-0159-4043-aa3e-18249511415e",
     "isArchived": false
   },
@@ -186,44 +186,44 @@
     "isArchived": false
   },
   "Calinou/awesome-gamedev": {
-    "stars": 3232,
+    "stars": 3238,
     "pushedAt": "2026-08-25",
     "customOgImage": null,
     "isArchived": false
   },
   "carson-katri/dream-textures": {
-    "stars": 8254,
+    "stars": 8269,
     "pushedAt": "2026-09-17",
     "customOgImage": "https://repository-images.githubusercontent.com/534330590/bed2feee-70e9-45a2-ab7c-9c09aaed9eac",
     "isArchived": false
   },
   "CGCookie/retopoflow": {
-    "stars": 3360,
+    "stars": 3367,
     "pushedAt": "2026-11-09",
     "customOgImage": null,
     "isArchived": false
   },
   "chr15m/jsfxr": {
-    "stars": 468,
+    "stars": 470,
     "pushedAt": "2026-05-05",
     "customOgImage": null,
     "isArchived": false
   },
   "CloudCompare/CloudCompare": {
-    "stars": 4878,
-    "pushedAt": "2026-11-21",
+    "stars": 4893,
+    "pushedAt": "2026-11-26",
     "customOgImage": null,
     "isArchived": false
   },
   "cnr-isti-vclab/meshlab": {
-    "stars": 5929,
+    "stars": 5940,
     "pushedAt": "2026-11-02",
     "customOgImage": null,
     "isArchived": false
   },
   "colmap/colmap": {
-    "stars": 13274,
-    "pushedAt": "2026-11-22",
+    "stars": 13300,
+    "pushedAt": "2026-11-26",
     "customOgImage": null,
     "isArchived": false
   },
@@ -240,14 +240,14 @@
     "isArchived": false
   },
   "Dangry98/PolyQuilt-for-Blender-4.0": {
-    "stars": 156,
+    "stars": 157,
     "pushedAt": "2026-11-19",
     "customOgImage": null,
     "isArchived": false
   },
   "danielboxer/UVgami": {
-    "stars": 265,
-    "pushedAt": "2026-11-22",
+    "stars": 267,
+    "pushedAt": "2026-11-23",
     "customOgImage": "https://repository-images.githubusercontent.com/586395538/77fe22a8-fff4-4bfe-8638-40f019039ea2",
     "isArchived": false
   },
@@ -258,49 +258,49 @@
     "isArchived": false
   },
   "dcc-mcp/dcc-mcp-blender": {
-    "stars": 66,
-    "pushedAt": "2026-11-20",
+    "stars": 69,
+    "pushedAt": "2026-11-24",
     "customOgImage": null,
     "isArchived": false
   },
   "devanshutak25/3d-resources": {
-    "stars": 1034,
-    "pushedAt": "2026-11-19",
+    "stars": 1037,
+    "pushedAt": "2026-11-25",
     "customOgImage": null,
     "isArchived": false
   },
   "dfki-ric/phobos": {
-    "stars": 914,
+    "stars": 916,
     "pushedAt": "2026-07-14",
     "customOgImage": null,
     "isArchived": false
   },
   "dfranx/SHADERed": {
-    "stars": 4815,
+    "stars": 4816,
     "pushedAt": "2023-09-22",
     "customOgImage": "https://repository-images.githubusercontent.com/149930721/5151b700-9afb-11ea-8f42-4d77299a7301",
     "isArchived": false
   },
   "digicreatures/rigacar": {
-    "stars": 500,
+    "stars": 502,
     "pushedAt": "2024-04-18",
     "customOgImage": null,
     "isArchived": false
   },
   "dillongoostudios/goo-engine": {
-    "stars": 1492,
-    "pushedAt": "2026-11-14",
+    "stars": 1503,
+    "pushedAt": "2026-11-24",
     "customOgImage": null,
     "isArchived": false
   },
   "DLR-RM/BlenderProc": {
-    "stars": 3806,
+    "stars": 3816,
     "pushedAt": "2026-01-20",
     "customOgImage": "https://repository-images.githubusercontent.com/214165016/442e6580-96c0-11ea-9394-3eee6cda8bde",
     "isArchived": false
   },
   "domlysz/BlenderGIS": {
-    "stars": 9667,
+    "stars": 9690,
     "pushedAt": "2025-12-20",
     "customOgImage": null,
     "isArchived": false
@@ -318,7 +318,7 @@
     "isArchived": false
   },
   "EL4CTEO/blender-skills": {
-    "stars": 2669,
+    "stars": 2937,
     "pushedAt": "2026-11-21",
     "customOgImage": null,
     "isArchived": false
@@ -330,20 +330,20 @@
     "isArchived": false
   },
   "eliemichel/LilySurfaceScraper": {
-    "stars": 625,
+    "stars": 626,
     "pushedAt": "2026-06-19",
     "customOgImage": null,
     "isArchived": false
   },
   "eliemichel/MapsModelsImporter": {
-    "stars": 2827,
+    "stars": 2828,
     "pushedAt": "2024-04-21",
     "customOgImage": null,
     "isArchived": false
   },
   "elithril/blender-kiln": {
-    "stars": 231,
-    "pushedAt": "2026-11-16",
+    "stars": 237,
+    "pushedAt": "2026-11-23",
     "customOgImage": "https://repository-images.githubusercontent.com/1198528891/a3811eac-bbec-4364-9eae-e7d118444752",
     "isArchived": false
   },
@@ -354,25 +354,25 @@
     "isArchived": false
   },
   "f3d-app/f3d": {
-    "stars": 5090,
-    "pushedAt": "2026-11-22",
+    "stars": 5104,
+    "pushedAt": "2026-11-26",
     "customOgImage": "https://repository-images.githubusercontent.com/241178673/63e48b80-cc25-11ea-8f2e-19543d1f0221",
     "isArchived": false
   },
   "facebookresearch/audiocraft": {
-    "stars": 23943,
+    "stars": 23975,
     "pushedAt": "2026-03-03",
     "customOgImage": null,
     "isArchived": false
   },
   "fal-ai/fal-blender-extension": {
-    "stars": 20,
+    "stars": 21,
     "pushedAt": "2026-11-06",
     "customOgImage": null,
     "isArchived": false
   },
   "FishWoWater/trellis_blender": {
-    "stars": 79,
+    "stars": 80,
     "pushedAt": "2025-12-29",
     "customOgImage": null,
     "isArchived": false
@@ -384,13 +384,13 @@
     "isArchived": false
   },
   "FreeCAD/FreeCAD": {
-    "stars": 35683,
-    "pushedAt": "2026-11-22",
+    "stars": 35807,
+    "pushedAt": "2026-11-26",
     "customOgImage": "https://repository-images.githubusercontent.com/5736080/982c5fba-1a6f-4547-a430-96fbb275e6d0",
     "isArchived": false
   },
   "freemocap/freemocap": {
-    "stars": 10873,
+    "stars": 10912,
     "pushedAt": "2026-11-14",
     "customOgImage": null,
     "isArchived": false
@@ -402,13 +402,13 @@
     "isArchived": false
   },
   "ggambetta/computer-graphics-from-scratch": {
-    "stars": 1318,
+    "stars": 1319,
     "pushedAt": "2025-09-13",
     "customOgImage": null,
     "isArchived": false
   },
   "gokayfem/gaussian-splat-to-blender-nodes": {
-    "stars": 86,
+    "stars": 88,
     "pushedAt": "2026-10-24",
     "customOgImage": null,
     "isArchived": false
@@ -420,7 +420,7 @@
     "isArchived": false
   },
   "google-research/kubric": {
-    "stars": 2859,
+    "stars": 2860,
     "pushedAt": "2026-05-21",
     "customOgImage": null,
     "isArchived": false
@@ -438,38 +438,44 @@
     "isArchived": false
   },
   "grizzlypeak3d/DJV": {
-    "stars": 1176,
-    "pushedAt": "2026-11-22",
+    "stars": 1180,
+    "pushedAt": "2026-11-26",
     "customOgImage": null,
     "isArchived": false
   },
   "guillaumechereau/goxel": {
-    "stars": 3241,
+    "stars": 3245,
     "pushedAt": "2026-07-26",
     "customOgImage": null,
     "isArchived": false
   },
   "hkchengrex/MMAudio": {
-    "stars": 2326,
+    "stars": 2331,
     "pushedAt": "2026-02-23",
     "customOgImage": null,
     "isArchived": false
   },
   "hlorus/CAD_Sketcher": {
-    "stars": 3479,
-    "pushedAt": "2026-11-16",
+    "stars": 3482,
+    "pushedAt": "2026-11-23",
     "customOgImage": "https://repository-images.githubusercontent.com/390692642/aa01e9db-6cb8-4789-b3ba-ed9c0a3f2200",
     "isArchived": false
   },
   "hobuinc/usgs-lidar": {
     "stars": 172,
-    "pushedAt": "2026-11-22",
+    "pushedAt": "2026-11-25",
     "customOgImage": null,
     "isArchived": false
   },
   "hugemenace/nd": {
     "stars": 139,
     "pushedAt": "2026-07-22",
+    "customOgImage": null,
+    "isArchived": false
+  },
+  "iamahsanmehmood/blender-openskp": {
+    "stars": 23,
+    "pushedAt": "2026-11-26",
     "customOgImage": null,
     "isArchived": false
   },
@@ -492,14 +498,14 @@
     "isArchived": false
   },
   "ifBars/blender-agent-studio": {
-    "stars": 123,
-    "pushedAt": "2026-11-17",
+    "stars": 129,
+    "pushedAt": "2026-11-22",
     "customOgImage": null,
     "isArchived": false
   },
   "IfcOpenShell/IfcOpenShell": {
-    "stars": 2986,
-    "pushedAt": "2026-11-21",
+    "stars": 3000,
+    "pushedAt": "2026-11-26",
     "customOgImage": null,
     "isArchived": false
   },
@@ -516,8 +522,8 @@
     "isArchived": false
   },
   "JannisX11/blockbench": {
-    "stars": 6234,
-    "pushedAt": "2026-11-21",
+    "stars": 6250,
+    "pushedAt": "2026-11-25",
     "customOgImage": "https://repository-images.githubusercontent.com/93747383/44c9efb5-4899-4048-851a-eb19aace86f0",
     "isArchived": false
   },
@@ -540,7 +546,7 @@
     "isArchived": false
   },
   "johnzero7/XNALaraMesh": {
-    "stars": 599,
+    "stars": 600,
     "pushedAt": "2023-11-15",
     "customOgImage": null,
     "isArchived": false
@@ -552,19 +558,19 @@
     "isArchived": false
   },
   "jpbouza/BlenRig": {
-    "stars": 184,
+    "stars": 187,
     "pushedAt": "2026-11-16",
     "customOgImage": null,
     "isArchived": false
   },
   "Justin-sky/ai-art-engine": {
-    "stars": 286,
-    "pushedAt": "2026-11-18",
+    "stars": 292,
+    "pushedAt": "2026-11-26",
     "customOgImage": null,
     "isArchived": false
   },
   "jvm-graphics-labs/awesome-3d-meshes": {
-    "stars": 123,
+    "stars": 125,
     "pushedAt": "2019-04-25",
     "customOgImage": null,
     "isArchived": false
@@ -576,14 +582,14 @@
     "isArchived": false
   },
   "Kavex/GameDev-Resources": {
-    "stars": 7218,
+    "stars": 7224,
     "pushedAt": "2026-04-10",
     "customOgImage": null,
     "isArchived": true
   },
   "KDE/krita": {
-    "stars": 10785,
-    "pushedAt": "2026-11-22",
+    "stars": 10812,
+    "pushedAt": "2026-11-26",
     "customOgImage": null,
     "isArchived": false
   },
@@ -594,13 +600,13 @@
     "isArchived": false
   },
   "Kiri-Innovation/3dgs-render-blender-addon": {
-    "stars": 1273,
+    "stars": 1279,
     "pushedAt": "2026-11-11",
     "customOgImage": null,
     "isArchived": false
   },
   "ksami/QRemeshify": {
-    "stars": 1272,
+    "stars": 1276,
     "pushedAt": "2024-10-08",
     "customOgImage": null,
     "isArchived": false
@@ -618,20 +624,20 @@
     "isArchived": false
   },
   "lovasoa/dezoomify": {
-    "stars": 852,
-    "pushedAt": "2026-11-19",
+    "stars": 861,
+    "pushedAt": "2026-11-25",
     "customOgImage": "https://repository-images.githubusercontent.com/15501798/3a1eb800-315e-11ea-9e38-c8dbec8ce358",
     "isArchived": false
   },
   "LuxCoreRender/LuxCore": {
     "stars": 1353,
-    "pushedAt": "2026-11-15",
+    "pushedAt": "2026-11-23",
     "customOgImage": null,
     "isArchived": false
   },
   "makehumancommunity/mpfb2": {
-    "stars": 724,
-    "pushedAt": "2026-11-12",
+    "stars": 737,
+    "pushedAt": "2026-11-22",
     "customOgImage": null,
     "isArchived": false
   },
@@ -642,26 +648,26 @@
     "isArchived": false
   },
   "micmacIGN/micmac": {
-    "stars": 938,
+    "stars": 939,
     "pushedAt": "2026-10-21",
     "customOgImage": null,
     "isArchived": false
   },
   "mikeroyal/Photogrammetry-Guide": {
-    "stars": 1544,
+    "stars": 1546,
     "pushedAt": "2025-06-27",
     "customOgImage": "https://repository-images.githubusercontent.com/396518665/bbb2a14c-5c99-437c-b78d-bf5f14681f20",
     "isArchived": false
   },
   "mitsuba-renderer/mitsuba3": {
-    "stars": 2991,
-    "pushedAt": "2026-11-18",
+    "stars": 3000,
+    "pushedAt": "2026-11-24",
     "customOgImage": null,
     "isArchived": false
   },
   "Mixar-AI/mixar-app": {
-    "stars": 614,
-    "pushedAt": "2026-11-20",
+    "stars": 618,
+    "pushedAt": "2026-11-26",
     "customOgImage": null,
     "isArchived": false
   },
@@ -678,13 +684,13 @@
     "isArchived": false
   },
   "mrachinskiy/jewelcraft": {
-    "stars": 616,
+    "stars": 617,
     "pushedAt": "2026-11-10",
     "customOgImage": null,
     "isArchived": false
   },
   "mrven/Blender-Asset-Creation-Toolset": {
-    "stars": 374,
+    "stars": 375,
     "pushedAt": "2026-07-29",
     "customOgImage": null,
     "isArchived": false
@@ -702,37 +708,37 @@
     "isArchived": false
   },
   "nasa/NASA-3D-Resources": {
-    "stars": 3881,
+    "stars": 3883,
     "pushedAt": "2025-06-03",
     "customOgImage": null,
     "isArchived": false
   },
   "NatronGitHub/Natron": {
-    "stars": 5757,
-    "pushedAt": "2026-11-22",
+    "stars": 5775,
+    "pushedAt": "2026-11-26",
     "customOgImage": null,
     "isArchived": false
   },
   "ndee85/coa_tools": {
-    "stars": 976,
+    "stars": 977,
     "pushedAt": "2024-05-02",
     "customOgImage": null,
     "isArchived": false
   },
   "nerfstudio-project/gsplat": {
-    "stars": 5931,
+    "stars": 5960,
     "pushedAt": "2026-09-19",
     "customOgImage": "https://repository-images.githubusercontent.com/683223775/8692bf1c-2f61-4d5a-b548-f68e71449d68",
     "isArchived": false
   },
   "nerfstudio-project/nerfstudio": {
-    "stars": 12238,
+    "stars": 12263,
     "pushedAt": "2025-07-29",
     "customOgImage": "https://repository-images.githubusercontent.com/498449014/8e81d571-8f06-4801-9a95-244294990473",
     "isArchived": false
   },
   "neutraltone/awesome-stock-resources": {
-    "stars": 14869,
+    "stars": 14885,
     "pushedAt": "2026-02-11",
     "customOgImage": null,
     "isArchived": false
@@ -744,20 +750,20 @@
     "isArchived": false
   },
   "nidorx/matcaps": {
-    "stars": 3407,
+    "stars": 3409,
     "pushedAt": "2025-10-13",
     "customOgImage": "https://repository-images.githubusercontent.com/223796982/4acf3a80-1250-11ea-90b4-877cb5ea7693",
     "isArchived": false
   },
   "nkallen/plasticity": {
-    "stars": 3416,
-    "pushedAt": "2026-11-18",
+    "stars": 3418,
+    "pushedAt": "2026-11-23",
     "customOgImage": null,
     "isArchived": false
   },
   "nortikin/sverchok": {
-    "stars": 2561,
-    "pushedAt": "2026-11-20",
+    "stars": 2570,
+    "pushedAt": "2026-11-24",
     "customOgImage": "https://repository-images.githubusercontent.com/13890450/e1c28100-d680-11ea-9b74-400f7e1b0263",
     "isArchived": false
   },
@@ -768,13 +774,13 @@
     "isArchived": false
   },
   "nutti/Magic-UV": {
-    "stars": 650,
+    "stars": 649,
     "pushedAt": "2024-09-03",
     "customOgImage": null,
     "isArchived": false
   },
   "nutti/Screencast-Keys": {
-    "stars": 1438,
+    "stars": 1439,
     "pushedAt": "2026-10-16",
     "customOgImage": "https://repository-images.githubusercontent.com/151890472/60e34d8c-2029-4208-a9c5-a2a12a9ce959",
     "isArchived": false
@@ -810,31 +816,31 @@
     "isArchived": false
   },
   "patch-gg/anymove": {
-    "stars": 654,
+    "stars": 665,
     "pushedAt": "2026-11-13",
     "customOgImage": null,
     "isArchived": false
   },
   "patch-gg/trompe": {
-    "stars": 227,
+    "stars": 230,
     "pushedAt": "2026-11-13",
     "customOgImage": null,
     "isArchived": false
   },
   "perarnia/fSpy-Blender": {
-    "stars": 1474,
+    "stars": 1476,
     "pushedAt": "2022-05-04",
     "customOgImage": null,
     "isArchived": false
   },
   "playcanvas/supersplat": {
-    "stars": 10705,
+    "stars": 10731,
     "pushedAt": "2026-11-19",
     "customOgImage": "https://repository-images.githubusercontent.com/707265118/f42dba0a-ced5-43fb-8579-a8e8c6c39b19",
     "isArchived": false
   },
   "princeton-vl/infinigen": {
-    "stars": 7466,
+    "stars": 7477,
     "pushedAt": "2026-11-11",
     "customOgImage": null,
     "isArchived": false
@@ -846,7 +852,7 @@
     "isArchived": false
   },
   "processing/processing": {
-    "stars": 6472,
+    "stars": 6473,
     "pushedAt": "2026-07-15",
     "customOgImage": null,
     "isArchived": false
@@ -858,7 +864,7 @@
     "isArchived": false
   },
   "QwenLM/BlenderWorld": {
-    "stars": 342,
+    "stars": 344,
     "pushedAt": "2026-10-20",
     "customOgImage": null,
     "isArchived": false
@@ -870,14 +876,14 @@
     "isArchived": false
   },
   "ranjian0/building_tools": {
-    "stars": 1537,
+    "stars": 1545,
     "pushedAt": "2026-09-24",
     "customOgImage": null,
     "isArchived": false
   },
   "REDxEYE/SourceIO": {
-    "stars": 994,
-    "pushedAt": "2026-11-21",
+    "stars": 996,
+    "pushedAt": "2026-11-25",
     "customOgImage": null,
     "isArchived": false
   },
@@ -894,20 +900,20 @@
     "isArchived": false
   },
   "rlguy/Blender-FLIP-Fluids": {
-    "stars": 1991,
+    "stars": 1995,
     "pushedAt": "2026-11-10",
     "customOgImage": null,
     "isArchived": false
   },
   "RodZill4/material-maker": {
-    "stars": 6290,
+    "stars": 6329,
     "pushedAt": "2026-11-11",
     "customOgImage": "https://repository-images.githubusercontent.com/141905920/177bc2b6-b69a-451a-81b3-bc9e1c5f46f8",
     "isArchived": false
   },
   "rtmandreyev/construct": {
-    "stars": 169,
-    "pushedAt": "2026-11-13",
+    "stars": 177,
+    "pushedAt": "2026-11-24",
     "customOgImage": "https://repository-images.githubusercontent.com/1431950299/e2e6951f-23de-44fa-8db6-21d37a0af156",
     "isArchived": false
   },
@@ -918,7 +924,7 @@
     "isArchived": false
   },
   "sakalond/ComfyUI-LATO2": {
-    "stars": 49,
+    "stars": 50,
     "pushedAt": "2026-11-03",
     "customOgImage": null,
     "isArchived": false
@@ -936,19 +942,19 @@
     "isArchived": false
   },
   "saturday06/VRM-Addon-for-Blender": {
-    "stars": 1752,
-    "pushedAt": "2026-11-21",
+    "stars": 1756,
+    "pushedAt": "2026-11-23",
     "customOgImage": "https://repository-images.githubusercontent.com/164374484/598a0dc7-5c08-49ee-bdcf-7d1b4ae49e16",
     "isArchived": false
   },
   "SBCV/Blender-Addon-Photogrammetry-Importer": {
-    "stars": 1382,
+    "stars": 1384,
     "pushedAt": "2026-02-16",
     "customOgImage": null,
     "isArchived": false
   },
   "scenario-labs/blender-plugin": {
-    "stars": 1065,
+    "stars": 1080,
     "pushedAt": "2026-11-20",
     "customOgImage": "https://repository-images.githubusercontent.com/1351289337/cb81a0f3-8e6b-49f3-b500-b5d06f2ac10a",
     "isArchived": false
@@ -960,7 +966,7 @@
     "isArchived": false
   },
   "seehiong/blender-mcp-bridge": {
-    "stars": 88,
+    "stars": 89,
     "pushedAt": "2026-09-13",
     "customOgImage": null,
     "isArchived": false
@@ -972,14 +978,14 @@
     "isArchived": false
   },
   "shteeve3d/blender-wiggle-2": {
-    "stars": 1037,
+    "stars": 1038,
     "pushedAt": "2024-04-18",
     "customOgImage": null,
     "isArchived": false
   },
   "sketchfab/blender-plugin": {
-    "stars": 1361,
-    "pushedAt": "2026-11-10",
+    "stars": 1363,
+    "pushedAt": "2026-11-25",
     "customOgImage": null,
     "isArchived": false
   },
@@ -1002,20 +1008,20 @@
     "isArchived": false
   },
   "ssloy/tinyraytracer": {
-    "stars": 5396,
+    "stars": 5395,
     "pushedAt": "2023-07-07",
     "customOgImage": null,
     "isArchived": false
   },
   "ssloy/tinyrenderer": {
-    "stars": 24567,
+    "stars": 24587,
     "pushedAt": "2026-07-29",
     "customOgImage": null,
     "isArchived": false
   },
   "storytold/craft-launcher": {
-    "stars": 5571,
-    "pushedAt": "2026-11-22",
+    "stars": 5697,
+    "pushedAt": "2026-11-26",
     "customOgImage": null,
     "isArchived": false
   },
@@ -1026,7 +1032,7 @@
     "isArchived": false
   },
   "stuffmatic/fSpy": {
-    "stars": 2633,
+    "stars": 2636,
     "pushedAt": "2022-12-08",
     "customOgImage": null,
     "isArchived": false
@@ -1038,13 +1044,13 @@
     "isArchived": false
   },
   "Tencent-Hunyuan/Hunyuan3D-2": {
-    "stars": 15519,
+    "stars": 15572,
     "pushedAt": "2025-10-28",
     "customOgImage": null,
     "isArchived": false
   },
   "Tencent-Hunyuan/HunyuanVideo-Foley": {
-    "stars": 1102,
+    "stars": 1108,
     "pushedAt": "2025-09-28",
     "customOgImage": null,
     "isArchived": false
@@ -1062,32 +1068,32 @@
     "isArchived": false
   },
   "timzhang642/3D-Machine-Learning": {
-    "stars": 10232,
+    "stars": 10236,
     "pushedAt": "2024-07-04",
     "customOgImage": null,
     "isArchived": false
   },
   "tin2tin/Pallaidium": {
-    "stars": 1559,
-    "pushedAt": "2026-11-18",
+    "stars": 1563,
+    "pushedAt": "2026-11-25",
     "customOgImage": null,
     "isArchived": false
   },
   "TrenchBroom/TrenchBroom": {
-    "stars": 2918,
-    "pushedAt": "2026-11-17",
+    "stars": 2925,
+    "pushedAt": "2026-11-25",
     "customOgImage": null,
     "isArchived": false
   },
   "Tripo-Developer/tripo-3d-for-blender": {
-    "stars": 86,
+    "stars": 88,
     "pushedAt": "2025-11-06",
     "customOgImage": null,
     "isArchived": false
   },
   "TripoGrowthLab/awesome-astra-prompts": {
-    "stars": 400,
-    "pushedAt": "2026-11-16",
+    "stars": 405,
+    "pushedAt": "2026-11-26",
     "customOgImage": null,
     "isArchived": false
   },
@@ -1098,37 +1104,37 @@
     "isArchived": false
   },
   "u3dreal/molecular-plus": {
-    "stars": 422,
+    "stars": 426,
     "pushedAt": "2026-07-02",
     "customOgImage": "https://repository-images.githubusercontent.com/337525369/954852b1-7e9d-49e0-ac5c-de032b6dbcb3",
     "isArchived": false
   },
   "ucupumar/ucupaint": {
-    "stars": 2333,
-    "pushedAt": "2026-11-22",
+    "stars": 2336,
+    "pushedAt": "2026-11-23",
     "customOgImage": null,
     "isArchived": false
   },
   "unity3d-jp/MeshSync": {
-    "stars": 1681,
+    "stars": 1680,
     "pushedAt": "2024-12-06",
     "customOgImage": null,
     "isArchived": false
   },
   "UPBGE/upbge": {
-    "stars": 1878,
-    "pushedAt": "2026-11-22",
+    "stars": 1880,
+    "pushedAt": "2026-11-26",
     "customOgImage": null,
     "isArchived": false
   },
   "Upliner/CharMorph": {
-    "stars": 585,
+    "stars": 588,
     "pushedAt": "2026-11-16",
     "customOgImage": null,
     "isArchived": false
   },
   "VAST-AI-Research/UniRig": {
-    "stars": 2191,
+    "stars": 2369,
     "pushedAt": "2026-06-04",
     "customOgImage": null,
     "isArchived": false
@@ -1140,19 +1146,19 @@
     "isArchived": false
   },
   "Victor-IX/Blender-Launcher-V2": {
-    "stars": 745,
-    "pushedAt": "2026-11-20",
+    "stars": 747,
+    "pushedAt": "2026-11-23",
     "customOgImage": null,
     "isArchived": false
   },
   "vilemduha/blendercam": {
-    "stars": 590,
-    "pushedAt": "2026-01-01",
+    "stars": 589,
+    "pushedAt": "2026-11-24",
     "customOgImage": null,
     "isArchived": false
   },
   "visualbruno/ComfyUI-Hunyuan3d-2-1": {
-    "stars": 401,
+    "stars": 402,
     "pushedAt": "2026-09-08",
     "customOgImage": null,
     "isArchived": false
@@ -1182,25 +1188,25 @@
     "isArchived": false
   },
   "wjakob/instant-meshes": {
-    "stars": 6308,
+    "stars": 6313,
     "pushedAt": "2022-01-03",
     "customOgImage": null,
     "isArchived": false
   },
   "wrong-nebula/potemkin3D": {
-    "stars": 26,
+    "stars": 30,
     "pushedAt": "2026-11-19",
     "customOgImage": null,
     "isArchived": false
   },
   "xavier150/Blender-For-UnrealEngine-Addons": {
-    "stars": 2725,
-    "pushedAt": "2026-11-20",
+    "stars": 2733,
+    "pushedAt": "2026-11-26",
     "customOgImage": null,
     "isArchived": false
   },
   "zju3dv/GVHMR": {
-    "stars": 2312,
+    "stars": 2321,
     "pushedAt": "2026-09-15",
     "customOgImage": null,
     "isArchived": false

@@ -2,6 +2,10 @@
 
 > Latest 100 curated additions to [Awesome Blender](README.md) (auto-generated, capped at 100 entries). Browse interactively at [Web Directory](https://awesome-blender.vercel.app/?sort=added) · [RSS Feed](https://awesome-blender.vercel.app/feed.xml)
 
+## 2026-11-26 · 1 new
+
+- **[OpenSKP Import/Export](https://extensions.blender.org/add-ons/openskp-import-export/)** ([`🧩 Add-ons · Pipeline, I/O & 3D Scanning`](README.md#-pipeline-io--3d-scanning)) — Imports and exports SketchUp .skp files without SketchUp or Trimble's SDK, placing repeated components as collection instances. · [Details](https://awesome-blender.vercel.app/#openskp-import-export)
+
 ## 2026-11-22 · 1 new
 
 - **[AnyMachine](https://github.com/apekshik/anymachine)** ([`🤖 AI & MCP · MCP, Agents & Skills`](README.md#-mcp-agents--skills)) — Agent-driven Blender pipeline that builds articulated, working mechanical rigs (hinges, hydraulics, legs, and multi-part hard-surface assemblies) from references with normalized 0–1 controls and GLB export. · [Details](https://awesome-blender.vercel.app/#anymachine)
@@ -13,7 +17,7 @@
 - **[Potemkin 3D](https://github.com/wrong-nebula/potemkin3D)** ([`🤖 AI & MCP · Generative 3D & ComfyUI`](README.md#-generative-3d--comfyui)) — Extends trompe with automatic xatlas UV unwrapping, SAM/MoGe seam and geometry checks, surface relief, KTX2 GLB export, an MCP server, and Blender dcc-sync. · [Details](https://awesome-blender.vercel.app/#potemkin-3d)
 - **[Patch Toolbox](https://patch.gg/create/toolbox/assets)** ([`📦 Resources · 3D Models`](README.md#-3d-models)) — Searchable library of 50,000+ free, open-source game-ready 3D models, textures, and rigged characters accessible via web, CLI, and MCP. · [Details](https://awesome-blender.vercel.app/#patch-toolbox)
 
-## 2026-11-18 · 95 new
+## 2026-11-18 · 94 new
 
 - **[LoopTools](https://extensions.blender.org/add-ons/looptools/)** ([`🧩 Add-ons · Modeling`](README.md#-modeling)) — Essential Edit Mode mesh utilities including bridge, loft, circle, flatten, relax, and space tools. · [Details](https://awesome-blender.vercel.app/#looptools)
 - **[F2](https://extensions.blender.org/add-ons/f2/)** ([`🧩 Add-ons · Modeling`](README.md#-modeling)) — Extends single-vertex and edge face creation in Edit Mode for faster quad retopology and modeling. · [Details](https://awesome-blender.vercel.app/#f2)
@@ -109,4 +113,3 @@
 - **[Start COMPOSITING in Blender 5.0 in 16 Minutes by Pau the Hueman](https://www.youtube.com/watch?v=kAWfjBKcgFc)** ([`🎓 Tutorials · Compositing`](README.md#-compositing)) · [Details](https://awesome-blender.vercel.app/#start-compositing-in-blender-50-in-16-minutes-by)
 - **[Compositing for Complete Beginners in Blender by Kaizen](https://www.youtube.com/watch?v=PYTXvo29AsY)** ([`🎓 Tutorials · Compositing`](README.md#-compositing)) · [Details](https://awesome-blender.vercel.app/#compositing-for-complete-beginners-in-blender-by)
 - **[3D Tracking with COLMAP & Blender by Polyfjord](https://www.youtube.com/watch?v=xx85eyN1Xc0)** ([`🎓 Tutorials · Motion Tracking/Capture`](README.md#-motion-trackingcapture)) · [Details](https://awesome-blender.vercel.app/#3d-tracking-with-colmap-blender-by-polyfjord)
-- **[How to Animate in Blender with Free AI Mocap Tools by ProductionCrate](https://www.youtube.com/watch?v=mifGsXHitvs)** ([`🎓 Tutorials · Motion Tracking/Capture`](README.md#-motion-trackingcapture)) · [Details](https://awesome-blender.vercel.app/#how-to-animate-in-blender-with-free-ai-mocap-too)

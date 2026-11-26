@@ -6,7 +6,15 @@
     <atom:link href="https://awesome-blender.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>Latest curated Blender add-ons, AI &amp; MCP tools, 3D assets, standalone software, tutorials, and community links.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <item>
+      <title>OpenSKP Import/Export</title>
+      <link>https://extensions.blender.org/add-ons/openskp-import-export/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#openskp-import-export</guid>
+      <category>Add-ons / Pipeline, I/O &amp; 3D Scanning</category>
+      <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Imports and exports SketchUp .skp files without SketchUp or Trimble&#x27;s SDK, placing repeated components as collection instances. — https://extensions.blender.org/add-ons/openskp-import-export/</description>
+    </item>
     <item>
       <title>AnyMachine</title>
       <link>https://github.com/apekshik/anymachine</link>
@@ -398,14 +406,6 @@
       <category>Resources / Blender Scenes/Files</category>
       <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
       <description>Free Blender character and body-mechanics practice rigs created by Pierrick Picaut (free account required). — https://www.p2design-academy.com/</description>
-    </item>
-    <item>
-      <title>OpenHDRI</title>
-      <link>https://openhdri.org/</link>
-      <guid isPermaLink="true">https://awesome-blender.vercel.app/#openhdri</guid>
-      <category>Resources / HDRIs</category>
-      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
-      <description>Ad-free, account-free library of ultra-high-resolution CC0 HDRI environment maps up to 29K. — https://openhdri.org/</description>
     </item>
   </channel>
 </rss>

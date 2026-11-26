@@ -95,11 +95,11 @@
 
 ### [✨ Recently Added](RECENT.md)
 
+- **[OpenSKP Import/Export](https://extensions.blender.org/add-ons/openskp-import-export/)** [`Pipeline, I/O & 3D Scanning`](#-pipeline-io--3d-scanning) — Imports and exports SketchUp .skp… _(Nov 26)_
 - **[AnyMachine](https://github.com/apekshik/anymachine)** [`MCP, Agents & Skills`](#-mcp-agents--skills) — Agent-driven Blender pipeline that builds… _(Nov 22)_
 - **[anymove](https://github.com/patch-gg/anymove)** [`Generative 3D & ComfyUI`](#-generative-3d--comfyui) — AI motion capture pipeline for any rigged creature… _(Nov 19)_
 - **[trompe](https://github.com/patch-gg/trompe)** [`Generative 3D & ComfyUI`](#-generative-3d--comfyui) — Textures entire UV-mapped .glb game levels from a… _(Nov 19)_
 - **[Potemkin 3D](https://github.com/wrong-nebula/potemkin3D)** [`Generative 3D & ComfyUI`](#-generative-3d--comfyui) — Extends trompe with automatic xatlas UV… _(Nov 19)_
-- **[Patch Toolbox](https://patch.gg/create/toolbox/assets)** [`3D Models`](#-3d-models) — Searchable library of 50,000+ free, open-source game-ready… _(Nov 19)_
 
 <!-- RECENT:END -->
 

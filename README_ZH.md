@@ -95,11 +95,11 @@
 
 ### [✨ 最近新增](RECENT.md)
 
+- **[OpenSKP Import/Export](https://extensions.blender.org/add-ons/openskp-import-export/)** [`管线、导入导出与 3D 扫描`](#-管线导入导出与-3d-扫描) — Imports and… _(11月26日)_
 - **[AnyMachine](https://github.com/apekshik/anymachine)** [`MCP、智能体与技能`](#-mcp智能体与技能) — 基于智能体的 Blender… _(11月22日)_
 - **[anymove](https://github.com/patch-gg/anymove)** [`生成式 3D 与 ComfyUI`](#-%E7%94%9F%E6%88%90%E5%BC%8F-3d-%E4%B8%8E-comfyui) — 面向任意绑定生物（支持翅膀、尾巴与多足… _(11月19日)_
 - **[trompe](https://github.com/patch-gg/trompe)** [`生成式 3D 与 ComfyUI`](#-%E7%94%9F%E6%88%90%E5%BC%8F-3d-%E4%B8%8E-comfyui) — 为带 UV 的灰模 .glb… _(11月19日)_
 - **[Potemkin 3D](https://github.com/wrong-nebula/potemkin3D)** [`生成式 3D 与 ComfyUI`](#-%E7%94%9F%E6%88%90%E5%BC%8F-3d-%E4%B8%8E-comfyui) — 基于 trompe 的增强扩展，新增… _(11月19日)_
-- **[Patch Toolbox](https://patch.gg/create/toolbox/assets)** [`3D模型`](#-3d模型) — 聚合 50,000+ 免费开源游戏级… _(11月19日)_
 
 <!-- RECENT:END -->
 
@@ -298,6 +298,7 @@
     - [Substance 3D add-on for Blender by Adobe](https://substance3d.adobe.com/magazine/the-substance-3d-add-on-for-blender-is-here/)：在 Blender 中直接加载并调整参数化 Substance `.sbsar` 材质。
     - [Daz to Blender Bridge](https://www.daz3d.com/daz-to-blender-bridge)：将 Daz Studio 中的 Genesis 角色与绑定直接传输至 Blender。
     - [LibSM64-Blender](https://github.com/libsm64/libsm64-blender)：将 `libsm64` 物理与《超级马里奥 64》角色工作流集成至 Blender。
+    - [OpenSKP Import/Export](https://extensions.blender.org/add-ons/openskp-import-export/) : Imports and exports SketchUp `.skp` files without SketchUp or Trimble's SDK, placing repeated components as collection instances. [![][repo]](https://github.com/iamahsanmehmood/blender-openskp) ![][gpl]
     - 格式导入器：[Daz Importer](https://bitbucket.org/Diffeomorphic/import_daz), [Rhinoceros 3D (`.3dm`)](https://blenderartists.org/t/import-rhinoceros-3d-files-into-blender/1136070), [XPS/XNALara](https://github.com/johnzero7/XNALaraMesh)。
 - 导出与格式转换：
     - [Export Paper Model from Blender](https://extensions.blender.org/add-ons/export-paper-model/)：将 3D 网格展开为可打印的 SVG/PDF 纸模图纸。[[文档]](https://addam.github.io/Export-Paper-Model-from-Blender/) [![][repo]](https://github.com/addam/Export-Paper-Model-from-Blender)
