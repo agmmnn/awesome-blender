@@ -4,22 +4,22 @@
     "totalSections": 6,
     "totalCategories": 44,
     "totalSubgroups": 69,
-    "totalEntries": 592,
+    "totalEntries": 593,
     "entryKinds": {
-      "item": 538,
+      "item": 539,
       "collection": 15,
       "quick-link": 6,
       "social-handle": 33
     },
-    "totalContentUrls": 811,
-    "uniqueContentUrls": 807,
+    "totalContentUrls": 813,
+    "uniqueContentUrls": 809,
     "paidEntries": 31,
-    "freeEntries": 561,
-    "uniqueGithubRepos": 202,
+    "freeEntries": 562,
+    "uniqueGithubRepos": 203,
     "uniqueBlenderExtensions": 53,
     "licenseCounts": {
       "gpl": 64,
-      "mit": 25,
+      "mit": 26,
       "zero": 23,
       "cc": 6,
       "by": 3
@@ -27,8 +27,8 @@
     "platformCounts": {
       "gumroad": 18,
       "superhive": 18,
-      "github": 202,
-      "open-source": 221,
+      "github": 203,
+      "open-source": 222,
       "extensions": 53,
       "youtube": 107,
       "gitlab": 3,
@@ -5739,7 +5739,7 @@
             },
             {
               "id": "web-xr-collaboration",
-              "line": 318,
+              "line": 319,
               "title": {
                 "en": "Web, XR & Collaboration",
                 "zh": "Web、XR 与实时协作"
@@ -6616,8 +6616,60 @@
               "addedAt": "2020-03-20"
             },
             {
-              "id": "L319-needle-engine",
-              "line": 319,
+              "id": "L318-ogc-3d-tiles-streaming",
+              "line": 318,
+              "kind": "item",
+              "sectionId": "add-ons",
+              "categoryId": "add-ons/pipeline-i-o-3d-scanning",
+              "subgroupId": "geographic-maps",
+              "subgroup": {
+                "en": "Geographic & Maps",
+                "zh": "地理与地图"
+              },
+              "title": {
+                "en": "OGC 3D Tiles Streaming",
+                "zh": "OGC 3D Tiles Streaming"
+              },
+              "url": "https://blender-3dtiles.iconem.com/",
+              "description": {
+                "en": "Streams OGC 3D Tiles into Blender with level of detail, for the viewport and renders: Google Photorealistic 3D Tiles, Cesium ion, photogrammetry meshes, point clouds and Gaussian splats.",
+                "zh": "Streams OGC 3D Tiles into Blender with level of detail, for the viewport and renders: Google Photorealistic 3D Tiles, Cesium ion, photogrammetry meshes, point clouds and Gaussian splats."
+              },
+              "descriptionMd": {
+                "en": "Streams OGC 3D Tiles into Blender with level of detail, for the viewport and renders: Google Photorealistic 3D Tiles, Cesium ion, photogrammetry meshes, point clouds and Gaussian splats.",
+                "zh": "Streams OGC 3D Tiles into Blender with level of detail, for the viewport and renders: Google Photorealistic 3D Tiles, Cesium ion, photogrammetry meshes, point clouds and Gaussian splats."
+              },
+              "secondaryLinks": [
+                {
+                  "label": {
+                    "en": "Repository",
+                    "zh": "源码仓库"
+                  },
+                  "url": "https://github.com/Iconem/blender_ogc3dtiles",
+                  "type": "repo"
+                }
+              ],
+              "allUrls": [
+                "https://blender-3dtiles.iconem.com/",
+                "https://github.com/Iconem/blender_ogc3dtiles"
+              ],
+              "isPaid": false,
+              "isFree": true,
+              "licenses": [
+                "mit"
+              ],
+              "mediaType": null,
+              "platforms": [
+                "github",
+                "open-source"
+              ],
+              "githubRepo": "Iconem/blender_ogc3dtiles",
+              "blenderExtensionId": null,
+              "addedAt": "2026-11-27"
+            },
+            {
+              "id": "L320-needle-engine",
+              "line": 320,
               "kind": "item",
               "sectionId": "add-ons",
               "categoryId": "add-ons/pipeline-i-o-3d-scanning",
@@ -6653,8 +6705,8 @@
               "addedAt": "2026-01-22"
             },
             {
-              "id": "L320-verge3d",
-              "line": 320,
+              "id": "L321-verge3d",
+              "line": 321,
               "kind": "item",
               "sectionId": "add-ons",
               "categoryId": "add-ons/pipeline-i-o-3d-scanning",
@@ -6690,8 +6742,8 @@
               "addedAt": "2020-03-20"
             },
             {
-              "id": "L321-multi-user",
-              "line": 321,
+              "id": "L322-multi-user",
+              "line": 322,
               "kind": "item",
               "sectionId": "add-ons",
               "categoryId": "add-ons/pipeline-i-o-3d-scanning",
@@ -6747,7 +6799,7 @@
           "id": "add-ons/workflow-ui-utilities",
           "slug": "workflow-ui-utilities",
           "sectionId": "add-ons",
-          "line": 325,
+          "line": 326,
           "emoji": "⚡",
           "title": {
             "en": "Workflow, UI & Utilities",
@@ -6758,7 +6810,7 @@
           "subgroups": [
             {
               "id": "asset-scene-management",
-              "line": 327,
+              "line": 328,
               "title": {
                 "en": "Asset & Scene Management",
                 "zh": "资产与场景管理"
@@ -6768,7 +6820,7 @@
             },
             {
               "id": "viewport-nodes-ui",
-              "line": 333,
+              "line": 334,
               "title": {
                 "en": "Viewport, Nodes & UI",
                 "zh": "视口、节点与界面增强"
@@ -6779,8 +6831,8 @@
           ],
           "entries": [
             {
-              "id": "L328-blenderkit",
-              "line": 328,
+              "id": "L329-blenderkit",
+              "line": 329,
               "kind": "item",
               "sectionId": "add-ons",
               "categoryId": "add-ons/workflow-ui-utilities",
@@ -6816,8 +6868,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L329-fontselector",
-              "line": 329,
+              "id": "L330-fontselector",
+              "line": 330,
               "kind": "item",
               "sectionId": "add-ons",
               "categoryId": "add-ons/workflow-ui-utilities",
@@ -6867,8 +6919,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L330-simple-renaming-panel",
-              "line": 330,
+              "id": "L331-simple-renaming-panel",
+              "line": 331,
               "kind": "item",
               "sectionId": "add-ons",
               "categoryId": "add-ons/workflow-ui-utilities",
@@ -6918,8 +6970,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L331-lodify",
-              "line": 331,
+              "id": "L332-lodify",
+              "line": 332,
               "kind": "item",
               "sectionId": "add-ons",
               "categoryId": "add-ons/workflow-ui-utilities",
@@ -6971,8 +7023,8 @@
               "addedAt": "2020-05-02"
             },
             {
-              "id": "L332-powersave",
-              "line": 332,
+              "id": "L333-powersave",
+              "line": 333,
               "kind": "item",
               "sectionId": "add-ons",
               "categoryId": "add-ons/workflow-ui-utilities",
@@ -7010,8 +7062,8 @@
               "addedAt": "2020-05-02"
             },
             {
-              "id": "L334-modifier-list",
-              "line": 334,
+              "id": "L335-modifier-list",
+              "line": 335,
               "kind": "item",
               "sectionId": "add-ons",
               "categoryId": "add-ons/workflow-ui-utilities",
@@ -7062,8 +7114,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L335-copy-attributes-menu",
-              "line": 335,
+              "id": "L336-copy-attributes-menu",
+              "line": 336,
               "kind": "item",
               "sectionId": "add-ons",
               "categoryId": "add-ons/workflow-ui-utilities",
@@ -7104,8 +7156,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L336-amaranth",
-              "line": 336,
+              "id": "L337-amaranth",
+              "line": 337,
               "kind": "item",
               "sectionId": "add-ons",
               "categoryId": "add-ons/workflow-ui-utilities",
@@ -7146,8 +7198,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L337-screencast-keys",
-              "line": 337,
+              "id": "L338-screencast-keys",
+              "line": 338,
               "kind": "item",
               "sectionId": "add-ons",
               "categoryId": "add-ons/workflow-ui-utilities",
@@ -7197,8 +7249,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L338-node-pie",
-              "line": 338,
+              "id": "L339-node-pie",
+              "line": 339,
               "kind": "item",
               "sectionId": "add-ons",
               "categoryId": "add-ons/workflow-ui-utilities",
@@ -7248,8 +7300,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L339-nodetopython",
-              "line": 339,
+              "id": "L340-nodetopython",
+              "line": 340,
               "kind": "item",
               "sectionId": "add-ons",
               "categoryId": "add-ons/workflow-ui-utilities",
@@ -7315,7 +7367,7 @@
     },
     {
       "id": "ai-mcp",
-      "line": 345,
+      "line": 346,
       "emoji": "🤖",
       "title": {
         "en": "AI & MCP",
@@ -7327,7 +7379,7 @@
           "id": "ai-mcp/mcp-agents-skills",
           "slug": "mcp-agents-skills",
           "sectionId": "ai-mcp",
-          "line": 347,
+          "line": 348,
           "emoji": "🔌",
           "title": {
             "en": "MCP, Agents & Skills",
@@ -7338,8 +7390,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L349-blendermcp",
-              "line": 349,
+              "id": "L350-blendermcp",
+              "line": 350,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/mcp-agents-skills",
@@ -7377,8 +7429,8 @@
               "addedAt": "2026-10-31"
             },
             {
-              "id": "L350-fastmcp-for-blender",
-              "line": 350,
+              "id": "L351-fastmcp-for-blender",
+              "line": 351,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/mcp-agents-skills",
@@ -7416,8 +7468,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L351-blender-kiln",
-              "line": 351,
+              "id": "L352-blender-kiln",
+              "line": 352,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/mcp-agents-skills",
@@ -7455,8 +7507,8 @@
               "addedAt": "2026-10-31"
             },
             {
-              "id": "L352-blender-agent-skills",
-              "line": 352,
+              "id": "L353-blender-agent-skills",
+              "line": 353,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/mcp-agents-skills",
@@ -7494,8 +7546,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L353-designos-3d-blender",
-              "line": 353,
+              "id": "L354-designos-3d-blender",
+              "line": 354,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/mcp-agents-skills",
@@ -7531,8 +7583,8 @@
               "addedAt": "2026-10-31"
             },
             {
-              "id": "L354-anyscene",
-              "line": 354,
+              "id": "L355-anyscene",
+              "line": 355,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/mcp-agents-skills",
@@ -7571,8 +7623,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L355-anymachine",
-              "line": 355,
+              "id": "L356-anymachine",
+              "line": 356,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/mcp-agents-skills",
@@ -7610,8 +7662,8 @@
               "addedAt": "2026-11-22"
             },
             {
-              "id": "L356-ai-art-engine",
-              "line": 356,
+              "id": "L357-ai-art-engine",
+              "line": 357,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/mcp-agents-skills",
@@ -7649,8 +7701,8 @@
               "addedAt": "2026-11-13"
             },
             {
-              "id": "L357-construct-for-blender",
-              "line": 357,
+              "id": "L358-construct-for-blender",
+              "line": 358,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/mcp-agents-skills",
@@ -7696,8 +7748,8 @@
               "addedAt": "2026-11-16"
             },
             {
-              "id": "L358-mixar",
-              "line": 358,
+              "id": "L359-mixar",
+              "line": 359,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/mcp-agents-skills",
@@ -7745,8 +7797,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L359-blender-agent-studio",
-              "line": 359,
+              "id": "L360-blender-agent-studio",
+              "line": 360,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/mcp-agents-skills",
@@ -7784,8 +7836,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L360-blender-mcp-bridge",
-              "line": 360,
+              "id": "L361-blender-mcp-bridge",
+              "line": 361,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/mcp-agents-skills",
@@ -7823,8 +7875,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L361-bpy-dev-blender-mcp",
-              "line": 361,
+              "id": "L362-bpy-dev-blender-mcp",
+              "line": 362,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/mcp-agents-skills",
@@ -7862,8 +7914,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L362-blender-assembly-skill",
-              "line": 362,
+              "id": "L363-blender-assembly-skill",
+              "line": 363,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/mcp-agents-skills",
@@ -7899,8 +7951,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L363-dcc-mcp-blender",
-              "line": 363,
+              "id": "L364-dcc-mcp-blender",
+              "line": 364,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/mcp-agents-skills",
@@ -7943,7 +7995,7 @@
           "id": "ai-mcp/generative-3d-comfyui",
           "slug": "generative-3d-comfyui",
           "sectionId": "ai-mcp",
-          "line": 367,
+          "line": 368,
           "emoji": "🎨",
           "title": {
             "en": "Generative 3D & ComfyUI",
@@ -7954,8 +8006,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L369-comfyui-blenderai-node",
-              "line": 369,
+              "id": "L370-comfyui-blenderai-node",
+              "line": 370,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -7993,8 +8045,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L370-blenderaistudio",
-              "line": 370,
+              "id": "L371-blenderaistudio",
+              "line": 371,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8032,8 +8084,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L371-comfyui-blender",
-              "line": 371,
+              "id": "L372-comfyui-blender",
+              "line": 372,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8069,8 +8121,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L372-scenario-for-blender",
-              "line": 372,
+              "id": "L373-scenario-for-blender",
+              "line": 373,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8108,8 +8160,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L373-falai-for-blender",
-              "line": 373,
+              "id": "L374-falai-for-blender",
+              "line": 374,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8147,8 +8199,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L374-unirig",
-              "line": 374,
+              "id": "L375-unirig",
+              "line": 375,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8186,8 +8238,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L375-tripo-3d-for-blender",
-              "line": 375,
+              "id": "L376-tripo-3d-for-blender",
+              "line": 376,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8225,8 +8277,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L376-meshy-for-blender",
-              "line": 376,
+              "id": "L377-meshy-for-blender",
+              "line": 377,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8259,8 +8311,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L377-trellisblender",
-              "line": 377,
+              "id": "L378-trellisblender",
+              "line": 378,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8315,8 +8367,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L378-hunyuan3d-2",
-              "line": 378,
+              "id": "L379-hunyuan3d-2",
+              "line": 379,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8352,8 +8404,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L379-comfyui-hunyuan3d-2-1",
-              "line": 379,
+              "id": "L380-comfyui-hunyuan3d-2-1",
+              "line": 380,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8399,8 +8451,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L380-comfyui-lato2",
-              "line": 380,
+              "id": "L381-comfyui-lato2",
+              "line": 381,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8438,8 +8490,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L381-assetfurnace",
-              "line": 381,
+              "id": "L382-assetfurnace",
+              "line": 382,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8475,8 +8527,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L382-anymove",
-              "line": 382,
+              "id": "L383-anymove",
+              "line": 383,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8512,8 +8564,8 @@
               "addedAt": "2026-11-19"
             },
             {
-              "id": "L383-trompe",
-              "line": 383,
+              "id": "L384-trompe",
+              "line": 384,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8549,8 +8601,8 @@
               "addedAt": "2026-11-19"
             },
             {
-              "id": "L384-potemkin-3d",
-              "line": 384,
+              "id": "L385-potemkin-3d",
+              "line": 385,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8596,8 +8648,8 @@
               "addedAt": "2026-11-19"
             },
             {
-              "id": "L385-dream-textures",
-              "line": 385,
+              "id": "L386-dream-textures",
+              "line": 386,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8635,8 +8687,8 @@
               "addedAt": "2022-09-26"
             },
             {
-              "id": "L386-ai-render",
-              "line": 386,
+              "id": "L387-ai-render",
+              "line": 387,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8672,8 +8724,8 @@
               "addedAt": "2022-10-30"
             },
             {
-              "id": "L387-pallaidium",
-              "line": 387,
+              "id": "L388-pallaidium",
+              "line": 388,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/generative-3d-comfyui",
@@ -8716,7 +8768,7 @@
           "id": "ai-mcp/synthetic-data-benchmarks",
           "slug": "synthetic-data-benchmarks",
           "sectionId": "ai-mcp",
-          "line": 391,
+          "line": 392,
           "emoji": "🔬",
           "title": {
             "en": "Synthetic Data & Benchmarks",
@@ -8727,7 +8779,7 @@
           "subgroups": [
             {
               "id": "synthetic-data-vision-ai",
-              "line": 393,
+              "line": 394,
               "title": {
                 "en": "Synthetic Data & Vision AI",
                 "zh": "合成数据与视觉 AI"
@@ -8737,7 +8789,7 @@
             },
             {
               "id": "benchmarks-prompts",
-              "line": 398,
+              "line": 399,
               "title": {
                 "en": "Benchmarks & Prompts",
                 "zh": "基准测试与提示词"
@@ -8748,8 +8800,8 @@
           ],
           "entries": [
             {
-              "id": "L394-blenderproc",
-              "line": 394,
+              "id": "L395-blenderproc",
+              "line": 395,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -8790,8 +8842,8 @@
               "addedAt": "2022-04-29"
             },
             {
-              "id": "L395-blendersynth",
-              "line": 395,
+              "id": "L396-blendersynth",
+              "line": 396,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -8830,8 +8882,8 @@
               "addedAt": "2023-10-30"
             },
             {
-              "id": "L396-kubric",
-              "line": 396,
+              "id": "L397-kubric",
+              "line": 397,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -8870,8 +8922,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L397-sceneweaver",
-              "line": 397,
+              "id": "L398-sceneweaver",
+              "line": 398,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -8910,8 +8962,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L399-blenderworld",
-              "line": 399,
+              "id": "L400-blenderworld",
+              "line": 400,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -8952,8 +9004,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L400-blendergym",
-              "line": 400,
+              "id": "L401-blendergym",
+              "line": 401,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -8992,8 +9044,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L401-blenderalchemy",
-              "line": 401,
+              "id": "L402-blenderalchemy",
+              "line": 402,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -9032,8 +9084,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L402-blender-ai-arena",
-              "line": 402,
+              "id": "L403-blender-ai-arena",
+              "line": 403,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -9069,8 +9121,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L403-awesome-astra-prompts",
-              "line": 403,
+              "id": "L404-awesome-astra-prompts",
+              "line": 404,
               "kind": "item",
               "sectionId": "ai-mcp",
               "categoryId": "ai-mcp/synthetic-data-benchmarks",
@@ -9114,7 +9166,7 @@
     },
     {
       "id": "resources",
-      "line": 409,
+      "line": 410,
       "emoji": "📦",
       "title": {
         "en": "Resources",
@@ -9126,7 +9178,7 @@
           "id": "resources/3d-models",
           "slug": "3d-models",
           "sectionId": "resources",
-          "line": 411,
+          "line": 412,
           "emoji": "🎠",
           "title": {
             "en": "3D Models",
@@ -9137,7 +9189,7 @@
           "subgroups": [
             {
               "id": "free-cc0-3d-asset-libraries",
-              "line": 413,
+              "line": 414,
               "title": {
                 "en": "Free & CC0 3D Asset Libraries",
                 "zh": "免费与 CC0 3D 资产库"
@@ -9147,7 +9199,7 @@
             },
             {
               "id": "marketplaces-mixed-license-hubs",
-              "line": 424,
+              "line": 425,
               "title": {
                 "en": "Marketplaces & Mixed-License Hubs",
                 "zh": "资产市场与综合模型库"
@@ -9157,7 +9209,7 @@
             },
             {
               "id": "scanned-models",
-              "line": 434,
+              "line": 435,
               "title": {
                 "en": "Scanned Models",
                 "zh": "扫描模型"
@@ -9167,7 +9219,7 @@
             },
             {
               "id": "various-models-test-meshes",
-              "line": 440,
+              "line": 441,
               "title": {
                 "en": "Various Models & Test Meshes",
                 "zh": "各类模型与测试网格"
@@ -9177,7 +9229,7 @@
             },
             {
               "id": "other-sites",
-              "line": 443,
+              "line": 444,
               "title": {
                 "en": "Other Sites",
                 "zh": "其他网站"
@@ -9187,7 +9239,7 @@
             },
             {
               "id": "cad-models",
-              "line": 445,
+              "line": 446,
               "title": {
                 "en": "CAD Models",
                 "zh": "CAD 模型"
@@ -9197,7 +9249,7 @@
             },
             {
               "id": "kitbash-models",
-              "line": 447,
+              "line": 448,
               "title": {
                 "en": "Kitbash Models",
                 "zh": "Kitbash 模型"
@@ -9207,7 +9259,7 @@
             },
             {
               "id": "vdb-models",
-              "line": 449,
+              "line": 450,
               "title": {
                 "en": "VDB Models",
                 "zh": "VDB 模型"
@@ -9218,8 +9270,8 @@
           ],
           "entries": [
             {
-              "id": "L414-poly-haven-models",
-              "line": 414,
+              "id": "L415-poly-haven-models",
+              "line": 415,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9267,8 +9319,8 @@
               "addedAt": "2021-09-04"
             },
             {
-              "id": "L415-thebasemeshcom",
-              "line": 415,
+              "id": "L416-thebasemeshcom",
+              "line": 416,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9306,8 +9358,8 @@
               "addedAt": "2022-11-11"
             },
             {
-              "id": "L416-kenney-3d-assets",
-              "line": 416,
+              "id": "L417-kenney-3d-assets",
+              "line": 417,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9345,8 +9397,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L417-blender-boom",
-              "line": 417,
+              "id": "L418-blender-boom",
+              "line": 418,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9394,8 +9446,8 @@
               "addedAt": "2020-02-12"
             },
             {
-              "id": "L418-chocofur-free",
-              "line": 418,
+              "id": "L419-chocofur-free",
+              "line": 419,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9443,8 +9495,8 @@
               "addedAt": "2020-06-25"
             },
             {
-              "id": "L419-greeble-town",
-              "line": 419,
+              "id": "L420-greeble-town",
+              "line": 420,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9480,8 +9532,8 @@
               "addedAt": "2026-10-31"
             },
             {
-              "id": "L420-poly-pizza",
-              "line": 420,
+              "id": "L421-poly-pizza",
+              "line": 421,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9517,8 +9569,8 @@
               "addedAt": "2022-04-29"
             },
             {
-              "id": "L421-rigmodels",
-              "line": 421,
+              "id": "L422-rigmodels",
+              "line": 422,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9554,8 +9606,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L422-nasa-3d-resources",
-              "line": 422,
+              "id": "L423-nasa-3d-resources",
+              "line": 423,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9604,8 +9656,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L423-patch-toolbox",
-              "line": 423,
+              "id": "L424-patch-toolbox",
+              "line": 424,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9641,8 +9693,8 @@
               "addedAt": "2026-11-19"
             },
             {
-              "id": "L425-fab-quixel-megascans",
-              "line": 425,
+              "id": "L426-fab-quixel-megascans",
+              "line": 426,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9678,8 +9730,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L426-sketchfab",
-              "line": 426,
+              "id": "L427-sketchfab",
+              "line": 427,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9715,8 +9767,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L427-cgtrader",
-              "line": 427,
+              "id": "L428-cgtrader",
+              "line": 428,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9752,8 +9804,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L428-turbosquid-free",
-              "line": 428,
+              "id": "L429-turbosquid-free",
+              "line": 429,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9789,8 +9841,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L429-free3d",
-              "line": 429,
+              "id": "L430-free3d",
+              "line": 430,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9838,8 +9890,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L430-3d-warehouse",
-              "line": 430,
+              "id": "L431-3d-warehouse",
+              "line": 431,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9875,8 +9927,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L431-renderhub-free",
-              "line": 431,
+              "id": "L432-renderhub-free",
+              "line": 432,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9912,8 +9964,8 @@
               "addedAt": "2020-08-12"
             },
             {
-              "id": "L432-flyingarchitecture",
-              "line": 432,
+              "id": "L433-flyingarchitecture",
+              "line": 433,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9949,8 +10001,8 @@
               "addedAt": "2020-08-12"
             },
             {
-              "id": "L433-kitbash3d",
-              "line": 433,
+              "id": "L434-kitbash3d",
+              "line": 434,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -9996,8 +10048,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L435-3d-digitization-smithsonian",
-              "line": 435,
+              "id": "L436-3d-digitization-smithsonian",
+              "line": 436,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10045,8 +10097,8 @@
               "addedAt": "2020-03-20"
             },
             {
-              "id": "L436-three-d-scans",
-              "line": 436,
+              "id": "L437-three-d-scans",
+              "line": 437,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10094,8 +10146,8 @@
               "addedAt": "2020-08-30"
             },
             {
-              "id": "L437-scan-the-world",
-              "line": 437,
+              "id": "L438-scan-the-world",
+              "line": 438,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10132,8 +10184,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L438-artec-3d",
-              "line": 438,
+              "id": "L439-artec-3d",
+              "line": 439,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10171,8 +10223,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L439-featured-free-scan-collections",
-              "line": 439,
+              "id": "L440-featured-free-scan-collections",
+              "line": 440,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10244,8 +10296,8 @@
               "addedAt": null
             },
             {
-              "id": "L441-common-3d-test-models",
-              "line": 441,
+              "id": "L442-common-3d-test-models",
+              "line": 442,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10294,8 +10346,8 @@
               "addedAt": "2020-06-25"
             },
             {
-              "id": "L442-quaterniuss-ultimate-low-poly-models-first-anima",
-              "line": 442,
+              "id": "L443-quaterniuss-ultimate-low-poly-models-first-anima",
+              "line": 443,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10358,8 +10410,8 @@
               "addedAt": null
             },
             {
-              "id": "L444-other-sites",
-              "line": 444,
+              "id": "L445-other-sites",
+              "line": 445,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10451,8 +10503,8 @@
               "addedAt": null
             },
             {
-              "id": "L446-grabcad-mcmaster-carr",
-              "line": 446,
+              "id": "L447-grabcad-mcmaster-carr",
+              "line": 447,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10506,8 +10558,8 @@
               "addedAt": null
             },
             {
-              "id": "L448-kitbash-models",
-              "line": 448,
+              "id": "L449-kitbash-models",
+              "line": 449,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10581,8 +10633,8 @@
               "addedAt": null
             },
             {
-              "id": "L450-free-vdb-simulations-by-jangafx",
-              "line": 450,
+              "id": "L451-free-vdb-simulations-by-jangafx",
+              "line": 451,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10618,8 +10670,8 @@
               "addedAt": "2020-03-13"
             },
             {
-              "id": "L451-openvdb-sample-models",
-              "line": 451,
+              "id": "L452-openvdb-sample-models",
+              "line": 452,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10655,8 +10707,8 @@
               "addedAt": "2020-03-13"
             },
             {
-              "id": "L452-disney-animation-clouds",
-              "line": 452,
+              "id": "L453-disney-animation-clouds",
+              "line": 453,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10692,8 +10744,8 @@
               "addedAt": "2021-10-01"
             },
             {
-              "id": "L453-community-vdb-clouds",
-              "line": 453,
+              "id": "L454-community-vdb-clouds",
+              "line": 454,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/3d-models",
@@ -10754,7 +10806,7 @@
           "id": "resources/mocap-animation",
           "slug": "mocap-animation",
           "sectionId": "resources",
-          "line": 457,
+          "line": 458,
           "emoji": "🤸🏾‍♀️",
           "title": {
             "en": "Mocap/Animation",
@@ -10765,7 +10817,7 @@
           "subgroups": [
             {
               "id": "free-mocap-animation-libraries",
-              "line": 459,
+              "line": 460,
               "title": {
                 "en": "Free Mocap & Animation Libraries",
                 "zh": "免费动作捕捉与动画库"
@@ -10775,7 +10827,7 @@
             },
             {
               "id": "ai-video-to-mocap-markerless-capture",
-              "line": 469,
+              "line": 470,
               "title": {
                 "en": "AI Video-to-Mocap & Markerless Capture",
                 "zh": "AI 视频转动作捕捉与无标记采集"
@@ -10786,8 +10838,8 @@
           ],
           "entries": [
             {
-              "id": "L460-mixamo",
-              "line": 460,
+              "id": "L461-mixamo",
+              "line": 461,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10823,8 +10875,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L461-quaternius-universal-animation-library",
-              "line": 461,
+              "id": "L462-quaternius-universal-animation-library",
+              "line": 462,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10862,8 +10914,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L462-cmu-motion-capture-database",
-              "line": 462,
+              "id": "L463-cmu-motion-capture-database",
+              "line": 463,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10899,8 +10951,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L463-accad-open-motion-project",
-              "line": 463,
+              "id": "L464-accad-open-motion-project",
+              "line": 464,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10936,8 +10988,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L464-bandai-namco-research-motiondataset",
-              "line": 464,
+              "id": "L465-bandai-namco-research-motiondataset",
+              "line": 465,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -10976,8 +11028,8 @@
               "addedAt": "2022-07-30"
             },
             {
-              "id": "L465-amass",
-              "line": 465,
+              "id": "L466-amass",
+              "line": 466,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -11013,8 +11065,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L466-rokoko-studio",
-              "line": 466,
+              "id": "L467-rokoko-studio",
+              "line": 467,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -11050,8 +11102,8 @@
               "addedAt": "2020-04-13"
             },
             {
-              "id": "L467-actorcore",
-              "line": 467,
+              "id": "L468-actorcore",
+              "line": 468,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -11087,8 +11139,8 @@
               "addedAt": "2021-04-26"
             },
             {
-              "id": "L468-turbosquid-motion-capture-sketchfab-animated",
-              "line": 468,
+              "id": "L469-turbosquid-motion-capture-sketchfab-animated",
+              "line": 469,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -11142,8 +11194,8 @@
               "addedAt": null
             },
             {
-              "id": "L470-freemocap",
-              "line": 470,
+              "id": "L471-freemocap",
+              "line": 471,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -11192,8 +11244,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L471-gvhmr",
-              "line": 471,
+              "id": "L472-gvhmr",
+              "line": 472,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -11232,8 +11284,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L472-deepmotion",
-              "line": 472,
+              "id": "L473-deepmotion",
+              "line": 473,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -11269,8 +11321,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L473-moveai",
-              "line": 473,
+              "id": "L474-moveai",
+              "line": 474,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -11306,8 +11358,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L474-plask",
-              "line": 474,
+              "id": "L475-plask",
+              "line": 475,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/mocap-animation",
@@ -11348,7 +11400,7 @@
           "id": "resources/textures",
           "slug": "textures",
           "sectionId": "resources",
-          "line": 478,
+          "line": 479,
           "emoji": "🌑",
           "title": {
             "en": "Textures",
@@ -11359,7 +11411,7 @@
           "subgroups": [
             {
               "id": "cc0-open-pbr-texture-libraries",
-              "line": 480,
+              "line": 481,
               "title": {
                 "en": "CC0 & Open PBR Texture Libraries",
                 "zh": "CC0 与免费 PBR 纹理库"
@@ -11369,7 +11421,7 @@
             },
             {
               "id": "freemium-commercial-specialized-libraries",
-              "line": 495,
+              "line": 496,
               "title": {
                 "en": "Freemium, Commercial & Specialized Libraries",
                 "zh": "商业免费专区与专项贴图库"
@@ -11379,7 +11431,7 @@
             },
             {
               "id": "other-collections",
-              "line": 506,
+              "line": 507,
               "title": {
                 "en": "Other Collections",
                 "zh": "其他纹理合集"
@@ -11390,8 +11442,8 @@
           ],
           "entries": [
             {
-              "id": "L481-poly-haven-textures",
-              "line": 481,
+              "id": "L482-poly-haven-textures",
+              "line": 482,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11439,8 +11491,8 @@
               "addedAt": "2021-09-04"
             },
             {
-              "id": "L482-ambientcg",
-              "line": 482,
+              "id": "L483-ambientcg",
+              "line": 483,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11488,8 +11540,8 @@
               "addedAt": "2021-10-01"
             },
             {
-              "id": "L483-cgbookcase",
-              "line": 483,
+              "id": "L484-cgbookcase",
+              "line": 484,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11537,8 +11589,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L484-3dassetsone",
-              "line": 484,
+              "id": "L485-3dassetsone",
+              "line": 485,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11574,8 +11626,8 @@
               "addedAt": "2021-10-01"
             },
             {
-              "id": "L485-3dtexturesme",
-              "line": 485,
+              "id": "L486-3dtexturesme",
+              "line": 486,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11623,8 +11675,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L486-cc0-materials",
-              "line": 486,
+              "id": "L487-cc0-materials",
+              "line": 487,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11672,8 +11724,8 @@
               "addedAt": "2026-11-17"
             },
             {
-              "id": "L487-freepbrcom",
-              "line": 487,
+              "id": "L488-freepbrcom",
+              "line": 488,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11709,8 +11761,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L488-twirl",
-              "line": 488,
+              "id": "L489-twirl",
+              "line": 489,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11746,8 +11798,8 @@
               "addedAt": "2026-10-31"
             },
             {
-              "id": "L489-sharetextures",
-              "line": 489,
+              "id": "L490-sharetextures",
+              "line": 490,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11795,8 +11847,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L490-texturecan",
-              "line": 490,
+              "id": "L491-texturecan",
+              "line": 491,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11834,8 +11886,8 @@
               "addedAt": "2021-10-01"
             },
             {
-              "id": "L491-textureninja",
-              "line": 491,
+              "id": "L492-textureninja",
+              "line": 492,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11873,8 +11925,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L492-3dtexel",
-              "line": 492,
+              "id": "L493-3dtexel",
+              "line": 493,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11922,8 +11974,8 @@
               "addedAt": "2026-10-31"
             },
             {
-              "id": "L493-texture-box",
-              "line": 493,
+              "id": "L494-texture-box",
+              "line": 494,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11959,8 +12011,8 @@
               "addedAt": "2020-02-11"
             },
             {
-              "id": "L494-matcaps",
-              "line": 494,
+              "id": "L495-matcaps",
+              "line": 495,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -11999,8 +12051,8 @@
               "addedAt": "2020-05-02"
             },
             {
-              "id": "L496-texturescom",
-              "line": 496,
+              "id": "L497-texturescom",
+              "line": 497,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -12036,8 +12088,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L497-lotpixel",
-              "line": 497,
+              "id": "L498-lotpixel",
+              "line": 498,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -12073,8 +12125,8 @@
               "addedAt": "2022-09-27"
             },
             {
-              "id": "L498-materialx-library",
-              "line": 498,
+              "id": "L499-materialx-library",
+              "line": 499,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -12110,8 +12162,8 @@
               "addedAt": "2022-02-13"
             },
             {
-              "id": "L499-ies-library",
-              "line": 499,
+              "id": "L500-ies-library",
+              "line": 500,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -12147,8 +12199,8 @@
               "addedAt": "2020-08-12"
             },
             {
-              "id": "L500-adobe-substance-3d-assets",
-              "line": 500,
+              "id": "L501-adobe-substance-3d-assets",
+              "line": 501,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -12194,8 +12246,8 @@
               "addedAt": "2026-11-13"
             },
             {
-              "id": "L501-scanslibrary",
-              "line": 501,
+              "id": "L502-scanslibrary",
+              "line": 502,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -12231,8 +12283,8 @@
               "addedAt": "2020-03-27"
             },
             {
-              "id": "L502-poliigon-freebies",
-              "line": 502,
+              "id": "L503-poliigon-freebies",
+              "line": 503,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -12268,8 +12320,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L503-texturingxyz",
-              "line": 503,
+              "id": "L504-texturingxyz",
+              "line": 504,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -12305,8 +12357,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L504-solar-textures",
-              "line": 504,
+              "id": "L505-solar-textures",
+              "line": 505,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -12344,8 +12396,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L505-planetary-space-maps",
-              "line": 505,
+              "id": "L506-planetary-space-maps",
+              "line": 506,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -12419,8 +12471,8 @@
               "addedAt": null
             },
             {
-              "id": "L507-other-collections",
-              "line": 507,
+              "id": "L508-other-collections",
+              "line": 508,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/textures",
@@ -12499,7 +12551,7 @@
           "id": "resources/blender-scenes-files",
           "slug": "blender-scenes-files",
           "sectionId": "resources",
-          "line": 511,
+          "line": 512,
           "emoji": "🌲",
           "title": {
             "en": "Blender Scenes/Files",
@@ -12510,7 +12562,7 @@
           "subgroups": [
             {
               "id": "official-scenes-production-benchmarks",
-              "line": 513,
+              "line": 514,
               "title": {
                 "en": "Official Scenes & Production Benchmarks",
                 "zh": "官方演示场景与生产级基准文件"
@@ -12520,7 +12572,7 @@
             },
             {
               "id": "community-blend-libraries",
-              "line": 519,
+              "line": 520,
               "title": {
                 "en": "Community .blend Libraries",
                 "zh": "社区 .blend 资源库"
@@ -12530,7 +12582,7 @@
             },
             {
               "id": "free-character-rigs",
-              "line": 523,
+              "line": 524,
               "title": {
                 "en": "Free Character Rigs",
                 "zh": "免费绑定角色模型"
@@ -12541,8 +12593,8 @@
           ],
           "entries": [
             {
-              "id": "L514-blender-demo-files",
-              "line": 514,
+              "id": "L515-blender-demo-files",
+              "line": 515,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12578,8 +12630,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L515-blender-studio-open-movies",
-              "line": 515,
+              "id": "L516-blender-studio-open-movies",
+              "line": 516,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12615,8 +12667,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L516-blender-open-data",
-              "line": 516,
+              "id": "L517-blender-open-data",
+              "line": 517,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12652,8 +12704,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L517-nvidia-orca",
-              "line": 517,
+              "id": "L518-nvidia-orca",
+              "line": 518,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12689,8 +12741,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L518-disney-moana-island-scene",
-              "line": 518,
+              "id": "L519-disney-moana-island-scene",
+              "line": 519,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12726,8 +12778,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L520-blendernation-free-models",
-              "line": 520,
+              "id": "L521-blendernation-free-models",
+              "line": 521,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12763,8 +12815,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L521-mantissa-resources",
-              "line": 521,
+              "id": "L522-mantissa-resources",
+              "line": 522,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12800,8 +12852,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L522-creator-gumroad-libraries",
-              "line": 522,
+              "id": "L523-creator-gumroad-libraries",
+              "line": 523,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12857,8 +12909,8 @@
               "addedAt": null
             },
             {
-              "id": "L524-blender-studio-official-rigs",
-              "line": 524,
+              "id": "L525-blender-studio-official-rigs",
+              "line": 525,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12913,8 +12965,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L525-agora-community-assets",
-              "line": 525,
+              "id": "L526-agora-community-assets",
+              "line": 526,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12950,8 +13002,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L526-p2design-academy",
-              "line": 526,
+              "id": "L527-p2design-academy",
+              "line": 527,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/blender-scenes-files",
@@ -12992,7 +13044,7 @@
           "id": "resources/hdris",
           "slug": "hdris",
           "sectionId": "resources",
-          "line": 530,
+          "line": 531,
           "emoji": "⛅",
           "title": {
             "en": "HDRIs",
@@ -13003,7 +13055,7 @@
           "subgroups": [
             {
               "id": "cc0-production-hdri-libraries",
-              "line": 532,
+              "line": 533,
               "title": {
                 "en": "CC0 & Production HDRI Libraries",
                 "zh": "CC0 与生产级 HDRI 库"
@@ -13014,8 +13066,8 @@
           ],
           "entries": [
             {
-              "id": "L533-poly-haven-hdris",
-              "line": 533,
+              "id": "L534-poly-haven-hdris",
+              "line": 534,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/hdris",
@@ -13063,8 +13115,8 @@
               "addedAt": "2021-09-04"
             },
             {
-              "id": "L534-openhdri",
-              "line": 534,
+              "id": "L535-openhdri",
+              "line": 535,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/hdris",
@@ -13102,8 +13154,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L535-ambientcg-hdris",
-              "line": 535,
+              "id": "L536-ambientcg-hdris",
+              "line": 536,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/hdris",
@@ -13151,8 +13203,8 @@
               "addedAt": "2026-11-13"
             },
             {
-              "id": "L536-pixar-hdri",
-              "line": 536,
+              "id": "L537-pixar-hdri",
+              "line": 537,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/hdris",
@@ -13188,8 +13240,8 @@
               "addedAt": "2020-03-27"
             },
             {
-              "id": "L537-hdrmaps-freebies",
-              "line": 537,
+              "id": "L538-hdrmaps-freebies",
+              "line": 538,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/hdris",
@@ -13225,8 +13277,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L538-other-free-hdri-libraries",
-              "line": 538,
+              "id": "L539-other-free-hdri-libraries",
+              "line": 539,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/hdris",
@@ -13309,7 +13361,7 @@
           "id": "resources/art-reference",
           "slug": "art-reference",
           "sectionId": "resources",
-          "line": 542,
+          "line": 543,
           "emoji": "🖼️",
           "title": {
             "en": "Art/Reference",
@@ -13320,7 +13372,7 @@
           "subgroups": [
             {
               "id": "open-access-museums-art-archives",
-              "line": 544,
+              "line": 545,
               "title": {
                 "en": "Open-Access Museums & Art Archives",
                 "zh": "开放获取博物馆与艺术档案"
@@ -13330,7 +13382,7 @@
             },
             {
               "id": "anatomy-nature-historical-concept-references",
-              "line": 550,
+              "line": 551,
               "title": {
                 "en": "Anatomy, Nature, Historical & Concept References",
                 "zh": "解剖、自然、历史与概念参考"
@@ -13341,8 +13393,8 @@
           ],
           "entries": [
             {
-              "id": "L545-dezoomify",
-              "line": 545,
+              "id": "L546-dezoomify",
+              "line": 546,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13436,8 +13488,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L546-the-metropolitan-museum-of-art",
-              "line": 546,
+              "id": "L547-the-metropolitan-museum-of-art",
+              "line": 547,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13473,8 +13525,8 @@
               "addedAt": "2020-01-22"
             },
             {
-              "id": "L547-smithsonian-open-access",
-              "line": 547,
+              "id": "L548-smithsonian-open-access",
+              "line": 548,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13522,8 +13574,8 @@
               "addedAt": "2020-04-03"
             },
             {
-              "id": "L548-rijksmuseum",
-              "line": 548,
+              "id": "L549-rijksmuseum",
+              "line": 549,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13559,8 +13611,8 @@
               "addedAt": "2020-01-22"
             },
             {
-              "id": "L549-wikimedia-commons-art",
-              "line": 549,
+              "id": "L550-wikimedia-commons-art",
+              "line": 550,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13598,8 +13650,8 @@
               "addedAt": "2020-01-22"
             },
             {
-              "id": "L551-anatomy-360-free-reference",
-              "line": 551,
+              "id": "L552-anatomy-360-free-reference",
+              "line": 552,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13635,8 +13687,8 @@
               "addedAt": "2020-11-13"
             },
             {
-              "id": "L552-wildlife-reference-photos",
-              "line": 552,
+              "id": "L553-wildlife-reference-photos",
+              "line": 553,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13672,8 +13724,8 @@
               "addedAt": "2020-11-13"
             },
             {
-              "id": "L553-biodiversity-heritage-library",
-              "line": 553,
+              "id": "L554-biodiversity-heritage-library",
+              "line": 554,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13711,8 +13763,8 @@
               "addedAt": "2020-04-03"
             },
             {
-              "id": "L554-natural-history-museum-data-portal",
-              "line": 554,
+              "id": "L555-natural-history-museum-data-portal",
+              "line": 555,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13748,8 +13800,8 @@
               "addedAt": "2020-04-13"
             },
             {
-              "id": "L555-mindat-mineral-database",
-              "line": 555,
+              "id": "L556-mindat-mineral-database",
+              "line": 556,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13785,8 +13837,8 @@
               "addedAt": "2020-11-13"
             },
             {
-              "id": "L556-the-empire-university-weapons-library",
-              "line": 556,
+              "id": "L557-the-empire-university-weapons-library",
+              "line": 557,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13822,8 +13874,8 @@
               "addedAt": "2021-09-27"
             },
             {
-              "id": "L557-old-maps-online",
-              "line": 557,
+              "id": "L558-old-maps-online",
+              "line": 558,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13859,8 +13911,8 @@
               "addedAt": "2022-10-30"
             },
             {
-              "id": "L558-flickr-creative-commons",
-              "line": 558,
+              "id": "L559-flickr-creative-commons",
+              "line": 559,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13896,8 +13948,8 @@
               "addedAt": "2020-11-13"
             },
             {
-              "id": "L559-nasa-space-imagery",
-              "line": 559,
+              "id": "L560-nasa-space-imagery",
+              "line": 560,
               "kind": "collection",
               "sectionId": "resources",
               "categoryId": "resources/art-reference",
@@ -13965,7 +14017,7 @@
           "id": "resources/sound-music",
           "slug": "sound-music",
           "sectionId": "resources",
-          "line": 563,
+          "line": 564,
           "emoji": "🎧",
           "title": {
             "en": "Sound/Music",
@@ -13976,7 +14028,7 @@
           "subgroups": [
             {
               "id": "sound-effects-sfx",
-              "line": 565,
+              "line": 566,
               "title": {
                 "en": "Sound Effects (SFX)",
                 "zh": "音效资源"
@@ -13986,7 +14038,7 @@
             },
             {
               "id": "royalty-free-creative-commons-music",
-              "line": 574,
+              "line": 575,
               "title": {
                 "en": "Royalty-Free & Creative Commons Music",
                 "zh": "免版税与创意共享音乐"
@@ -13996,7 +14048,7 @@
             },
             {
               "id": "ai-foley-video-to-audio-synth-generators",
-              "line": 581,
+              "line": 582,
               "title": {
                 "en": "AI Foley, Video-to-Audio & Synth Generators",
                 "zh": "AI 拟音、视频转音频与合成生成器"
@@ -14007,8 +14059,8 @@
           ],
           "entries": [
             {
-              "id": "L566-freesoundorg",
-              "line": 566,
+              "id": "L567-freesoundorg",
+              "line": 567,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14056,8 +14108,8 @@
               "addedAt": "2020-04-03"
             },
             {
-              "id": "L567-gameaudiogdc",
-              "line": 567,
+              "id": "L568-gameaudiogdc",
+              "line": 568,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14093,8 +14145,8 @@
               "addedAt": "2021-04-26"
             },
             {
-              "id": "L568-kenney-audio",
-              "line": 568,
+              "id": "L569-kenney-audio",
+              "line": 569,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14132,8 +14184,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L569-pixabay-sound-effects",
-              "line": 569,
+              "id": "L570-pixabay-sound-effects",
+              "line": 570,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14169,8 +14221,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L570-sfxmint",
-              "line": 570,
+              "id": "L571-sfxmint",
+              "line": 571,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14218,8 +14270,8 @@
               "addedAt": "2026-11-11"
             },
             {
-              "id": "L571-99soundsorg",
-              "line": 571,
+              "id": "L572-99soundsorg",
+              "line": 572,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14255,8 +14307,8 @@
               "addedAt": "2020-04-13"
             },
             {
-              "id": "L572-opengameartorg-sound",
-              "line": 572,
+              "id": "L573-opengameartorg-sound",
+              "line": 573,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14292,8 +14344,8 @@
               "addedAt": "2020-04-13"
             },
             {
-              "id": "L573-bbc-sound-effects",
-              "line": 573,
+              "id": "L574-bbc-sound-effects",
+              "line": 574,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14329,8 +14381,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L575-free-music-archive",
-              "line": 575,
+              "id": "L576-free-music-archive",
+              "line": 576,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14366,8 +14418,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L576-incompetech",
-              "line": 576,
+              "id": "L577-incompetech",
+              "line": 577,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14415,8 +14467,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L577-pixabay-music",
-              "line": 577,
+              "id": "L578-pixabay-music",
+              "line": 578,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14452,8 +14504,8 @@
               "addedAt": "2023-01-30"
             },
             {
-              "id": "L578-mixkit",
-              "line": 578,
+              "id": "L579-mixkit",
+              "line": 579,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14489,8 +14541,8 @@
               "addedAt": "2020-09-21"
             },
             {
-              "id": "L579-musopenorg",
-              "line": 579,
+              "id": "L580-musopenorg",
+              "line": 580,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14528,8 +14580,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L580-ccmixterorg",
-              "line": 580,
+              "id": "L581-ccmixterorg",
+              "line": 581,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14577,8 +14629,8 @@
               "addedAt": "2020-04-13"
             },
             {
-              "id": "L582-mmaudio",
-              "line": 582,
+              "id": "L583-mmaudio",
+              "line": 583,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14619,8 +14671,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L583-hunyuanvideo-foley",
-              "line": 583,
+              "id": "L584-hunyuanvideo-foley",
+              "line": 584,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14659,8 +14711,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L584-audiocraft",
-              "line": 584,
+              "id": "L585-audiocraft",
+              "line": 585,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14701,8 +14753,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L585-jsfxr",
-              "line": 585,
+              "id": "L586-jsfxr",
+              "line": 586,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14751,8 +14803,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L586-elevenlabs-sound-effects",
-              "line": 586,
+              "id": "L587-elevenlabs-sound-effects",
+              "line": 587,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/sound-music",
@@ -14793,7 +14845,7 @@
           "id": "resources/related-awesome-lists",
           "slug": "related-awesome-lists",
           "sectionId": "resources",
-          "line": 590,
+          "line": 591,
           "emoji": "🔗",
           "title": {
             "en": "Related Awesome Lists",
@@ -14804,8 +14856,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L592-3d-resources",
-              "line": 592,
+              "id": "L593-3d-resources",
+              "line": 593,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/related-awesome-lists",
@@ -14841,8 +14893,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L593-awesome-3d-printing",
-              "line": 593,
+              "id": "L594-awesome-3d-printing",
+              "line": 594,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/related-awesome-lists",
@@ -14878,8 +14930,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L594-3d-machine-learning",
-              "line": 594,
+              "id": "L595-3d-machine-learning",
+              "line": 595,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/related-awesome-lists",
@@ -14915,8 +14967,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L595-photogrammetry-guide",
-              "line": 595,
+              "id": "L596-photogrammetry-guide",
+              "line": 596,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/related-awesome-lists",
@@ -14952,8 +15004,8 @@
               "addedAt": "2022-09-26"
             },
             {
-              "id": "L596-awesome-gamedev",
-              "line": 596,
+              "id": "L597-awesome-gamedev",
+              "line": 597,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/related-awesome-lists",
@@ -14989,8 +15041,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L597-gamedev-resources",
-              "line": 597,
+              "id": "L598-gamedev-resources",
+              "line": 598,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/related-awesome-lists",
@@ -15026,8 +15078,8 @@
               "addedAt": "2020-02-22"
             },
             {
-              "id": "L598-awesome-stock-resources",
-              "line": 598,
+              "id": "L599-awesome-stock-resources",
+              "line": 599,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/related-awesome-lists",
@@ -15063,8 +15115,8 @@
               "addedAt": "2020-01-23"
             },
             {
-              "id": "L599-usage-in-science-academia-and-industry",
-              "line": 599,
+              "id": "L600-usage-in-science-academia-and-industry",
+              "line": 600,
               "kind": "item",
               "sectionId": "resources",
               "categoryId": "resources/related-awesome-lists",
@@ -15105,7 +15157,7 @@
     },
     {
       "id": "standalone",
-      "line": 608,
+      "line": 609,
       "emoji": "🖥️",
       "title": {
         "en": "Standalone",
@@ -15117,7 +15169,7 @@
           "id": "standalone/3d-tools",
           "slug": "3d-tools",
           "sectionId": "standalone",
-          "line": 610,
+          "line": 611,
           "emoji": "🔧",
           "title": {
             "en": "3D Tools",
@@ -15128,7 +15180,7 @@
           "subgroups": [
             {
               "id": "cad-modeling-blockout",
-              "line": 612,
+              "line": 613,
               "title": {
                 "en": "CAD, Modeling & Blockout",
                 "zh": "CAD、建模与关卡白模 (Blockout)"
@@ -15138,7 +15190,7 @@
             },
             {
               "id": "mesh-processing-retopology-voxels",
-              "line": 618,
+              "line": 619,
               "title": {
                 "en": "Mesh Processing, Retopology & Voxels",
                 "zh": "网格处理、重拓扑与体素"
@@ -15148,7 +15200,7 @@
             },
             {
               "id": "characters-sculpting-rigging-animation",
-              "line": 624,
+              "line": 625,
               "title": {
                 "en": "Characters, Sculpting, Rigging & Animation",
                 "zh": "角色制作、雕刻、绑定与动画"
@@ -15158,7 +15210,7 @@
             },
             {
               "id": "simulation-camera-lighting-web-3d",
-              "line": 629,
+              "line": 630,
               "title": {
                 "en": "Simulation, Camera, Lighting & Web 3D",
                 "zh": "模拟、相机、灯光与 Web 3D"
@@ -15169,8 +15221,8 @@
           ],
           "entries": [
             {
-              "id": "L613-plasticity",
-              "line": 613,
+              "id": "L614-plasticity",
+              "line": 614,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15219,8 +15271,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L614-freecad",
-              "line": 614,
+              "id": "L615-freecad",
+              "line": 615,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15269,8 +15321,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L615-blockbench",
-              "line": 615,
+              "id": "L616-blockbench",
+              "line": 616,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15321,8 +15373,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L616-trenchbroom",
-              "line": 616,
+              "id": "L617-trenchbroom",
+              "line": 617,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15373,8 +15425,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L617-sweet-home-3d",
-              "line": 617,
+              "id": "L618-sweet-home-3d",
+              "line": 618,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15422,8 +15474,8 @@
               "addedAt": "2020-04-03"
             },
             {
-              "id": "L619-meshlab",
-              "line": 619,
+              "id": "L620-meshlab",
+              "line": 620,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15472,8 +15524,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L620-cloudcompare",
-              "line": 620,
+              "id": "L621-cloudcompare",
+              "line": 621,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15524,8 +15576,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L621-instant-meshes",
-              "line": 621,
+              "id": "L622-instant-meshes",
+              "line": 622,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15564,8 +15616,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L622-magicavoxel",
-              "line": 622,
+              "id": "L623-magicavoxel",
+              "line": 623,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15601,8 +15653,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L623-goxel",
-              "line": 623,
+              "id": "L624-goxel",
+              "line": 624,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15643,8 +15695,8 @@
               "addedAt": "2020-04-13"
             },
             {
-              "id": "L625-nomad-sculpt",
-              "line": 625,
+              "id": "L626-nomad-sculpt",
+              "line": 626,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15680,8 +15732,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L626-cascadeur",
-              "line": 626,
+              "id": "L627-cascadeur",
+              "line": 627,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15717,8 +15769,8 @@
               "addedAt": "2020-08-12"
             },
             {
-              "id": "L627-vroid-studio",
-              "line": 627,
+              "id": "L628-vroid-studio",
+              "line": 628,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15754,8 +15806,8 @@
               "addedAt": "2022-02-13"
             },
             {
-              "id": "L628-accurig",
-              "line": 628,
+              "id": "L629-accurig",
+              "line": 629,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15791,8 +15843,8 @@
               "addedAt": "2022-09-27"
             },
             {
-              "id": "L630-embergen",
-              "line": 630,
+              "id": "L631-embergen",
+              "line": 631,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15838,8 +15890,8 @@
               "addedAt": "2020-03-21"
             },
             {
-              "id": "L631-fspy",
-              "line": 631,
+              "id": "L632-fspy",
+              "line": 632,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15890,8 +15942,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L632-hdr-light-studio",
-              "line": 632,
+              "id": "L633-hdr-light-studio",
+              "line": 633,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15927,8 +15979,8 @@
               "addedAt": "2020-04-03"
             },
             {
-              "id": "L633-spline",
-              "line": 633,
+              "id": "L634-spline",
+              "line": 634,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/3d-tools",
@@ -15969,7 +16021,7 @@
           "id": "standalone/various-tools",
           "slug": "various-tools",
           "sectionId": "standalone",
-          "line": 637,
+          "line": 638,
           "emoji": "🧰",
           "title": {
             "en": "Various Tools",
@@ -15980,7 +16032,7 @@
           "subgroups": [
             {
               "id": "reference-boards-media-review",
-              "line": 639,
+              "line": 640,
               "title": {
                 "en": "Reference Boards & Media Review",
                 "zh": "参考图管理与媒体审阅"
@@ -15990,7 +16042,7 @@
             },
             {
               "id": "shaders-particles-3d-viewers",
-              "line": 646,
+              "line": 647,
               "title": {
                 "en": "Shaders, Particles & 3D Viewers",
                 "zh": "着色器、粒子与 3D 查看器"
@@ -16000,7 +16052,7 @@
             },
             {
               "id": "blender-tools-custom-builds",
-              "line": 654,
+              "line": 655,
               "title": {
                 "en": "Blender Tools & Custom Builds",
                 "zh": "Blender 工具与定制构建"
@@ -16011,8 +16063,8 @@
           ],
           "entries": [
             {
-              "id": "L640-pureref",
-              "line": 640,
+              "id": "L641-pureref",
+              "line": 641,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16048,8 +16100,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L641-allusion",
-              "line": 641,
+              "id": "L642-allusion",
+              "line": 642,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16098,8 +16150,8 @@
               "addedAt": "2023-05-25"
             },
             {
-              "id": "L642-connecter",
-              "line": 642,
+              "id": "L643-connecter",
+              "line": 643,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16135,8 +16187,8 @@
               "addedAt": "2022-02-13"
             },
             {
-              "id": "L643-djv",
-              "line": 643,
+              "id": "L644-djv",
+              "line": 644,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16185,8 +16237,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L644-exr-io",
-              "line": 644,
+              "id": "L645-exr-io",
+              "line": 645,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16222,8 +16274,8 @@
               "addedAt": "2021-04-26"
             },
             {
-              "id": "L645-gametextureviewer",
-              "line": 645,
+              "id": "L646-gametextureviewer",
+              "line": 646,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16259,8 +16311,8 @@
               "addedAt": "2022-09-27"
             },
             {
-              "id": "L647-shadered",
-              "line": 647,
+              "id": "L648-shadered",
+              "line": 648,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16299,8 +16351,8 @@
               "addedAt": "2020-03-01"
             },
             {
-              "id": "L648-cineshader",
-              "line": 648,
+              "id": "L649-cineshader",
+              "line": 649,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16336,8 +16388,8 @@
               "addedAt": "2020-02-12"
             },
             {
-              "id": "L649-light-tracer-render",
-              "line": 649,
+              "id": "L650-light-tracer-render",
+              "line": 650,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16373,8 +16425,8 @@
               "addedAt": "2020-02-12"
             },
             {
-              "id": "L650-effekseer",
-              "line": 650,
+              "id": "L651-effekseer",
+              "line": 651,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16410,8 +16462,8 @@
               "addedAt": "2020-03-27"
             },
             {
-              "id": "L651-particle-illusion",
-              "line": 651,
+              "id": "L652-particle-illusion",
+              "line": 652,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16447,8 +16499,8 @@
               "addedAt": "2020-06-25"
             },
             {
-              "id": "L652-f3d",
-              "line": 652,
+              "id": "L653-f3d",
+              "line": 653,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16497,8 +16549,8 @@
               "addedAt": "2023-05-25"
             },
             {
-              "id": "L653-processing",
-              "line": 653,
+              "id": "L654-processing",
+              "line": 654,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16547,8 +16599,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L655-goo-engine",
-              "line": 655,
+              "id": "L656-goo-engine",
+              "line": 656,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16589,8 +16641,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L656-upbge",
-              "line": 656,
+              "id": "L657-upbge",
+              "line": 657,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16639,8 +16691,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L657-bforartists",
-              "line": 657,
+              "id": "L658-bforartists",
+              "line": 658,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16689,8 +16741,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L658-blenderupdater",
-              "line": 658,
+              "id": "L659-blenderupdater",
+              "line": 659,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16729,8 +16781,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L659-blenderupdatercli",
-              "line": 659,
+              "id": "L660-blenderupdatercli",
+              "line": 660,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16769,8 +16821,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L660-blender-launcher-v2",
-              "line": 660,
+              "id": "L661-blender-launcher-v2",
+              "line": 661,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16809,8 +16861,8 @@
               "addedAt": "2026-11-13"
             },
             {
-              "id": "L661-blender-manager",
-              "line": 661,
+              "id": "L662-blender-manager",
+              "line": 662,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16849,8 +16901,8 @@
               "addedAt": "2026-01-22"
             },
             {
-              "id": "L662-sheep-it-render-farm",
-              "line": 662,
+              "id": "L663-sheep-it-render-farm",
+              "line": 663,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/various-tools",
@@ -16891,7 +16943,7 @@
           "id": "standalone/photogrammetry",
           "slug": "photogrammetry",
           "sectionId": "standalone",
-          "line": 666,
+          "line": 667,
           "emoji": "📷",
           "title": {
             "en": "Photogrammetry",
@@ -16902,8 +16954,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L668-meshroom",
-              "line": 668,
+              "id": "L669-meshroom",
+              "line": 669,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -16949,8 +17001,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L669-colmap",
-              "line": 669,
+              "id": "L670-colmap",
+              "line": 670,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -16996,8 +17048,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L670-3df-zephyr-free",
-              "line": 670,
+              "id": "L671-3df-zephyr-free",
+              "line": 671,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -17030,8 +17082,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L671-micmac",
-              "line": 671,
+              "id": "L672-micmac",
+              "line": 672,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -17067,8 +17119,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L672-realityscan",
-              "line": 672,
+              "id": "L673-realityscan",
+              "line": 673,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -17101,8 +17153,8 @@
               "addedAt": "2022-04-29"
             },
             {
-              "id": "L673-agisoft-metashape",
-              "line": 673,
+              "id": "L674-agisoft-metashape",
+              "line": 674,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -17135,8 +17187,8 @@
               "addedAt": "2020-08-12"
             },
             {
-              "id": "L674-postshot",
-              "line": 674,
+              "id": "L675-postshot",
+              "line": 675,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -17169,8 +17221,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L675-nerfstudio",
-              "line": 675,
+              "id": "L676-nerfstudio",
+              "line": 676,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -17206,8 +17258,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L676-supersplat",
-              "line": 676,
+              "id": "L677-supersplat",
+              "line": 677,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -17255,8 +17307,8 @@
               "addedAt": "2026-11-13"
             },
             {
-              "id": "L677-brush",
-              "line": 677,
+              "id": "L678-brush",
+              "line": 678,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -17292,8 +17344,8 @@
               "addedAt": "2026-11-13"
             },
             {
-              "id": "L678-gsplat",
-              "line": 678,
+              "id": "L679-gsplat",
+              "line": 679,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/photogrammetry",
@@ -17344,7 +17396,7 @@
           "id": "standalone/texture-material",
           "slug": "texture-material",
           "sectionId": "standalone",
-          "line": 682,
+          "line": 683,
           "emoji": "🧱",
           "title": {
             "en": "Texture/Material",
@@ -17355,8 +17407,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L684-material-maker",
-              "line": 684,
+              "id": "L685-material-maker",
+              "line": 685,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -17404,8 +17456,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L685-armorpaint",
-              "line": 685,
+              "id": "L686-armorpaint",
+              "line": 686,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -17451,8 +17503,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L686-instamat",
-              "line": 686,
+              "id": "L687-instamat",
+              "line": 687,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -17485,8 +17537,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L687-materialize",
-              "line": 687,
+              "id": "L688-materialize",
+              "line": 688,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -17534,8 +17586,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L688-normal-map-bench",
-              "line": 688,
+              "id": "L689-normal-map-bench",
+              "line": 689,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -17568,8 +17620,8 @@
               "addedAt": "2026-10-31"
             },
             {
-              "id": "L689-agisoft-de-lighter",
-              "line": 689,
+              "id": "L690-agisoft-de-lighter",
+              "line": 690,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -17603,8 +17655,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L690-architextures",
-              "line": 690,
+              "id": "L691-architextures",
+              "line": 691,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -17637,8 +17689,8 @@
               "addedAt": "2022-09-26"
             },
             {
-              "id": "L691-nvidia-texture-tools-exporter",
-              "line": 691,
+              "id": "L692-nvidia-texture-tools-exporter",
+              "line": 692,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -17671,8 +17723,8 @@
               "addedAt": "2020-03-25"
             },
             {
-              "id": "L692-agama-materials",
-              "line": 692,
+              "id": "L693-agama-materials",
+              "line": 693,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/texture-material",
@@ -17710,7 +17762,7 @@
           "id": "standalone/terrain-gis-lidar",
           "slug": "terrain-gis-lidar",
           "sectionId": "standalone",
-          "line": 696,
+          "line": 697,
           "emoji": "🗻",
           "title": {
             "en": "Terrain, GIS & LiDAR",
@@ -17721,7 +17773,7 @@
           "subgroups": [
             {
               "id": "terrain-generators",
-              "line": 698,
+              "line": 699,
               "title": {
                 "en": "Terrain Generators",
                 "zh": "地形生成器"
@@ -17731,7 +17783,7 @@
             },
             {
               "id": "real-world-dem-lidar-data",
-              "line": 705,
+              "line": 706,
               "title": {
                 "en": "Real-World DEM & LiDAR Data",
                 "zh": "真实世界 DEM 与 LiDAR 数据"
@@ -17742,8 +17794,8 @@
           ],
           "entries": [
             {
-              "id": "L699-terresculptor",
-              "line": 699,
+              "id": "L700-terresculptor",
+              "line": 700,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -17779,8 +17831,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L700-world-machine",
-              "line": 700,
+              "id": "L701-world-machine",
+              "line": 701,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -17816,8 +17868,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L701-terragen",
-              "line": 701,
+              "id": "L702-terragen",
+              "line": 702,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -17853,8 +17905,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L702-world-creator",
-              "line": 702,
+              "id": "L703-world-creator",
+              "line": 703,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -17890,8 +17942,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L703-gaea",
-              "line": 703,
+              "id": "L704-gaea",
+              "line": 704,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -17927,8 +17979,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L704-instant-terra",
-              "line": 704,
+              "id": "L705-instant-terra",
+              "line": 705,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -17964,8 +18016,8 @@
               "addedAt": "2020-11-13"
             },
             {
-              "id": "L706-tangram-heightmapper",
-              "line": 706,
+              "id": "L707-tangram-heightmapper",
+              "line": 707,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -18001,8 +18053,8 @@
               "addedAt": "2020-03-25"
             },
             {
-              "id": "L707-opentopography",
-              "line": 707,
+              "id": "L708-opentopography",
+              "line": 708,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -18038,8 +18090,8 @@
               "addedAt": "2020-03-25"
             },
             {
-              "id": "L708-copernicus-dem-esa",
-              "line": 708,
+              "id": "L709-copernicus-dem-esa",
+              "line": 709,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -18075,8 +18127,8 @@
               "addedAt": "2023-01-30"
             },
             {
-              "id": "L709-noaa-data-access-viewer",
-              "line": 709,
+              "id": "L710-noaa-data-access-viewer",
+              "line": 710,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -18112,8 +18164,8 @@
               "addedAt": "2020-11-13"
             },
             {
-              "id": "L710-usgs-national-map-lidar",
-              "line": 710,
+              "id": "L711-usgs-national-map-lidar",
+              "line": 711,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/terrain-gis-lidar",
@@ -18185,7 +18237,7 @@
           "id": "standalone/painting-audio-post-production",
           "slug": "painting-audio-post-production",
           "sectionId": "standalone",
-          "line": 714,
+          "line": 715,
           "emoji": "📹",
           "title": {
             "en": "Painting, Audio & Post-Production",
@@ -18196,8 +18248,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L716-artcraft",
-              "line": 716,
+              "id": "L717-artcraft",
+              "line": 717,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/painting-audio-post-production",
@@ -18245,8 +18297,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L717-davinci-resolve",
-              "line": 717,
+              "id": "L718-davinci-resolve",
+              "line": 718,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/painting-audio-post-production",
@@ -18279,8 +18331,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L718-natron",
-              "line": 718,
+              "id": "L719-natron",
+              "line": 719,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/painting-audio-post-production",
@@ -18328,8 +18380,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L719-krita",
-              "line": 719,
+              "id": "L720-krita",
+              "line": 720,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/painting-audio-post-production",
@@ -18377,8 +18429,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L720-inkscape",
-              "line": 720,
+              "id": "L721-inkscape",
+              "line": 721,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/painting-audio-post-production",
@@ -18426,8 +18478,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L721-audacity",
-              "line": 721,
+              "id": "L722-audacity",
+              "line": 722,
               "kind": "item",
               "sectionId": "standalone",
               "categoryId": "standalone/painting-audio-post-production",
@@ -18480,7 +18532,7 @@
     },
     {
       "id": "tutorials",
-      "line": 736,
+      "line": 737,
       "emoji": "🎓",
       "title": {
         "en": "Tutorials",
@@ -18488,7 +18540,7 @@
       },
       "banners": [
         {
-          "line": 738,
+          "line": 739,
           "title": {
             "en": "▷ video, ☰ playlist, ☷ channel, 🧾 doc.",
             "zh": "▷ video, ☰ playlist, ☷ channel, 🧾 doc."
@@ -18502,7 +18554,7 @@
           "id": "tutorials/beginning",
           "slug": "beginning",
           "sectionId": "tutorials",
-          "line": 740,
+          "line": 741,
           "emoji": "🍩",
           "title": {
             "en": "Beginning",
@@ -18513,8 +18565,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L742-blender-user-manual",
-              "line": 742,
+              "id": "L743-blender-user-manual",
+              "line": 743,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/beginning",
@@ -18549,8 +18601,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L743-blender-donut-tutorial-2025-by-blender-guru",
-              "line": 743,
+              "id": "L744-blender-donut-tutorial-2025-by-blender-guru",
+              "line": 744,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/beginning",
@@ -18585,8 +18637,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L744-learn-blender-5-by-grant-abbitt",
-              "line": 744,
+              "id": "L745-learn-blender-5-by-grant-abbitt",
+              "line": 745,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/beginning",
@@ -18621,8 +18673,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L745-blender-concepts-explained-core-52-lts-by-cg-coo",
-              "line": 745,
+              "id": "L746-blender-concepts-explained-core-52-lts-by-cg-coo",
+              "line": 746,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/beginning",
@@ -18657,8 +18709,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L746-the-right-way-to-learn-blender-in-2026-by-grant-",
-              "line": 746,
+              "id": "L747-the-right-way-to-learn-blender-in-2026-by-grant-",
+              "line": 747,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/beginning",
@@ -18693,8 +18745,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L747-5-blender-mistakes-id-never-make-if-i-started-in",
-              "line": 747,
+              "id": "L748-5-blender-mistakes-id-never-make-if-i-started-in",
+              "line": 748,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/beginning",
@@ -18729,8 +18781,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L748-blender-fundamentals-by-dev-null-productions",
-              "line": 748,
+              "id": "L749-blender-fundamentals-by-dev-null-productions",
+              "line": 749,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/beginning",
@@ -18768,7 +18820,7 @@
           "id": "tutorials/modeling",
           "slug": "modeling",
           "sectionId": "tutorials",
-          "line": 752,
+          "line": 753,
           "emoji": "🗿",
           "title": {
             "en": "Modeling",
@@ -18779,7 +18831,7 @@
           "subgroups": [
             {
               "id": "sculpting",
-              "line": 758,
+              "line": 759,
               "title": {
                 "en": "Sculpting",
                 "zh": "雕刻"
@@ -18789,7 +18841,7 @@
             },
             {
               "id": "character-modeling",
-              "line": 764,
+              "line": 765,
               "title": {
                 "en": "Character Modeling",
                 "zh": "角色建模"
@@ -18799,7 +18851,7 @@
             },
             {
               "id": "hard-surface",
-              "line": 767,
+              "line": 768,
               "title": {
                 "en": "Hard Surface",
                 "zh": "硬表面"
@@ -18810,8 +18862,8 @@
           ],
           "entries": [
             {
-              "id": "L754-modeling-manual",
-              "line": 754,
+              "id": "L755-modeling-manual",
+              "line": 755,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -18846,8 +18898,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L755-blender-mesh-modeling-fundamentals-by-cg-cookie",
-              "line": 755,
+              "id": "L756-blender-mesh-modeling-fundamentals-by-cg-cookie",
+              "line": 756,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -18882,8 +18934,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L756-get-good-blender-modeling-exercises-by-grant-abb",
-              "line": 756,
+              "id": "L757-get-good-blender-modeling-exercises-by-grant-abb",
+              "line": 757,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -18918,8 +18970,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L757-all-50-modifiers-in-blender-explained-in-30-minu",
-              "line": 757,
+              "id": "L758-all-50-modifiers-in-blender-explained-in-30-minu",
+              "line": 758,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -18954,8 +19006,8 @@
               "addedAt": "2020-04-26"
             },
             {
-              "id": "L759-yansculpts-channel",
-              "line": 759,
+              "id": "L760-yansculpts-channel",
+              "line": 760,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -18993,8 +19045,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L760-julien-kaspars-channel",
-              "line": 760,
+              "id": "L761-julien-kaspars-channel",
+              "line": 761,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -19032,8 +19084,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L761-introduction-to-sculpting-in-blender-sculpting-e",
-              "line": 761,
+              "id": "L762-introduction-to-sculpting-in-blender-sculpting-e",
+              "line": 762,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -19071,8 +19123,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L762-the-speed-sculpting-guide-learn-from-limitation-",
-              "line": 762,
+              "id": "L763-the-speed-sculpting-guide-learn-from-limitation-",
+              "line": 763,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -19110,8 +19162,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L763-sculpting-in-blender-beginners-detailed-guide-ev",
-              "line": 763,
+              "id": "L764-sculpting-in-blender-beginners-detailed-guide-ev",
+              "line": 764,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -19149,8 +19201,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L765-stylized-character-workflow-with-blender",
-              "line": 765,
+              "id": "L766-stylized-character-workflow-with-blender",
+              "line": 766,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -19188,8 +19240,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L766-modeling-a-character-basemesh-in-blender",
-              "line": 766,
+              "id": "L767-modeling-a-character-basemesh-in-blender",
+              "line": 767,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -19227,8 +19279,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L768-hard-surface-modeling-in-blender-by-gleb-alexand",
-              "line": 768,
+              "id": "L769-hard-surface-modeling-in-blender-by-gleb-alexand",
+              "line": 769,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/modeling",
@@ -19271,7 +19323,7 @@
           "id": "tutorials/geometry-nodes",
           "slug": "geometry-nodes",
           "sectionId": "tutorials",
-          "line": 772,
+          "line": 773,
           "emoji": "🌌",
           "title": {
             "en": "Geometry Nodes",
@@ -19282,8 +19334,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L774-geometry-nodes-manual",
-              "line": 774,
+              "id": "L775-geometry-nodes-manual",
+              "line": 775,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -19318,8 +19370,8 @@
               "addedAt": "2022-02-13"
             },
             {
-              "id": "L775-simulation-nodes-manual",
-              "line": 775,
+              "id": "L776-simulation-nodes-manual",
+              "line": 776,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -19364,8 +19416,8 @@
               "addedAt": "2026-11-13"
             },
             {
-              "id": "L776-geometry-nodes-simulation-playlists-by-erindale",
-              "line": 776,
+              "id": "L777-geometry-nodes-simulation-playlists-by-erindale",
+              "line": 777,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -19400,8 +19452,8 @@
               "addedAt": "2026-11-13"
             },
             {
-              "id": "L777-geometry-nodes-for-beginners-complete-course-by-",
-              "line": 777,
+              "id": "L778-geometry-nodes-for-beginners-complete-course-by-",
+              "line": 778,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -19436,8 +19488,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L778-the-only-geometry-nodes-tutorial-youll-ever-need",
-              "line": 778,
+              "id": "L779-the-only-geometry-nodes-tutorial-youll-ever-need",
+              "line": 779,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -19472,8 +19524,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L779-poppin-heads-with-geometry-nodes-blender-52-by-j",
-              "line": 779,
+              "id": "L780-poppin-heads-with-geometry-nodes-blender-52-by-j",
+              "line": 780,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -19508,8 +19560,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L780-rigging-with-nodes-changes-everything-bcon-2025-",
-              "line": 780,
+              "id": "L781-rigging-with-nodes-changes-everything-bcon-2025-",
+              "line": 781,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -19544,8 +19596,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L781-geometry-nodes-technical-breakdowns-by-johnny-ma",
-              "line": 781,
+              "id": "L782-geometry-nodes-technical-breakdowns-by-johnny-ma",
+              "line": 782,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -19580,8 +19632,8 @@
               "addedAt": "2026-11-13"
             },
             {
-              "id": "L782-intro-to-simulation-nodes-by-erindale",
-              "line": 782,
+              "id": "L783-intro-to-simulation-nodes-by-erindale",
+              "line": 783,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -19616,8 +19668,8 @@
               "addedAt": "2026-11-13"
             },
             {
-              "id": "L783-blender-simulation-nodes-beginner-tutorial-by-ba",
-              "line": 783,
+              "id": "L784-blender-simulation-nodes-beginner-tutorial-by-ba",
+              "line": 784,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -19652,8 +19704,8 @@
               "addedAt": "2026-11-13"
             },
             {
-              "id": "L784-geometry-nodes-design-patterns-by-dev-null-produ",
-              "line": 784,
+              "id": "L785-geometry-nodes-design-patterns-by-dev-null-produ",
+              "line": 785,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/geometry-nodes",
@@ -19691,7 +19743,7 @@
           "id": "tutorials/shader-nodes",
           "slug": "shader-nodes",
           "sectionId": "tutorials",
-          "line": 788,
+          "line": 789,
           "emoji": "🔘",
           "title": {
             "en": "Shader Nodes",
@@ -19702,8 +19754,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L790-shader-nodes-list",
-              "line": 790,
+              "id": "L791-shader-nodes-list",
+              "line": 791,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/shader-nodes",
@@ -19738,8 +19790,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L791-blender-material-shader-design-patterns-by-dev-n",
-              "line": 791,
+              "id": "L792-blender-material-shader-design-patterns-by-dev-n",
+              "line": 792,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/shader-nodes",
@@ -19772,8 +19824,8 @@
               "addedAt": "2026-10-31"
             },
             {
-              "id": "L792-every-shader-node-you-need-to-know-in-blender-by",
-              "line": 792,
+              "id": "L793-every-shader-node-you-need-to-know-in-blender-by",
+              "line": 793,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/shader-nodes",
@@ -19808,8 +19860,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L793-how-to-create-pro-materials-in-blender-by-kaizen",
-              "line": 793,
+              "id": "L794-how-to-create-pro-materials-in-blender-by-kaizen",
+              "line": 794,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/shader-nodes",
@@ -19844,8 +19896,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L794-real-time-motion-graphics-eevee-shading-by-midge",
-              "line": 794,
+              "id": "L795-real-time-motion-graphics-eevee-shading-by-midge",
+              "line": 795,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/shader-nodes",
@@ -19880,8 +19932,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L795-blender-procedural-nodes-playlist-by-default-cub",
-              "line": 795,
+              "id": "L796-blender-procedural-nodes-playlist-by-default-cub",
+              "line": 796,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/shader-nodes",
@@ -19916,8 +19968,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L796-node-school-playlist-by-grant-abbitt",
-              "line": 796,
+              "id": "L797-node-school-playlist-by-grant-abbitt",
+              "line": 797,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/shader-nodes",
@@ -19952,8 +20004,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L797-all-80-blender-material-nodes-explained-in-under",
-              "line": 797,
+              "id": "L798-all-80-blender-material-nodes-explained-in-under",
+              "line": 798,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/shader-nodes",
@@ -19993,7 +20045,7 @@
           "id": "tutorials/animation",
           "slug": "animation",
           "sectionId": "tutorials",
-          "line": 801,
+          "line": 802,
           "emoji": "🌠",
           "title": {
             "en": "Animation",
@@ -20004,8 +20056,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L803-animation-rigging-manual",
-              "line": 803,
+              "id": "L804-animation-rigging-manual",
+              "line": 804,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -20040,8 +20092,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L804-grease-pencil-manual",
-              "line": 804,
+              "id": "L805-grease-pencil-manual",
+              "line": 805,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -20076,8 +20128,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L805-rigging-isnt-scary-complete-series-by-cgdive",
-              "line": 805,
+              "id": "L806-rigging-isnt-scary-complete-series-by-cgdive",
+              "line": 806,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -20112,8 +20164,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L806-blender-50-new-rigging-and-animation-features-by",
-              "line": 806,
+              "id": "L807-blender-50-new-rigging-and-animation-features-by",
+              "line": 807,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -20148,8 +20200,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L807-blender-52-new-rigging-and-animation-features-by",
-              "line": 807,
+              "id": "L808-blender-52-new-rigging-and-animation-features-by",
+              "line": 808,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -20184,8 +20236,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L808-grease-pencil-beginners-guide-blender-44-by-gran",
-              "line": 808,
+              "id": "L809-grease-pencil-beginners-guide-blender-44-by-gran",
+              "line": 809,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -20220,8 +20272,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L809-2d-blender-grease-pencil-basics-start-animating-",
-              "line": 809,
+              "id": "L810-2d-blender-grease-pencil-basics-start-animating-",
+              "line": 810,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -20256,8 +20308,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L810-blender-character-animation-shape-keys-by-southe",
-              "line": 810,
+              "id": "L811-blender-character-animation-shape-keys-by-southe",
+              "line": 811,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -20292,8 +20344,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L811-quick-smooth-camera-movements-by-polyfjord",
-              "line": 811,
+              "id": "L812-quick-smooth-camera-movements-by-polyfjord",
+              "line": 812,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/animation",
@@ -20333,7 +20385,7 @@
           "id": "tutorials/uv-mapping",
           "slug": "uv-mapping",
           "sectionId": "tutorials",
-          "line": 815,
+          "line": 816,
           "emoji": "🔲",
           "title": {
             "en": "UV Mapping",
@@ -20344,8 +20396,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L817-uv-editor-manual",
-              "line": 817,
+              "id": "L818-uv-editor-manual",
+              "line": 818,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/uv-mapping",
@@ -20380,8 +20432,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L818-blender-5-uv-unwrapping-just-got-way-easier-by-g",
-              "line": 818,
+              "id": "L819-blender-5-uv-unwrapping-just-got-way-easier-by-g",
+              "line": 819,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/uv-mapping",
@@ -20416,8 +20468,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L819-how-to-uv-unwrap-anything-in-blender-by-ice-guy",
-              "line": 819,
+              "id": "L820-how-to-uv-unwrap-anything-in-blender-by-ice-guy",
+              "line": 820,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/uv-mapping",
@@ -20452,8 +20504,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L820-uv-unwrap-and-add-product-labelling-in-blender-b",
-              "line": 820,
+              "id": "L821-uv-unwrap-and-add-product-labelling-in-blender-b",
+              "line": 821,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/uv-mapping",
@@ -20493,7 +20545,7 @@
           "id": "tutorials/texture-painting",
           "slug": "texture-painting",
           "sectionId": "tutorials",
-          "line": 824,
+          "line": 825,
           "emoji": "🔳",
           "title": {
             "en": "Texture Painting",
@@ -20504,8 +20556,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L826-texture-paint-manual",
-              "line": 826,
+              "id": "L827-texture-paint-manual",
+              "line": 827,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/texture-painting",
@@ -20540,8 +20592,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L827-texture-painting-quick-start-guide-for-beginners",
-              "line": 827,
+              "id": "L828-texture-painting-quick-start-guide-for-beginners",
+              "line": 828,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/texture-painting",
@@ -20576,8 +20628,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L828-how-to-texture-anything-in-5-minutes-by-on-mars-",
-              "line": 828,
+              "id": "L829-how-to-texture-anything-in-5-minutes-by-on-mars-",
+              "line": 829,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/texture-painting",
@@ -20617,7 +20669,7 @@
           "id": "tutorials/compositing",
           "slug": "compositing",
           "sectionId": "tutorials",
-          "line": 832,
+          "line": 833,
           "emoji": "📐",
           "title": {
             "en": "Compositing",
@@ -20628,8 +20680,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L834-compositing-nodes-list",
-              "line": 834,
+              "id": "L835-compositing-nodes-list",
+              "line": 835,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/compositing",
@@ -20664,8 +20716,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L835-blender-compositing-tutorials-by-ryan-king-art",
-              "line": 835,
+              "id": "L836-blender-compositing-tutorials-by-ryan-king-art",
+              "line": 836,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/compositing",
@@ -20700,8 +20752,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L836-new-compositor-and-effects-tab-in-blender-53-by-",
-              "line": 836,
+              "id": "L837-new-compositor-and-effects-tab-in-blender-53-by-",
+              "line": 837,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/compositing",
@@ -20736,8 +20788,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L837-start-compositing-in-blender-50-in-16-minutes-by",
-              "line": 837,
+              "id": "L838-start-compositing-in-blender-50-in-16-minutes-by",
+              "line": 838,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/compositing",
@@ -20772,8 +20824,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L838-compositing-for-complete-beginners-in-blender-by",
-              "line": 838,
+              "id": "L839-compositing-for-complete-beginners-in-blender-by",
+              "line": 839,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/compositing",
@@ -20813,7 +20865,7 @@
           "id": "tutorials/motion-tracking-capture",
           "slug": "motion-tracking-capture",
           "sectionId": "tutorials",
-          "line": 842,
+          "line": 843,
           "emoji": "🤺",
           "title": {
             "en": "Motion Tracking/Capture",
@@ -20824,8 +20876,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L844-motion-tracking-manual",
-              "line": 844,
+              "id": "L845-motion-tracking-manual",
+              "line": 845,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/motion-tracking-capture",
@@ -20860,8 +20912,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L845-3d-tracking-with-colmap-blender-by-polyfjord",
-              "line": 845,
+              "id": "L846-3d-tracking-with-colmap-blender-by-polyfjord",
+              "line": 846,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/motion-tracking-capture",
@@ -20896,8 +20948,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L846-how-to-animate-in-blender-with-free-ai-mocap-too",
-              "line": 846,
+              "id": "L847-how-to-animate-in-blender-with-free-ai-mocap-too",
+              "line": 847,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/motion-tracking-capture",
@@ -20932,8 +20984,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L847-blender-motion-tracking-series-by-cgmatter",
-              "line": 847,
+              "id": "L848-blender-motion-tracking-series-by-cgmatter",
+              "line": 848,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/motion-tracking-capture",
@@ -20968,8 +21020,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L848-add-vfx-to-cinematic-raw-and-log-footage-by-inli",
-              "line": 848,
+              "id": "L849-add-vfx-to-cinematic-raw-and-log-footage-by-inli",
+              "line": 849,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/motion-tracking-capture",
@@ -21009,7 +21061,7 @@
           "id": "tutorials/fundamentals-cg",
           "slug": "fundamentals-cg",
           "sectionId": "tutorials",
-          "line": 852,
+          "line": 853,
           "emoji": "🧠",
           "title": {
             "en": "Fundamentals & CG",
@@ -21020,8 +21072,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L854-pixar-in-a-box",
-              "line": 854,
+              "id": "L855-pixar-in-a-box",
+              "line": 855,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/fundamentals-cg",
@@ -21054,8 +21106,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L855-skilly-blender-fundamentals-curriculum",
-              "line": 855,
+              "id": "L856-skilly-blender-fundamentals-curriculum",
+              "line": 856,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/fundamentals-cg",
@@ -21091,8 +21143,8 @@
               "addedAt": "2026-10-31"
             },
             {
-              "id": "L856-computer-graphics-from-scratch",
-              "line": 856,
+              "id": "L857-computer-graphics-from-scratch",
+              "line": 857,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/fundamentals-cg",
@@ -21138,8 +21190,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L857-tinyraytracer",
-              "line": 857,
+              "id": "L858-tinyraytracer",
+              "line": 858,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/fundamentals-cg",
@@ -21175,8 +21227,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L858-tinyrenderer",
-              "line": 858,
+              "id": "L859-tinyrenderer",
+              "line": 859,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/fundamentals-cg",
@@ -21217,7 +21269,7 @@
           "id": "tutorials/scripting-extensions",
           "slug": "scripting-extensions",
           "sectionId": "tutorials",
-          "line": 862,
+          "line": 863,
           "emoji": "💻",
           "title": {
             "en": "Scripting & Extensions",
@@ -21228,7 +21280,7 @@
           "subgroups": [
             {
               "id": "documentation",
-              "line": 864,
+              "line": 865,
               "title": {
                 "en": "Documentation",
                 "zh": "官方文档"
@@ -21238,7 +21290,7 @@
             },
             {
               "id": "ai-assisted-extension-tutorials",
-              "line": 867,
+              "line": 868,
               "title": {
                 "en": "AI-Assisted & Extension Tutorials",
                 "zh": "AI 辅助与扩展开发教程"
@@ -21248,7 +21300,7 @@
             },
             {
               "id": "core-developer-verification-tools",
-              "line": 873,
+              "line": 874,
               "title": {
                 "en": "Core Developer & Verification Tools",
                 "zh": "核心开发与验证工具"
@@ -21259,8 +21311,8 @@
           ],
           "entries": [
             {
-              "id": "L865-blender-python-api-documentation",
-              "line": 865,
+              "id": "L866-blender-python-api-documentation",
+              "line": 866,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -21308,8 +21360,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L866-creating-extensions-blender-42",
-              "line": 866,
+              "id": "L867-creating-extensions-blender-42",
+              "line": 867,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -21357,8 +21409,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L868-blender-42-extensions-vs-add-ons-explained-by-cg",
-              "line": 868,
+              "id": "L869-blender-42-extensions-vs-add-ons-explained-by-cg",
+              "line": 869,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -21396,8 +21448,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L869-i-built-a-blender-add-on-using-a-100-free-ai-age",
-              "line": 869,
+              "id": "L870-i-built-a-blender-add-on-using-a-100-free-ai-age",
+              "line": 870,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -21435,8 +21487,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L870-ai-driven-blender-scripting-by-cg-python",
-              "line": 870,
+              "id": "L871-ai-driven-blender-scripting-by-cg-python",
+              "line": 871,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -21474,8 +21526,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L871-how-to-setup-blender-mcp-with-claude-codex-gemin",
-              "line": 871,
+              "id": "L872-how-to-setup-blender-mcp-with-claude-codex-gemin",
+              "line": 872,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -21513,8 +21565,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L872-item",
-              "line": 872,
+              "id": "L873-item",
+              "line": 873,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -21548,8 +21600,8 @@
               "addedAt": null
             },
             {
-              "id": "L874-fake-bpy-module",
-              "line": 874,
+              "id": "L875-fake-bpy-module",
+              "line": 875,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -21588,8 +21640,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L875-bpy-on-pypi",
-              "line": 875,
+              "id": "L876-bpy-on-pypi",
+              "line": 876,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -21625,8 +21677,8 @@
               "addedAt": "2026-11-13"
             },
             {
-              "id": "L876-blender-development-in-vs-code",
-              "line": 876,
+              "id": "L877-blender-development-in-vs-code",
+              "line": 877,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -21675,8 +21727,8 @@
               "addedAt": "2020-09-21"
             },
             {
-              "id": "L877-blender-addon-tester",
-              "line": 877,
+              "id": "L878-blender-addon-tester",
+              "line": 878,
               "kind": "item",
               "sectionId": "tutorials",
               "categoryId": "tutorials/scripting-extensions",
@@ -21720,7 +21772,7 @@
     },
     {
       "id": "social",
-      "line": 886,
+      "line": 887,
       "emoji": "🌐",
       "title": {
         "en": "Social",
@@ -21732,7 +21784,7 @@
           "id": "social/explore-artworks",
           "slug": "explore-artworks",
           "sectionId": "social",
-          "line": 888,
+          "line": 889,
           "emoji": "🔍",
           "title": {
             "en": "Explore Artworks",
@@ -21743,8 +21795,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L891-r-blender",
-              "line": 891,
+              "id": "L892-r-blender",
+              "line": 892,
               "kind": "quick-link",
               "sectionId": "social",
               "categoryId": "social/explore-artworks",
@@ -21779,8 +21831,8 @@
               "addedAt": null
             },
             {
-              "id": "L892-instagram-b3d",
-              "line": 892,
+              "id": "L893-instagram-b3d",
+              "line": 893,
               "kind": "quick-link",
               "sectionId": "social",
               "categoryId": "social/explore-artworks",
@@ -21815,8 +21867,8 @@
               "addedAt": null
             },
             {
-              "id": "L893-x-b3d",
-              "line": 893,
+              "id": "L894-x-b3d",
+              "line": 894,
               "kind": "quick-link",
               "sectionId": "social",
               "categoryId": "social/explore-artworks",
@@ -21851,8 +21903,8 @@
               "addedAt": null
             },
             {
-              "id": "L894-artstation-blender",
-              "line": 894,
+              "id": "L895-artstation-blender",
+              "line": 895,
               "kind": "quick-link",
               "sectionId": "social",
               "categoryId": "social/explore-artworks",
@@ -21887,8 +21939,8 @@
               "addedAt": null
             },
             {
-              "id": "L895-behance-blender",
-              "line": 895,
+              "id": "L896-behance-blender",
+              "line": 896,
               "kind": "quick-link",
               "sectionId": "social",
               "categoryId": "social/explore-artworks",
@@ -21923,8 +21975,8 @@
               "addedAt": null
             },
             {
-              "id": "L896-blender-artists-artwork",
-              "line": 896,
+              "id": "L897-blender-artists-artwork",
+              "line": 897,
               "kind": "quick-link",
               "sectionId": "social",
               "categoryId": "social/explore-artworks",
@@ -21964,7 +22016,7 @@
           "id": "social/communities",
           "slug": "communities",
           "sectionId": "social",
-          "line": 901,
+          "line": 902,
           "emoji": "🌐",
           "title": {
             "en": "Communities",
@@ -21975,8 +22027,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L903-blender-artists",
-              "line": 903,
+              "id": "L904-blender-artists",
+              "line": 904,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/communities",
@@ -22009,8 +22061,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L904-blendernation",
-              "line": 904,
+              "id": "L905-blendernation",
+              "line": 905,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/communities",
@@ -22043,8 +22095,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L905-blender-chat",
-              "line": 905,
+              "id": "L906-blender-chat",
+              "line": 906,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/communities",
@@ -22077,8 +22129,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L906-blender-discord",
-              "line": 906,
+              "id": "L907-blender-discord",
+              "line": 907,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/communities",
@@ -22111,8 +22163,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L907-blender-stack-exchange",
-              "line": 907,
+              "id": "L908-blender-stack-exchange",
+              "line": 908,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/communities",
@@ -22145,8 +22197,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L908-blender-facebook-group",
-              "line": 908,
+              "id": "L909-blender-facebook-group",
+              "line": 909,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/communities",
@@ -22179,8 +22231,8 @@
               "addedAt": "2020-04-26"
             },
             {
-              "id": "L909-blender-developers",
-              "line": 909,
+              "id": "L910-blender-developers",
+              "line": 910,
               "kind": "collection",
               "sectionId": "social",
               "categoryId": "social/communities",
@@ -22245,7 +22297,7 @@
           "id": "social/accounts",
           "slug": "accounts",
           "sectionId": "social",
-          "line": 913,
+          "line": 914,
           "emoji": "𝕏",
           "title": {
             "en": "Accounts",
@@ -22259,8 +22311,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L917-pablodp606",
-              "line": 917,
+              "id": "L918-pablodp606",
+              "line": 918,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22293,8 +22345,8 @@
               "addedAt": null
             },
             {
-              "id": "L918-3dbystedt",
-              "line": 918,
+              "id": "L919-3dbystedt",
+              "line": 919,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22327,8 +22379,8 @@
               "addedAt": null
             },
             {
-              "id": "L919-ppaawweeuu",
-              "line": 919,
+              "id": "L920-ppaawweeuu",
+              "line": 920,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22361,8 +22413,8 @@
               "addedAt": null
             },
             {
-              "id": "L920-mxeon1001",
-              "line": 920,
+              "id": "L921-mxeon1001",
+              "line": 921,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22395,8 +22447,8 @@
               "addedAt": null
             },
             {
-              "id": "L921-mrdodobird",
-              "line": 921,
+              "id": "L922-mrdodobird",
+              "line": 922,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22429,8 +22481,8 @@
               "addedAt": null
             },
             {
-              "id": "L922-artfromrachel",
-              "line": 922,
+              "id": "L923-artfromrachel",
+              "line": 923,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22463,8 +22515,8 @@
               "addedAt": null
             },
             {
-              "id": "L923-wanoco4d",
-              "line": 923,
+              "id": "L924-wanoco4d",
+              "line": 924,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22497,8 +22549,8 @@
               "addedAt": null
             },
             {
-              "id": "L924-dedouze",
-              "line": 924,
+              "id": "L925-dedouze",
+              "line": 925,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22531,8 +22583,8 @@
               "addedAt": null
             },
             {
-              "id": "L925-afx-lab",
-              "line": 925,
+              "id": "L926-afx-lab",
+              "line": 926,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22565,8 +22617,8 @@
               "addedAt": null
             },
             {
-              "id": "L926-yokohara-h",
-              "line": 926,
+              "id": "L927-yokohara-h",
+              "line": 927,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22599,8 +22651,8 @@
               "addedAt": null
             },
             {
-              "id": "L927-karl-poyzer",
-              "line": 927,
+              "id": "L928-karl-poyzer",
+              "line": 928,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22633,8 +22685,8 @@
               "addedAt": null
             },
             {
-              "id": "L928-kazlyan",
-              "line": 928,
+              "id": "L929-kazlyan",
+              "line": 929,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22667,8 +22719,8 @@
               "addedAt": null
             },
             {
-              "id": "L929-arc4g",
-              "line": 929,
+              "id": "L930-arc4g",
+              "line": 930,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22701,8 +22753,8 @@
               "addedAt": null
             },
             {
-              "id": "L930-flipfluids",
-              "line": 930,
+              "id": "L931-flipfluids",
+              "line": 931,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22735,8 +22787,8 @@
               "addedAt": null
             },
             {
-              "id": "L931-cggeeks",
-              "line": 931,
+              "id": "L932-cggeeks",
+              "line": 932,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22769,8 +22821,8 @@
               "addedAt": null
             },
             {
-              "id": "L932-pablovazquez",
-              "line": 932,
+              "id": "L933-pablovazquez",
+              "line": 933,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22803,8 +22855,8 @@
               "addedAt": null
             },
             {
-              "id": "L933-imilk-mani",
-              "line": 933,
+              "id": "L934-imilk-mani",
+              "line": 934,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22837,8 +22889,8 @@
               "addedAt": null
             },
             {
-              "id": "L934-bluefox-3d",
-              "line": 934,
+              "id": "L935-bluefox-3d",
+              "line": 935,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22871,8 +22923,8 @@
               "addedAt": null
             },
             {
-              "id": "L935-lucarood",
-              "line": 935,
+              "id": "L936-lucarood",
+              "line": 936,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22905,8 +22957,8 @@
               "addedAt": null
             },
             {
-              "id": "L936-janurschel",
-              "line": 936,
+              "id": "L937-janurschel",
+              "line": 937,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22939,8 +22991,8 @@
               "addedAt": null
             },
             {
-              "id": "L937-andrewpprice",
-              "line": 937,
+              "id": "L938-andrewpprice",
+              "line": 938,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -22973,8 +23025,8 @@
               "addedAt": null
             },
             {
-              "id": "L938-brentpatterson",
-              "line": 938,
+              "id": "L939-brentpatterson",
+              "line": 939,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -23007,8 +23059,8 @@
               "addedAt": null
             },
             {
-              "id": "L939-fineskimo",
-              "line": 939,
+              "id": "L940-fineskimo",
+              "line": 940,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -23041,8 +23093,8 @@
               "addedAt": null
             },
             {
-              "id": "L940-vicdoval",
-              "line": 940,
+              "id": "L941-vicdoval",
+              "line": 941,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -23075,8 +23127,8 @@
               "addedAt": null
             },
             {
-              "id": "L941-katdoes3d",
-              "line": 941,
+              "id": "L942-katdoes3d",
+              "line": 942,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -23109,8 +23161,8 @@
               "addedAt": null
             },
             {
-              "id": "L942-jiehananana",
-              "line": 942,
+              "id": "L943-jiehananana",
+              "line": 943,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -23143,8 +23195,8 @@
               "addedAt": null
             },
             {
-              "id": "L943-topolazy",
-              "line": 943,
+              "id": "L944-topolazy",
+              "line": 944,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -23177,8 +23229,8 @@
               "addedAt": null
             },
             {
-              "id": "L944-yorshcp",
-              "line": 944,
+              "id": "L945-yorshcp",
+              "line": 945,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -23211,8 +23263,8 @@
               "addedAt": null
             },
             {
-              "id": "L945-miladkambari",
-              "line": 945,
+              "id": "L946-miladkambari",
+              "line": 946,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -23245,8 +23297,8 @@
               "addedAt": null
             },
             {
-              "id": "L946-khamurai3d",
-              "line": 946,
+              "id": "L947-khamurai3d",
+              "line": 947,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -23279,8 +23331,8 @@
               "addedAt": null
             },
             {
-              "id": "L947-chiu-hans",
-              "line": 947,
+              "id": "L948-chiu-hans",
+              "line": 948,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -23313,8 +23365,8 @@
               "addedAt": null
             },
             {
-              "id": "L948-reijowrites",
-              "line": 948,
+              "id": "L949-reijowrites",
+              "line": 949,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -23347,8 +23399,8 @@
               "addedAt": null
             },
             {
-              "id": "L949-ibotpl",
-              "line": 949,
+              "id": "L950-ibotpl",
+              "line": 950,
               "kind": "social-handle",
               "sectionId": "social",
               "categoryId": "social/accounts",
@@ -23386,7 +23438,7 @@
           "id": "social/youtube-channels",
           "slug": "youtube-channels",
           "sectionId": "social",
-          "line": 953,
+          "line": 954,
           "emoji": "📢",
           "title": {
             "en": "YouTube Channels",
@@ -23397,7 +23449,7 @@
           "subgroups": [
             {
               "id": "general-official-beginners",
-              "line": 955,
+              "line": 956,
               "title": {
                 "en": "General, Official & Beginners",
                 "zh": "综合、官方与入门"
@@ -23407,7 +23459,7 @@
             },
             {
               "id": "modeling-hard-surface-sculpting-3d-printing",
-              "line": 969,
+              "line": 970,
               "title": {
                 "en": "Modeling, Hard-Surface, Sculpting & 3D Printing",
                 "zh": "建模、硬表面、雕刻与 3D 打印"
@@ -23417,7 +23469,7 @@
             },
             {
               "id": "geometry-nodes-shading-technical-art",
-              "line": 983,
+              "line": 984,
               "title": {
                 "en": "Geometry Nodes, Shading & Technical Art",
                 "zh": "几何节点、着色与技术美术"
@@ -23427,7 +23479,7 @@
             },
             {
               "id": "animation-rigging-vfx-stylized",
-              "line": 996,
+              "line": 997,
               "title": {
                 "en": "Animation, Rigging, VFX & Stylized",
                 "zh": "动画、绑定、视觉特效与风格化"
@@ -23438,8 +23490,8 @@
           ],
           "entries": [
             {
-              "id": "L956-blender",
-              "line": 956,
+              "id": "L957-blender",
+              "line": 957,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23477,8 +23529,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L957-blender-guru",
-              "line": 957,
+              "id": "L958-blender-guru",
+              "line": 958,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23516,8 +23568,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L958-cg-cookie",
-              "line": 958,
+              "id": "L959-cg-cookie",
+              "line": 959,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23565,8 +23617,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L959-cg-boost",
-              "line": 959,
+              "id": "L960-cg-boost",
+              "line": 960,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23604,8 +23656,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L960-grant-abbitt",
-              "line": 960,
+              "id": "L961-grant-abbitt",
+              "line": 961,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23643,8 +23695,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L961-ryan-king-art",
-              "line": 961,
+              "id": "L962-ryan-king-art",
+              "line": 962,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23682,8 +23734,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L962-blendervitals",
-              "line": 962,
+              "id": "L963-blendervitals",
+              "line": 963,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23721,8 +23773,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L963-cg-geek",
-              "line": 963,
+              "id": "L964-cg-geek",
+              "line": 964,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23760,8 +23812,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L964-kaizen",
-              "line": 964,
+              "id": "L965-kaizen",
+              "line": 965,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23799,8 +23851,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L965-crossmind-studio",
-              "line": 965,
+              "id": "L966-crossmind-studio",
+              "line": 966,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23838,8 +23890,8 @@
               "addedAt": "2020-03-15"
             },
             {
-              "id": "L966-3dgreenhorn",
-              "line": 966,
+              "id": "L967-3dgreenhorn",
+              "line": 967,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23877,8 +23929,8 @@
               "addedAt": "2022-02-13"
             },
             {
-              "id": "L967-cg-fast-track",
-              "line": 967,
+              "id": "L968-cg-fast-track",
+              "line": 968,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23916,8 +23968,8 @@
               "addedAt": "2020-11-13"
             },
             {
-              "id": "L968-steven-scott",
-              "line": 968,
+              "id": "L969-steven-scott",
+              "line": 969,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23955,8 +24007,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L970-josh-blender-bros",
-              "line": 970,
+              "id": "L971-josh-blender-bros",
+              "line": 971,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -23994,8 +24046,8 @@
               "addedAt": "2020-08-30"
             },
             {
-              "id": "L971-polygon-runway",
-              "line": 971,
+              "id": "L972-polygon-runway",
+              "line": 972,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24033,8 +24085,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L972-gleb-alexandrov",
-              "line": 972,
+              "id": "L973-gleb-alexandrov",
+              "line": 973,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24072,8 +24124,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L973-flippednormals",
-              "line": 973,
+              "id": "L974-flippednormals",
+              "line": 974,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24111,8 +24163,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L974-noggi",
-              "line": 974,
+              "id": "L975-noggi",
+              "line": 975,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24150,8 +24202,8 @@
               "addedAt": "2022-02-13"
             },
             {
-              "id": "L975-flycat",
-              "line": 975,
+              "id": "L976-flycat",
+              "line": 976,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24189,8 +24241,8 @@
               "addedAt": "2020-08-30"
             },
             {
-              "id": "L976-danny-mac-3d",
-              "line": 976,
+              "id": "L977-danny-mac-3d",
+              "line": 977,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24228,8 +24280,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L977-jayanam",
-              "line": 977,
+              "id": "L978-jayanam",
+              "line": 978,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24267,8 +24319,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L978-cdric-lepiller",
-              "line": 978,
+              "id": "L979-cdric-lepiller",
+              "line": 979,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24306,8 +24358,8 @@
               "addedAt": "2020-08-30"
             },
             {
-              "id": "L979-cg-masters",
-              "line": 979,
+              "id": "L980-cg-masters",
+              "line": 980,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24345,8 +24397,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L980-derekelliott",
-              "line": 980,
+              "id": "L981-derekelliott",
+              "line": 981,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24384,8 +24436,8 @@
               "addedAt": "2022-11-11"
             },
             {
-              "id": "L981-imphenzia",
-              "line": 981,
+              "id": "L982-imphenzia",
+              "line": 982,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24423,8 +24475,8 @@
               "addedAt": "2020-03-15"
             },
             {
-              "id": "L982-kevandram",
-              "line": 982,
+              "id": "L983-kevandram",
+              "line": 983,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24462,8 +24514,8 @@
               "addedAt": "2022-02-13"
             },
             {
-              "id": "L984-erindale",
-              "line": 984,
+              "id": "L985-erindale",
+              "line": 985,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24501,8 +24553,8 @@
               "addedAt": "2021-04-26"
             },
             {
-              "id": "L985-cartesian-caramel",
-              "line": 985,
+              "id": "L986-cartesian-caramel",
+              "line": 986,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24540,8 +24592,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L986-joey-carlino",
-              "line": 986,
+              "id": "L987-joey-carlino",
+              "line": 987,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24579,8 +24631,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L987-default-cube",
-              "line": 987,
+              "id": "L988-default-cube",
+              "line": 988,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24618,8 +24670,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L988-ducky-3d",
-              "line": 988,
+              "id": "L989-ducky-3d",
+              "line": 989,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24657,8 +24709,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L989-bad-normals",
-              "line": 989,
+              "id": "L990-bad-normals",
+              "line": 990,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24696,8 +24748,8 @@
               "addedAt": "2022-02-13"
             },
             {
-              "id": "L990-sharpwind",
-              "line": 990,
+              "id": "L991-sharpwind",
+              "line": 991,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24735,8 +24787,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L991-curtis-holt",
-              "line": 991,
+              "id": "L992-curtis-holt",
+              "line": 992,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24774,8 +24826,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L992-chris-p",
-              "line": 992,
+              "id": "L993-chris-p",
+              "line": 993,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24813,8 +24865,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L993-cg-python",
-              "line": 993,
+              "id": "L994-cg-python",
+              "line": 994,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24852,8 +24904,8 @@
               "addedAt": "2023-05-09"
             },
             {
-              "id": "L994-brady-johnston",
-              "line": 994,
+              "id": "L995-brady-johnston",
+              "line": 995,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24891,8 +24943,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L995-midge-sinnaeve",
-              "line": 995,
+              "id": "L996-midge-sinnaeve",
+              "line": 996,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24930,8 +24982,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L997-cgdive",
-              "line": 997,
+              "id": "L998-cgdive",
+              "line": 998,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -24969,8 +25021,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L998-the-blenderender",
-              "line": 998,
+              "id": "L999-the-blenderender",
+              "line": 999,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -25008,8 +25060,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L999-polyfjord",
-              "line": 999,
+              "id": "L1000-polyfjord",
+              "line": 1000,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -25047,8 +25099,8 @@
               "addedAt": "2020-08-30"
             },
             {
-              "id": "L1000-dillongoo",
-              "line": 1000,
+              "id": "L1001-dillongoo",
+              "line": 1001,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -25086,8 +25138,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L1001-southernshotty",
-              "line": 1001,
+              "id": "L1002-southernshotty",
+              "line": 1002,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -25125,8 +25177,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L1002-cgmatter",
-              "line": 1002,
+              "id": "L1003-cgmatter",
+              "line": 1003,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -25164,8 +25216,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L1003-ianhubert",
-              "line": 1003,
+              "id": "L1004-ianhubert",
+              "line": 1004,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -25203,8 +25255,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L1004-max-hay",
-              "line": 1004,
+              "id": "L1005-max-hay",
+              "line": 1005,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -25242,8 +25294,8 @@
               "addedAt": "2026-11-01"
             },
             {
-              "id": "L1005-martin-klekner",
-              "line": 1005,
+              "id": "L1006-martin-klekner",
+              "line": 1006,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -25281,8 +25333,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L1006-peter-france",
-              "line": 1006,
+              "id": "L1007-peter-france",
+              "line": 1007,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -25320,8 +25372,8 @@
               "addedAt": "2020-08-30"
             },
             {
-              "id": "L1007-cbaileyfilm",
-              "line": 1007,
+              "id": "L1008-cbaileyfilm",
+              "line": 1008,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -25359,8 +25411,8 @@
               "addedAt": "2020-05-02"
             },
             {
-              "id": "L1008-royal-skies-llc",
-              "line": 1008,
+              "id": "L1009-royal-skies-llc",
+              "line": 1009,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/youtube-channels",
@@ -25403,7 +25455,7 @@
           "id": "social/blogs",
           "slug": "blogs",
           "sectionId": "social",
-          "line": 1012,
+          "line": 1013,
           "emoji": "💻",
           "title": {
             "en": "Blogs",
@@ -25414,8 +25466,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L1014-blender-developers-blog",
-              "line": 1014,
+              "id": "L1015-blender-developers-blog",
+              "line": 1015,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/blogs",
@@ -25448,8 +25500,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L1015-blender-studio-blog",
-              "line": 1015,
+              "id": "L1016-blender-studio-blog",
+              "line": 1016,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/blogs",
@@ -25482,8 +25534,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L1016-80-level-blender",
-              "line": 1016,
+              "id": "L1017-80-level-blender",
+              "line": 1017,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/blogs",
@@ -25516,8 +25568,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L1017-creative-shrimp",
-              "line": 1017,
+              "id": "L1018-creative-shrimp",
+              "line": 1018,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/blogs",
@@ -25550,8 +25602,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L1018-interplanety",
-              "line": 1018,
+              "id": "L1019-interplanety",
+              "line": 1019,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/blogs",
@@ -25584,8 +25636,8 @@
               "addedAt": "2020-03-27"
             },
             {
-              "id": "L1019-blender-3d-architect",
-              "line": 1019,
+              "id": "L1020-blender-3d-architect",
+              "line": 1020,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/blogs",
@@ -25618,8 +25670,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L1020-blenderaddonsorg",
-              "line": 1020,
+              "id": "L1021-blenderaddonsorg",
+              "line": 1021,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/blogs",
@@ -25657,7 +25709,7 @@
           "id": "social/challenges-events",
           "slug": "challenges-events",
           "sectionId": "social",
-          "line": 1024,
+          "line": 1025,
           "emoji": "🏆",
           "title": {
             "en": "Challenges & Events",
@@ -25668,8 +25720,8 @@
           "subgroups": [],
           "entries": [
             {
-              "id": "L1026-blender-conference",
-              "line": 1026,
+              "id": "L1027-blender-conference",
+              "line": 1027,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -25741,8 +25793,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L1027-blender-artists-contests",
-              "line": 1027,
+              "id": "L1028-blender-artists-contests",
+              "line": 1028,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -25775,8 +25827,8 @@
               "addedAt": "2026-11-13"
             },
             {
-              "id": "L1028-cg-boost-challenges",
-              "line": 1028,
+              "id": "L1029-cg-boost-challenges",
+              "line": 1029,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -25809,8 +25861,8 @@
               "addedAt": "2026-11-13"
             },
             {
-              "id": "L1029-pwnisher",
-              "line": 1029,
+              "id": "L1030-pwnisher",
+              "line": 1030,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -25845,8 +25897,8 @@
               "addedAt": "2022-04-29"
             },
             {
-              "id": "L1030-render-challenge",
-              "line": 1030,
+              "id": "L1031-render-challenge",
+              "line": 1031,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -25879,8 +25931,8 @@
               "addedAt": "2022-02-13"
             },
             {
-              "id": "L1031-the-rookies-contests",
-              "line": 1031,
+              "id": "L1032-the-rookies-contests",
+              "line": 1032,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -25913,8 +25965,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L1032-artstation-challenges",
-              "line": 1032,
+              "id": "L1033-artstation-challenges",
+              "line": 1033,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -25947,8 +25999,8 @@
               "addedAt": "2026-11-18"
             },
             {
-              "id": "L1033-nodevember",
-              "line": 1033,
+              "id": "L1034-nodevember",
+              "line": 1034,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",
@@ -25981,8 +26033,8 @@
               "addedAt": "2020-01-20"
             },
             {
-              "id": "L1034-sculptjanuary",
-              "line": 1034,
+              "id": "L1035-sculptjanuary",
+              "line": 1035,
               "kind": "item",
               "sectionId": "social",
               "categoryId": "social/challenges-events",

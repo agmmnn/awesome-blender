@@ -6,7 +6,15 @@
     <atom:link href="https://awesome-blender.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>Latest curated Blender add-ons, AI &amp; MCP tools, 3D assets, standalone software, tutorials, and community links.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <item>
+      <title>OGC 3D Tiles Streaming</title>
+      <link>https://blender-3dtiles.iconem.com/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#ogc-3d-tiles-streaming</guid>
+      <category>Add-ons / Pipeline, I/O &amp; 3D Scanning</category>
+      <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Streams OGC 3D Tiles into Blender with level of detail, for the viewport and renders: Google Photorealistic 3D Tiles, Cesium ion, photogrammetry meshes, point clouds and Gaussian splats. — https://blender-3dtiles.iconem.com/</description>
+    </item>
     <item>
       <title>OpenSKP Import/Export</title>
       <link>https://extensions.blender.org/add-ons/openskp-import-export/</link>
@@ -398,14 +406,6 @@
       <category>Resources / Blender Scenes/Files</category>
       <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
       <description>Free studio-grade character rigs for Blender animation study (free account required). — https://agora.community/assets</description>
-    </item>
-    <item>
-      <title>P2Design Academy</title>
-      <link>https://www.p2design-academy.com/</link>
-      <guid isPermaLink="true">https://awesome-blender.vercel.app/#p2design-academy</guid>
-      <category>Resources / Blender Scenes/Files</category>
-      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
-      <description>Free Blender character and body-mechanics practice rigs created by Pierrick Picaut (free account required). — https://www.p2design-academy.com/</description>
     </item>
   </channel>
 </rss>

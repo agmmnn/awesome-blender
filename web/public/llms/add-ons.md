@@ -1,6 +1,6 @@
 # Add-ons
 
-> 151 curated entries across 10 categories. Index: https://awesome-blender.vercel.app/llms.txt
+> 152 curated entries across 10 categories. Index: https://awesome-blender.vercel.app/llms.txt
 
 - [Blender Extensions Platform](https://extensions.blender.org/)
 - [Built-in Add-ons Docs](https://docs.blender.org/manual/en/latest/addons/index.html)
@@ -232,6 +232,7 @@
 - [BlenderGIS](https://github.com/domlysz/BlenderGIS): Bridges Blender with geographic data (shapefiles, DEM elevation, satellite imagery, and OpenStreetMap). `[open-source]`
 - [Maps Models Importer](https://github.com/eliemichel/MapsModelsImporter): Imports 3D city captures from Google Maps into Blender. [[more info]](https://blog.exppad.com/article/importing-actual-3d-models-from-google-maps) `[open-source]`
 - [blender-osm](https://gumroad.com/l/blender-osm): One-click download and import of OpenStreetMap buildings and terrain for Blender.
+- [OGC 3D Tiles Streaming](https://blender-3dtiles.iconem.com/): Streams OGC 3D Tiles into Blender with level of detail, for the viewport and renders: Google Photorealistic 3D Tiles, Cesium ion, photogrammetry meshes, point clouds and Gaussian splats. `[MIT]` ([Repository](https://github.com/Iconem/blender_ogc3dtiles))
 
 ### Web, XR & Collaboration
 

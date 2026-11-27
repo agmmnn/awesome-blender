@@ -95,11 +95,11 @@
 
 ### [✨ 最近新增](RECENT.md)
 
+- **[OGC 3D Tiles Streaming](https://blender-3dtiles.iconem.com/)** [`管线、导入导出与 3D 扫描`](#-管线导入导出与-3d-扫描) — Streams OGC 3D… _(11月27日)_
 - **[OpenSKP Import/Export](https://extensions.blender.org/add-ons/openskp-import-export/)** [`管线、导入导出与 3D 扫描`](#-管线导入导出与-3d-扫描) — Imports and… _(11月26日)_
 - **[AnyMachine](https://github.com/apekshik/anymachine)** [`MCP、智能体与技能`](#-mcp智能体与技能) — 基于智能体的 Blender… _(11月22日)_
 - **[anymove](https://github.com/patch-gg/anymove)** [`生成式 3D 与 ComfyUI`](#-%E7%94%9F%E6%88%90%E5%BC%8F-3d-%E4%B8%8E-comfyui) — 面向任意绑定生物（支持翅膀、尾巴与多足… _(11月19日)_
 - **[trompe](https://github.com/patch-gg/trompe)** [`生成式 3D 与 ComfyUI`](#-%E7%94%9F%E6%88%90%E5%BC%8F-3d-%E4%B8%8E-comfyui) — 为带 UV 的灰模 .glb… _(11月19日)_
-- **[Potemkin 3D](https://github.com/wrong-nebula/potemkin3D)** [`生成式 3D 与 ComfyUI`](#-%E7%94%9F%E6%88%90%E5%BC%8F-3d-%E4%B8%8E-comfyui) — 基于 trompe 的增强扩展，新增… _(11月19日)_
 
 <!-- RECENT:END -->
 
@@ -315,6 +315,7 @@
     - [BlenderGIS](https://github.com/domlysz/BlenderGIS)：在 Blender 与地理空间数据（Shapefile、DEM 高程图、卫星影像与 OpenStreetMap）之间架起桥梁。
     - [Maps Models Importer](https://github.com/eliemichel/MapsModelsImporter)：从 Google Maps 导入 3D 城市网格模型至 Blender。[更多信息](https://blog.exppad.com/article/importing-actual-3d-models-from-google-maps)
     - [blender-osm](https://gumroad.com/l/blender-osm)：一键下载并导入 OpenStreetMap 建筑与地形数据。
+    - [OGC 3D Tiles Streaming](https://blender-3dtiles.iconem.com/) : Streams OGC 3D Tiles into Blender with level of detail, for the viewport and renders: Google Photorealistic 3D Tiles, Cesium ion, photogrammetry meshes, point clouds and Gaussian splats. [![][repo]](https://github.com/Iconem/blender_ogc3dtiles) ![][mit]
 - Web、XR 与实时协作：
     - [Needle Engine](https://engine.needle.tools/docs/blender/)：直接在 Blender 中创建高交互性、轻量的 Three.js / WebXR 网页应用。
     - [Verge3D](https://www.soft8soft.com/get-verge3d/)：将 Blender 场景转化为交互式 3D Web 体验与产品配置器的工具套件。

@@ -1,18 +1,18 @@
 # Awesome Blender
 
-> Curated bilingual (EN/ZH) directory of 592 Blender add-ons, AI & MCP tools, 3D assets, HDRIs, standalone utilities, tutorials, and community resources — 561 free entries, 202 GitHub repositories, and 53 official Blender Extensions.
+> Curated bilingual (EN/ZH) directory of 593 Blender add-ons, AI & MCP tools, 3D assets, HDRIs, standalone utilities, tutorials, and community resources — 562 free entries, 203 GitHub repositories, and 53 official Blender Extensions.
 
 Use the section Markdown indexes or JSON catalog below to retrieve verified URLs, licenses, and descriptions without hallucinating links. The web directory at `https://awesome-blender.vercel.app/` supports query filters: `?section=`, `?category=`, `?subgroup=`, `?q=`, `?price=free|paid`, `?platform=extensions|github|open-source|superhive|gumroad`, and `?license=gpl|mit|zero|cc`.
 
 ## Machine-Readable Catalog
 
-- [Full Catalog (Markdown)](https://awesome-blender.vercel.app/llms-full.txt): Complete plain-Markdown dump of all 6 sections, 44 categories, and 592 entries.
+- [Full Catalog (Markdown)](https://awesome-blender.vercel.app/llms-full.txt): Complete plain-Markdown dump of all 6 sections, 44 categories, and 593 entries.
 - [Structured Catalog (JSON)](https://awesome-blender.vercel.app/catalog.json): Lossless bilingual EN/ZH catalog JSON (aggregate `stats` plus structured `sections -> categories -> entries`).
 - [Interactive Web Directory](https://awesome-blender.vercel.app/): Searchable directory of downloadable add-ons, AI/MCP tools, 3D assets, and standalone apps.
 
 ## Sections
 
-- [Add-ons](https://awesome-blender.vercel.app/llms/add-ons.md): 151 entries across 10 categories (Modeling, Generator/Builder, Texture/UV, Lighting, Camera & Video, Render Engine (+5 more)).
+- [Add-ons](https://awesome-blender.vercel.app/llms/add-ons.md): 152 entries across 10 categories (Modeling, Generator/Builder, Texture/UV, Lighting, Camera & Video, Render Engine (+5 more)).
 - [AI & MCP](https://awesome-blender.vercel.app/llms/ai-mcp.md): 43 entries across 3 categories (MCP, Agents & Skills, Generative 3D & ComfyUI, Synthetic Data & Benchmarks).
 - [Resources](https://awesome-blender.vercel.app/llms/resources.md): 130 entries across 8 categories (3D Models, Mocap/Animation, Textures, Blender Scenes/Files, HDRIs (+3 more)).
 - [Standalone](https://awesome-blender.vercel.app/llms/standalone.md): 76 entries across 6 categories (3D Tools, Various Tools, Photogrammetry, Texture/Material, Terrain, GIS & LiDAR (+1 more)).
@@ -29,7 +29,7 @@ Use the section Markdown indexes or JSON catalog below to retrieve verified URLs
 - [Add-ons / Animation](https://awesome-blender.vercel.app/?section=add-ons&category=animation): 13 downloadable items.
 - [Add-ons / Simulation/Physics](https://awesome-blender.vercel.app/?section=add-ons&category=simulation-physics): 7 downloadable items.
 - [Add-ons / GameDev](https://awesome-blender.vercel.app/?section=add-ons&category=gamedev): 10 downloadable items.
-- [Add-ons / Pipeline, I/O & 3D Scanning](https://awesome-blender.vercel.app/?section=add-ons&category=pipeline-i-o-3d-scanning): 20 downloadable items.
+- [Add-ons / Pipeline, I/O & 3D Scanning](https://awesome-blender.vercel.app/?section=add-ons&category=pipeline-i-o-3d-scanning): 21 downloadable items.
 - [Add-ons / Workflow, UI & Utilities](https://awesome-blender.vercel.app/?section=add-ons&category=workflow-ui-utilities): 11 downloadable items.
 - [AI & MCP / MCP, Agents & Skills](https://awesome-blender.vercel.app/?section=ai-mcp&category=mcp-agents-skills): 15 downloadable items.
 - [AI & MCP / Generative 3D & ComfyUI](https://awesome-blender.vercel.app/?section=ai-mcp&category=generative-3d-comfyui): 19 downloadable items.
