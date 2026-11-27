@@ -315,6 +315,7 @@
     - [BlenderGIS](https://github.com/domlysz/BlenderGIS) : Bridges Blender with geographic data (shapefiles, DEM elevation, satellite imagery, and OpenStreetMap).
     - [Maps Models Importer](https://github.com/eliemichel/MapsModelsImporter) : Imports 3D city captures from Google Maps into Blender. [[more info]](https://blog.exppad.com/article/importing-actual-3d-models-from-google-maps)
     - [blender-osm](https://gumroad.com/l/blender-osm) : One-click download and import of OpenStreetMap buildings and terrain for Blender.
+    - [OGC 3D Tiles Streaming](https://blender-3dtiles.iconem.com/) : Streams OGC 3D Tiles into Blender with level of detail, for the viewport and renders: Google Photorealistic 3D Tiles, Cesium ion, photogrammetry meshes, point clouds and Gaussian splats. [![][repo]](https://github.com/Iconem/blender_ogc3dtiles) ![][mit]
 - Web, XR & Collaboration:
     - [Needle Engine](https://engine.needle.tools/docs/blender/) : Creates interactive, lightweight Three.js / WebXR web applications directly inside Blender.
     - [Verge3D](https://www.soft8soft.com/get-verge3d/) : Toolkit for creating interactive 3D web experiences and product configurators from Blender scenes.
