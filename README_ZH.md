@@ -95,11 +95,11 @@
 
 ### [✨ 最近新增](RECENT.md)
 
+- **[PseudoRenderingFarm](https://extensions.blender.org/add-ons/pseudo-rendering-farm/)** [`渲染引擎`](#-渲染引擎) — Blender add-on… _(11月28日)_
 - **[OGC 3D Tiles Streaming](https://blender-3dtiles.iconem.com/)** [`管线、导入导出与 3D 扫描`](#-管线导入导出与-3d-扫描) — Streams OGC 3D… _(11月27日)_
 - **[OpenSKP Import/Export](https://extensions.blender.org/add-ons/openskp-import-export/)** [`管线、导入导出与 3D 扫描`](#-管线导入导出与-3d-扫描) — Imports and… _(11月26日)_
 - **[AnyMachine](https://github.com/apekshik/anymachine)** [`MCP、智能体与技能`](#-mcp智能体与技能) — 基于智能体的 Blender… _(11月22日)_
 - **[anymove](https://github.com/patch-gg/anymove)** [`生成式 3D 与 ComfyUI`](#-%E7%94%9F%E6%88%90%E5%BC%8F-3d-%E4%B8%8E-comfyui) — 面向任意绑定生物（支持翅膀、尾巴与多足… _(11月19日)_
-- **[trompe](https://github.com/patch-gg/trompe)** [`生成式 3D 与 ComfyUI`](#-%E7%94%9F%E6%88%90%E5%BC%8F-3d-%E4%B8%8E-comfyui) — 为带 UV 的灰模 .glb… _(11月19日)_
 
 <!-- RECENT:END -->
 
@@ -240,6 +240,7 @@
 - [Malt](https://malt3d.com/)：Malt是一个非真实感渲染(NPR)框架。它为动画和插图提供了完全可定制的实时渲染框架。 [![][repo]](https://github.com/bnpr/Malt) ![][mit]
 - [Mitsuba Renderer](https://www.mitsuba-renderer.org/)：Mitsuba 3是一个面向研究的可重定向渲染系统，用于前向和反向光传输模拟。[![][repo]](https://github.com/mitsuba-renderer/mitsuba3) [(Blender插件)](https://github.com/mitsuba-renderer/mitsuba-blender)
 - [K-Cycles](https://superhivemarket.com/products/k-cycles) 💰：面向 Cycles 的优化定制版 Blender 构建，提供更快的 GPU 渲染、后期处理效果和性能预设。
+- [PseudoRenderingFarm](https://extensions.blender.org/add-ons/pseudo-rendering-farm/): Blender add-on that renders EEVEE animations 1.3–2.4× faster on one PC by running several render instances in parallel, raising GPU utilisation. Multi-GPU via Vulkan. [![][repo]](https://github.com/MKlimenko/PseudoRenderingFarm) ![][gpl]
 
 <p align="right"><sub><a href="#table">↑ 返回顶部</a></sub></p>
 

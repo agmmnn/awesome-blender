@@ -1,6 +1,6 @@
 # Add-ons
 
-> 152 curated entries across 10 categories. Index: https://awesome-blender.vercel.app/llms.txt
+> 153 curated entries across 10 categories. Index: https://awesome-blender.vercel.app/llms.txt
 
 - [Blender Extensions Platform](https://extensions.blender.org/)
 - [Built-in Add-ons Docs](https://docs.blender.org/manual/en/latest/addons/index.html)
@@ -155,6 +155,7 @@
 - [Malt](https://malt3d.com/): Malt is a non photorealistic rendering (NPR) framework. It offers fully customizable real-time rendering framework for animation and illustration. `[MIT]` ([Repository](https://github.com/bnpr/Malt))
 - [Mitsuba Renderer](https://www.mitsuba-renderer.org/): Mitsuba 3 is a research-oriented retargetable rendering system for forward and inverse light transport simulation. [(blender addon)](https://github.com/mitsuba-renderer/mitsuba-blender) `[open-source]` ([(blender addon)](https://github.com/mitsuba-renderer/mitsuba-blender), [Repository](https://github.com/mitsuba-renderer/mitsuba3))
 - [K-Cycles](https://superhivemarket.com/products/k-cycles): Optimized custom Cycles build of Blender featuring faster GPU rendering, post-processing effects, and performance presets. `[paid]`
+- [PseudoRenderingFarm](https://extensions.blender.org/add-ons/pseudo-rendering-farm/): Blender add-on that renders EEVEE animations 1.3–2.4× faster on one PC by running several render instances in parallel, raising GPU utilisation. Multi-GPU via Vulkan. `[GPL · ext:pseudo-rendering-farm]` ([Repository](https://github.com/MKlimenko/PseudoRenderingFarm))
 
 ## Animation
 

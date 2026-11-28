@@ -2,6 +2,10 @@
 
 > Latest 100 curated additions to [Awesome Blender](README.md) (auto-generated, capped at 100 entries). Browse interactively at [Web Directory](https://awesome-blender.vercel.app/?sort=added) · [RSS Feed](https://awesome-blender.vercel.app/feed.xml)
 
+## 2026-11-28 · 1 new
+
+- **[PseudoRenderingFarm](https://extensions.blender.org/add-ons/pseudo-rendering-farm/)** ([`🧩 Add-ons · Render Engine`](README.md#-render-engine)) — Blender add-on that renders EEVEE animations 1.3–2.4× faster on one PC by running several render instances in parallel, raising GPU utilisation. Multi-GPU via Vulkan. · [Details](https://awesome-blender.vercel.app/#pseudorenderingfarm)
+
 ## 2026-11-27 · 1 new
 
 - **[OGC 3D Tiles Streaming](https://blender-3dtiles.iconem.com/)** ([`🧩 Add-ons · Pipeline, I/O & 3D Scanning`](README.md#-pipeline-io--3d-scanning)) — Streams OGC 3D Tiles into Blender with level of detail, for the viewport and renders: Google Photorealistic 3D Tiles, Cesium ion, photogrammetry meshes, point clouds and Gaussian splats. · [Details](https://awesome-blender.vercel.app/#ogc-3d-tiles-streaming)
@@ -21,7 +25,7 @@
 - **[Potemkin 3D](https://github.com/wrong-nebula/potemkin3D)** ([`🤖 AI & MCP · Generative 3D & ComfyUI`](README.md#-generative-3d--comfyui)) — Extends trompe with automatic xatlas UV unwrapping, SAM/MoGe seam and geometry checks, surface relief, KTX2 GLB export, an MCP server, and Blender dcc-sync. · [Details](https://awesome-blender.vercel.app/#potemkin-3d)
 - **[Patch Toolbox](https://patch.gg/create/toolbox/assets)** ([`📦 Resources · 3D Models`](README.md#-3d-models)) — Searchable library of 50,000+ free, open-source game-ready 3D models, textures, and rigged characters accessible via web, CLI, and MCP. · [Details](https://awesome-blender.vercel.app/#patch-toolbox)
 
-## 2026-11-18 · 93 new
+## 2026-11-18 · 92 new
 
 - **[LoopTools](https://extensions.blender.org/add-ons/looptools/)** ([`🧩 Add-ons · Modeling`](README.md#-modeling)) — Essential Edit Mode mesh utilities including bridge, loft, circle, flatten, relax, and space tools. · [Details](https://awesome-blender.vercel.app/#looptools)
 - **[F2](https://extensions.blender.org/add-ons/f2/)** ([`🧩 Add-ons · Modeling`](README.md#-modeling)) — Extends single-vertex and edge face creation in Edit Mode for faster quad retopology and modeling. · [Details](https://awesome-blender.vercel.app/#f2)
@@ -115,4 +119,3 @@
 - **[Blender Compositing Tutorials by Ryan King Art](https://www.youtube.com/playlist?list=PLQOoUHvRRAN8)** ([`🎓 Tutorials · Compositing`](README.md#-compositing)) · [Details](https://awesome-blender.vercel.app/#blender-compositing-tutorials-by-ryan-king-art)
 - **[New Compositor and Effects Tab in Blender 5.3! by Ryan King Art](https://www.youtube.com/watch?v=wprKPpSoz8s)** ([`🎓 Tutorials · Compositing`](README.md#-compositing)) · [Details](https://awesome-blender.vercel.app/#new-compositor-and-effects-tab-in-blender-53-by-)
 - **[Start COMPOSITING in Blender 5.0 in 16 Minutes by Pau the Hueman](https://www.youtube.com/watch?v=kAWfjBKcgFc)** ([`🎓 Tutorials · Compositing`](README.md#-compositing)) · [Details](https://awesome-blender.vercel.app/#start-compositing-in-blender-50-in-16-minutes-by)
-- **[Compositing for Complete Beginners in Blender by Kaizen](https://www.youtube.com/watch?v=PYTXvo29AsY)** ([`🎓 Tutorials · Compositing`](README.md#-compositing)) · [Details](https://awesome-blender.vercel.app/#compositing-for-complete-beginners-in-blender-by)

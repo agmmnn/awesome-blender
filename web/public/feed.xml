@@ -6,7 +6,15 @@
     <atom:link href="https://awesome-blender.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>Latest curated Blender add-ons, AI &amp; MCP tools, 3D assets, standalone software, tutorials, and community links.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <item>
+      <title>PseudoRenderingFarm</title>
+      <link>https://extensions.blender.org/add-ons/pseudo-rendering-farm/</link>
+      <guid isPermaLink="true">https://awesome-blender.vercel.app/#pseudorenderingfarm</guid>
+      <category>Add-ons / Render Engine</category>
+      <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Blender add-on that renders EEVEE animations 1.3–2.4× faster on one PC by running several render instances in parallel, raising GPU utilisation. Multi-GPU via Vulkan. — https://extensions.blender.org/add-ons/pseudo-rendering-farm/</description>
+    </item>
     <item>
       <title>OGC 3D Tiles Streaming</title>
       <link>https://blender-3dtiles.iconem.com/</link>
@@ -398,14 +406,6 @@
       <category>Resources / Blender Scenes/Files</category>
       <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
       <description>Production OpenUSD Motunui Island dataset released by Walt Disney Animation Studios for large-scale instancing and lighting tests. — https://www.disneyanimation.com/resources/moana-island-scene/</description>
-    </item>
-    <item>
-      <title>Agora Community Assets</title>
-      <link>https://agora.community/assets</link>
-      <guid isPermaLink="true">https://awesome-blender.vercel.app/#agora-community-assets</guid>
-      <category>Resources / Blender Scenes/Files</category>
-      <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
-      <description>Free studio-grade character rigs for Blender animation study (free account required). — https://agora.community/assets</description>
     </item>
   </channel>
 </rss>
